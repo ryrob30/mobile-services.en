@@ -76,12 +76,13 @@ Reset your password in one of the following ways:
 
 
 * **Adobe Experience Cloud** If you use your Adobe ID: 
-  1. Click **[!UICONTROL  Sign in with Adobe ID]** and click the **[!UICONTROL  Forgot password?]** link.
-  1. Type the email account that is associated with your Adobe ID and click **[!UICONTROL  Send]**.
-  1. Follow the instructions to reset your password in the email you receive.
+
+1. Click **[!UICONTROL  Sign in with Adobe ID]** and click the **[!UICONTROL  Forgot password?]** link.
+1. Type the email account that is associated with your Adobe ID and click **[!UICONTROL  Send]**.
+1. Follow the instructions to reset your password in the email you receive.
 
 
 * **Adobe Analytics** If you use your company, username, and password: 
-  1. Click the **[!UICONTROL  Forget Password?]** link.
-  1. Type your company name, your username, and click **[!UICONTROL  Continue]**.
-  1. Follow the instructions in the email that you receive.
+1. Click the **[!UICONTROL  Forget Password?]** link.
+1. Type your company name, your username, and click **[!UICONTROL  Continue]**.
+1. Follow the instructions in the email that you receive.
