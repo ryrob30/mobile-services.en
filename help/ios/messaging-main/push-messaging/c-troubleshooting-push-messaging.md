@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Troubleshooting Push Messaging{#troubleshooting-push-messaging}
+# Troubleshooting Push Messaging {#troubleshooting-push-messaging}
 
 This information helps you troubleshoot push messaging.
 
@@ -34,9 +34,9 @@ The following types of delays might be associated with push messages for Mobile 
     >
     >The push services do not guarantee a message will be sent. For more information about the reliability of services, see the appropriate documentation:
     >
-    >*   **APNS:** [Quality of Service](https://developer.apple.com/documentation/usernotifications)
+    >* **APNS:** [Quality of Service](https://developer.apple.com/documentation/usernotifications)
     >
-    >*   **GCM:** [Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options)
+    >* **GCM:** [Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options)
 
 **How do I renew my Apple Push Service Certificate?**
 
