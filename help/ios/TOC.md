@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services iOS Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services iOS Guide {#ios}
 
 + [Release Notes](rel-notes.md)
 + [iOS SDK 4.x for Experience Cloud Solutions](overview.md)

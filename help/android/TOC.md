@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services Android Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services Android Guide {#android}
 
 + [Release Notes](rel-notes.md)
 + [Android SDK 4.x for Experience Cloud Solutions](overview.md)
