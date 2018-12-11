@@ -84,11 +84,11 @@ analytics.xml
 
 >Processing rules are used to copy the data you send in context data variables to evars, props, and other variables for reporting. 
 >
->[Processing Rules Training](http://tv.adobe.com/embed/1181/16506/) @ Summit 2013 
+>[Processing Rules Training](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013 
 >
->[Processing Rules Help](http://microsite.omniture.com/t2/help/en_US/reference/?f=processing_rules) 
+>[Processing Rules Help](https://microsite.omniture.com/t2/help/en_US/reference/?f=processing_rules) 
 >
->[Become authorized to use Processing Rules](http://microsite.omniture.com/t2/help/en_US/reference/index.html#kb-processing-rules-authorization) 
+>[Become authorized to use Processing Rules](https://microsite.omniture.com/t2/help/en_US/reference/index.html#kb-processing-rules-authorization) 
 >
 >We recommend grouping your context data variables using "namespaces", as it helps you keep logical ordering. For example, if you want to collect info about a product, you might define the following variables: 
 >

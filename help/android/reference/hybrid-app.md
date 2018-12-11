@@ -35,7 +35,7 @@ To use the same visitor ID in the app and mobile web:
 1. To append visitor information to the URL that is being used to open the web view, call `visitorAppendToURL`:
 
    ```java
-   String urlString = "http://www.mydomain.com/index.php"; 
+   String urlString = "https://www.mydomain.com/index.php"; 
    String urlStringWithVisitorData = Visitor.appendToURL(urlString); 
    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(urlStringWithVisitorData)); 
    startActivity(browserIntent);
@@ -44,7 +44,7 @@ To use the same visitor ID in the app and mobile web:
    Alternatively, starting with SDK version 4.16.0, you can call `Visitor.getUrlVariablesAsync` and generate your own URL:
 
    ```java
-   final String urlString = "http://www.mydomain.com/index.php"; 
+   final String urlString = "https://www.mydomain.com/index.php"; 
    Visitor.getUrlVariablesAsync(new Visitor.VisitorCallback(){ 
        @Override 
        public void call(String urlVariables) { 

@@ -39,7 +39,7 @@ You can create a new link destination that directs users to a web or a deep link
    <td colname="col2"> <p>Select the desired link type: </p> 
     <ul id="ul_E687DAAE2C6D4F9A8D3499008A0627F1"> 
      <li id="li_6CB41C80F286436D9B0370F80C16DFF5"> <p><b>App Deep Link</b> </p> <p>Provide a URI schema deep link (for example, <span class="filepath"> yourapp://section</span>). </p> <p>App deep link destinations are URI schema deep links that direct users to a deep link in your app. For example, you can direct users to a specific product line in an online retailer's mobile app. </p> </li> 
-     <li id="li_68B1F7694D7F4058B03F54833544D44D"> <p><b>Web Link</b> </p> <p>Type a web HTTP or HTTPS URL (example <span class="filepath"> http://adobe.com</span>). </p> <p>Web link destinations direct users to a URL. For example, you can direct users to a product line on an online retailer's website. </p> </li> 
+     <li id="li_68B1F7694D7F4058B03F54833544D44D"> <p><b>Web Link</b> </p> <p>Type a web HTTP or HTTPS URL (example <span class="filepath"> https://adobe.com</span>). </p> <p>Web link destinations direct users to a URL. For example, you can direct users to a product line on an online retailer's website. </p> </li> 
      <li id="li_79ABB14E682F48948A10E81848490C3B"> <p><b>Hybrid Link</b> </p> <p>Type an iOS Universal Link or an Android App Link (for example, <span class="filepath"> https://yourwebsite.com</span>). Hybrid links support iOS Universal Links or Android App Links. </p> </li> 
     </ul> </td> 
   </tr> 

@@ -419,7 +419,7 @@ return&nbsp;Convert.ToSByte(true);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackAdobeDeepLink&amp;nbsp;(NSUrl&amp;nbsp;url); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      ADBMobile.TrackAdobeDeepLink(NSUrl.FromString("http://adobe.com")); 
+      ADBMobile.TrackAdobeDeepLink(NSUrl.FromString("https://adobe.com")); 
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -527,7 +527,7 @@ return&nbsp;Convert.ToSByte(true);
       public&amp;nbsp;static&amp;nbsp;NSUrl&amp;nbsp;VisitorAppendToURL(NSUrl&amp;nbsp;url); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      NSUrl&nbsp;myURL&nbsp;=&nbsp;NSUrl.FromString(“http://someurl.com”); 
+      NSUrl&nbsp;myURL&nbsp;=&nbsp;NSUrl.FromString(“https://someurl.com”); 
      
 NSUrl&nbsp;urlWithVisitorIDs&nbsp;=&nbsp;ADBMobile.VisitorAppendToURL(myURL);
 

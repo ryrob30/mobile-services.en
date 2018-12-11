@@ -26,11 +26,11 @@ If the mobile app is not yet in the App Store, when you create the campaign link
    For example:
 
    ```
-   http://c00.adobe.com/v3/<appid>/start?a_i_id=iostestapp&a_g_id=com.adobe.android&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=trackingcode
+   https://c00.adobe.com/v3/<appid>/start?a_i_id=iostestapp&a_g_id=com.adobe.android&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=trackingcode
    ```
 
    If you refer to both iOS and Android apps in the acquisition link, use the Apple Store as the default store. 
-1. Open the generated link in a desktop browser and go to [!DNL http://c00.adobe.com/v3/<appid>/end].
+1. Open the generated link in a desktop browser and go to [!DNL https://c00.adobe.com/v3/<appid>/end].
 
    You should see the `contextData` in the JSON response:
 
@@ -122,7 +122,7 @@ If the mobile app is not yet in the App Store, when you create the campaign link
 >
 >  >[!TIP]
 >  >
->  >Ensure that `http://c00.adobe.com/v3/<appid>/start` and `http://c00.adobe.com/v3/<appid>/end` have the same user-agent values. 
+>  >Ensure that `https://c00.adobe.com/v3/<appid>/start` and `https://c00.adobe.com/v3/<appid>/end` have the same user-agent values. 
 >
 >* The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. 
 >

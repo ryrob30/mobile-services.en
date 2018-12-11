@@ -16,7 +16,7 @@ snippet: y
 
 This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project.
 
-To create a PhoneGap project, see [PhoneGap Getting Started with Android](http://docs.phonegap.com/getting-started/).
+To create a PhoneGap project, see [PhoneGap Getting Started with Android](https://docs.phonegap.com/getting-started/).
 
 This section contains the following information:
 

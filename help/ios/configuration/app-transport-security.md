@@ -39,7 +39,7 @@ As an alternative, you can also choose to whitelist service the following server
   </tr> 
   <tr> 
    <td colname="col1"> Target </td> 
-   <td colname="col2"> <p>You can add your <span class="keyword"> Target</span> endpoint to your <span class="filepath"> Info.plist</span> file as an exception domain for ATS. </p> <p>To find your <span class="keyword"> Target</span> endpoint, find the <span class="filepath"> clientCodeproperty</span> in the target object of your <span class="filepath"> ADBMobileConfig.json</span> file. Your endpoint will be <span class="filepath"> http://{clientCode}.tt.omtrdc.net</span>. </p> <p>For example, if your <span class="filepath"> clientCodeproperty</span> is “myCompany”, your endpoint will be <span class="filepath"> http://myCompany.tt.omtrdc.net</span>. </p> </td> 
+   <td colname="col2"> <p>You can add your <span class="keyword"> Target</span> endpoint to your <span class="filepath"> Info.plist</span> file as an exception domain for ATS. </p> <p>To find your <span class="keyword"> Target</span> endpoint, find the <span class="filepath"> clientCodeproperty</span> in the target object of your <span class="filepath"> ADBMobileConfig.json</span> file. Your endpoint will be <span class="filepath"> https://{clientCode}.tt.omtrdc.net</span>. </p> <p>For example, if your <span class="filepath"> clientCodeproperty</span> is “myCompany”, your endpoint will be <span class="filepath"> https://myCompany.tt.omtrdc.net</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Experience Cloud ID service </td> 

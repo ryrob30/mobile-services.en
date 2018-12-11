@@ -117,7 +117,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 ## Update The ADBMobileConfig.json Config File {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
 
-The `ADBMobileConfig.json` file contains global SDK settings, and is located at your project root after you complete the *Add the Library and Config File to your Project* steps in the previous section. If your [!DNL ADBMobileConfig.json] file was not pre-configured by [Adobe mobile services](http://microsite.omniture.com/t2/help/en_US/mobile/?f=download_sdk), then you need to update a few values to get started.
+The `ADBMobileConfig.json` file contains global SDK settings, and is located at your project root after you complete the *Add the Library and Config File to your Project* steps in the previous section. If your [!DNL ADBMobileConfig.json] file was not pre-configured by [Adobe mobile services](https://microsite.omniture.com/t2/help/en_US/mobile/?f=download_sdk), then you need to update a few values to get started.
 
 The following is an example of an `ADBMobileConfig.json` file:
 

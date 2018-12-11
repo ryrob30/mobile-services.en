@@ -27,7 +27,7 @@ The following instructions help you roundtrip an acquisition campaign with a mar
    https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=57477650072932ec6d3a470f
    ```
 
-1. Open the generated link on the iOS device and open [!DNL http://c00.adobe.com/v3/<appid>/end].
+1. Open the generated link on the iOS device and open [!DNL https://c00.adobe.com/v3/<appid>/end].
 
    You should see the contextData in the JSON response:
 
@@ -136,7 +136,7 @@ The following instructions help you roundtrip an acquisition campaign with a mar
 >
 >* Variations in the user-agent sent might cause attribution to fail. 
 >
->  Ensure that [!DNL http://c00.adobe.com/v3/<appid>/start] and [!DNL http://c00.adobe.com/v3/<appid>/end] have the same user-agent values. 
+>  Ensure that [!DNL https://c00.adobe.com/v3/<appid>/start] and [!DNL https://c00.adobe.com/v3/<appid>/end] have the same user-agent values. 
 >
 >* The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. 
 >

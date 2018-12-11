@@ -32,7 +32,7 @@ This topic contains the following information:
         "messageId": "79ae37c9-89b9-465e-af7f-d3351771f1dc", 
         "template": "callback", 
         "payload": {  
-            "templateurl": "http://my.server.com/?user={user.name}&zip={user.zip}&c16={%sdkver%}&c27=cln,{a.PrevSessionLength}", 
+            "templateurl": "https://my.server.com/?user={user.name}&zip={user.zip}&c16={%sdkver%}&c27=cln,{a.PrevSessionLength}", 
             "templatebody": "c2RrdmVyPXslc2RrdmVyJX0mY2I9eyVjYWNoZWJ1c3QlfSZjbGllbnRJZD17bi5jbGllbnQuaWR9JnRzPXsldGltZXN0YW1wVSV9JnRzej17JXRpbWVzdGFtcFolfQ==", 
             "contenttype": "application/x-www-form-urlencoded",  
             "timeout": 4 
@@ -65,4 +65,4 @@ NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"};
 
 Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL will replace all template variables with values from the hit. Assuming that the user’s previous session was 132 seconds long, and that user is on iOS SDK version 4.6.0, the resulting URL would look like this:
 
-`http://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132` 
+`https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132` 

@@ -54,9 +54,9 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
 >[!IMPORTANT]
 >
->* If you are using SDKs **before** version 4.14.0, see [http://developers.adobetarget.com/api/#input-parameters](http://developers.adobetarget.com/api/#input-parameters) for parameters limitations. 
+>* If you are using SDKs **before** version 4.14.0, see [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations. 
 >
->* If you are using SDKs version 4.14.0 **or after**, see [http://developers.adobetarget.com/api/#batch-input-parameters](http://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
+>* If you are using SDKs version 4.14.0 **or after**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
 >
 
 <table id="table_AD066582C8E2478A8DC0A59B78ACB443"> 

@@ -196,7 +196,7 @@ The same config file can be used for your app across multiple platforms:
   <tr> 
    <td colname="col1"> server </td> 
    <td colname="col02"> 4.0 </td> 
-   <td colname="col2"> <p> <p>Important:  This variable is required by Analytics and/or Audience Management. </p> </p> <p>The Analytics or Audience Management server, based on the parent node. </p> <p> This variable should be populated with the server domain, without an <span class="filepath"> http:// </span> or <span class="filepath"> https:// </span> protocol prefix. This prefix is handled automatically by the library and is based on the <span class="codeph"> ssl </span> variable. </p> <p> If <span class="codeph"> ssl </span> is <span class="codeph"> true </span>, a secure connection is made to this server. If <span class="codeph"> ssl </span> is <span class="codeph"> false </span>, a non-secure connection is made to this server. </p> </td> 
+   <td colname="col2"> <p> <p>Important:  This variable is required by Analytics and/or Audience Management. </p> </p> <p>The Analytics or Audience Management server, based on the parent node. </p> <p> This variable should be populated with the server domain, without an <span class="filepath"> https:// </span> or <span class="filepath"> https:// </span> protocol prefix. This prefix is handled automatically by the library and is based on the <span class="codeph"> ssl </span> variable. </p> <p> If <span class="codeph"> ssl </span> is <span class="codeph"> true </span>, a secure connection is made to this server. If <span class="codeph"> ssl </span> is <span class="codeph"> false </span>, a non-secure connection is made to this server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ssl </td> 
@@ -277,7 +277,7 @@ Here is a sample `ADBMobileConfig.json` file:
             "messageId": "cb426565-a563-497a-a889-9dbeb451f8ae", 
             "template": "fullscreen", 
             "payload": { 
-                 "html": "<!DOCTYPE html><html><head><meta charset=\"utf-8\" /><title></title><style></style></head><body><iframe src=\"http://www.adobe.com/\" frameborder=\"0\"></iframe></body></html>" 
+                 "html": "<!DOCTYPE html><html><head><meta charset=\"utf-8\" /><title></title><style></style></head><body><iframe src=\"https://www.adobe.com/\" frameborder=\"0\"></iframe></body></html>" 
             }, 
             "showOffline": false, 
             "showRule": "always", 
