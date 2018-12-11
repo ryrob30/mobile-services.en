@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services Universal Windows Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services Universal Windows Guide {#universal-windows}
 
 + [Universal Windows Platform SDK 4.x for Experience Cloud Solutions](overview.md)
 + [Get started](c-getting-started/c-getting-started.md)

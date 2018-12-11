@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services User Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services User Guide {#using}
 
 + [Release Notes](whatsnew.md)
 + [Adobe Mobile Services](home.md)

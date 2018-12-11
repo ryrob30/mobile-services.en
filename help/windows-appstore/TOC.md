@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services Windows 8.1 Universal App Store SDK {#windows-universal-apstore}
 
 + [Windows 8.1 Universal App Store SDK 4.x for Experience Cloud Solutions](overview.md)
 + [Release notes](release-notes.md)

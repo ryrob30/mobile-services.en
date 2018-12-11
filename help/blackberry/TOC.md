@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services BlackBerry Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services BlackBerry Guide {#blackberry}
 
 + [BlackBerry 10 SDK 4.x for Experience Cloud Solutions](overview.md)
 + [Adobe Mobile class and method reference](methods.md)
