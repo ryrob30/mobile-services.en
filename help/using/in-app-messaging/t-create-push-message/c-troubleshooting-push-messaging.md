@@ -43,22 +43,12 @@ This information can help you troubleshoot push messaging.
       <li id="li_7EDBEFE26D5F4C8FBEC9C2224828D390">The API key that you provided is not a server key with the correct GCM API key value. </li> 
       <li id="li_E505A406614E4FAC91B77177A2CB9652">The server key has whitelisted the IPs and is blocking Adobe's servers from sending a push message. </li> 
      </ul> </p> <p><b>Determine the validity of the API key</b> </p> <p>To determine the validity of your API key, run the following command: </p> <p><b>Android</b> </p> 
-    <codeblock class="syntax java">
-     #&nbsp;api_key=YOUR_API_KEY
-
-#&nbsp;curl&nbsp;--header&nbsp;"Authorization:&nbsp;key=$api_key"&nbsp;\
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--header&nbsp;Content-Type:"application/json"&nbsp;\
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://gcm-http.googleapis.com/gcm/send&nbsp;\
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d&nbsp;"{\"registration_ids\":[\"ABC\"]}"
-    </codeblock> <p>A returned 401 HTTP status code means that your API key is invalid. Otherwise, you will see something similar to this: </p> 
-    <codeblock class="syntax java">
-     {"multicast_id":6782339717028231855,"success":0,"failure":1,
-     
-"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
-    </codeblock> <p>You can also check the validity of a registration token by replacing <span class="codeph"> "ABC"</span> with the token. </p> </td> 
+    <code class="syntax java">
+     #&nbsp;api_key=YOUR_API_KEY#&nbsp;curl&nbsp;--header&nbsp;"Authorization:&nbsp;key=$api_key"&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--header&nbsp;Content-Type:"application/json"&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://gcm-http.googleapis.com/gcm/send&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d&nbsp;"{\"registration_ids\":[\"ABC\"]}"
+    </code> <p>A returned 401 HTTP status code means that your API key is invalid. Otherwise, you will see something similar to this: </p> 
+    <code class="syntax java">
+     {"multicast_id":6782339717028231855,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+    </code> <p>You can also check the validity of a registration token by replacing <span class="codeph"> "ABC"</span> with the token. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is my APNS cert not working? </p> </td> 
@@ -89,4 +79,3 @@ This information can help you troubleshoot push messaging.
   </tr> 
  </tbody> 
 </table>
-
