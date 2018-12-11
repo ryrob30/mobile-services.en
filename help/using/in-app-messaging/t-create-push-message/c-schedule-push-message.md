@@ -16,8 +16,6 @@ snippet: y
 
 In the Adobe Mobile Services UI, you can schedule a push message to be delivered immediately, to be delivered later, and as a recurring event. These events can be scheduled on a daily, weekly, or monthly basis.
 
-<a id="section_DDB10EC27CD646AE96B4EB4EFE628085"></a>
-
 >[!TIP]
 >
 >Users can modify the scheduling settings for a push message job at any time. If there is no applicable date to send a recurring scheduled message, for example, a monthly recurring job every 31st day, on February 31st, or the 5th Tuesday of the month, no message is sent.
@@ -33,33 +31,30 @@ Remember the following information:
 
       For example, if you originally had a message that was sent every day, you can switch the recurrence to weekly.
 
-<a id="section_B7D45B80E84B49CEB81B2B8473EA3A25"></a>
+**Before you schedule recurring push messages...**
 
->[!IMPORTANT]
->
->You **must** understand the following information before scheduling recurring push messages: 
->
->* The options that are displayed in the **[!UICONTROL Repeat]** drop-down list depend on the date you typed or selected. 
->
->  For example, if you typed `Saturday, October 7`, the following options are displayed: 
->
->    * **[!UICONTROL Never]** 
->    * **[!UICONTROL Every day]** 
->    * **[!UICONTROL Every Saturday]** 
->    * **[!UICONTROL Day 7 of Every Month]** 
->    * **[!UICONTROL 1st Saturday of Every Month]** 
->
->* Push messages are scheduled and sent based on Greenwich Mean Time (GMT). 
->
->  For example, if you scheduled a recurring message to be sent every Saturday at 12:00 pm (noon) **PST**, starting on October 7, the message will actually be sent on Saturday at 7 pm **GMT**. 
->* Messages are sent differently depending on whether you are located in the U.S., Europe, or Asia. 
->
->  For example, if you are located in San Jose, California, and you schedule a message to be sent on ***October 31*** at 5:30 pm **PST**, the message is actually sent on ***November 1*** at 12:30 am **GMT**. If you are located in Tokyo, and you schedule a message to be sent on ***January 1*** at 5:30 am, it will be sent on ***December 31*** at 8:30 pm **GMT**. 
->* Push messages are sent an hour earlier or later depending on when day light savings occurs. 
->* When you look at your push messages report, the message is displayed in the local time zone of your system. 
->
->  For example, if your start time is 12:00 pm **PST**, although the message will be sent at 7pm **GMT**, the message report will display the time sent as 12:00 pm **PST**. 
->
+You **must** understand the following information before scheduling recurring push messages: 
+
+* The options that are displayed in the **[!UICONTROL Repeat]** drop-down list depend on the date you typed or selected. 
+
+  For example, if you typed `Saturday, October 7`, the following options are displayed: 
+
+  * **[!UICONTROL Never]** 
+  * **[!UICONTROL Every day]** 
+  * **[!UICONTROL Every Saturday]** 
+  * **[!UICONTROL Day 7 of Every Month]** 
+  * **[!UICONTROL 1st Saturday of Every Month]** 
+
+* Push messages are scheduled and sent based on Greenwich Mean Time (GMT). 
+
+  For example, if you scheduled a recurring message to be sent every Saturday at 12:00 pm (noon) **PST**, starting on October 7, the message will actually be sent on Saturday at 7 pm **GMT**. 
+* Messages are sent differently depending on whether you are located in the U.S., Europe, or Asia. 
+
+  For example, if you are located in San Jose, California, and you schedule a message to be sent on ***October 31*** at 5:30 pm **PST**, the message is actually sent on ***November 1*** at 12:30 am **GMT**. If you are located in Tokyo, and you schedule a message to be sent on ***January 1*** at 5:30 am, it will be sent on ***December 31*** at 8:30 pm **GMT**. 
+* Push messages are sent an hour earlier or later depending on when day light savings occurs. 
+* When you look at your push messages report, the message is displayed in the local time zone of your system. 
+
+  For example, if your start time is 12:00 pm **PST**, although the message will be sent at 7pm **GMT**, the message report will display the time sent as 12:00 pm **PST**. 
 
 ## Schedule a Recurring Push Message {#section_675BD754E5A04423A1751193698A978F}
 
@@ -78,9 +73,9 @@ Remember the following information:
     * **[!UICONTROL Never]** 
     * **[!UICONTROL Every day]** 
     * **[!UICONTROL Every Tuesday]** 
-    * **[!UICONTROL <Day x> of the month]** The displayed options change depending on the day you selected or typed as the start day. 
+    * **[!UICONTROL `<Day x>` of the month]** The displayed options change depending on the day you selected or typed as the start day. 
     
-    * **[!UICONTROL <nth day> of Every Month]** The displayed value changes depending on which date you selected or typed as the start date.
+    * **[!UICONTROL `<nth day>` of Every Month]** The displayed value changes depending on which date you selected or typed as the start date.
 
 1. In **[!UICONTROL End Repeat]**, type an end date and time. 
 1. Click one of the following options:
@@ -94,5 +89,4 @@ To push the draft message later, complete one of the following tasks:
 * Click **[!UICONTROL Manage Messages]**, select the check box next to the message, then click **[!UICONTROL Activate Selected]**. 
 * Click **[!UICONTROL Save & Send]** to save the message and send it.
 
-  If you selected [!DNL Now] in the previous step, the message is immediately pushed. If you selected a date and time to push the message, the message is pushed according to schedule.
-
+If you selected [!DNL Now] in the previous step, the message is immediately pushed. If you selected a date and time to push the message, the message is pushed according to schedule.

@@ -32,7 +32,7 @@ This information helps you troubleshoot push messaging.
      <li id="li_079F7EEACC474C25B65E3A1E111A5EEB"> <p><b>Waiting for Push Service</b> </p> <p>The push service (APNS or GCM) might not immediately send out the message. Although uncommon, we have seen a delay of 5-10 minutes. On the <span class="wintitle"> Messages</span> page, you can verify that the push message has been sent to the push service by clicking the <span class="uicontrol"> View</span> link for the message. In the report, the number of successful sends to the push service is listed in the <span class="uicontrol"> Published</span> column. </p> <p>Tip: The push services do not guarantee a message will be sent. For more information about the reliability of services, see the appropriate documentation: <p> 
         <ul id="ul_C9EF9BD024854EB6A48DF670244A0195"> 
          <li id="li_FA3EC8AE3F764B708C690E2CC7E7224C"> <p><b>APNS: </b><a href="https://developer.apple.com/documentation/usernotifications" format="https" scope="external"> Quality of Service</a> </p> </li> 
-         <li id="li_37425C4D61AF45BF8CA66F10EC63000D"> <p><b>GCM: </b><a href="https://developers.google.com/cloud-messaging/concept-options#lifetime" format="https" scope="external"> Lifetime of a Message</a> </p> </li> 
+         <li id="li_37425C4D61AF45BF8CA66F10EC63000D"> <p><b>GCM: </b><a href="https://developers.google.com/cloud-messaging/concept-options" format="https" scope="external"> Lifetime of a Message</a> </p> </li> 
         </ul> </p> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -48,4 +48,3 @@ This information helps you troubleshoot push messaging.
   </tr> 
  </tbody> 
 </table>
-
