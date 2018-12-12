@@ -39,7 +39,7 @@ Postbacks let you send data collected by Adobe Mobile to a separate third-party 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> URL </span> </p> </td> 
-   <td colname="col2"> <p>Specify a valid endpoint URL (along with appropriate query parameters as needed for GET requests). </p> <p>You obtain this URL from the party you are sending the data to (ad server or your own endpoint). </p> <p>For example: </p> <p><span class="filepath"> http://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132</span> </p> </td> 
+   <td colname="col2"> <p>Specify a valid endpoint URL (along with appropriate query parameters as needed for GET requests). </p> <p>You obtain this URL from the party you are sending the data to (ad server or your own endpoint). </p> <p>For example: </p> <p><span class="filepath"> https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Context Variable </span> </p> </td> 

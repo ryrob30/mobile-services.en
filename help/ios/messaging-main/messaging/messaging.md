@@ -86,7 +86,7 @@ The iOS Mobile Services SDKs track the following metrics for your in-app message
 
 * For custom, full screen in-app messages, the HTML content in the message needs to include the correct code to notify the SDK tracking about the following buttons:
 
-    * **Click-through** (redirect) example tracking: `adbinapp://confirm/?url=http://www.yoursite.com` 
+    * **Click-through** (redirect) example tracking: `adbinapp://confirm/?url=https://www.yoursite.com` 
     
     * **Cancel** (close) example tracking: `adbinapp://cancel`
 

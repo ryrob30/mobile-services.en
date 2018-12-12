@@ -58,13 +58,13 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 1. Construct the acquisition end link by using the unique ID from step 3, by using the following format:
 
    ```
-   http://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>
+   https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>
    ```
 
    For example:
 
    ```
-   http://c00.adobe.com/v3/<appid>/end?a_ugid=91b52ce097b1464b9b47cb2995c493cc6ab2c3a3
+   https://c00.adobe.com/v3/<appid>/end?a_ugid=91b52ce097b1464b9b47cb2995c493cc6ab2c3a3
    ```
 
 1. Open the link in a browser.

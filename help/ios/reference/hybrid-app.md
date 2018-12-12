@@ -35,7 +35,7 @@ To use the same visitor ID in the app and mobile web, complete the following ins
 1. To append visitor information to the URL that is being used to open the web view, call `visitorAppendToURL`: 
 
    ```
-   NSURL *url = [NSURL URLWithString:@”http://www.mydomain.com/index.php"]; 
+   NSURL *url = [NSURL URLWithString:@”https://www.mydomain.com/index.php"]; 
    NSURL *urlWithVisitorData = [ADBMobile visitorAppendToURL:url]; 
    [[UIApplication sharedApplication] openURL:urlWithVisitorData];
    ```
@@ -43,7 +43,7 @@ To use the same visitor ID in the app and mobile web, complete the following ins
    Alternatively, starting with SDK version 4.16.0, you can call `visitorGetUrlVariablesAsync:` and generate your own URL:
 
    ```
-   NSString *urlString = @"http://www.mydomain.com/index.php"; 
+   NSString *urlString = @"https://www.mydomain.com/index.php"; 
    [ADBMobile visitorGetUrlVariablesAsync:^(NSString * _Nullable urlVariables) { 
        NSString *urlStringWithVisitorData = [NSString stringWithFormat:@"%@?%@", urlString, urlVariables]; 
        NSURL *urlWithVisitorData = [NSURL URLWithString:urlStringWithVisitorData]; 

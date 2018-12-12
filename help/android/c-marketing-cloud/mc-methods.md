@@ -35,17 +35,9 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
       <li id="li_58EF302412C14C9AB4FCE48E0A02B033"> <p><b>Input: </b> <span class="codeph"> URL&lt;java.lang.String&gt; </span> </p> <p> A required URL string to which the visitor information is appended. </p> </li> 
       <li id="li_9EDB3CB103B7410CB754F920211154D4"> <p> <b>Output:</b> <span class="codeph"> URL&lt;java.lang.String&gt; </span> </p> <p> String with the visitor information appended. </p> </li> 
      </ul> </p> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      String&nbsp;urlSample&nbsp;=&nbsp;"http://example.com";&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;urlWithAdobeVisitorInfo&nbsp;=&nbsp;Visitor.appendToURL(urlSample);&nbsp;
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intent&nbsp;i&nbsp;=&nbsp;new&nbsp;Intent(Intent.ACTION_VIEW);&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.setData(Uri.parse(urlWithAdobeVisitorInfo));&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startActivity(i);&nbsp; 
-    </codeblock> </td> 
+    <code class="syntax java">
+      String&nbsp;urlSample&nbsp;=&nbsp;"https://example.com";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;urlWithAdobeVisitorInfo&nbsp;=&nbsp;Visitor.appendToURL(urlSample);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intent&nbsp;i&nbsp;=&nbsp;new&nbsp;Intent(Intent.ACTION_VIEW);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.setData(Uri.parse(urlWithAdobeVisitorInfo));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startActivity(i);&nbsp; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> getMarketingCloudId </td> 

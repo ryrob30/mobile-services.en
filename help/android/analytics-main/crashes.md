@@ -27,9 +27,9 @@ To ensure accurate crash reporting, you must call `pauseCollectingLifeCycleData`
 
 ![](assets/android-lifecycle.png)
 
-For more information about the Android activity lifecycle, see [Activities](http://developer.android.com/guide/components/activities.html).
+For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
 
-*This Android lifecycle illustration was created and [shared by the Android Open Source Project](http://code.google.com/policies.html) and used according to terms in the [Creative Commons 2.5 Attribution License](http://creativecommons.org/licenses/by/2.5/).*
+*This Android lifecycle illustration was created and [shared by the Android Open Source Project](https://code.google.com/policies.html) and used according to terms in the [Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/).*
 
 <a id="section_F85282E7A11C4FE3A259F0173979086A"></a>
 
@@ -53,7 +53,7 @@ Fragments have application lifecycle events that are similar to Activities. Howe
 
 **(Optional) Implement Activity lifecycle callbacks**
 
-Starting with API Level 14, Android allows global lifecycle callbacks for activities. For more information, see the [Android Developers Guide](http://developer.android.com/reference/android/app/Application.html#registerActivityLifecycleCallbacks(android.app.Application.ActivityLifecycleCallbacks).
+Starting with API Level 14, Android allows global lifecycle callbacks for activities. For more information, see the [Android Developers Guide](https://developer.android.com/reference/android/app/Application.html#registerActivityLifecycleCallbacks(android.app.Application.ActivityLifecycleCallbacks).
 
 You can use these callbacks to ensure that all of your Activities correctly call `collectLifecycleData()` and `pauseCollectingLifecycleData()`. You need to add this code only in your main Activity and any other Activity in which your app may be launched:
 

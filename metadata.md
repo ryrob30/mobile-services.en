@@ -8,10 +8,10 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/mobile-services.en
 ---
 
-<!-- We need better links for Getting Started and Tutorials. Create hub page? -->
+<!-- We need better links for Getting Started and Tutorials. We can do this after we hit stage -->
 
 # Metadata for internal use
 

@@ -32,7 +32,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    For example:
 
    ```
-   http://c00.adobe.com/v3/<appid>/start?a_i_id=iostestapp&a_g_id=com.adobe.android&a_dd=g&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=trackingcode
+   https://c00.adobe.com/v3/<appid>/start?a_i_id=iostestapp&a_g_id=com.adobe.android&a_dd=g&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=trackingcode
    ```
 
    >[!TIP]
@@ -54,13 +54,13 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 1. Construct the acquisition end link by using the unique ID from step 3 by using the following format:
 
    ```
-   http://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>
+   https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>
    ```
 
    For example:
 
    ```
-   http://c00.adobe.com/v3/<appid>/end?a_ugid=91b52ce097b1464b9b47cb2995c493cc6ab2c3a3
+   https://c00.adobe.com/v3/<appid>/end?a_ugid=91b52ce097b1464b9b47cb2995c493cc6ab2c3a3
    ```
 
 1. Open the link in a desktop browser.

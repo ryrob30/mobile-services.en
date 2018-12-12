@@ -56,7 +56,7 @@ You can log in to the Adobe Mobile Services UI in one of the following ways:
 
 * **Experience Cloud**
 
-  Sign in to the [Experience Cloud](http://marketing.adobe.com) with your Adobe ID. This method assumes that your company has been [provisioned](http://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started) in the Experience Cloud, and you have [linked your Analytics account](http://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_link_accounts).
+  Sign in to the [Experience Cloud](https://marketing.adobe.com) with your Adobe ID. This method assumes that your company has been [provisioned](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started) in the Experience Cloud, and you have [linked your Analytics account](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_link_accounts).
 
   >[!TIP]
   >

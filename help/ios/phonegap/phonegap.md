@@ -16,7 +16,7 @@ snippet: y
 
 This plug-in lets you send iOS AppMeasurement calls from your PhoneGap project.
 
-To create a PhoneGap project, see [PhoneGap Getting Started with iOS](http://docs.phonegap.com/getting-started/).
+To create a PhoneGap project, see [PhoneGap Getting Started with iOS](https://docs.phonegap.com/getting-started/).
 
 This section contains the following information:
 

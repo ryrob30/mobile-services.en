@@ -15,7 +15,7 @@ snippet: y
 
 Event serialization is not supported by processing rules. In the mobile SDK, you must use a special syntax within the context data parameter to set serialized events directly on the server call.
 
-See [Event Serialization](http://microsite.omniture.com/t2/help/en_US/sc/implement/?f=c_event_serialization).
+See [Event Serialization](https://microsite.omniture.com/t2/help/en_US/sc/implement/?f=c_event_serialization).
 
 ```js
 cdata["&&events"] = "event1:12341234";

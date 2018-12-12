@@ -28,7 +28,7 @@ This topic contains the following information:
 1. Add the SDK to your project and implement Lifecycle metrics.
 
    For more information, see [Core Implementation and Lifecycle](../../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
-1. Register the application to handle [URLs](http://developer.android.com/training/basics/intents/filters.html). 
+1. Register the application to handle [URLs](https://developer.android.com/training/basics/intents/filters.html). 
 1. Pass Activity with deep link intent to Adobe SDK by using `collectLifecycleData`.
 
    Here is a sample track deep link:

@@ -163,7 +163,7 @@ Move the value from the first column to the variable in the second column.
   </tr> 
   <tr> 
    <td colname="col1"> trackingServer </td> 
-   <td colname="col2"> <p>"server", remove the "http://" prefix. The protocol prefix is added automatically based on the "ssl" setting. </p> </td> 
+   <td colname="col2"> <p>"server", remove the "https://" prefix. The protocol prefix is added automatically based on the "ssl" setting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackingServerSecure </td> 

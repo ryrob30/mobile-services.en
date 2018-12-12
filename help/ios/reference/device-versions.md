@@ -21,7 +21,7 @@ The following table contains the iOS version string that is sent by many iOS dev
 >
 >This list is based on internal tests and online information and might contain inaccuracies or incomplete information.
 
-For more information about iOS devices, go to sites such as [The iPhone Wiki](http://theiphonewiki.com/wiki/Models). 
+For more information about iOS devices, go to sites such as [The iPhone Wiki](https://theiphonewiki.com/wiki/Models). 
 
 |  **iPhone** | **Version** |
 |---|---|

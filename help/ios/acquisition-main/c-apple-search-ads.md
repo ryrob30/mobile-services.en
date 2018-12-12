@@ -15,7 +15,7 @@ snippet: y
 
 The Adobe SDK leverages Apple's Search Ads App Attribution APIs to enable developers and marketers to track and attribute app downloads that originate from Search Ads campaigns in the Apple App Store.
 
-For more information about Search Ad campaigns, see [Apple Search Ads](http://searchads.apple.com).
+For more information about Search Ad campaigns, see [Apple Search Ads](https://searchads.apple.com).
 
 ## Benefits {#section_CEA30C652AC8470784B8054E299B80FA}
 

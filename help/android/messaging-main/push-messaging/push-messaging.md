@@ -87,7 +87,7 @@ This section contains the following information:
 
     * In your implementation of `GCMListenerService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method, must be added to the Intent that is used to open the target activity on a click-through.
 
-      This can be done using the method `putExtras` ( [Click here for more info](http://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))). 
+      This can be done using the method `putExtras` ( [Click here for more info](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))). 
     
     * In the target activity of the clickthrough, the activity must be passed into the SDK with the `collectLifecycleData` call.
 

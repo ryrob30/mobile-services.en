@@ -188,7 +188,7 @@ The [!DNL ADBMobileConfig.json] must be placed in the [!DNL assets] folder.
   </tr> 
   <tr> 
    <td colname="col1"> server </td> 
-   <td colname="col2"> <p>(Required). Analytics server. </p> <p> This variable should be populated with the server domain, without an "http://" or https://" protocol prefix. The protocol prefix is handled automatically by the library based on the <span class="codeph"> ssl </span> variable. </p> <p> If <span class="codeph"> ssl </span> is <span class="codeph"> true </span>, a secure connection is made to this server. If <span class="codeph"> ssl </span> is <span class="codeph"> false </span>, a non-secure connection is made to this server. </p> </td> 
+   <td colname="col2"> <p>(Required). Analytics server. </p> <p> This variable should be populated with the server domain, without an "https://" or https://" protocol prefix. The protocol prefix is handled automatically by the library based on the <span class="codeph"> ssl </span> variable. </p> <p> If <span class="codeph"> ssl </span> is <span class="codeph"> true </span>, a secure connection is made to this server. If <span class="codeph"> ssl </span> is <span class="codeph"> false </span>, a non-secure connection is made to this server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> charset </td> 

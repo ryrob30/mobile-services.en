@@ -35,7 +35,7 @@ Methods are prefixed according to the solution, and Experience Cloudr ID methods
       <li id="li_2E841AF38A4346FCB6B72EDEE4DD33AC"> <p> <b>Output:</b> <span class="codeph"> URL&lt;NSURL&gt; </span> </p> <p> String with the visitor info appended. </p> </li> 
      </ul> </p> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
-      NSURL&nbsp;*url&nbsp;=&nbsp;[NSURL&nbsp;URLWithString:@"http://www.example.com"];&nbsp; 
+      NSURL&nbsp;*url&nbsp;=&nbsp;[NSURL&nbsp;URLWithString:@"https://www.example.com"];&nbsp; 
      
 NSURL&nbsp;*decoratedURL&nbsp;=&nbsp;[ADBMobile&nbsp;visitorAppendToURL:&nbsp;url];&nbsp; 
      

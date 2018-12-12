@@ -1,10 +1,10 @@
 ---
 product: adobe
 audience: end-user
-user-guide-title: Mobile Services Xamarin Guide
+user-guide-title: Mobile Services Xamarin Help
 ---
 
-# Mobile Services Xamarin Guide {#xamarin}
+# Mobile Services Xamarin Help {#xamarin}
 
 + [Xamarin Components for Marketing Cloud Solutions 4.x SDK](get-started/get-started.md)
    + [Methods, Classes, Enums, and Interfaces for Android](get-started/c-android.md)

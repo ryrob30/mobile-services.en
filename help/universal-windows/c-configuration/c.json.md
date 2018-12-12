@@ -37,11 +37,11 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
   </tr> 
   <tr> 
    <td colname="col1"> server </td> 
-   <td colname="col2"> <p>(Required by Analytics and Audience Management). Analytics or Audience Management server, based on the parent node. </p> <p> This variable should be populated with the server domain, without an "http://" or https://" protocol prefix. The protocol prefix is handled automatically by the library based on the <span class="codeph"> ssl </span> variable. </p> <p> If <span class="codeph"> ssl </span> is <span class="codeph"> true </span>, a secure connection is made to this server. If <span class="codeph"> ssl </span> is <span class="codeph"> false </span>, a non-secure connection is made to this server. </p> </td> 
+   <td colname="col2"> <p>(Required by Analytics and Audience Management). Analytics or Audience Management server, based on the parent node. </p> <p> This variable should be populated with the server domain, without an "https://" or https://" protocol prefix. The protocol prefix is handled automatically by the library based on the <span class="codeph"> ssl </span> variable. </p> <p> If <span class="codeph"> ssl </span> is <span class="codeph"> true </span>, a secure connection is made to this server. If <span class="codeph"> ssl </span> is <span class="codeph"> false </span>, a non-secure connection is made to this server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> charset </td> 
-   <td colname="col2"> Defines the character set you are using for the data sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. See <a href="http://microsite.omniture.com/t2/help/en_US/whitepapers/multibyte/?f=multibyte_charset.html" format="http" scope="external"> Using the charSet Property </a>. </td> 
+   <td colname="col2"> Defines the character set you are using for the data sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. See <a href="https://microsite.omniture.com/t2/help/en_US/whitepapers/multibyte/?f=multibyte_charset.html" format="http" scope="external"> Using the charSet Property </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ssl </td> 

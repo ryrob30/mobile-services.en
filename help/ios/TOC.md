@@ -1,10 +1,10 @@
 ---
 product: adobe
 audience: end-user
-user-guide-title: Mobile Services iOS Guide
+user-guide-title: Mobile Services iOS Help
 ---
 
-# Mobile Services iOS Guide {#ios}
+# Mobile Services iOS Help {#ios}
 
 + [Release Notes](rel-notes.md)
 + [iOS SDK 4.x for Experience Cloud Solutions](overview.md)
