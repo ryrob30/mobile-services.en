@@ -1,10 +1,10 @@
 ---
 product: adobe
 audience: end-user
-user-guide-title: Mobile Services User Guide
+user-guide-title: Mobile Services User Help
 ---
 
-# Mobile Services User Guide {#using}
+# Mobile Services User Help {#using}
 
 + [Release Notes](whatsnew.md)
 + [Adobe Mobile Services](home.md)

@@ -1,10 +1,10 @@
 ---
 product: adobe
 audience: end-user
-user-guide-title: Mobile Services BlackBerry Guide
+user-guide-title: Mobile Services BlackBerry Help
 ---
 
-# Mobile Services BlackBerry Guide {#blackberry}
+# Mobile Services BlackBerry Help {#blackberry}
 
 + [BlackBerry 10 SDK 4.x for Experience Cloud Solutions](overview.md)
 + [Adobe Mobile class and method reference](methods.md)

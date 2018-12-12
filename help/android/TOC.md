@@ -1,10 +1,10 @@
 ---
 product: adobe
 audience: end-user
-user-guide-title: Mobile Services Android Guide
+user-guide-title: Mobile Services Android Help
 ---
 
-# Mobile Services Android Guide {#android}
+# Mobile Services Android Help {#android}
 
 + [Release Notes](rel-notes.md)
 + [Android SDK 4.x for Experience Cloud Solutions](overview.md)

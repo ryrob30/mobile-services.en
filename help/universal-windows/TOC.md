@@ -1,10 +1,10 @@
 ---
 product: adobe
 audience: end-user
-user-guide-title: Mobile Services Universal Windows Guide
+user-guide-title: Mobile Services Universal Windows Help
 ---
 
-# Mobile Services Universal Windows Guide {#universal-windows}
+# Mobile Services Universal Windows Help {#universal-windows}
 
 + [Universal Windows Platform SDK 4.x for Experience Cloud Solutions](overview.md)
 + [Get started](c-getting-started/c-getting-started.md)
