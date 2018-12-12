@@ -50,13 +50,7 @@ Here are the methods that you can use for prefetch in Android:
    <td colname="col1"> <p>prefetchContent </p> </td> 
    <td colname="col2"> <p>Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback. </p> <p><b>Syntax</b> </p> <p> 
      <codeblock class="syntax java">
-       public&nbsp;static&nbsp;void&nbsp;prefetchContent( 
-      
-final&nbsp;List&lt;TargetPrefetchObject&gt;&nbsp;targetPrefetchArray, 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters, 
-      
-final&nbsp;TargetCallback&lt;Boolean&gt;&nbsp;callback) 
+       public&nbsp;static&nbsp;void&nbsp;prefetchContent(final&nbsp;List&lt;TargetPrefetchObject&gt;&nbsp;targetPrefetchArray,final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters,final&nbsp;TargetCallback&lt;Boolean&gt;&nbsp;callback) 
      </codeblock> </p> <p><b>Parameters</b> 
      <table id="table_F9566AA2648843AC93674C376C3B2B08">  
      </table> </p> </td> 
