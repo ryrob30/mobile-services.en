@@ -281,7 +281,6 @@ This section contains the following information
       <li id="li_7223F5D489A341EBAABD4FC0A94D092B"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
           ADBMobile.trackTimedActionStartData(‘level1’,&nbsp;{‘userId’:42423});
-
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
