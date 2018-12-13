@@ -11,11 +11,11 @@ internal: n
 snippet: y
 ---
 
-# Products Variable{#products-variable}
+# Products Variable {#products-variable}
 
 The products variable cannot be set by using processing rules. In the iOS 4.x SDK, you must use a special syntax in the context data parameter to set products directly on the server call.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the [products](https://microsite.omniture.com/t2/help/en_US/sc/implement/?f=c_products) variable:
+To set the *`products`* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *`products`* variable:
 
 ```
 [contextData setObject:@"Category;Product;Quantity;Price[,Category;Product;Quantity;Price]" forKey:@"&&products"];

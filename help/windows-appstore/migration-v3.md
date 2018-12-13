@@ -170,7 +170,7 @@ ADB.Analytics.trackAction("product view", cdata);
 
 ![](assets/prod-view.png){width="500px"}
 
-The value of `"&&products"` (in this example, the value is `";Cool Shoe`") should follow the [products string syntax](https://microsite.omniture.com/t2/help/en_US/sc/implement/?f=c_products) for the type of event that you are tracking.
+The value of `"&&products"` (in this example, the value is `";Cool Shoe`") should follow the products string syntax for the type of event that you are tracking.
 
 ## Test the Migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
 

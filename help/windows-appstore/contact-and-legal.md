@@ -31,10 +31,6 @@ The Adobe Experience Cloud Customer Care team is here to assist you and provides
 
 Dependent on your solution configuration, some options described in this documentation might not be available to you. As each account is unique, please refer to your contract for pricing, due dates, terms, and conditions. If you would like to add to or otherwise change your service level, or if you have questions regarding your current service, please contact your Account Manager.
 
-## Feedback {#section_8154D6D712054220A90D85FA8E92933E}
-
-We welcome any suggestions or feedback regarding this solution. Enhancement ideas and suggestions [can be added to our Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
-
 ## Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 <ul class="simplelist"> 

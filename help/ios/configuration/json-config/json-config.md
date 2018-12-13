@@ -133,7 +133,7 @@ The same config file can be used for your app across multiple platforms:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] 
     </codeblock> <p>Tip:  Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires the <span class="codeph"> analytics.poi </span> setting: 
      <codeblock class="syntax javascript">
-       “analytics.poi”:&amp;nbsp;“https://assets.adobedtm.com/…/yourfile.json”, 
+       “analytics.poi”:&amp;nbsp;“`https://assets.adobedtm.com/…/yourfile.json`”, 
      </codeblock> <p>If this setting is not configured, the <span class="codeph"> ADBMobile.json </span> file must be updated to include this line. To download an updated configuration file, see <a href="../../getting-started/requirements.md#concept_2FA4E790CA1646FFB44488CF017821DE" format="dita" scope="local"> Before You Start </a>. </p> </p> </td> 
   </tr> 
   <tr> 

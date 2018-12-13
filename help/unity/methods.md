@@ -710,7 +710,7 @@ ADBMobile.VisitorSyncIdentifiers&nbsp;(identifiers,ADBMobile.ADBMobileVisitorAut
       public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;VisitorAppendtoURL&amp;nbsp;(string&amp;nbsp;url) 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&amp;nbsp;urlWithAdobeVisitorInfo&amp;nbsp;=&amp;nbsp;ADBMobile.VisitorAppendtoURL&amp;nbsp;("https://example.com"); 
+      var&amp;nbsp;urlWithAdobeVisitorInfo&amp;nbsp;=&amp;nbsp;ADBMobile.VisitorAppendtoURL&amp;nbsp;("`https://example.com`"); 
     </codeblock> </td> 
   </tr> 
   <tr> 

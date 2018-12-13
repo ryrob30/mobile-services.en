@@ -15,7 +15,7 @@ snippet: y
 
 The products variable cannot be set using processing rules. In the mobile SDK, you must use a special syntax within the context data parameter to set products directly on the server call.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the [products](https://microsite.omniture.com/t2/help/en_US/sc/implement/?f=c_products) variable:
+To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products`*:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
