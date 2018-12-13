@@ -160,7 +160,6 @@ This section contains the following information
       <li id="li_BB002A4FC26D432A9B8598F060DC21C7"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
           ADBMobile.setAdvertisingIdentifier(‘myIdfa’);
-
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -302,7 +301,6 @@ This section contains the following information
       <li id="li_FB813B136E1C498EA05FC5D20BE5D9E7"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
           ADBMobile.trackTimedActionUpdateData(‘level1’);
-
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -320,13 +318,7 @@ This section contains the following information
        </table> </li> 
       <li id="li_28E6521FD86248548C46A57B81DF6D16"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
-          ADBMobile.trackTimedActionEndJsLogic(‘level1’,&nbsp;function(inAppDuration,&nbsp;totalDuration,&nbsp;data)&nbsp;{ 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;final&nbsp;values 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;true; 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}); 
+          ADBMobile.trackTimedActionEndJsLogic(‘level1’,&nbsp;function(inAppDuration,&nbsp;totalDuration,&nbsp;data)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;final&nbsp;values&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;true;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}); 
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -377,7 +369,6 @@ This section contains the following information
       <li id="li_C09FC2E1F68144CBA0FC4618CD0B0EE9"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
           ADBMobile.trackingSendQueuedHits();
-
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -410,7 +401,6 @@ This section contains the following information
       <li id="li_7B9F95EEF92D460FADD805A3BF614528"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
           var&nbsp;queueSize&nbsp;=&nbsp;ADBMobile.trackingGetQueueSize();
-
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -472,7 +462,6 @@ This section contains the following information
       <li id="li_06AA7EBA5B7442619A2F7D2557693BBB"> <p> <b>Example</b>: </p> 
        <codeblock class="syntax c">
          var&nbsp;dpuuid&nbsp;=&nbsp;ADBMobile.audienceDpuuid();
-
        </codeblock> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -507,11 +496,7 @@ This section contains the following information
        </table> </li> 
       <li id="li_6FF5341F7787444D821A1A6475F39797"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
-          ADBMobile.audienceSignalWithDataJsCallback({‘trait’:’something’},&nbsp;function(profile)&nbsp;{ 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;the&nbsp;user’s&nbsp;segments&nbsp;found&nbsp;in&nbsp;profile 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}); 
+          ADBMobile.audienceSignalWithDataJsCallback({‘trait’:’something’},&nbsp;function(profile)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;the&nbsp;user’s&nbsp;segments&nbsp;found&nbsp;in&nbsp;profile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}); 
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -618,15 +603,7 @@ This section contains the following information
    <td colname="col1"> visitorGetIDsJs </td> 
    <td colname="col2"> <p>Retrieves an array of read-only <span class="codeph"> ADBVisitorID </span> objects. The following code sample is an example of a VisitorID object: </p> 
     <codeblock>
-      { 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;idType:&nbsp;"abc",&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;authenticationState:&nbsp;1,&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;identifier:&nbsp;"123" 
-     
-} 
+      {&nbsp;&nbsp;&nbsp;&nbsp;idType:&nbsp;"abc",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;authenticationState:&nbsp;1,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier:&nbsp;"123"} 
     </codeblock> <p> <b>Syntax</b>: </p> 
     <codeblock class="syntax c">
       visitorGetIDsJs() 
@@ -716,4 +693,3 @@ This section contains the following information
   </tr> 
  </tbody> 
 </table>
-
