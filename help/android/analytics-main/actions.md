@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Track App Actions{#track-app-actions}
+# Track App Actions {#track-app-actions}
 
 Actions are the events that occur in your Android app that you want to measure.
 

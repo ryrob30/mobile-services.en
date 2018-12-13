@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Configuration{#configuration}
+# Configuration {#configuration}
 
 The following information helps you configure the Android SDK, including JSON configuration, hit batching, and SDK methods:
 

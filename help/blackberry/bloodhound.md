@@ -28,7 +28,9 @@ The Adobe Bloodhound download is available from the releases page of the [Adobe 
 
 ## Using Bloodhound {#section_0AFA172F3D474E068833A03C0BDFAA5B}
 
-See the [Bloodhound User Guide](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/qa/).
+*  For more information about using Bloodhound, see the following guides:
+   * [Bloodhound 3.x for Mac](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/)
+   * [Bloodhound 2.2 for Windows](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound_win_2x/)
 
 >[!IMPORTANT]
 >

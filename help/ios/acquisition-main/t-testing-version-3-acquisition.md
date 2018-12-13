@@ -30,7 +30,7 @@ If the mobile app is not yet in the App Store, when you create the campaign link
    ```
 
    If you refer to both iOS and Android apps in the acquisition link, use the Apple Store as the default store. 
-1. Open the generated link in a desktop browser and go to [!DNL https://c00.adobe.com/v3/<appid>/end].
+1. Open the generated link in a desktop browser and go to [!DNL `https://c00.adobe.com/v3/<appid>/end`].
 
    You should see the `contextData` in the JSON response:
 

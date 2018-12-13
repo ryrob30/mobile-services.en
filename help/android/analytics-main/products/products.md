@@ -12,11 +12,11 @@ internal: n
 snippet: y
 ---
 
-# Products Variable{#products-variable}
+# Products Variable {#products-variable}
 
 The products variable cannot be set by using processing rules. In the Mobile SDK, you must use a special syntax in the context data parameter to set products on the server call.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *`products`* variable:
+To set the *products* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *products* variable:
 
 ```java
 cdata.put("&&products", "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]");
@@ -41,7 +41,7 @@ Analytics.trackAction("purchase", cdata);
 Analytics.trackState("Order Confirmation", cdata);
 ```
 
-The *`products`* variable is set on the image request, and the other variables are set as context data:
+The *products* variable is set on the image request, and the other variables are set as context data:
 
 <a id="fig_F1B61B67BF9C414F909AB860AC1014D6"></a>
 
@@ -53,4 +53,4 @@ All context data variables must be mapped by using processing rules:
 
 ![](assets/map-products.png)
 
-You do not need to map the *`products`* variable by using processing rules because this variable is set directly on the image request by the SDK. 
+You do not need to map the *products* variable by using processing rules because this variable is set directly on the image request by the SDK. 

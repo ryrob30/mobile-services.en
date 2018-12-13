@@ -527,7 +527,7 @@ return&nbsp;Convert.ToSByte(true);
       public&amp;nbsp;static&amp;nbsp;NSUrl&amp;nbsp;VisitorAppendToURL(NSUrl&amp;nbsp;url); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      NSUrl&nbsp;myURL&nbsp;=&nbsp;NSUrl.FromString(“https://someurl.com”); 
+      NSUrl&nbsp;myURL&nbsp;=&nbsp;NSUrl.FromString(“`https://someurl.com`”); 
      
 NSUrl&nbsp;urlWithVisitorIDs&nbsp;=&nbsp;ADBMobile.VisitorAppendToURL(myURL);
 

@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Processing Rules and Context Data{#processing-rules-and-context-data}
+# Processing Rules and Context Data {#processing-rules-and-context-data}
 
 Processing rules are used to copy the data that you send in context data variables to evars, props, and other variables for reporting.
 
