@@ -55,8 +55,6 @@ NSString *const ADBTargetParameterMboxHost;
 >
 >* If you are using SDKs version 4.14.0 **or after**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
 
-
-
 ### targetLoadRequest:​callback:
 
 Sends request to your configured Target server and returns the string value of the offer that is generated in a block `callback`.
@@ -77,7 +75,9 @@ Sends request to your configured Target server and returns the string value of t
  }\];
 ```
 
-### targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:
+### targetLoadRequestWithName Location
+
+`targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:`
 
 Sends a request to your configured Target server and returns the string value of the offer that is generated in a block callback.
 
@@ -125,9 +125,11 @@ Sends a request to your configured Target server and returns the string value of
 
 For more information about the underlying Target API, see the [Delivery documentation on the Target Developers website](https://docs.adobe.com/dev/products/target/reference/delivery.html) .
 
-### targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback:
+### targetLoadRequestWithName mbox
 
-Sends request to your configured Target server and returns the string value of the offer generated in a block callback .
+`targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback:`
+
+Sends request to your configured Target server and returns the string value of the offer generated in a block callback.
 
 **Syntax:**
 
@@ -153,7 +155,9 @@ Sends request to your configured Target server and returns the string value of t
                           }                            }\];
 ```
 
-### targetCreateOrder​ConfirmRequestWithName:​orderId:​orderTotal:​productPurchasedId:​parameters:
+### targetCreateOrder​ConfirmRequestWithName:​orderId:​orderTotal:​productPurchasedId:​parameters
+
+`targetCreateOrder​ConfirmRequestWithName:​orderId:​orderTotal:​productPurchasedId:​parameters:`
 
 Creates an `ADBTargetLocationRequest`.
 
