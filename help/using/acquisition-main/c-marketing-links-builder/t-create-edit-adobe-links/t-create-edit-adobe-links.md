@@ -26,52 +26,50 @@ For more information about universal links and app links, see [Universal Links a
 
 1. Type information in the following fields:
 
-    * **Marketing Link Name: **
+    * **Marketing Link Name:**
 
       (Required) Specify a descriptive name for your marketing link. The name displays only on the [!DNL Marketing Links] page in the [!DNL Adobe Mobile Services] UI. A descriptive name helps you or others in your organization quickly find a specific link and can provide insight into its purpose. 
-    
-    * **Unique Tracking Code: **
 
-      (Required) Specify the desired tracking code or click  ![](assets/icon_generate.png)    
+    * **Unique Tracking Code:**
+
+      (Required) Specify the desired tracking code or click ![](assets/icon_generate.png) to create a new tracking code. You can view reports that detail use of the tracking code.
     
-      to create a new tracking code. You can view reports that detail use of the tracking code. 
-    
-    * **Add Tracking Context Data: **
+    * **Add Tracking Context Data:**
 
       (Optional) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. In the **[!UICONTROL Custom Context Data]** drop-down list, select a preset tag or one of your own tags. Context data is used for reporting when the marketing link is deployed.
 
-       The following preset tags are available:
+      The following preset tags are available:
 
-    <table id="table_CFCEED0575D94FD4A1433B870FA8FDB7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tag Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
-   <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html#" format="dita" scope="local"> Processing Rules</a> in <i>Analytics Help</i>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 
-   <td colname="col2"> <p>Specify the original referrer, such as "newsletter" or "homepage." </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Medium </span> </p> </td> 
-   <td colname="col2"> <p>Specify the marketing medium, such as "banner" or "email." </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Content </span> </p> </td> 
-   <td colname="col2"> <p>Specify the name or ID of the ad with the link. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Term </span> </p> </td> 
-   <td colname="col2"> <p>Specify paid terms or other search terms for the ad. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      <table id="table_CFCEED0575D94FD4A1433B870FA8FDB7"> 
+      <thead> 
+        <tr> 
+        <th colname="col1" class="entry"> Tag Option </th> 
+        <th colname="col2" class="entry"> Description </th> 
+        </tr>
+      </thead>
+       <tbody> 
+        <tr> 
+        <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
+        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> Processing Rules</a> in <i>Analytics Help</i>. </p> </td> 
+        </tr> 
+        <tr> 
+        <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 
+        <td colname="col2"> <p>Specify the original referrer, such as "newsletter" or "homepage." </p> </td> 
+        </tr> 
+        <tr> 
+        <td colname="col1"> <p><span class="uicontrol"> Medium </span> </p> </td> 
+        <td colname="col2"> <p>Specify the marketing medium, such as "banner" or "email." </p> </td> 
+        </tr> 
+        <tr> 
+        <td colname="col1"> <p><span class="uicontrol"> Content </span> </p> </td> 
+        <td colname="col2"> <p>Specify the name or ID of the ad with the link. </p> </td> 
+        </tr> 
+        <tr> 
+        <td colname="col1"> <p><span class="uicontrol"> Term </span> </p> </td> 
+        <td colname="col2"> <p>Specify paid terms or other search terms for the ad. </p> </td> 
+        </tr> 
+      </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save]**.
 1. Type information in the following fields:
@@ -91,9 +89,8 @@ For more information about universal links and app links, see [Universal Links a
 
 1. Click **[!UICONTROL Save]** and click **[!UICONTROL Next]**.
 1. In the [!DNL Destination] page, configure the link.
-   1. Click the **[!UICONTROL Decision]** icon (  ![](assets/icon_decision.png)   
-   
-      ) and select one of the following decision locations:
+
+   1. Click the **[!UICONTROL Decision]** icon (  ![](assets/icon_decision.png) ) and select one of the following decision locations:
 
        * **[!UICONTROL Add Decision]** 
        * **[!UICONTROL Add Path]**
@@ -108,21 +105,17 @@ For more information about universal links and app links, see [Universal Links a
 
          Device types include devices such as desktops, eReaders, game consoles, mobile phones, set top boxes, and so on.
 
-   1. Click the **[!UICONTROL Destination]** icon ( ![](assets/icon_square.png)   
-   
-      ) and select one of the following destination types:
+   1. Click the **[!UICONTROL Destination]** icon ( ![](assets/icon_square.png) ) and select one of the following destination types:
 
        * **[!UICONTROL App Store]** 
        * **[!UICONTROL Web Link]** 
        * **[!UICONTROL App Deep Link]** 
        * **[!UICONTROL Hybrid Link]**
 
-          >[!TIP]
-          >
-          >When you use the **[!UICONTROL Web Link]** destination type with a link to the app store, acquisition is not tracked. To track acquisitions, use the **[!UICONTROL App Store]** destination type.
+       >[!TIP]
+       >
+       >When you use the **[!UICONTROL Web Link]** destination type with a link to the app store, acquisition is not tracked. To track acquisitions, use the **[!UICONTROL App Store]** destination type.
 
-          For more information, see [Create New Link Destination](../../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#task_B4F3393B8D6D4D87AD5C371F8F9A414B). 
+       For more information, see [Create New Link Destination](../../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#). 
        
-1. To save the marketing link, click **[!UICONTROL  ![](assets/icon_elipses.png)
-
-   ]** > **[!UICONTROL Save]**.
+1. To save the marketing link, click ![](assets/icon_elipses.png) > **[!UICONTROL Save]**.

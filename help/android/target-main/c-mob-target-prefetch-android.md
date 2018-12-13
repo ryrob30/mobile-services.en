@@ -38,80 +38,87 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 Here are the methods that you can use for prefetch in Android:
 
-<table id="table_5690297F6526421698A01BAF995776B5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>prefetchContent </p> </td> 
-   <td colname="col2"> <p>Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback. </p> <p><b>Syntax</b> </p> <p> 
-     <codeblock class="syntax java">
-       public&nbsp;static&nbsp;void&nbsp;prefetchContent(final&nbsp;List&lt;TargetPrefetchObject&gt;&nbsp;targetPrefetchArray,final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters,final&nbsp;TargetCallback&lt;Boolean&gt;&nbsp;callback) 
-     </codeblock> </p> <p><b>Parameters</b> 
-     <table id="table_F9566AA2648843AC93674C376C3B2B08">  
-     </table> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>loadRequests </p> </td> 
-   <td colname="col2"> <p>Executes a batch request for multiple mbox locations that are specified in the requests array. &amp;nbsp;Each object in the array contains a callback function, which will be invoked when content is available for its given mbox location. </p> <p> <p>Important:  If the content for the requested locations is already cached, it will be returned immediately in the provided callback. Otherwise, the SDK will send a network request to the Target servers to retrieve the content. <p> Syntax: </p> <p> 
-       <codeblock class="syntax java">
-         public&nbsp;static&nbsp;void&nbsp;loadRequests( 
-        
-final&nbsp;List&lt;TargetRequestObject&gt;&nbsp;requestArray,&nbsp; 
-        
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters) 
-       </codeblock> </p> </p> </p> <p><b>Parameters</b>: </p> <p> 
-     <table id="table_52BA3E5A5A0F4CDB87F156E52DEA6284">  
-     </table> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>clearPrefetchCache </p> </td> 
-   <td colname="col2"> <p>Clears the data that was cached by Target Prefetch. </p> <p><b>Syntax</b>: </p> <p> 
-     <codeblock class="syntax java">
-       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;clearPrefetchCache(); 
-     </codeblock> </p> <p><b>Parameters</b>: N/A </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>createTargetRequestObject </p> </td> 
-   <td colname="col2"> <p>Creates and returns an instance of <span class="codeph"> TargetRequestObject </span> with the provided data. </p> <p><b>Syntax</b>: </p> <p> 
-     <codeblock class="syntax java">
-       public&nbsp;static&nbsp;TargetPrefetchObject&nbsp;createTargetRequestObject( 
-      
-final&nbsp;String&nbsp;mboxName, 
-      
-final&nbsp;String&nbsp;defaultContent, 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParams, 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;orderParams, 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;productParams, 
-      
-final&nbsp;Target.TargetCallback&lt;String&gt;&nbsp;callback) 
-     </codeblock> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>createTargetPrefetchObject </p> </td> 
-   <td colname="col2"> <p>Creates and returns an instance of <span class="codeph"> TargetPrefetchObject </span> with the provided data. </p> <p><b>Syntax</b>: </p> <p> 
-     <codeblock scale="50" class="syntax java">
-       public&nbsp;static&nbsp;TargetPrefetchObject&nbsp;createTargetPrefetchObject( 
-      
-final&nbsp;String&nbsp;mboxName, 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParams) 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;orderParams,&nbsp; 
-      
-final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;productParams)
+### prefetchContent
 
-     </codeblock> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback.
+
+**Syntax**
+
+```
+public static void prefetchContent(
+final List<TargetPrefetchObject> targetPrefetchArray,
+final Map<String, Object> profileParameters,
+final TargetCallback<Boolean> callback)
+```
+
+**Parameters**
+
+|Name |Description |
+|--- |--- |
+|targetPrefetchArray|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
+|profileParameters|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
+|callback|Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.|
+
+### loadRequests
+
+Executes a batch request for multiple mbox locations that are specified in the requests array. &nbsp;Each object in the array contains a callback function, which will be invoked when content is available for its given mbox location.
+
+>[!IMPORTANT]
+>
+>If the content for the requested locations is already cached, it will be returned immediately in the provided callback. Otherwise, the SDK will send a network request to the Target servers to retrieve the content.
+
+**Syntax:**
+
+```
+public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
+```
+
+**Parameters**
+
+|Name |Description |
+|--- |--- |
+|requestArray|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
+|profileParameters|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
+
+### clearPrefetchCache
+
+Clears the data that was cached by Target Prefetch.
+
+**Syntax**:
+
+`public static void clearPrefetchCache();`
+
+**Parameters**: N/A
+
+### createTargetRequestObject
+
+Creates and returns an instance of `TargetRequestObject` with the provided data.
+
+**Syntax**
+
+```
+public static TargetPrefetchObject createTargetRequestObject( 
+final String mboxName,
+final String defaultContent, 
+final Map<String, Object> mboxParams, 
+final Map<String, Object> orderParams, 
+final Map<String, Object> productParams, 
+final Target.TargetCallback<String> callback)
+```
+
+### createTargetPrefetchObject
+
+Creates and returns an instance of TargetPrefetchObject with the provided data.
+
+**Syntax**:
+
+```
+public static TargetPrefetchObject createTargetPrefetchObject( 
+final String mboxName, 
+final Map<String, Object> mboxParams) 
+final Map<String, Object> orderParams, 
+final Map<String, Object> productParams)
+```
 
 ## Public Classes {#section_A273E53F069E4327BBC8CE4910B37888}
 
@@ -121,71 +128,25 @@ Here are the public classes that support pre-fetch in Android:
 
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
-<table id="table_987E9D0D9B76495A9ED9EF851AFCAD16"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Property </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>name </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: String </p> <p>Name of the location that will be prefetched. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mboxParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Map&lt;String, Object&gt; </p> <p>Collection of key-value pairs that will be attached as <span class="codeph"> mboxParameters </span> for this <span class="codeph"> TargetPrefetchObject </span>'s request. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>orderParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Map&lt;String, Object&gt; </p> <p>Collection of key-value pairs that will be attached to current mbox under the <i>order</i> node. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>productParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Map&lt;String, Object&gt; </p> <p>Collection of key-value pairs that will be attached to current mbox under the <i>product</i> node. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Description |
+|--- |--- |
+|name|Type: String<br>Name of the location that will be prefetched.|
+|mboxParameters|Type: Map`<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.|
+|orderParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
+|productParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
 
-**Class Reference: TargetRequestObject **
+**Class Reference: TargetRequestObject**
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
-<table id="table_47A7702703144124B6CC2974FF24FD05"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Property </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>mboxName </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: String </p> <p>Name of the requested location. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mboxParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Map&lt;String, Object&gt; </p>Collection of key-value pairs that will be attached as <span class="codeph"> mboxParameters </span> for this <span class="codeph"> TargetRequestObject </span>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>orderParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Map&lt;String, Object&gt; </p> <p>Collection of key-value pairs that will be attached to current mbox under the <i>order</i> node. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>productParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Map&lt;String, Object&gt; </p> <p>Collection of key-value pairs that will be attached to current mbox under the <i>product</i> node. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>defaultContent </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: String </p> <p>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>callback </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Target.TargetCallback&lt;String&gt; </p> <p>Function pointer that will be called when content for the given <span class="codeph"> TargetRequestObject </span> is available. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Description |
+|--- |--- |
+|mboxName|Type: String <br>Name of the requested location.|
+|mboxParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetRequestObject`.|
+|orderParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
+|productParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
+|defaultContent|Type: String <br>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.|
+|callback|Type: Target.TargetCallback`<String>` <br>Function pointer that will be called when content for the given `TargetRequestObject` is available.|
 
 ## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
 
@@ -253,7 +214,6 @@ locationRequests.add(Target.createTargetRequestObject("mboxName2", "defaultConte
   
 // Call the loadRequests API. 
 Target.loadRequests(locationRequests, profileParameters); 
-
 ```
 
 ## Additional Information {#section_A454BAD1CD49423E86C71BAEE06125FD}
@@ -272,4 +232,3 @@ Here is some additional information about these samples:
     * `purchasedProductIds`
 
 * `purchasedProducts` accepts an ArrayList of strings.
-

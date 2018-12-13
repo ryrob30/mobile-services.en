@@ -63,11 +63,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
         </codeblock> </p> </li> 
       <li id="li_94424FD06F584B02877F4B81FDEC715F"> <p> <b>Example:</b> 
         <codeblock class="syntax c">
-          Map&lt;String,&nbsp;String&gt;&nbsp;identifiers&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;String&gt;(); 
-         
-identifiers.put("idType",&nbsp;"idValue"); 
-         
-Visitor.syncIdentifiers(identifiers); 
+          Map&lt;String,&nbsp;String&gt;&nbsp;identifiers&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;String&gt;();identifiers.put("idType",&nbsp;"idValue");Visitor.syncIdentifiers(identifiers); 
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -105,11 +101,7 @@ Visitor.syncIdentifiers(identifiers);
         </codeblock> </p> </li> 
       <li id="li_AAA31F380DEF4A4DB444D53486B55FCE"> <p><b>Example:</b> 
         <codeblock class="syntax c">
-          Map&lt;String,&nbsp;String&gt;&nbsp;identifiers&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;String&gt;(); 
-         
-&nbsp;identifiers.put("myIdType",&nbsp;"valueForUser"); 
-         
-&nbsp;Visitor.syncIdentifiers(identifiers,&nbsp;VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED); 
+          Map&lt;String,&nbsp;String&gt;&nbsp;identifiers&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;String&gt;();&nbsp;identifiers.put("myIdType",&nbsp;"valueForUser");&nbsp;Visitor.syncIdentifiers(identifiers,&nbsp;VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED); 
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -146,4 +138,3 @@ public class VisitorID {
  } 
 }
 ```
-
