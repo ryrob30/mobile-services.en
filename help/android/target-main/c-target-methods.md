@@ -2,9 +2,9 @@
 description: Here is the list of Adobe Target methods that are provided by the Android library.
 keywords: android;library;mobile;sdk
 seo-description: Here is the list of Adobe Target methods that are provided by the Android library.
-seo-title: Target Methods
+seo-title: Android Target Methods for Adobe Mobile Services
 solution: Marketing Cloud,Analytics
-title: Target Methods
+title: Target Methods for Android
 topic: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 index: y
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Target Methods{#target-methods}
+# Target Methods for Android{#target-methods}
 
 Here is the list of Adobe Target methods that are provided by the Android library.
 
@@ -50,226 +50,228 @@ public static final String TARGET_PARAMETER_MBOX_SESSION_ID     = "mboxSession";
 public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 ```
 
-<a id="section_E7D486365BA7404DA4A1756A582DA3B2"></a>
-
 >[!IMPORTANT]
 >
 >* If you are using SDKs **before** version 4.14.0, see [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations. 
 >
 >* If you are using SDKs version 4.14.0 **or after**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
->
 
-<table id="table_AD066582C8E2478A8DC0A59B78ACB443"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p>loadRequest </p> </td> 
-   <td colname="col2"> <p>Sends <span class="codeph"> request </span> to your configured Target server and returns the string value of the offer that is generated in a block <span class="codeph"> callback </span>. </p> <p> <b>Syntax:</b> </p> <p> 
-     <codeblock class="syntax java">
-       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;loadRequest(TargetLocationRequest&amp;nbsp;request,&amp;nbsp;TargetCallback&lt;String&gt;&amp;nbsp;callback); 
-     </codeblock> </p> <p> <b>Example:</b> </p> <p> 
-     <codeblock class="syntax java">
-       Target.loadRequest(heroBannerRequest,&nbsp;new&nbsp;Target.TargetCallback&lt;String&gt;()&nbsp;{ 
-      
-&nbsp;@Override 
-      
-&nbsp;public&nbsp;void&nbsp;call(String&nbsp;item)&nbsp;{ 
-      
-&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;item 
-      
-&nbsp;} 
-      
-}); 
-     </codeblock> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p> <b>Syntax:</b> </p> <p> 
-     <codeblock class="syntax java">
-       public&nbsp;static&nbsp;void&nbsp;loadRequest(final&nbsp;String&nbsp;name,&nbsp;final&nbsp;String&nbsp;defaultContent,&nbsp;final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters,&nbsp;final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;orderParameters, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParameters,&nbsp;final&nbsp;TargetCallback&lt;String&gt;&nbsp;callback)
+### loadRequest
 
-     </codeblock> </p> <p> <b>Example:</b> </p> <p> 
-     <codeblock class="syntax java">
-       Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-      
-profileParameters.put(“profile-parameter-key”,&nbsp;“profile-parameter-value”);
+Sends request to your configured Target server and returns the string value of the offer that is generated in a block callback.
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;orderParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-      
-orderParameters.put(“order-parameter-key”,&nbsp;“order-parameter-value”);
+**Syntax:**
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-      
-mboxParameters.put(“mbox-parameter-key”,&nbsp;“mbox-parameter-value”); 
-      
-Target.loadRequest(“mboxName”,&nbsp;“defaultContent”,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp; 
-      
-new&nbsp;TargetCallback&lt;String&gt;()&nbsp;{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;@Override 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;call&nbsp;(String&nbsp;item)&nbsp;{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log.d(“Target&nbsp;Content”,&nbsp;item);&nbsp; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;} 
-      
-});
+```
+public static void loadRequest(TargetLocationRequest request, TargetCallback<String> callback);
+```
 
-     </codeblock> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>loadRequest </p> </td> 
-   <td colname="col2"> <p> Sends <span class="codeph"> request </span> to your configured Target server and returns the string value of the offer that is generated in a block <span class="codeph"> callback </span>. </p> <p> <b>Syntax:</b> </p> <p> 
-     <codeblock class="syntax java">
-       public&nbsp;static&nbsp;void&nbsp;loadRequest(final&nbsp;String&nbsp;name,&nbsp;final&nbsp;String&nbsp;defaultContent,&nbsp;final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters,&nbsp;final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;orderParameters, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParameters,&nbsp;final&nbsp;TargetCallback&lt;String&gt;&nbsp;callback)
+**Example:**
 
-     </codeblock> </p> <p> <b>Example:</b> </p> <p> 
-     <codeblock class="syntax java">
-       Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-      
-profileParameters.put(“profile-parameter-key”,&nbsp;“profile-parameter-value”);
+```
+Target.loadRequest(heroBannerRequest, new Target.TargetCallback<String>() {  @Override  public void call(String item) {   // do something with item  } });
+```
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;orderParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-      
-orderParameters.put(“order-parameter-key”,&nbsp;“order-parameter-value”);
+**Syntax:**
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-      
-mboxParameters.put(“mbox-parameter-key”,&nbsp;“mbox-parameter-value”); 
-      
-Target.loadRequest(“mboxName”,&nbsp;“defaultContent”,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp; 
-      
-new&nbsp;TargetCallback&lt;String&gt;()&nbsp;{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;@Override 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;call&nbsp;(String&nbsp;item)&nbsp;{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log.d(“Target&nbsp;Content”,&nbsp;item);&nbsp; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;} 
-      
-});
+```java
+public static void loadRequest(final String name, final String defaultContent, final Map `<String, Object>` profileParameters, final Map `<String, Object>` orderParameters,
+                                final Map `<String, Object>` mboxParameters, final TargetCallback<String> callback)
+```
 
-     </codeblock> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>loadRequest </p> </td> 
-   <td colname="col2"> <p>Sends a request to your configured <span class="keyword"> Target </span> server and returns the string value of the offer that is generated in a <span class="codeph"> TargetCallback </span>. </p> <p><b>Syntax:</b> </p> <p> 
-     <codeblock class="syntax java">
-       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;loadRequest(final&amp;nbsp;String&amp;nbsp;name,&amp;nbsp;final&amp;nbsp;String&amp;nbsp;defaultContent,&amp;nbsp;final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;profileParameters,&amp;nbsp;final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;orderParameters,&amp;nbsp;final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;mboxParameters,&amp;nbsp;final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;requestLocationParameters,&amp;nbsp;final&amp;nbsp;TargetCallback&lt;String&gt;&amp;nbsp;callback); 
-     </codeblock> </p> <p><b>Returns: </b>N/A </p> <p><b>Parameters:</b> </p> <p> 
-     <table id="table_0CE7D4DE40464439A7D689E37D6B9D27">  
-     </table> </p> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Map&lt;String,&nbsp;Object&gt;&nbsp;profileParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-     
-profileParameters.put(“profile-parameter-key”,&nbsp;“profile-parameter-value”);
+**Example:**
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;orderParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-     
-orderParameters.put(“order-parameter-key”,&nbsp;“order-parameter-value”);
+```java
+Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”);
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;mboxParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-     
-mboxParameters.put(“mbox-parameter-key”,&nbsp;“mbox-parameter-value”);
+Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters,  new TargetCallback<String>() {
+       @Override     public void call (String item) {
+          Log.d(“Target Content”, item); 
+     } });
+```
 
-Map&lt;String,&nbsp;Object&gt;&nbsp;requestLocationParameters&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-     
-requestLocationParameters.put(“request-location-parameter-key”,&nbsp;“request-location-parameter-value”);
+### loadRequest
 
-Target.loadRequest(“mboxName”,&nbsp;“defaultContent”,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp;requestLocationParameters,new&nbsp;TargetCallback&lt;String&gt;()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;@Override 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;call&nbsp;(String&nbsp;item)&nbsp;{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log.d(“Target&nbsp;Content”,&nbsp;item);&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-}); 
-    </codeblock> <p>For more information about the underlying Target API, see <a href="https://docs.adobe.com/dev/products/target/reference/delivery.html" format="html" scope="external"> Delivery </a> in the Target Developer's help. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>createOrder​ConfirmRequest </p> </td> 
-   <td colname="col2"> <p>Creates a <span class="codeph"> TargetLocationRequest </span> object with the given parameters. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;TargetLocationRequest&amp;nbsp;createOrderConfirmRequest(String&amp;nbsp;name,&amp;nbsp;String&amp;nbsp;orderId,&amp;nbsp;String&amp;nbsp;orderTotal,&amp;nbsp;String&amp;nbsp;productPurchasedId,&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;parameters); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      TargetLocationRequest&amp;nbsp;orderConfirm&amp;nbsp;=&amp;nbsp;Target.createOrderConfirmRequest("orderConfirm",&amp;nbsp;"order",&amp;nbsp;"47.88",&amp;nbsp;"3722",&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>createRequest </p> </td> 
-   <td colname="col2"> <p>Creates a <span class="codeph"> TargetLocationRequest </span> object with the given parameters. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;TargetLocationRequest&amp;nbsp;createRequest(String&amp;nbsp;name,&amp;nbsp;String&amp;nbsp;defaultContent,&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;parameters); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      TargetLocationRequest&amp;nbsp;heroBannerRequest&amp;nbsp;=&amp;nbsp;Target.createRequest("heroBanner",&amp;nbsp;"default.png",&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>clearCookies </p> </td> 
-   <td colname="col2"> <p>Clears any target cookies from your app. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;clearCookies(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Target.clearCookies(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>getPcID </p> </td> 
-   <td colname="col2"> <p>Returns the pcID. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;String&amp;nbsp;getPcID(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Target.getPcID(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>getSessionID </p> </td> 
-   <td colname="col2"> <p>Returns the session ID. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;String&amp;nbsp;getSessionID(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Target.getSessionID(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>setThirdPartyID </p> </td> 
-   <td colname="col2"> <p> Sets the third-party ID. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;String&amp;nbsp;setThirdPartyID(final&amp;nbsp;String&amp;nbsp;thirdPartyId); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Target.setThirdPartyID(“third-party-id”); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>getThirdPartyID </p> </td> 
-   <td colname="col2"> <p> Returns the third-party ID. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;String&amp;nbsp;getThirdPartyID(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      String&amp;nbsp;thirdPartyId&amp;nbsp;=&amp;nbsp;Target.getThirdPartyID(); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Sends request to your configured Target server and returns the string value of the offer that is generated in a block callback .
 
+**Syntax:**
+
+```java
+public static void loadRequest(final String name, final String defaultContent, final Map `<String, Object>` profileParameters, final Map `<String, Object>` orderParameters, 
+                               final Map `<String, Object>` mboxParameters, final TargetCallback<String> callback)
+```
+
+**Example:**
+
+```java
+Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
+
+Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
+
+Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters,  new TargetCallback<String>() {     
+  
+   @Override 
+       public void call (String item) {
+             Log.d(“Target Content”, item);
+       } });
+```
+
+### loadRequest
+
+Sends a request to your configured Target server and returns the string value of the offer that is generated in a TargetCallback.
+
+**Syntax:**
+
+```java
+public static void loadRequest(final String name, final String defaultContent, final Map<String, Object> profileParameters, final Map<String, Object> orderParameters, final Map<String, Object> mboxParameters, final Map<String, Object> requestLocationParameters, final TargetCallback<String> callback);
+```
+
+**Returns:** N/A
+
+**Parameters:**
+
+|Name: |Description: |
+|--- |--- |
+|name|****Type:**** String<br>Name of the Target mbox/location that you want to retrieve.|
+|defaultContent|**Type:** String<br>Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.|
+|profileParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the "profileParameters" object in the request to Target.|
+|orderParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the "order" object in the request to Target.|
+|mboxParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the request to Target.|
+|requestLocationParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the "requestLocation" object in the request to Target.|
+|callback|**Type:** TargetCallback `<String>` <br>This method will be called with the content of the offer from the Target server. If the Target server is unreachable or the user does not qualify for the campaign, defaultContent will be returned.|
+
+**Example:**
+
+```java
+Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
+
+Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
+
+Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
+
+Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put(“request-location-parameter-key”, “request-location-parameter-value”); 
+
+Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
+       @Override 
+       public void call (String item) { 
+           Log.d(“Target Content”, item);
+       } });
+```
+
+For more information about the underlying Target API, see [Delivery](https://docs.adobe.com/dev/products/target/reference/delivery.html) in the Target Developer's help.
+
+### createOrder​ConfirmRequest
+
+Creates a TargetLocationRequest object with the given parameters.
+
+**Syntax:**
+
+```java
+public static TargetLocationRequest createOrderConfirmRequest(String name, String orderId, String orderTotal, String productPurchasedId, Map<String, Object> parameters);
+```
+
+**Example:**
+
+```
+TargetLocationRequest orderConfirm = Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null);
+```
+
+### createRequest
+
+```
+Creates a TargetLocationRequest object with the given parameters.
+```
+
+**Syntax:**
+
+```
+public static TargetLocationRequest createRequest(String name, String defaultContent, Map<String, Object> parameters);
+```
+
+**Example:**
+
+```
+TargetLocationRequest heroBannerRequest = Target.createRequest("heroBanner", "default.png", null);
+```
+
+### clearCookies
+
+```
+Clears any target cookies from your app.
+```
+
+**Syntax:**
+
+```
+public static void clearCookies();
+```
+
+**Example:**
+
+```
+Target.clearCookies();
+```
+
+### getPcID
+
+Returns the pcID.
+
+**Syntax:**
+
+```
+public static String getPcID();
+```
+
+**Example:**
+
+```
+Target.getPcID();
+```
+
+### getSessionID
+
+Returns the session ID.
+
+**Syntax:**
+
+```
+public static String getSessionID();
+```
+
+**Example:**
+
+```
+Target.getSessionID();
+```
+
+### setThirdPartyID
+
+Sets the third-party ID.
+
+**Syntax:**
+
+```
+public static String setThirdPartyID(final String thirdPartyId);
+```
+
+**Example:**
+
+```
+Target.setThirdPartyID(“third-party-id”);
+```
+
+### getThirdPartyID
+
+Returns the third-party ID.
+
+**Syntax:**
+
+```
+public static String getThirdPartyID();
+```
+
+**Example:**
+
+```
+String thirdPartyId = Target.getThirdPartyID();
+```
