@@ -55,7 +55,9 @@ NSString *const ADBTargetParameterMboxHost;
 >
 >* If you are using SDKs version 4.14.0 **or after**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
 
-### targetLoadRequest:​callback:
+### targetLoadRequest:​callback
+
+`targetLoadRequest:​callback:`
 
 Sends request to your configured Target server and returns the string value of the offer that is generated in a block `callback`.
 
@@ -206,7 +208,9 @@ Returns the third-party ID.
 NSString \*thirdPartyId = \[ADBMobile targetThirdPartyID\];
 ```
 
-### targetSetThirdPartyID:
+### targetSetThirdPartyID
+
+`targetSetThirdPartyID:`
 
 Sets the third-party ID.
 
