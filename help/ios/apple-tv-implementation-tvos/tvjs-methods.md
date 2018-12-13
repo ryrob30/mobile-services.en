@@ -61,7 +61,7 @@ If offline tracking is not enabled, hits are discarded until the privacy status 
 * **Returns**: N/A
 * **Parameters**:
 
-  `privacyStatus`	
+  `privacyStatus`
 
   * Type: ADBMobilePrivacyStatus
   * New privacy status for this user.
@@ -137,7 +137,7 @@ Sets the debug logging preference.
 * **Returns**: N/A
 * **Parameters**:
 
-  `logging`	
+  `logging`
 
   * Type: Bool
   * Value indicating whether the Adobe SDK should log to the debug console.
@@ -160,7 +160,7 @@ If the state is empty, it displays as app name app version (build) in reports. I
 * **Returns**: N/A
 * **Parameters**:
 
-  `stateName`	
+  `stateName`
 
   * Type: String
   * Page state name.
@@ -180,7 +180,7 @@ Tracks an action in your app. Actions are the things that happen in your app tha
 * **Returns**: N/A
 * **Parameters**:
 
-  `actionName`	
+  `actionName`
 
   * Type: String
   * Name of the action being tracked.
@@ -202,17 +202,17 @@ Also uses points of interest (POI) that are defined in the ADBMobileConfig.json 
 * **Returns**: N/A
 * **Parameters**:
 
- `lat`	
+ `lat`
 
   * Type: Number
   * Latitude of the location.
 
- `lon`	
+ `lon`
 
   * Type: Number
   * Longitude of the location.
 
- `contextData`	
+ `contextData`
 
   * Type: Object
   * Additional context data for this hit.
@@ -248,7 +248,7 @@ If you call this method for an action that has already started, the previous tim
 * **Returns**: N/A
 * **Parameters**:
   
-  `name`	
+  `name`
 
   * Type: String
   * Name of the timed action being started.
@@ -279,7 +279,7 @@ The data passed in is appended to the existing data for the given action, and if
   * Type: String
   * Name of the timed action being updated.
 
-  `contextData`	
+  `contextData`
 
   * Type: Object
   * Additional context data for this hit.
@@ -325,7 +325,7 @@ Returns whether a timed action is in progress.
 * **Returns**: Bool
 * **Parameters**:
   
-  `name`	
+  `name`
 
   * Type: String
   * Name of the timed action to check existence of.
@@ -512,7 +512,7 @@ Synchronizes the provided identifiers to the ID service.
 
   Identifiers to sync to the ID service for this user.
 
-  `authState`	
+  `authState`
 
   Type: ADBMobileVisitorAuthenticationState
 
@@ -534,17 +534,17 @@ Synchronizes the provided identifier type and value to the ID service.
 * **Returns**: N/A
 * **Parameters**:
   
-  `idType`	
+  `idType`
 
   Type: String
   Type of identifier you are syncing.
 
-  `identifier`	
+  `identifier`
 
   Type: String
   Value of the identifier you are syncing.
 
-  `authState`	
+  `authState`
   
   Type: ADBMobileVisitorAuthenticationState
   Authentication state of the user. Possible values include:
