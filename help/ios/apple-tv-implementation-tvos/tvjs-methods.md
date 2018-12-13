@@ -263,7 +263,6 @@ This section contains the following information
       <li id="li_7845FA5C7D4F44BCA827EF4C3EE3FB45"> <p> <b>Example</b>: 
         <codeblock class="syntax c">
           ADBMobile.trackLifetimeValueIncreaseJsData(5);
-
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 

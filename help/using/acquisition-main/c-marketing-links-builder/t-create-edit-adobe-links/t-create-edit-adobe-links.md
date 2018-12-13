@@ -32,7 +32,7 @@ For more information about universal links and app links, see [Universal Links a
 
     * **Unique Tracking Code:**
 
-      (Required) Specify the desired tracking code or click ![](assets/icon_generate.png) to create a new tracking code. You can view reports that detail use of the tracking code. 
+      (Required) Specify the desired tracking code or click ![](assets/icon_generate.png) to create a new tracking code. You can view reports that detail use of the tracking code.
     
     * **Add Tracking Context Data:**
 
@@ -50,7 +50,7 @@ For more information about universal links and app links, see [Universal Links a
        <tbody> 
         <tr> 
         <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
-        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html#" format="dita" scope="local"> Processing Rules</a> in <i>Analytics Help</i>. </p> </td> 
+        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> Processing Rules</a> in <i>Analytics Help</i>. </p> </td> 
         </tr> 
         <tr> 
         <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 
