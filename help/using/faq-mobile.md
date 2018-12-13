@@ -67,7 +67,7 @@ Frequently asked questions and answers for Adobe Mobile Services and a general d
  <tbody> 
   <tr> 
    <td colname="col1"> What are Lifecycle Metrics? </td> 
-   <td colname="col2"> <p>Lifecycle Metrics are "out-of-the-box" metrics that are automatically collected when the SDK is first implemented in your app. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/metrics.html#concept_E1B46EBFAF0147BDB408F47453757167" format="dita" scope="local"> Lifecycle Metrics</a>. </p> </td> 
+   <td colname="col2"> <p>Lifecycle Metrics are "out-of-the-box" metrics that are automatically collected when the SDK is first implemented in your app. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/metrics.html#concept_E1B46EBFAF0147BDB408F47453757167" format="https" scope="external"> Lifecycle Metrics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> How can I troubleshoot processing rules? </td> 
