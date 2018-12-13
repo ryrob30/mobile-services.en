@@ -124,13 +124,7 @@ The same config file can be used for your app across multiple platforms:
    <td colname="col02"> 4.0 </td> 
    <td colname="col2"> <p>Each POI array holds the POI name, latitude, longitude, and radius (in meters) for the area of the point. The POI name can be any string. </p> <p>When a <span class="codeph"> trackLocation </span> call is sent, if the current coordinates are in a defined POI, a context data variable is populated and sent with the <span class="codeph"> trackLocation </span> call. </p> 
     <codeblock class="syntax javascript">
-      "poi"&nbsp;:&nbsp;[ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["san&nbsp;francisco",37.757144,-122.44812,7000], 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["santa&nbsp;cruz",36.972935,-122.01725,600] 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] 
+      "poi"&nbsp;:&nbsp;[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["san&nbsp;francisco",37.757144,-122.44812,7000],&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["santa&nbsp;cruz",36.972935,-122.01725,600]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] 
     </codeblock> <p>Tip:  Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires the <span class="codeph"> analytics.poi </span> setting: 
      <codeblock class="syntax javascript">
        “analytics.poi”:&amp;nbsp;“https://assets.adobedtm.com/…/yourfile.json”, 
@@ -141,17 +135,7 @@ The same config file can be used for your app across multiple platforms:
    <td colname="col02"> 4.6 </td> 
    <td colname="col2"> <p>The definition for the "callback" message template is shown below: </p> 
     <codeblock class="syntax javascript">
-      "payload":&nbsp;{ 
-     
-&nbsp;"templateurl":&nbsp;"",&nbsp;//&nbsp;required&nbsp;-&nbsp;will&nbsp;be&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent 
-     
-&nbsp;"templatebody":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;POST&nbsp;will&nbsp;be&nbsp;used&nbsp;as&nbsp;transport&nbsp;method.&nbsp;This&nbsp;is&nbsp;a&nbsp;base64&nbsp;encoded&nbsp;blob,&nbsp;which&nbsp;will&nbsp;be&nbsp;decoded&nbsp;and&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent. 
-     
-&nbsp;"contenttype":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;is&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;and&nbsp;POST&nbsp;type&nbsp;is&nbsp;selected&nbsp;this&nbsp;will&nbsp;be&nbsp;set&nbsp;as&nbsp;the&nbsp;Content-Type&nbsp;header.&nbsp;&nbsp;if&nbsp;this&nbsp;is&nbsp;not&nbsp;supplied&nbsp;for&nbsp;a&nbsp;POST&nbsp;request,&nbsp;the&nbsp;default&nbsp;will&nbsp;be&nbsp;"application/x-www-form-urlencoded" 
-     
-&nbsp;"timeout":&nbsp;0&nbsp;//&nbsp;optional&nbsp;-&nbsp;number&nbsp;of&nbsp;seconds&nbsp;to&nbsp;wait&nbsp;before&nbsp;timing&nbsp;out.&nbsp;&nbsp;Default&nbsp;is&nbsp;2. 
-     
-} 
+      "payload":&nbsp;{&nbsp;"templateurl":&nbsp;"",&nbsp;//&nbsp;required&nbsp;-&nbsp;will&nbsp;be&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent&nbsp;"templatebody":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;POST&nbsp;will&nbsp;be&nbsp;used&nbsp;as&nbsp;transport&nbsp;method.&nbsp;This&nbsp;is&nbsp;a&nbsp;base64&nbsp;encoded&nbsp;blob,&nbsp;which&nbsp;will&nbsp;be&nbsp;decoded&nbsp;and&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent.&nbsp;"contenttype":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;is&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;and&nbsp;POST&nbsp;type&nbsp;is&nbsp;selected&nbsp;this&nbsp;will&nbsp;be&nbsp;set&nbsp;as&nbsp;the&nbsp;Content-Type&nbsp;header.&nbsp;&nbsp;if&nbsp;this&nbsp;is&nbsp;not&nbsp;supplied&nbsp;for&nbsp;a&nbsp;POST&nbsp;request,&nbsp;the&nbsp;default&nbsp;will&nbsp;be&nbsp;"application/x-www-form-urlencoded"&nbsp;"timeout":&nbsp;0&nbsp;//&nbsp;optional&nbsp;-&nbsp;number&nbsp;of&nbsp;seconds&nbsp;to&nbsp;wait&nbsp;before&nbsp;timing&nbsp;out.&nbsp;&nbsp;Default&nbsp;is&nbsp;2.} 
     </codeblock> <p>The <span class="codeph"> payload </span> object in the code is an example payload for a message definition that would go in <span class="codeph"> ADBMobileConfig.json </span>. </p> <p>For more information, see the relevant topic: </p> <p> 
      <ul id="ul_2BA58784B6394C7491F701C56209C237"> 
       <li id="li_B47C5BE7B9A54DADAB38ADB58B7F5B2A"> <p><b>Android: </b> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/postbacks.html" format="https" scope="external"> Postbacks </a> </p> </li> 
@@ -208,17 +192,7 @@ The same config file can be used for your app across multiple platforms:
    <td colname="col02"> </td> 
    <td colname="col2"> <p>The definition for the "callback" message template is shown below: </p> 
     <codeblock class="syntax javascript">
-      "payload":&nbsp;{ 
-     
-&nbsp;"templateurl":&nbsp;"",&nbsp;//&nbsp;required&nbsp;-&nbsp;will&nbsp;be&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent 
-     
-&nbsp;"templatebody":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;POST&nbsp;will&nbsp;be&nbsp;used&nbsp;as&nbsp;transport&nbsp;method.&nbsp;This&nbsp;is&nbsp;a&nbsp;base64&nbsp;encoded&nbsp;blob,&nbsp;which&nbsp;will&nbsp;be&nbsp;decoded&nbsp;and&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent. 
-     
-&nbsp;"contenttype":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;is&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;and&nbsp;POST&nbsp;type&nbsp;is&nbsp;selected&nbsp;this&nbsp;will&nbsp;be&nbsp;set&nbsp;as&nbsp;the&nbsp;Content-Type&nbsp;header.&nbsp;&nbsp;if&nbsp;this&nbsp;is&nbsp;not&nbsp;supplied&nbsp;for&nbsp;a&nbsp;POST&nbsp;request,&nbsp;the&nbsp;default&nbsp;will&nbsp;be&nbsp;"application/x-www-form-urlencoded" 
-     
-&nbsp;"timeout":&nbsp;0&nbsp;//&nbsp;optional&nbsp;-&nbsp;number&nbsp;of&nbsp;seconds&nbsp;to&nbsp;wait&nbsp;before&nbsp;timing&nbsp;out.&nbsp;&nbsp;Default&nbsp;is&nbsp;2. 
-     
-} 
+      "payload":&nbsp;{&nbsp;"templateurl":&nbsp;"",&nbsp;//&nbsp;required&nbsp;-&nbsp;will&nbsp;be&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent&nbsp;"templatebody":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;POST&nbsp;will&nbsp;be&nbsp;used&nbsp;as&nbsp;transport&nbsp;method.&nbsp;This&nbsp;is&nbsp;a&nbsp;base64&nbsp;encoded&nbsp;blob,&nbsp;which&nbsp;will&nbsp;be&nbsp;decoded&nbsp;and&nbsp;token-expanded&nbsp;prior&nbsp;to&nbsp;being&nbsp;sent.&nbsp;"contenttype":&nbsp;"",&nbsp;//&nbsp;optional&nbsp;-&nbsp;if&nbsp;this&nbsp;is&nbsp;length&nbsp;&gt;&nbsp;0&nbsp;and&nbsp;POST&nbsp;type&nbsp;is&nbsp;selected&nbsp;this&nbsp;will&nbsp;be&nbsp;set&nbsp;as&nbsp;the&nbsp;Content-Type&nbsp;header.&nbsp;&nbsp;if&nbsp;this&nbsp;is&nbsp;not&nbsp;supplied&nbsp;for&nbsp;a&nbsp;POST&nbsp;request,&nbsp;the&nbsp;default&nbsp;will&nbsp;be&nbsp;"application/x-www-form-urlencoded"&nbsp;"timeout":&nbsp;0&nbsp;//&nbsp;optional&nbsp;-&nbsp;number&nbsp;of&nbsp;seconds&nbsp;to&nbsp;wait&nbsp;before&nbsp;timing&nbsp;out.&nbsp;&nbsp;Default&nbsp;is&nbsp;2.} 
     </codeblock> <p>The <span class="codeph"> payload </span> object in the code is an sample payload for a message definition that goes in <span class="codeph"> ADBMobileConfig.json </span>. </p> <p>For more information, see the relevant topic: </p> <p> 
      <ul id="ul_25ED1943265846009B9C2BA31C75C3FB"> 
       <li id="li_11BF64056A26429A97F36CB62DDB79F2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/postbacks.html" format="https" scope="external"> Postbacks </a> (Android) </p> </li> 
@@ -318,19 +292,16 @@ The messages node is generated automatically by Adobe Mobile services and typica
 * "payload"
 
     * "html" 
-    *
 
         * fullscreen template only, required 
         * html defining the message
 
     * "image" 
-    *
 
         * fullscreen only, optional 
         * url to the image to be used for a fullscreen image
 
     * "altImage" 
-    *
 
         * fullscreen only, optional 
         * name of the bundled image to use if the url specified in
@@ -340,37 +311,31 @@ The messages node is generated automatically by Adobe Mobile services and typica
           is unreachable
 
     * "title" 
-    *
 
         * fullscreen and alert, required 
         * title text for a fullscreen or alert message
 
     * "content" 
-    *
 
         * alert and local notification, required 
         * sub-text for an alert message, or notification text for a local notification message
 
     * "confirm" 
-    *
 
         * alert, optional 
         * text used in the confirm button
 
     * "cancel" 
-    *
 
         * alert, required 
         * text used in the cancel button
 
     * "url" 
-    *
 
         * alert, optional 
         * url action to load if the confirm button is clicked
 
     * "wait" 
-    *
 
         * local notification, required 
         * amount of time to wait (in seconds) to post the local notification after matching its criteria
@@ -380,7 +345,6 @@ The messages node is generated automatically by Adobe Mobile services and typica
     * true or false 
     * default is false
 
-* 
 * "showRule"
 
     * "always", "once", or "untilClick" 
@@ -408,20 +372,18 @@ The messages node is generated automatically by Adobe Mobile services and typica
 
       Type of matcher used when doing the comparison
 
-        *
-
-            * eq = equals 
-            * ne = does not equal 
-            * co = contains 
-            * nc = does not contain 
-            * sw = starts with 
-            * ew = ends with 
-            * ex = exists 
-            * nx = does not exist 
-            * lt = less than 
-            * le = less than or equals 
-            * gt = greater than 
-            * ge = greater than or equals
+        * eq = equals 
+        * ne = does not equal 
+        * co = contains 
+        * nc = does not contain 
+        * sw = starts with 
+        * ew = ends with 
+        * ex = exists 
+        * nx = does not exist 
+        * lt = less than 
+        * le = less than or equals 
+        * gt = greater than 
+        * ge = greater than or equals
 
     * "values"
 
@@ -438,4 +400,3 @@ The messages node is generated automatically by Adobe Mobile services and typica
     * "key" 
     * "matches" 
     * "values"
-
