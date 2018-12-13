@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Event Serialization{#event-serialization}
+# Event Serialization {#event-serialization}
 
 Event serialization is not supported by processing rules. In the Mobile SDK, you must use a special syntax in the context data parameter to set serialized events directly on the server call.
 

@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Hit Batching{#hit-batching}
+# Hit Batching {#hit-batching}
 
 Hit batching allows applications to hold hits from being sent until the number of hits in the queue have exceeded the configured limit.
 

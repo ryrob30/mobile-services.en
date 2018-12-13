@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Migrating to the Android 4.x Library{#migrating-to-the-android-x-library}
+# Migrating to the Android 4.x Library {#migrating-to-the-android-x-library}
 
 This information helps you migrate from the 3.x or 2.x version of the Android library to version 4.x.
 
@@ -247,7 +247,7 @@ Processing rules provide the following advantages:
 
 Values that you were assigning directly to variables should be added to the `data` HashMap. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should be removed and the values be added to the `data` parameter.
 
-**AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables **
+**AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables**
 
 Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` HashMap. The only data that is sent with a `trackState` or `trackAction` call is the payload in the `data` parameter.
 
@@ -293,7 +293,7 @@ For more information about the products variable, see [Products Variable](../ana
 
 ## Test the Migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
 
-After you complete the migration, for more information about inspecting the data that is being sent by the Mobile SDK, see [Using Bloodhound to Test Mobile Applications](../bloodhound.md#concept_20BC9E1C41F24A98BF862CF57DD608DA) .
+After you complete the migration, for more information about inspecting the data that is being sent by the Mobile SDK, see [Using Bloodhound to Test Mobile Applications](../bloodhound.md#concept_20BC9E1C41F24A98BF862CF57DD608DA).
 
 >[!IMPORTANT]
 >

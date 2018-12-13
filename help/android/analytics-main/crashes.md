@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Track App Crashes{#track-app-crashes}
+# Track App Crashes {#track-app-crashes}
 
 This information helps you understand how crashes are tracked and the best practices to handle false crashes.
 

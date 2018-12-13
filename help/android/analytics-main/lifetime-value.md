@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Visitor Lifetime Value{#visitor-lifetime-value}
+# Visitor Lifetime Value {#visitor-lifetime-value}
 
 The lifetime value allows you to measure and target on a lifetime value for each Android user. The value can be used to store lifetime purchases, ad views, video completes, social shares, photo uploads, and so on.
 

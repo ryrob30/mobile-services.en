@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Override the ADBMobile JSON Config Path{#override-the-adbmobile-json-config-path}
+# Override the ADBMobile JSON Config Path {#override-the-adbmobile-json-config-path}
 
 You can load a different ADBMobile JSON config file when the application starts.
 

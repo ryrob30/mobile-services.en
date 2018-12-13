@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Core Implementation and Lifecycle{#core-implementation-and-lifecycle}
+# Core Implementation and Lifecycle {#core-implementation-and-lifecycle}
 
 This information helps you implement the Android library and collect lifecycle metrics, such as launches, upgrades, sessions, engaged users, and so on.
 

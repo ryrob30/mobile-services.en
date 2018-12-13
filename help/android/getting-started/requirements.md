@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Before You Start{#before-you-start}
+# Before You Start {#before-you-start}
 
 Before configuring a report suite and collecting Android app data, complete the following prerequisite tasks:
 

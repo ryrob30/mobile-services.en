@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# ADBMobile JSON Config{#adbmobile-json-config}
+# ADBMobile JSON Config {#adbmobile-json-config}
 
 This information helps you use the ADBMobile.json config file.
 

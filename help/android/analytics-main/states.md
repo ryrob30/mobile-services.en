@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Track App States{#track-app-states}
+# Track App States {#track-app-states}
 
 States are the different screens or views in your application.
 
