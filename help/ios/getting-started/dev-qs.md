@@ -15,12 +15,6 @@ snippet: y
 
 This information helps you implement the iOS library and collect lifecycle metrics, such as launches, upgrades, sessions, engaged users, and so on.
 
-This section contains the following information:
-
-* [Download the SDK](../getting-started/dev-qs.md#section_99FE1A17A36D4A2C943939023CF6265C) 
-* [Add the SDK and Config File to your Project](../getting-started/dev-qs.md#section_93C25D893B4A4CD3B996CF3C5590C8DC) 
-* [Implement Lifecycle Metrics](../getting-started/dev-qs.md#section_532702562A7A43809407C9A2CBA80E1E)
-
 ## Download the SDK {#section_99FE1A17A36D4A2C943939023CF6265C}
 
 >[!IMPORTANT]
@@ -75,68 +69,68 @@ This section contains the following information:
     1. Click on your app. 
     1. On the **[!UICONTROL General]** tab, select your targets and link the required frameworks and libraries in the **[!UICONTROL Linked Frameworks]** and **[!UICONTROL Libraries]** sections.
 
-    * **iOS App Targets **
+    * **iOS App Targets**
 
     <table id="table_E5E0850AD1594D2ABB92F4329E5626C1"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_C8E220AEF15145659DDCAE41CFC23929"> 
-     <li id="li_DFAC3B19E69F4EE4A4FE24F9D5DD4F2F"> <span class="filepath"> SystemConfiguration.framework </span> </li> 
-     <li id="li_DA0DF984C2694DCC848C85755603AA64"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
-     <li id="li_2E4C38802BE44121B5627BA33AE11BAB"> <span class="filepath"> AdobeMobileLibrary.a </span> </li> 
-    </ul> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_B08E0FF9AEC448DBB5F016F0042E4392" href="assets/step_5_ios.png" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> 
+        <ul id="ul_C8E220AEF15145659DDCAE41CFC23929"> 
+        <li id="li_DFAC3B19E69F4EE4A4FE24F9D5DD4F2F"> <span class="filepath"> SystemConfiguration.framework </span> </li> 
+        <li id="li_DA0DF984C2694DCC848C85755603AA64"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
+        <li id="li_2E4C38802BE44121B5627BA33AE11BAB"> <span class="filepath"> AdobeMobileLibrary.a </span> </li> 
+        </ul> </td> 
+    <td colname="col2"> <p style="text-align: center;"> <img id="image_B08E0FF9AEC448DBB5F016F0042E4392" href="assets/step_5_ios.png" /> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
-    * **iOS Extension Target **
+    * **iOS Extension Target**
 
     <table id="table_29E09B34E6864460B6F6F5D231F48113"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_4E9696FA12D64C9AA94747806956D7BE"> 
-     <li id="li_A49F5E211DCC4B54B52E3C454C088E9F"> <span class="filepath"> SystemConfiguration.framework </span> </li> 
-     <li id="li_57174162080A40B1969B2E53568F8684"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
-     <li id="li_62E5A48836FB4842B8E54CEFFE6C5D3A"> <span class="filepath"> AdobeMobileLibrary_Extension.a </span> </li> 
-    </ul> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_EB845DC5079F46769C97540A60B70B52" href="assets/step_5_extension.png" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> 
+        <ul id="ul_4E9696FA12D64C9AA94747806956D7BE"> 
+        <li id="li_A49F5E211DCC4B54B52E3C454C088E9F"> <span class="filepath"> SystemConfiguration.framework </span> </li> 
+        <li id="li_57174162080A40B1969B2E53568F8684"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
+        <li id="li_62E5A48836FB4842B8E54CEFFE6C5D3A"> <span class="filepath"> AdobeMobileLibrary_Extension.a </span> </li> 
+        </ul> </td> 
+    <td colname="col2"> <p style="text-align: center;"> <img id="image_EB845DC5079F46769C97540A60B70B52" href="assets/step_5_extension.png" /> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
-    * **Apple Watch (watchOS 2) Target **
+    * **Apple Watch (watchOS 2) Target**
 
     <table id="table_DC939D231FFC44B5B2A58AFC9500A1F2"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_DECC3162506A4897984997532A4E296C"> 
-     <li id="li_6314B1DC7B874EC9BAC797727B68C0BF"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
-     <li id="li_B2381BC7231342DFB6AADA58A0BE46B2"> <span class="filepath"> AdobeMobileLibrary_Watch.a </span> </li> 
-    </ul> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_41F42C5CE67A444BABC0DA9C4AE3FDF9" href="assets/step_5_watch.png" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> 
+        <ul id="ul_DECC3162506A4897984997532A4E296C"> 
+        <li id="li_6314B1DC7B874EC9BAC797727B68C0BF"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
+        <li id="li_B2381BC7231342DFB6AADA58A0BE46B2"> <span class="filepath"> AdobeMobileLibrary_Watch.a </span> </li> 
+        </ul> </td> 
+    <td colname="col2"> <p style="text-align: center;"> <img id="image_41F42C5CE67A444BABC0DA9C4AE3FDF9" href="assets/step_5_watch.png" /> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
-    * **Apple TV (tvOS) Target **
+    * **Apple TV (tvOS) Target**
 
     <table id="table_C2336EAA980E4A568A3F42C6A65CE5A1"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_0F4D1F67021349598461030E2B80BAFB"> 
-     <li id="li_68D05123271C43058C7980CFF2DDED0E"> <span class="filepath"> SystemConfiguration.framework </span> </li> 
-     <li id="li_DDEAC69C483A4BD397392B425FF78835"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
-     <li id="li_CB32A1A68642409586D01976CAECCEB9"> <span class="filepath"> AdobeMobileLibrary_TV.a </span> </li> 
-    </ul> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_619FC49CF3144384B3751A34EABEEBF5" href="assets/step_5_tv.png" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> 
+        <ul id="ul_0F4D1F67021349598461030E2B80BAFB"> 
+        <li id="li_68D05123271C43058C7980CFF2DDED0E"> <span class="filepath"> SystemConfiguration.framework </span> </li> 
+        <li id="li_DDEAC69C483A4BD397392B425FF78835"> <span class="filepath"> libsqlite3.0.tbd </span> </li> 
+        <li id="li_CB32A1A68642409586D01976CAECCEB9"> <span class="filepath"> AdobeMobileLibrary_TV.a </span> </li> 
+        </ul> </td> 
+    <td colname="col2"> <p style="text-align: center;"> <img id="image_619FC49CF3144384B3751A34EABEEBF5" href="assets/step_5_tv.png" /> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
    >[!CAUTION]
    >
@@ -190,4 +184,3 @@ Complete the following tasks:
 
 * [Track App States](../analytics-main/states.md#concept_580D3025776249AA9A7AD0724CA98B6A) 
 * [Track App Actions](../analytics-main/actions.md#concept_8927250075434D6DBEE7E63C89755D3F)
-
