@@ -104,8 +104,7 @@ Sends a request to your configured Target server and returns the string value of
 |name|**Type**: NSString * <br>Name of the Target mbox/location that you want to retrieve.|
 |defaultContent|**Type**: NSString * <br>Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.|
 |profileParameters|**Type**: NSDictionary * <br>Values in this dictionary will go in the "profileParameters" object in the request to Target.|
-|orderParameters|**Type**: NSDictionary * <br>Values in this dictionary will go in the
-  "order" object in the request to Target.|
+|orderParameters|**Type**: NSDictionary * <br>Values in this dictionary will go in the "order" object in the request to Target.|
 |mboxParameters|**Type**: NSDictionary * <br>Values in this dictionary will go in the "mboxParameters" object in the request to Target.|
 |requestLocationParameters|**Type**: NSDictionary * <br>Values in this dictionary will go in the "requestLocation" object in the request to Target.|
 |callback|**Type**: Function <br>This method will be called with the content of the offer from the Target server. If the Target server is unreachable, or the user does not qualify for the campaign, defaultContent will be returned.|
