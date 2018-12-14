@@ -90,22 +90,9 @@ If you completed all the requirements for In-App Messaging, but messages do not 
         </codeblock> </p> </li> 
       <li id="li_0D5CEE5CB91649FE84B988356DCB9761">Set up appropriate padding in the CSS for the top UI element such as: <p> 
         <codeblock class="syntax html">
-          topelement&nbsp;{ 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;padding-top:&nbsp;20px; 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;Status&nbsp;bar&nbsp;height&nbsp;on&nbsp;iOS&nbsp;11.0&nbsp;*/ 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;padding-top:&nbsp;constant(safe-area-inset-top); 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;Status&nbsp;bar&nbsp;height&nbsp;on&nbsp;iOS&nbsp;11+&nbsp;*/ 
-         
-&nbsp;&nbsp;&nbsp;&nbsp;padding-top:&nbsp;env(safe-area-inset-top); 
-         
-} 
+          topelement&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;padding-top:&nbsp;20px;&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;Status&nbsp;bar&nbsp;height&nbsp;on&nbsp;iOS&nbsp;11.0&nbsp;*/&nbsp;&nbsp;&nbsp;&nbsp;padding-top:&nbsp;constant(safe-area-inset-top);&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;Status&nbsp;bar&nbsp;height&nbsp;on&nbsp;iOS&nbsp;11+&nbsp;*/&nbsp;&nbsp;&nbsp;&nbsp;padding-top:&nbsp;env(safe-area-inset-top);} 
         </codeblock> </p> <p>These settings prevent the UI elements from colliding with the status bar. </p> </li> 
      </ol> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

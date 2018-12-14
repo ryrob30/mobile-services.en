@@ -26,37 +26,37 @@ To track marketing links, ensure that you meet the following prerequisites:
 
    The latest marketing link tracking functionality requires SDK version 4.9 or later. 
 
-<table id="table_D95AE8E7D20244D3B5AC868C16D5E325"> 
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"><b>SDK Version</b> </td> 
-   <td colspan="3"><b>Supported Functionality</b> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"><b><a href="../acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md#concept_CE753D8F0C10453C8F025CB84A6F9157" format="dita" scope="local"> Legacy Acquisition Builder</a></b> </td> 
-   <td colname="col3"><b><a href="../acquisition-main/c-marketing-links-builder/acquisition-link-manual.md#concept_2C88DD9CCD614B38ABDA9AD671F0AEF6" format="dita" scope="local"> Manual Links Building</a></b> </td> 
-   <td colname="col4"><b><a href="../acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md#concept_6EC4426B1AEE42EAAB06887B58C604B6" format="dita" scope="local"> Marketing Links Builder</a></b> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 4.1 to 4.5 </td> 
-   <td colname="col2"> Yes </td> 
-   <td colname="col3"> No </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 4.6 to 4.9 </td> 
-   <td colname="col2"> Yes </td> 
-   <td colname="col3"> Yes </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 4.9 or later </td> 
-   <td colname="col2"> Yes </td> 
-   <td colname="col3"> Yes </td> 
-   <td colname="col4"> Yes </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_D95AE8E7D20244D3B5AC868C16D5E325"> 
+    <tbody> 
+    <tr> 
+    <td colname="col1" morerows="1"><b>SDK Version</b> </td> 
+    <td colspan="3"><b>Supported Functionality</b> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col2"><b><a href="../acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md#concept_CE753D8F0C10453C8F025CB84A6F9157" format="dita" scope="local"> Legacy Acquisition Builder</a></b> </td> 
+    <td colname="col3"><b><a href="../acquisition-main/c-marketing-links-builder/acquisition-link-manual.md#concept_2C88DD9CCD614B38ABDA9AD671F0AEF6" format="dita" scope="local"> Manual Links Building</a></b> </td> 
+    <td colname="col4"><b><a href="../acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md#concept_6EC4426B1AEE42EAAB06887B58C604B6" format="dita" scope="local"> Marketing Links Builder</a></b> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> 4.1 to 4.5 </td> 
+    <td colname="col2"> Yes </td> 
+    <td colname="col3"> No </td> 
+    <td colname="col4"> No </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> 4.6 to 4.9 </td> 
+    <td colname="col2"> Yes </td> 
+    <td colname="col3"> Yes </td> 
+    <td colname="col4"> No </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> 4.9 or later </td> 
+    <td colname="col2"> Yes </td> 
+    <td colname="col3"> Yes </td> 
+    <td colname="col4"> Yes </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. **Enable SDK Acquisition Options**
 

@@ -34,9 +34,7 @@ Classes and methods provided by the Universal Windows Platform library.
       static&amp;nbsp;Platform::String&amp;nbsp;^GetVersion(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-var&nbsp;libVersion&nbsp;=&nbsp;ADB.Config.getVersion(); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;var&nbsp;libVersion&nbsp;=&nbsp;ADB.Config.getVersion(); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -51,26 +49,10 @@ var&nbsp;libVersion&nbsp;=&nbsp;ADB.Config.getVersion();
       static&amp;nbsp;Windows::Foundation::IAsyncOperation&lt;ADBMobilePrivacyStatus&gt;&amp;nbsp;^getPrivacyStatusAsync(); 
     </codeblock> 
     <codeblock class="syntax csharp">
-      public&nbsp;enum&nbsp;class&nbsp;ADBMobilePrivacyStatus&nbsp;:&nbsp;int&nbsp;{ 
-     
-&nbsp;ADBMobilePrivacyStatusOptIn&nbsp;=&nbsp;1, 
-     
-&nbsp;ADBMobilePrivacyStatusOptOut&nbsp;=&nbsp;2, 
-     
-&nbsp;ADBMobilePrivacyStatusUnknown&nbsp;=&nbsp;3 
-     
-}; 
+      public&nbsp;enum&nbsp;class&nbsp;ADBMobilePrivacyStatus&nbsp;:&nbsp;int&nbsp;{&nbsp;ADBMobilePrivacyStatusOptIn&nbsp;=&nbsp;1,&nbsp;ADBMobilePrivacyStatusOptOut&nbsp;=&nbsp;2,&nbsp;ADBMobilePrivacyStatusUnknown&nbsp;=&nbsp;3}; 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-var&nbsp;status; 
-     
-ADB.Config.getPrivacyStatusAsync.then(function(privacyStatus)&nbsp;{ 
-     
-status&nbsp;=&nbsp;privacyStatus; 
-     
-}); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;var&nbsp;status;ADB.Config.getPrivacyStatusAsync.then(function(privacyStatus)&nbsp;{status&nbsp;=&nbsp;privacyStatus;}); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -85,20 +67,10 @@ status&nbsp;=&nbsp;privacyStatus;
       static&amp;nbsp;void&amp;nbsp;SetPrivacyStatus(ADBMobilePrivacyStatus&amp;nbsp;status); 
     </codeblock> 
     <codeblock class="syntax csharp">
-      public&nbsp;enum&nbsp;class&nbsp;ADBMobilePrivacyStatus&nbsp;:&nbsp;int&nbsp;{ 
-     
-&nbsp;ADBMobilePrivacyStatusOptIn&nbsp;=&nbsp;1, 
-     
-&nbsp;ADBMobilePrivacyStatusOptOut&nbsp;=&nbsp;2, 
-     
-&nbsp;ADBMobilePrivacyStatusUnknown&nbsp;=&nbsp;3 
-     
-}; 
+      public&nbsp;enum&nbsp;class&nbsp;ADBMobilePrivacyStatus&nbsp;:&nbsp;int&nbsp;{&nbsp;ADBMobilePrivacyStatusOptIn&nbsp;=&nbsp;1,&nbsp;ADBMobilePrivacyStatusOptOut&nbsp;=&nbsp;2,&nbsp;ADBMobilePrivacyStatusUnknown&nbsp;=&nbsp;3}; 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-ADB.Config.setPrivacyStatus(ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOptIn); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;ADB.Config.setPrivacyStatus(ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOptIn); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -108,9 +80,7 @@ ADB.Config.setPrivacyStatus(ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOpt
       static&amp;nbsp;float&amp;nbsp;GetLifetimeValue(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-var&nbsp;ltv&nbsp;=&nbsp;ADB.Config.getLifetimeValue(); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;var&nbsp;ltv&nbsp;=&nbsp;ADB.Config.getLifetimeValue(); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -120,9 +90,7 @@ var&nbsp;ltv&nbsp;=&nbsp;ADB.Config.getLifetimeValue();
       static&amp;nbsp;Platform::String&amp;nbsp;^GetUserIdentifier(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax csharp">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-var&nbsp;userId&nbsp;=&nbsp;ADB.Config.getUserIdentifier(); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;var&nbsp;userId&nbsp;=&nbsp;ADB.Config.getUserIdentifier(); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -132,9 +100,7 @@ var&nbsp;userId&nbsp;=&nbsp;ADB.Config.getUserIdentifier();
       static&amp;nbsp;void&amp;nbsp;SetUserIdentifier(Platform::String&amp;nbsp;^userIdentifier); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-ADB.Config.setUserIdentifier("someUserId"); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;ADB.Config.setUserIdentifier("someUserId"); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -144,9 +110,7 @@ ADB.Config.setUserIdentifier("someUserId");
       static&amp;nbsp;bool&amp;nbsp;GetDebugLogging(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-var&nbsp;logging&nbsp;=&nbsp;ADB.Config.getDebugLogging(); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;var&nbsp;logging&nbsp;=&nbsp;ADB.Config.getDebugLogging(); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -156,9 +120,7 @@ var&nbsp;logging&nbsp;=&nbsp;ADB.Config.getDebugLogging();
       static&amp;nbsp;void&amp;nbsp;SetDebugLogging(bool&amp;nbsp;debugLogging); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-ADB.Config.setDebugLogging(true); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;ADB.Config.setDebugLogging(true); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -168,9 +130,7 @@ ADB.Config.setDebugLogging(true);
       static&amp;nbsp;void&amp;nbsp;CollectLifecycleData(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-ADB.Config.collectLifecycleData(); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;ADB.Config.collectLifecycleData(); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -180,11 +140,8 @@ ADB.Config.collectLifecycleData();
       static&amp;nbsp;void&amp;nbsp;PauseCollectingLifecycleData(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
-      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile; 
-     
-ADB.Config.pauseCollectingLifecycleData(); 
+      var&nbsp;ADB&nbsp;=&nbsp;ADBMobile;ADB.Config.pauseCollectingLifecycleData(); 
     </codeblock> </td> 
   </tr> 
  </tbody> 
 </table>
-

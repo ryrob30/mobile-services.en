@@ -193,7 +193,6 @@ This section contains the following information:
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax javascript">
       ADB.collectPII({'k1':'v1','k2':'v2','k3':'v3'},&nbsp;function&nbsp;(value)&nbsp;{&nbsp;alert('success');&nbsp;},function&nbsp;(value)&nbsp;{&nbsp;alert('fail');&nbsp;});
-
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -353,9 +352,7 @@ This section contains the following information:
       ADB.targetLoadRequest(success,&amp;nbsp;fail,&amp;nbsp;name,&amp;nbsp;defaultContent,&amp;nbsp;parameters); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
-      ADB.targetLoadRequest(function&nbsp;(value) 
-     
-{&nbsp;myTempVal&nbsp;=&nbsp;value;&nbsp;},&nbsp;function&nbsp;()&nbsp;{&nbsp;myTempVal&nbsp;=&nbsp;null;&nbsp;},&nbsp;'bannerOffer',&nbsp;'none',&nbsp;{'hp':'hp_val_new','hp.company':'adobe',&nbsp;'hp.val2':'hp_val2'}); 
+      ADB.targetLoadRequest(function&nbsp;(value){&nbsp;myTempVal&nbsp;=&nbsp;value;&nbsp;},&nbsp;function&nbsp;()&nbsp;{&nbsp;myTempVal&nbsp;=&nbsp;null;&nbsp;},&nbsp;'bannerOffer',&nbsp;'none',&nbsp;{'hp':'hp_val_new','hp.company':'adobe',&nbsp;'hp.val2':'hp_val2'}); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -365,17 +362,7 @@ This section contains the following information:
       ADB.targetLoadOrderConfirmRequest(success,&amp;nbsp;fail,&amp;nbsp;name,&amp;nbsp;orderId,&amp;nbsp;orderTotal,&amp;nbsp;productPurchaseId,&amp;nbsp;parameters); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
-      ADB.targetLoadRequest(function&nbsp;(value)&nbsp;{&nbsp;myTempVal&nbsp;=&nbsp;value;&nbsp;} 
-     
-,&nbsp;function&nbsp;() 
-     
-{&nbsp;myTempVal&nbsp;=&nbsp;null;&nbsp;} 
-     
-,&nbsp;'name',&nbsp;'orderId',&nbsp;'total',&nbsp;'purchaseId', 
-     
-{'hp':'hp_val_new','hp.company':'adobe',&nbsp;'hp.val2':'hp_val2'} 
-     
-); 
+      ADB.targetLoadRequest(function&nbsp;(value)&nbsp;{&nbsp;myTempVal&nbsp;=&nbsp;value;&nbsp;},&nbsp;function&nbsp;(){&nbsp;myTempVal&nbsp;=&nbsp;null;&nbsp;},&nbsp;'name',&nbsp;'orderId',&nbsp;'total',&nbsp;'purchaseId',{'hp':'hp_val_new','hp.company':'adobe',&nbsp;'hp.val2':'hp_val2'}); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -389,9 +376,7 @@ This section contains the following information:
    <td colname="col1"> <p> targetLoadRequestWithNameWithLocationParameters </p> </td> 
    <td colname="col2"> <p> Processes a <span class="keyword"> Target </span> service request. </p> <p><b>Syntax:</b> </p> 
     <codeblock class="syntax java">
-      ADB.targetLoadRequestWithNameWithLocationParameters(success,&nbsp;fail,&nbsp;name,&nbsp;defaultContent,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp;requestLocationParameters 
-     
-); 
+      ADB.targetLoadRequestWithNameWithLocationParameters(success,&nbsp;fail,&nbsp;name,&nbsp;defaultContent,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp;requestLocationParameters); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
       ADB.targetLoadRequestWithNameWithLocationParameters&amp;nbsp;(function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;alert('success');&amp;nbsp;},&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;},&amp;nbsp;'bannerOffer',&amp;nbsp;'none',&amp;nbsp;{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},&amp;nbsp;{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'}); 
@@ -401,9 +386,7 @@ This section contains the following information:
    <td colname="col1"> <p> targetLoadRequestWithName </p> </td> 
    <td colname="col2"> <p> Processes a <span class="keyword"> Target </span> service request. </p> <p><b>Syntax:</b> </p> 
     <codeblock class="syntax java">
-      ADB.targetLoadRequestWithRequestLocationParams(success,&nbsp;fail,&nbsp;name,&nbsp;defaultContent,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp;requestLocationParameters 
-     
-); 
+      ADB.targetLoadRequestWithRequestLocationParams(success,&nbsp;fail,&nbsp;name,&nbsp;defaultContent,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp;requestLocationParameters); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
       ADB.targetLoadRequestWithRequestLocationParams(function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;alert('success');&amp;nbsp;},&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;},&amp;nbsp;'bannerOffer',&amp;nbsp;'none',&amp;nbsp;{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},&amp;nbsp;{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'}); 
@@ -632,4 +615,3 @@ See [Configuration Methods](../configuration/sdk-methods.md#concept_41E8501BF751
   </tr> 
  </tbody> 
 </table>
-

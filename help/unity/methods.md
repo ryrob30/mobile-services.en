@@ -192,29 +192,7 @@ List of ADBMobile.cs methods for Unity applications.
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SubmitAdvertisingIdentifierTask(&amp;nbsp;SubmitAdIdCallable&amp;nbsp;task) 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      [MonoPInvokeCallback(typeof(SubmitAdIdCallable))] 
-     
-public&nbsp;static&nbsp;string&nbsp;HandleSubmitAdIdCallable() 
-     
-{ 
-     
-&nbsp;&nbsp;&nbsp;//&nbsp;Write&nbsp;Code&nbsp;to&nbsp;return&nbsp;Adid 
-     
-&nbsp;&nbsp;&nbsp;return&nbsp;@"GoogleAdid"; 
-     
-} 
-     
-&nbsp; 
-     
-void&nbsp;OnEnable()&nbsp; 
-     
-{ 
-     
-&nbsp;&nbsp;ADBMobile.SubmitAdvertisingIdentifierTask&nbsp;(HandleSubmitAdIdCallable); 
-     
-&nbsp;&nbsp;&nbsp;... 
-     
-} 
+      [MonoPInvokeCallback(typeof(SubmitAdIdCallable))]public&nbsp;static&nbsp;string&nbsp;HandleSubmitAdIdCallable(){&nbsp;&nbsp;&nbsp;//&nbsp;Write&nbsp;Code&nbsp;to&nbsp;return&nbsp;Adid&nbsp;&nbsp;&nbsp;return&nbsp;@"GoogleAdid";}&nbsp;void&nbsp;OnEnable()&nbsp;{&nbsp;&nbsp;ADBMobile.SubmitAdvertisingIdentifierTask&nbsp;(HandleSubmitAdIdCallable);&nbsp;&nbsp;&nbsp;...} 
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -247,13 +225,8 @@ void&nbsp;OnEnable()&nbsp;
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackState(string&amp;nbsp;state,&amp;nbsp;Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;contextData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;); 
-     
-contextData.Add&nbsp;("user",&nbsp;"jim"); 
-     
-ADBMobile.TrackState("title&nbsp;screen",&nbsp;contextData);
-
-    </codeblock> </td> 
+      var&nbsp;contextData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;);contextData.Add&nbsp;("user",&nbsp;"jim");ADBMobile.TrackState("title&nbsp;screen",&nbsp;contextData);
+    </codeblock> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> TrackAction </p> </td> 
@@ -332,12 +305,7 @@ ADBMobile.TrackState("title&nbsp;screen",&nbsp;contextData);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackTimedActionUpdate(string&amp;nbsp;action,&amp;nbsp;Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;contextData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;(); 
-     
-&nbsp;contextData.Add("checkpoint",&nbsp;"1:32"); 
-     
-&nbsp;ADBMobile.TrackTimedActionUpdate("level2",&nbsp;contextData);
-
+      var&nbsp;contextData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;();&nbsp;contextData.Add("checkpoint",&nbsp;"1:32");&nbsp;ADBMobile.TrackTimedActionUpdate("level2",&nbsp;contextData);
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -437,30 +405,10 @@ ADBMobile.TrackState("title&nbsp;screen",&nbsp;contextData);
    <td colname="col1"> <p> TargetLoadRequest </p> </td> 
    <td colname="col2"> <p> Sends a request to your configured Target server and returns the string value of the offer generated in a block callback. </p> <p> <b>Syntax:</b> </p> 
     <codeblock class="syntax c">
-      public&nbsp;static&nbsp;void&nbsp;TargetLoadRequest(string&nbsp;name,&nbsp;string&nbsp;defaultContent,&nbsp; 
-     
-Dictionary&lt;string,&nbsp;object&gt;&nbsp;profileParameters,&nbsp; 
-     
-Dictionary&lt;string,&nbsp;object&gt;&nbsp;orderParameters,&nbsp; 
-     
-Dictionary&lt;string,&nbsp;object&gt;&nbsp;mboxParameters,&nbsp; 
-     
-Dictionary&lt;string,&nbsp;object&gt;&nbsp;requestLocationParameters,&nbsp; 
-     
-&nbsp;AdobeTargetCallback&nbsp;callback); 
+      public&nbsp;static&nbsp;void&nbsp;TargetLoadRequest(string&nbsp;name,&nbsp;string&nbsp;defaultContent,&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;profileParameters,&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;orderParameters,&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;mboxParameters,&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;requestLocationParameters,&nbsp;&nbsp;AdobeTargetCallback&nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      [MonoPInvokeCallback(typeof(AdobeTargetCallback))] 
-     
-public&nbsp;static&nbsp;void&nbsp;HandleAdobeTargetCallback(string&nbsp;content)&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_targetContent&nbsp;=&nbsp;content; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-ADBMobile.TargetLoadRequest&nbsp;("unityTest",&nbsp;"someDefaultContent",&nbsp;null,&nbsp;null,&nbsp;null,&nbsp;null,&nbsp;HandleAdobeTargetCallback); 
+      [MonoPInvokeCallback(typeof(AdobeTargetCallback))]public&nbsp;static&nbsp;void&nbsp;HandleAdobeTargetCallback(string&nbsp;content)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_targetContent&nbsp;=&nbsp;content;&nbsp;&nbsp;&nbsp;&nbsp;}ADBMobile.TargetLoadRequest&nbsp;("unityTest",&nbsp;"someDefaultContent",&nbsp;null,&nbsp;null,&nbsp;null,&nbsp;null,&nbsp;HandleAdobeTargetCallback); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -533,11 +481,7 @@ ADBMobile.TargetLoadRequest&nbsp;("unityTest",&nbsp;"someDefaultContent",&nbsp;n
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;AcquisitionCampaignStartForApp(string&amp;nbsp;appID,&amp;nbsp;Dictionary&amp;nbsp;&lt;string,&amp;nbsp;object&gt;&amp;nbsp;data) 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;contextData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;(); 
-     
-contextData.Add&nbsp;("customKey",&nbsp;"Value"); 
-     
-ADBMobile.AcquisitionCampaignStartForApp&nbsp;("&nbsp;&nbsp;0652024f-adcd-49f9-9bd7-2552a4564d2f",&nbsp;contextData); 
+      var&nbsp;contextData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;();contextData.Add&nbsp;("customKey",&nbsp;"Value");ADBMobile.AcquisitionCampaignStartForApp&nbsp;("&nbsp;&nbsp;0652024f-adcd-49f9-9bd7-2552a4564d2f",&nbsp;contextData); 
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -560,23 +504,7 @@ ADBMobile.AcquisitionCampaignStartForApp&nbsp;("&nbsp;&nbsp;0652024f-adcd-49f9-9
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;AudienceSubmitSignal(Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;data,&amp;nbsp;AdobeAudienceManagerCallback&amp;nbsp;callback) 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      public&nbsp;static&nbsp;string&nbsp;_aamProfile&nbsp;=&nbsp;""; 
-     
-[MonoPInvokeCallback(typeof(AdobeAudienceManagerCallback))] 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;void&nbsp;HandleAdobeAudienceManagerCallback(string&nbsp;profile) 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_aamProfile&nbsp;=&nbsp;profile; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-var&nbsp;aamTraits&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;(); 
-     
-&nbsp;aamTraits.Add&nbsp;("trait",&nbsp;"b"); 
-     
-ADBMobile.AudienceSubmitSignal&nbsp;(traits,&nbsp;HandleAdobeAudienceManagerCallback); 
+      public&nbsp;static&nbsp;string&nbsp;_aamProfile&nbsp;=&nbsp;"";[MonoPInvokeCallback(typeof(AdobeAudienceManagerCallback))]&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;void&nbsp;HandleAdobeAudienceManagerCallback(string&nbsp;profile)&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_aamProfile&nbsp;=&nbsp;profile;&nbsp;&nbsp;&nbsp;&nbsp;}var&nbsp;aamTraits&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;();&nbsp;aamTraits.Add&nbsp;("trait",&nbsp;"b");ADBMobile.AudienceSubmitSignal&nbsp;(traits,&nbsp;HandleAdobeAudienceManagerCallback); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -586,9 +514,7 @@ ADBMobile.AudienceSubmitSignal&nbsp;(traits,&nbsp;HandleAdobeAudienceManagerCall
       public&amp;nbsp;Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;string&amp;nbsp;AudienceGetVistorProfile() 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;visitorProfile&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;(); 
-     
-visitorProfile&nbsp;=&nbsp;ADBMobile.AudienceGetVistorProfile&nbsp;(); 
+      var&nbsp;visitorProfile&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;();visitorProfile&nbsp;=&nbsp;ADBMobile.AudienceGetVistorProfile&nbsp;(); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -661,12 +587,7 @@ visitorProfile&nbsp;=&nbsp;ADBMobile.AudienceGetVistorProfile&nbsp;();
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;VisitorSyncIdentifiers(Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;identifiers); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;(); 
-     
-ids.Add&nbsp;("player1",&nbsp;"jimbob"); 
-     
-ADBMobile.VisitorSyncIdentifiers(ids);
-
+      var&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;();ids.Add&nbsp;("player1",&nbsp;"jimbob");ADBMobile.VisitorSyncIdentifiers(ids);
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -681,11 +602,7 @@ ADBMobile.VisitorSyncIdentifiers(ids);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;VisitorSyncIdentifiers(Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;identifier,&amp;nbsp;ADBMobileVisitorAuthenticationState&amp;nbsp;visitorState)&amp;nbsp; 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;identifiers&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;(); 
-     
-identifiers.Add&nbsp;("idType",&nbsp;"idValue"); 
-     
-ADBMobile.VisitorSyncIdentifiers&nbsp;(identifiers,ADBMobile.ADBMobileVisitorAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED); 
+      var&nbsp;identifiers&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;();identifiers.Add&nbsp;("idType",&nbsp;"idValue");ADBMobile.VisitorSyncIdentifiers&nbsp;(identifiers,ADBMobile.ADBMobileVisitorAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -743,11 +660,7 @@ ADBMobile.VisitorSyncIdentifiers&nbsp;(identifiers,ADBMobile.ADBMobileVisitorAut
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;CollectPII&amp;nbsp;(Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;data) 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;pii&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;(); 
-     
-pii.Add&nbsp;("PIIKey",&nbsp;"PIIValue"); 
-     
-ADBMobile.CollectPII&nbsp;(pii); 
+      var&nbsp;pii&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;object&gt;&nbsp;();pii.Add&nbsp;("PIIKey",&nbsp;"PIIValue");ADBMobile.CollectPII&nbsp;(pii); 
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -788,4 +701,3 @@ ADBMobileVisitorAuthenticationState
 * `VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN` 
 * `VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED` 
 * `VISITOR_ID_AUTHENTICATION_STATE_LOGGED_OUT`
-
