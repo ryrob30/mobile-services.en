@@ -44,9 +44,7 @@ The following tables provide information about the Android methods for Xamarin c
       public&amp;nbsp;static&amp;nbsp;Boolean&amp;nbsp;DebugLogging; 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      getter:&nbsp;&nbsp;var&nbsp;debuglog&nbsp;=&nbsp;Config.DebugLogging; 
-     
-setter:&nbsp;Config.DebugLogging&nbsp;=&nbsp;(Java.Lang.Boolean)true; 
+      getter:&nbsp;&nbsp;var&nbsp;debuglog&nbsp;=&nbsp;Config.DebugLogging;setter:&nbsp;Config.DebugLogging&nbsp;=&nbsp;(Java.Lang.Boolean)true; 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -66,9 +64,7 @@ setter:&nbsp;Config.DebugLogging&nbsp;=&nbsp;(Java.Lang.Boolean)true;
       public&amp;nbsp;static&amp;nbsp;MobilePrivacyStatus&amp;nbsp;PrivacyStatus; 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      getter:&nbsp;var&nbsp;privacyStatus&nbsp;=&nbsp;Config.PrivacyStatus; 
-     
-setter:&nbsp;Config.PrivacyStatus&nbsp;=&nbsp;MobilePrivacyStatus.MobilePrivacyStatusUnknown; 
+      getter:&nbsp;var&nbsp;privacyStatus&nbsp;=&nbsp;Config.PrivacyStatus;setter:&nbsp;Config.PrivacyStatus&nbsp;=&nbsp;MobilePrivacyStatus.MobilePrivacyStatusUnknown; 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -78,9 +74,7 @@ setter:&nbsp;Config.PrivacyStatus&nbsp;=&nbsp;MobilePrivacyStatus.MobilePrivacyS
       &amp;nbsp;public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;UserIdentifier(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      getter:&nbsp;var&nbsp;userId&nbsp;=&nbsp;Config.UserIdentifier; 
-     
-setter:&nbsp;Config.UserIdentifier&nbsp;=&nbsp;"imBatman"; 
+      getter:&nbsp;var&nbsp;userId&nbsp;=&nbsp;Config.UserIdentifier;setter:&nbsp;Config.UserIdentifier&nbsp;=&nbsp;"imBatman"; 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -120,11 +114,7 @@ setter:&nbsp;Config.UserIdentifier&nbsp;=&nbsp;"imBatman";
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;collectLifecycleData(Activity&amp;nbsp;activity,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;context)); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;context&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-context.Add&nbsp;("key",&nbsp;"value"); 
-     
-Config.CollectLifecycleData&nbsp;(this,&nbsp;context); 
+      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;context&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;();context.Add&nbsp;("key",&nbsp;"value");Config.CollectLifecycleData&nbsp;(this,&nbsp;context); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -134,9 +124,7 @@ Config.CollectLifecycleData&nbsp;(this,&nbsp;context);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;OverrideConfigStream&amp;nbsp;(Stream&amp;nbsp;strem); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Stream&nbsp;st1&nbsp;=&nbsp;Assets.Open&nbsp;("ADBMobileConfig-2.json"); 
-     
-Config.OverrideConfigStream&nbsp;(st1); 
+      Stream&nbsp;st1&nbsp;=&nbsp;Assets.Open&nbsp;("ADBMobileConfig-2.json");Config.OverrideConfigStream&nbsp;(st1); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -166,20 +154,7 @@ Config.OverrideConfigStream&nbsp;(st1);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SubmitAdvertisingIdentifierTask&amp;nbsp;(ICallable&amp;nbsp;task); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      class&nbsp;AdvertisingIdentifierTask:&nbsp;Java.Lang.Object,&nbsp;Java.Util.Concurrent.ICallable&nbsp; 
-     
-{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java.Lang.Object&nbsp;ICallable.Call() 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;“DeviceAdvertisingIdentifier”; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp; 
-     
-&nbsp;}&nbsp;
-
+      class&nbsp;AdvertisingIdentifierTask:&nbsp;Java.Lang.Object,&nbsp;Java.Util.Concurrent.ICallable&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java.Lang.Object&nbsp;ICallable.Call()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;“DeviceAdvertisingIdentifier”;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;}&nbsp;
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -199,22 +174,7 @@ Config.OverrideConfigStream&nbsp;(st1);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;RegisterAdobeDataCallback(Config.IAdobeDataCallback&amp;nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Config.RegisterAdobeDataCallback&nbsp;(new&nbsp;AdobeDataCallback());&nbsp; 
-     
-class&nbsp;AdobeDataCallback:&nbsp;Java.Lang.Object,&nbsp;Config.IAdobeDataCallback 
-     
-{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;Java.Lang.Object&nbsp;Call&nbsp;(Config.MobileDataEvent&nbsp;event,&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;contextData) 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;your&nbsp;code&nbsp;here&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp; 
-     
-}
-
+      Config.RegisterAdobeDataCallback&nbsp;(new&nbsp;AdobeDataCallback());&nbsp;class&nbsp;AdobeDataCallback:&nbsp;Java.Lang.Object,&nbsp;Config.IAdobeDataCallback{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;Java.Lang.Object&nbsp;Call&nbsp;(Config.MobileDataEvent&nbsp;event,&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;contextData)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;your&nbsp;code&nbsp;here&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;}
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -257,11 +217,7 @@ class&nbsp;AdobeDataCallback:&nbsp;Java.Lang.Object,&nbsp;Config.IAdobeDataCallb
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackState&amp;nbsp;(string&amp;nbsp;state,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;cdata&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value"); 
-     
-Analytics.TrackState&nbsp;("stateName",&nbsp;(IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;)cdata); 
+      var&nbsp;cdata&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;();cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value");Analytics.TrackState&nbsp;("stateName",&nbsp;(IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;)cdata); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -271,11 +227,7 @@ Analytics.TrackState&nbsp;("stateName",&nbsp;(IDictionary&lt;string,&nbsp;Java.L
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackAction(string&amp;nbsp;action,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;cdata&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value"); 
-     
-Analytics.TrackAction&nbsp;("actionName",&nbsp;(IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;)cdata); 
+      var&nbsp;cdata&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;();cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value");Analytics.TrackAction&nbsp;("actionName",&nbsp;(IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;)cdata); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -285,15 +237,7 @@ Analytics.TrackAction&nbsp;("actionName",&nbsp;(IDictionary&lt;string,&nbsp;Java
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackLocation(Location&amp;nbsp;location,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Location&nbsp;loc&nbsp;=&nbsp;new&nbsp;Location(LocationManager.GpsProvider);; 
-     
-loc.Latitude&nbsp;=&nbsp;111; 
-     
-loc.Longitude&nbsp;=&nbsp;44; 
-     
-loc.Accuracy&nbsp;=&nbsp;5; 
-     
-Analytics.TrackLocation&nbsp;(loc,&nbsp;null); 
+      Location&nbsp;loc&nbsp;=&nbsp;new&nbsp;Location(LocationManager.GpsProvider);;loc.Latitude&nbsp;=&nbsp;111;loc.Longitude&nbsp;=&nbsp;44;loc.Accuracy&nbsp;=&nbsp;5;Analytics.TrackLocation&nbsp;(loc,&nbsp;null); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -303,7 +247,7 @@ Analytics.TrackLocation&nbsp;(loc,&nbsp;null);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackBeacon&amp;nbsp;(string&amp;nbsp;uuid,&amp;nbsp;string&amp;nbsp;major,&amp;nbsp;string&amp;nbsp;minor,&amp;nbsp;Analytics.BEACON_PROXIMITY&amp;nbsp;prox,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Analytics.TrackBeacon&amp;nbsp;("UUID",&amp;nbsp;"1",&amp;nbsp;"2",&amp;nbsp;Analytics.BEACON_PROXIMITY.ProximityImmediate,&amp;nbsp;null); 
+      Analytics.TrackBeacon&amp;nbsp;("UUID",&amp;nbsp;"1",&amp;nbsp;"2",&amp;nbsp;Analytics.BEACON_PROXIMITY.ProximityImmediate,&amp;nbsp;null);
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -343,11 +287,7 @@ Analytics.TrackLocation&nbsp;(loc,&nbsp;null);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackTimedActionUpdate(string&amp;nbsp;action,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      var&nbsp;updatedData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value"); 
-     
-&nbsp;Analytics.TrackTimedActionUpdate("level2",&nbsp;updatedData); 
+      var&nbsp;updatedData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;();cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value");&nbsp;Analytics.TrackTimedActionUpdate("level2",&nbsp;updatedData); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -357,17 +297,7 @@ cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value");
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackTimedActionEnd(string&amp;nbsp;action,&amp;nbsp;&amp;nbsp;Analytics.ITimedActionBlock&amp;nbsp;block); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Analytics.TrackTimedActionEnd&nbsp;("level2",&nbsp;new&nbsp;TimedActionBlock()); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;TimedActionBlock:&nbsp;Java.Lang.Object,&nbsp;Analytics.ITimedActionBlock{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;Java.Lang.Object&nbsp;Call&nbsp;(long&nbsp;inAppDuration,&nbsp;long&nbsp;totalDuration,&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;contextData){ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;Java.Lang.Boolean.True; 
-     
-&nbsp;&nbsp;} 
-     
-} 
+      Analytics.TrackTimedActionEnd&nbsp;("level2",&nbsp;new&nbsp;TimedActionBlock());&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;TimedActionBlock:&nbsp;Java.Lang.Object,&nbsp;Analytics.ITimedActionBlock{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;Java.Lang.Object&nbsp;Call&nbsp;(long&nbsp;inAppDuration,&nbsp;long&nbsp;totalDuration,&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;contextData){&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;Java.Lang.Boolean.True;&nbsp;&nbsp;}} 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -430,12 +360,7 @@ cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value");
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;CampaignStartForApp&amp;nbsp;(string&amp;nbsp;appId,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;data); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;data&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-data.Add("key2",&nbsp;"val2"); 
-     
-Acquisition.CampaignStartForApp("com.mycompany.myapp",&nbsp;data);&nbsp;
-
+      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;data&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();data.Add("key2",&nbsp;"val2");Acquisition.CampaignStartForApp("com.mycompany.myapp",&nbsp;data);&nbsp;
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -468,44 +393,27 @@ Acquisition.CampaignStartForApp("com.mycompany.myapp",&nbsp;data);&nbsp;
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SyncIdentifiers((IDictionary&lt;string,&amp;nbsp;string&gt;&amp;nbsp;identifiers); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;string&gt;&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;(); 
-     
-ids.Add&nbsp;("pushID",&nbsp;"value2"); 
-     
-Visitor.SyncIdentifiers&nbsp;(ids); 
+      IDictionary&lt;string,&nbsp;string&gt;&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;();ids.Add&nbsp;("pushID",&nbsp;"value2");Visitor.SyncIdentifiers&nbsp;(ids); 
     </codeblock> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> SyncIdentifier </p> </td> 
    <td colname="col2"> <p> Synchronizes the provided identifier type and value to the Visitor ID service. </p> <p> <b>Syntax:</b> </p> 
     <codeblock class="syntax c">
-      public&nbsp;static&nbsp;void&nbsp;SyncIdentifier&nbsp;(string&nbsp;identifierType,&nbsp; 
-     
-string&nbsp;identifier,&nbsp;VisitorID.VisitorIDAuthenticationState&nbsp;authenticationState);&nbsp;
-
+      public&nbsp;static&nbsp;void&nbsp;SyncIdentifier&nbsp;(string&nbsp;identifierType,&nbsp;string&nbsp;identifier,&nbsp;VisitorID.VisitorIDAuthenticationState&nbsp;authenticationState);&nbsp;
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Visitor.SyncIdentifier("idType",&nbsp; 
-     
-"identifier",&nbsp;VisitorID.VisitorIDAuthenticationState.VisitorIdAuthenticationStateAuthenticated);&nbsp;
-
+      Visitor.SyncIdentifier("idType",&nbsp;"identifier",&nbsp;VisitorID.VisitorIDAuthenticationState.VisitorIdAuthenticationStateAuthenticated);&nbsp;
     </codeblock> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> SyncIdentifiers </p> </td> 
    <td colname="col2"> <p> Synchronizes the provided identifier type and value to the Visitor ID service </p> <p> <b>Syntax:</b> </p> 
     <codeblock class="syntax c">
-      public&nbsp;static&nbsp;void&nbsp;SyncIdentifiers&nbsp;(IDictionary&lt;string,&nbsp;string&gt;&nbsp;identifiers, 
-     
-VisitorID.VisitorIDAuthenticationState&nbsp;authenticationState); 
+      public&nbsp;static&nbsp;void&nbsp;SyncIdentifiers&nbsp;(IDictionary&lt;string,&nbsp;string&gt;&nbsp;identifiers,VisitorID.VisitorIDAuthenticationState&nbsp;authenticationState); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;string&gt;&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;();&nbsp; 
-     
-ids.Add&nbsp;("pushID",&nbsp;"value2");&nbsp; 
-     
-Visitor.SyncIdentifiers&nbsp;(ids,&nbsp;VisitorID.VisitorIDAuthenticationState.VisitorIdAuthenticationStateAuthenticated);
-
+      IDictionary&lt;string,&nbsp;string&gt;&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;();&nbsp;ids.Add&nbsp;("pushID",&nbsp;"value2");&nbsp;Visitor.SyncIdentifiers&nbsp;(ids,&nbsp;VisitorID.VisitorIDAuthenticationState.VisitorIdAuthenticationStateAuthenticated);
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -525,10 +433,7 @@ Visitor.SyncIdentifiers&nbsp;(ids,&nbsp;VisitorID.VisitorIDAuthenticationState.V
       public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;AppendToURL&amp;nbsp;(string&amp;nbsp;url); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      string&nbsp;myURL&nbsp;=&nbsp;“someurl.com”; 
-     
-string&nbsp;urlWithVisitorIds&nbsp;=&nbsp;Visitor.AppendToURL(myURL);
-
+      string&nbsp;myURL&nbsp;=&nbsp;“someurl.com”;string&nbsp;urlWithVisitorIds&nbsp;=&nbsp;Visitor.AppendToURL(myURL);
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -551,21 +456,7 @@ string&nbsp;urlWithVisitorIds&nbsp;=&nbsp;Visitor.AppendToURL(myURL);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;LoadRequest&amp;nbsp;(TargetLocationRequest&amp;nbsp;request,&amp;nbsp;Target.ITargetCallback&amp;nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content) 
-     
-&nbsp;&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString()); 
-     
-&nbsp;&nbsp;} 
-     
-} 
-     
-var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal",&nbsp;parameters); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Target.LoadRequest&nbsp;(req,&nbsp;new&nbsp;TargetBlock()); 
+      class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback{&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content)&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString());&nbsp;&nbsp;}}var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal",&nbsp;parameters);&nbsp;&nbsp;&nbsp;&nbsp;Target.LoadRequest&nbsp;(req,&nbsp;new&nbsp;TargetBlock()); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -575,34 +466,7 @@ var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal"
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;LoadRequest&amp;nbsp;(string&amp;nbsp;mbox,&amp;nbsp;string&amp;nbsp;defaultContent,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;mboxParameters,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;orderParameters,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;profileParameters,&amp;nbsp;Target.ITargetCallback&amp;nbsp;callback);" 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback&nbsp; 
-     
-{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content)&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString());&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp; 
-     
-}&nbsp;
-
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;mboxData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-mboxData.Add("mboxParameterKey",&nbsp;"value"); 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;orderData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-orderData.Add("orderParameterKey",&nbsp;"value"); 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;profileData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-profileData.Add("profileParameterKey",&nbsp;"value"); 
-     
-Target.LoadRequest("someMbox",&nbsp;"defaultContent",&nbsp;mboxData,&nbsp;orderData,&nbsp;profileData,&nbsp;new&nbsp;TargetBlock());
-
+      Class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;}&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;mboxData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();mboxData.Add("mboxParameterKey",&nbsp;"value");IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;orderData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();orderData.Add("orderParameterKey",&nbsp;"value");IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;profileData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();profileData.Add("profileParameterKey",&nbsp;"value");Target.LoadRequest("someMbox",&nbsp;"defaultContent",&nbsp;mboxData,&nbsp;orderData,&nbsp;profileData,&nbsp;new&nbsp;TargetBlock());
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -612,38 +476,7 @@ Target.LoadRequest("someMbox",&nbsp;"defaultContent",&nbsp;mboxData,&nbsp;orderD
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;LoadRequest&amp;nbsp;(string&amp;nbsp;mbox,&amp;nbsp;string&amp;nbsp;defaultContent,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;mboxParameters,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;orderParameters,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;profileParameters,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;requestLocationParameters,&amp;nbsp;Target.ITargetCallback&amp;nbsp;callback);" 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      Class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback&nbsp; 
-     
-{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content)&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString());&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp; 
-     
-}&nbsp;
-
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;mboxData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-mboxData.Add("mboxParameterKey",&nbsp;"value"); 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;orderData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-orderData.Add("orderParameterKey",&nbsp;"value"); 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;profileData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-profileData.Add("profileParameterKey",&nbsp;"value"); 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;requestLocationData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requestLocationData.Add("requestLocationKey",&nbsp;"value");&nbsp;
-
-Target.LoadRequest("someMbox",&nbsp;"defaultContent",&nbsp;mboxData,&nbsp;orderData,&nbsp;profileData,&nbsp;new&nbsp;TargetBlock());
-
+      Class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;}&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;mboxData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();mboxData.Add("mboxParameterKey",&nbsp;"value");IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;orderData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();orderData.Add("orderParameterKey",&nbsp;"value");IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;profileData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();profileData.Add("profileParameterKey",&nbsp;"value");IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;requestLocationData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requestLocationData.Add("requestLocationKey",&nbsp;"value");&nbsp;Target.LoadRequest("someMbox",&nbsp;"defaultContent",&nbsp;mboxData,&nbsp;orderData,&nbsp;profileData,&nbsp;new&nbsp;TargetBlock());
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -653,11 +486,7 @@ Target.LoadRequest("someMbox",&nbsp;"defaultContent",&nbsp;mboxData,&nbsp;orderD
       public&amp;nbsp;static&amp;nbsp;TargetLocationRequest&amp;nbsp;TargetCreateRequest&amp;nbsp;(string&amp;nbsp;name,&amp;nbsp;string&amp;nbsp;defaultContent,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;string&gt;&amp;nbsp;parameters); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;parameters&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;parameters.Add&nbsp;("key1",&nbsp;"value2"); 
-     
-var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal",&nbsp;parameters); 
+      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;parameters&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;();&nbsp;&nbsp;&nbsp;&nbsp;parameters.Add&nbsp;("key1",&nbsp;"value2");var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal",&nbsp;parameters); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -687,10 +516,7 @@ var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal"
       public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;ThirdPartyID; 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      getter:&nbsp;&nbsp;var&nbsp;thirdPartyId&nbsp;=&nbsp;Target.ThirdPartyID;&nbsp; 
-     
-setter:&nbsp;Target.ThirdPartyID&nbsp;=&nbsp;“thirdPartyId”;
-
+      getter:&nbsp;&nbsp;var&nbsp;thirdPartyId&nbsp;=&nbsp;Target.ThirdPartyID;&nbsp;setter:&nbsp;Target.ThirdPartyID&nbsp;=&nbsp;“thirdPartyId”;
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -773,23 +599,7 @@ setter:&nbsp;Target.ThirdPartyID&nbsp;=&nbsp;“thirdPartyId”;
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SignalWithData&amp;nbsp;(IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;audienceData,&amp;nbsp;AudienceManager.IAudienceManagerCallback&amp;nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      class&nbsp;AudienceManagerCallback:&nbsp;Java.Lang.Object,&nbsp;&nbsp;AudienceManager.IAudienceManagerCallback{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content) 
-     
-&nbsp;&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString()); 
-     
-&nbsp;&nbsp;} 
-     
-} 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;traits&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;traits.Add&nbsp;("trait",&nbsp;"b");
-
-AudienceManager.SignalWithData&nbsp;(traits,&nbsp;new&nbsp;AudienceManagerCallback()); 
+      class&nbsp;AudienceManagerCallback:&nbsp;Java.Lang.Object,&nbsp;&nbsp;AudienceManager.IAudienceManagerCallback{&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content)&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString());&nbsp;&nbsp;}}IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;traits&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;();&nbsp;&nbsp;&nbsp;&nbsp;traits.Add&nbsp;("trait",&nbsp;"b");AudienceManager.SignalWithData&nbsp;(traits,&nbsp;new&nbsp;AudienceManagerCallback()); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -844,19 +654,7 @@ More information is available at [here](https://marketing.adobe.com/resources/he
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Open&amp;nbsp;(MediaSettings&amp;nbsp;settings,&amp;nbsp;Media.IMediaCallback&amp;nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      MediaSettings&nbsp;settings&nbsp;=&nbsp;Media.SettingsWith&nbsp;("name1",&nbsp;10,&nbsp;"playerName1",&nbsp;"playerID1"); 
-     
-&nbsp;&nbsp;Media.Open&nbsp;(settings,&nbsp;new&nbsp;MediaCallback()); 
-     
-&nbsp;&nbsp;class&nbsp;MediaCallback:&nbsp;Java.Lang.Object,&nbsp;&nbsp;&nbsp;Media.IMediaCallback{ 
-     
-public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content) 
-     
-{
-
-} 
-     
-} 
+      MediaSettings&nbsp;settings&nbsp;=&nbsp;Media.SettingsWith&nbsp;("name1",&nbsp;10,&nbsp;"playerName1",&nbsp;"playerID1");&nbsp;&nbsp;Media.Open&nbsp;(settings,&nbsp;new&nbsp;MediaCallback());&nbsp;&nbsp;class&nbsp;MediaCallback:&nbsp;Java.Lang.Object,&nbsp;&nbsp;&nbsp;Media.IMediaCallback{public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content){}} 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -949,7 +747,6 @@ public class MediaEventType : Object
  
  public MediaEventType (); 
 } 
-
 ```
 
 TargetLocationRequest
@@ -990,7 +787,6 @@ public class TargetLocationRequest : Object
   set; 
  } 
 } 
-
 ```
 
 VisitorID
@@ -1066,7 +862,6 @@ public sealed class MobilePrivacyStatus : Enum
  
  public static MobilePrivacyStatus[] Values (); 
 } 
-
 ```
 
 VisitorIDAuthenticationState
@@ -1090,7 +885,6 @@ public sealed class VisitorIDAuthenticationState : Enum
  
  public static VisitorID.VisitorIDAuthenticationState[] Values (); 
 } 
-
 ```
 
 ## Interfaces {#section_927E74A9C4D94D259DECF434A93CA204}
@@ -1129,7 +923,6 @@ public interface IMediaCallback : IJavaObject, IDisposable
 { 
  void Call (Object p0); 
 } 
-
 ```
 
 ITargetCallback
@@ -1139,6 +932,4 @@ public interface ITargetCallback : IJavaObject, IDisposable
 { 
  void Call (Object p0); 
 } 
-
 ```
-
