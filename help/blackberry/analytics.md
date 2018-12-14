@@ -104,7 +104,7 @@ Also, we have heard that some of you are naming context data keys using the evar
 
 This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. Instead, we strongly recommend using descriptive names for keys and values:
 
-```js>
+```js
 "username":"jimbo"
 ```
 
