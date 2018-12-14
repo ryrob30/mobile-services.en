@@ -53,8 +53,8 @@ analytics.xml
    //... 
    ADBMobile::collectLifecycleData(); 
    } 
-   
    ```
+   
    If `collectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `collectLifecyleData()` reports a crash. 
 
 ## Events, Props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
@@ -102,7 +102,7 @@ Also, we have heard that some of you are naming context data keys using the evar
 "eVar1":"jimbo"
 ```
 
-This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. Instead, we strongly recommend using descriptive names for keys and values: 
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. Instead, we strongly recommend using descriptive names for keys and values:
 
 ```js>
 "username":"jimbo"
