@@ -48,13 +48,13 @@ analytics.xml
 
    For example: 
 
-   ```
+   ```java
    ApplicationUI::ApplicationUI(bb::cascades::Application *app): QObject(app) { 
    //... 
    ADBMobile::collectLifecycleData(); 
    } 
    ```
-   
+
    If `collectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `collectLifecyleData()` reports a crash. 
 
 ## Events, Props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
