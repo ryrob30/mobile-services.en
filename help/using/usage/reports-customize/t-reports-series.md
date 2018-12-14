@@ -42,8 +42,6 @@ In this example, we will customize the [!DNL Users & Sessions] report, but the i
       ![Step Result](assets/add_series.png)
 
     * To add a new app (in a different report suite) so that you can compare data across apps, click the app name in the newly created series and select the desired app.
-
-      <a id="fig_FFDFFC4B999C4B50822E4886E42D023D"></a>    
     
       ![](assets/add_series_app.png)
 

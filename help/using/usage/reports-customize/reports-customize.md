@@ -27,8 +27,6 @@ The following example shows the [!DNL Users & Sessions] report with the open **[
 * **[!UICONTROL First Launches]** 
 * **[!UICONTROL App Store Downloads]**
 
-<a id="fig_BCE5253CDA26416F85CF8748E1265266"></a>
-
 ![](assets/reports.png)
 
 The following information describes each area of the report and the **[!UICONTROL Customize]** rail: 

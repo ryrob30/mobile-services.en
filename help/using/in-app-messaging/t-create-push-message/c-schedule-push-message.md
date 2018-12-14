@@ -62,8 +62,6 @@ You **must** understand the following information before scheduling recurring pu
 
    If you select **[!UICONTROL Now]**, the message is pushed immediately. To prevent the message from being scheduled immediately, click **[!UICONTROL Save as Draft]**.
 
-   <a id="fig_F1B3E1D6190B485891C83ED939BD56A9"></a>
-
    ![](assets/schedule-push-message.png)
 
 1. If you selected **[!UICONTROL Scheduled]**, click the calendar icon and select or type a start date. 

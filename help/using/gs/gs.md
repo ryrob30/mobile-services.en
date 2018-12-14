@@ -16,8 +16,6 @@ snippet: y
 
 This information helps you understand and use with Adobe Mobile Services.
 
-<a id="section_3E67F111DE9B440DA1DB024C1BAF1AAF"></a>
-
 Adobe Mobile Services is composed of the following parts:
 
 * [Adobe Mobile Services UI](../gs/gs.md#section_73E3655D366F450ABE3B225C7E9439BD) 
@@ -161,6 +159,6 @@ The Adobe Mobile SDK offers the following features:
 
 For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/android/) and [iOS SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/ios/).
 
-<a id="section_BF1E36FA69804A7C9F9252728885AA58"></a>
-
 This section also contains the following information: 
+
+<!--Rehka, check-->

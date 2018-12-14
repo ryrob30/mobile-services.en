@@ -15,8 +15,6 @@ snippet: y
 
 The following table contains the iOS version string that is sent by many iOS devices.
 
-<a id="device_versions"></a>
-
 >[!IMPORTANT]
 >
 >This list is based on internal tests and online information and might contain inaccuracies or incomplete information.

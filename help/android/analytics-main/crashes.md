@@ -31,8 +31,6 @@ For more information about the Android activity lifecycle, see [Activities](http
 
 *This Android lifecycle illustration was created and [shared by the Android Open Source Project](https://code.google.com/policies.html) and used according to terms in the [Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/).*
 
-<a id="section_F85282E7A11C4FE3A259F0173979086A"></a>
-
 **What can cause a false crash to be reported?**
 
 1. If you are debugging by using an IDE, such as Android Studio, and launching the app again from the IDE while the app is in the foreground causes a crash.

@@ -13,19 +13,13 @@ snippet: y
 
 Target Preview allows you to easily perform end-to-end QA for Target activities and preview these activities on your device.
 
-<a id="section_A79B6EEB46AE4EC084B7ADEB6D8D3EDA"></a>
-
 For more information on how to set up and use Target Preview, go to [Target Mobile Preview]( https://marketing.adobe.com/resources/help/en_US/target/target/target-mobile-preview.html).
-
-<a id="section_0BD2239BA4F74F369D587FE4706E78B6"></a>
 
 >[!NOTE]
 >
 >To use Target Preview, you need SDK version 4.14.0 or later.
 
-<a id="section_055C6F90EA7548199187A0F26090A37F"></a>
-
-** Target Preview Method** 
+**Target Preview Method** 
 
 <table id="table_5238B149CD5B47028EF76DA8CCC10951"> 
  <thead> 

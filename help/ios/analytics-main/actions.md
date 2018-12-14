@@ -15,8 +15,6 @@ snippet: y
 
 Actions are the events that occur in your app that you want to measure. Each action has one or more corresponding metrics that are incremented each time the event occurs. For example, you might track a new subscription, each time an article is viewed or each time a level is completed. The corresponding metrics for these events are configured as subscriptions, articles read, and levels completed.
 
-<a id="section_6DCAFC20F3444CFF9848C1D66E73BD5C"></a>
-
 Actions are not tracked automatically, so to track an event, you must call `trackAction`.
 
 ## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
@@ -44,8 +42,6 @@ Actions are not tracked automatically, so to track an event, you must call `trac
 1. Click **[!UICONTROL Manage Variables and Metrics]** and click the **[!UICONTROL Custom Metrics]** tab. 
 
 1. Map the context data name that is defined in your code (for example, `a.action=myapp.ActionName` to a custom event.
-
-   <a id="fig_D7F4728683364923B89CEAC09BABEBC1"></a>
 
    ![](assets/map-event-context-data.png)
 

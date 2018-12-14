@@ -13,8 +13,6 @@ snippet: y
 
 Experience Cloud Mobile SDKs provide General Data Protection Regulation (GDPR)-ready APIs for Controllers that allow users to retrieve locally stored identities and set opt status flags for data collection and transmission.
 
-<a id="section_1A90E98BB29D425197097C6CA1220EC2"></a>
-
 >[!IMPORTANT]
 >
 >GDPR is supported **only** in Mobile SDK version 4.16.0 or later.

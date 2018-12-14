@@ -15,8 +15,6 @@ snippet: y
 
 States are the different screens or views in your application. Each time a new state is displayed in your application, for example, when a user navigates from the home page to the news feed, a track state call should be sent. In iOS, a state is typically tracked in the viewDidLoad method of each view.
 
-<a id="section_845C9DB2F9C34428BB679C9BB612855A"></a>
-
 >[!TIP]
 >
 >To track states, make a call to `trackState`. States are not automatically tracked.

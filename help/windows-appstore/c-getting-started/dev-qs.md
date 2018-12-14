@@ -176,6 +176,4 @@ For C# and JS apps, you have to enable native code debugging by completing the f
 
 * Right-click project, select  **[!UICONTROL Properties]** > **[!UICONTROL Configuration Properties]** > **[!UICONTROL Debug tab]** . Change the debugger type drop down to **Native Only**.
 
-<a id="section_CAC276076C814FDC80B372AC1ABA3BDE"></a>
-
 That's it! You're now ready to implement Analytics, Target, and Audience Management in your Windows 8.1 Universal App Store app. 

@@ -53,8 +53,6 @@ Over-time reports show how metrics are performing over a time range so you can q
 
 For example, if you see a spike in launches, you might run a trended report that shows launches for the top 5 operating systems to see which operating systems are contributing most to the spike in launches:
 
-<a id="fig_9CA190689C6141B080A8DF98C4CEBC6B"></a>
-
 ![](assets/overtime.png){width="500px"}
 
 To view dimension values with other metrics on an over-time report, you can use the instances metric and define a dimension filter.
@@ -62,8 +60,6 @@ To view dimension values with other metrics on an over-time report, you can use 
 ## Trended Report {#section_C9BE9A2EDBFF4D938B9AF14C8AA67883}
 
 Trended reports help you see how your most popular dimensions are performing against a metric. You can use this report to determine which values are contributing most to a change in a metric.
-
-<a id="fig_89A9AFED46FC4CC58D9E63AFDE1F9E1A"></a>
 
 ![](assets/trended.png){width="500px"}
 
@@ -73,15 +69,11 @@ To view a trended report for a dimension, add a sticky filter (for example, Oper
 
 If you have a specific dimension value that you want to view, you can add a sticky filter to an over-time report. The following report shows 30 days' worth of launches, upgrades, and crashes for a specific operating system version.
 
-<a id="fig_9522D1EA179843CFAA7658586F53D366"></a>
-
 ![](assets/overtime-filter.png){width="500px"}
 
 ## Ranked Reports {#section_C073D744A95843AF99EE74FB5B013735}
 
 Ranked reports show you how often the top 50 dimension contribute to a metric. This report is useful to view total contribution for a date range across a large number of values.
-
-<a id="fig_47EB8377C4854E7F85C6758B34BD6F41"></a>
 
 ![](assets/ranked.png){width="500px"}
 
@@ -96,19 +88,13 @@ To start the tutorial:
 1. in [!DNL Manage App Settings], click **[!UICONTROL Usage]**. 
 
 1. Click **[!UICONTROL Technology]** > **[!UICONTROL Technology Breakdown]**. 
-1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon  ![](assets/icon_information.png)
-
-   .
-
-<a id="fig_A9C373DC024A46AE9C49795A6AD8431E"></a>
+1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon  ![](assets/icon_information.png).
 
 ![](assets/report_technology.png){width="500px"}
 
 ## Pathing Report {#section_AD400106BC684B50B27CCCD3F4497114}
 
 A Pathing report is based on path analysis and displays a pathing chart that represents paths that are taken from one state in the app to another state.
-
-<a id="fig_A505D37AD0284196A807A34664B3C620"></a>
 
 ![](assets/action_paths.png){width="500px"}
 
@@ -120,7 +106,4 @@ Funnel reports allow you to identify where customers abandon a marketing campaig
 
 The funnel visualization lets you see where customers fall out of the process. Gaining visibility into customer decisions at each step helps you understand where customers are being deterred, what path they tend to follow, and when they leave your app.
 
-<a id="fig_2659F3DAB1FF40ED8F6346A71A4D0515"></a>
-
 ![](assets/funnel.png){width="500px"}
-

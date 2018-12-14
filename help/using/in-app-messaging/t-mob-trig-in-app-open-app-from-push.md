@@ -19,8 +19,6 @@ You can set the in-app message trigger to be the push message ID that is sent wh
 
    Here is an example:
 
-   <a id="fig_9FFB80B416644145BAC0D6C7A3FF1E81"></a>
-
    ![](assets/brandon_task1.png)
 
 1. Save and activate the in-app message with the following trigger:
@@ -32,8 +30,6 @@ You can set the in-app message trigger to be the push message ID that is sent wh
    >The push message ID is the ID that you located in step 1.
 
    This trigger must be manually added because it is not available in the **[!UICONTROL Trigger]** drop-down list.
-
-   <a id="fig_527C9CBFA7CA44C396F52F814DCD6340"></a>
 
    ![](assets/brandon_task2.png)
 

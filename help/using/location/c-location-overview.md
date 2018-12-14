@@ -51,13 +51,9 @@ Here is the visualization when you select **[!UICONTROL Points of Interest]**:
 
 You can click a slice in the ring to select the audience on which you can perform actions, such as zooming in, hiding audiences, creating an in-app message, or a Sticky Filter.
 
-<a id="fig_30FC5BA038DF44B689D649CF7052A161"></a>
-
 ![](assets/location_aud.png)
 
 You can click a secondary metric on the right side to add it to the visualization and display this metric by using color, height, or both.
-
-<a id="fig_611576A17F1C4C9CAE26E846E33E90AB"></a>
 
 ![](assets/location_secondary.png)
 

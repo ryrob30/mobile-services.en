@@ -51,8 +51,6 @@ In this example, we will customize the [!DNL Users & Sessions] report, but the i
 
    This report now shows users broken down by operating system. The report title was changed to match the filters that were applied to the report.
 
-   <a id="fig_036E704A498548389E7B2BE736104323"></a>
-
    ![](assets/customize5.png)
 
    We can customize this report more. With the recent launch of iOS 8.3, we can add the [!DNL First Launches] metric with an iOS 8.3 operating system version filter to see how many customers with iOS 8.3 upgraded their apps and performed a first launch. 
@@ -66,8 +64,6 @@ In this example, we will customize the [!DNL Users & Sessions] report, but the i
 1. Click **[!UICONTROL Update]** and **[!UICONTROL Run]**.
 
    This report now shows users with iOS 8.3 who have launched the app for the first time.
-
-   <a id="fig_F515EF3B901640A6A431C48D9D9D24C3"></a>
 
    ![](assets/customize7.png)
 

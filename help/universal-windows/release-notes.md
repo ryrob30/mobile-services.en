@@ -34,6 +34,4 @@ In addition to significant performance increases, version 4.x adds the following
  </tbody> 
 </table>
 
-<a id="section_9971225D885743AEBD9E77FC90073234"></a>
-
 For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 

@@ -15,8 +15,6 @@ snippet: y
 
 Actions are the events that occur in your Android app that you want to measure.
 
-<a id="section_6DCAFC20F3444CFF9848C1D66E73BD5C"></a>
-
 Each action has one or more corresponding metrics that are incremented each time the event occurs. For example, you might send a `trackAction` call for each new subscription, each time an article is viewed, or each time a level is completed. Actions are not tracked automatically, so you must call `trackAction` when an event that you want to track occurs, and map the action to a custom event.
 
 ## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
@@ -39,8 +37,6 @@ Each action has one or more corresponding metrics that are incremented each time
 
 1. Map the context data name that is defined in your code, for example, `myapp.ActionName`, to a custom event.
 
-   <a id="fig_8129BD79A67F4E18A32DD5DE89F73AFA"></a>
-
    ![](assets/map-event-context-data.png)
 
 You can also set a prop to hold all action values by mapping a custom prop with a name like **[!UICONTROL Custom Actions]** and setting the value to `a.action`.
@@ -58,8 +54,6 @@ Analytics.trackAction("myapp.SocialShare", exampleContextData);
 ```
 
 Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com):
-
-<a id="fig_1E995262EA99453EB03E76B4DAD83CA2"></a>
 
 ![](assets/map-variable-context-action.png)
 

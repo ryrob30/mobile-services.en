@@ -22,11 +22,11 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 Returns the current version of the Adobe Mobile library.
 
 **Syntax**: `version()`
-    
+  
 **Returns**: `String`
-    
+  
 **Parameters**: None
-    
+  
 **Example**: `var sdkVersion = ADBMobile.version();`
 
 ### privacyStatus
@@ -35,50 +35,50 @@ Returns the NSUInteger representation of the privacy status enum for current use
 
 Here are the options:
 
-*   `ADBMobilePrivacyStatusOptIn` (1) : Hits are sent immediately.
-*   `ADBMobilePrivacyStatusOptOut` (2) : Hits are discarded.
-*   `ADBMobilePrivacyStatusUnknown` (3) : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded).
-    
-    If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in.
-    
-*   Default: The default value is set in `ADBMobileConfig.json`.
-*   **Syntax**: `privacyStatus()`
-*   **Returns**: Number
-*   **Parameters**: None
-*   **Example**: `var privacyStatus = ADBMobile.privacyStatus();`
+* `ADBMobilePrivacyStatusOptIn` (1) : Hits are sent immediately.
+* `ADBMobilePrivacyStatusOptOut` (2) : Hits are discarded.
+* `ADBMobilePrivacyStatusUnknown` (3) : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded).
+  
+  If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in.
+  
+* Default: The default value is set in `ADBMobileConfig.json`.
+* **Syntax**: `privacyStatus()`
+* **Returns**: Number
+* **Parameters**: None
+* **Example**: `var privacyStatus = ADBMobile.privacyStatus();`
 
 ### setPrivacyStatus
 
 Sets the privacy status for the current user to one of the following values:
 
-*   `ADBMobilePrivacyStatusOptIn` : Hits are sent immediately.
-*   `ADBMobilePrivacyStatusOptOut` : Hits are discarded.
-*   `ADBMobilePrivacyStatusUnknown` : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded).
-    
-    If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in.
-    
-*   **Syntax**: `setPrivacyStatus(privacyStatus)`
-*   **Returns**: N/A
-*   **Parameters**:
+* `ADBMobilePrivacyStatusOptIn` : Hits are sent immediately.
+* `ADBMobilePrivacyStatusOptOut` : Hits are discarded.
+* `ADBMobilePrivacyStatusUnknown` : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded).
+  
+If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in.
+  
+* **Syntax**: `setPrivacyStatus(privacyStatus)`
+* **Returns**: N/A
+* **Parameters**:
 
-    `privacyStatus`	
+  `privacyStatus`
 
-      * Type: ADBMobilePrivacyStatus
-      * New privacy status for this user.
+  * Type: ADBMobilePrivacyStatus
+  * New privacy status for this user.
 
-*   **Example**: 
+* **Example**: 
 
-    `ADBMobile.setPrivacyStatus(ADBMobilePrivacyStatusOptIn);`
+  `ADBMobile.setPrivacyStatus(ADBMobilePrivacyStatusOptIn);`
 
 ### lifetimeValue
 
 Returns the lifetime value of the current user.
 
-*   Default: 0
-*   **Syntax**: `lifetimeValue()`
-*   **Returns**: `Number`
-*   **Parameters**: None
-*   **Example**: `var ltv = ADBMobile.lifetimeValue();`
+* Default: 0
+* **Syntax**: `lifetimeValue()`
+* **Returns**: `Number`
+* **Parameters**: None
+* **Example**: `var ltv = ADBMobile.lifetimeValue();`
 
 ### userIdentifier
 
@@ -88,27 +88,27 @@ Default: nil
 
 Important: If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. This preserves visitor data between SDK upgrades. For new installations on the 4.x SDK, user identifier is nil until set.
 
-*   **Syntax:** userIdentifier()
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**: `var uid = ADBMobile.userIdentifier();`
+* **Syntax:** userIdentifier()
+* **Returns**: String
+* **Parameters**: None
+* **Example**: `var uid = ADBMobile.userIdentifier();`
 
 ### setUserIdentifier
 
 Sets the user identifier.
 
-*   **Syntax**: `setUserIdentifier(userId)`
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: `setUserIdentifier(userId)`
+* **Returns**: N/A
+* **Parameters**:
 
-    `userID`
+  `userID`
 
-      * Type: String
-      * New identifier for this user.
+  * Type: String
+  * New identifier for this user.
 
-*   **Example**:
-    
-    `ADBMobile.setUserIdentifier(‘myUserId’);`
+* **Example**:
+  
+  `ADBMobile.setUserIdentifier(‘myUserId’);`
 
 ### setAdvertisingIdentifier
 
@@ -118,31 +118,31 @@ Sets the IDFA in the SDK, and the IDFA will be sent in lifecycle if it has been 
 >
 >Retrieve the IDFA from Apple APIs only if you are using an ad service. If you retrieve IDFA, and are not using it properly, your app might be rejected.
 
-*   **Syntax**: `setAdvertisingIdentifier(idfa)`
-*   **Returns**: N/A
-*   **Parameters**:
-    
-    `idfa`
+* **Syntax**: `setAdvertisingIdentifier(idfa)`
+* **Returns**: N/A
+* **Parameters**:
+  
+  `idfa`
 
-      * Type: String
-      * IDFA retrieved from Apple API.
+  * Type: String
+  * IDFA retrieved from Apple API.
 
-*   **Example**: `ADBMobile.setAdvertisingIdentifier(‘myIdfa’);`
+* **Example**: `ADBMobile.setAdvertisingIdentifier(‘myIdfa’);`
 
 ### setDebugLogging
 
 Sets the debug logging preference.
 
-*   **Syntax**: `setDebugLogging(logging)`
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: `setDebugLogging(logging)`
+* **Returns**: N/A
+* **Parameters**:
 
-    `logging`	
+  `logging`
 
-      * Type: Bool
-      * Value indicating whether the Adobe SDK should log to the debug console.
+  * Type: Bool
+  * Value indicating whether the Adobe SDK should log to the debug console.
 
-*   **Example**: `ADBMobile.setDebugLogging(true);`
+* **Example**: `ADBMobile.setDebugLogging(true);`
 
 ## Analytics Methods {#section_F3DB9BE225F84F86BE5F8D15164C0379}
 
@@ -156,41 +156,41 @@ If the state is empty, it displays as app name app version (build) in reports. I
 >
 >This is the only tracking call that increments page views.
 
-*   **Syntax**: `trackStateData(stateName \[, contextData\])`
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: `trackStateData(stateName \[, contextData\])`
+* **Returns**: N/A
+* **Parameters**:
 
-    `stateName`	
+  `stateName`
 
-      * Type: String
-      * Page state name.
+  * Type: String
+  * Page state name.
 
-    `contextData`
+  `contextData`
 
-      * Type: Object
-      * Additional context data for this hit.
+  * Type: Object
+  * Additional context data for this hit.
 
-*   **Example**: `ADBMobile.trackStateData(‘homepage’, {‘userid’:12345});`
+* **Example**: `ADBMobile.trackStateData(‘homepage’, {‘userid’:12345});`
 
 ### trackActionData
 
 Tracks an action in your app. Actions are the things that happen in your app that you want to measure, such as logons , banner taps , feed subscriptions , and other metrics.
 
-*   **Syntax**: trackActionData(actionName \[, contextData\])
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: trackActionData(actionName \[, contextData\])
+* **Returns**: N/A
+* **Parameters**:
 
-    `actionName`	
+  `actionName`
 
-      * Type: String
-      * Name of the action being tracked.
+  * Type: String
+  * Name of the action being tracked.
 
-    `contextData`
+  `contextData`
 
-      * Type: Object
-      * Additional context data for this hit.
+  * Type: Object
+  * Additional context data for this hit.
 
-*   **Example**: `ADBMobile.trackActionData(‘likeClicked’, {‘imageName’:’funnyKitty’});`
+* **Example**: `ADBMobile.trackActionData(‘likeClicked’, {‘imageName’:’funnyKitty’});`
 
 ### trackLocationWithLatLonData
 
@@ -202,20 +202,20 @@ Also uses points of interest (POI) that are defined in the ADBMobileConfig.json 
 * **Returns**: N/A
 * **Parameters**:
 
-  `lat`	
+`lat`
 
-    * Type: Number
-    * Latitude of the location.
+* Type: Number
+* Latitude of the location.
 
-  `lon`	
+`lon`
 
-    * Type: Number
-    * Longitude of the location.
+* Type: Number
+* Longitude of the location.
 
-  `contextData`	
+`contextData`
 
-    * Type: Object
-    * Additional context data for this hit.
+* Type: Object
+* Additional context data for this hit.
 
 * **Example**: `ADBMobile.trackLocationWithLatLonData(43.36, -116.12, null);`
 
@@ -223,16 +223,16 @@ Also uses points of interest (POI) that are defined in the ADBMobileConfig.json 
 
 Adds an amount to the user's lifetime value.
 
-*   **Syntax**: `trackLifetimeValueIncreaseJsData(increaseAmount)`
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: `trackLifetimeValueIncreaseJsData(increaseAmount)`
+* **Returns**: N/A
+* **Parameters**:
 
-    `increaseAmount`
+  `increaseAmount`
 
-      * Type: Number
-      * Amount to add to the user's current lifetime value.
+  * Type: Number
+  * Amount to add to the user's current lifetime value.
 
-*   **Example**: `ADBMobile.trackLifetimeValueIncreaseJsData(5);`
+* **Example**: `ADBMobile.trackLifetimeValueIncreaseJsData(5);`
 
 ### trackTimedActionStartData
 
@@ -244,21 +244,21 @@ If you call this method for an action that has already started, the previous tim
 >
 >This call does not send a hit.
 
-*   **Syntax**: `trackTimedActionStartData(name \[, contextData\])`
-*   **Returns**: N/A
-*   **Parameters**:
-    
-    `name`	
+* **Syntax**: `trackTimedActionStartData(name \[, contextData\])`
+* **Returns**: N/A
+* **Parameters**:
+  
+  `name`
 
-      * Type: String
-      * Name of the timed action being started.
+  * Type: String
+  * Name of the timed action being started.
 
-    `contextData`
+  `contextData`
 
-      * Type: Object
-      * Additional context data for this hit.
+  * Type: Object
+  * Additional context data for this hit.
 
-*   **Example**: `ADBMobile.trackTimedActionStartData(‘level1’, {‘userId’:42423});`
+* **Example**: `ADBMobile.trackTimedActionStartData(‘level1’, {‘userId’:42423});`
 
 ### trackTimedActionUpdateData
 
@@ -270,21 +270,21 @@ The data passed in is appended to the existing data for the given action, and if
 >
 >This call does not send a hit.
 
-*   **Syntax**: `trackTimedActionUpdateData(name \[, contextData\])`
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: `trackTimedActionUpdateData(name \[, contextData\])`
+* **Returns**: N/A
+* **Parameters**:
 
-    `name`
+  `name`
 
-      * Type: String
-      * Name of the timed action being updated.
+  * Type: String
+  * Name of the timed action being updated.
 
-    `contextData`	
+  `contextData`
 
-      * Type: Object
-      * Additional context data for this hit.
+  * Type: Object
+  * Additional context data for this hit.
 
-*   **Example**: `ADBMobile.trackTimedActionUpdateData(‘level1’);`
+* **Example**: `ADBMobile.trackTimedActionUpdateData(‘level1’);`
 
 ### trackTimedActionEndJsLogic
 
@@ -292,28 +292,28 @@ End a timed action.
 
 If you provide a callback function, you can access the final time values. If no callback is provided, or if the callback returns true, the Adobe SDK automatically sends a hit. When a false is returned from the callback, the timed action hit will be suppressed.
 
-*   **Syntax**: `trackTimedActionEndJsLogic(name \[, callback\])`
-*   **Returns**: N/A    
-*   **Parameters**:
-    
-    `name`
+* **Syntax**: `trackTimedActionEndJsLogic(name \[, callback\])`
+* **Returns**: N/A  
+* **Parameters**:
+  
+  `name`
 
-      * Type: String
-      * Name of the timed action being ended
+  * Type: String
+  * Name of the timed action being ended
 
-    `callback`
+  `callback`
 
-      * Type: function(inAppDuration, totalDuration, data)
-      * Callback method that will have inAppDuration (number), totalDuration (number), and data (context data object) in its parameters.
-      * Note that you can suppress the final hit from being sent by the SDK by returning false in your callback function.
+  * Type: function(inAppDuration, totalDuration, data)
+  * Callback method that will have inAppDuration (number), totalDuration (number), and data (context data object) in its parameters.
+  * Note that you can suppress the final hit from being sent by the SDK by returning false in your callback function.
 
-*   **Example**: 
+* **Example**: 
 
 ```
 ADBMobile.trackTimedActionEndJsLogic(‘level1’, 
 function(inAppDuration, totalDuration, data) {
-     // do something with final values 
-     return true;  
+    // do something with final values 
+    return true;  
   });
 ```
 
@@ -321,16 +321,16 @@ function(inAppDuration, totalDuration, data) {
 
 Returns whether a timed action is in progress.
 
-*   **Syntax**: trackingTimedActionExistsJs(name)
-*   **Returns**: Bool
-*   **Parameters**:
-    
-    `name`	
+* **Syntax**: trackingTimedActionExistsJs(name)
+* **Returns**: Bool
+* **Parameters**:
+  
+  `name`
 
-      * Type: String
-      * Name of the timed action to check existence of.
+  * Type: String
+  * Name of the timed action to check existence of.
 
-*   **Example**: `var actionExists = ADBMobile.trackTimedActionExistsJs(‘level1’);`
+* **Example**: `var actionExists = ADBMobile.trackTimedActionExistsJs(‘level1’);`
 
 ### trackingIdentifier
 
@@ -342,37 +342,37 @@ This is an app-specific unique visitor ID that is generated by Adobe’s servers
 >
 >If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. This preserves visitor data between SDK upgrades. For new installations on the 4.x SDK, the user identifier is `nil`, and the tracking identifier is used. For more information, see the userIdentifier row below.
 
-*   **Syntax**: `trackingIdentifier()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**: `var trackingId = ADBMobile.trackingIdentifier();`
+* **Syntax**: `trackingIdentifier()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**: `var trackingId = ADBMobile.trackingIdentifier();`
 
 ### trackingSendQueuedHits
 
 Forces the library to send all hits in the offline queue no matter how many are currently queued.
 
-*   **Syntax**: `trackingSendQueuedHits()`
-*   **Returns**: N/A
-*   **Parameters**: None
-*   **Example**: `ADBMobile.trackingSendQueuedHits();`
+* **Syntax**: `trackingSendQueuedHits()`
+* **Returns**: N/A
+* **Parameters**: None
+* **Example**: `ADBMobile.trackingSendQueuedHits();`
 
 ### trackingClearQueue
 
 Clears all hits from the offline queue.
 
-*   **Syntax**: trackingClearQueue()
-*   **Returns**: N/A
-*   **Parameters**: None
-*   **Example**: ADBMobile.trackingClearQueue();
+* **Syntax**: trackingClearQueue()
+* **Returns**: N/A
+* **Parameters**: None
+* **Example**: ADBMobile.trackingClearQueue();
 
 ### trackingGetQueueSize
 
 Retrieves the number of hits currently in the offline queue.
 
-*   **Syntax**: `trackingGetQueueSize()`
-*   **Returns**: Number
-*   **Parameters**: None
-*   **Example**: `var queueSize = ADBMobile.trackingGetQueueSize();`
+* **Syntax**: `trackingGetQueueSize()`
+* **Returns**: Number
+* **Parameters**: None
+* **Example**: `var queueSize = ADBMobile.trackingGetQueueSize();`
 
 ## Audience Manager Methods {#section_0155C4DF04644EDAAF6159C420A158DE}
 
@@ -382,76 +382,76 @@ Returns the visitor profile that was most recently obtained.
 
 Returns null if no signal has been submitted yet. The visitor profile is saved in NSUserDefaults for easy access across multiple launches of your app.
 
-*   **Syntax**: audienceVisitorProfile()
-*   **Returns**: Object
-*   **Parameters**: None
-*   **Example**:
+* **Syntax**: audienceVisitorProfile()
+* **Returns**: Object
+* **Parameters**: None
+* **Example**:
 
-    `var profile = ADBMobile.audienceVisitorProfile();`
+  `var profile = ADBMobile.audienceVisitorProfile();`
 
 ### audienceDpid
 
 Returns the current DPID.
 
-*   **Syntax**: `audienceDpid()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**:
+* **Syntax**: `audienceDpid()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**:
 
-    `var dpid = ADBMobile.audienceDpid();`
+  `var dpid = ADBMobile.audienceDpid();`
 
 ### audienceDpuuid
 
 Returns the current DPUUID.
 
-*   **Syntax:**  `audienceDpuuid()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**:
-    
-    `var dpuuid = ADBMobile.audienceDpuuid();`
+* **Syntax:** `audienceDpuuid()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**:
+  
+  `var dpuuid = ADBMobile.audienceDpuuid();`
 
 ### audienceSetDpidDpuuid
 
 Sets the dpid and dpuuid , and if they are set, they are sent with each signal.
 
-*   **Syntax**: `audienceSetDpidDpuuid(dpid, dpuuid)`
-*   **Returns**: N/A
-*   **Parameters**:
-    
-    `dpid`
+* **Syntax**: `audienceSetDpidDpuuid(dpid, dpuuid)`
+* **Returns**: N/A
+* **Parameters**:
+  
+  `dpid`
 
-      * Type: String
-      * Audience Manager data provider ID.
+  * Type: String
+  * Audience Manager data provider ID.
 
-    `dpuuid`
-    
-    * Type: String
-    * Identifier for the user and data provider combination.
+  `dpuuid`
+  
+  * Type: String
+  * Identifier for the user and data provider combination.
 
-*   **Example**: `ADBMobile.audienceSetDpidDpuuid(‘myDpid’, ‘userDpuuid’);`
+* **Example**: `ADBMobile.audienceSetDpidDpuuid(‘myDpid’, ‘userDpuuid’);`
 
 ### audienceSignalWithDataJsCallback
 
 Sends Audience Manager a signal with traits and gets the matching segments that are returned in a callback function.
 
-*   **Syntax**:
-    
-    `audienceSignalWithDataJsCallback(traits \[, callback\])`
+* **Syntax**:
+  
+  `audienceSignalWithDataJsCallback(traits \[, callback\])`
 
-*   **Parameters**:
-    
-    `traits`
-    
-      * Type: Object
-      * Traits dictionary for this user.
+* **Parameters**:
+  
+  `traits`
+  
+  * Type: Object
+  * Traits dictionary for this user.
 
-    `callback`
-    
-      * Type: function(profile)
-      * The profile returned from Audience Manager in the parameter for the callback function.
+  `callback`
+  
+  * Type: function(profile)
+  * The profile returned from Audience Manager in the parameter for the callback function.
 
-*   **Example**: 
+* **Example**: 
 
 ```
 ADBMobile.audienceSignalWithDataJsCallback({‘trait’:’something’}, 
@@ -464,10 +464,10 @@ function(profile) {
 
 Resets the Audience Manager UUID and purges the current visitor profile.
 
-*   **Syntax:**: `audienceReset()`
-*   **Returns**: N/A
-*   **Parameters**: None
-*   **Example**: `ADBMobile.audienceReset();`
+* **Syntax:**: `audienceReset()`
+* **Returns**: N/A
+* **Parameters**: None
+* **Example**: `ADBMobile.audienceReset();`
 
 ## ID Service Methods {#section_BEB6DA612EA4423FB354B65ECC941335}
 
@@ -475,85 +475,85 @@ Resets the Audience Manager UUID and purges the current visitor profile.
 
 Retrieves the Experience Cloud ID from the ID service.
 
-*   **Syntax:** `visitorMarketingCloudID()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**: `var mcid = ADBMobile.visitorMarketingCloudID();`
+* **Syntax:** `visitorMarketingCloudID()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**: `var mcid = ADBMobile.visitorMarketingCloudID();`
 
 ### visitorSyncIdentifiers
 
 In addition to the Experience Cloud ID, you can set additional customer IDs to be associated with each visitor. The Visitor API accepts multiple Customer IDs for the same visitor, with a customer type identifier to separate the scope of the different customer IDs. This method corresponds to setCustomerIDs in the JavaScript library.
 
-*   **Syntax**: visitorSyncIdentifiers(identifiers)
-*   **Returns**: N/A
-*   **Parameters:**
-    
-    `identifiers`
+* **Syntax**: visitorSyncIdentifiers(identifiers)
+* **Returns**: N/A
+* **Parameters:**
+  
+  `identifiers`
 
-      * Type: Object
-      * Identifiers to sync to the ID service for this user.
+  * Type: Object
+  * Identifiers to sync to the ID service for this user.
 
-*   **Example**: ADBMobile.visitorSyncIdentifiers({‘idType’:’idValue’});
+* **Example**: ADBMobile.visitorSyncIdentifiers({‘idType’:’idValue’});
 
 ### visitorSyncIdentifiersAuthenticationState
 
 Synchronizes the provided identifiers to the ID service.
 
-*   **Syntax**:
-    
-    `visitorSyncIdentifiersAuthenticationState(identifiers, authState)`
+* **Syntax**:
+  
+  `visitorSyncIdentifiersAuthenticationState(identifiers, authState)`
 
-*   **Returns**: N/A
-*   **Parameters**:
+* **Returns**: N/A
+* **Parameters**:
 
-    `identifiers`
+  `identifiers`
 
-    Type: Object
+  Type: Object
 
-    Identifiers to sync to the ID service for this user.
+  Identifiers to sync to the ID service for this user.
 
-    `authState`	
+  `authState`
 
-    Type: ADBMobileVisitorAuthenticationState
+  Type: ADBMobileVisitorAuthenticationState
 
-    Authentication state of the user. Possible values include:
+  Authentication state of the user. Possible values include:
 
-      * ADBMobileVisitorAuthenticationStateUnknown
-      * ADBMobileVisitorAuthenticationStateAuthenticated
-      * ADBMobileVisitorAuthenticationStateLoggedOut
+  * ADBMobileVisitorAuthenticationStateUnknown
+  * ADBMobileVisitorAuthenticationStateAuthenticated
+  * ADBMobileVisitorAuthenticationStateLoggedOut
 
-*   **Example**:
+* **Example**:
 
-    `ADBMobile.visitorSyncIdentifiersAuthenticationState({'myIdType':'valueForUser'}, ADBMobileVisitorAuthenticationStateLoggedOut)`
+  `ADBMobile.visitorSyncIdentifiersAuthenticationState({'myIdType':'valueForUser'}, ADBMobileVisitorAuthenticationStateLoggedOut)`
 
 ### visitorSyncIdentifierWithTypeIdentifierAuthenticationState
 
 Synchronizes the provided identifier type and value to the ID service.
 
-*   **Syntax**: visitorSyncIdentifierWithTypeIdentifierAuthenticationState(idType, identifier, authState)
-*   **Returns**: N/A
-*   **Parameters**:
-    
-    `idType`	
+* **Syntax**: visitorSyncIdentifierWithTypeIdentifierAuthenticationState(idType, identifier, authState)
+* **Returns**: N/A
+* **Parameters**:
+  
+  `idType`
 
-    Type: String
-    Type of identifier you are syncing.
+  Type: String
+  Type of identifier you are syncing.
 
-    `identifier`	
+  `identifier`
 
-    Type: String
-    Value of the identifier you are syncing.
+  Type: String
+  Value of the identifier you are syncing.
 
-    `authState`	
-    
-    Type: ADBMobileVisitorAuthenticationState
-    Authentication state of the user. Possible values include:
+  `authState`
+  
+  Type: ADBMobileVisitorAuthenticationState
+  Authentication state of the user. Possible values include:
 
-      * ADBMobileVisitorAuthenticationStateUnknown
-      * ADBMobileVisitorAuthenticationStateAuthenticated
-      * ADBMobileVisitorAuthenticationStateLoggedOut
+  * ADBMobileVisitorAuthenticationStateUnknown
+  * ADBMobileVisitorAuthenticationStateAuthenticated
+  * ADBMobileVisitorAuthenticationStateLoggedOut
 
-*   **Example:** 
+* **Example:** 
 
 ```
 ADBMobile.visitorSyncIdentifierWithTypeIdentifierAuthenticationState('myIdType', 'valueForUser', 
@@ -586,44 +586,44 @@ Retrieves an array of read-only ADBVisitorID objects. The following code sample 
 
 Returns the third-party ID.
 
-*   **Syntax**: `targetThirdPartyID()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**:
-    
-    `var thirdPartyID = ADBMobile.targetThirdPartyID();`
+* **Syntax**: `targetThirdPartyID()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**:
+  
+  `var thirdPartyID = ADBMobile.targetThirdPartyID();`
 
 ### targetSetThirdPartyID
 
 Sets the third-party ID.
 
-*   **Syntax**: `targetSetThirdPartyID(thirdPartyID)`
-*   **Returns**: N/A
-*   **Parameters**:
+* **Syntax**: `targetSetThirdPartyID(thirdPartyID)`
+* **Returns**: N/A
+* **Parameters**:
 
-    `thirdPartyID`
+  `thirdPartyID`
 
-      * Type: String
-      * Third-party ID to use for target requests.
+  * Type: String
+  * Third-party ID to use for target requests.
 
-*   **Example**: `ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);`
+* **Example**: `ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);`
 
 ### targetPcID
 
 Returns the PcID.
 
-*   **Syntax**: `targetPcID()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**:
+* **Syntax**: `targetPcID()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**:
 
-    `var pcID = ADBMobile.targetPcID();`
+  `var pcID = ADBMobile.targetPcID();`
 
 ### targetSessionID
 
 Returns the session ID.
 
-*   **Syntax**: `targetSessionID()`
-*   **Returns**: String
-*   **Parameters**: None
-*   **Example**: `var sessionID = ADBMobile.targetSessionID();`
+* **Syntax**: `targetSessionID()`
+* **Returns**: String
+* **Parameters**: None
+* **Example**: `var sessionID = ADBMobile.targetSessionID();`
