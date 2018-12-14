@@ -63,8 +63,6 @@ After you validate the mapping, select the appropriate matcher or logical operat
 
 ### Selecting Metrics and Variables {#example_AB126F03BD1C4094B791E230B3DB1189}
 
-<a id="fig_FC5B650FCBFC4D3E9AC38823BE505E97"></a>
-
 ![](assets/custom_trigger_matcher_options.png)
 
 The following scenarios help you determine whether you should select a metric or a variable as your trigger:

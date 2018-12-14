@@ -30,8 +30,6 @@ To use Audience Manager data in your segment definition, see [Audience Analytics
 
 If you choose an audience segment that contains users across multiple apps, you might see the following alert:
 
-<a id="fig_7E5A14944B61420FBE34D459A3A5F5D6"></a>
-
 ![](assets/multiple_appname.png)
 
 The app name is based on the pared down version of the appId, which is automatically sent to Adobe Analytics by the Mobile Services SDK in the `<app name> <version number> (<bundle id>)` format.

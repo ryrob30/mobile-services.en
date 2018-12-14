@@ -15,8 +15,6 @@ snippet: y
 
 Information to help you with Video Analytics.
 
-<a id="section_E84987F878AB4A3A83AE700FEC4C9D4D"></a>
-
 Video measurement is described in detail in the [Measuring Video in Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/) guide. The general process to measure video is very similar across all AppMeasurement platforms. This quick start section provides a basic overview of the developer tasks along with code samples. 
 The following table lists the media data that is sent to Analytics. Use processing rules to map the context data in the Context Data Variable column to an Analytics variable as described in the Variable Type column. 
 

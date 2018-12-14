@@ -26,15 +26,11 @@ analytics.xml
 1. Open **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** and select your mobile report suite(s).
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
 
-   <a id="fig_2E1E5A41BA554D07B3C0FFEFDA6C81C0"></a>
-
    ![](assets/mobile-settings.png)
 
 1. Click **[!UICONTROL Enable Latest App Reports]**.
 
    Optionally, you can also click **[!UICONTROL Enable Mobile Location Tracking]** and **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
-
-   <a id="fig_B98CDC770CA0473EAF87EC7C9C16BD26"></a>
 
    ![](assets/enable-lifecycle.png)
 

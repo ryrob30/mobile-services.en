@@ -43,13 +43,9 @@ Analytics.trackState("Order Confirmation", cdata);
 
 The *products* variable is set on the image request, and the other variables are set as context data:
 
-<a id="fig_F1B61B67BF9C414F909AB860AC1014D6"></a>
-
 ![](assets/products-bloodhound.png)
 
 All context data variables must be mapped by using processing rules:
-
-<a id="fig_8258BD49B0A94FA28E2AF4D3EC060787"></a>
 
 ![](assets/map-products.png)
 

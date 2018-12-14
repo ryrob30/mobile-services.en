@@ -71,8 +71,6 @@ Analytics.trackTimed​ActionUpdate("TimeUntilPurchase", cdata);
 
 Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com):
 
-<a id="fig_BF176DDE9FF24012BEAFA8AE4118E9F6"></a>
-
 ![](assets/map-variable-context-ltv.png)
 
 ## Examples {#section_7BA344B8BD4F48DCBAE27AC9320CBCEA}

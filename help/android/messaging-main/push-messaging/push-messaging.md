@@ -33,8 +33,6 @@ This section contains the following information:
 * Add the library to your project and implement [lifecycle metrics](../../metrics.md#concept_77CA5CEB51D1418FB98EC7C044682A05). 
 * SDK must be [enabled for the ID Service](https://marketing.adobe.com/resources/help/en_US/mobile/t_config_visitor.html).
 
-<a id="section_FF244934885C462E86F1F0F17C20D27E"></a>
-
 >[!IMPORTANT]
 >
 >Moving your app to a new report suite is not supported. If you migrate to a new report suite, your push configuration can break, and messages might not be sent.

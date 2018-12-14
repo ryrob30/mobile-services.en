@@ -16,8 +16,6 @@ snippet: y
 
 You can use this information to help you configure the Push Services options on the Manage App Settings page while creating a new app or editing an existing app.
 
-<a id="section_BBF96ABD214C4BFF813FA993E0E5170F"></a>
-
 Before you configure push messaging, review the following information:
 
 * You must perform several prerequisite tasks. For more information about these tasks, see [Prerequisites to Enable Push Messaging](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE). 
@@ -26,8 +24,6 @@ Before you configure push messaging, review the following information:
 >[!IMPORTANT]
 >
 >Moving your app to a new report suite is not supported. If you migrate to a new report suite, your push configuration can break, and messages might not be sent.
-
-<a id="section_DE56AD8E81D544FDAD934D1B88A0EA54"></a>
 
 1. Type information in the following fields under **[!UICONTROL Push Services]**:
 

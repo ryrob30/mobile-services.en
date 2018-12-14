@@ -28,8 +28,6 @@ Before you add code, have your Analytics Administrator complete the following to
 
    Optionally, you can also click **[!UICONTROL Enable Mobile Location Tracking]** and **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
 
-   <a id="fig_8A93A8E10E4B40E9AD8BD299BC0370B0"></a>
-
    ![](assets/enable-lifecycle.png)
 
 Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface.

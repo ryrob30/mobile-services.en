@@ -44,7 +44,5 @@ Analytics.trackLifetimeValueIncrease(BigDecimal.valueOf(5.0), cdata);
 
 Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com):
 
-<a id="fig_3BBB83130B0B4008B5CFBC4C27DAD4D8"></a>
-
 ![](assets/map-variable-context-ltv.png)
 

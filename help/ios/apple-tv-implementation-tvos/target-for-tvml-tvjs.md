@@ -20,8 +20,6 @@ This section contains the following information:
 * [Configuring Your ADBTarget Element](../apple-tv-implementation-tvos/target-for-tvml-tvjs.md#section_44A7AEC6FC0648ADAD0BACB57D493AFA) 
 * [Examples](../apple-tv-implementation-tvos/target-for-tvml-tvjs.md#section_6D6D6E8C7FE147168FC30D83CBC06985)
 
-<a id="section_BDF5ABF4B0B04F19AEDE3D894451E236"></a>
-
 >[!NOTE] {othertype="Prerequisite"}
 >
 >Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see [Apple TV Implementation with tvOS](../apple-tv-implementation-tvos/apple-tv-implementation-tvos.md#concept_11073AFBA9124EFF8ACEC763F0A72E8C).
@@ -29,8 +27,7 @@ This section contains the following information:
 ## Getting Started {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
 1. Identify the [!DNL .xml] file in which you want to use your Target location. 
-1. Add an `ADBTarget` element to the file as a child of the `<document>` element. 
-
+1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
 1. If [!DNL Target] fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
 
 ## Configuring Your Mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
@@ -115,7 +112,6 @@ Assume that you have an Mbox location named `landingPage` and the offer content 
 ```
 <title>My cool landing page</title> 
 <description>Thanks for coming to my page</description> 
-
 ```
 
 **Configure landingPage.xml.js**
@@ -129,7 +125,6 @@ Assume that you have an Mbox location named `landingPage` and the offer content 
           <description>Load fail or timeout (defaultContent)</description> 
       </ADBTarget>  
   </alertTemplate> 
-  
   ```
 
 * If the request to Target is successful, and your offer content is returned, your page will result with:
@@ -162,4 +157,3 @@ The following example illustrates how to add custom data to your `ADBTarget` ele
     </ADBTarget>  
 </alertTemplate>
 ```
-

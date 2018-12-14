@@ -15,8 +15,6 @@ snippet: y
 
 Release notes and known issues for iOS SDKs 4.x for Experience Cloud Solutions.
 
-<a id="section_6F324010FC19458480874B61776351DE"></a>
-
 **Mobile Services**
 
 Release date: **September 20, 2018**
@@ -37,7 +35,5 @@ New features, updates, and fixes to the iOS SDKs:
   </tr> 
  </tbody> 
 </table>
-
-<a id="section_9971225D885743AEBD9E77FC90073234"></a>
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 

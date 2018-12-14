@@ -15,8 +15,6 @@ snippet: y
 
 States are the different screens or views in your application.
 
-<a id="section_845C9DB2F9C34428BB679C9BB612855A"></a>
-
 Each time a new state is displayed in your application, for example, when a user navigates from the home page to the news feed, a `trackState` call is sent. In Android, `trackState` is typically called each time a new activity is loaded.
 
 ## Tracking States {#section_380DF56C4EE4432A823940E4AE4C9E91}
