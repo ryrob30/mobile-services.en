@@ -202,22 +202,22 @@ Also uses points of interest (POI) that are defined in the ADBMobileConfig.json 
 * **Returns**: N/A
 * **Parameters**:
 
-  `lat`
+`lat`
 
   * Type: Number
   * Latitude of the location.
 
-  `lon`
+`lon`
 
-  * Type: Number
-  * Longitude of the location.
+* Type: Number
+* Longitude of the location.
 
-  `contextData`
+`contextData`
 
-  * Type: Object
-  * Additional context data for this hit.
+* Type: Object
+* Additional context data for this hit.
 
-  * **Example**: `ADBMobile.trackLocationWithLatLonData(43.36, -116.12, null);`
+* **Example**: `ADBMobile.trackLocationWithLatLonData(43.36, -116.12, null);`
 
 ### trackLifetimeValueIncreaseJsData
 
