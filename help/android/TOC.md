@@ -8,14 +8,16 @@ user-guide-title: Mobile Services Android Help
 
 + [Release Notes](rel-notes.md)
 + [Android SDK 4.x for Experience Cloud Solutions](overview.md)
-+ [Getting Started](getting-started/getting-started.md)
++ Getting Started {#getting-started-android}
+   + [Getting Started](getting-started/getting-started.md)
    + [Before You Start](getting-started/requirements.md)
    + [Core Implementation and Lifecycle](getting-started/dev-qs.md)
    + [Processing Rules and Context Data](getting-started/proc-rules.md)
    + [Migrating to the Android 4.x Library](getting-started/migration-v3.md)
-+ [Configuration](configuration/configuration.md)
++ Configuration {#configuration-android}
+   + [Configuration](configuration/configuration.md)
    + [ADBMobile JSON Config](configuration/json-config/json-config.md)
-      + [Override the ADBMobile JSON Config Path](configuration/json-config/json-config-remote.md)
+   + [Override the ADBMobile JSON Config Path](configuration/json-config/json-config-remote.md)
    + [Hit Batching](configuration/hit-batching.md)
    + [Configuration Methods](configuration/methods.md)
 + [Lifecycle Metrics](metrics.md)
