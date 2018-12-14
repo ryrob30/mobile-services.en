@@ -204,8 +204,8 @@ Also uses points of interest (POI) that are defined in the ADBMobileConfig.json 
 
 `lat`
 
-  * Type: Number
-  * Latitude of the location.
+* Type: Number
+* Latitude of the location.
 
 `lon`
 
