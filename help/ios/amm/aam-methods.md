@@ -59,14 +59,10 @@ If [!DNL Audience Manager] is configured in your JSON file, a signal that contai
       <li id="li_83949D77027F433980F0C1F2BA93FA20">The <b>Data Provider Unique User ID (DPUUID)</b> is the data provider's unique ID for the user. </li> 
      </ul> </p> <p> <p>Important:  Before version 4.13.x, DPUUID was not automatically encoded. Starting in version 4.13.x, the SDK first un-encodes the value that was passed in and then re-encodes this value. This process ensures that the SDK does not break backwards compatibility. </p> </p> <p> <b>Syntax:</b> </p> 
     <codeblock class="syntax c">
-      +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
+      +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid;
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax c">
-      [ADBMobile&nbsp;audienceSetDpid:@"290" 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393920493"]; 
+      [ADBMobile&nbsp;audienceSetDpid:@"290"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393920493"]; 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -83,21 +79,13 @@ If [!DNL Audience Manager] is configured in your JSON file, a signal that contai
    <td colname="col1"> audienceSignalWithData::​callback: </td> 
    <td colname="col2"> <p>Sends audience management a signal with traits and gets the matching segments that are returned in a block callback. </p> <p> <b>Syntax:</b> </p> 
     <codeblock class="syntax c">
-      +&nbsp;(void)&nbsp;audienceSignalWithData:(NSDictionary&nbsp;*)data&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callback:(void&nbsp;(^)(NSDictionary&nbsp;*response))callback; 
-    </codeblock> <p> <b>Example:</b> </p> 
+      +&nbsp;(void)&nbsp;audienceSignalWithData:(NSDictionary&nbsp;*)data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callback:(void&nbsp;(^)(NSDictionary&nbsp;*response))callback; 
+    </codeblock> <p> <b>Example:</b> </p>
     <codeblock class="syntax c">
-      [ADBMobile&nbsp;audienceSignalWithData:traits&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callback:^(NSDictionary&nbsp;*response)&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;returned&nbsp;segments 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
+      [ADBMobile&nbsp;audienceSignalWithData:traits&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callback:^(NSDictionary&nbsp;*response)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;returned&nbsp;segments&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}];
+    </codeblock> </td>
+  </tr>
+ </tbody>
 </table>
 
 **Example:**
@@ -114,4 +102,3 @@ NSDictionary *traits = @{@"trait":@"b"};
                              } 
                          }];
 ```
-

@@ -154,19 +154,19 @@ I don't see this section in the UI. Does it appear after you configure some sett
    <td colname="col2"> <p>Hide the preview pane. Click <img href="assets/icon_preview.png" id="image_B1F0C3DAA1174AEF9E02D5F9C2821E2C" /> to redisplay the preview pane. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"><img href="assets/icon_orientation.png" id="image_BB8B902423FD4D4D98FCF20B703766D8" /> </p> </td> 
+   <td colname="col1"> <p><img href="assets/icon_orientation.png" id="image_BB8B902423FD4D4D98FCF20B703766D8" /> </p> </td> 
    <td colname="col2"> <p>Click to change the orientation of the preview from portrait to landscape mode. For watches, the orientation changes from a round watch face to a square watch face. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"><img href="assets/icon_watch.png" id="image_232BFE8DC97A4FE4ADF9E8C5D52618FF" /> </p> </td> 
+   <td colname="col1"> <p><img href="assets/icon_watch.png" id="image_232BFE8DC97A4FE4ADF9E8C5D52618FF" /> </p> </td> 
    <td colname="col2"> <p>Click to preview your message as it will appear on users's watches. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"><img href="assets/icon_phone.png" id="image_FA00AC03DDC14C9FB615EC48CF4AE13B" /> </p> </td> 
+   <td colname="col1"> <p><img href="assets/icon_phone.png" id="image_FA00AC03DDC14C9FB615EC48CF4AE13B" /> </p> </td> 
    <td colname="col2"> <p>Click to preview your message as it will appear on users's mobile phones. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"><img href="assets/icon_tablet.png" id="image_9894F392F00649A889D445C52DE3E384" /> </p> </td> 
+   <td colname="col1"> <p><img href="assets/icon_tablet.png" id="image_9894F392F00649A889D445C52DE3E384" /> </p> </td> 
    <td colname="col2"> <p>Click to preview your message as it will appear on users's tablets. </p> </td> 
   </tr> 
  </tbody> 

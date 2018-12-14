@@ -37,17 +37,7 @@ The following method must be called once in the `onCreate` method of your main a
    <td colname="col1"> setContext </td> 
    <td colname="col2"> <p> For example: </p> 
     <codeblock class="syntax java">
-      @Override 
-     
-public&nbsp;void&nbsp;onCreate(Bundle&nbsp;savedInstanceState)&nbsp;{ 
-     
-&nbsp;&nbsp;super.onCreate(savedInstanceState); 
-     
-&nbsp;&nbsp;setContentView(R.layout.main); 
-     
-&nbsp;&nbsp;Config.setContext(this.getApplicationContext()); 
-     
-} 
+      @Overridepublic&nbsp;void&nbsp;onCreate(Bundle&nbsp;savedInstanceState)&nbsp;{&nbsp;&nbsp;super.onCreate(savedInstanceState);&nbsp;&nbsp;setContentView(R.layout.main);&nbsp;&nbsp;Config.setContext(this.getApplicationContext());} 
     </codeblock> </td> 
   </tr> 
  </tbody> 
@@ -70,27 +60,7 @@ public&nbsp;void&nbsp;onCreate(Bundle&nbsp;savedInstanceState)&nbsp;{
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;registerAdobeDataCallback(final&amp;nbsp;AdobeDataCallback&amp;nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax java">
-      Config.registerAdobeDataCallback(new&nbsp;Config.AdobeDataCallback()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;@Override 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;call(Config.MobileDataEvent&nbsp;event,&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;contextData)&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;handle&nbsp;each&nbsp;event&nbsp;type&nbsp;accordingly 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(event&nbsp;==&nbsp;Config.MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL)&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;acquisition&nbsp;data&nbsp;found&nbsp;in&nbsp;contextData&nbsp;parameter 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String,&nbsp;Object&gt;&nbsp;acquisitionData&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(contextData); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-}); 
+      Config.registerAdobeDataCallback(new&nbsp;Config.AdobeDataCallback()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;@Override&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;call(Config.MobileDataEvent&nbsp;event,&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;contextData)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;handle&nbsp;each&nbsp;event&nbsp;type&nbsp;accordingly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(event&nbsp;==&nbsp;Config.MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;acquisition&nbsp;data&nbsp;found&nbsp;in&nbsp;contextData&nbsp;parameter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String,&nbsp;Object&gt;&nbsp;acquisitionData&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(contextData);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;}}); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -190,28 +160,10 @@ public&nbsp;void&nbsp;onCreate(Bundle&nbsp;savedInstanceState)&nbsp;{
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;collectLifecycleData(final&amp;nbsp;Activity&amp;nbsp;activity,&amp;nbsp;final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;contextData); 
     </codeblock> <p> <b>Example:</b> </p> <p>Without extra context data: </p> 
     <codeblock class="syntax java">
-      @Override 
-     
-protected&nbsp;void&nbsp;onResume()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;super.onResume(); 
-     
-&nbsp;&nbsp;&nbsp;Config.collectLifecycleData(this); 
-     
-} 
+      @Overrideprotected&nbsp;void&nbsp;onResume()&nbsp;{&nbsp;&nbsp;&nbsp;super.onResume();&nbsp;&nbsp;&nbsp;Config.collectLifecycleData(this);} 
     </codeblock> <p>With extra context data: </p> 
     <codeblock class="syntax java">
-      @Override 
-     
-public&nbsp;void&nbsp;onResume()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String,&nbsp;Object&gt;&nbsp;contextData&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;contextData.put("myapp.category",&nbsp;"Game"); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Config.collectLifecycleData(this,&nbsp;contextData); 
-     
-} 
+      @Overridepublic&nbsp;void&nbsp;onResume()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String,&nbsp;Object&gt;&nbsp;contextData&nbsp;=&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;();&nbsp;&nbsp;&nbsp;&nbsp;contextData.put("myapp.category",&nbsp;"Game");&nbsp;&nbsp;&nbsp;&nbsp;Config.collectLifecycleData(this,&nbsp;contextData);} 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -222,17 +174,7 @@ public&nbsp;void&nbsp;onResume()&nbsp;{
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;collectLifecycleData(final&amp;nbsp;Activity&amp;nbsp;activity); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax java">
-      @Override 
-     
-protected&nbsp;void&nbsp;onResume()&nbsp;{ 
-     
-&nbsp;super.onResume(); 
-     
-&nbsp;//&nbsp;assumes&nbsp;being&nbsp;called&nbsp;in&nbsp;an&nbsp;Activity&nbsp;class 
-     
-&nbsp;Config.collectLifecycleData(this); 
-     
-} 
+      @Overrideprotected&nbsp;void&nbsp;onResume()&nbsp;{&nbsp;super.onResume();&nbsp;//&nbsp;assumes&nbsp;being&nbsp;called&nbsp;in&nbsp;an&nbsp;Activity&nbsp;class&nbsp;Config.collectLifecycleData(this);} 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -242,15 +184,7 @@ protected&nbsp;void&nbsp;onResume()&nbsp;{
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;pauseCollectingLifecycleData(); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax java">
-      @Override 
-     
-protected&nbsp;void&nbsp;onPause()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;super.onPause(); 
-     
-&nbsp;&nbsp;&nbsp;Config.pauseCollectingLifecycleData(); 
-     
-} 
+      @Overrideprotected&nbsp;void&nbsp;onPause()&nbsp;{&nbsp;&nbsp;&nbsp;super.onPause();&nbsp;&nbsp;&nbsp;Config.pauseCollectingLifecycleData();} 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -280,17 +214,7 @@ protected&nbsp;void&nbsp;onPause()&nbsp;{
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;overrideConfigStream(final&amp;nbsp;InputStream&amp;nbsp;configInput); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
-      &nbsp;try&nbsp;{ 
-     
-&nbsp;InputStream&nbsp;configInput&nbsp;=&nbsp;getAssets().open("ExampleJSONFile.json"); 
-     
-&nbsp;Config.overrideConfigStream(configInput); 
-     
-&nbsp;}&nbsp;catch&nbsp;(IOException&nbsp;ex)&nbsp;{ 
-     
-&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;the&nbsp;exception&nbsp;if&nbsp;needed 
-     
-} 
+      &nbsp;try&nbsp;{&nbsp;InputStream&nbsp;configInput&nbsp;=&nbsp;getAssets().open("ExampleJSONFile.json");&nbsp;Config.overrideConfigStream(configInput);&nbsp;}&nbsp;catch&nbsp;(IOException&nbsp;ex)&nbsp;{&nbsp;//&nbsp;do&nbsp;something&nbsp;with&nbsp;the&nbsp;exception&nbsp;if&nbsp;needed} 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -300,17 +224,7 @@ protected&nbsp;void&nbsp;onPause()&nbsp;{
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;setPushIdentifier(final&amp;nbsp;String&amp;nbsp;registrationId); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
-      ... 
-     
-//&nbsp;note:&nbsp;the&nbsp;code&nbsp;to&nbsp;retreive&nbsp;the&nbsp;push&nbsp;token&nbsp;must&nbsp;run&nbsp;in&nbsp;the&nbsp;background 
-     
-InstanceID&nbsp;instanceID&nbsp;=&nbsp;InstanceID.getInstance(getApplicationContext()); 
-     
-String&nbsp;token&nbsp;=&nbsp;instanceID.getToken("835015092242",&nbsp;GoogleCloudMessaging.INSTANCE_ID_SCOPE,&nbsp;null); 
-     
-Config.setPushIdentifier(token); 
-     
-... 
+      ...//&nbsp;note:&nbsp;the&nbsp;code&nbsp;to&nbsp;retreive&nbsp;the&nbsp;push&nbsp;token&nbsp;must&nbsp;run&nbsp;in&nbsp;the&nbsp;backgroundInstanceID&nbsp;instanceID&nbsp;=&nbsp;InstanceID.getInstance(getApplicationContext());String&nbsp;token&nbsp;=&nbsp;instanceID.getToken("835015092242",&nbsp;GoogleCloudMessaging.INSTANCE_ID_SCOPE,&nbsp;null);Config.setPushIdentifier(token);... 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -320,59 +234,7 @@ Config.setPushIdentifier(token);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;submitAdvertisingIdentifierTask(final&amp;nbsp;Callable&lt;String&gt;&amp;nbsp;task); 
     </codeblock> <p><b>Example:</b> </p> 
     <codeblock class="syntax java">
-      @Override 
-     
-public&nbsp;void&nbsp;onResume()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;super.onResume(); 
-     
-&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;final&nbsp;Callable&lt;String&gt;&nbsp;task&nbsp;=&nbsp;new&nbsp;Callable&lt;String&gt;()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;String&nbsp;call()&nbsp;throws&nbsp;Exception&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AdvertisingIdClient.Info&nbsp;idInfo; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;adid&nbsp;=&nbsp;null; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Context&nbsp;appContext&nbsp;=&nbsp;CLASSNAME.this.getApplicationContext(); 
-     
-&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;idInfo&nbsp;=&nbsp;AdvertisingIdClient.getAdvertisingIdInfo(appContext); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(idInfo&nbsp;!=&nbsp;null)&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adid&nbsp;=&nbsp;idInfo.getId(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;catch&nbsp;(Exception&nbsp;ex)&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log.e("Error",&nbsp;ex.getLocalizedMessage()); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;adid; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;}; 
-     
-&nbsp; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Config.submitAdvertisingIdentifierTask(task); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Config.collectLifecycleData(this); 
-     
-} 
+      @Overridepublic&nbsp;void&nbsp;onResume()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;super.onResume();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final&nbsp;Callable&lt;String&gt;&nbsp;task&nbsp;=&nbsp;new&nbsp;Callable&lt;String&gt;()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;String&nbsp;call()&nbsp;throws&nbsp;Exception&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AdvertisingIdClient.Info&nbsp;idInfo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;adid&nbsp;=&nbsp;null;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Context&nbsp;appContext&nbsp;=&nbsp;CLASSNAME.this.getApplicationContext();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;idInfo&nbsp;=&nbsp;AdvertisingIdClient.getAdvertisingIdInfo(appContext);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(idInfo&nbsp;!=&nbsp;null)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adid&nbsp;=&nbsp;idInfo.getId();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;catch&nbsp;(Exception&nbsp;ex)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log.e("Error",&nbsp;ex.getLocalizedMessage());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;adid;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;};&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Config.submitAdvertisingIdentifierTask(task);&nbsp;&nbsp;&nbsp;&nbsp;Config.collectLifecycleData(this);} 
     </codeblock> </td> 
   </tr> 
  </tbody> 
