@@ -14,5 +14,7 @@ snippet: y
 
 # Audience Manager{#audience-manager}
 
-This information helps you send signals and retrieve visitor segments from Audience Manager.
+The following information helps you send signals and retrieve visitor segments from Audience Manager:
 
++ [Audience Manager Configuration](audiencemgmt.md)
++ [Audience Manager Methods](c-audience-manager-methods.md)
