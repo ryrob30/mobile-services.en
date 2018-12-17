@@ -15,3 +15,5 @@ snippet: y
 
 Starting in Android SDK version 4.5, a new Android extension was added that allows you to collect data from your Android Wearable app.
 
++ [Android Wearables: Getting Started](android-wearable.md)
++ [Android Wearables: Additional Notes](c-android-wearables--additional-notes.md)

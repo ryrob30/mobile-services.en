@@ -20,7 +20,8 @@ user-guide-title: Mobile Services Android Help
    + [Override the ADBMobile JSON Config Path](configuration/json-config/json-config-remote.md)
    + [Hit Batching](configuration/hit-batching.md)
    + [Configuration Methods](configuration/methods.md)
-+ [Lifecycle Metrics](metrics.md)
++ Lifecycle Metrics {#lifecycle-metrics-android}
+   + [Lifecycle Metrics](metrics.md)
 + Analytics {#analytics-android}
    + [Analytics Overview](analytics-main/analytics-main.md)
    + [Track App States](analytics-main/states.md)
@@ -54,29 +55,37 @@ user-guide-title: Mobile Services Android Help
 + Location {#location/location.md}
    + [Geo-Location and Points of Interest](location/geo-poi.md)
    + [Beacon tracking](location/beacon.md)
-+ [Target](target-main/target-main.md)
++ Target {#target-android}
+   + [Target Overview](target-main/target-main.md)
    + [Target Configuration](target-main/target.md)
    + [Target Methods](target-main/c-target-methods.md)
    + [Prefetch offer content in Android](target-main/c-mob-target-prefetch-android.md)
    + [Target Preview on Android](target-main/c-mob-target-preview-android.md)
-+ [Experience Cloud](c-marketing-cloud/c-marketing-cloud.md)
++ Experience Cloud {#experience-cloud-android}
+   + [Experience Cloud Overview](c-marketing-cloud/c-marketing-cloud.md)
    + [Experience Cloud ID Configuration](c-marketing-cloud/mcvid.md)
    + [Experience Cloud ID Service Methods](c-marketing-cloud/mc-methods.md)
    + [Experience Cloud Device Co-op](c-marketing-cloud/t-mob-mc-device-coop-android-.md)
-+ [Audience Manager](audience-manager/audience-manager.md)
++ Audience Manager {#audience-manager-android}
+   + [Audience Manager Overview](audience-manager/audience-manager.md)
    + [Audience Manager Configuration](audience-manager/audiencemgmt.md)
    + [Audience Manager Methods](audience-manager/c-audience-manager-methods.md)
-+ [Wearables](wearables/wearables.md)
++ Wearables {#wearables-android} 
+   + [Wearables Overview](wearables/wearables.md)
    + [Android Wearables: Getting Started](wearables/android-wearable.md)
    + [Android Wearables: Additional Notes](wearables/c-android-wearables--additional-notes.md)
-+ [Android SDK Reference](reference/reference.md)
++ Android SDK Reference {#sdk-reference-android} 
+   + [Android SDK Reference Overview](reference/reference.md)
    + [App IDs](reference/app-ids.md)
    + [Visitor Tracking Between an App and Mobile Web](reference/hybrid-app.md)
    + [Android Widgets](reference/widgets.md)
-+ [Privacy and General Data Protection Regulation](c-mob-privacy-gdpr-android/c-mob-privacy-gdpr-android.md)
++ Privacy and General Data Protection Regulation {#gdpr-privacy-android}
+   + [Privacy and GDPR Overview](c-mob-privacy-gdpr-android/c-mob-privacy-gdpr-android.md)
    + [Retrieving Stored Identifiers](c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)
    + [Setting the User's Opt Status](c-mob-privacy-gdpr-android/privacy.md)
-+ [Using Bloodhound to Test Mobile Applications](bloodhound.md)
-+ [PhoneGap Plug-in](phonegap/phonegap.md)
++ Using Bloodhound to Test Mobile Applications {#bloodhound-android}
+   + Using Bloodhound to Test Mobile Applications (bloodhound.md)
++ PhoneGap Plug-in {#phonegap-android}
+   + [PhoneGap Plug-in](phonegap/phonegap.md)
    + [PhoneGap Plug-in Methods](phonegap/phonegap-methods.md)
 + [Contact and Legal Information](contact-and-legal.md)
