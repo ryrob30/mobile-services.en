@@ -45,7 +45,7 @@ user-guide-title: Mobile Services Android Help
    + [Testing Marketing Link Acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
    + [Testing Version 3 Acquisition](acquisition-main/t-testing-version-3-acquisition.md)
    + [Testing Legacy Acquisition](acquisition-main/t-testing-acquisition.md)
-+ [Messaging](messaging-main/messaging-main.md)
++ Messaging {#messaging-android}
    + [In-App Messaging](messaging-main/messaging/messaging.md)
       + [Troubleshooting In-App Messaging](messaging-main/messaging/in-apps-ts.md)
    + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
@@ -55,7 +55,7 @@ user-guide-title: Mobile Services Android Help
 + Location {#location/location.md}
    + [Geo-Location and Points of Interest](location/geo-poi.md)
    + [Beacon tracking](location/beacon.md)
-+ Target {#target-android}
++ Target{#target-android}
    + [Target Overview](target-main/target-main.md)
    + [Target Configuration](target-main/target.md)
    + [Target Methods](target-main/c-target-methods.md)
@@ -75,6 +75,19 @@ user-guide-title: Mobile Services Android Help
    + [Android Wearables: Getting Started](wearables/android-wearable.md)
    + [Android Wearables: Additional Notes](wearables/c-android-wearables--additional-notes.md)
 + Android SDK Reference {#sdk-reference-android} 
+   + [Experience Cloud Overiew](c-marketing-cloud/c-marketing-cloud.md)
+   + [Experience Cloud ID Configuration](c-marketing-cloud/mcvid.md)
+   + [Experience Cloud ID Service Methods](c-marketing-cloud/mc-methods.md)
+   + [Experience Cloud Device Co-op](c-marketing-cloud/t-mob-mc-device-coop-android-.md)
++ Audience Manager {#audience-manager-andriod}
+   + [Audience Manager Overview](audience-manager/audience-manager.md)
+   + [Audience Manager Configuration](audience-manager/audiencemgmt.md)
+   + [Audience Manager Methods](audience-manager/c-audience-manager-methods.md)
++ Wearables (#wearables-android}
+   + [Wearables Overview](wearables/wearables.md)
+   + [Android Wearables: Getting Started](wearables/android-wearable.md)
+   + [Android Wearables: Additional Notes](wearables/c-android-wearables--additional-notes.md)
++ Android SDK Reference {#sdk-reference-android}
    + [Android SDK Reference Overview](reference/reference.md)
    + [App IDs](reference/app-ids.md)
    + [Visitor Tracking Between an App and Mobile Web](reference/hybrid-app.md)
