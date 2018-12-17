@@ -14,5 +14,8 @@ snippet: y
 
 # Experience Cloud{#experience-cloud}
 
-This information helps you use the Android SDK with the Adobe Experience Cloud.
+The following nformation helps you use the Android SDK with the Adobe Experience Cloud:
 
++ [Experience Cloud ID Configuration](c-marketing-cloud/mcvid.md)
++ [Experience Cloud ID Service Methods](c-marketing-cloud/mc-methods.md)
++ [Experience Cloud Device Co-op](c-marketing-cloud/t-mob-mc-device-coop-android-.md)

@@ -13,5 +13,8 @@ snippet: y
 
 # Android SDK Reference{#android-sdk-reference}
 
-This reference material helps you use the Android SDK for Experience Cloud Solutions.
+The following reference material helps you use the Android SDK for Experience Cloud Solutions:
 
++ [App IDs](app-ids.md)
++ [Visitor Tracking Between an App and Mobile Web](hybrid-app.md)
++ [Android Widgets](widgets.md)
