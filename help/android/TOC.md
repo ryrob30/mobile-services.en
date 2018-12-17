@@ -51,7 +51,7 @@ user-guide-title: Mobile Services Android Help
       + [Implement Push Messaging with Deep Linking](messaging-main/push-messaging/t-mob-impl-push-deeplinking-android-4x.md)
       + [Receive Rich Push Notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
       + [Troubleshooting Push Messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
-+ [Location](location/location.md)
++ Location {#location/location.md}
    + [Geo-Location and Points of Interest](location/geo-poi.md)
    + [Beacon tracking](location/beacon.md)
 + [Target](target-main/target-main.md)
