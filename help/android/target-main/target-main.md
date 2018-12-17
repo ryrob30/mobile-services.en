@@ -21,3 +21,7 @@ The following information helps you deliver targeted content in Android applicat
 + [Prefetch offer content in Android](c-mob-target-prefetch-android.md)
 + [Target Preview on Android](c-mob-target-preview-android.md)
 
++ [Target Configuration](target.md)
++ [Target Methods](c-target-methods.md)
++ [Prefetch offer content in Android](c-mob-target-prefetch-android.md)
++ [Target Preview on Android](c-mob-target-preview-android.md)
