@@ -15,7 +15,7 @@ snippet: y
 
 The following information helps you configure the Android SDK, including JSON configuration, hit batching, and SDK methods:
 
-   + [ADBMobile JSON Config](json-config/json-config.md)
-   + [Override the ADBMobile JSON Config Path](json-config/json-config-remote.md)
-   + [Hit Batching](hit-batching.md)
-   + [Configuration Methods](methods.md)
++ [ADBMobile JSON Config](json-config/json-config.md)
++ [Override the ADBMobile JSON Config Path](json-config/json-config-remote.md)
++ [Hit Batching](hit-batching.md)
++ [Configuration Methods](methods.md)
