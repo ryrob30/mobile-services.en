@@ -21,7 +21,8 @@ user-guide-title: Mobile Services Android Help
    + [Hit Batching](configuration/hit-batching.md)
    + [Configuration Methods](configuration/methods.md)
 + [Lifecycle Metrics](metrics.md)
-+ [Analytics](analytics-main/analytics-main.md)
++ Analytics {#analytics-android}
+   + [Analytics Overview](analytics-main/analytics-main.md)
    + [Track App States](analytics-main/states.md)
    + [Track App Actions](analytics-main/actions.md)
    + [Track App Crashes](analytics-main/crashes.md)
@@ -35,7 +36,7 @@ user-guide-title: Mobile Services Android Help
       + [Postbacks Example](analytics-main/postbacks/postback-example.md)
       + [PII Postbacks](analytics-main/postbacks/c-pii-postbacks.md)
    + [Analytics Methods](analytics-main/analytics-methods.md)
-+ [Acquisition](acquisition-main/acquisition-main.md)
++ Acquisition {#acquisition-android}
    + [Mobile App Acquisition](acquisition-main/acquisition.md)
    + [Acquisition Methods](acquisition-main/acquisition-methods.md)
    + [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
