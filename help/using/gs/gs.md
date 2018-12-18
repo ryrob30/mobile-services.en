@@ -163,9 +163,9 @@ For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Exper
 
 This section also contains the following information: 
 
-+ [Roles and Permissions](c-mob-roles-and-permissions.md)
-+ [Signing In](gs-signin.md)
-+ [Report Types](reports-types.md)
-+ [Mobile Metrics](metrics/metrics.md)
-+ [Display Mobile Metrics](metrics/overview.md)
-+ [Mobile Metrics and Dimensions Reference](metrics/metrics-reference.md)
+* [Roles and Permissions](c-mob-roles-and-permissions.md)
+* [Signing In](gs-signin.md)
+* [Report Types](reports-types.md)
+* [Mobile Metrics](metrics/metrics.md)
+* [Display Mobile Metrics](metrics/overview.md)
+* [Mobile Metrics and Dimensions Reference](metrics/metrics-reference.md)
