@@ -258,4 +258,10 @@ ADB.Analytics.trackTimedActionStart("TimeUntilPurchase", cdata);
 var ADB = ADBMobile; 
 ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 ```
+Here is some additional information about Analytics in this section:
 
++ [Products variable](products/products.md)
+  + [Products Variable with Merchandising eVars and Product-Specific Events](products/products-variable-evars-events.md)
++ [Event serialization](event-serialization.md)
++ [Video Analytics](video-qs.md)
++ [Analytics methods](analytics-methods.md)

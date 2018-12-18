@@ -15,3 +15,4 @@ snippet: y
 
 Information to help you use extensions with the Windows 8.1 Universal App Store SDK for Experience Cloud Solutions.
 
++ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](win-vse-4x.md)
