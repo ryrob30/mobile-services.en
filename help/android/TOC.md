@@ -88,10 +88,6 @@ user-guide-title: Mobile Services Android Help
   + [Audience Manager Overview](audience-manager/audience-manager.md)
   + [Audience Manager Configuration](audience-manager/audiencemgmt.md)
   + [Audience Manager Methods](audience-manager/c-audience-manager-methods.md)
-+ Wearables (#wearables-android}
-  + [Wearables Overview](wearables/wearables.md)
-  + [Android Wearables: Getting Started](wearables/android-wearable.md)
-  + [Android Wearables: Additional Notes](wearables/c-android-wearables--additional-notes.md)
 + Android SDK Reference{#sdk-reference-android}
   + [Android SDK Reference Overview](reference/reference.md)
   + [App IDs](reference/app-ids.md)
