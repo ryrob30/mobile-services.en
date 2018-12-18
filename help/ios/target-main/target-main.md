@@ -15,3 +15,6 @@ snippet: y
 
 This information helps you deliver targeted content in iOS applications.
 
++ [Target Methods](c-target-methods.md)
++ [Prefetch offer content in iOS](c-mob-target-prefetch-ios.md)
++ [Target Preview on iOS](c-mob-target-preview-ios.md)

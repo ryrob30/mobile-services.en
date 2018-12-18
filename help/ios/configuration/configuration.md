@@ -15,3 +15,8 @@ snippet: y
 
 The following information helps you configure the iOS SDK, including JSON configuration, hit batching, and SDK methods:
 
++ [ADBMobile JSON Config](json-config.md)
++ [Override the ADBMobile JSON Config Path](json-config-remote.md)
++ [Hit Batching](hit-batching.md)
++ [Configuration Methods](sdk-methods.md)
++ [App Transport Security](app-transport-security.md)
