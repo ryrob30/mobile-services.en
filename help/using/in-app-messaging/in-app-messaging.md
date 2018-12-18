@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Messaging{#messaging}
+# Messaging {#messaging}
 
 Create, manage, and report on in-app and push messages.
 
@@ -58,3 +58,20 @@ Before you can configure Push Messaging, see [Prerequisites to Enable Push Messa
 * For more information about the iOS SDK, see [iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/). 
 * For more information about the Android SDK, see [Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/).
 
+## Additional Information
+
+For additional information about messaging, see the following links:
+
++ [Manage Messages](messages-manage.md)
++ [View Message Reports](view-message-reports.md)
++ [Create a push message](t-create-push-message.md)
++ [Audience: Define and Configure Audience Segments for Push Messages](c-audience-push-message.md)
++ [Experience: Push Message](c-experience--push-message.md)
++ [Schedule: Push Message](c-schedule-push-message.md)
++ [Troubleshooting Push Messaging](c-troubleshooting-push-messaging.md)
++ [Create an in-app message](t-in-app-message.md)
++ [Audience: In-App Message](c-audience-in-app-message.md)
++ [Experience: In-App Message](c-experience-in-app-message.md)
++ [Schedule: In-App Message](c-schedule-in-app-message.md)
++ [Troubleshooting In-App Messaging](in-apps-ts.md)
++ [Trigger an In-App Message when the App is Opened from a Push Message](t-mob-trig-in-app-open-app-from-push.md)

@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Create a push message{#create-a-push-message}
+# Create a push message {#create-a-push-message}
 
 You can send push messages to Analytics segments from the Mobile Services UI to leverage your robust Analytics data while engaging with users.
 

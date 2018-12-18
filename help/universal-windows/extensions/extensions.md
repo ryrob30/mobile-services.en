@@ -15,3 +15,4 @@ snippet: y
 
 Information to help you use extensions with the Universal Windows Platform SDK for Experience Cloud Solutions.
 
++ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](win-vse-4x.md)
