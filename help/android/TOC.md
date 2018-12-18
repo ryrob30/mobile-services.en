@@ -97,7 +97,7 @@ user-guide-title: Mobile Services Android Help
    + [Retrieving Stored Identifiers](c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)
    + [Setting the User's Opt Status](c-mob-privacy-gdpr-android/privacy.md)
 + Using Bloodhound to Test Mobile Applications {#bloodhound-android}
-   + Using Bloodhound to Test Mobile Applications (bloodhound.md)
+   + [Using Bloodhound to Test Mobile Applications](bloodhound.md)
 + PhoneGap Plug-in {#phonegap-android}
    + [PhoneGap Plug-in](phonegap/phonegap.md)
    + [PhoneGap Plug-in Methods](phonegap/phonegap-methods.md)
