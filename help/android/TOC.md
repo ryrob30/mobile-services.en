@@ -29,30 +29,35 @@ user-guide-title: Mobile Services Android Help
    + [Track App Crashes](analytics-main/crashes.md)
    + [Timed Actions](analytics-main/timed-actions.md)
    + [Visitor Lifetime Value](analytics-main/lifetime-value.md)
-   + [Products Variable](analytics-main/products/products.md)
+   + Products Variable {#products-variable}
+      + [Products Variable](analytics-main/products/products.md)
       + [Products Variable with Merchandising eVars and Product-Specific Events](analytics-main/products/products-variable-evars-events.md)
    + [Event Serialization](analytics-main/event-serialization.md)
    + [Video Analytics](analytics-main/video-qs.md)
-   + [Postbacks](analytics-main/postbacks/postbacks.md)
+   + Postbacks {#postbacks}
+      + [Postbacks](analytics-main/postbacks/postbacks.md)
       + [Postbacks Example](analytics-main/postbacks/postback-example.md)
       + [PII Postbacks](analytics-main/postbacks/c-pii-postbacks.md)
    + [Analytics Methods](analytics-main/analytics-methods.md)
 + Acquisition {#acquisition-android}
    + [Mobile App Acquisition](acquisition-main/acquisition.md)
    + [Acquisition Methods](acquisition-main/acquisition-methods.md)
-   + [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
+   + Tracking Deep Links {#tracking-deep-links}
+      + [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
       + [Tracking Third-Party Deferred Deep Links](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md)
    + [Testing Marketing Link Acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
    + [Testing Version 3 Acquisition](acquisition-main/t-testing-version-3-acquisition.md)
    + [Testing Legacy Acquisition](acquisition-main/t-testing-acquisition.md)
 + Messaging {#messaging-android}
-   + [In-App Messaging](messaging-main/messaging/messaging.md)
+   + In-App Messaging {#inapp-messaging}
+      + [In-App Messaging](messaging-main/messaging/messaging.md)
       + [Troubleshooting In-App Messaging](messaging-main/messaging/in-apps-ts.md)
-   + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
+   + Push Messaging {#push-messaging}
+      + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
       + [Implement Push Messaging with Deep Linking](messaging-main/push-messaging/t-mob-impl-push-deeplinking-android-4x.md)
       + [Receive Rich Push Notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
       + [Troubleshooting Push Messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
-+ Location {#location/location.md}
++ Location {#location}
    + [Geo-Location and Points of Interest](location/geo-poi.md)
    + [Beacon tracking](location/beacon.md)
 + Target{#target-android}
