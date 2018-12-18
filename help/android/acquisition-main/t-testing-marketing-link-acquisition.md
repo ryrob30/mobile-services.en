@@ -183,26 +183,26 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
  </tbody> 
 </table>
 
->Remember the following information: >
->* Hits that are sent from the app can be monitored by using HTTP monitoring tools to verify the acquisition attribution. 
->* For more information about how to broadcast `INSTALL_REFERRER`, see [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns) in the Google Developers guide . 
->
->* You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
->
->  **Install the Java Tool** 
->
->  To install the Java tool: >
->    1. Download [acquistionTester.zip](https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisitionTester.zip). 
->    1. Extract the .jar file. 
->
->  You can run the .jar file on the command line. 
->
->  For example: 
->
->  ```>
->  java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
->  ```>
->* The marketing links are cached on the server side with a ten-minutes expiration time. 
->
->  When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again. 
->
+Remember the following information: 
+* Hits that are sent from the app can be monitored by using HTTP monitoring tools to verify the acquisition attribution. 
+* For more information about how to broadcast `INSTALL_REFERRER`, see [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns) in the Google Developers guide . 
+
+* You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
+
+  **Install the Java Tool** 
+
+  To install the Java tool: >
+    1. Download the `acquistionTester.zip` file. 
+    1. Extract the .jar file. 
+
+  You can run the .jar file on the command line. 
+
+  For example: 
+
+  ```
+  java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
+  ```
+* The marketing links are cached on the server side with a ten-minutes expiration time. 
+
+  When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again. 
+
