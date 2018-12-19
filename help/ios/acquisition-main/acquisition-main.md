@@ -15,11 +15,11 @@ snippet: y
 
 This information helps you use acquisition tracking links in your in your iOS apps.
 
-[Mobile App Acquisition](acquisition-main/acquisition.md)
-* [Acquisition Methods](acquisition-main/c-acquisition-methods.md)
-* [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
-* [Tracking Third-Party Deferred Deep Links](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deep-deferred-links.md)
-* [Testing Marketing Link Acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
-* [Testing V3 Acquisition](acquisition-main/t-testing-version-3-acquisition.md)
-* [Testing Legacy Acquisition](acquisition-main/t-testing-acquisition.md)
-* [Apple Search Ads](acquisition-main/c-apple-search-ads.md)
+[Mobile App Acquisition](acquisition.md)
+* [Acquisition Methods](c-acquisition-methods.md)
+* [Tracking Deep Links](tracking-deep-links/tracking-deep-links.md)
+* [Tracking Third-Party Deferred Deep Links](tracking-deep-links/c-tracking-3rd-party-deep-deferred-links.md)
+* [Testing Marketing Link Acquisition](t-testing-marketing-link-acquisition.md)
+* [Testing V3 Acquisition](t-testing-version-3-acquisition.md)
+* [Testing Legacy Acquisition](t-testing-acquisition.md)
+* [Apple Search Ads](c-apple-search-ads.md)
