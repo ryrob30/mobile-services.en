@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Mobile Services Unity Plug-in Help
 ---
 
-# Table of Contents {#table-of-contents}
+# Mobile Services Unity Plug-in Help {#unity}
 
 + [Unity Plug-in for the iOS and Android 4.x SDKs](get-started.md)
 + [Building your project](project.md)
