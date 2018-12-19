@@ -54,7 +54,7 @@ For more information about Acquisition, see the following links:
 * [Create New Link Destination](c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
 * [Manage Link Destinations](c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
 * [Marketing Links Builder](c-marketing-links-builder/c-marketing-links-builder.md)
-* [Create or Edit Marketing Links](c-marketing-links-builder/t-create-edit-adobe-links.md)
+* [Create or Edit Marketing Links](c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
 * [Interstitials](c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)
 * [Use Legacy Acquisition Links](c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)
 * [Create an Acquisition Link](c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/t-acquisition-link.md)

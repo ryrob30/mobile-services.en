@@ -120,7 +120,7 @@ Adobe Target for Mobile apps now takes full advantage of the enhanced segmentati
 
 For more information about location, see the following content:
 
-* [Location](../location/location.md#concept_B41E4C346F5E4199A5AB611EB64FB2BF) in the user’s guide. 
+* [Location](../location/c-location-overview.md) in the user’s guide. 
 * [Location](https://marketing.adobe.com/resources/help/en_US/mobile/android/location.html) in the Android SDK guide 
 * [Location](https://marketing.adobe.com/resources/help/en_US/mobile/ios/location.html) in the iOS SDK guide
 

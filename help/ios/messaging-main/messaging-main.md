@@ -17,7 +17,7 @@ This information helps you use messaging in your iOS apps.
 
 * [In-App Messaging](messaging/messaging.md)
 * [Troubleshooting In-App Messaging](messaging/in-apps-ts.md)
-* [Push Messaging](messaging/push-messaging.md)
-* [Implement Push Messaging with Deep Linking](messaging/t-mob-imp-push-deeplinking-ios-4x.md)
-* [Receive Rich Push Notifications](messaging/c-set-up-rich-push-notif-ios.md)
-* [Troubleshooting Push Messaging](messaging/c-troubleshooting-push-messaging.md)
+* [Push Messaging](push-messaging/push-messaging.md)
+* [Implement Push Messaging with Deep Linking](push-messaging/t-mob-imp-push-deeplinking-ios-4x.md)
+* [Receive Rich Push Notifications](push-messaging/c-set-up-rich-push-notif-ios.md)
+* [Troubleshooting Push Messaging](push-messaging/c-troubleshooting-push-messaging.md)
