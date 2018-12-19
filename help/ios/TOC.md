@@ -57,7 +57,7 @@ user-guide-title: Mobile Services iOS Help
    + In-App Messaging {#in-app-messaging}
       + [In-App Messaging](messaging-main/messaging/messaging.md)
       + [Troubleshooting In-App Messaging](messaging-main/messaging/in-apps-ts.md)
-   Push Messaging {#push-messaging}
+   + Push Messaging {#push-messaging}
       + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
       + [Implement Push Messaging with Deep Linking](messaging-main/push-messaging/t-mob-imp-push-deeplinking-ios-4x.md)
       + [Receive Rich Push Notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
