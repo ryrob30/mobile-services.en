@@ -80,24 +80,24 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 1. Repeat step 3 to get a new unique ID.
 1. Verify that the following settings in your config file are correct:
 
-<table id="table_FA9CF58B38F3437CBD39A20874335CA1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Value </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>acquisition </p> </td> 
-   <td colname="col2"> <p>The server should be <span class="filepath"> c00.adobe.com </span> </p> <p> <span class="codeph"> appid </span> should equal the &lt;appid&gt; in your acquisition link </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>analytics </p> </td> 
-   <td colname="col2"> <p>For testing purposes, set the referrer timeout to allow for adequate time (60 seconds or more) to manually send the broadcast. You can restore the original timeout setting after testing. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_FA9CF58B38F3437CBD39A20874335CA1"> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> Setting </th> 
+      <th colname="col2" class="entry"> Value </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>acquisition </p> </td> 
+      <td colname="col2"> <p>The server should be <span class="filepath"> c00.adobe.com </span> </p> <p> <span class="codeph"> appid </span> should equal the &lt;appid&gt; in your acquisition link </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>analytics </p> </td> 
+      <td colname="col2"> <p>For testing purposes, set the referrer timeout to allow for adequate time (60 seconds or more) to manually send the broadcast. You can restore the original timeout setting after testing. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Connect the device to a computer, uninstall, and install the app again.
 1. Launch ADB Shell and launch the application on the device.
@@ -137,61 +137,61 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    The following table contains additional information about the possible errors: 
 
-<table id="table_9E22245A614744B38C28D7CEE4857F34"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Error </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <msgph>
-       Analytics - Unable to decode response(&lt;String&gt;). 
-     </msgph> </p> </td> 
-   <td colname="col2"> <p>The response is malformed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <msgph>
-       Analytics - Unable to parse response(&lt;A JSON Response&gt;. 
-     </msgph> </p> </td> 
-   <td colname="col2"> <p>The JSON string is malformed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <msgph>
-       Analytics - Unable to parse acquisition service response (no contextData parameter in response). 
-     </msgph> </p> </td> 
-   <td colname="col2"> <p>There in no <span class="codeph"> contextData </span> parameter in the response. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <msgph>
-       Analytics - Acquisition referrer data was not complete (no a.referrer.campaign.name in context data), ignoring. 
-     </msgph> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> a.referrer.campaign.name </span> is not included in <span class="codeph"> contextData </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <msgph>
-       Analytics - Acquisition referrer timed out. 
-     </msgph> </p> </td> 
-   <td colname="col2"> <p>Failed to get the response in the time defined by <span class="codeph"> referrerTimeout </span>. Increase the value and try again. </p> <p>You should also ensure that you've opened the acquisition link before installing the app. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_9E22245A614744B38C28D7CEE4857F34"> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> Error </th> 
+      <th colname="col2" class="entry"> Description </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> 
+        <msgph>
+          Analytics - Unable to decode response(&lt;String&gt;). 
+        </msgph> </p> </td> 
+      <td colname="col2"> <p>The response is malformed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> 
+        <msgph>
+          Analytics - Unable to parse response(&lt;A JSON Response&gt;. 
+        </msgph> </p> </td> 
+      <td colname="col2"> <p>The JSON string is malformed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> 
+        <msgph>
+          Analytics - Unable to parse acquisition service response (no contextData parameter in response). 
+        </msgph> </p> </td> 
+      <td colname="col2"> <p>There in no <span class="codeph"> contextData </span> parameter in the response. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> 
+        <msgph>
+          Analytics - Acquisition referrer data was not complete (no a.referrer.campaign.name in context data), ignoring. 
+        </msgph> </p> </td> 
+      <td colname="col2"> <p> <span class="codeph"> a.referrer.campaign.name </span> is not included in <span class="codeph"> contextData </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> 
+        <msgph>
+          Analytics - Acquisition referrer timed out. 
+        </msgph> </p> </td> 
+      <td colname="col2"> <p>Failed to get the response in the time defined by <span class="codeph"> referrerTimeout </span>. Increase the value and try again. </p> <p>You should also ensure that you've opened the acquisition link before installing the app. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 Remember the following information: 
+
 * Hits that are sent from the app can be monitored by using HTTP monitoring tools to verify the acquisition attribution. 
 * For more information about how to broadcast `INSTALL_REFERRER`, see [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns) in the Google Developers guide . 
-
 * You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
 
   **Install the Java Tool** 
 
-  To install the Java tool: >
+  To install the Java tool:
     1. Download the `acquistionTester.zip` file. 
     1. Extract the .jar file. 
 
@@ -202,6 +202,7 @@ Remember the following information:
   ```
   java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
   ```
+
 * The marketing links are cached on the server side with a ten-minutes expiration time. 
 
   When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again. 
