@@ -44,9 +44,9 @@ For the latest release notes, see [Experience Cloud Release Notes](https://marke
       <li id="li_090F693150834FF4BB7D3FAC1384D239"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="http" scope="external"> Analytics Developer</a> </li> 
      </ul> </p> <p> <b>Community Resources </b> </p> <p> 
      <ul id="ul_63581CB62311449C8D7AFC0E65F9687B"> 
-      <li id="li_B4C17237E7CA47798A924690537C7D5E"> <a href="https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.html" format="http" scope="external"> Experience Cloud Forum</a> </li> 
+      <li id="li_B4C17237E7CA47798A924690537C7D5E"> <a href="https://forums.adobe.com/community/experience-cloud" format="http" scope="external"> Experience Cloud Forum</a> </li> 
       <li id="li_06A00BF463E24B26BD38B622186DE5AD"> <a href="https://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE" format="http" scope="external"> Adobe Marketing Cloud Community</a> </li> 
-      <li id="li_D1BBBCDE74C7424E8EBDB21961ACB3A1"> <a href="https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3" scope="external" format="html"> Idea Exchange</a> </li> 
+      <li id="li_D1BBBCDE74C7424E8EBDB21961ACB3A1"> <a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics" scope="external" format="html"> Idea Exchange</a> </li> 
       <li id="li_9C28B12EE4A6403CAD26178110E93B81"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
       <li id="li_6F51E3167F884372831DA6527D17646B"> <a href="https://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
      </ul> </p> </td> 
