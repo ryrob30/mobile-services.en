@@ -31,11 +31,13 @@ user-guide-title: Mobile Services iOS Help
    + [Track App Crashes](analytics-main/crashes.md)
    + [Timed Actions](analytics-main/timed-actions.md)
    + [Visitor Lifetime Value](analytics-main/lifetime-value.md)
-   + [Products Variable](analytics-main/products/products.md)
+   + Products Variable {#products-variable}
+      + [Products Variable](analytics-main/products/products.md)
       + [Products Variable with Merchandising eVars and Product-Specific Events](analytics-main/products/products-variable-evars-events.md)
    + [Event Serialization](analytics-main/event-serialization.md)
    + [Video Analytics](analytics-main/video-qs.md)
-   + [Postbacks](analytics-main/postback/postback.md)
+   + Postbacks {#postbacks}
+      + [Postbacks Overview](analytics-main/postback/postback.md)
       + [Postback Example](analytics-main/postback/postback-example.md)
       + [PII Postbacks](analytics-main/postback/c-pii-postbacks.md)
    + [Analytics Methods](analytics-main/analytics-methods.md)
@@ -43,7 +45,8 @@ user-guide-title: Mobile Services iOS Help
    + [Acquisition Overview](acquisition-main/acquisition-main.md)
    + [Mobile App Acquisition](acquisition-main/acquisition.md)
    + [Acquisition Methods](acquisition-main/c-acquisition-methods.md)
-   + [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
+   + Tracking Deep Links {#tracking-deep-links}
+      + [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
       + [Tracking Third-Party Deferred Deep Links](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deep-deferred-links.md)
    + [Testing Marketing Link Acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
    + [Testing V3 Acquisition](acquisition-main/t-testing-version-3-acquisition.md)
@@ -51,9 +54,11 @@ user-guide-title: Mobile Services iOS Help
    + [Apple Search Ads](acquisition-main/c-apple-search-ads.md)
 + Messaging {#messaging-ios}
    + [Messaging Overview](messaging-main/messaging-main.md)
-   + [In-App Messaging](messaging-main/messaging/messaging.md)
+   + In-App Messaging {#in-app-messaging}
+      + [In-App Messaging](messaging-main/messaging/messaging.md)
       + [Troubleshooting In-App Messaging](messaging-main/messaging/in-apps-ts.md)
-   + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
+   Push Messaging {#push-messaging}
+      + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
       + [Implement Push Messaging with Deep Linking](messaging-main/push-messaging/t-mob-imp-push-deeplinking-ios-4x.md)
       + [Receive Rich Push Notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
       + [Troubleshooting Push Messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
@@ -97,4 +102,3 @@ user-guide-title: Mobile Services iOS Help
 + PhoneGap Plug-in {#phonegap-ios}
    + [PhoneGap Plug-in](phonegap/phonegap.md)
    + [PhoneGap Plug-in Methods](phonegap/phonegap-methods.md)
-+ [Contact and Legal Information](contact-and-legal.md)

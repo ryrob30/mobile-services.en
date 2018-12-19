@@ -13,19 +13,22 @@ user-guide-title: Mobile Services User Help
    + [Roles and Permissions](gs/c-mob-roles-and-permissions.md)
    + [Signing In](gs/gs-signin.md)
    + [Report Types](gs/reports-types.md)
-   + [Mobile Metrics](gs/metrics/metrics.md)
+   + Mobile Metrics {#mobile-metrics}
+     + [Mobile Metrics](gs/metrics/metrics.md)
      + [Display Mobile Metrics](gs/metrics/overview.md)
      + [Mobile Metrics and Dimensions Reference](gs/metrics/metrics-reference.md)
 + Manage Apps {#manage-apps-ug}
    + [Manage Apps](manage-apps/manage-apps.md)
    + [Add a New App](manage-apps/t-new-app.md)
    + [Virtual Report Suites](manage-apps/c-mob-vrs.md)
-   + [App Store](manage-apps/c-app-store/c-app-store.md)
+   + App Store {#app-store}
+     + [App Store Overview](manage-apps/c-app-store/c-app-store.md)
      + [Add an App from an App Store](manage-apps/c-app-store/t-app-store-app.md)
    + [Delete an App](manage-apps/t-delete-apps.md)
 + Manage App Settings {#manage-app-settings-ug}
    + [Manage App Settings](c-manage-app-settings/c-manage-app-settings.md)
-   + [Configuring your App](c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)
+   + Configuring your App {#configuring-app}
+      + [Configuring your App](c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)
       + [Configure SDK Analytics Options](c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
       + [Download Mobile SDKs and Tools](c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
       + [Configure Audience Manager Options](c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
@@ -64,10 +67,12 @@ user-guide-title: Mobile Services User Help
    + [Acquisition Prerequisites](acquisition-main/c-acquisition-prerequisites.md)
    + [Configure Acquisition](acquisition-main/t-enable-acquisition.md)
    + [Destinations](acquisition-main/c-create-destinations.md)
-   + [Create and Manage Link Destinations](acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md)
+   + Create and Manage Link Destination {#create-manage-link-destination}
+     + [Create and Manage Link Destinations](acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md)
      + [Create New Link Destination](acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
      + [Manage Link Destinations](acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
-   + [Marketing Links Builder](acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)
+   + Marketing Link Builder {#marketing-links-builder}
+     + [Marketing Links Builder](acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)
      + [Create or Edit Marketing Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
      + [Interstitials](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)
      + [Use Legacy Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)
@@ -75,8 +80,8 @@ user-guide-title: Mobile Services User Help
      + [Manage Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/c-manage-acquisition-links.md)
      + [Delete Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-del.md)
      + [Import or Export Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-import.md)
-      + [Manage Marketing Links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
-      + [Create Acquisition Link Manually](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
+     + [Manage Marketing Links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
+     + [Create Acquisition Link Manually](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
 + Location {#location-ug}
    + [Overview (Location)](location/c-location-overview.md)
    + [Map](location/c-map-points.md)
@@ -85,12 +90,14 @@ user-guide-title: Mobile Services User Help
    + [Messaging Overview](in-app-messaging/in-app-messaging.md)
    + [Manage Messages](in-app-messaging/messages-manage/messages-manage.md)
    + [View Message Reports](in-app-messaging/messages-manage/view-message-reports.md)
-   + [Create a push message](in-app-messaging/t-create-push-message/t-create-push-message.md)
+   + Create push messages {#create-push-messages}
+      + [Create a push message](in-app-messaging/t-create-push-message/t-create-push-message.md)
       + [Audience: Define and Configure Audience Segments for Push Messages](in-app-messaging/t-create-push-message/c-audience-push-message.md)
       + [Experience: Push Message](in-app-messaging/t-create-push-message/c-experience--push-message.md)
       + [Schedule: Push Message](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
       + [Troubleshooting Push Messaging](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
-   + [Create an in-app message](in-app-messaging/t-in-app-message/t-in-app-message.md)
+   + Create in-app messages {#create-inapp-messages}
+      + [Create an in-app message](in-app-messaging/t-in-app-message/t-in-app-message.md)
       + [Audience: In-App Message](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
       + [Experience: In-App Message](in-app-messaging/t-in-app-message/c-experience-in-app-message.md)
       + [Schedule: In-App Message](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
@@ -98,4 +105,3 @@ user-guide-title: Mobile Services User Help
    + [Trigger an In-App Message when the App is Opened from a Push Message](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
 + Frequently Asked Questions {#faq-ug}
    + [Frequently Asked Questions](faq-mobile.md)
-+ [Contact and Legal Information](contact-and-legal.md)

@@ -17,7 +17,8 @@ user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
    + [SDK methods](c-configuration/methods.md)
 + Analytics {#analytics-win-appstore}
    + [Analytics](analytics/analytics.md)
-   + [Products variable](analytics/products/products.md)
+   + Products variable {#products-variable}
+      + [Products Variable](analytics/products/products.md)
       + [Products Variable with Merchandising eVars and Product-Specific Events](analytics/products/products-variable-evars-events.md)
    + [Event serialization](analytics/event-serialization.md)
    + [Video Analytics](analytics/video-qs.md)
@@ -37,4 +38,3 @@ user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
    + [Using Bloodhound to test mobile applications](bloodhound.md)
 + Migrate to the 4.x SDKs {#migration-win-appstore}
    + [[Migrate to the 4.x SDKs](migration-v3.md)
-+ [Contact and Legal Information](contact-and-legal.md)

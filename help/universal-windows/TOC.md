@@ -36,4 +36,3 @@ user-guide-title: Mobile Services Universal Windows Help
    + [Using Bloodhound to test mobile applications](bloodhound.md)
 + Migrate to 4.x {#migration-univ-win-plat)
    + [Migrate to 4.x](migration-v3.md)
-+ [Contact and Legal Information](contact-and-legal.md)

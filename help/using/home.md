@@ -35,7 +35,7 @@ For the latest release notes, see [Experience Cloud Release Notes](https://marke
       <li id="li_40F2531C307B4BBA94274A8C45C7DA6D"><a href="gs/metrics/metrics.md#concept_E1B46EBFAF0147BDB408F47453757167" format="dita" scope="local"> Understanding Mobile Metrics</a> </li> 
       <li id="li_EF290A2271064E37992539FFCA030BBD"> <a href="in-app-messaging/in-app-messaging.md#concept_8690E9D940A74C8796CD4DF92DB32823" format="dita" scope="local"> Messaging</a> </li> 
       <li id="li_6AD6E99C8CEA46388F2708277B1A640A"> <a href="acquisition-main/acquisition-main.md#concept_542D3F9599614CB89ACF558683E9D34B" format="dita" scope="local"> Acquisition</a> </li> 
-      <li id="li_8E8F921990004CC991B518459DC4B1CE"><a href="location/location.md#concept_B41E4C346F5E4199A5AB611EB64FB2BF" format="dita" scope="local"> Location</a> </li> 
+      <li id="li_8E8F921990004CC991B518459DC4B1CE"><a href="location/c-location-overview.md" format="dita" scope="local"> Location</a> </li> 
       <li id="li_E2B120D4ACEF41FAA8B9AF61294D94F3"> <a href="faq-mobile.md#concept_832BE5835E2A4EB7A5ECD8CE4BF4A61F" format="dita" scope="local"> Frequently Asked Questions - Mobile Services </a> </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> <b>Developers</b> </p> <p> 
