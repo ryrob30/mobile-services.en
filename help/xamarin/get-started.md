@@ -84,3 +84,4 @@ Get the components from Xamarin Components Store:
 1. Search **[!UICONTROL Adobe Mobile Services SDK]** add the component to the current project. 
 1. Add your [!DNL ADBMobileConfig.json] file to the project.&nbsp;
 
+
