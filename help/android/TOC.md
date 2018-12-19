@@ -102,4 +102,3 @@ user-guide-title: Mobile Services Android Help
 + PhoneGap Plug-in{#phonegap-android}
   + [PhoneGap Plug-in](phonegap/phonegap.md)
   + [PhoneGap Plug-in Methods](phonegap/phonegap-methods.md)
-+ [Contact and Legal Information](contact-and-legal.md)
