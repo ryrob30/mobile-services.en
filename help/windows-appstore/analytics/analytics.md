@@ -62,8 +62,8 @@ app.oncheckpoint = function (args) {
 public App() 
 { 
     this.InitializeComponent(); 
-    this.Resuming += OnResuming; 
-    this.Suspending += OnSuspending; 
+    this.Resuming *= OnResuming; 
+    this.Suspending *= OnSuspending; 
 } 
  
 protected override void OnLaunched(LaunchActivatedEventArgs e) 
@@ -88,14 +88,14 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-**C++/CX, in App.xaml.cpp**:
+**C**/CX, in App.xaml.cpp**:
 
 ```js
 App::App() 
 { 
  InitializeComponent(); 
- Resuming += ref new EventHandler<Object ^>(this, &App::OnResuming); 
- Suspending += ref new SuspendingEventHandler(this, &App::OnSuspending); 
+ Resuming *= ref new EventHandler<Object ^>(this, &App::OnResuming); 
+ Suspending *= ref new SuspendingEventHandler(this, &App::OnSuspending); 
 } 
  
 void App::OnResuming(Object ^sender, Object ^args) 
@@ -259,3 +259,10 @@ var ADB = ADBMobile;
 ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 ```
 
+Here is some additional information about Analytics in this section:
+
+* [Products variable](products/products.md)
+  * [Products Variable with Merchandising eVars and Product-Specific Events](products/products-variable-evars-events.md)
+* [Event serialization](event-serialization.md)
+* [Video Analytics](video-qs.md)
+* [Analytics methods](analytics-methods.md)

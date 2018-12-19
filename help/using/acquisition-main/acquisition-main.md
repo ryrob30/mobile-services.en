@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Acquisition{#acquisition}
+# Acquisition {#acquisition}
 
 Marketers can create tracking links to promote and drive traffic to their apps. These tracking links can drive users to app stores, app deep links, and interstitials, which can be correlated to in-app behavior. A marketer can create one link to route users to iOS, Android, or other platforms as appropriate.
 
@@ -43,4 +43,24 @@ Remember the following information:
 * To export the data to a PDF document, you can click **[!UICONTROL Download]**.
 
 ![](assets/acquisition_name.png)
+
+For more information about Acquisition, see the following links:
+
+* [Acquisition Overview](acquisition-main.md)
+* [Acquisition Prerequisites](c-acquisition-prerequisites.md)
+* [Configure Acquisition](t-enable-acquisition.md)
+* [Destinations](c-create-destinations.md)
+* [Create and Manage Link Destinations](c-manage-link-destinations.md)
+* [Create New Link Destination](t-create-new-app-deep-link-destination.md)
+* [Manage Link Destinations](t-archive-unarchive-link-destinations.md)
+* [Marketing Links Builder](c-marketing-links-builder.md)
+* [Create or Edit Marketing Links](t-create-edit-adobe-links.md)
+* [Interstitials](t-interstitials.md)
+* [Use Legacy Acquisition Links](c-use-legacy-acquisition-links.md)
+* [Create an Acquisition Link](t-acquisition-link.md)
+* [Manage Acquisition Links](c-manage-acquisition-links.md)
+* [Delete Acquisition Links](t-acquisition-del.md)
+* [Import or Export Acquisition Links](t-acquisition-import.md)
+* [Manage Marketing Links](c-manage-adobe-links.md)
+* [Create Acquisition Link Manually](acquisition-link-manual.md)
 

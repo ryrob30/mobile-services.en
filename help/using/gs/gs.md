@@ -159,6 +159,13 @@ The Adobe Mobile SDK offers the following features:
 
 For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/android/) and [iOS SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/ios/).
 
+## Additional Information
+
 This section also contains the following information: 
 
-<!--Rehka, check-->
+* [Roles and Permissions](c-mob-roles-and-permissions.md)
+* [Signing In](gs-signin.md)
+* [Report Types](reports-types.md)
+* [Mobile Metrics](metrics.md)
+* [Display Mobile Metrics](overview.md)
+* [Mobile Metrics and Dimensions Reference](metrics-reference.md)

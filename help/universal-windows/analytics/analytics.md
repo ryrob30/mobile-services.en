@@ -259,3 +259,11 @@ var ADB = ADBMobile;
 ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 ```
 
+## Additional Information
+
+For more information, see the following links:
+
+* [Products variable](products.md)
+* [Event serialization](event-serialization.md)
+* [Video Analytics](video-qs.md)
+* [Analytics methods](analytics-methods.md)

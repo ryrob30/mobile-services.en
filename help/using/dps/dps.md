@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Digital Publishing Solution{#digital-publishing-solution}
+# Digital Publishing Solution {#digital-publishing-solution}
 
 You can view reports that are available to Digital Publishing Solution (DPS) customers.
 
@@ -21,3 +21,10 @@ DPS reports allow you to track the user data of your custom viewer app from [!DN
 Apps that are created from DPS have access to the Adobe Mobile core service user interface through Analytics Essentials - DPS.
 
 For more information, see [DPS Analytics in the Digital Publishing Solution Help](https://helpx.adobe.com/digital-publishing-suite/help/omniture-analytics.html). 
+
+For more information about the types of reports that are available in DPS:
+
++ [Top 10 Articles](dps-top-ten-articles.md)
++ [Top 50 Articles](dps-top-50-articles.md)
++ [Social Sharing](dps-social-sharing.md)
++ [Banner Metrics](dps-banner-metrics.md)

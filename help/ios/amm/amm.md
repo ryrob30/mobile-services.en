@@ -15,3 +15,4 @@ snippet: y
 
 This information helps you send signals and retrieve visitor segments from Audience Manager.
 
++ [Audience Manager Methods](aam-methods.md)

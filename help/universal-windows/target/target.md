@@ -15,3 +15,4 @@ snippet: y
 
 Information to help you deliver targeted content within Universal Windows Platform applications.
 
++ [Target methods](target-methods.md)

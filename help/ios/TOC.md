@@ -8,20 +8,24 @@ user-guide-title: Mobile Services iOS Help
 
 + [Release Notes](rel-notes.md)
 + [iOS SDK 4.x for Experience Cloud Solutions](overview.md)
-+ [Getting Started](getting-started/getting-started.md)
++ Getting Started {#getting-started-ios}
+   + [Getting Started Overview](getting-started/getting-started.md)
    + [Before You Start](getting-started/requirements.md)
    + [Core Implementation and Lifecycle](getting-started/dev-qs.md)
    + [Processing Rules and Context Data](getting-started/proc-rules.md)
    + [Swift Integration](getting-started/swift-integration.md)
    + [Migrating to the 4.x iOS Library](getting-started/migration-v3.md)
-+ [Configuration](configuration/configuration.md)
++ Configuration {#config-ios}
+   + [Configuration Overview](configuration/configuration.md)
    + [ADBMobile JSON Config](configuration/json-config/json-config.md)
-      + [Override the ADBMobile JSON Config Path](configuration/json-config/json-config-remote.md)
+   + [Override the ADBMobile JSON Config Path](configuration/json-config/json-config-remote.md)
    + [Hit Batching](configuration/hit-batching.md)
    + [Configuration Methods](configuration/sdk-methods.md)
    + [App Transport Security](configuration/app-transport-security.md)
-+ [Lifecycle Metrics](metrics.md)
-+ [Analytics](analytics-main/analytics-main.md)
++ Lifecycle Metrics {#metrics-ios}
+   + [Lifecycle Metrics](metrics.md)
++ Analytics {#analytics-ios}
+   + [Analytics Overview](analytics-main/analytics-main.md)
    + [Track App States](analytics-main/states.md)
    + [Track App Actions](analytics-main/actions.md)
    + [Track App Crashes](analytics-main/crashes.md)
@@ -35,7 +39,8 @@ user-guide-title: Mobile Services iOS Help
       + [Postback Example](analytics-main/postback/postback-example.md)
       + [PII Postbacks](analytics-main/postback/c-pii-postbacks.md)
    + [Analytics Methods](analytics-main/analytics-methods.md)
-+ [Acquisition](acquisition-main/acquisition-main.md)
++ Acquisition {#acquisition-ios}
+   + [Acquisition Overview](acquisition-main/acquisition-main.md)
    + [Mobile App Acquisition](acquisition-main/acquisition.md)
    + [Acquisition Methods](acquisition-main/c-acquisition-methods.md)
    + [Tracking Deep Links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
@@ -44,40 +49,52 @@ user-guide-title: Mobile Services iOS Help
    + [Testing V3 Acquisition](acquisition-main/t-testing-version-3-acquisition.md)
    + [Testing Legacy Acquisition](acquisition-main/t-testing-acquisition.md)
    + [Apple Search Ads](acquisition-main/c-apple-search-ads.md)
-+ [Messaging](messaging-main/messaging-main.md)
++ Messaging {#messaging-ios}
+   + [Messaging Overview](messaging-main/messaging-main.md)
    + [In-App Messaging](messaging-main/messaging/messaging.md)
       + [Troubleshooting In-App Messaging](messaging-main/messaging/in-apps-ts.md)
    + [Push Messaging](messaging-main/push-messaging/push-messaging.md)
       + [Implement Push Messaging with Deep Linking](messaging-main/push-messaging/t-mob-imp-push-deeplinking-ios-4x.md)
       + [Receive Rich Push Notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
       + [Troubleshooting Push Messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
-+ [Location](location/location.md)
++ Location {#location-ios}
+   + [Location Overview](location/location.md)
    + [Geo-Location and Points of Interest](location/geo-poi.md)
    + [iBeacon tracking](location/ibeacon.md)
-+ [Target](target-main/target-main.md)
++ Target {#target-ios}
+   + [Target Overview](target-main/target-main.md)
    + [Target Methods](target-main/c-target-methods.md)
    + [Prefetch offer content in iOS](target-main/c-mob-target-prefetch-ios.md)
    + [Target Preview on iOS](target-main/c-mob-target-preview-ios.md)
-+ [Experience Cloud](marketing-cloud/marketing-cloud.md)
++ Experience Cloud {#exp-cloud-ios}
+   + [Experience Cloud Overview](marketing-cloud/marketing-cloud.md)
    + [Experience Cloud ID](marketing-cloud/mcvid.md)
    + [Experience Cloud ID Service Methods](marketing-cloud/mc-methods.md)
    + [Experience Cloud Device Co-op](marketing-cloud/t-mob-mc-device-coop-ios-.md)
-+ [Audience Manager](amm/amm.md)
++ Audience Manager {#amm-ios}
+   + [Audience Manager Overview](amm/amm.md)
    + [Audience Manager Methods](amm/aam-methods.md)
-+ [Apple TV Implementation with tvOS](apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
++ Apple TV Implementation with tvOS {#apple-tv-implementation-tvos-ios}
+   + [Apple TV Implementation with tvOS](apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
    + [Adobe Target for TVML/TVJS](apple-tv-implementation-tvos/target-for-tvml-tvjs.md)
    + [TVJS Methods](apple-tv-implementation-tvos/tvjs-methods.md)
-+ [iOS Extension Implementation](ios-ext/ios-ext.md)
++ iOS Extension Implementation {#ios-ext/ios-ext.md}
+   + [iOS Extension Implementation](ios-ext/ios-ext.md)
    + [Stand-Alone Extension Implementation](ios-ext/c-stand-alone-extension-implementation.md)
-+ [Apple Watch Implementation with WatchOS 2](apple-watch-implementation-watchkit.md)
-+ [iOS SDK Reference](reference/reference.md)
++ Apple Watch Implementation with WatchOS 2 {#apple-watch-implementation-watchkit-ios}
+  + [Apple Watch Implementation with WatchOS 2](apple-watch-implementation-watchkit.md)
++ iOS SDK Reference {#sdk-reference-ios}
+   + [iOS SDK Reference](reference/reference.md)
    + [App IDs](reference/app-ids.md)
    + [Visitor Tracking Between an App and Mobile Web](reference/hybrid-app.md)
    + [iOS Device Versions](reference/device-versions.md)
-+ [Privacy and General Data Protection Regulation](c-mob-privacy-gdpr-ios/c-mob-privacy-gdpr-ios.md)
++ Privacy and General Data Protection Regulation{#privacy-gdpr-ios}
+   + [Privacy and General Data Protection Regulation](c-mob-privacy-gdpr-ios/c-mob-privacy-gdpr-ios.md)
    + [Retrieving Stored Identifiers](c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md)
    + [Setting the User's Opt Status](c-mob-privacy-gdpr-ios/privacy.md)
-+ [Using Bloodhound to Test Mobile Applications](bloodhound.md)
-+ [PhoneGap Plug-in](phonegap/phonegap.md)
++ Using Bloodhound to Test Mobile Applications {#bloodhound-ios}
+   + [Using Bloodhound to Test Mobile Applications](bloodhound.md)
++ PhoneGap Plug-in {#phonegap-ios}
+   + [PhoneGap Plug-in](phonegap/phonegap.md)
    + [PhoneGap Plug-in Methods](phonegap/phonegap-methods.md)
 + [Contact and Legal Information](contact-and-legal.md)

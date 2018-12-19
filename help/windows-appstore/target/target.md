@@ -15,3 +15,4 @@ snippet: y
 
 Information to help you deliver targeted content within Windows 8.1 Universal App Store applications.
 
++ [Target methods](target/target-methods.md)

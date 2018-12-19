@@ -15,3 +15,5 @@ snippet: y
 
 This information helps you use the Location features in your iOS apps.
 
++ [Geo-Location and Points of Interest](geo-poi.md)
++ [iBeacon tracking](ibeacon.md)

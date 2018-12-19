@@ -29,7 +29,7 @@ To ensure accurate crash reporting, you must call `pauseCollectingLifeCycleData`
 
 For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
 
-*This Android lifecycle illustration was created and [shared by the Android Open Source Project](https://code.google.com/policies.html) and used according to terms in the [Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/).*
+*This Android lifecycle illustration was created and [shared by the Android Open Source Project](https://source.android.com/) and used according to terms in the [Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/).*
 
 **What can cause a false crash to be reported?**
 

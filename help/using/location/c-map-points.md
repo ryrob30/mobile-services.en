@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Map{#map}
+# Map {#map}
 
 You can view an interactive map that displays your Points of Interest and other data markers.
 
