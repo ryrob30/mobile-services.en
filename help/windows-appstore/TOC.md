@@ -37,4 +37,4 @@ user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
 + Bloodhound {#bloodhound-win-appstore}
    + [Using Bloodhound to test mobile applications](bloodhound.md)
 + Migrate to the 4.x SDKs {#migration-win-appstore}
-   + [[Migrate to the 4.x SDKs](migration-v3.md)
+   + [Migration](migration-v3.md)
