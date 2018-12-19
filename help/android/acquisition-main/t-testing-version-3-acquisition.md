@@ -189,7 +189,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 >  **Install the Java Tool** 
 >
 >  To install the Java tool: >
->    1. Download [acquistionTester.zip](https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisitionTester.zip). 
+>    1. Download the acquistionTester.zip file. 
 >    1. Extract the .jar file. 
 >
 >  You can run the file on the command line. 
