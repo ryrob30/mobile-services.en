@@ -310,7 +310,6 @@ The messages node is generated automatically by Adobe Mobile services and typica
 * "payload"
 
     * "html" 
-    *
 
         * fullscreen template only, required 
         * html defining the message

@@ -31,11 +31,7 @@ The following Acquisition methods are provided by the Android library:
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;campaignStartForApp(final&amp;nbsp;String&amp;nbsp;appId,&amp;nbsp;final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;data); 
     </codeblock> <p><b>Example</b> </p> 
     <codeblock class="syntax java">
-      Acquisition.campaignStartForApp("0652024f-adcd-49f9-9bd7-2552a4564d2f",&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;()&nbsp;{{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;put("custom.key",&nbsp;"value"); 
-     
-}}); 
+      Acquisition.campaignStartForApp("0652024f-adcd-49f9-9bd7-2552a4564d2f",&nbsp;new&nbsp;HashMap&lt;String,&nbsp;Object&gt;()&nbsp;{{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;put("custom.key",&nbsp;"value");}}); 
     </codeblock> </td> 
   </tr> 
  </tbody> 

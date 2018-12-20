@@ -51,7 +51,7 @@ If you are using the Acquisition links that were created on [!DNL Adobe Mobile S
 
 1. The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used. 
 
-1. The custom data keys will be prefixed with " `a.acquisition.custom.`"
+1. The custom data keys will be prefixed with "`a.acquisition.custom.`"
 
 >[!TIP]
 >
@@ -118,4 +118,3 @@ After these settings are enabled, after the initial launch of the app, acquisiti
 >[!CAUTION]
 >
 >`referrerTimeout` must be set to a value higher than 0 to enable app acquisition.
-
