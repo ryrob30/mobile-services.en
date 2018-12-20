@@ -6,8 +6,8 @@ user-guide-title: Mobile Services iOS Help
 
 # Mobile Services iOS Help {#ios}
 
-+ [Release Notes](rel-notes.md)
 + [iOS SDK 4.x for Experience Cloud Solutions](overview.md)
++ [Release Notes](rel-notes.md)
 + Getting Started {#getting-started-ios}
    + [Getting Started Overview](getting-started/getting-started.md)
    + [Before You Start](getting-started/requirements.md)

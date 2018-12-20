@@ -6,8 +6,8 @@ user-guide-title: Mobile Services User Help
 
 # Mobile Services User Help {#using}
 
-+ [Release Notes](whatsnew.md)
 + [Adobe Mobile Services](home.md)
++ [Release Notes](whatsnew.md)
 + Getting Started {#get-started-ug}
    + [Getting Started](gs/gs.md)
    + [Roles and Permissions](gs/c-mob-roles-and-permissions.md)
