@@ -2,7 +2,7 @@
 description: You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile Android SDK.
 keywords: android;library;mobile;sdk
 seo-description: You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile Android SDK.
-seo-title: Tracking Deep Links
+seo-title: Tracking Deep Links in Adobe Mobile Services
 solution: Marketing Cloud,Analytics
 title: Tracking Deep Links
 topic: Developer and implementation
@@ -15,11 +15,6 @@ snippet: y
 # Tracking Deep Links{#tracking-deep-links}
 
 You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile Android SDK.
-
-This topic contains the following information:
-
-* [Getting Started](../../acquisition-main/tracking-deep-links/tracking-deep-links.md#section_3DC3E891AC7840DAA723F83427CB77F2) 
-* [Deep Link Public Info](../../acquisition-main/tracking-deep-links/tracking-deep-links.md#section_1815396353614DA8A63D8D92112217E7)
 
 ## Getting Started {#section_3DC3E891AC7840DAA723F83427CB77F2}
 

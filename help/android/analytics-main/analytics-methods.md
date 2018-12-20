@@ -109,19 +109,7 @@ Analytics.trackTimedActionUpdate("cartToCheckout",&nbsp;cdata);
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;trackTimedActionEnd(String&amp;nbsp;action,&amp;nbsp;TimedActionBlock&lt;Boolean&gt;&amp;nbsp;logic); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax java">
-      Analytics.trackTimedActionEnd("cartToCheckout",&nbsp;new&nbsp;Analytics.TimedActionBlock&lt;Boolean&gt;()&nbsp;{ 
-     
-&nbsp;@Override 
-     
-&nbsp;public&nbsp;Boolean&nbsp;call(long&nbsp;inAppDuration,&nbsp;long&nbsp;totalDuration,&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;contextData)&nbsp;{ 
-     
-&nbsp;&nbsp;contextData.put("price",&nbsp;49.95); 
-     
-&nbsp;&nbsp;return&nbsp;true; 
-     
-&nbsp;} 
-     
-}); 
+      Analytics.trackTimedActionEnd("cartToCheckout",&nbsp;new&nbsp;Analytics.TimedActionBlock&lt;Boolean&gt;()&nbsp;{&nbsp;@Override&nbsp;public&nbsp;Boolean&nbsp;call(long&nbsp;inAppDuration,&nbsp;long&nbsp;totalDuration,&nbsp;Map&lt;String,&nbsp;Object&gt;&nbsp;contextData)&nbsp;{&nbsp;&nbsp;contextData.put("price",&nbsp;49.95);&nbsp;&nbsp;return&nbsp;true;&nbsp;}}); 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -156,4 +144,3 @@ Analytics.trackTimedActionUpdate("cartToCheckout",&nbsp;cdata);
   </tr> 
  </tbody> 
 </table>
-

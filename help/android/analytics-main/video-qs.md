@@ -217,18 +217,7 @@ public boolean eventFirstTime;
       public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;open(MediaSettings&amp;nbsp;settings,&amp;nbsp;MediaCallback&amp;nbsp;callback); 
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax java">
-      Media.open(mySettings,&nbsp;new&nbsp;Media.MediaCallback()&nbsp;{ 
-     
-&nbsp;@Override 
-     
-&nbsp;public&nbsp;void&nbsp;call(Object&nbsp;item)&nbsp;{ 
-     
-&nbsp;&nbsp;//&nbsp;monitor&nbsp;callback&nbsp;if&nbsp;you&nbsp;want&nbsp;to&nbsp;be&nbsp;notified&nbsp;every&nbsp;second&nbsp;the&nbsp;media&nbsp;is&nbsp;playing 
-     
-&nbsp;} 
-     
-});
-
+      Media.open(mySettings,&nbsp;new&nbsp;Media.MediaCallback()&nbsp;{&nbsp;@Override&nbsp;public&nbsp;void&nbsp;call(Object&nbsp;item)&nbsp;{&nbsp;&nbsp;//&nbsp;monitor&nbsp;callback&nbsp;if&nbsp;you&nbsp;want&nbsp;to&nbsp;be&nbsp;notified&nbsp;every&nbsp;second&nbsp;the&nbsp;media&nbsp;is&nbsp;playing&nbsp;}});
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -291,4 +280,3 @@ public boolean eventFirstTime;
   </tr> 
  </tbody> 
 </table>
-

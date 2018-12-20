@@ -13,13 +13,6 @@ snippet: y
 
 Use the Android SDK to implement the tracking of third-party deferred deep links.
 
-This topic contains the following information:
-
-* [Classic Adobe Mobile SDK Deep Linking](../../acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md#section_D114FA1EB9664EAA82E036A990694B26) 
-* [Facebook Deep Linking](../../acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md#section_6A9DACB54A2F4CDEBE9C744DEFADFDED) 
-* [Setting up the SDKs](../../acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md#section_834CD3109175432B8173ECB6EA7DE315) 
-* [Enable Feature in Sample Application](../../acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md#section_64C15E269E89424B8E3D029F88094620)
-
 ## Classic Adobe Mobile SDK Deep Linking {#section_D114FA1EB9664EAA82E036A990694B26}
 
 The Adobe Mobile SDK currently supports deep linking where the app developer is expected to use the `collectLifecycleData` SDK API from the deep linked activity. The SDK appends the deep link data from the deep link URL parameters. For more information about how deep linking works in the Adobe Mobile SDK, see [Tracking Deep Links](../../acquisition-main/tracking-deep-links/tracking-deep-links.md#concept_39F0716015004E6FA9E1960753112DB1).
