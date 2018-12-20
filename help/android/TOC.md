@@ -6,8 +6,8 @@ user-guide-title: Mobile Services Android Help
 
 # Mobile Services Android Help{#android}
 
-+ [Release Notes](rel-notes.md)
 + [Android SDK 4.x for Experience Cloud Solutions](overview.md)
++ [Release Notes](rel-notes.md)
 + Getting Started{#getting-started-android}
   + [Getting Started](getting-started/getting-started.md)
   + [Before You Start](getting-started/requirements.md)
