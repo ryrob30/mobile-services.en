@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Getting Started
 topic: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started{#getting-started}

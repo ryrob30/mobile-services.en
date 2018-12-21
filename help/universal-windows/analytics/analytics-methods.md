@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Analytics methods
 topic: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics methods{#analytics-methods}

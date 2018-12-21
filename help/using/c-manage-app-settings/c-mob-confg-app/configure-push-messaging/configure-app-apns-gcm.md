@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure App to use APNS or GCM
 topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure App to use APNS or GCM{#configure-app-to-use-apns-or-gcm}

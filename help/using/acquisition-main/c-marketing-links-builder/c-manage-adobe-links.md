@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Manage Marketing Links
 topic: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Marketing Links{#manage-marketing-links}

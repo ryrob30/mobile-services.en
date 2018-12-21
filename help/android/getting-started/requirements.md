@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Before You Start
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-index: y
-internal: n
-snippet: y
 ---
 
 # Before You Start {#before-you-start}

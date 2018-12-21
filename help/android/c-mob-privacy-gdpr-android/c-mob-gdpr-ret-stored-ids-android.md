@@ -4,9 +4,6 @@ seo-description: This information helps you retrieve locally stored, SDK identit
 seo-title: Retrieving Stored Identifiers
 title: Retrieving Stored Identifiers
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Retrieving Stored Identifiers{#retrieving-stored-identifiers}

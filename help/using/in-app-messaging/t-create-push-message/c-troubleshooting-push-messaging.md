@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Troubleshooting Push Messaging
 topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Push Messaging{#troubleshooting-push-messaging}

@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Release notes
 topic: Developer and implementation
 uuid: 9c164e5c-ce2c-4eda-bba6-71324e4954fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Release notes{#release-notes}

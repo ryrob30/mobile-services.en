@@ -4,9 +4,6 @@ seo-description: Use the Android SDK to implement the tracking of third-party de
 seo-title: Tracking Third-Party Deferred Deep Links
 title: Tracking Third-Party Deferred Deep Links
 uuid: 4c798e47-7988-4a06-a191-6c4d05f6ee61
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking Third-Party Deferred Deep Links{#tracking-third-party-deferred-deep-links}

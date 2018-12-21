@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Users and Sessions
 topic: Reports,Metrics
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Users and Sessions{#users-and-sessions}

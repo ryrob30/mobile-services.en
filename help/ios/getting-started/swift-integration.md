@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Swift Integration
 topic: Developer and implementation
 uuid: 5fb77b57-cbf9-4bcf-8b41-65a933bf9336
-index: y
-internal: n
-snippet: y
 ---
 
 # Swift Integration{#swift-integration}

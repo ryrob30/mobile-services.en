@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Android Widgets
 topic: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Android Widgets{#android-widgets}

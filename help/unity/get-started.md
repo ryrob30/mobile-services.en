@@ -6,9 +6,6 @@ seo-title: Unity Plug-in for the iOS and Android 4.x SDKs
 solution: Marketing Cloud,Developer
 title: Unity Plug-in for the iOS and Android 4.x SDKs
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Unity Plug-in for the iOS and Android 4.x SDKs{#unity-plug-in-for-the-ios-and-android-x-sdks}

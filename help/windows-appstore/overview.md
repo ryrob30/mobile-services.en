@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Windows 8.1 Universal App Store SDK 4.x for Experience Cloud Solutions
 topic: Developer and implementation
 uuid: a06d8cf2-5d2d-49a8-86ac-102e2934ea59
-index: y
-internal: n
-snippet: y
 ---
 
 # Windows 8.1 Universal App Store SDK 4.x for Experience Cloud Solutions{#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}

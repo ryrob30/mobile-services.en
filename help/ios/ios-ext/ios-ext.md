@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: iOS Extension Implementation
 topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS Extension Implementation{#ios-extension-implementation}

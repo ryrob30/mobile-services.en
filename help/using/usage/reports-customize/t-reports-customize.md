@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Add Filters to Reports
 topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Filters to Reports{#add-filters-to-reports}

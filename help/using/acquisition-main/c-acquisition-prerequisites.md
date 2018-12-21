@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Acquisition Prerequisites
 topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-index: y
-internal: n
-snippet: y
 ---
 
 # Acquisition Prerequisites{#acquisition-prerequisites}

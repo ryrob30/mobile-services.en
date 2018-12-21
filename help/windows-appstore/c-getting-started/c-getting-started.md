@@ -4,9 +4,6 @@ seo-description: Information to help you get starting with the Windows 8.1 Unive
 seo-title: Get started
 title: Get started
 uuid: 769cba99-ff82-4fa0-a14a-83b5f0495b04
-index: y
-internal: n
-snippet: y
 ---
 
 # Get started{#get-started}

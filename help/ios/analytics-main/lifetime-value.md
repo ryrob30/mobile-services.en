@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Visitor Lifetime Value
 topic: Developer and implementation
 uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Lifetime Value{#visitor-lifetime-value}

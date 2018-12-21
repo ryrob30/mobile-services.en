@@ -5,9 +5,6 @@ seo-title: Postbacks
 solution: Marketing Cloud,Analytics
 title: Postbacks
 uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
-index: y
-internal: n
-snippet: y
 ---
 
 # Postbacks{#postbacks}

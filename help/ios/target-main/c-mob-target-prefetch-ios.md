@@ -4,9 +4,6 @@ seo-description: The Adobe Target prefetch feature uses the iOS Mobile SDKs to f
 seo-title: Prefetch offer content in iOS
 title: Prefetch offer content in iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-index: y
-internal: n
-snippet: y
 ---
 
 # Prefetch offer content in iOS{#prefetch-offer-content-in-ios}

@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Map
 topic: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
-index: y
-internal: n
-snippet: y
 ---
 
 # Map {#map}

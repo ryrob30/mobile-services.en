@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Wearables
 topic: Developer and implementation
 uuid: f9a5d692-0ef6-4cdf-831e-e50be291f083
-index: y
-internal: n
-snippet: y
 ---
 
 # Wearables{#wearables}

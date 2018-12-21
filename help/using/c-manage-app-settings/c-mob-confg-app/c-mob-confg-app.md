@@ -4,9 +4,6 @@ seo-description: On the Manage App Settings page, you can make the following typ
 seo-title: Configuring your App
 title: Configuring your App
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring your App{#configuring-your-app}

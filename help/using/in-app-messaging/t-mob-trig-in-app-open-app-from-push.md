@@ -4,9 +4,6 @@ seo-description: You can set the in-app message trigger to be the push message I
 seo-title: Trigger an In-App Message when the App is Opened from a Push Message
 title: Trigger an In-App Message when the App is Opened from a Push Message
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Trigger an In-App Message when the App is Opened from a Push Message{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}

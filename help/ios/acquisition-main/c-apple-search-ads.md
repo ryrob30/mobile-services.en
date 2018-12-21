@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Apple Search Ads
 topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-index: y
-internal: n
-snippet: y
 ---
 
 # Apple Search Ads{#apple-search-ads}

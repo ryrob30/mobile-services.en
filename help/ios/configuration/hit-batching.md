@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Hit Batching
 topic: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Hit Batching{#hit-batching}

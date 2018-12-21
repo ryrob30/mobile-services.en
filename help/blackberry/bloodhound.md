@@ -4,9 +4,6 @@ seo-description: Lets you send server calls to a local computer to test mobile a
 seo-title: Using Bloodhound to test mobile applications
 title: Using Bloodhound to test mobile applications
 uuid: b729d55e-2265-4ca9-a286-2efbb9c6776b
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Bloodhound to test mobile applications{#using-bloodhound-to-test-mobile-applications}

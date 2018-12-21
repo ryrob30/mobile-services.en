@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Funnel
 topic: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
-index: y
-internal: n
-snippet: y
 ---
 
 # Funnel{#funnel}

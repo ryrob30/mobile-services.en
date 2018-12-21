@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Developer quick start
 topic: Developer and implementation
 uuid: 11c06fcf-d5e4-4858-9a4e-3bf66cdd2a48
-index: y
-internal: n
-snippet: y
 ---
 
 # Developer quick start{#developer-quick-start}

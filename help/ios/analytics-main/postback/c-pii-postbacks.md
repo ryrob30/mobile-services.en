@@ -4,9 +4,6 @@ seo-description: You can use the Adobe SDK to collect personally identifiable in
 seo-title: PII Postbacks
 title: PII Postbacks
 uuid: 08f76a52-75dd-4fc1-b4cc-4f5eef93d0f7
-index: y
-internal: n
-snippet: y
 ---
 
 # PII Postbacks{#pii-postbacks}

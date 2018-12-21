@@ -4,9 +4,6 @@ seo-description: After you configure the deep linking URL in the Adobe Mobile Se
 seo-title: Implement Push Messaging with Deep Linking
 title: Implement Push Messaging with Deep Linking
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement Push Messaging with Deep Linking{#implement-push-messaging-with-deep-linking}

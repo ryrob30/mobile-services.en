@@ -4,9 +4,6 @@ seo-description: The Adobe Target prefetch feature uses the Android Mobile SDKs 
 seo-title: Prefetch offer content in Android
 title: Prefetch offer content in Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Prefetch offer content in Android{#prefetch-offer-content-in-android}

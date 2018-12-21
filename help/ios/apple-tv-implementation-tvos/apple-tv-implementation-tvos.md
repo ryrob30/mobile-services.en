@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Apple TV Implementation with tvOS
 topic: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
-index: y
-internal: n
-snippet: y
 ---
 
 # Apple TV Implementation with tvOS{#apple-tv-implementation-with-tvos}

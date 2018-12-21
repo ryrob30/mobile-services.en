@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Geo-Location and Points of Interest
 topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-index: y
-internal: n
-snippet: y
 ---
 
 # Geo-Location and Points of Interest{#geo-location-and-points-of-interest}

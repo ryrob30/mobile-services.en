@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Lifecycle metrics
 topic: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Lifecycle metrics{#lifecycle-metrics}

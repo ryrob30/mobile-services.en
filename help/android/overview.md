@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Android SDK 4.x for Experience Cloud Solutions
 topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-index: y
-internal: n
-snippet: y
 ---
 
 # Android SDK 4.x for Experience Cloud Solutions{#android-sdk-x-for-experience-cloud-solutions}

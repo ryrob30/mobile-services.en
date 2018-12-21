@@ -4,9 +4,6 @@ seo-description: Use the iOS SDK to implement tracking of third-party deferred d
 seo-title: Tracking Third-Party Deferred Deep Links
 title: Tracking Third-Party Deferred Deep Links
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking Third-Party Deferred Deep Links{#tracking-third-party-deferred-deep-links}

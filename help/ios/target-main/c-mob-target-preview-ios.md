@@ -4,9 +4,6 @@ seo-description: Target Preview allows you to easily perform end-to-end QA for T
 seo-title: Target Preview on iOS
 title: Target Preview on iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Preview on iOS{#target-preview-on-ios}

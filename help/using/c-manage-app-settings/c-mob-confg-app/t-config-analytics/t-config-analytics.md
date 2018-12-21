@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure SDK Analytics Options
 topic: Metrics
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure SDK Analytics Options{#configure-sdk-analytics-options}

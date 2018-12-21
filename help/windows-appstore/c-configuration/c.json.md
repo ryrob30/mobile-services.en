@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: ADBMobileConfig.json config
 topic: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
-index: y
-internal: n
-snippet: y
 ---
 
 # ADBMobileConfig.json config{#adbmobileconfig-json-config}

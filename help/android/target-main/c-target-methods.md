@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Target Methods for Android
 topic: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Methods for Android{#target-methods}

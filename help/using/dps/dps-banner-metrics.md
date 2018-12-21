@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Banner Metrics
 topic: Metrics
 uuid: 50638c55-f10d-43d7-8d12-e48908572766
-index: y
-internal: n
-snippet: y
 ---
 
 # Banner Metrics{#banner-metrics}

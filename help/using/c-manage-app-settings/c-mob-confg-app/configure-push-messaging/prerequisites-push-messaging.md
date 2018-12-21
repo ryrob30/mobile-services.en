@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Prerequisites to Enable Push Messaging
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites to Enable Push Messaging{#prerequisites-to-enable-push-messaging}

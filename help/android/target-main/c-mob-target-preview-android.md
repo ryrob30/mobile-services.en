@@ -4,9 +4,6 @@ seo-description: Target Preview allows you to easily perform end-to-end QA for T
 seo-title: Target Preview on Android
 title: Target Preview on Android
 uuid: f3c82d64-009c-4929-a5e6-3677b2977889
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Preview on Android{#target-preview-on-android}

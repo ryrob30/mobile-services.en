@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Experience  In-App Message
 topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience: In-App Message{#experience-in-app-message}

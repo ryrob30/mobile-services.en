@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Add an App from an App Store
 topic: Metrics
 uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfed
-index: y
-internal: n
-snippet: y
 ---
 
 # Add an App from an App Store{#add-an-app-from-an-app-store}

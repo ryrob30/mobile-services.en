@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Audience  Define and Configure Audience Segments for Push Messages
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience: Define and Configure Audience Segments for Push Messages{#audience-define-and-configure-audience-segments-for-push-messages}

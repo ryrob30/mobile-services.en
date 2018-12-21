@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Processing Rules and Context Data
 topic: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing Rules and Context Data{#processing-rules-and-context-data}

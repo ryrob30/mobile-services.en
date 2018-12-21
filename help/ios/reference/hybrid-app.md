@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Visitor Tracking Between an App and Mobile Web
 topic: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Tracking Between an App and Mobile Web{#visitor-tracking-between-an-app-and-mobile-web}

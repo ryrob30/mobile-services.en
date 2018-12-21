@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Configuration
 topic: Developer and implementation
 uuid: 63261b61-e70a-42be-a56f-5943173c041e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration{#configuration}

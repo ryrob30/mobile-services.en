@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Audience Manager Configuration
 topic: Developer and implementation
 uuid: f68d5b2e-fa2c-4db6-98ad-d1855a2c45ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager Configuration{#audience-manager-configuration}

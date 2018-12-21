@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Add Series (Metrics) to Reports
 topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Series (Metrics) to Reports{#add-series-metrics-to-reports}

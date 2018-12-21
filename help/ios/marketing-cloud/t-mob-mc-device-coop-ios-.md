@@ -4,9 +4,6 @@ seo-description: To start using the Experience Cloud Device Co-op, contact your 
 seo-title: Experience Cloud Device Co-op
 title: Experience Cloud Device Co-op
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Cloud Device Co-op{#experience-cloud-device-co-op}

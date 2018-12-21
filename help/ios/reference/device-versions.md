@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: iOS Device Versions
 topic: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS Device Versions{#ios-device-versions}

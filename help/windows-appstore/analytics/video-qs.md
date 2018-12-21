@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: Developer and implementation
 uuid: 7d4e6668-a1d9-41da-96c8-8baac860c5b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Analytics{#video-analytics}

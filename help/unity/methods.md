@@ -6,9 +6,6 @@ seo-title: ADBMobile.cs methods
 solution: Marketing Cloud,Developer
 title: ADBMobile.cs methods
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
-index: y
-internal: n
-snippet: y
 ---
 
 # ADBMobile.cs methods{#adbmobile-cs-methods}

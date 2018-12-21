@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Download Mobile SDKs and Tools
 topic: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
-index: y
-internal: n
-snippet: y
 ---
 
 # Download Mobile SDKs and Tools{#download-mobile-sdks-and-tools}
