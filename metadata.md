@@ -9,6 +9,7 @@ getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/mobile-services.en
+index: no
 ---
 
 <!-- We need better links for Getting Started and Tutorials. We can do this after we hit stage -->
