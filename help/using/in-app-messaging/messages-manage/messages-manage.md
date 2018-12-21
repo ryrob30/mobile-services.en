@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Manage Messages
 topic: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Messages{#manage-messages}

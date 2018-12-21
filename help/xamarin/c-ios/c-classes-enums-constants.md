@@ -4,9 +4,6 @@ seo-description: List of classes and enumerations for use in Xamarin application
 seo-title: Classes and enums
 title: Classes and enums
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
-index: y
-internal: n
-snippet: y
 ---
 
 # Classes and enums{#classes-and-enums}

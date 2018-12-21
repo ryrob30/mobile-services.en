@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Mobile App Acquisition
 topic: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile App Acquisition{#mobile-app-acquisition}

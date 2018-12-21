@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Overview (Location)
 topic: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview (Location){#overview-location}

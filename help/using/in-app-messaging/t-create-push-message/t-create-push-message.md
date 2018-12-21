@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Create a push message
 topic: Metrics
 uuid: fb2a6026-f7e6-40e6-999e-b43db35d6c69
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a push message {#create-a-push-message}

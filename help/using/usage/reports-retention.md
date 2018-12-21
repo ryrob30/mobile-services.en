@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Retention
 topic: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
-index: y
-internal: n
-snippet: y
 ---
 
 # Retention{#retention}

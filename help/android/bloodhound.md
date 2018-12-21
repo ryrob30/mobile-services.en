@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Using Bloodhound to Test Mobile Applications
 topic: Developer and implementation
 uuid: a9b5d610-43f4-4428-adf3-2018e0b53ed7
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Bloodhound to Test Mobile Applications{#using-bloodhound-to-test-mobile-applications}

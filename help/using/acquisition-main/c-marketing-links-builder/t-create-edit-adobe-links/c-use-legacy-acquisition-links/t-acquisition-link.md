@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Create an Acquisition Link
 topic: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an Acquisition Link{#create-an-acquisition-link}

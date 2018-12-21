@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure SDK Acquisition Options
 topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure SDK Acquisition Options{#configure-sdk-acquisition-options}

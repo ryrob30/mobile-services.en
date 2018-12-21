@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Add Sticky Filter
 topic: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Sticky Filter{#add-sticky-filter}

@@ -4,9 +4,6 @@ seo-description: The general process to measure video is very similar across all
 seo-title: Video Analytics
 title: Video Analytics
 uuid: 0d2731f3-77a9-4db1-9a8c-1e56c212ecb4
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Analytics{#video-analytics}

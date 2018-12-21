@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Track App Crashes
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-index: y
-internal: n
-snippet: y
 ---
 
 # Track App Crashes {#track-app-crashes}

@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Apple Watch Implementation with WatchOS 2
 topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-index: y
-internal: n
-snippet: y
 ---
 
 # Apple Watch Implementation with WatchOS 2{#apple-watch-implementation-with-watchos}

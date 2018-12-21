@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Postback Example
 topic: Developer and implementation
 uuid: 809c5646-7a80-40df-984b-0af89d854259
-index: y
-internal: n
-snippet: y
 ---
 
 # Postback Example{#postback-example}

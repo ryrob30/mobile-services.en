@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Import or Export Acquisition Links
 topic: Metrics
 uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Import or Export Acquisition Links{#import-or-export-acquisition-links}

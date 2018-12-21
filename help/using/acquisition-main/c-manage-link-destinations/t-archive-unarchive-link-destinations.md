@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Manage Link Destinations
 topic: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Link Destinations{#manage-link-destinations}

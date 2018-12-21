@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Stand-Alone Extension Implementation
 topic: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Stand-Alone Extension Implementation{#stand-alone-extension-implementation}

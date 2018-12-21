@@ -6,9 +6,6 @@ seo-title: Enumerations
 solution: Marketing Cloud,Developer
 title: Enumerations
 uuid: 7109cd0b-554f-4c4a-9acc-4b60812fb747
-index: y
-internal: n
-snippet: y
 ---
 
 # Enumerations{#enumerations}

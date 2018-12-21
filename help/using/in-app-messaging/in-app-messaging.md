@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Messaging
 topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-index: y
-internal: n
-snippet: y
 ---
 
 # Messaging {#messaging}

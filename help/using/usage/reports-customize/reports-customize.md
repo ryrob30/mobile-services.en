@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Customize Reports
 topic: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize Reports{#customize-reports}

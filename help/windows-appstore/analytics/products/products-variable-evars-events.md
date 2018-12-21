@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Products Variable with Merchandising eVars and Product-Specific Events
 topic: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
-index: y
-internal: n
-snippet: y
 ---
 
 # Products Variable with Merchandising eVars and Product-Specific Events{#products-variable-with-merchandising-evars-and-product-specific-events}

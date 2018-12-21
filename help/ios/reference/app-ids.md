@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: App IDs
 topic: Developer and implementation
 uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
-index: y
-internal: n
-snippet: y
 ---
 
 # App IDs{#app-ids}

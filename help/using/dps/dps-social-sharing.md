@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Social Sharing
 topic: Metrics
 uuid: 900e58aa-c1d3-4590-af44-df67575214a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Sharing{#social-sharing}

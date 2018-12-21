@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: In-App Messaging
 topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-index: y
-internal: n
-snippet: y
 ---
 
 # In-App Messaging{#in-app-messaging}

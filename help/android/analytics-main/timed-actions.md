@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Timed Actions
 topic: Developer and implementation
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
-index: y
-internal: n
-snippet: y
 ---
 
 # Timed Actions {#timed-actions}

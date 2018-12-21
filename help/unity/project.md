@@ -6,9 +6,6 @@ seo-title: Building your project
 solution: Marketing Cloud,Developer
 title: Building your project
 uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
-index: y
-internal: n
-snippet: y
 ---
 
 # Building your project{#building-your-project}

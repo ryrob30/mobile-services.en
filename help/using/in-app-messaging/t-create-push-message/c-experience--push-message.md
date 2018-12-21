@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Experience  Push Message
 topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience: Push Message{#experience-push-message}

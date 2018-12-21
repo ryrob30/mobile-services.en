@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Setting the User's Opt Status
 topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting the User's Opt Status{#setting-the-user-s-opt-status}

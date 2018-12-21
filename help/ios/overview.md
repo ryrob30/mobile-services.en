@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: iOS SDK 4.x for Experience Cloud Solutions
 topic: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS SDK 4.x for Experience Cloud Solutions{#ios-sdk-x-for-experience-cloud-solutions}

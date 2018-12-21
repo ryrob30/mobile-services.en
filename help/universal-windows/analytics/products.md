@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Products variable
 topic: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
-index: y
-internal: n
-snippet: y
 ---
 
 # Products variable{#products-variable}

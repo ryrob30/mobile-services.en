@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Analytics
 topic: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics{#analytics}

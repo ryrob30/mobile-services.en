@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure Acquisition
 topic: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Acquisition{#configure-acquisition}

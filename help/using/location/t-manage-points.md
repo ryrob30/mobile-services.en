@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Manage Points of Interest
 topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Points of Interest{#manage-points-of-interest}

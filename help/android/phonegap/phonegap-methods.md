@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: PhoneGap Plug-in Methods
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-index: y
-internal: n
-snippet: y
 ---
 
 # PhoneGap Plug-in Methods{#phonegap-plug-in-methods}

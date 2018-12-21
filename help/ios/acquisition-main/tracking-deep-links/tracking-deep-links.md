@@ -5,9 +5,6 @@ seo-title: Tracking Deep Links
 solution: Marketing Cloud,Analytics
 title: Tracking Deep Links
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking Deep Links{#tracking-deep-links}

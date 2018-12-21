@@ -4,9 +4,6 @@ seo-description: The Crashes report provides a snapshot of your app's crashes. Y
 seo-title: Crashes
 title: Crashes
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
-index: y
-internal: n
-snippet: y
 ---
 
 # Crashes{#crashes}

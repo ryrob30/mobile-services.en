@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Target methods
 topic: Developer and implementation
 uuid: 2ad5953b-7850-446a-8053-b3715b86329b
-index: y
-internal: n
-snippet: y
 ---
 
 # Target methods{#target-methods}

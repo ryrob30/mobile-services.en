@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Target Methods for iOS
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Methods for iOS {#target-methods}

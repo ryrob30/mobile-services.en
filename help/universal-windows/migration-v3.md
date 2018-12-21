@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Migrate to 4.x
 topic: Developer and implementation
 uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrate to 4.x{#migrate-to-x}

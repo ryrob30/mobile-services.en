@@ -4,9 +4,6 @@ seo-description: This information helps you retrieve locally stored, Experience 
 seo-title: Retrieving Stored Identifiers
 title: Retrieving Stored Identifiers
 uuid: 4fb2c166-6700-4f8b-b60b-137b199e0509
-index: y
-internal: n
-snippet: y
 ---
 
 # Retrieving Stored Identifiers{#retrieving-stored-identifiers}

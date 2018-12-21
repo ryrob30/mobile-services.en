@@ -4,9 +4,6 @@ seo-description: This information helps you use the legacy acquisition link func
 seo-title: Use Legacy Acquisition Links
 title: Use Legacy Acquisition Links
 uuid: cee84d33-e7f9-428e-89a1-83554e7f4c5e
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Legacy Acquisition Links{#use-legacy-acquisition-links}

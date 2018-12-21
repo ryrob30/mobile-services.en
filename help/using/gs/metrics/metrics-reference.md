@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Mobile Metrics and Dimensions Reference
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Metrics and Dimensions Reference{#mobile-metrics-and-dimensions-reference}

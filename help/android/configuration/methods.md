@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configuration Methods
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration Methods{#configuration-methods}

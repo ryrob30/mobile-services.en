@@ -5,9 +5,6 @@ seo-title: Testing V3 Acquisition
 solution: Marketing Cloud,Analytics
 title: Testing V3 Acquisition
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing V3 Acquisition{#testing-v-acquisition}

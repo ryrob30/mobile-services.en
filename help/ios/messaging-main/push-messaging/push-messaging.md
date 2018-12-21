@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Push Messaging
 topic: Developer and implementation
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
-index: y
-internal: n
-snippet: y
 ---
 
 # Push Messaging{#push-messaging}

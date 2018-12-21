@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: SDK methods
 topic: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
-index: y
-internal: n
-snippet: y
 ---
 
 # SDK methods{#sdk-methods}

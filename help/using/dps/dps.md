@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Digital Publishing Solution
 topic: Metrics
 uuid: ca335891-5d73-47dc-811f-374a0844109f
-index: y
-internal: n
-snippet: y
 ---
 
 # Digital Publishing Solution {#digital-publishing-solution}

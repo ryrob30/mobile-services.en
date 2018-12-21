@@ -6,9 +6,6 @@ seo-title: Making calls to the library
 solution: Marketing Cloud,Developer
 title: Making calls to the library
 uuid: 74c30379-6cdf-4318-9db8-e14fb63aa18a
-index: y
-internal: n
-snippet: y
 ---
 
 # Making calls to the library{#making-calls-to-the-library}

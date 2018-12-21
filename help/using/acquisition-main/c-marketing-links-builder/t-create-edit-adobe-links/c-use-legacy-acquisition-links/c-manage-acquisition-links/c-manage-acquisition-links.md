@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Manage Acquisition Links
 topic: Metrics
 uuid: 06b35bbc-7cd6-4375-aa17-204edab40e62
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Acquisition Links{#manage-acquisition-links}

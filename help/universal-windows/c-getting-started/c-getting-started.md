@@ -4,9 +4,6 @@ seo-description: Information to help you get starting with the Universal Windows
 seo-title: Get started
 title: Get started
 uuid: 5fbfde5e-eb08-496c-8d3b-d2350e374404
-index: y
-internal: n
-snippet: y
 ---
 
 # Get started{#get-started}
