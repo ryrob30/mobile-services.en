@@ -49,7 +49,7 @@ This information can help you troubleshoot your in-app messaging issues.
   </tr> 
   <tr> 
    <td colname="col1"> <p> If using launch event as trigger... </p> </td> 
-   <td colname="col2"> <p> Launch only fires on a new session. For information on when a session begins, see <span class="term"> lifecycleTimeout</span> in the <a href="/help/ios/configuration/json-config/json-config.md" format="https" scope="external"> JSON Config</a> file. </p> </td> 
+   <td colname="col2"> <p> Launch only fires on a new session. For information on when a session begins, see <span class="term"> lifecycleTimeout</span> in the <a href="/help/ios/configuration/json-config/json-config.md" format="dita" scope="local"> JSON Config</a> file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> I updated my message remotely but my app is still showing the old message. </p> </td> 

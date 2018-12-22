@@ -31,11 +31,11 @@ Frequently asked questions and answers for Adobe Mobile Services and a general d
  <tbody> 
   <tr> 
    <td colname="col1"> Do you make frequent updates with the SDK? </td> 
-   <td colname="col2"> <p>Yes, we are constantly making updates in effort to get you the most feature rich, standard-compliant, and secure SDKs. We typically release a new version every month. These SDK updates are drop-in replacements (for version 4x) to aid in ease of implementation. For more information on our updates, see our <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="dita" scope="local"> Release Notes</a>. </p> </td> 
+   <td colname="col2"> <p>Yes, we are constantly making updates in effort to get you the most feature rich, standard-compliant, and secure SDKs. We typically release a new version every month. These SDK updates are drop-in replacements (for version 4x) to aid in ease of implementation. For more information on our updates, see our <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Release Notes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> What SDK version should I be on? </td> 
-   <td colname="col2"> <p>Our current SDKs are on version 4.11. For more information, see our <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="dita" scope="local"> Release Notes</a>. </p> </td> 
+   <td colname="col2"> <p>Our current SDKs are on version 4.11. For more information, see our <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Release Notes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Where can I download the SDKs? </td> 
