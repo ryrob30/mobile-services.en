@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Postbacks
 topic: Developer and implementation
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
-index: y
-internal: n
-snippet: y
 ---
 
 # Postbacks{#postbacks}

@@ -5,9 +5,6 @@ seo-title: Acquisition Methods
 solution: Marketing Cloud,Analytics
 title: Acquisition Methods
 uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
-index: y
-internal: n
-snippet: y
 ---
 
 # Acquisition Methods{#acquisition-methods}

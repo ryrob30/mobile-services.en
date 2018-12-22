@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Track App Actions
 topic: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Track App Actions{#track-app-actions}

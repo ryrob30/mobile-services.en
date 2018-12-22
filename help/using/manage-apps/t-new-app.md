@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Add a New App
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-index: y
-internal: n
-snippet: y
 ---
 
 # Add a New App{#add-a-new-app}

@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure Push Messaging
 topic: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Push Messaging{#configure-push-messaging}

@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Delete an App
 topic: Metrics
 uuid: 1721cce5-b368-4f05-a40b-e3f2348d96d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete an App{#delete-an-app}

@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK
 topic: Developer and implementation
 uuid: e48faf54-8b08-4224-9d80-e553a983129e
-index: y
-internal: n
-snippet: y
 ---
 
 # Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK{#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}

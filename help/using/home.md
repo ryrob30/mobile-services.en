@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Adobe Mobile Services
 topic: Metrics
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Mobile Services{#adobe-mobile-services}

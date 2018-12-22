@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: iOS SDK Reference
 topic: Developer and implementation
 uuid: 4e80b0ce-d36e-440e-96ff-de5df6804e3e
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS SDK Reference{#ios-sdk-reference}

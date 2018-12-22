@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Beacon tracking
 topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-index: y
-internal: n
-snippet: y
 ---
 
 # Beacon tracking{#beacon-tracking}

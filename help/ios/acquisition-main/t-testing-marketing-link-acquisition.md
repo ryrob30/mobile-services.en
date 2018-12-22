@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Testing Marketing Link Acquisition
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing Marketing Link Acquisition{#testing-marketing-link-acquisition}

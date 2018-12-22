@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Create Acquisition Link Manually
 topic: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Acquisition Link Manually{#create-acquisition-link-manually}

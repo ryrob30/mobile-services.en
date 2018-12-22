@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Create New Link Destination
 topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Create New Link Destination{#create-new-link-destination}

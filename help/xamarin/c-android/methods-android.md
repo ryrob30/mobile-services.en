@@ -6,9 +6,6 @@ seo-title: Android methods
 solution: Marketing Cloud,Developer
 title: Android methods
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
-index: y
-internal: n
-snippet: y
 ---
 
 # Android methods{#android-methods}

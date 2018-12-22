@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: View message reports
 topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-index: y
-internal: n
-snippet: y
 ---
 
 # View message reports{#view-message-reports}

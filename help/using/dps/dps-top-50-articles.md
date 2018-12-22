@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Top 50 Articles
 topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-index: y
-internal: n
-snippet: y
 ---
 
 # Top 50 Articles{#top-articles}

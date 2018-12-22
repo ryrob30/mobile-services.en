@@ -4,9 +4,6 @@ seo-description: Postbacks let you send data collected by Adobe Mobile to a sepa
 seo-title: Configure Postbacks
 title: Configure Postbacks
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Postbacks{#configure-postbacks}

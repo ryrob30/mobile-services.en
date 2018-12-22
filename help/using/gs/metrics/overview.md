@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Display Mobile Metrics
 topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-index: y
-internal: n
-snippet: y
 ---
 
 # Display Mobile Metrics{#display-mobile-metrics}

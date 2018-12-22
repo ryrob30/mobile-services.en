@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Audience Manager
 topic: Developer and implementation
 uuid: fadc3296-c17c-4732-9b75-a6fb4d33a282
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager{#audience-manager}

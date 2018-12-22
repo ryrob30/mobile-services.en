@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Testing Legacy Acquisition
 topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing Legacy Acquisition{#testing-legacy-acquisition}

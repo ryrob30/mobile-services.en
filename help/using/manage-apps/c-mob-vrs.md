@@ -4,9 +4,6 @@ seo-description: A virtual report suite (VRS) is a report suite that is created 
 seo-title: Virtual Report Suites
 title: Virtual Report Suites
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Virtual Report Suites{#virtual-report-suites}

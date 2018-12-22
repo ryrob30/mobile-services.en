@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Android SDK Reference
 topic: Developer and implementation
 uuid: ce8f6dcb-0e2b-47eb-99f2-fbdb97079161
-index: y
-internal: n
-snippet: y
 ---
 
 # Android SDK Reference{#android-sdk-reference}

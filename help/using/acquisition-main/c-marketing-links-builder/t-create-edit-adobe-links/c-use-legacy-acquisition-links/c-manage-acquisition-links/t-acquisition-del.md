@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Delete Acquisition Links
 topic: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete Acquisition Links{#delete-acquisition-links}

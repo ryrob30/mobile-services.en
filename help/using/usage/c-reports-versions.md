@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Versions
 topic: Reports,Metrics
 uuid: 67e759d3-7e4f-4985-9e74-61c782f0fbb5
-index: y
-internal: n
-snippet: y
 ---
 
 # Versions{#versions}

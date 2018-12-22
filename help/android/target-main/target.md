@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Target Configuration
 topic: Developer and implementation
 uuid: 09fe2c9c-7b60-49c3-bb9d-36a30ce7c350
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Configuration{#target-configuration}

@@ -4,9 +4,6 @@ seo-description: You can leverage Adobe Target in your TVML/TVJS apps by making 
 seo-title: Adobe Target for TVML/TVJS
 title: Adobe Target for TVML/TVJS
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Target for TVML/TVJS{#adobe-target-for-tvml-tvjs}

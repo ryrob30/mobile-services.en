@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Create or Edit Marketing Links
 topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Edit Marketing Links{#create-or-edit-marketing-links}

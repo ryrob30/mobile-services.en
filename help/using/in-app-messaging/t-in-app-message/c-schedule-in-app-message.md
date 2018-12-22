@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Schedule  In-App Message
 topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-index: y
-internal: n
-snippet: y
 ---
 
 # Schedule: In-App Message{#schedule-in-app-message}

@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Create an in-app message
 topic: Metrics
 uuid: 15b52713-9ffc-4df9-b21a-6b0576a96a54
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an in-app message{#create-an-in-app-message}

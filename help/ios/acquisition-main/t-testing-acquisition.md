@@ -5,9 +5,6 @@ seo-title: Testing Legacy Acquisition
 solution: Marketing Cloud,Analytics
 title: Testing Legacy Acquisition
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing Legacy Acquisition{#testing-legacy-acquisition}

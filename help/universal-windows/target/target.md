@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Target
 topic: Developer and implementation
 uuid: c764e65c-476d-47a4-a463-ac232d011824
-index: y
-internal: n
-snippet: y
 ---
 
 # Target{#target}

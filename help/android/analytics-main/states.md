@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Track App States
 topic: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
-index: y
-internal: n
-snippet: y
 ---
 
 # Track App States {#track-app-states}

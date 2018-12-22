@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Interstitials
 topic: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-index: y
-internal: n
-snippet: y
 ---
 
 # Interstitials{#interstitials}

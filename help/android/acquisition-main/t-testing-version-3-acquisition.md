@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Testing Version 3 Acquisition
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing Version 3 Acquisition{#testing-version-acquisition}

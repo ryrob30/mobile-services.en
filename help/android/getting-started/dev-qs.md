@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Core Implementation and Lifecycle
 topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-index: y
-internal: n
-snippet: y
 ---
 
 # Core Implementation and Lifecycle {#core-implementation-and-lifecycle}

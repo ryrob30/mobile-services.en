@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Prerequisites to Enable Push Messaging
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites to Enable Push Messaging{#prerequisites-to-enable-push-messaging}
@@ -69,7 +66,7 @@ You must complete these tasks before configuring Push Messaging in applications.
         <li id="li_3677E3AE8BCB4EB0B56C621D5816D7A9">For the <b>Private Key Password</b>, if your private-key file is encrypted, type the password. <p>(Conditional) For the <b>Certificate</b>, drag and drop your certificate file into the box. You can also click <span class="uicontrol"> Browse</span> to select the file. </p> <p>This field is not required if the private-key file also contains the certificate (<span class="filepath"> .cert</span>, <span class="filepath"> .cer</span>, <span class="filepath"> .crt</span>, <span class="filepath"> .pem</span>). </p> </li> 
        </ul> </p> </li> 
      <li id="li_C5245B6DA72747BB800E575527749B65"> <p>For <b>Google</b>, specify the API key for the app. </p> </li> 
-    </ul> <p>Click <span class="uicontrol"> Test</span> to validate that the app and Mobile Services are configured correctly. This option is useful for debugging and troubleshooting. </p> <p> Type the device's push tokens that you want to send the message. You can send the message to multiple devices by specifying tokens in a comma-separated list. </p> <p><img href="assets/push_test_list.png" id="image_8C4DC06DAF444BF298F380CF24F41A6D" /> </p> </td> 
+    </ul> <p>Click <span class="uicontrol"> Test</span> to validate that the app and Mobile Services are configured correctly. This option is useful for debugging and troubleshooting. </p> <p> Type the device's push tokens that you want to send the message. You can send the message to multiple devices by specifying tokens in a comma-separated list. </p> <p><img src="assets/push_test_list.png" id="image_8C4DC06DAF444BF298F380CF24F41A6D" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

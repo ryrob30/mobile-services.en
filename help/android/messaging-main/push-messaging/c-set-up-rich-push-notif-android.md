@@ -4,9 +4,6 @@ seo-description: You can attach image files to your Android notifications. Addin
 seo-title: Receive Rich Push Notifications
 title: Receive Rich Push Notifications
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-index: y
-internal: n
-snippet: y
 ---
 
 # Receive Rich Push Notifications{#receive-rich-push-notifications}

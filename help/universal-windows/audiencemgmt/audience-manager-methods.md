@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Audience Manager methods
 topic: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager methods{#audience-manager-methods}

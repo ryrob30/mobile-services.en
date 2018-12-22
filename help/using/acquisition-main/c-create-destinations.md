@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Destinations
 topic: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
-index: y
-internal: n
-snippet: y
 ---
 
 # Destinations{#destinations}

@@ -6,9 +6,6 @@ seo-title: Implement lifecycle
 solution: Marketing Cloud,Developer
 title: Implement lifecycle
 uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement lifecycle{#implement-lifecycle}

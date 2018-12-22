@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Report Types
 topic: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Types{#report-types}

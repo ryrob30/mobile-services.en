@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Migrate to the 4.x SDKs
 topic: Developer and implementation
 uuid: e0fe3b7b-cda5-4a91-834c-2c7e17a501a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrate to the 4.x SDKs{#migrate-to-the-x-sdks}

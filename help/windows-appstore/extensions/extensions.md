@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Extensions
 topic: Developer and implementation
 uuid: 2823b22c-d9a1-4724-9020-dfc6614691be
-index: y
-internal: n
-snippet: y
 ---
 
 # Extensions{#extensions}

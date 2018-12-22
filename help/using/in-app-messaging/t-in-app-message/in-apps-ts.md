@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Troubleshooting In-App Messaging
 topic: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting In-App Messaging{#troubleshooting-in-app-messaging}

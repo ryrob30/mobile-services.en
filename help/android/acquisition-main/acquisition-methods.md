@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Acquisition Methods
 topic: Developer and implementation
 uuid: 22ec432f-e7ae-4e89-be07-26206bbeacf8
-index: y
-internal: n
-snippet: y
 ---
 
 # Acquisition Methods{#acquisition-methods}

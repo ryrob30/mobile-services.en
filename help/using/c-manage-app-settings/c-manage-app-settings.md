@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Manage App Settings
 topic: Metrics
 uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage App Settings{#manage-app-settings}

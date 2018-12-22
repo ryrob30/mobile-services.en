@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Migrating to the 4.x iOS Library
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrating to the 4.x iOS Library{#migrating-to-the-x-ios-library}

@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: TVJS Methods
 topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
-index: y
-internal: n
-snippet: y
 ---
 
 # TVJS Methods{#tvjs-methods}

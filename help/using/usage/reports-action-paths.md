@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Action Paths
 topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-index: y
-internal: n
-snippet: y
 ---
 
 # Action Paths{#action-paths}

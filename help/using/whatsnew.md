@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Release notes
 topic: Metrics
 uuid: 522b0589-d61f-4a9f-952e-ba7ce11af2f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Release notes{#release-notes}

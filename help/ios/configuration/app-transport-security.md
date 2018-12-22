@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: App Transport Security
 topic: Developer and implementation
 uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
-index: y
-internal: n
-snippet: y
 ---
 
 # App Transport Security{#app-transport-security}

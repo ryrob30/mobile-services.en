@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Acquisition
 topic: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
-index: y
-internal: n
-snippet: y
 ---
 
 # Acquisition {#acquisition}

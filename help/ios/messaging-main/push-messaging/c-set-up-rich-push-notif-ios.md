@@ -4,9 +4,6 @@ seo-description: You can attach image files to your Apple notifications. Adding 
 seo-title: Receive Rich Push Notifications
 title: Receive Rich Push Notifications
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-index: y
-internal: n
-snippet: y
 ---
 
 # Receive Rich Push Notifications{#receive-rich-push-notifications}

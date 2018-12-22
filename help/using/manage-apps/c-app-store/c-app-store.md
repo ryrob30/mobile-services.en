@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: App Store
 topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-index: y
-internal: n
-snippet: y
 ---
 
 # App Store{#app-store}

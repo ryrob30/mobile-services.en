@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Android Wearables  Additional Notes
 topic: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
-index: y
-internal: n
-snippet: y
 ---
 
 # Android Wearables: Additional Notes{#android-wearables-additional-notes}

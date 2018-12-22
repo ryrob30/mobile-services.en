@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Technology
 topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-index: y
-internal: n
-snippet: y
 ---
 
 # Technology{#technology}

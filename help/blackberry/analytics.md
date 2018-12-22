@@ -4,9 +4,6 @@ seo-description: After you add the library to your project, you can make any of 
 seo-title: Analytics
 title: Analytics
 uuid: de018eda-b37d-4afe-83a0-8011381d7aff
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics{#analytics}

@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Audience  In-App Message
 topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience: In-App Message{#audience-in-app-message}

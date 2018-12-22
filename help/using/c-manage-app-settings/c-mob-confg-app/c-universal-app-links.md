@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Universal Links and App Links
 topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-index: y
-internal: n
-snippet: y
 ---
 
 # Universal Links and App Links{#universal-links-and-app-links}

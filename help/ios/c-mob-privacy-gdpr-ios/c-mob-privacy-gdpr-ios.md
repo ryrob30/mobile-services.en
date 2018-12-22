@@ -4,9 +4,6 @@ seo-description: Experience Cloud Mobile SDKs provide General Data Protection Re
 seo-title: Privacy and General Data Protection Regulation
 title: Privacy and General Data Protection Regulation
 uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Privacy and General Data Protection Regulation{#privacy-and-general-data-protection-regulation}

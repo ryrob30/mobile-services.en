@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure SDK ID Service Options
 topic: Metrics
 uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure SDK ID Service Options{#configure-sdk-id-service-options}

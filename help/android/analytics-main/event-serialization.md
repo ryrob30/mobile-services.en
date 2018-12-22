@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Event Serialization
 topic: Developer and implementation
 uuid: acdeda16-ab83-4cfc-907d-33448b801b31
-index: y
-internal: n
-snippet: y
 ---
 
 # Event Serialization {#event-serialization}

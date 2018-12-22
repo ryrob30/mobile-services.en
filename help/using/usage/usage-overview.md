@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Overview
 topic: Reports,Metrics
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview{#overview}

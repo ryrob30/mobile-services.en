@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Universal Windows Platform SDK 4.x for Experience Cloud Solutions
 topic: Developer and implementation
 uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
-index: y
-internal: n
-snippet: y
 ---
 
 # Universal Windows Platform SDK 4.x for Experience Cloud Solutions{#universal-windows-platform-sdk-x-for-experience-cloud-solutions}

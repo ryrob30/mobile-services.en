@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Schedule  Push Message
 topic: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
-index: y
-internal: n
-snippet: y
 ---
 
 # Schedule: Push Message{#schedule-push-message}

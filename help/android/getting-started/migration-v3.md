@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Migrating to the Android 4.x Library
 topic: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrating to the Android 4.x Library {#migrating-to-the-android-x-library}

@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Managing your App
 topic: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing your App{#managing-your-app}

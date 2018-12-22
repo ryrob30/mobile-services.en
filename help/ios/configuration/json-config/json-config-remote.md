@@ -6,9 +6,6 @@ solution: Marketing Cloud,Analytics
 title: Override the ADBMobile JSON Config Path
 topic: Developer and implementation
 uuid: 0d1be674-c634-4a48-aa31-5701681911b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Override the ADBMobile JSON Config Path{#override-the-adbmobile-json-config-path}

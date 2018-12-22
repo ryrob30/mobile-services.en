@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Reports
 topic: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
-index: y
-internal: n
-snippet: y
 ---
 
 # Reports{#reports}

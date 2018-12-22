@@ -6,9 +6,6 @@ seo-title: Xamarin components for Experience Cloud Solutions 4.x SDK
 solution: Marketing Cloud,Developer
 title: Xamarin components for Experience Cloud Solutions 4.x SDK
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
-index: y
-internal: n
-snippet: y
 ---
 
 # Xamarin components for Experience Cloud Solutions 4.x SDK{#xamarin-components-for-experience-cloud-solutions-x-sdk}

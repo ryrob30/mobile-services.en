@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Tracking Deep Links
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking Deep Links{#tracking-deep-links}

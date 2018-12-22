@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Configure Audience Manager Options
 topic: Metrics
 uuid: 471270ca-cee5-401e-aac1-e48146ee8399
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Audience Manager Options{#configure-audience-manager-options}

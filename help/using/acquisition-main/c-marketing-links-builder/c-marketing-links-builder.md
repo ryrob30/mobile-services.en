@@ -7,9 +7,6 @@ solution: Marketing Cloud,Analytics
 title: Marketing Links Builder
 topic: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Links Builder{#marketing-links-builder}
