@@ -68,7 +68,7 @@ Frequently asked questions and answers for Adobe Mobile Services and a general d
   </tr> 
   <tr> 
    <td colname="col1"> How can I troubleshoot processing rules? </td> 
-   <td colname="col2"> <p>For more information, see <!--REKHA--<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html" format="dita" scope="local"> Processing Rules Tips and Tricks</a>.--> </p> </td> 
+   <td colname="col2"> <p>For more information, see <!--REKHA: <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html" format="dita" scope="local"> Processing Rules Tips and Tricks</a>.--> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Can I send my analytics data to multiple report suites? </td> 

@@ -155,8 +155,8 @@ The Adobe Mobile SDK offers the following features:
     * Small footprint minimizes the size of the app package that is submitted to app stores.
 
 For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions]
-<!--REKHA--(https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)--> and [iOS SDK 4.x for Experience Cloud Solutions]
-<!--REKHA--(https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html)-->.
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) --> and [iOS SDK 4.x for Experience Cloud Solutions]
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html) -->.
 
 ## Additional Information
 

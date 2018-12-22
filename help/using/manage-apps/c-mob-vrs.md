@@ -50,7 +50,7 @@ A VRS can help you achieve the following tasks:
 >Only Adobe Analytics admins can create and modify virtual report suites in Adobe Analytics.
 
 To create a virtual report suite, see [Create virtual report suites]
-<!--REKHA--(https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)-->.
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)-->.
 
 Each VRS has a unique ID. To view the parent report suite ID in Adobe Mobile Services UI, on [!DNL Manage App Settings], click **[!UICONTROL More Details in the App Information]** section.
 
@@ -236,7 +236,7 @@ Here are the properties for VRSs:
 Here is some additional information from the Adobe Analytics documentation:
 
 * For more information about VRSs, see [Virtual Report Suites]
-<!--REKHA--(https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-about.html)-->. 
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-about.html)-->. 
 * For more information about planning a VRS implementation, see [Virtual report suite workflow]
-<!--REKHA--(https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html)-->.
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html)-->.
 

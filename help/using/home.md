@@ -58,22 +58,22 @@ In addition to the user's guide, you can download the Software Development Kits 
 Native libraries are provided for the following platforms:
 
 * [Android SDK 4.x for Experience Cloud Solutions]
-<!--REKHA--(https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)--> 
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)--> 
 * [iOS SDK 4.x for Experience Cloud Solutions]
-<!--REKHA--(https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html)--> 
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html)--> 
 * [Unity Plug-in for iOS and Android 4.x SDK]
-<!--rekha--(https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)--> 
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)--> 
 * [Xamarin Components for Experience Cloud Solutions 4.x SDK]
-<!--REKHA--(https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)--> 
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)--> 
 * [Universal Windows Platform SDK 4.x for Experience Cloud Solutions]     <!--REKHA(https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)--> 
 
 * [Windows 8.1 Universal App Store]
-  <!--rekha--(https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)-->
+  <!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)-->
 
     * [Windows Visual Studio Extensions for Experience Cloud Solutions 4.x SDK]<!--(https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/extensions-win-appstore/win-vse-4x.html)-->
 
 * [BlackBerry 10 SDK 4.x for Experience Cloud Solutions]
-<!--REKHA--(https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)-->
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)-->
 
 ## Getting Started with Adobe Mobile Webinar {#section_420EA66F39FE44B9B531ADF5F5465543}
 

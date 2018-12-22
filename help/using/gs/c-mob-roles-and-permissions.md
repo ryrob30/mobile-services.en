@@ -25,9 +25,9 @@ An Analytics Admin manages user groups and assigns permissions, one of which is 
 For more information about this role, see the following content:
 
 * [Users]
-<!--REKHA--(https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)--> 
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html) --> 
 * [User and Group permission changes]
-<!--REKHA--(https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)-->
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html) -->
 
 **Mobile App Admin**
 
@@ -91,9 +91,9 @@ Here are the roles in the Mobile Services UI, with their relevant permissions:
 For more information about groups and users, see:
 
 * [User group settings]
-<!--REKHA--(https://docs-author-stg.corp.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)--> 
+<!--REKHA: (https://docs-author-stg.corp.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) --> 
 * [Add a user to a group]
-<!--REKHA--(https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)-->
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html) -->
 
 **Mobile Services User**
 
