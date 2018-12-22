@@ -21,7 +21,7 @@ If you download the mobile SDK, the customized [!DNL ADBMobileConfig.json] file 
 
 ## Native Libraries {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
-Configure your app in Adobe Mobile services so you can download a customized package that includes a pre-populated version of the configuration file. [iOS instructions](/help/ios/getting-started/requirements.md) | [Android instructions](help/android/getting-started/requirements.md)
+Configure your app in Adobe Mobile services so you can download a customized package that includes a pre-populated version of the configuration file. [iOS instructions](/help/ios/getting-started/requirements.md) | [Android instructions](/help/android/getting-started/requirements.md)
 
 Native libraries are provided for iOS, Android, Windows Phone 8, Blackberry, and others. To see the documentation for these libraries, see [SDK Documentation](/help/using/home.md) section. 
 
