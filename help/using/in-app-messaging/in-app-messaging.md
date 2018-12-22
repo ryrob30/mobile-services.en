@@ -61,5 +61,5 @@ For additional information about messaging, see the following links:
 * [Audience: In-App Message](t-in-app-message/c-audience-in-app-message.md)
 * [Experience: In-App Message](t-in-app-message/c-experience-in-app-message.md)
 * [Schedule: In-App Message](t-in-app-message/c-schedule-in-app-message.md)
-* [Troubleshooting In-App Messaging](t-in-app-message/t-in-app-message/in-apps-ts.md)
+* [Troubleshooting In-App Messaging](t-in-app-message/in-apps-ts.md)
 * [Trigger an In-App Message when the App is Opened from a Push Message](t-mob-trig-in-app-open-app-from-push.md)
