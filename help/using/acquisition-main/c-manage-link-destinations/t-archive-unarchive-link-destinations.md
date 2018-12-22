@@ -22,35 +22,35 @@ To display the [!DNL Manage Link Destinations] page:
 1. Click the name of the app to display its [!DNL App Information] page.
 1. Click **[!UICONTROL Manage Link Destinations]**.
 
-   ![Step Result](assets/link_destinations_list.png)
+   ![Link Destinations](assets/link_destinations_list.png)
 
 1. (Conditional) Complete the appropriate tasks:
 
-* **Edit**
+   * **Edit**
 
-  To edit an existing link destination, click its name in the list, and edit the relevant fields. For more information, see [Create New Link Destination](../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#task_B4F3393B8D6D4D87AD5C371F8F9A414B).
+      To edit an existing link destination, click its name in the list, and edit the relevant fields. For more information, see [Create New Link Destination](../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#task_B4F3393B8D6D4D87AD5C371F8F9A414B).
 
-  >[!IMPORTANT]
-  >
-  >It might take up to 15 minutes for these changes to take effect.
+      >[!IMPORTANT]
+      >
+      >It might take up to 15 minutes for these changes to take effect.
 
-* **Archive**
+    * **Archive**
 
-  You can archive existing link destinations that you want to retain for future use but want to remove from the **[!UICONTROL Link Destinations]** list.
+      You can archive existing link destinations that you want to retain for future use but want to remove from the **[!UICONTROL Link Destinations]** list.
 
-  To archive existing link destinations, select one or more check boxes next to the desired items and click **[!UICONTROL Archive Selected]**. Because your link destination is archived and can be unarchived at any time, you do not need to confirm your action. 
+      To archive existing link destinations, select one or more check boxes next to the desired items and click **[!UICONTROL Archive Selected]**. Because your link destination is archived and can be unarchived at any time, you do not need to confirm your action. 
 
-* **Unarchive**
+    * **Unarchive**
 
-  You can unarchive previously archived link destinations that you want to display again in the [!DNL Link Destinations] list.
+      You can unarchive previously archived link destinations that you want to display again in the [!DNL Link Destinations] list.
 
-  To unarchive a link destination, click **[!UICONTROL View Archive]**, select one or more check boxes next to the desired items, click **[!UICONTROL Unarchive Selected]**. The **[!UICONTROL View Archive]** option only displays if you previously archived link destinations. 
+      To unarchive a link destination, click **[!UICONTROL View Archive]**, select one or more check boxes next to the desired items, click **[!UICONTROL Unarchive Selected]**. The **[!UICONTROL View Archive]** option only displays if you previously archived link destinations. 
 
-* **Delete**
+    * **Delete**
 
-  To delete a link destination, select one or more check boxes next to the desired items, click **[!UICONTROL Delete Selected]** and click **[!UICONTROL Delete]** to confirm your action.
+      To delete a link destination, select one or more check boxes next to the desired items, click **[!UICONTROL Delete Selected]** and click **[!UICONTROL Delete]** to confirm your action.
 
-  >[!IMPORTANT]
-  >
-  >Deleting a link destination is a permanent action. If you are unsure whether you want to delete a link destination, use the archive option.
+     >[!IMPORTANT]
+     >
+     >Deleting a link destination is a permanent action. If you are unsure whether you want to delete a link destination, use the archive option.
 

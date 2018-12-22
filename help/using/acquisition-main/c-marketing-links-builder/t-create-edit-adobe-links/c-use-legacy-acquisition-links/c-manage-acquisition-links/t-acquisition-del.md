@@ -14,19 +14,13 @@ snippet: y
 
 # Delete Acquisition Links{#delete-acquisition-links}
 
-You can delete one or more acquisition links when they are no longer needed.
-
-<!-- 
-
-I'm confused by this procedure. In the UI, there is no "Manage Acquisition Link" option under "Acquisition". I don't see any other way to delete a link...am I missing something? Should this procedure be removed?
-
- -->
+When you no longer needed acquistion links, you can delete them.
 
 1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
 1. Complete one of the following tasks:
 
-* Select the check box next to one or more acquisition links. 
-* Select the check box in the header to select all of your acquisition links.
+   * Select the check box next to one or more acquisition links. 
+   * Select the check box in the header to select all of your acquisition links.
 
 1. Click **[!UICONTROL Delete Selected]** and confirm the deletion.
 

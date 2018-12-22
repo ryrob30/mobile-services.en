@@ -28,7 +28,7 @@ You can configure the Experience Cloud ID service options on the Manage App Sett
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Enable </span> </p> </td> 
-   <td colname="col2"> <p>Enable this option to use the ID service. </p> <p>For more information, go to <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID Service </a>. </p> </td> 
+   <td colname="col2"> <p>Enable this option to use the ID service. </p> <p>For more information, go to <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID Service </a>. <!--REKHA--don't know where this content has been migrated to.--></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Organization </span> </p> </td> 

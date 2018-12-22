@@ -16,11 +16,6 @@ snippet: y
 
 Here is the reference information for the default mobile metrics and dimensions.
 
-The following sections contain more information:
-
-* [Metrics](../../gs/metrics/metrics-reference.md#section_6704C815147D44AF96151D626BEB813C) 
-* [Dimensions](../../gs/metrics/metrics-reference.md#section_1784C7E859F64CCEB95C5DD1DCF5C98D)
-
 >[!TIP]
 >
 >The dimension and metric permissions that are set in [!DNL Adobe Analytics] apply to [!DNL Mobile Services]. If you attempt to run a report without proper permissions, you will receive an error.
@@ -122,7 +117,7 @@ The following sections contain more information:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Device Name </p> </td> 
-   <td colname="col3"> <p>Stores the device name. </p> <p> <b>iOS</b>: Comma-separated, two-digit string that identifies the iOS device. The first number typically represents the device generation, and the second number typically versions different members of the device family. For a complete list of common device names, see <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/index.html?f=device_versions" format="http" scope="external"> iOS Device Versions</a>. </p> </td> 
+   <td colname="col3"> <p>Stores the device name. </p> <p> <b>iOS</b>: Comma-separated, two-digit string that identifies the iOS device. The first number typically represents the device generation, and the second number typically versions different members of the device family. For a complete list of common device names, see <a href="/help/ios/reference/device-versions.md" format="dita" scope="local"> iOS Device Versions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carrier Name </p> </td> 

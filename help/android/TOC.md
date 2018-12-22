@@ -58,6 +58,7 @@ user-guide-title: Mobile Services Android Help
     + [Receive Rich Push Notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
     + [Troubleshooting Push Messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
 + Location{#location}
+  + [Location](location/location.md)
   + [Geo-Location and Points of Interest](location/geo-poi.md)
   + [Beacon tracking](location/beacon.md)
 + Target{#target-android}

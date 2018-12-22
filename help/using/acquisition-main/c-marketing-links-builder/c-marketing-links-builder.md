@@ -14,6 +14,6 @@ snippet: y
 
 # Marketing Links Builder{#marketing-links-builder}
 
-The builder helps you build marketing links that can route users to app stores and app or web link destinations. Marketers can choose destinations based on rules, such as device type or operating system of the user’s device.
+The builder helps you build marketing links that can route users to app stores and app or web link destinations. Marketers can choose destinations based on rules, such as the device type or the operating system of the user’s device.
 
 The marketing links can be tracked and reported on, allowing marketers to attribute downloads, app relaunches, and other in-app events to these links. 

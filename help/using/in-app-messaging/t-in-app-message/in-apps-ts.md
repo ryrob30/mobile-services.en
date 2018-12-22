@@ -28,7 +28,7 @@ This information can help you troubleshoot your in-app messaging issues.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Are you putting the new configuration and new SDK in the app? </p> </td> 
-   <td colname="col2"> <p>Verify that the SDK is version 4.2 or higher and is correctly configured. For a screen shot showing the SDK version, see <a href="https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html" format="https" scope="external"> View Hits</a> in the Bloodhound documentation. </p> <p> <p>Important:  As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. </p> </p> <p>Ensure that you have a <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/messaging.html" format="https" scope="external"> Messages</a> section in your configuration (the downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management. </p> </td> 
+   <td colname="col2"> <p>Verify that the SDK is version 4.2 or higher and is correctly configured. For a screen shot showing the SDK version, see <a href="https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html" format="https" scope="external"> View Hits</a> in the Bloodhound documentation. </p> <p> <p>Important:  As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. </p> </p> <p>Ensure that you have a <a href="/help/ios/messaging-main/messaging/messaging.md" format="https" scope="external"> Messages</a> section in your configuration (the downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> My full screen message in Android is not showing up. I am using the correct SDK, configuration, and my triggers are being met. </p> </td> 
@@ -36,7 +36,7 @@ This information can help you troubleshoot your in-app messaging issues.
   </tr> 
   <tr> 
    <td colname="col1"> <p> My local notification message in Android isn't working. </p> </td> 
-   <td colname="col2"> <p>Verify that the local notification broadcast receiver is declared in your manifest. </p> <p>For more information, see step #1 in the <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/messaging.html" format="https" scope="external"> How to Enable</a> section in <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/messaging.html" format="https" scope="external"> In-App Messaging</a>. </p> </td> 
+   <td colname="col2"> <p>Verify that the local notification broadcast receiver is declared in your manifest. </p> <p>For more information, see step #1 in <!--REKHA--<a href="https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/inapp-messaging/messaging.html#section_380DF56C4EE4432A823940E4AE4C9E91" format="dita" scope="local">Enabling In-App Messaging</a>. </p>--> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Is the message live? </p> </td> 
@@ -52,7 +52,7 @@ This information can help you troubleshoot your in-app messaging issues.
   </tr> 
   <tr> 
    <td colname="col1"> <p> If using launch event as trigger... </p> </td> 
-   <td colname="col2"> <p> Launch only fires on a new session. For information on when a session begins, see <span class="term"> lifecycleTimeout</span> in the <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/json_config.html" format="https" scope="external"> JSON Config</a> file. </p> </td> 
+   <td colname="col2"> <p> Launch only fires on a new session. For information on when a session begins, see <span class="term"> lifecycleTimeout</span> in the <a href="/help/ios/configuration/json-config/json-config.md" format="https" scope="external"> JSON Config</a> file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> I updated my message remotely but my app is still showing the old message. </p> </td> 

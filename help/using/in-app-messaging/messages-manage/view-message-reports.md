@@ -17,11 +17,13 @@ snippet: y
 You can view message reports for in-app and push messages.
 
 1. Click  ![](assets/icon_report.png) in the **[!UICONTROL Report]** column for a message. 
-1. (Optional) Create a [Sticky Filter](../../usage/reports-customize/t-sticky-filter.md#task_75B0AD4D58014BB0A5A09FE1B074ECE1) for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
+1. (Optional) Create a sticky filter for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
+
+    For more information about creating a sticky filter, see [Sticky Filter](../../usage/reports-customize/t-sticky-filter.md#task_75B0AD4D58014BB0A5A09FE1B074ECE1).
 
 >[!TIP]
 >
->Depending on the type of message you are viewing, the report might vary
+>Depending on the type of message you are viewing, the report might vary.
 
 ## In-App Messages {#section_90B79BA58E8141F78538C187EB1BF8C7}
 
@@ -30,6 +32,8 @@ If you are viewing reports for an in-app message, the report looks similar to th
 ![](assets/report_message.png)
 
 **Available Metrics** 
+
+Here is a list of the metrics that are available for in-app messages:
 
 <table id="table_01D894234B4F41788D521B3FF0C8E929"> 
  <thead> 
@@ -67,6 +71,8 @@ If you are viewing reports for a push message, the report looks similar to the f
 The chart at the top displays the number of users who opened the message.
 
 **Available Metrics** 
+
+Here is a list of the metrics that are available for push messages:
 
 <table id="table_08DBD63F0F2249DBA45F9B765AF724A0"> 
  <thead> 

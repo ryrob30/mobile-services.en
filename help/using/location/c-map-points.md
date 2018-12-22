@@ -14,7 +14,7 @@ snippet: y
 
 # Map {#map}
 
-You can view an interactive map that displays your Points of Interest and other data markers.
+You can view an interactive map that displays your POI and other data markers.
 
  ![](assets/map.png)
 
@@ -27,9 +27,7 @@ Here is some important information about the map:
 
   Other data markers, such as Launches, display in black. Click a marker to view more information.
 
-Click  ![](assets/map_layers.png)
-
-to select the following options:
+Click  ![](assets/map_layers.png) to select the following options:
 
 <table id="table_74BAB1D1B77C4C78B4E26C65D4CDE4A6"> 
  <thead> 

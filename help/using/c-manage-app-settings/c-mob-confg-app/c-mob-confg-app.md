@@ -29,10 +29,10 @@ On the Manage App Settings page, you can make the following types of changes:
         
         * **Lifecycle** Track the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented. For more information, see the following sections:
 
-            * [iOS SDK Lifecycle Metrics](https://marketing.adobe.com/resources/help/en_US/mobile/ios/metrics.html) 
-            * [Android Lifecycle Metrics](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html) 
-            * [Windows Lifecycle Metrics](https://marketing.adobe.com/resources/help/en_US/mobile/winu/metrics.html) 
-            * [BlackBerry Lifecycle Metrics](https://marketing.adobe.com/resources/help/en_US/mobile/bb/metrics.html)
+            * [iOS SDK Lifecycle Metrics](/help/ios/metrics.md) 
+            * [Android Lifecycle Metrics](/help/android/metrics.md) 
+            * [Windows Lifecycle Metrics](/help/universal-windows/metrics.md) 
+            * [BlackBerry Lifecycle Metrics](/help/blackberry/metrics.md)
 
         * **App Actions**
 
@@ -61,3 +61,14 @@ On the Manage App Settings page, you can make the following types of changes:
   After set up is complete, you can send the configuration file to your developers so that data can be collected properly. If you are not ready to download SDKs and tools now, click [!DNL Manage App Settings] and click the app to display the [!DNL App Information] page at any time.
 
 For information about configuring these options, see the following content: 
+
+*  [Configure SDK Analytics Options](t-config-analytics.md)
+*  [Download Mobile SDKs and Tools](download-sdk.md)
+*  [Configure Audience Manager Options](t-config-aam.md)
+*  [Configure SDK Acquisition Options](t-config-acquisition.md)
+*  [Universal Links and App Links](c-universal-app-links.md)
+*  [Configure SDK ID Service Options](t-config-visitor.md)
+*  [Configure Postbacks](c-mob-confg-app/signals-.md)
+*  [Configure Push Messaging](configure-push-messaging.md)
+*  [Prerequisites to Enable Push Messaging](prerequisites-push-messaging.md)
+*  [Configure App to use APNS or GCM](configure-app-apns-gcm.md)

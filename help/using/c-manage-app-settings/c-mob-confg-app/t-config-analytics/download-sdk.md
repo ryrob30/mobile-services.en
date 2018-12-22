@@ -24,16 +24,7 @@ If you download the mobile SDK, the customized [!DNL ADBMobileConfig.json] file 
 
 ## Native Libraries {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
-Configure your app in Adobe Mobile services so you can download a customized package that includes a pre-populated version of the configuration file. [iOS instructions](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=requirements) | [Android instructions](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=requirements)
+Configure your app in Adobe Mobile services so you can download a customized package that includes a pre-populated version of the configuration file. [iOS instructions](/help/ios/getting-started/requirements.md) | [Android instructions](help/android/getting-started/requirements.md)
 
-Native libraries are provided for iOS, Android, Windows Phone 8, Blackberry, Symbian, and others:
-
-* [Unity Plug-in for iOS and Android 4.x SDK](https://marketing.adobe.com/resources/help/en_US/mobile/unity/) 
-* [Windows Visual Studio Extensions for Experience Cloud Solutions 4.x SDK](https://marketing.adobe.com/resources/help/en_US/mobile/winu/win_vse_4x.html) 
-* [Xamarin Components for Experience Cloud Solutions 4.x SDK](https://marketing.adobe.com/resources/help/en_US/mobile/xamarin/) 
-* [iOS SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/ios/) 
-* [Android SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 
-* [Universal Windows Platform SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/uwp/) 
-* [Windows 8.1 Universal App Store](https://marketing.adobe.com/resources/help/en_US/mobile/winu/) 
-* [BlackBerry 10 SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/bb/)
+Native libraries are provided for iOS, Android, Windows Phone 8, Blackberry, and others. To see the documentation for these libraries, see [SDK Documentation](/help/using/home.md) section. 
 

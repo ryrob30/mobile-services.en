@@ -38,8 +38,8 @@ You can set the in-app message trigger to be the push message ID that is sent wh
 
    While you are testing, remember the following information:
 
-* After you save the in-app message, it takes about 45 seconds for the hosted config file to update with the new message. 
-* The app looks for config file updates (the new in-app message) when there is a **new** launch, so you must ensure that the app is firing a new launch when the push message is clicked.
+    * After you save the in-app message, it takes about 45 seconds for the hosted config file to update with the new message. 
+    * The app looks for config file updates (the new in-app message) when there is a **new** launch, so you must ensure that the app is firing a new launch when the push message is clicked.
 
-  This usually means that you need to ensure that the session timeout has occurred. The default timeout is 5 minutes.
+    This usually means that you need to ensure that the session timeout has occurred. The default timeout is 5 minutes.
 

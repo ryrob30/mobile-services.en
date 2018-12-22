@@ -22,13 +22,13 @@ When an audience segment for push messaging is created, the segment might involv
 
 In Adobe Mobile Services, marketers might only push to one app per platform. If marketers attempt to push to segments that contain users from multiple apps, a warning is displayed that states that proceeding can result in serious push failures and the potential blacklisting of users. If you experience a push failure, see *Resolving push failures* in [Troubleshooting Push Messaging](../../in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md#concept_8CECEBF5C278422796BAD09107DCED93).
 
-To use Audience Manager data in your segment definition, see [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
+To use Audience Manager data in your segment definition, see <!--REKHA-[Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/). Not sure where the migrated content is, so commenting out for now.-->
 
 >[!IMPORTANT]
 >
 >If app users are blacklisted, marketers can **never** send push messages to those affected users again.
 
-If you choose an audience segment that contains users across multiple apps, you might see the following alert:
+If you select an audience segment that contains users across multiple apps, you might see the following alert:
 
 ![](assets/multiple_appname.png)
 
@@ -54,7 +54,7 @@ To continue to send the push message to the listed apps, select the **[!UICONTRO
 
 **Best Practices**
 
-Here are some practices to remember:
+Here are some best practices to remember:
 
 * To reduce confusion, **avoid** defining mobile app virtual report suites that contain data from multiple apps. 
 * Use a unique app ID as part of an audience segment **each** time you want to send a push message.
@@ -99,8 +99,8 @@ Here are some examples to help you understand how to correctly define segments:
    >    
    >        
    >        
-   >        * iOS: [Push Messaging](https://marketing.adobe.com/resources/help/en_US/mobile/ios/push_messaging.html) 
-   >        * Android: [Push Messaging](https://marketing.adobe.com/resources/help/en_US/mobile/android/push_messaging.html) 
+   >        * [Push Messaging in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/push_messaging.html) 
+   >        * [Push Messaging in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/push_messaging.html) 
    >        
    >        
 
@@ -128,7 +128,7 @@ Here are some examples to help you understand how to correctly define segments:
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Analytics Segments </span> </p> </td> 
-   <td colname="col2"> <p>Select one or more existing <span class="keyword"> Adobe Analytics</span> segment from the drop-down list. </p> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external"> Building Segments</a>. </p> </td> 
+   <td colname="col2"> <p>Select one or more existing <span class="keyword"> Adobe Analytics</span> segment from the drop-down list. </p> <p>For more information, see <!--REKHA--<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html" format="https" scope="external"> Build Segments</a>. </p>--> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Custom Segments </span> </p> </td> 
