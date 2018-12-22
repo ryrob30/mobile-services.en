@@ -47,7 +47,7 @@ For more information about universal links and app links, see [Universal Links a
        <tbody> 
         <tr> 
         <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
-        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <!--REKHA--<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="dita" scope="external"> Processing Rules</a>. </p>--> </td> 
+        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <!--REKHA - <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="dita" scope="external"> Processing Rules</a>. --> </p> </td> 
         </tr> 
         <tr> 
         <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 

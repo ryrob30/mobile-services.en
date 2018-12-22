@@ -142,7 +142,7 @@ Configure experience options for in-app messages, including type (full screen, a
    <tbody> 
    <tr> 
       <td colname="col1"> <p>x Summary </p> </td> 
-      <td colname="col2"> <p>Hide the preview pane. Click <img href="assets/icon_preview.png" id="image_B1F0C3DAA1174AEF9E02D5F9C2821E2C" /> to redisplay the preview pane. </p> </td> 
+      <td colname="col2"> <p>Hide the preview pane. Click <img src="assets/icon_preview.png" id="image_B1F0C3DAA1174AEF9E02D5F9C2821E2C" /> to redisplay the preview pane. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p><img src="assets/icon_orientation.png" id="image_BB8B902423FD4D4D98FCF20B703766D8" /> </p> </td> 

@@ -19,7 +19,7 @@ When an audience segment for push messaging is created, the segment might involv
 
 In Adobe Mobile Services, marketers might only push to one app per platform. If marketers attempt to push to segments that contain users from multiple apps, a warning is displayed that states that proceeding can result in serious push failures and the potential blacklisting of users. If you experience a push failure, see *Resolving push failures* in [Troubleshooting Push Messaging](../../in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md#concept_8CECEBF5C278422796BAD09107DCED93).
 
-To use Audience Manager data in your segment definition, see <!--REKHA-[Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/). Not sure where the migrated content is, so commenting out for now.-->
+To use Audience Manager data in your segment definition, see <!-- REKHA: [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/). Not sure where the migrated content is, so commenting out for now. -->
 
 >[!IMPORTANT]
 >
@@ -125,7 +125,7 @@ Here are some examples to help you understand how to correctly define segments:
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Analytics Segments </span> </p> </td> 
-   <td colname="col2"> <p>Select one or more existing <span class="keyword"> Adobe Analytics</span> segment from the drop-down list. </p> <p>For more information, see <!--REKHA--<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html" format="https" scope="external"> Build Segments</a>. </p>--> </td> 
+   <td colname="col2"> <p>Select one or more existing <span class="keyword"> Adobe Analytics</span> segment from the drop-down list. </p> <p>For more information, see <!--REKHA: <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html" format="https" scope="external"> Build Segments</a>. --> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Custom Segments </span> </p> </td> 
