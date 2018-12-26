@@ -17,7 +17,7 @@ You can create marketing links to acquire new mobile app users on-the-fly by man
 >
 >This feature requires SDK version 4.6 or later. For more information, see [Acquisition Prerequisites](../../acquisition-main/c-acquisition-prerequisites.md#concept_1395BCF2199642E7B653928E1A15AD19).
 
-The following diagram illustrates the components of a manually built tracking link and displays the different URL parameters that you must configure properly when manually creating acquisition links.
+The following diagram illustrates the components of a manually built tracking link and displays the different URL parameters that you must properly configure when manually creating acquisition links.
 
 ![](assets/acquisition_url.png)
 
@@ -27,14 +27,14 @@ To manually create links, use the following URL format:
 
 [!DNL http(s)://c00.adobe.com/v3/ {mobile-services-app-hash}/start? {parameters}]
 
-For iOS, ensure that you use the correct protocol:
-
 >[!TIP]
 >
 >The version of Android SDK you are using has no impact on this process.
 
-* Use **HTTP** if you are using the iOS SDK older than version 4.7.0, or if you are using iOS SDK 4.7.0 or later *and* **[!UICONTROL Use HTTPS]** is **not** selected on the [!DNL Manage App Settings] page. 
-* Use **HTTPS** if you are using iOS SDK 4.7.0 or later and **[!UICONTROL Use HTTPS]** **is** selected on the [!DNL Manage App Settings] page
+For iOS, ensure that you use the correct protocol:
+
+* Use **HTTP** if you are using the iOS SDKs older than version 4.7.0, or if you are using iOS SDK 4.7.0 or later *and* **[!UICONTROL Use HTTPS]** is **not** selected on the [!DNL Manage App Settings] page. 
+* Use **HTTPS** if you are using iOS SDK 4.7.0 or later and **[!UICONTROL Use HTTPS]** **is** selected on the [!DNL Manage App Settings] page.
 
 Where the following conditions have been met:
 
@@ -44,7 +44,7 @@ Where the following conditions have been met:
 
   ![](assets/tracking-id.png)
 
-* [!DNL {parameters}] is a list of standard specifically named URL query parameters
+* [!DNL {parameters}] is a list of standard specifically named URL query parameters.
 
 Here is the list of parameters:  
 
@@ -125,10 +125,10 @@ Here is the list of parameters:
  </tbody> 
 </table>
 
-Remember the following information when you manually create acquisition links:
+When you manually create acquisition links, remember the following information:
 
 * All parameters that do not match parameters in the table are passed on as part of the app store redirect. 
-* All parameters are technically optional, although the link will be nonfunctional if at least one store ID is specified.
+* All parameters are technically optional, although the link will be nonfunctional, if at least one store ID is specified.
 
   An example of a store ID is `a_g_id`/ `a_i_id`. 
 

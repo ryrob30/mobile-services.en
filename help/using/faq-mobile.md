@@ -31,11 +31,11 @@ Frequently asked questions and answers for Adobe Mobile Services and a general d
  <tbody> 
   <tr> 
    <td colname="col1"> Do you make frequent updates with the SDK? </td> 
-   <td colname="col2"> <p>Yes, we are constantly making updates in effort to get you the most feature rich, standard-compliant, and secure SDKs. We typically release a new version every month. These SDK updates are drop-in replacements (for version 4x) to aid in ease of implementation. For more information on our updates, see our <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Release Notes</a>. </p> </td> 
+   <td colname="col2"> <p>Yes, we are constantly making updates in effort to get you the most feature rich, standard-compliant, and secure SDKs. We typically release a new version every month. These SDK updates are drop-in replacements (for version 4x) to aid in ease of implementation. For more information on our updates, see our <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Release Notes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> What SDK version should I be on? </td> 
-   <td colname="col2"> <p>Our current SDKs are on version 4.11. For more information, see our <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Release Notes</a>. </p> </td> 
+   <td colname="col2"> <p>Our current SDKs are on version 4.11. For more information, see our <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Release Notes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Where can I download the SDKs? </td> 
@@ -43,7 +43,7 @@ Frequently asked questions and answers for Adobe Mobile Services and a general d
   </tr> 
   <tr> 
    <td colname="col1"> How do I configure the SDKs? </td> 
-   <td colname="col2"> <p>After you have <a href="manage-apps/t-new-app.md#task_DB20EA0C8DF54C62B46858A77C53221F" format="dita" scope="local"> created a new app report suite</a>, navigate to Manage App Settings and configure all of the required options on the app information page. After you save your configuration, download the required SDKs from the bottom of the Manage App Settings page. The SDK will come pre-configured with the options you have saved and can be found in the ADBMobileConfig.json file within the SDK package. If you change any SDK settings on the Manage App Settings page, make sure you re-download the SDK files or update your ADBMobileConfig.json file with the necessary changes. </p> </td> 
+   <td colname="col2"> <p>After you <a href="manage-apps/t-new-app.md#task_DB20EA0C8DF54C62B46858A77C53221F" format="dita" scope="local"> created a new app report suite</a>, navigate to Manage App Settings and configure all of the required options on the app information page. After you save your configuration, download the required SDKs from the bottom of the Manage App Settings page. The SDK will come pre-configured with the options you have saved and can be found in the ADBMobileConfig.json file within the SDK package. If you change any SDK settings on the Manage App Settings page, make sure you re-download the SDK files or update your ADBMobileConfig.json file with the necessary changes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Do the Adobe Mobile SDKs support IPv6 for iOS? </td> 
@@ -68,11 +68,11 @@ Frequently asked questions and answers for Adobe Mobile Services and a general d
   </tr> 
   <tr> 
    <td colname="col1"> How can I troubleshoot processing rules? </td> 
-   <td colname="col2"> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_tips.html" format="https" scope="external"> Processing Rules Tips and Tricks</a>. </p> </td> 
+   <td colname="col2"> <p>For more information, see <!--REKHA: <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html" format="dita" scope="local"> Processing Rules Tips and Tricks</a>.--> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Can I send my analytics data to multiple report suites? </td> 
-   <td colname="col2"> <p>Yes. The SDKs provide the ability to send data to multiple Adobe Analytics report suites. To capture data in multiple report suites by using an image request, set the multiple report suite IDs in the <span class="uicontrol"> rsids</span> field under <span class="uicontrol"> analytics</span> section in the ADBMobileConfig.json file, delimited by commas and no spaces. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/json_config.html" format="https" scope="external"> ADBMobile JSON Config</a> (see rsids variable). </p> </td> 
+   <td colname="col2"> <p>Yes. The SDKs provide the ability to send data to multiple Adobe Analytics report suites. To capture data in multiple report suites by using an image request, set the multiple report suite IDs in the <span class="uicontrol"> rsids</span> field under <span class="uicontrol"> analytics</span> section in the ADBMobileConfig.json file, delimited by commas and no spaces. For more information, see <a href="/help/ios/configuration/json-config/json-config.md" format="dita" scope="local"> ADBMobile JSON Config</a> (see rsids variable). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> How are Mobile visits different from launches? </td> 

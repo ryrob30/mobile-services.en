@@ -37,4 +37,6 @@ Acquisition tracking must be enabled in the SDK configuration before you can tra
 
 1. Download and use the new SDK configuration file in your app.
 
-   You have successfully configured Acquisition on **iOS**. 1. To enable Acquisition on **Android**, complete the steps in *Tracking Mobile Acquisition* in [Mobile App Acquisition](https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html).
+   You have successfully configured Acquisition on **iOS**.
+   
+   To enable Acquisition on **Android**, complete the steps in [Tracking Mobile Acquisition](/help/android/acquisition-main/acquisition.md).

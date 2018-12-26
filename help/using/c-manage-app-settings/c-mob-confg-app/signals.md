@@ -12,7 +12,7 @@ Postbacks let you send data collected by Adobe Mobile to a separate third-party 
 
 >[!NOTE]
 >
->To use postbacks, you must install the 4.6 SDK or later. For more information, see [Android - Postbacks](https://marketing.adobe.com/resources/help/en_US/mobile/android/postbacks.html) or [iOS - Postbacks](https://marketing.adobe.com/resources/help/en_US/mobile/ios/postback.html).
+>To use postbacks, you must install the 4.6 SDK or later. For more information, see [Android - Postbacks](/help/android/analytics-main/postbacks/postbacks.md) or [iOS - Postbacks](/help/ios/analytics-main/postback/postback.md).
 
 1. Click the name of the desired app to go to its [!DNL Manage App Settings] page and click the **[!UICONTROL Manage Postbacks]** link at the top right side. 
 1. Click **[!UICONTROL Create Postback]**. 

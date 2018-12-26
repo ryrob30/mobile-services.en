@@ -36,14 +36,6 @@ When customizing reports, the broad flexibility might create some questions as t
 
 Here are the types of reports that you can generate in the Mobile UI:
 
-* [Over-Time Report](../gs/reports-types.md#section_2741DA54C90C49AFB17C7B9BC7AD627D) 
-* [Trended Report](../gs/reports-types.md#section_C9BE9A2EDBFF4D938B9AF14C8AA67883) 
-* [Filtered Over-Time Reports](../gs/reports-types.md#section_F8FAF2A4496F449CA99EF1E052C71A2D) 
-* [Ranked Reports](../gs/reports-types.md#section_C073D744A95843AF99EE74FB5B013735) 
-* [Sunburst Report](../gs/reports-types.md#section_17A9842039174DE094A6B1E9837E35BB) 
-* [Pathing Report](../gs/reports-types.md#section_AD400106BC684B50B27CCCD3F4497114) 
-* [Funnel Report](../gs/reports-types.md#section_AF3B0C899D844FC3AD1F91A2C452C92F)
-
 ## Over-Time Report {#section_2741DA54C90C49AFB17C7B9BC7AD627D}
 
 Over-time reports show how metrics are performing over a time range so you can quickly identify spikes and trends. Analysis often starts in an over-time report and moves into trended and ranked reports as you drill down to investigate the factors that might be contributing to a metric spike or trend.

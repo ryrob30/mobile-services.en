@@ -19,11 +19,6 @@ If the app you want to view is not displayed, search for it by typing the app's 
 
 In [!DNL Overview], you can perform the following tasks:
 
-* [Change Date Range](../../gs/metrics/overview.md#section_E9ED7BB941EC48B58DF938C831493CD5) 
-* [Filter Data](../../gs/metrics/overview.md#section_83786CBDB69644E3BC4EBC66C35B3FE8) 
-* [Drill Down to View Key Performance Indicators](../../gs/metrics/overview.md#section_44EFF65D62DC43BB8371EA5965942CED) 
-* [Edit an App's Settings](../../gs/metrics/overview.md#section_C1CF227A2E534A798F0073E43AD6A2D1)
-
 ## Change Date Range {#section_E9ED7BB941EC48B58DF938C831493CD5}
 
 The previous 30 days of data displays for key metrics. You can change this by clicking the calendar icon in the top right-hand side. You can select a date range or a pre-determined time frame from the drop-down list.

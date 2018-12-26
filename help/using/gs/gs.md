@@ -107,7 +107,7 @@ For more information about creating in-app messages, see [Create an in-app messa
 
 In *Optimize*, you can optimize conversions (subscriptions, commerce, ad revenue, and so on) and improve customer retention. Optimizing the user experience in your app can help you personalize your content to drive maximum ROI and conversion.
 
-For more information about testing and Adobe Target, go to [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/).
+For more information about testing and Adobe Target, go to [Adobe Target]<!--rekha(https://docs.adobe.com/content/help/en/target/using/target-home.html)-->.
 
 **Geo-Targeting**
 
@@ -118,8 +118,8 @@ Adobe Target for Mobile apps now takes full advantage of the enhanced segmentati
 For more information about location, see the following content:
 
 * [Location](../location/c-location-overview.md) in the user’s guide. 
-* [Location](https://marketing.adobe.com/resources/help/en_US/mobile/android/location.html) in the Android SDK guide 
-* [Location](https://marketing.adobe.com/resources/help/en_US/mobile/ios/location.html) in the iOS SDK guide
+* [Location](/help/android/location/location.md) in the Android SDK guide 
+* [Location](/help/ios/location/location.md) in the iOS SDK guide
 
 ## Adobe Mobile SDK {#section_5D4E1915B81B41C1A26740808DB95782}
 
@@ -154,7 +154,9 @@ The Adobe Mobile SDK offers the following features:
     * Minimizes device processing load for sending data to Adobe servers and third-party systems. 
     * Small footprint minimizes the size of the app package that is submitted to app stores.
 
-For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/android/) and [iOS SDK 4.x for Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/mobile/ios/).
+For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions]
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) --> and [iOS SDK 4.x for Experience Cloud Solutions]
+<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html) -->.
 
 ## Additional Information
 

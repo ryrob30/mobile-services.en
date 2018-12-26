@@ -29,15 +29,11 @@ You must complete these tasks before configuring Push Messaging in applications.
    <td colname="col1"> <p>Install and Configure the Mobile SDK. </p> </td> 
    <td colname="col2"> <p> 
      <ol id="ol_A41CC8336C1343B5A2C51DBE9E500086"> 
-      <li id="li_2723BBC83BB34365B56BB8443A9AFA3D"><b>Install the Mobile SDK</b> <p>The Push Messaging feature requires that you download and install the appropriate 4.6 (or later) Mobile SDK. </p> <p>For more information, see the following content: </p> <p> 
-        <ul id="ul_DB6A44A2FF724B5BB36973FDFB8353A5"> 
-         <li id="li_6323CE2240FD490292B39884BB00559C"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/" format="http" scope="external"> Android SDK 4.x for Experience Cloud Solutions</a> </li> 
-         <li id="li_2B97BA81591747638D620A23881411F6"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/" format="http" scope="external"> iOS SDK 4.x for Experience Cloud Solutions</a> </li> 
-        </ul> </p> </li> 
+      <li id="li_2723BBC83BB34365B56BB8443A9AFA3D"><b>Install the Mobile SDK</b> <p>The Push Messaging feature requires that you download and install the appropriate 4.6 (or later) Mobile SDK. </p> <p>For more information, see <a href="../../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md" format="dita" scope="local">Download the SDKs.</a></li> </ul> </p> </li> 
       <li id="li_D5272F153A144E4F8D518582019F06F5"><b>Configure Push Services</b> <p>You must configure push services in the Mobile SDK. </p> <p>For more information, see the following content: </p> <p> 
         <ul id="ul_9D19940E312448529CC554019A980DAD"> 
-         <li id="li_B6B6E064BBDC451590D7F615EBE30742"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/push_messaging.html" format="https" scope="external"> Android: Push Messaging</a> </li> 
-         <li id="li_1F84BB2FF4D741A8B37F5F5850635AE1"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/push_messaging.html" format="https" scope="external"> iOS: Push Messaging</a> </li> 
+         <li id="li_B6B6E064BBDC451590D7F615EBE30742"><a href="/help/android/messaging-main/push-messaging/push-messaging.md" format="dita" scope="local"> Android: Push Messaging</a> </li> 
+         <li id="li_1F84BB2FF4D741A8B37F5F5850635AE1"><a href="/help/ios/messaging-main/push-messaging/push-messaging.md" format="dita" scope="local"> iOS: Push Messaging</a> </li> 
         </ul> </p> </li> 
      </ol> </p> </td> 
   </tr> 

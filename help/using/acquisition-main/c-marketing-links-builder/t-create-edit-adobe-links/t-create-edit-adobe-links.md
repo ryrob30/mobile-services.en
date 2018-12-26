@@ -11,14 +11,14 @@ uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 
 # Create or Edit Marketing Links{#create-or-edit-marketing-links}
 
-You can create or edit marketing links to provide deep linking into your mobile app or your website.
+You can create or edit marketing links to provide deep linking to your mobile app or your website.
 
 For more information about universal links and app links, see [Universal Links and App Links](../../../c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md#concept_95121E3CF0904C2CA9606EC67C9EAA81). 
 
 1. In your app, in the left navigation pane, expand **[!UICONTROL Acquisition]** and click **[!UICONTROL Marketing Link Builder]**.
 1. Complete one of the following tasks:
 
-    * To create a new marketing link, click **[!UICONTROL Create New]**. 
+    * To create a marketing link, click **[!UICONTROL Create New]**. 
     * To edit a link, click the link's name in the **[!UICONTROL Title]** column.
 
 1. Type information in the following fields:
@@ -47,7 +47,7 @@ For more information about universal links and app links, see [Universal Links a
        <tbody> 
         <tr> 
         <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
-        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> Processing Rules</a> in <i>Analytics Help</i>. </p> </td> 
+        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <!--REKHA - <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="dita" scope="external"> Processing Rules</a>. --> </p> </td> 
         </tr> 
         <tr> 
         <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 
@@ -115,4 +115,4 @@ For more information about universal links and app links, see [Universal Links a
 
        For more information, see [Create New Link Destination](../../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#). 
        
-1. To save the marketing link, click ![](assets/icon_elipses.png) > **[!UICONTROL Save]**.
+1. To save the marketing link, click ![](assets/icon_elipses.png) and then **[!UICONTROL Save]**.

@@ -35,7 +35,7 @@ user-guide-title: Mobile Services User Help
       + [Configure SDK Acquisition Options](c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
       + [Universal Links and App Links](c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
       + [Configure SDK ID Service Options](c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
-      + [Configure Postbacks](c-manage-app-settings/c-mob-confg-app/signals-.md)
+      + [Configure Postbacks](c-manage-app-settings/c-mob-confg-app/signals.md)
       + [Configure Push Messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
       + [Prerequisites to Enable Push Messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
       + [Configure App to use APNS or GCM](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)

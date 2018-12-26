@@ -27,6 +27,8 @@ On the [!DNL Marketing Links] page, you can complete the following tasks:
 
 * **Archive or Unarchive marketing links**
 
-    * To archive a marketing link, select the check box next to a link and click **[!UICONTROL Archive Selected]**. 
-    * To unarchive a marketing clink, click **[!UICONTROL View Archive]**, select at least one link and click **[!UICONTROL Unarchive Selected]**. Only previously archived marketing links will display in the [!DNL View Archive] page.
+    * To archive a marketing link, select the check box next to a link, and click **[!UICONTROL Archive Selected]**. 
+    * To unarchive a marketing clink, click **[!UICONTROL View Archive]**, select a link and click **[!UICONTROL Unarchive Selected]**. 
+    
+      Only previously archived marketing links will display in the [!DNL View Archive] page.
 

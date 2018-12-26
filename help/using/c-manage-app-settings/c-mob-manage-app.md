@@ -112,4 +112,4 @@ You can create, edit, archive/unarchive, and delete link destinations. These des
 
 ## Manage Postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
-Postbacks let you send data collected by Adobe Mobile to a separate third-party server. Leveraging the same triggers and traits you use to display an in-app message, you can configure Mobile to send customized data to a third-party destination. For more information about postbacks, see [Configure Postbacks](../c-manage-app-settings/c-mob-confg-app/signals-.md#concept_3471F8B9625446DBAB4C6C45AE25E91D). 
+Postbacks let you send data collected by Adobe Mobile to a separate third-party server. Leveraging the same triggers and traits you use to display an in-app message, you can configure Mobile to send customized data to a third-party destination. For more information about postbacks, see [Configure Postbacks](../c-manage-app-settings/c-mob-confg-app/signals.md#concept_3471F8B9625446DBAB4C6C45AE25E91D). 

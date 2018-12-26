@@ -17,7 +17,7 @@ You can send push messages to Analytics segments from the Mobile Services UI to 
 >
 >Before you create a push message, see [Prerequisites to Enable Push Messaging](../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE).
 
-Push messages appear to users who opted in to receive notifications when they are not actively using your app. These notifications alert users about new updates, offers, and reminders. With this capability, you can create, test, manage, and report on push messages in one streamlined workflow.
+Push messages appear to users who opted in to receive notifications when they are not actively using your app. These notifications alert users about new updates, offers, and reminders. With these notifications, you can create, test, manage, and report on push messages in a streamlined workflow.
 
 Push messages are sent server-side by the app stores rather than from Adobe Mobile Services:
 

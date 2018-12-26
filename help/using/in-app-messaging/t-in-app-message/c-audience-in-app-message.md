@@ -88,4 +88,4 @@ A variable is a text string that is a unique identifier, and examples include co
     1. Select a second trigger that is a custom data point and that is mapped to a variable. 
     1. Under **[!UICONTROL Text]**, select a matcher option.
 
-For more information about context data, variables, and metrics, see [Managing your App](https://marketing.adobe.com/resources/help/en_US/mobile/c_mob_manage-app.html). 
+For more information about context data, variables, and metrics, see [Managing your App](../../manage-apps/manage-apps.md).

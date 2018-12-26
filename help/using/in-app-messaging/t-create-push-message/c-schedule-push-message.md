@@ -28,7 +28,7 @@ Remember the following information:
 
       For example, if you originally had a message that was sent every day, you can switch the recurrence to weekly.
 
-**Before you schedule recurring push messages...**
+**Scheduling recurring push messages**
 
 You **must** understand the following information before scheduling recurring push messages: 
 

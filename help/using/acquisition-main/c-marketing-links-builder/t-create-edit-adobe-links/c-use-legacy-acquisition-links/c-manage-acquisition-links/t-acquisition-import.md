@@ -11,17 +11,11 @@ uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
 
 # Import or Export Acquisition Links{#import-or-export-acquisition-links}
 
-Import or export acquisition links if you would rather work with the links using a .csv file instead of using the Adobe Mobile Services user interface.
-
-<!-- 
-
-I'm confused by this procedure. In the UI, there is no "Manage Acquisition Link" option under "Acquisition". I don't see options to import or export. Should this procedure be removed?
-
- -->
+If you prefer to work with the links by using a .csv file instead of the Adobe Mobile Services user interface, you can import or export acquisition links.
 
 1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
 1. Click **[!UICONTROL Import]** and complete one of the following tasks:
 
-    * Browse to and select the desired file to upload into Mobile Services. 
+    * Browse to and select the file that you want to upload to Mobile Services. 
     * Click **[!UICONTROL Export]** and open or save the file.
 

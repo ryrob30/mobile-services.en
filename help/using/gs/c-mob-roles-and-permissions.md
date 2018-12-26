@@ -16,7 +16,7 @@ The following roles manage permissions in the Mobile Services UI:
 
 **Analytics Admin**
 
-An Analytics Admin manages user groups and assigns permissions, one of which is the Mobile App Admin. The Experience Cloud Admin links your Adobe ID to your Adobe Analytics account, which allows you to log in to the Mobile Services UI by using your Adobe ID. For more information about the Experience Cloud Administrator, see [Administration - User Management and FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+An Analytics Admin manages user groups and assigns permissions, one of which is the Mobile App Admin. The Experience Cloud Admin links your Adobe ID to your Adobe Analytics account, which allows you to log in to the Mobile Services UI by using your Adobe ID. For more information about the Experience Cloud Administrator, see [Administration - User Management and FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
@@ -24,8 +24,10 @@ An Analytics Admin manages user groups and assigns permissions, one of which is 
 
 For more information about this role, see the following content:
 
-* [Users](https://marketing.adobe.com/resources/help/en_US/reference/users.html) 
-* [Frequently Asked Questions - Analytics Permission Changes](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html)
+* [Users]
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html) --> 
+* [User and Group permission changes]
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html) -->
 
 **Mobile App Admin**
 
@@ -66,7 +68,7 @@ Here are the roles in the Mobile Services UI, with their relevant permissions:
     * Enable Lifecycle Reporting 
     * Enable Location Reporting
 
-**Mobile App Admin **
+**Mobile App Admin**
 
 * All User Permissions 
 * Create App with existing report suite 
@@ -88,8 +90,10 @@ Here are the roles in the Mobile Services UI, with their relevant permissions:
 
 For more information about groups and users, see:
 
-* [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 
-* [Add a user to a group](https://marketing.adobe.com/resources/help/en_US/reference/t_add_user_to_group.html)
+* [User group settings]
+<!--REKHA: (https://docs-author-stg.corp.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) --> 
+* [Add a user to a group]
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html) -->
 
 **Mobile Services User**
 

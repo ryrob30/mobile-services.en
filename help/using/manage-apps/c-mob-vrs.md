@@ -10,7 +10,7 @@ uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
 
 A virtual report suite (VRS) is a report suite that is created by applying one or more segment definition to a report suite. This allows users to maintain their data in one report suite but manage the data as if it were in separate report suites.
 
-Apps that use VRSs do the same thing as apps that use a regular report suite, except for the management of the following features:
+Apps that use VRSs do the same thing as apps that use a regular report suite,except for the management of the following features:
 
 * Processing rules 
 * evars/props/listvars/events 
@@ -26,22 +26,22 @@ The following areas can be accessed in the Adobe Mobile Services UI, independent
 * Manage Points of Interest 
 * Manage Link Destinations 
 * Manage Postbacks 
-* Message links&nbsp; 
+* Message links 
 * Acquisition
 
 A VRS can help you achieve the following tasks:
 
 * Restrict data access
 
-  A multi-national company has an app that sends data to a report suite for all geo locations. &nbsp;However, the company wants to restrict the business user in one region from viewing the data in another region. The company’s admin can create a VRS to segment users by region and give permission to the VRS only to business user who manages the region. &nbsp;
+  A multi-national company has an app that sends data to a report suite for all geo locations. However, the company wants to restrict the business user in one region from viewing the data in another region. The company’s admin can create a VRS to segment users by region and give permission to the VRS only to business user who manages the region.
 
-  This restriction prevents business users from viewing data that is not related to their region.&nbsp;For example, a business user in EMEA does not need to see data for the APAC region. 
+  This restriction prevents business users from viewing data that is not related to their region. For example, a business user in EMEA does not need to see data for the APAC region. 
 
 * Allow control of in-app/push messaging, location POIs, acquisition, and postbacks with all data being sent to one report suite.
 
-  A multi-national company wants all the data to be sent to the same report suite for all geo locations. &nbsp;However, the company wants the marketing team from each region to handle their own in-app/push messaging. &nbsp;The company’s admin can create regional VRSs, and each team can manage their own app based on that VRS.
+  A multi-national company wants all the data to be sent to the same report suite for all geo locations. However, the company wants the marketing team from each region to handle their own in-app/push messaging. The company’s admin can create regional VRSs, and each team can manage their own app based on that VRS.
 
-  The regional team builds their app by using the config file from the VRS. &nbsp;The data will be sent to the parent report suite, but in-app/push messaging, location POIs, acquisition, and postbacks&nbsp;are controlled in the app that was created from the VRS.
+  The regional team builds their app by using the config file from the VRS. The data will be sent to the parent report suite, but in-app/push messaging, location POIs, acquisition, and postbacks are controlled in the app that was created from the VRS.
 
 ## Create a Virtual Report Suite in Adobe Analytics {#section_D56B90B2653847D68ECA1F9B39204330}
 
@@ -49,7 +49,8 @@ A VRS can help you achieve the following tasks:
 >
 >Only Adobe Analytics admins can create and modify virtual report suites in Adobe Analytics.
 
-To create a virtual report suite, see [Creating Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html).
+To create a virtual report suite, see [Create virtual report suites]
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)-->.
 
 Each VRS has a unique ID. To view the parent report suite ID in Adobe Mobile Services UI, on [!DNL Manage App Settings], click **[!UICONTROL More Details in the App Information]** section.
 
@@ -234,6 +235,8 @@ Here are the properties for VRSs:
 
 Here is some additional information from the Adobe Analytics documentation:
 
-* For more information about VRSs, see [Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html). 
-* For more information about planning a VRS implementation, see [Virtual Report Suite Workflo](https://marketing.adobe.com/resources/help/en_US/reference/vrs-workflow.html).
+* For more information about VRSs, see [Virtual Report Suites]
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-about.html)-->. 
+* For more information about planning a VRS implementation, see [Virtual report suite workflow]
+<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html)-->.
 

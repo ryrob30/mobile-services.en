@@ -13,7 +13,7 @@ uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 
 You can configure experience options for push messages and rich push messages, including name, message text, and destination options. You can also configure advanced options, including payload options and custom options for iOS devices.
 
-1. On the [!DNL Audience] page for a [new push message](../../in-app-messaging/t-create-push-message/t-create-push-message.md#task_70E6D9C01F5A4082B9880C049804A2A0), click **[!UICONTROL Experience]**.
+1. On the [!DNL Audience] page for a new push message, click **[!UICONTROL Experience]**.
 
    ![](assets/experience-push-message.png)
 
@@ -40,8 +40,8 @@ You can configure experience options for push messages and rich push messages, i
          <li id="li_E5F9447798D24FC0958C15B03047E4EA"> <p>The media URL must be able to handle spikes requests. </p> </li> 
          </ul> </p> </p> </p> <p>For more information about preparing your app to receive rich push notifications, see the following: </p> <p> 
       <ul id="ul_A249082A19964D5D8CAD487CE9831F2F"> 
-         <li id="li_C964D894E26A43948AA045FC1F0FB16F"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/c_set-up-rich-push-notif_android.html" format="https" scope="external"> Receive Rich Push Notifications</a> (Android) </li> 
-         <li id="li_39BC9A93D1C04B62B89C5DF2405493EE"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_set-up-rich-push-notif_ios.html" format="https" scope="external"> Receive Rich Push Notifications</a> (iOS) </li> 
+         <li id="li_C964D894E26A43948AA045FC1F0FB16F"><a href="/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md" format="dita" scope="local">Receive Push Notifications in Android</a></li> 
+         <li id="li_39BC9A93D1C04B62B89C5DF2405493EE"><a href="/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md">Receive Rich Push Notifications in iOS</a></li> 
       </ul> </p> </td> 
    </tr> 
    <tr> 
@@ -95,8 +95,8 @@ You can configure experience options for push messages and rich push messages, i
 
    For more information about configuring rich push notifications, see the following content:
 
-      * [Receive Rich Push Notifications](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_set-up-rich-push-notif_android.html) (Android) 
-      * [Receive Rich Push Notifications](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_set-up-rich-push-notif_ios.html) (iOS)
+      * <a href="/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md" format="dita" scope="local">Receive Push Notifications in Android</a> 
+      * <a href="/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md">Receive Rich Push Notifications in iOS</a>
 
 1. (Optional) Click the **[!UICONTROL Show Advanced Options]** link to configure additional options: 
 
