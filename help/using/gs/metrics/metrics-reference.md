@@ -114,7 +114,7 @@ Here is the reference information for the default mobile metrics and dimensions.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Device Name </p> </td> 
-   <td colname="col3"> <p>Stores the device name. </p> <p> <b>iOS</b>: Comma-separated, two-digit string that identifies the iOS device. The first number typically represents the device generation, and the second number typically versions different members of the device family. For a complete list of common device names, see <a href="/help/ios/reference/device-versions.md" format="dita" scope="local"> iOS Device Versions</a>. </p> </td> 
+   <td colname="col3"> <p>Stores the device name. </p> <p>In iOS, a comma-separated, two-digit string identifies the iOS device. The first number represents the device generation, and the second number versions different members of the device family. For a complete list of common device names, see <a href="/help/ios/reference/device-versions.md" format="dita" scope="local"> iOS Device Versions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carrier Name </p> </td> 

@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 ---
 
-# Display Mobile Metrics{#display-mobile-metrics}
+# Display Mobile Metrics {#display-mobile-metrics}
 
 You can display the key performance metrics of the apps that you most recently viewed. By default, you can view up to 12 apps. You can change the date range and create filters to segment the data and edit any app on the Overview page.
 

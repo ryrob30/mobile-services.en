@@ -42,7 +42,7 @@ Over-time reports show how metrics are performing over a time range so you can q
 
 For example, if you see a spike in launches, you might run a trended report that shows launches for the top 5 operating systems to see which operating systems are contributing most to the spike in launches:
 
-![](assets/overtime.png){width="500px"}
+![](assets/overtime.png)
 
 To view dimension values with other metrics on an over-time report, you can use the instances metric and define a dimension filter.
 
@@ -50,21 +50,21 @@ To view dimension values with other metrics on an over-time report, you can use 
 
 Trended reports help you see how your most popular dimensions are performing against a metric. You can use this report to determine which values are contributing most to a change in a metric.
 
-![](assets/trended.png){width="500px"}
+![](assets/trended.png)
 
 To view a trended report for a dimension, add a sticky filter (for example, Operating System = iOS 6.0.1) to an over-time report to view the same data. As a bonus, you can add five additional metrics to the filtered over-time report.
 
-## Filtered Over-Time Reports {#section_F8FAF2A4496F449CA99EF1E052C71A2D}
+## Filtered Over-Time Report {#section_F8FAF2A4496F449CA99EF1E052C71A2D}
 
 If you have a specific dimension value that you want to view, you can add a sticky filter to an over-time report. The following report shows 30 days' worth of launches, upgrades, and crashes for a specific operating system version.
 
-![](assets/overtime-filter.png){width="500px"}
+![](assets/overtime-filter.png)
 
-## Ranked Reports {#section_C073D744A95843AF99EE74FB5B013735}
+## Ranked Report {#section_C073D744A95843AF99EE74FB5B013735}
 
 Ranked reports show you how often the top 50 dimension contribute to a metric. This report is useful to view total contribution for a date range across a large number of values.
 
-![](assets/ranked.png){width="500px"}
+![](assets/ranked.png)
 
 ## Sunburst Report {#section_17A9842039174DE094A6B1E9837E35BB}
 
@@ -85,7 +85,7 @@ To start the tutorial:
 
 A Pathing report is based on path analysis and displays a pathing chart that represents paths that are taken from one state in the app to another state.
 
-![](assets/action_paths.png){width="500px"}
+![](assets/action_paths.png)
 
 Each node is shaped like a box and represents a state in the users' paths though an app. For example, in the illustration above, the top node represents the number of users that launched the app and selected a photo from the gallery.
 
@@ -95,4 +95,4 @@ Funnel reports allow you to identify where customers abandon a marketing campaig
 
 The funnel visualization lets you see where customers fall out of the process. Gaining visibility into customer decisions at each step helps you understand where customers are being deterred, what path they tend to follow, and when they leave your app.
 
-![](assets/funnel.png){width="500px"}
+![](assets/funnel.png)

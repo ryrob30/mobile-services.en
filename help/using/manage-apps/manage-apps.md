@@ -17,6 +17,6 @@ For more information, see:
 
 * [Add a New App](t-new-app.md)
 * [Virtual Report Suites](c-mob-vrs.md)
-* [App Store](c-app-store/c-app-store.md)
-* [Add an App from an App Store](c-app-store/t-app-store-app.md)
+* [App Store](c-app-store.md)
+* [Add an App from an App Store](t-app-store-app.md)
 * [Delete an App](t-delete-apps.md)
