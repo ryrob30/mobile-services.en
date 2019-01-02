@@ -24,7 +24,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 
 This section contains the following information:
 
-* [Prerequisites](../../messaging-main/push-messaging/push-messaging.md#section_06655ABE973743DC965897B229A2118D) 
+* [Prerequisites](../../messaging-main/push-messaging/push-messaging.md#section_06655ABE973743DC965897B229A2118D)
 * [Enabling Push Messaging](../../messaging-main/push-messaging/push-messaging.md#section_CBD63C5B11FE4424BC2BF552C23F2BD9) 
 * [Example](../../messaging-main/push-messaging/push-messaging.md#section_20BEA0D64F7C4D45A5EBEF21066E62AD)
 
@@ -269,4 +269,3 @@ The following is an example of what an `AppDelegate.m` implementation might look
  
 @end
 ```
-

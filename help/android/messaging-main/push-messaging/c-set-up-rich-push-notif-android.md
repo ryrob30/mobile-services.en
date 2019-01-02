@@ -21,8 +21,7 @@ If the app is in the foreground, the push message will be handled by the app tha
     <intent-filter> 
         <action android:name="com.google.android.c2dm.intent.RECEIVE" /> 
     </intent-filter> 
-</service> 
-
+</service>
 ```
 
 >[!IMPORTANT]
@@ -69,8 +68,7 @@ notificationManager.notify(0, notificationBuilder.build());
  
 } 
  
-} 
-
+}
 ```
 
 >[!IMPORTANT]
