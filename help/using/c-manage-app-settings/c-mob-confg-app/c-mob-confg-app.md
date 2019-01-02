@@ -43,7 +43,7 @@ On the Manage App Settings page, you can make the following types of changes:
 
           Measure the amount of time that elapses (in-app and total time) between key app actions, such as time before first purchase.
 
-* **Location Reports **
+* **Location Reports**
 
   This option lets you enable reports to track latitude and longitude and identify specific Points of Interest (POIs). You can also track bluetooth beacons (UUID, major, minor, and proximity). 
 
@@ -51,7 +51,7 @@ On the Manage App Settings page, you can make the following types of changes:
 
   >[!NOTE] {othertype="Prerequisite"}
   >
-  >Before you download the SDKs and tools, you must [Configure the SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md#task_8F9FBCDFB906467DAADA3FBDBBFF54CE).
+  >Before you download the SDKs and tools, you must configure the SDK Analytics options. For more information, see [Configure the SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md#task_8F9FBCDFB906467DAADA3FBDBBFF54CE).
 
   When you are ready to upgrade to the 4.x SDKs, or if you are working on a new app, download the latest SDKs and development tools from the bottom of the Manage App Settings page.
 
@@ -59,13 +59,13 @@ On the Manage App Settings page, you can make the following types of changes:
 
 For information about configuring these options, see the following content: 
 
-*  [Configure SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
-*  [Download Mobile SDKs and Tools](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-*  [Configure Audience Manager Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
-*  [Configure SDK Acquisition Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
-*  [Universal Links and App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
-*  [Configure SDK ID Service Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
-*  [Configure Postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md)
-*  [Configure Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
-*  [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
-*  [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
+*  [Configure SDK Analytics Options](t-config-analytics.md)
+*  [Download Mobile SDKs and Tools](download-sdk.md)
+*  [Configure Audience Manager Options](t-config-aam.md)
+*  [Configure SDK Acquisition Options](t-config-acquisition.md)
+*  [Universal Links and App Links](c-universal-app-links.md)
+*  [Configure SDK ID Service Options](t-config-visitor.md)
+*  [Configure Postbacks](c-mob-confg-app/signals.md)
+*  [Configure Push Messaging](configure-push-messaging.md)
+*  [Prerequisites to Enable Push Messaging](prerequisites-push-messaging.md)
+*  [Configure App to use APNS or GCM](configure-app-apns-gcm.md)

@@ -15,8 +15,12 @@ You can use this information to help you configure the Push Services options on 
 
 Before you configure push messaging, review the following information:
 
-* You must perform several prerequisite tasks. For more information about these tasks, see [Prerequisites to Enable Push Messaging](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE). 
-* **Report Suite Considerations** You can configure one app store app for Apple and one for Google in each report suite. If you need additional apps, for example, one for a production environment and one for a dev environment, set up a new app store app and a new report suite for each environment.
+* You must perform several prerequisite tasks. 
+
+  For more information about these tasks, see [Prerequisites to Enable Push Messaging](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE). 
+* **Report Suite Considerations** 
+
+    You can configure one app store app for Apple and one for Google in each report suite. If you need additional apps, for example, one for a production environment and one for a dev environment, set up a new app store app and a new report suite for each environment.
 
 >[!IMPORTANT]
 >
@@ -45,9 +49,9 @@ Before you configure push messaging, review the following information:
 
    For more information, see the following topics:
 
-    * **Android: ** [Push Messaging](https://marketing.adobe.com/resources/help/en_US/mobile/android/push_messaging.html) in the Android SDK 4.x for Experience Cloud Solutions guide. 
+    * [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md) in the Android SDK 4.x for Experience Cloud Solutions guide. 
     
-    * **iOS: ** [Push Messaging](https://marketing.adobe.com/resources/help/en_US/mobile/ios/push_messaging.html) in the iOS SDK 4.x for Experience Cloud Solutions guide.
+    * [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md) in the iOS SDK 4.x for Experience Cloud Solutions guide.
 
 1. Click **[!UICONTROL Save]**.
 

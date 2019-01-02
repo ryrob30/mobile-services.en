@@ -34,7 +34,7 @@ You must complete these tasks before configuring Push Messaging in applications.
         <ul id="ul_9D19940E312448529CC554019A980DAD"> 
          <li id="li_B6B6E064BBDC451590D7F615EBE30742"><a href="/help/android/messaging-main/push-messaging/push-messaging.md" format="dita" scope="local"> Android: Push Messaging</a> </li> 
          <li id="li_1F84BB2FF4D741A8B37F5F5850635AE1"><a href="/help/ios/messaging-main/push-messaging/push-messaging.md" format="dita" scope="local"> iOS: Push Messaging</a> </li> 
-        </ul> </p> </li> 
+        </ul> </p> 
      </ol> </p> </td> 
   </tr> 
   <tr> 
@@ -54,11 +54,11 @@ You must complete these tasks before configuring Push Messaging in applications.
       <li id="li_1C67A1C3186B4AB2B38032B71C780DA4"> <p>In the upper right corner, select the <span class="keyword"> Analytics</span> company name. </p> </li> 
       <li id="li_99FEAF181EEC4E5FA757661E724903C6"> <p>Click <span class="uicontrol"> Add Organization</span> and select <span class="uicontrol"> Adobe SiteCatalyst/Adobe Social</span> from the drop-down list. </p> </li> 
       <li id="li_7122CC3B32F64C5D986F0C687DC7F869"> <p>Type the company name, your legacy credentials for the specified company, and click <span class="uicontrol"> Link Account</span>. </p> <p>The Adobe ID is now linked to your <span class="keyword"> Analytics</span> account, company, and log-in credentials. </p> </li> 
-     </ol> </p> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html" format="html" scope="external"> Troubleshooting Account Linking</a>. </p> </td> 
+     </ol> </p> <p>For more information, see <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="dita" scope="local"> Organizations and account linking</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configure Push Services and the SDK ID service in the Mobile User Interface </p> </td> 
-   <td colname="col2"> <p>Before you enable the ID service for your app, the <span class="uicontrol"> Push Services</span> section is disabled. But, after you <a href="../../../c-manage-app-settings/c-mob-confg-app/t-config-visitor.md#task_568C5F05E4E044E9BCCCF91ABBA736F7" format="dita" scope="local"> enable the ID service</a>, the <span class="uicontrol"> Push Services</span> section is enabled. </p> <p> </p> <p> <p>Remember: You must click <span class="uicontrol"> Save</span> to save your changes and refresh the <span class="uicontrol"> Push Services</span>. </p> </p> <p> <p>Important:  You can configure one app store app for Apple and one for Google in each report suite. If you need additional apps, for example, one for a production environment and one for a dev environment, set up a new app store app and a new report suite for each environment. </p> </p> 
+   <td colname="col2"> <p>Before you enable the ID service for your app, the <span class="uicontrol"> Push Services</span> section is disabled. But, after you enable the ID service, the <span class="uicontrol"> Push Services</span> section is enabled. </p> <p> </p> <p> <p>Remember: You must click <span class="uicontrol"> Save</span> to save your changes and refresh the <span class="uicontrol"> Push Services</span>. </p> </p> <p> <p>Important:  You can configure one app store app for Apple and one for Google in each report suite. If you need additional apps, for example, one for a production environment and one for a dev environment, set up a new app store app and a new report suite for each environment. </p> </p> 
     <ul id="ul_F07CD0AD2A854C4CAB366CDF01982C8C"> 
      <li id="li_B05B03A136C34334A82C8A1BE7DA2DBF"> <p>For <b>Apple</b>, drag and drop your private key and/or certificate. If your private key is password-encrypted, type its password. </p> <p> 
        <ul id="ul_1A7EBD6CB21341B4A9A6123BDAD33E2B"> 
