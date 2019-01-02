@@ -126,4 +126,3 @@ Here is the reference information for the default mobile metrics and dimensions.
   </tr> 
  </tbody> 
 </table>
-

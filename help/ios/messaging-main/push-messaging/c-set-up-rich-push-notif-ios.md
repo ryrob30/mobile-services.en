@@ -16,14 +16,14 @@ To receive rich push notifications in your iOS app:
 1. Verify that you can send a text push message to your app. 
 1. Add a Notification Service Extension by completing the following steps:
 
-    1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]** . 
-    1. Select **[!UICONTROL Notification Service Extension]**. 
-    1. Verify that the `NotificationService.m` file exists.
+   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]** . 
+   1. Select **[!UICONTROL Notification Service Extension]**. 
+   1. Verify that the `NotificationService.m` file exists.
 
 1. Open the `NotificationService.m` file and verify that the following delegate methods exist:
 
-    * One method to receive a notification request. 
-    * One method to handle the expiration of the service extension.
+   * One method to receive a notification request. 
+   * One method to handle the expiration of the service extension.
 
    To receive rich push notifications, the first method is used: 
 
@@ -66,8 +66,7 @@ To receive rich push notifications in your iOS app:
            [task resume]; 
        } 
         
-   } 
-   
+   }
    ```
 
 For more information about rich push notifications with iOS, see [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment). 
