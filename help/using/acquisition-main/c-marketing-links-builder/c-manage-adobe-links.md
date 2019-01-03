@@ -21,7 +21,7 @@ On the [!DNL Marketing Links] page, you can complete the following tasks:
 
 * **Display marketing links**
 
-  To display the list of marketing links, in the [!DNL Mobile Services] home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** **[!UICONTROL]**.
+  To display the list of marketing links, in the [!DNL Mobile Services] home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]**.
 
   The **[!UICONTROL Clicks]** column displays the number of users who have clicked on the marketing link. The **[!UICONTROL First Launches]** column displays the number of first launches for the app. This value reflects the number of users who chose to install the app and launch it after clicking on the marketing link. 
 

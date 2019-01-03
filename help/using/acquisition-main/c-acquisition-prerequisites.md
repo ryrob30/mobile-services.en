@@ -17,7 +17,7 @@ To track marketing links, ensure that you meet the following prerequisites:
 
 1. Ensure that you have a mobile app report suite.
 
-   You must create a new mobile app report suite or have an existing report suite that can collect, track, and report on data that is collected from your marketing links. For more information on creating a new mobile app report suite, see [Add New App](../manage-apps/t-new-app.md#task_DB20EA0C8DF54C62B46858A77C53221F). 
+   You must create a new mobile app report suite or have an existing report suite that can collect, track, and report on data that is collected from your marketing links. For more information about creating a new mobile app report suite, see [Add New App](../manage-apps/t-new-app.md#task_DB20EA0C8DF54C62B46858A77C53221F). 
 
 1. Verify your SDK version.
 

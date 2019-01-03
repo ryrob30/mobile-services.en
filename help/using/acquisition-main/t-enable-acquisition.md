@@ -16,24 +16,24 @@ Acquisition tracking must be enabled in the SDK configuration before you can tra
 1. On the [!DNL Manage App Settings] page for the app, scroll to the **[!UICONTROL SDK Acquisition Options]** section.
 1. Complete the following tasks:
 
-<table id="table_1E195F21EE08487C8435CB3C43040A9E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> UI item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Enable </span> check box </p> </td> 
-   <td colname="col2"> <p>To enable acquisition, select the check box. </p> <p>When you select this check box, the <span class="uicontrol"> Referrer Timeout</span> field becomes active, and the value changes from <span class="uicontrol"> 0</span> to <span class="uicontrol"> 5</span> seconds. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Referrer Timeout (seconds)</span> field </p> </td> 
-   <td colname="col2"> <p>(Optional) This field is optional if you have already enabled the <span class="uicontrol"> Enable</span> check box. </p> <p>You can change the timeout value, which is specified in seconds. This setting specifies the time to wait for acquisition information before sending the First Launch hit. We recommend that you use the five-second default value. </p> <p> <p>Important:  This value must be a non-zero value. If you enable acquisition but leave the value s zero, the acquisition links will not function. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_1E195F21EE08487C8435CB3C43040A9E"> 
+    <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> UI item </th> 
+    <th colname="col2" class="entry"> Description </th> 
+    </tr>
+    </thead>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> Enable </span> check box </p> </td> 
+    <td colname="col2"> <p>To enable acquisition, select the check box. </p> <p>When you select this check box, the <span class="uicontrol"> Referrer Timeout</span> field becomes active, and the value changes from <span class="uicontrol"> 0</span> to <span class="uicontrol"> 5</span> seconds. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> Referrer Timeout (seconds)</span> field </p> </td> 
+    <td colname="col2"> <p>(Optional) This field is optional if you have already enabled the <span class="uicontrol"> Enable</span> check box. </p> <p>You can change the timeout value, which is specified in seconds. This setting specifies the time to wait for acquisition information before sending the First Launch hit. We recommend that you use the five-second default value. </p> <p> <p>Important:  This value must be a non-zero value. If you enable acquisition but leave the value s zero, the acquisition links will not function. </p> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Download and use the new SDK configuration file in your app.
 

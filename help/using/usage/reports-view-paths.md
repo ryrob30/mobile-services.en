@@ -32,9 +32,7 @@ To expand the view, click the **[!UICONTROL +]** icon to display the additional 
 
 ![](assets/view_paths_expand.png)
 
-Click  ![](assets/icon_focus.png)
-
-to isolate the node and to show the paths that are coming into and going out of the selected node. In the illustration below, the following paths preceded users who were viewing the main view of the app:
+Click  ![](assets/icon_focus.png) to isolate the node and to show the paths that are coming into and going out of the selected node. In the illustration below, the following paths preceded users who were viewing the main view of the app:
 
 * item info 
 * item selector 

@@ -18,4 +18,6 @@ You can create an in-app message for delivery to mobile users. When creating the
 >To create in-app messages, customers must have [!DNL Analytics—Mobile Apps] or the [!DNL Mobile App Add-on required for in-app messaging].
 
 1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
-1. Configure the [Audience options](../../in-app-messaging/t-in-app-message/c-audience-in-app-message.md#concept_1589819DD5E942F983D88642FB66AE08).
+1. Configure the audience options.
+   
+   For more information about the audience options, see [Audience options](../../in-app-messaging/t-in-app-message/c-audience-in-app-message.md#concept_1589819DD5E942F983D88642FB66AE08).

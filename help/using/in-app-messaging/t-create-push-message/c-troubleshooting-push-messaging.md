@@ -29,7 +29,7 @@ This information can help you troubleshoot push messaging.
       <li id="li_DADD236C565A45B5988AC33A96EEE822"><b>Waiting for the Push Service</b> <p>The Push Service (APNS or GCM) might not immediately send out the message. Although uncommon, there have been occurrences of wait times up to 5-10 minute. </p> <p>You can verify that the push message has been sent to the Push Service by looking in the <span class="uicontrol"> Report</span> view of the Push Message, finding the message in the <span class="uicontrol"> Message History</span> table, and looking at the <span class="uicontrol"> Published</span> count. <p>Tip:  This count is the number of successful sends to the Push Service(s). </p> </p> <p>The Push Services do not guarantee that a message will be sent. For more information about the reliability of service, see the following content: 
         <ul id="ul_D3CA7889C22D4F218C2369944D265510"> 
          <li id="li_27D06381ED7D462D823050C80445F5E6"><b>APNS: </b><a href="https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l" format="html" scope="external"> Quality of Service</a>. </li> 
-         <li id="li_5AEE192DC11B493F803A8110F3AE6EF2"><b>GCM: </b><a href="https://developers.google.com/cloud-messaging/concept-options#lifetime" format="https" scope="external"> Lifetime of a Message</a>. </li> 
+         <li id="li_5AEE192DC11B493F803A8110F3AE6EF2"><b>GCM: </b><a href="https://developers.google.com/cloud-messaging/concept-options#lifetime" format="html" scope="external"> Lifetime of a Message</a>. </li> 
         </ul> </p> </li> 
      </ul> </p> </td> 
   </tr> 
