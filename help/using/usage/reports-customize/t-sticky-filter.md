@@ -21,7 +21,7 @@ The following example adds sticky filters for iOS and Android operating systems 
 
 1. Click **[!UICONTROL Add Rule]**, select **[!UICONTROL Operating Systems]**, and from the drop-down list, select **[!UICONTROL iOS]**.
 
-   We need to repeat this step to add Android as a filter.
+   Repeat this step to add Android as a filter.
 
    ![](assets/sticky2.png)
 

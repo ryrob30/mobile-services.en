@@ -38,11 +38,7 @@ You can configure experience options for push messages and rich push messages, i
          <ul id="ul_228BCE89F55F43DA8B530D064D0DBBAD"> 
          <li id="li_44B8CB9A24F24E8E902BC145D2F34483"> <p>The <span class="codeph"> attachment-url</span> data is handled in the push payload. </p> </li> 
          <li id="li_E5F9447798D24FC0958C15B03047E4EA"> <p>The media URL must be able to handle spikes requests. </p> </li> 
-         </ul> </p> </p> </p> <p>For more information about preparing your app to receive rich push notifications, see the following: </p> <p> 
-      <ul id="ul_A249082A19964D5D8CAD487CE9831F2F"> 
-         <li id="li_C964D894E26A43948AA045FC1F0FB16F"><a href="/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md" format="dita" scope="local">Receive Push Notifications in Android</a></li> 
-         <li id="li_39BC9A93D1C04B62B89C5DF2405493EE"><a href="/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md">Receive Rich Push Notifications in iOS</a></li> 
-      </ul> </p> </td> 
+         </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p><span class="uicontrol"> Destination</span> </p> </td> 

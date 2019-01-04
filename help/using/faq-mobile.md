@@ -11,13 +11,7 @@ uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 
 # Frequently Asked Questions{#frequently-asked-questions}
 
-Frequently asked questions and answers for Adobe Mobile Services and a general description of features.
-
-* [Adobe Mobile SDK](faq-mobile.md#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F) 
-* [Adobe Analytics](faq-mobile.md#section_78EC9D83791F477AAED678720CEBA9F6) 
-* [Messaging](faq-mobile.md#section_5EFDD2B2EBA543C09902FF979C89F2EC) 
-* [Location](faq-mobile.md#section_01208FE3B7764E0DADDCB9AD9E1FCD87) 
-* [Acquisition](faq-mobile.md#section_B37F1129CD5843E890D0E54179455357)
+The following table contains a list of frequently asked questions for Adobe Mobile Services:
 
 ## Adobe Mobile SDK {#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F}
 

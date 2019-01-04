@@ -43,7 +43,7 @@ On the Manage App Settings page, you can make the following types of changes:
 
           Measure the amount of time that elapses (in-app and total time) between key app actions, such as time before first purchase.
 
-* **Location Reports **
+* **Location Reports**
 
   This option lets you enable reports to track latitude and longitude and identify specific Points of Interest (POIs). You can also track bluetooth beacons (UUID, major, minor, and proximity). 
 
@@ -51,7 +51,7 @@ On the Manage App Settings page, you can make the following types of changes:
 
   >[!NOTE] {othertype="Prerequisite"}
   >
-  >Before you download the SDKs and tools, you must [Configure the SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md#task_8F9FBCDFB906467DAADA3FBDBBFF54CE).
+  >Before you download the SDKs and tools, you must configure the SDK Analytics options. For more information, see [Configure the SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md#task_8F9FBCDFB906467DAADA3FBDBBFF54CE).
 
   When you are ready to upgrade to the 4.x SDKs, or if you are working on a new app, download the latest SDKs and development tools from the bottom of the Manage App Settings page.
 

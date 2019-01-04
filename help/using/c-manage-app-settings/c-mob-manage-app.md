@@ -21,8 +21,8 @@ You can track and manage the data that you receive from the app by configuring a
 
   For more information about these variables and metrics, see the following:
 
-    * Android: [Product Variables](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) 
-    * iOS: [Product Variables](https://marketing.adobe.com/resources/help/en_US/mobile/ios/products.html)
+    * Android: [Product Variables](/help/android/analytics-main/products/products.md) 
+    * iOS: [Product Variables](/help/ios/analytics-main/products/products.md)
 
 * **Custom Variables**
 
@@ -32,7 +32,7 @@ You can track and manage the data that you receive from the app by configuring a
 
   Click  **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables & Metrics]** > **[!UICONTROL Custom Variables]**.
 
-  These mappings will call the same API that is used in [processing rules](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html).
+  These mappings will call the same API that is used in <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="https" scope="external"> processing rules.</a>-->
 
   ![](assets/custom_data_content.png)
 
@@ -43,46 +43,47 @@ You can track and manage the data that you receive from the app by configuring a
       When a value is set for a property in a tracking call (or hit), it applies only to that call. 
     
     * The **Custom Variables** (or evars) also answer the question "which one?" However, an evar value can apply not only to the hit it is sent in, but also to variables and metrics sent in subsequent hits until the value expires or a new value is set. 
-    * The **Custom List Variables**(or Multi-Value Variables) behave the same as variables except they allow you to capture multiple values on one hit. For more information, see [List Variables in the *Adobe Analytics Implementation Guide*](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+    * The **Custom List Variables**(or Multi-Value Variables) behave the same as variables except they allow you to capture multiple values on one hit. For more information, see
+    <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_AC42F2D69B674C02A484137CE5B4E687" format="dita" scope="local"> List Variable.</a>-->
 
   These mappings display in [!DNL Analytics] as being created in Mobile Services.
 
-<table id="table_5B0EC9D6DA2D47E6AB0995C6C6922191"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Name</span> </p> </td> 
-   <td colname="col2"> <p>The friendly name of the data collection variable. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Context Data</span> </p> </td> 
-   <td colname="col2"> <p> If this variable is populated with a simple mapping from context data, this is the key that maps to it. Leave this field blank if the variable is populated by more complex rules in <span class="keyword"> Analytics</span> <span class="wintitle"> Admin Tools</span>. </p> <p>Click in the context data column and select the context data variable that you would like mapped. The drop-down list contains variables received in the past 30 days, so if the context data you want to map is not in the list you can type it. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Persistence</span> </p> <p>(Custom Variables and Custom List Variables) </p> </td> 
-   <td colname="col2"> <p>Persistence determines the point at which a Custom Variable (eVar) value will expire or will no longer be associated with additional hits. If an eVar has expired when a hit fires, the <span class="uicontrol"> None</span> value will be associated with that hit for that eVar. This means that no eVar value was active when the hit fired. </p> <p>You can select one of the following options: </p> <p> 
-     <ul id="ul_1FCE4E0E02F8449EA745E75B9AE9DDC5"> 
-      <li id="li_9EF606A371CD43BC91A0B98F008F93DF"> <p><span class="uicontrol"> Session</span> </p> <p>The eVar value will persist for the length of the Analytics visit. </p> </li> 
-      <li id="li_4484E6E78679413E902B1C50CAC00341"> <p><span class="uicontrol"> Tracking Call</span> </p> <p> The eVar value will persist only for the tracking call or hit it in which it was included. </p> </li> 
-      <li id="li_8B62A6B24A44412D9F588D7430CC1E8F"> <p><span class="uicontrol"> Never Expire</span> </p> <p>The eVar value will persist for all subsequent tracking calls. </p> </li> 
-      <li id="li_ED2A0C6D36BC4A9A8CB589AD5DF7ED73"> <p><span class="uicontrol"> Advanced</span> </p> <p>Adobe Analytics has a more advanced UI for setting persistence for eVars. If a persistence value is set for the eVar that is not supported in Mobile Services, this value is shown in the Mobile Services UI. </p> <p>To manage eVars, click <span class="ignoretag"><span class="uicontrol"> Adobe Analytics Report Suite Manager</span> &gt; <span class="uicontrol"> Conversion Variables UI</span></span>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> List Support</span> </p> <p>(Custom Properties) </p> </td> 
-   <td colname="col2"> <p>Enables passing multiple values to be associated with the property in a single tracking call. The delimiter must be a single character and cannot be a zero or a space. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Delimiter </span> </p> <p>(Custom List Variables) </p> </td> 
-   <td colname="col2"> <p>The delimiter must be a single character and cannot be a zero or a space. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <table id="table_5B0EC9D6DA2D47E6AB0995C6C6922191"> 
+  <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> Element </th> 
+    <th colname="col2" class="entry"> Description </th> 
+    </tr> 
+  </thead>
+  <tbody> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> Name</span> </p> </td> 
+    <td colname="col2"> <p>The friendly name of the data collection variable. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> Context Data</span> </p> </td> 
+    <td colname="col2"> <p> If this variable is populated with a simple mapping from context data, this is the key that maps to it. Leave this field blank if the variable is populated by more complex rules in <span class="keyword"> Analytics</span> <span class="wintitle"> Admin Tools</span>. </p> <p>Click in the context data column and select the context data variable that you would like mapped. The drop-down list contains variables received in the past 30 days, so if the context data you want to map is not in the list you can type it. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> Persistence</span> </p> <p>(Custom Variables and Custom List Variables) </p> </td> 
+    <td colname="col2"> <p>Persistence determines the point at which a Custom Variable (eVar) value will expire or will no longer be associated with additional hits. If an eVar has expired when a hit fires, the <span class="uicontrol"> None</span> value will be associated with that hit for that eVar. This means that no eVar value was active when the hit fired. </p> <p>You can select one of the following options: </p> <p> 
+      <ul id="ul_1FCE4E0E02F8449EA745E75B9AE9DDC5"> 
+        <li id="li_9EF606A371CD43BC91A0B98F008F93DF"> <p><span class="uicontrol"> Session</span> </p> <p>The eVar value will persist for the length of the Analytics visit. </p> </li> 
+        <li id="li_4484E6E78679413E902B1C50CAC00341"> <p><span class="uicontrol"> Tracking Call</span> </p> <p> The eVar value will persist only for the tracking call or hit it in which it was included. </p> </li> 
+        <li id="li_8B62A6B24A44412D9F588D7430CC1E8F"> <p><span class="uicontrol"> Never Expire</span> </p> <p>The eVar value will persist for all subsequent tracking calls. </p> </li> 
+        <li id="li_ED2A0C6D36BC4A9A8CB589AD5DF7ED73"> <p><span class="uicontrol"> Advanced</span> </p> <p>Adobe Analytics has a more advanced UI for setting persistence for eVars. If a persistence value is set for the eVar that is not supported in Mobile Services, this value is shown in the Mobile Services UI. </p> <p>To manage eVars, click <span class="ignoretag"><span class="uicontrol"> Adobe Analytics Report Suite Manager</span> &gt; <span class="uicontrol"> Conversion Variables UI</span></span>. </p> </li> 
+      </ul> </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> List Support</span> </p> <p>(Custom Properties) </p> </td> 
+    <td colname="col2"> <p>Enables passing multiple values to be associated with the property in a single tracking call. The delimiter must be a single character and cannot be a zero or a space. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p><span class="uicontrol"> Delimiter </span> </p> <p>(Custom List Variables) </p> </td> 
+    <td colname="col2"> <p>The delimiter must be a single character and cannot be a zero or a space. </p> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
   **Additional Analytics Variables**
 

@@ -15,13 +15,6 @@ The Technology report allows you to see the different device types, operating sy
 
 This report provides a sunburst visualization for your existing data, and you can use the report to discover audience segments (collections of visitors) for targeting. Creating and managing audiences is similar to creating and using segments, except that you can make the audiences available in the [!DNL Experience Cloud].
 
-This section contains the following information:
-
-* [Navigation and Usage](../usage/reports-technology.md#section_83CA60E1AE6245FEBCBFF3205615C4DF) 
-* [Add Breakdowns and Metrics](../usage/reports-technology.md#section_15833511E82648869E7B1EFC24EF7B82) 
-* [Create Sticky Filter](../usage/reports-technology.md#section_B4E355CD1FE34E4C8ADC38139ED67FC8) 
-* [Share Reports](../usage/reports-technology.md#section_560DD5CED5144249B7E49461E2422100)
-
 ## Navigation and Usage {#section_83CA60E1AE6245FEBCBFF3205615C4DF}
 
 This visualization provides, for example, the base report and breakdowns, uses height to show the metric in focus, and the performance differences between the metrics. Each ring represents an audience segment in the ring's category. You can take actions on an audience, such as applying a sticky filter, hiding a metric, and viewing metrics.

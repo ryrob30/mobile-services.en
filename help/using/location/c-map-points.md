@@ -15,7 +15,7 @@ You can view an interactive map that displays your POI and other data markers.
 
  ![](assets/map.png)
 
-Here is some important information about the map:
+Here is some important information to remember:
 
 * You can enlarge or shrink the map.
 

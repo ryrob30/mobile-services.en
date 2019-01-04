@@ -9,14 +9,9 @@ topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
 ---
 
-# Configure App to use APNS or GCM{#configure-app-to-use-apns-or-gcm}
+# Configure your app to use APNS or GCM{#configure-app-to-use-apns-or-gcm}
 
 You can configure your app to use Apple Push Notification Service (APNS) or Google Cloud Messaging (GCM).
-
-This section contains the following platform-specific information:
-
-* [Android](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md#section_41D304102CDF4586911EC1413AD35A10) 
-* [iOS](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md#section_2031DAB485FC4D2B9027E42AD90B294D)
 
 ## Android Apps {#section_41D304102CDF4586911EC1413AD35A10}
 
@@ -50,7 +45,9 @@ To configure your Android app to use GCM (Google Cloud Messaging) when GCM is en
 
 1. Go to [https://console.developers.google.com/project](https://console.developers.google.com/project). 
 1. Select your app that is GCM enabled. 
-1. Note the **[!UICONTROL Project number]** in the **[!UICONTROL Overview]** section. This is the GCM Sender ID for the app.
+1. Note the **[!UICONTROL Project number]** in the **[!UICONTROL Overview]** section. 
+
+   This is the GCM Sender ID for the app.
 
    For example:
 
@@ -88,14 +85,16 @@ To configure your iOS app to use APNS:
 1. Click **[!UICONTROL Done]**. 
 1. Select your App ID that is set up to use push messaging from the list and click **[!UICONTROL Edit]**. 
 1. If you already have a Push Certificate created, skip to Step 15. 
-1. Scroll down to **[!UICONTROL Push Notifications]** and click the correct **[!UICONTROL Create Certificate...]** button (depending on if you're creating a certificate for Development or Production). 
+1. Scroll down to **[!UICONTROL Push Notifications]** and click the correct **[!UICONTROL Create Certificate...]** button.
+
+   The button you click depends whether you are creating a certificate for Development or Production. 
 1. Follow the steps outlined on the Apple website to create your CSR, upload it, and generate your certificate. 
 1. Scroll down to the **[!UICONTROL Push Notifications]** section and download the SSL certificate you just created. 
 1. Double-click the certificate you downloaded to add it to your keychain.
 
 **SSL Certificate and Private Key**
 
-To get your SSL Certificate and Private Key (APNS)
+To get your SSL Certificate and Private Key (APNS):
 
 1. Open **[!UICONTROL Keychain Access]**. 
 1. Click **[!UICONTROL My Certificates]** and find the appropriate **[!UICONTROL Push iOS Push Services Certificate]** for your app and environment.

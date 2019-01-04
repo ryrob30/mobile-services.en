@@ -11,7 +11,7 @@ uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 
 # Download Mobile SDKs and Tools{#download-mobile-sdks-and-tools}
 
-This informaton Information to help you download Mobile Services SDKs and tools to help you with your Mobile Services implementation.
+This informaton helps you download the Mobile Services SDKs and tools.
 
 ## App SDK Downloads {#section_F647A95C96B0439BA276781E0C97C689}
 
@@ -23,5 +23,5 @@ If you download the mobile SDK, the customized [!DNL ADBMobileConfig.json] file 
 
 Configure your app in Adobe Mobile services so you can download a customized package that includes a pre-populated version of the configuration file. [iOS instructions](/help/ios/getting-started/requirements.md) | [Android instructions](/help/android/getting-started/requirements.md)
 
-Native libraries are provided for iOS, Android, Windows Phone 8, Blackberry, and others. To see the documentation for these libraries, see [SDK Documentation](/help/using/home.md) section. 
+To see the documentation for native libraries including Windows Phone 8, Blackberry, Xamarin, and others, see the [SDK Documentation](/help/using/home.md) section. 
 

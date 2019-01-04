@@ -83,10 +83,7 @@ You can create app store links that let you download applications directly from 
    </tr> 
    <tr> 
       <td colname="col1" morerows="1"> <p>Search by Name </p> </td> 
-      <td colname="col2"> <p>For the Apple App Store, if you do not already know the <span class="wintitle"> App ID</span>, you can search for the app by its name. You can limit your search by selecting an optional region from the <span class="wintitle"> In Region</span> drop-down list. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col2"> <p>For Google Play, if you do not already know the <span class="wintitle"> Package Name</span>, you can search for the app name by its name. </p> </td> 
+      <td colname="col2"> <p>For the Apple App Store, if you do not already know the <span class="wintitle"> App ID</span>, you can search for the app by its name. You can limit your search by selecting an optional region from the <span class="wintitle"> In Region</span> drop-down list. </p><p>For Google Play, if you do not already know the <span class="wintitle"> Package Name</span>, you can search for the app name by its name. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>App ID (Apple App Store only) </p> </td> 

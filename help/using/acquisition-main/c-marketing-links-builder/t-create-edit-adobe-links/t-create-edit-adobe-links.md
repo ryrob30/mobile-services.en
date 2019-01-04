@@ -37,38 +37,38 @@ For more information about universal links and app links, see [Universal Links a
 
       The following preset tags are available:
 
-      <table id="table_CFCEED0575D94FD4A1433B870FA8FDB7"> 
-      <thead> 
-        <tr> 
-        <th colname="col1" class="entry"> Tag Option </th> 
-        <th colname="col2" class="entry"> Description </th> 
-        </tr>
-      </thead>
-       <tbody> 
-        <tr> 
-        <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
-        <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <!--REKHA - <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="dita" scope="external"> Processing Rules</a>. --> </p> </td> 
-        </tr> 
-        <tr> 
-        <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 
-        <td colname="col2"> <p>Specify the original referrer, such as "newsletter" or "homepage." </p> </td> 
-        </tr> 
-        <tr> 
-        <td colname="col1"> <p><span class="uicontrol"> Medium </span> </p> </td> 
-        <td colname="col2"> <p>Specify the marketing medium, such as "banner" or "email." </p> </td> 
-        </tr> 
-        <tr> 
-        <td colname="col1"> <p><span class="uicontrol"> Content </span> </p> </td> 
-        <td colname="col2"> <p>Specify the name or ID of the ad with the link. </p> </td> 
-        </tr> 
-        <tr> 
-        <td colname="col1"> <p><span class="uicontrol"> Term </span> </p> </td> 
-        <td colname="col2"> <p>Specify paid terms or other search terms for the ad. </p> </td> 
-        </tr> 
-      </tbody> 
-    </table>
+        <table id="table_CFCEED0575D94FD4A1433B870FA8FDB7"> 
+        <thead> 
+          <tr> 
+          <th colname="col1" class="entry"> Tag Option </th> 
+          <th colname="col2" class="entry"> Description </th> 
+          </tr>
+        </thead>
+        <tbody> 
+          <tr> 
+          <td colname="col1"> <p><span class="uicontrol"> Custom Context Data </span> </p> </td> 
+          <td colname="col2"> <p>Specify the key and value. </p> <p>If you add custom context data, you must create a processing rule. For more information, see <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="https" scope="external"> Processing Rules</a>. --> </p> </td> 
+          </tr> 
+          <tr> 
+          <td colname="col1"> <p><span class="uicontrol"> Source </span> </p> </td> 
+          <td colname="col2"> <p>Specify the original referrer, such as "newsletter" or "homepage." </p> </td> 
+          </tr> 
+          <tr> 
+          <td colname="col1"> <p><span class="uicontrol"> Medium </span> </p> </td> 
+          <td colname="col2"> <p>Specify the marketing medium, such as "banner" or "email." </p> </td> 
+          </tr> 
+          <tr> 
+          <td colname="col1"> <p><span class="uicontrol"> Content </span> </p> </td> 
+          <td colname="col2"> <p>Specify the name or ID of the ad with the link. </p> </td> 
+          </tr> 
+          <tr> 
+          <td colname="col1"> <p><span class="uicontrol"> Term </span> </p> </td> 
+          <td colname="col2"> <p>Specify paid terms or other search terms for the ad. </p> </td> 
+          </tr> 
+        </tbody> 
+      </table>
 
-1. Click **[!UICONTROL Save]**.
+1.  Click **[!UICONTROL Save]**.
 1. Type information in the following fields:
 
     * (Required) In **[!UICONTROL Fallback URL]**, Specify the URL that users are directed to when a destination cannot be matched (for example, if the user is on a desktop or another platform that does not match a destination rule). 

@@ -13,7 +13,7 @@ uuid: 471270ca-cee5-401e-aac1-e48146ee8399
 
 You can configure the SDK Audience Manager options on the Manage App Settings page while creating a new app or editing an existing app.
 
-1. While [adding a new app](../../manage-apps/t-new-app.md#task_DB20EA0C8DF54C62B46858A77C53221F) or editing an existing app, type information in the fields under **[!UICONTROL SDK [!DNL Audience Manager] Options]**:
+1. While adding a new app or editing an existing app, type information in the fields under **[!UICONTROL SDK [!DNL Audience Manager] Options]**:
 
     <table id="table_0A10A46D9C164244BE81EA5D0E8F8985"> 
     <thead> 

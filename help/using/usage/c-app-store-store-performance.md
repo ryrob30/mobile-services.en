@@ -27,15 +27,6 @@ You can click any metric to hide or display its corresponding line. To view the 
 >
 >App store metrics, such as downloads, rank, revenue, rating, and so on in Adobe Analytics require a Data Connector integration with an appropriate vendor. `appFigures` currently provides an integration, which requires purchasing the appropriate product and/or service from `appFigures` **before** you can enable the integration. For more information about Data Connector integrations, see [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html).
 
-The following information displays below the graph:
-
-* [App Store Average Rating](../usage/c-app-store-store-performance.md#section_60D0D21824AE4450BC3E34D7ACA12A7A) 
-* [Download Revenue](../usage/c-app-store-store-performance.md#section_34F05998E8444544A1B507C1B852C4EE) 
-* [In-App Revenue](../usage/c-app-store-store-performance.md#section_58792ED9C4B54B7D836E30CF09E8E204) 
-* [Downloads by Country](../usage/c-app-store-store-performance.md#section_10373CD28CA94BA5859DFDEED7D548C6) 
-* [Downloads by App Store](../usage/c-app-store-store-performance.md#section_F1CD1A3F0105469D879E4F280CE32484) 
-* [In-App Purchases by Name](../usage/c-app-store-store-performance.md#section_D747A64F9F6449E0A02EF31D56C92F83)
-
 >[!TIP]
 >
 >In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md#concept_ED099E16594044E69FFD91829F436907).

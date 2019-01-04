@@ -44,7 +44,7 @@ Configure experience options for in-app messages, including type (full screen, a
       <ol id="ol_8AC74EDFBD684F7C926933708BE7D897"> 
          <li id="li_42F25AB75CE742B2A87DA49A33EC954F"> <p>Click <span class="uicontrol"> Browse</span> and download an HTML file or drag an HTML document to the window. </p> </li> 
          <li id="li_ADCDADA86652497F91E998B9C19AA4E8"> <p>Click <span class="uicontrol"> Download Example</span> to view sample custom HTML content. </p> </li> 
-      </ol> </p> <p> <p>Tip: This option is displayed only when you select the <span class="uicontrol"> Full Screen</span> message type. </p> </p> </td> 
+      </ol> <p>Tip: This option is displayed only when you select the <span class="uicontrol"> Full Screen</span> message type. </p> </p> </td> 
    </tr> 
    </tbody> 
    </table>
