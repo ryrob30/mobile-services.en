@@ -32,7 +32,7 @@ You can track and manage the data that you receive from the app by configuring a
 
   Click  **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables & Metrics]** > **[!UICONTROL Custom Variables]**.
 
-  These mappings will call the same API that is used in <!--REKHA--<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="dita" scope="local"> processing rules.</a>-->
+  These mappings will call the same API that is used in <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="https" scope="external"> processing rules.</a>-->
 
   ![](assets/custom_data_content.png)
 
@@ -44,7 +44,7 @@ You can track and manage the data that you receive from the app by configuring a
     
     * The **Custom Variables** (or evars) also answer the question "which one?" However, an evar value can apply not only to the hit it is sent in, but also to variables and metrics sent in subsequent hits until the value expires or a new value is set. 
     * The **Custom List Variables**(or Multi-Value Variables) behave the same as variables except they allow you to capture multiple values on one hit. For more information, see
-    <!--REKHA--<a href="https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_AC42F2D69B674C02A484137CE5B4E687" format="dita" scope="local"> List Variable.</a>-->
+    <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_AC42F2D69B674C02A484137CE5B4E687" format="dita" scope="local"> List Variable.</a>-->
 
   These mappings display in [!DNL Analytics] as being created in Mobile Services.
 
