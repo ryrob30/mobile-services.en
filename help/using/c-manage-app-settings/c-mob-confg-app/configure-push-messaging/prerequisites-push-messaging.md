@@ -54,7 +54,7 @@ You must complete these tasks before configuring Push Messaging in applications.
       <li id="li_1C67A1C3186B4AB2B38032B71C780DA4"> <p>In the upper right corner, select the <span class="keyword"> Analytics</span> company name. </p> </li> 
       <li id="li_99FEAF181EEC4E5FA757661E724903C6"> <p>Click <span class="uicontrol"> Add Organization</span> and select <span class="uicontrol"> Adobe SiteCatalyst/Adobe Social</span> from the drop-down list. </p> </li> 
       <li id="li_7122CC3B32F64C5D986F0C687DC7F869"> <p>Type the company name, your legacy credentials for the specified company, and click <span class="uicontrol"> Link Account</span>. </p> <p>The Adobe ID is now linked to your <span class="keyword"> Analytics</span> account, company, and log-in credentials. </p> </li> 
-     </ol> </p> <p>For more information, see <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="dita" scope="local"> Organizations and account linking</a>. </p> </td> 
+     </ol> </p> <p>For more information, see <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizations and account linking</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configure Push Services and the SDK ID service in the Mobile User Interface </p> </td> 
