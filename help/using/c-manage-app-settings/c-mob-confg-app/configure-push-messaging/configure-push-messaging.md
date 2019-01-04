@@ -49,8 +49,7 @@ Before you configure push messaging, review the following information:
 
    For more information, see the following topics:
 
-    * [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md) in the Android SDK 4.x for Experience Cloud Solutions guide. 
-    
+    * [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md) in the Android SDK 4.x for Experience Cloud Solutions guide.
     * [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md) in the iOS SDK 4.x for Experience Cloud Solutions guide.
 
 1. Click **[!UICONTROL Save]**.
