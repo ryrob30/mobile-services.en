@@ -2,7 +2,7 @@
 description: New release information for Adobe Mobile Services.
 keywords: mobile;release notes;whats new
 seo-description: New release information for Adobe Mobile Services.
-seo-title: Release notes
+seo-title: Release notes for Adobe Mobile Services
 solution: Marketing Cloud,Analytics
 title: Release notes
 topic: Metrics
