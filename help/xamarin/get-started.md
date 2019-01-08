@@ -16,22 +16,10 @@ Last Updated:**October 20, 2016**
 
 ## Getting Started {#section_59D434C30C8F4765A7DEFE877D5268D0}
 
-Download the Xamarin components from [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) or [https://components.xamarin.com/](https://components.xamarin.com/).
-
-
 >[!IMPORTANT]
 >
->Adobe Mobile SDK is no longer available in Xamarin Components Store and is not in the NuGet Gallery.
+>Adobe Mobile SDK is no longer available in the Xamarin Components Store or in the NuGet Gallery. To download the Xamarin components, go to [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
 
-To manually import the ADBMobile component to your Xamarin.iOS project, complete the following steps:
-
-1. Open your Xamarin project.
-
-1. Select **[!UICONTROL Component]** and then **[!UICONTROL Get More Components]**.
-
-1. Search for **[!UICONTROL Adobe Mobile Services SDK]** add the component to the current project.
-
-1. Add your ADBMobileConfig.json file to the project.
 
 ## Android {#section_9CAE1BFD359242568D8288C12A4B7A7D}
 
