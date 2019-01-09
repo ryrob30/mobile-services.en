@@ -21,7 +21,7 @@ For more information, see [DPS Analytics in the Digital Publishing Solution Help
 
 For more information about the types of reports that are available in DPS:
 
-+ [Top 10 Articles](dps-top-ten-articles.md)
-+ [Top 50 Articles](dps-top-50-articles.md)
-+ [Social Sharing](dps-social-sharing.md)
-+ [Banner Metrics](dps-banner-metrics.md)
++ [Top 10 Articles](/help/using/dps/dps-top-ten-articles.md)
++ [Top 50 Articles](/help/using/dps/dps-top-50-articles.md)
++ [Social Sharing](/help/using/dps/dps-social-sharing.md)
++ [Banner Metrics](/help/using/dps/dps-banner-metrics.md)

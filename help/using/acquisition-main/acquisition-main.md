@@ -38,20 +38,21 @@ The following Acquisition reports provide insight into how your marketing links 
 
   ![](assets/acquisition_name.png)
 
+## Additional Information ##
+
 For more information about Acquisition, see the following links:
 
-* [Acquisition Overview](acquisition-main.md)
-* [Acquisition Prerequisites](c-acquisition-prerequisites.md)
-* [Configure Acquisition](t-enable-acquisition.md)
-* [Destinations](c-create-destinations.md)
-* [Create and Manage Link Destinations](c-manage-link-destinations/c-manage-link-destinations.md)
-* [Create New Link Destination](c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
-* [Manage Link Destinations](c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
-* [Marketing Links Builder](c-marketing-links-builder/c-marketing-links-builder.md)
-* [Create or Edit Marketing Links](c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
-* [Interstitials](c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)
-* [Use Legacy Acquisition Links](c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)
-* [Create an Acquisition Link](c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/t-acquisition-link.md)
+* [Acquisition Prerequisites](/help/using/acquisition-main/c-acquisition-prerequisites.md)
+* [Configure Acquisition](/help/using/acquisition-main/t-enable-acquisition.md)
+* [Destinations](/help/using/acquisition-main/c-create-destinations.md)
+* [Create and Manage Link Destinations](/help/using/acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md)
+* [Create New Link Destination](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
+* [Manage Link Destinations](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
+* [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)
+* [Create or Edit Marketing Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
+* [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)
+* [Use Legacy Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)
+* [Create an Acquisition Link](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/t-acquisition-link.md)
 * [Manage Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/c-manage-acquisition-links.md)
 * [Delete Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-del.md)
 * [Import or Export Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-import.md)
