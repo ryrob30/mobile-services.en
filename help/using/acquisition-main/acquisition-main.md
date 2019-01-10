@@ -38,7 +38,7 @@ The following Acquisition reports provide insight into how your marketing links 
 
   ![](assets/acquisition_name.png)
 
-## Additional Information ##
+## Additional Information
 
 For more information about Acquisition, see the following links:
 

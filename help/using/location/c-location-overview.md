@@ -71,7 +71,7 @@ Click a slice in the ring to select the audience for which you want to create a 
 
 After you create a report, your settings are used to create a custom URL, which you can copy and share. 
 
-## Additional Information ##
+## Additional Information
 
 For more information about location, see the following content:
 
