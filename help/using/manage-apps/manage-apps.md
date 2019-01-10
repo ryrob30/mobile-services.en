@@ -15,8 +15,8 @@ On the Manage Apps page, you can create, manage, and delete apps.
 
 For more information, see: 
 
-* [Add a New App](t-new-app.md)
-* [Virtual Report Suites](c-mob-vrs.md)
-* [App Store](c-app-store/c-app-store.md)
+* [Add a New App](/help/using/manage-apps/t-new-app.md)
+* [Virtual Report Suites](/help/using/manage-apps/c-mob-vrs.md)
+* [App Store](/help/using/manage-apps/c-app-store/c-app-store.md)
 * [Add an App from an App Store](/help/using/manage-apps/c-app-store/t-app-store-app.md)
-* [Delete an App](t-delete-apps.md)
+* [Delete an App](/help/using/manage-apps/t-delete-apps.md)

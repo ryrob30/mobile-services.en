@@ -19,7 +19,7 @@ Managing your apps involves configuring an App and managing a variety of variabl
 
 To configure and manage your app see the following information: 
 
-* [Configuring your App](c-mob-confg-app/c-mob-confg-app.md)
+* [Configuring your App](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)
 * [Configure SDK Analytics Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
 * [Download Mobile SDKs and Tools](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
 * [Configure Audience Manager Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
@@ -30,4 +30,4 @@ To configure and manage your app see the following information:
 * [Configure Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
 * [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
 * [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
-* [Managing your App](c-mob-manage-app.md)
+* [Managing your App](/help/using/c-manage-app-settings/c-mob-manage-app.md)

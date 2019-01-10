@@ -70,3 +70,10 @@ Click a slice in the ring to select the audience for which you want to create a 
 ## Share Reports {#section_F8AF2AA73D4C4C008976D45847F82D0B}
 
 After you create a report, your settings are used to create a custom URL, which you can copy and share. 
+
+## Additional Information
+
+For more information about location, see the following content:
+
+* [Map](/help/using/location/c-map-points.md)
+* [Manage Points of Interest](/help/using/location/t-manage-points.md)
