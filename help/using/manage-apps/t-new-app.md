@@ -11,7 +11,7 @@ uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 
 # Add a New App{#add-a-new-app}
 
-You can use this information to create a new app and configure its key metrics;configure the SDK options for Adobe Analytics and Adobe Audience Manager;configure acquisition and ID service options;and download the configuration file, SDKs, and developer and tester tools.
+You can use this information to create a new app and configure its key metrics;configure the SDK options for [!DNL Adobe Analytics] and [!DNL Adobe Audience Manager]; configure acquisition and ID service options; and download the configuration file, SDKs, and developer and tester tools.
 
  These instructions will help you add a new app and configure [!DNL Adobe Analytics] and [!DNL Adobe Audience Manager] integrations.
 
@@ -27,6 +27,18 @@ Before you can configure your app, you must add it in the [!DNL Adobe Mobile Ser
        >To manage existing apps, click [!DNL Manage Apps] in the left navigation menu and click the app that you want to modify. You can make changes on the [!DNL App Information] page.
 
 1. Type information in the following fields:
+
+   **[!UICONTROL Report Suite]** 
+
+     Specify the report suite in which reporting data will be collected and stored in <span class="keyword"> Adobe Analytics </span>. </p> <p> Each app is connected to one <span class="keyword"> Analytics </span> report suite. If you are sending app data to multiple reports suites, add a new app for each report suite. Each app is connected to one <span class="keyword"> Analytics </span> report suite. If you are sending app data to multiple reports suites, add a new app for each report suite. 
+
+     If you have been given <span class="keyword"> Analytics </span> administrator privileges in <span class="keyword"> Adobe Mobile </span>, you can create a new report suite in <span class="keyword"> Adobe Mobile </span>. </p> <p>To create a new report suite, select the <span class="uicontrol"> New Report Suite </span> and type information into the following fields: 
+
+      * **[!UICONTROL Report Suite ID]**: This ID is used to uniquely identify the report suite in [!DNL Adobe Analytics]. Your company prefix is automatically added to the beginning of the ID.  
+      * **[!UICONTROL Copy Settings From]**: The variables, events, processing rules, and other settings are set up in the new report suite exactly like they are in this report suite. A report suite created in [!DNL Mobile Services ] is offline-enabled (or time stamped) only if the **[!UICONTROL Copy Settings From]** report suite used was the Mobile App Template, or if you create a report suite that is offline enabled. </p> </li> 
+          <li id="li_DF70F8872FBA4A8F80F5D8B2EB3E835C"> <p> <span class="uicontrol"> Timezone: </span> All reporting dates are in this time zone. This setting attempts to use a time zone close to what your browser uses. </p> </li> 
+          <li id="li_C3EA81F601874156A4C669F2E3E66082"> <p> <span class="uicontrol"> Currency: </span> Revenue is both tracked and reported as this type of currency. </p> </li> 
+        </ul> </p> <p> <p>Tip:  To use a virtual reporting suite (VRS), see <a href="../manage-apps/c-mob-vrs.md#concept_0C6EDD6139AC4B08A2316CFCE77CC717" format="dita" scope="local"> Virtual Report Suites 
 
     <table id="table_A9356F6A5D1F4441AE4E594C1E4F5FE6"> 
     <thead> 
