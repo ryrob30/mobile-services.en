@@ -22,22 +22,8 @@ The Crash History chart displays information about each app crash, including the
 
 You can configure the following options for this report:
 
-<table id="table_6D00725707854775A05C72BDFCA8EB12"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Time Period</span> </p> </td> 
-   <td colname="col2"> <p>Click the <span class="uicontrol"> Calendar</span> icon to select a custom period or to select a preset time period from the drop-down list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Filter</span> </p> </td> 
-   <td colname="col2"> <p>Click <span class="uicontrol"> Filter</span> to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. </p> <p>For more information, see <a href="../usage/reports-customize/t-sticky-filter.md#task_75B0AD4D58014BB0A5A09FE1B074ECE1" format="dita" scope="local"> Add Sticky Filter</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **[!UICONTROL Time Period]**
+    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list.
 
+* **[!UICONTROL Filter]**
+    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](../usage/reports-customize/t-sticky-filter.md).

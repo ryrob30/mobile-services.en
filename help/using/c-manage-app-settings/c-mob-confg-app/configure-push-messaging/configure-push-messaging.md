@@ -28,29 +28,24 @@ Before you configure push messaging, review the following information:
 
 1. Type information in the following fields under **[!UICONTROL Push Services]**:
 
-    <table id="table_AC63B06E90384C408149E34AE6D2A44F"> 
-    <thead> 
-    <tr> 
-    <th colname="col1" class="entry"> Setting </th> 
-    <th colname="col2" class="entry"> Description </th> 
-    </tr> 
-    </thead>
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p><span class="uicontrol"> Apple </span> </p> </td> 
-    <td colname="col2"> <p><b>Private Key</b> </p> <p>Browse to and select your valid private key (<span class="filepath"> .p12</span>, <span class="filepath"> .key</span>, or <span class="filepath"> .pen</span>). </p> <p> <p>Important: If the file you select for the <span class="uicontrol"> Private Key</span> input also contains a certificate, you do not need to specify the certificate. </p> </p> <p><b>Certificate</b> </p> <p>Specify a valid certificate. This option is required only when the <span class="uicontrol"> Private Key</span> input does <b>not</b> contain a certificate. </p> <p>For more information about obtaining the SSL certificate and private key, see <a href="../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md#concept_AEF9A450381641228954594B864C0B1B" format="dita" scope="local"> Configure App to use APNS or GCM</a>. </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p><span class="uicontrol"> Google </span> </p> </td> 
-    <td colname="col2"> <p><b>API Key</b> </p> <p>Specify a valid API key. </p> <p>For more information about obtaining the API key, see <a href="../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md#concept_AEF9A450381641228954594B864C0B1B" format="dita" scope="local"> Configure App to use APNS or GCM</a>. </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+    * Apple
 
-   For more information, see the following topics:
+      * **[!UICONTROL Private Key]**
+        Browse to and select your valid private key `.p12`, `.key`, or `.pen`.
 
-    * [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md) in the Android SDK 4.x for Experience Cloud Solutions guide.
-    * [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md) in the iOS SDK 4.x for Experience Cloud Solutions guide.
+        >[!IMPORTANT]
+        >If the file that you select for the **[!UICONTROL Private Key]** input also contains a certificate, you do not need to specify the certificate.
+
+      * **[UICONTROL Certificate]**
+       Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+
+    * Google
+      * **[!UICONTROL API Key]**
+        Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+
+    For more information, see the following topics:
+
+     * [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md) in the Android SDK 4.x for Experience Cloud Solutions guide.
+     * [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md) in the iOS SDK 4.x for Experience Cloud Solutions guide.
 
 1. Click **[!UICONTROL Save]**.
-
