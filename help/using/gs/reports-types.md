@@ -25,7 +25,7 @@ When customizing reports, the broad flexibility might create some questions as t
 
 Here are the types of reports that you can generate in the Mobile UI:
 
-### Over-Time Report {#section_2741DA54C90C49AFB17C7B9BC7AD627D}
+## Over-Time Report {#section_2741DA54C90C49AFB17C7B9BC7AD627D}
 
 Over-time reports show how metrics are performing over a time range so you can quickly identify spikes and trends. Analysis often starts in an over-time report and moves into trended and ranked reports as you drill down to investigate the factors that might be contributing to a metric spike or trend.
 
@@ -70,7 +70,7 @@ To start the tutorial:
 
 ![](assets/report_technology.png){width="500px"}
 
-#### Pathing Report {#section_AD400106BC684B50B27CCCD3F4497114}
+### Pathing Report {#section_AD400106BC684B50B27CCCD3F4497114}
 
 A Pathing report is based on path analysis and displays a pathing chart that represents paths that are taken from one state in the app to another state.
 
@@ -78,7 +78,7 @@ A Pathing report is based on path analysis and displays a pathing chart that rep
 
 Each node is shaped like a box and represents a state in the users' paths though an app. For example, in the illustration above, the top node represents the number of users that launched the app and selected a photo from the gallery.
 
-#### Funnel Report {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### Funnel Report {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
 Funnel reports allow you to identify where customers abandon a marketing campaign or divert from a defined conversion path while interacting with your mobile app. You can also use the Funnel report to compare the actions of different segments.
 

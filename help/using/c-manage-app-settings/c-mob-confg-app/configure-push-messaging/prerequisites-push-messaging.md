@@ -13,11 +13,11 @@ uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 
 You must complete these tasks before configuring Push Messaging in applications.
 
-#### Enable the Experience Cloud for Your Company
+## Enable the Experience Cloud for Your Company
 
 Your [!UICONTROL] Adobe Analytics Company must be [!UICONTROL] Experience Cloud enabled. You can verify this with your Adobe account executive.
 
-#### Install and Configure the Mobile SDK
+## Install and Configure the Mobile SDK
 
 * **Install the Mobile SDK**
     The Push Messaging feature requires that you download and install the appropriate 4.6 (or later) Mobile SDK.
@@ -31,7 +31,7 @@ Your [!UICONTROL] Adobe Analytics Company must be [!UICONTROL] Experience Cloud 
       *   [Android: Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md)
       *   [iOS: Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
-#### Log in to the Mobile Core Service using your Adobe ID
+## Log in to the Mobile Core Service using your Adobe ID
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ If users do not have Adobe IDs, complete the following steps:
 
 1. **Users** log in to Mobile using their [!DNL Adobe ID].
 
-#### Link Users' Accounts in the Experience Cloud
+## Link Users' Accounts in the Experience Cloud
 
 Each user must link the [!UICONTROL] Analytics solution account from the Experience Cloud organization.
 
@@ -62,7 +62,7 @@ Each user must link the [!UICONTROL] Analytics solution account from the Experie
 
 For more information, see [Troubleshooting Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-#### Configure Push Services and the SDK ID service in the Mobile User Interface
+## Configure Push Services and the SDK ID service in the Mobile User Interface
 
 Before you enable the ID service for your app, the Push Services section is disabled. But, after you [enable the ID service](../../../c-manage-app-settings/c-mob-confg-app/t-config-visitor.md#task_568C5F05E4E044E9BCCCF91ABBA736F7), the Push Services section is enabled.
 

@@ -40,17 +40,15 @@ You can configure experience options for push messages and rich push messages, i
    >[!TIP]
    >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked.
 
-
 ## Requirements for Rich Push Notifications
 
-  Here are the requirements for sending rich push notifications:
+Here are the requirements for sending rich push notifications:
 
-  * **Supported Versions**
+* **Supported Versions**
 
-     Rich push notifications are supported on the following versions:
-
-    * Android 4.1.0 or later
-    * iOS 10 or later
+  Rich push notifications are supported on the following versions:
+  * Android 4.1.0 or later
+  * iOS 10 or later
   
      >[!IMPORTANT]
      >
