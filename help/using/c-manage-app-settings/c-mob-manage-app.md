@@ -21,7 +21,7 @@ You can track and manage the data that you receive from the app by configuring a
 
   For more information about these variables and metrics, see the following:
 
-  * Android: [Product Variables](/help/android/analytics-main/products/products.md) 
+  * Android: [Product Variables](/help/android/analytics-main/products/products.md)
   * iOS: [Product Variables](/help/ios/analytics-main/products/products.md)
 
 * **Custom Variables**
@@ -41,7 +41,7 @@ Here is a list of the custom variables that you can configure:
 * The **[!UICONTROL Custom Properties]** (or props) answer the question "which one?" Props can be set to a text value that will be associated with other variables and metrics sent in the same hit. The values can be used to filter reports or can be listed in rank order by an associated metric.
 
     When a value is set for a property in a tracking call (or hit), it applies only to that call.
-* The **[!UICONTROL Custom Variables]** (or evars) also answer the question "which one?" However, an evar value can apply not only to the hit it is sent in, but also to variables and metrics sent in subsequent hits until the value expires or a new value is set. 
+* The **[!UICONTROL Custom Variables]** (or evars) also answer the question "which one?" However, an evar value can apply not only to the hit it is sent in, but also to variables and metrics sent in subsequent hits until the value expires or a new value is set.
 * The **[!UICONTROL Custom List Variables (or Multi-Value Variables)]** behave the same as variables except they allow you to capture multiple values on one hit. For more information, see
     <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_AC42F2D69B674C02A484137CE5B4E687" format="dita" scope="local"> List Variable.</a>-->
 
@@ -75,7 +75,7 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
     To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** >** **[!UICONTROL Conversion Variables UI]**.  
 
   * **[!UICONTROL List Support]**
-  Enables passing multiple values to be associated with the property in a single tracking call. The delimiter must be a single character and cannot be a zero or a space. 
+  Enables passing multiple values to be associated with the property in a single tracking call. The delimiter must be a single character and cannot be a zero or a space.
 
   * **[!UICONTROL Delimiter]**
   The delimiter must be a single character and cannot be a zero or a space.  
@@ -84,7 +84,7 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
 
   You can enable additional variables using the drop-down list at the bottom of each variable section.
 
-  ![](assets/add_variable.png)
+  ![add a variable](assets/add_variable.png)
 
   Select an unused variable number and type a name. You can optionally provide the context data variable that you would like stored and any additional information. 
 
@@ -94,8 +94,8 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
 
   You can select one of the following types of custom metric types:
 
-  * **[!UICONTROL Whole number]** 
-  * **[!UICONTROL Decimal number]** 
+  * **[!UICONTROL Whole number]**
+  * **[!UICONTROL Decimal number]**
   * **[!UICONTROL Currency]**
 
 ## Manage Points of Interest {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}

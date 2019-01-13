@@ -52,7 +52,6 @@ Here are some best practices to remember:
 
 * To reduce confusion, **avoid** defining mobile app virtual report suites that contain data from multiple apps. 
 * Use a unique app ID as part of an audience segment **each** time you want to send a push message.
-
   This ensures that push notifications are sent to an audience segment that belongs to **only** one app.
 
 ### Examples
@@ -89,9 +88,9 @@ Here are some examples to help you understand how to correctly define segments:
   
    * **[!UICONTROL Static Range]** lets you select a static range by picking the beginning and end dates for the estimated audience range. Using the previous example, if you select a date range beginning October 1 and ending October 15 but schedule the message to push on October 31, the estimated audience would be the number of users who have opted-in to receive push messages in the static date range that you specified (October 1 to October 15).
 
-   * **[!UICONTROL Analytics Segments]** 
+   * **[!UICONTROL Analytics Segments]**
 
-      Select one or more existing [!DNL Adobe Analytics] segment from the drop-down list.For more information, see <!--REKHA: <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html" format="https" scope="external"> Build Segments</a>. --> 
+      Select one or more existing [!DNL Adobe Analytics] segment from the drop-down list.For more information, see <!--REKHA: <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html" format="https" scope="external"> Build Segments</a>. -->
 
    * **[!UICONTROL Custom Segments]**
 

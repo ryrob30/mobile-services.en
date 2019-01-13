@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 ---
 
-# Experience: Push Message{#experience-push-message}
+# Experience: Push Message {#experience-push-message}
 
 You can configure experience options for push messages and rich push messages, including name, message text, and destination options. You can also configure advanced options, including payload options and custom options for iOS devices.
 
@@ -17,7 +17,7 @@ You can configure experience options for push messages and rich push messages, i
 
    ![experience push message screen](assets/experience-push-message.png)
 
-1. Type a name for this message. 
+1. Type a name for this message.
 1. Type information in the following fields in the **[!UICONTROL Message]** section:
 
 * **[!UICONTROL Content]**
@@ -28,10 +28,11 @@ You can configure experience options for push messages and rich push messages, i
 
   Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see [Requirements for Rich Push Notifications](../../in-app-messaging/t-create-push-message/c-experience--push-message.md#table_C244F841CD724DEDA6EFEADE9F9A7F91)
   
- >[!IMPORTANT]
- >To display an image or a video in a push notification, remember the following:  
- > * The `attachment-url` data is handled in the push payload.
- > * The media URL must be able to handle spikes requests.
+   >[!IMPORTANT]
+   >
+   >To display an image or a video in a push notification, remember the following:  
+   > * The `attachment-url` data is handled in the push payload.
+   > * The media URL must be able to handle spikes requests.
 
 * **[!UICONTROL Destination]**
 
@@ -40,7 +41,7 @@ You can configure experience options for push messages and rich push messages, i
    >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked.
 
 
-  **Requirements for Rich Push Notifications**
+## Requirements for Rich Push Notifications
 
   Here are the requirements for sending rich push notifications:
 
@@ -52,6 +53,7 @@ You can configure experience options for push messages and rich push messages, i
     * iOS 10 or later
   
      >[!IMPORTANT]
+     >
      >Remember the following information:
      >* Rich push messages sent to earlier versions will still be sent but only text will be displayed.
      >* There is no watch support at this time.
@@ -71,10 +73,10 @@ You can configure experience options for push messages and rich push messages, i
 
   For more information about configuring rich push notifications, see the following content:
 
-  * [Receive Push Notifications in Android](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
-  * [Receive Rich Push Notifications in iOS](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
+* [Receive Push Notifications in Android](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
+* [Receive Rich Push Notifications in iOS](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
 
-To configure a push message on the Experience page: 
+To configure a push message on the Experience page:
 
 1. (Optional) Click the **[!UICONTROL Show Advanced Options]** link to configure additional options:
 
@@ -88,7 +90,7 @@ To configure a push message on the Experience page:
 
     * **[!UICONTROL Apple Options: Sound]**
 
-       Provide the name of the sound file in your app bundle to play. A default alert sound plays if not set. For more information, see [Managing Your App's Notificaton Support](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html#//apple_ref/doc/uid/TP40008194-CH4-SW10) in the *iOS Developer Library*. 
+       Provide the name of the sound file in your app bundle to play. A default alert sound plays if not set. For more information, see [Managing Your App's Notificaton Support](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html#//apple_ref/doc/uid/TP40008194-CH4-SW10) in the *iOS Developer Library*.
 
     * **[!UICONTROL Apple Options: Content Available]**
 

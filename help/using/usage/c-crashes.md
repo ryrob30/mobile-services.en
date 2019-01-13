@@ -14,7 +14,7 @@ The Crashes report provides a snapshot of your app's crashes. You can see the nu
 >
 >To display the Crash report in the left navigation, you must first integrate your app with Apteligent.
 
-![](assets/crashes.png)
+![crashes](assets/crashes.png)
 
 The Average Crash Rate graph displays the crash rate by date. You can hover over any date to view the crash rate for that day.
 

@@ -22,16 +22,19 @@ You can create a new link destination that directs users to a web or a deep link
   Type a descriptive name for your app link destination. The title displays only on the Manage Link Destinations page in the [!DNL Adobe Mobile Services] UI. A descriptive name helps you or others in your organization quickly find a specific link destination and can provide insight into its purpose.
 
     * **[!UICONTROL Link Type]**
-    Here is a list of the available link types:
-      *  **[!UICONTROL App Deep Link]**
-        Provide a URI schema deep link (for example, `yourapp://section`</span>`). App deep link destinations are URI schema deep links that direct users to a deep link in your app. For example, you can direct users to a specific product line in an online retailer's mobile app. 
+
+      Here is a list of the available link types:
+      * **[!UICONTROL App Deep Link]**
+        Provide a URI schema deep link (for example, `yourapp://section`). App deep link destinations are URI schema deep links that direct users to a deep link in your app. For example, you can direct users to a specific product line in an online retailer's mobile app.
       * **[UICONTROL Web Link]**  
         Type a web HTTP or HTTPS URL, for example,`https://adobe.com`. Web link destinations direct users to a URL. For example, you can direct users to a product line on an online retailer's website.
       * **[!UICONTROL Hybrid Link]**
-        Type an iOS Universal Link or an Android App Link (for example, `https://yourwebsite.com`). Hybrid links support iOS Universal Links or Android App Links. 
+        Type an iOS Universal Link or an Android App Link (for example, `https://yourwebsite.com`). Hybrid links support iOS Universal Links or Android App Links.
     * **[!UICONTROL App]**
-      Select the app that is associated with the link you are going to provide. 
-      >[!TIP]: This information is required only if you selected an App Deep Link or a Hybrid Link in **[!UICONTROL Link Type]**. If the app does not appear in the selection list, click **[!UICONTROL Add New App]** to reference a new app from an app store. 
+      Select the app that is associated with the link you are going to provide.
+      >[!TIP]
+      >
+      >This information is required only if you selected an App Deep Link or a Hybrid Link in **[!UICONTROL Link Type]**. If the app does not appear in the selection list, click **[!UICONTROL Add New App]** to reference a new app from an app store. 
 
     * **[!UICONTROL Link type]**
       Type the actual URL for the link you selected. The label of this field will vary depeneding on the type of link you selected. 

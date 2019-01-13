@@ -19,7 +19,7 @@ Here is some important information to remember:
 
 * You can enlarge or shrink the map.
 
-  This feature is useful, for example, if you have two points of interest that are close together. Enlarging the map lets you view it in greater detail. 
+  This feature is useful, for example, if you have two points of interest that are close together. Enlarging the map lets you view it in greater detail.
 * Your points of interest display in blue.
 
   Other data markers, such as Launches, display in black. Click a marker to view more information.
@@ -27,20 +27,20 @@ Here is some important information to remember:
 Click  ![layers](assets/map_layers.png) to select the following options:
 
 * **[!UICONTROL Map ]**
-    Display a simple map. 
+    Display a simple map.
 * **[!UICONTROL Satellite]**
     Display the map in satellite mode.
 * **[!!UICONTROL Data Markers]**
-    Choose whether to display black data markers. 
+    Choose whether to display black data markers.
 * **[!UICONTROL Heat Map]**
     Choose whether to display heat-map markers. The greater the intensity of the color, the more frequently the condition (Launches, for example) is met.
 * **[!UICONTROL Points of Interest]**
     Choose whether to display your points of interest.
 
-You can configure the following options for this report: 
+You can configure the following options for this report:
 
 * **[!UICONTROL Time Period]**
-    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list. 
+    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list.
 * **[!UICONTROL Customize]**
     Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filter]**

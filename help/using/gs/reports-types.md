@@ -9,7 +9,7 @@ topic: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 ---
 
-# Report Types{#report-types}
+# Report Types {#report-types}
 
 When customizing reports, the broad flexibility might create some questions as to the type of report that is best suited to get the data that you need.
 

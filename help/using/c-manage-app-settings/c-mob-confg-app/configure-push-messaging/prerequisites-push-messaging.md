@@ -27,11 +27,9 @@ Your [!UICONTROL] Adobe Analytics Company must be [!UICONTROL] Experience Cloud 
 * **Configure Push Services**
 
     You must configure push services in the Mobile SDK.
-
     For more information, see the following content:
-
-    *   [Android: Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md)
-    *   [iOS: Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      *   [Android: Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md)
+      *   [iOS: Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 #### Log in to the Mobile Core Service using your Adobe ID
 
@@ -84,4 +82,4 @@ Before you enable the ID service for your app, the Push Services section is disa
 
     Type the device's push tokens that you want to send the message. You can send the message to multiple devices by specifying tokens in a comma-separated list.
 
-    ![](assets/push_test_list.png)
+    ![push test message](assets/push_test_list.png)

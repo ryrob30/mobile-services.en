@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfed
 ---
 
-# Add an App from an App Store{#add-an-app-from-an-app-store}
+# Add an App from an App Store {#add-an-app-from-an-app-store}
 
 You can add an app from the Apple App Store or from Google Play.
 

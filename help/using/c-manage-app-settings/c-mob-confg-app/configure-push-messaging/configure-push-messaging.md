@@ -15,10 +15,10 @@ You can use this information to help you configure the Push Services options on 
 
 Before you configure push messaging, review the following information:
 
-* You must perform several prerequisite tasks. 
+* You must perform several prerequisite tasks.
 
-  For more information about these tasks, see [Prerequisites to Enable Push Messaging](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE). 
-* **Report Suite Considerations** 
+  For more information about these tasks, see [Prerequisites to Enable Push Messaging](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE).
+* **Report Suite Considerations**
 
     You can configure one app store app for Apple and one for Google in each report suite. If you need additional apps, for example, one for a production environment and one for a dev environment, set up a new app store app and a new report suite for each environment.
 
@@ -40,7 +40,7 @@ Before you configure push messaging, review the following information:
        Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
     * Google
-      * **[!UICONTROL API Key]**
+      **[!UICONTROL API Key]**
         Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
     For more information, see the following topics:

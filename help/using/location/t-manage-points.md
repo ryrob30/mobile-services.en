@@ -33,7 +33,7 @@ On the user's device, for a hit to be assigned to a **[!UICONTROL Points of Inte
     * **[!UICONTROL Point Name]**
       Type the **[!UICONTROL Point of Location]** name. This could be the name of a city, county, or region. You can also create a **[!UICONTROL]Point of Location]** around specific locations, such as sports stadiums or businesses.
     * **[!UICONTROL Latitude ]**
-      Type the latitude of the <span class="uicontrol"> Point of Location</span>. You can find this information from other sources, including the Internet.
+      Type the latitude of the **[!UICONTROL Point of Location]**. You can find this information from other sources, including the Internet.
     * **[!UICONTROL Longitude]**
       Type the longitude of the **[!UICONTROL Point of Location]**. You can find this information from other sources, including the Internet.
     * **[!UICONTROL Radius (Meters)]**
@@ -44,9 +44,9 @@ On the user's device, for a hit to be assigned to a **[!UICONTROL Points of Inte
 
 1. Add additional points of interest, as needed.
 
-   We recommend that you add no more than 5,000 points of interest. If you add more than 5,000, you can save the points, but you will receive a warning message informing you that best practices dictate having fewer than 5,000 points. 
+   We recommend that you add no more than 5,000 points of interest. If you add more than 5,000, you can save the points, but you will receive a warning message informing you that best practices dictate having fewer than 5,000 points.
 1. Click **[!UICONTROL Save]**.
 
 To delete one or more POIs, select the applicable check boxes, and click **[!UICONTROL Remove Selected]**.
 
-Click **[!UICONTROL Import]** or **[!UICONTROL Export]** to work with the data by using a [!DNL .csv] file instead of using the [!DNL Adobe Mobile] user interface. 
+Click **[!UICONTROL Import]** or **[!UICONTROL Export]** to work with the data by using a [!DNL .csv] file instead of using the [!DNL Adobe Mobile] user interface.

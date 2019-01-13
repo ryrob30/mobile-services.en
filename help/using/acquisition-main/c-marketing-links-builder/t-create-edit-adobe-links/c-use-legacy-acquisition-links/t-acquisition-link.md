@@ -50,7 +50,7 @@ You can create app store links that let you download applications directly from 
    * **[!UICONTROL App ID (Apple App Store only)]**
       If you searched for the app, this field is completed automatically. You can type the App ID value directly, rather than searching for the app.
    * **[!UICONTROL Package Name (Google Play only) ]**
-      If you searched for the app, this field is completed automatically. You can type the Package Name value directly, rather than searching for the app. 
+      If you searched for the app, this field is completed automatically. You can type the Package Name value directly, rather than searching for the app.
 
 1. To save your configuration and to generate the link, click **[!UICONTROL Add]** > **[!UICONTROL Save]**.
 

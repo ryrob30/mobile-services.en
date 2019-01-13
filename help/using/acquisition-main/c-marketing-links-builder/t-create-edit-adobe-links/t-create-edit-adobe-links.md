@@ -13,19 +13,19 @@ uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 
 You can create or edit marketing links to provide deep linking to your mobile app or your website.
 
-For more information about universal links and app links, see [Universal Links and App Links](../../../c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md#concept_95121E3CF0904C2CA9606EC67C9EAA81). 
+For more information about universal links and app links, see [Universal Links and App Links](../../../c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md#concept_95121E3CF0904C2CA9606EC67C9EAA81).
 
 1. In your app, in the left navigation pane, expand **[!UICONTROL Acquisition]** and click **[!UICONTROL Marketing Link Builder]**.
 1. Complete one of the following tasks:
 
-    * To create a marketing link, click **[!UICONTROL Create New]**. 
+    * To create a marketing link, click **[!UICONTROL Create New]**.
     * To edit a link, click the link's name in the **[!UICONTROL Title]** column.
 
 1. Type information in the following fields:
 
     * **[!UICONTROL Marketing Link Name]**:
 
-      (Required) Specify a descriptive name for your marketing link. The name displays only on the [!DNL Marketing Links] page in the [!DNL Adobe Mobile Services] UI. A descriptive name helps you or others in your organization quickly find a specific link and can provide insight into its purpose. 
+      (Required) Specify a descriptive name for your marketing link. The name displays only on the [!DNL Marketing Links] page in the [!DNL Adobe Mobile Services] UI. A descriptive name helps you or others in your organization quickly find a specific link and can provide insight into its purpose.
 
     * **[!UICONTROL Unique Tracking Code]**:
 
@@ -38,7 +38,7 @@ For more information about universal links and app links, see [Universal Links a
       The following preset tags are available:
 
       * **Custom Context Data**
-        Specify the key and value. If you add custom context data, you must create a processing rule. For more information, see <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="https" scope="external"> Processing Rules</a>. --> 
+        Specify the key and value. If you add custom context data, you must create a processing rule. For more information, see <!--REKHA <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html" format="https" scope="external"> Processing Rules</a>. -->
 
       * **Source**
         Specify the original referrer, such as "newsletter" or "homepage."
@@ -54,10 +54,10 @@ For more information about universal links and app links, see [Universal Links a
 1. Click **[!UICONTROL Save]**.
 1. Type information in the following fields:
 
-    * (Required) In **[!UICONTROL Fallback URL]**, Specify the URL that users are directed to when a destination cannot be matched (for example, if the user is on a desktop or another platform that does not match a destination rule). 
+    * (Required) In **[!UICONTROL Fallback URL]**, Specify the URL that users are directed to when a destination cannot be matched (for example, if the user is on a desktop or another platform that does not match a destination rule).
     * In **[!UICONTROL Marketing Link Options]**, select **[!UICONTROL Interstitials]** or **[!UICONTROL Universal and App Links]**.
 
-      For more information, see [Interstitials](../../../acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md#task_1A4A822E89CB46E2A8943EEE384EBD23) or [Universal Links and App Links](../../../c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md#concept_95121E3CF0904C2CA9606EC67C9EAA81). 
+      For more information, see [Interstitials](../../../acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md#task_1A4A822E89CB46E2A8943EEE384EBD23) or [Universal Links and App Links](../../../c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md#concept_95121E3CF0904C2CA9606EC67C9EAA81).
 
     * (Conditional) If **[!UICONTROL Universal or App Links]** is selected, in **[!UICONTROL Custom Path]**, users can define the URL path after the domain with any query parameter. For more information, see [Universal Links and App Links](../../../c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md#concept_95121E3CF0904C2CA9606EC67C9EAA81).
 
@@ -87,15 +87,15 @@ For more information about universal links and app links, see [Universal Links a
 
    1. Click the **[!UICONTROL Destination]** icon ( ![square icon](assets/icon_square.png) ) and select one of the following destination types:
 
-       * **[!UICONTROL App Store]** 
-       * **[!UICONTROL Web Link]** 
-       * **[!UICONTROL App Deep Link]** 
+       * **[!UICONTROL App Store]**
+       * **[!UICONTROL Web Link]**
+       * **[!UICONTROL App Deep Link]**
        * **[!UICONTROL Hybrid Link]**
 
        >[!TIP]
        >
        >When you use the **[!UICONTROL Web Link]** destination type with a link to the app store, acquisition is not tracked. To track acquisitions, use the **[!UICONTROL App Store]** destination type.
 
-       For more information, see [Create New Link Destination](../../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#). 
+       For more information, see [Create New Link Destination](../../../acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md#).
 
 1. To save the marketing link, click ![elipses](assets/icon_elipses.png) and then **[!UICONTROL Save]**.

@@ -19,7 +19,7 @@ Acquisition tracking must be enabled in the SDK configuration before you can tra
    * Enable the check box
     To enable acquisition, select the check box. When you select this check box, the **[!UICONTROL Referrer Timeout]** field becomes active, and the value changes from 0 to 5.
 
-   * Enter a value in the **[!UICONTROL Referrer Timeout (seconds)]** field 
+   * Enter a value in the **[!UICONTROL Referrer Timeout (seconds)]** field
      (Optional) This field is optional if you have already enabled the **[!UICONTROL Enable]** check box. You can change the timeout value, which is specified in seconds. This setting specifies the time to wait for acquisition information before sending the First Launch hit. We recommend that you use the 5-second default value.
 
     >[!IMPORTANT]

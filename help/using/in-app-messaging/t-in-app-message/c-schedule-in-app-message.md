@@ -18,7 +18,7 @@ You can configure schedule options for in-app messages, including duration, days
 >Date ranges are defined by your time zone. Specific days and time ranges are relative to the user's device.
 
 1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
-1. Click [!DNL Schedule]. 
+1. Click [!DNL Schedule].
 1. Complete the following fields in the **[!UICONTROL Duration]** section:
 
     * **[!UICONTROL Every Day]**

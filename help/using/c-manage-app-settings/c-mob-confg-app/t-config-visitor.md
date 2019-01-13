@@ -9,7 +9,7 @@ topic: Metrics
 uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
 ---
 
-# Configure SDK ID Service Options{#configure-sdk-id-service-options}
+# Configure SDK ID Service Options {#configure-sdk-id-service-options}
 
 You can configure the Experience Cloud ID service options on the Manage App Settings page while creating a new app or editing an existing app.
 

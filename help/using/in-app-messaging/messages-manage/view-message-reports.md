@@ -13,7 +13,7 @@ uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
 
 You can view message reports for in-app and push messages.
 
-1. Click ![report icon](assets/icon_report.png) in the **[!UICONTROL Report]** column for a message. 
+1. Click ![report icon](assets/icon_report.png) in the **[!UICONTROL Report]** column for a message.
 1. (Optional) Create a sticky filter for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
 
     For more information about creating a sticky filter, see [Sticky Filter](../../usage/reports-customize/t-sticky-filter.md#task_75B0AD4D58014BB0A5A09FE1B074ECE1).
@@ -33,20 +33,16 @@ If you are viewing reports for an in-app message, the report looks similar to th
 Here is a list of the metrics that are available for in-app messages:
 
 * **[!UICONTROL Impression]**
-
-When a message is triggered.
+    When a message is triggered.
 
 * **[!UICONTROL Click through]**
-
-When a user presses the **[!UICONTROL Click Through]** button on an alert or full-screen message, and when a user opens the app from a local notification.
+    When a user presses the **[!UICONTROL Click Through]** button on an alert or full-screen message, and when a user opens the app from a local notification.
 
 * **[!UICONTROL Cancel]**
-
-When a user presses the **[!UICONTROL Cancel]** button on an alert or a full-screen message.
+    When a user presses the **[!UICONTROL Cancel]** button on an alert or a full-screen message.
 
 * **[!UICONTROL Engagement Rate]**
-
-This is a calculated metric from Adobe Analytics and is the result of the number of click throughs divided by the number of impressions.
+    This is a calculated metric from Adobe Analytics and is the result of the number of click throughs divided by the number of impressions.
 
 ## Push Messages {#section_BEAFD858CA194185B6F88903446058E9}
 
@@ -88,6 +84,7 @@ The time the message was pushed to devices from [!DNL Mobile Services].
   * The message might have failed because the push service was not configured correctly or the Mobile Services system is down.  
 
   >[!IMPORTANT]
+  >
   >If you have an unusually large number of failures, check your push services configuration. If push services appears to be configured correctly, contact Adobe Customer Care.
 
 * **[!UICONTROL Blacklisted]**

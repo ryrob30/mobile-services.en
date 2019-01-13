@@ -22,7 +22,9 @@ You can create the following types of link destinations:
 * **[!UICONTROL Web Link]**
     Web link destinations direct users to a specific URL. For example, you can direct users to a product line on an online retailer's website.  
 
-    >[!IMPORTANT]: Web link destinations are **not** tracked.
+    >[!IMPORTANT]
+    >
+    >Web link destinations are **not** tracked.
 
 * **[!UICONTROL Hybrid Link]**
     Hybrid links support iOS Universal Links or Android App Links.

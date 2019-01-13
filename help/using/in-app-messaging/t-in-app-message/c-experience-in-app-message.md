@@ -26,12 +26,14 @@ Configure experience options for in-app messages, including type (full screen, a
     * **[!UICONTROL Template ]**
       Customize a themed responsive message template for your content.
       >[!TIP]
+      >
       >This option is displayed only when you select the **[!UICONTROL Full Screen]** message type.
     * **[!UICONTROL Custom]**
       Load your custom HTML content (full screen only). You must provide a click-through link and a cancel link.
       1. Click **[!UICONTROL Browse]** and download an HTML file or drag an HTML document to the window.
       1. Click **[!UICONTROL Download Example]** to view sample custom HTML content.
       >[!TIP]
+      >
       >This option is displayed only when you select the **[!Full Screen]** message type.
 
 1. Complete the fields in the **[!UICONTROL Display]** section:
@@ -71,6 +73,7 @@ Configure experience options for in-app messages, including type (full screen, a
       Here is an example of tracking the user ID: `https://www.mysite.com?uid={userId}`.
       If the click-through URL uses `https://` or `https://`</span>`, the URL will open in the device browser outside the app. Otherwise, each platform supports schemes that allow you to open or reference your app if the app has been developed to support the custom scheme. 
       >[!TIP]
+      >
       >When you use the **[!UICONTROL Web Link]** or **[!Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked. For more information, see [Destinations](../../acquisition-main/c-create-destinations.md).
 
 1. (Optional) Preview the layout of your message by clicking following icons:

@@ -36,9 +36,9 @@ To expand, click the **[!UICONTROL +]** icon. This option displays the additiona
 
 Expanding a state is similar to a funnel.
 
-![](assets/action_paths_expand.png)
+![action path expand](assets/action_paths_expand.png)
 
-To isolate the node and show paths that come into, and go out of the selected node, click the  ![](assets/icon_focus.png) icon. In the graphic below, the following paths were completed **before** users selected a photo:
+To isolate the node and show paths that come into, and go out of the selected node, click the  ![focus icon](assets/icon_focus.png) icon. In the graphic below, the following paths were completed **before** users selected a photo:
 
 * Rotating an item 
 * Scaling an item 
@@ -52,11 +52,11 @@ Of the users who selected a photo, the following paths were completed **after** 
 * Dragging an item 
 * Scaling an item
 
-![](assets/action_paths_focus.png)
+![action path focus](assets/action_paths_focus.png)
 
 You can focus or expand multiple nodes to get a detailed view of paths users take in your app. For example:
 
-![](assets/action_paths_mult.png)
+![action path multi](assets/action_paths_mult.png)
 
 You can configure the following options for this report:
 

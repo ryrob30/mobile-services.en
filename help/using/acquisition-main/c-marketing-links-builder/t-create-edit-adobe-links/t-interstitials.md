@@ -31,7 +31,9 @@ To configure an interstitial when creating a marketing link:
         * Must contain the `%%DEST%%` and `%%FALLBACK%%` placeholders.
         * The uploaded HTML will be served in an `&lt;iframe&gt;`. 
         You must ensure that your link targets are pointing to a parent window. You may include `&lt;base target="_parent" /&gt;` in `&lt;head&gt;` or specify a target property for each `&lt;a/&gt;` individually.  
-        >[!TIP]: If you upload custom HTML, the other four options in this table will not be used unless you remove the uploaded file.
+        >[!TIP]
+        >
+        >If you upload custom HTML, the other four options in this table will not be used unless you remove the uploaded file.
 
    * **[!UICONTROL Image URL]**
     Specify the URL to an image asset.

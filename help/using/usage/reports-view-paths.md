@@ -17,7 +17,7 @@ The View Paths report, which is based on path analysis, displays a pathing chart
 >
 >The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. The **[!UICONTROL View Paths]** report allows you to see how users navigate in your app from one screen to the next. The **[!UICONTROL View Actions]** report displays the sequence of actions (events, such as clicks, selections, resizing, and so on) that users perform in your app. You can use a [funnel report](../usage/reports-funnel.md#concept_7FA67283442D428FA444B0706083F67E) to combine navigation and actions in one report.
 
-![](assets/view_paths.png)
+![view paths](assets/view_paths.png)
 
 Each node, shaped like a box, represents a state in the users' paths though an app. For example, in the illustration above, the top node represents the number of users that launched the app and navigated to the main view.
 
@@ -32,23 +32,23 @@ To expand the view, click the **[!UICONTROL +]** icon to display the additional 
 
 ![](assets/view_paths_expand.png)
 
-Click  ![](assets/icon_focus.png) to isolate the node and to show the paths that are coming into and going out of the selected node. In the illustration below, the following paths preceded users who were viewing the main view of the app:
+Click ![focus icon](assets/icon_focus.png) to isolate the node and to show the paths that are coming into and going out of the selected node. In the illustration below, the following paths preceded users who were viewing the main view of the app:
 
-* item info 
-* item selector 
-* Camera roll 
+* item info
+* item selector
+* Camera roll
 * Camera
 
-![](assets/view_paths_focus.png)
+![view path focus](assets/view_paths_focus.png)
 
 You can focus or expand multiple nodes for a detailed view of the paths that users take in your app. For example:
 
-![](assets/view_paths_mult.png)
+![view path multi](assets/view_paths_mult.png)
 
 You can configure the following options for this report:
 
 * **[!UICONTROL Time Period]**
-    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list. 
+    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list.
 * **[!UICONTROL Customize]**
     Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filter]**

@@ -13,7 +13,7 @@ uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 
 You can configure audience options for in-app messages, including view, trigger, and trait options.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**. 
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. On the [!DNL Audience] page, type information in the following fields:
 
    * **[!UICONTROL View]**
@@ -38,7 +38,7 @@ You can configure audience options for in-app messages, including view, trigger,
       >[!IMPORTANT]
       >If you select multiple triggers, for the message to display, all triggers must occur on the same hit.
 
-    * **[!UICONTROL Traits]**
+   * **[!UICONTROL Traits]**
       You can determine who should see the in-app message when it is triggered and filter (segment) the audience to hits that have specified data. For example, you can define a rule in which Points of Interest contain Denver. This filter allows you to show the message to customers that are in one of your points of interest with Denver in the name, at the trigger time.
 
 ## Additional Information about Traits and Triggers {#section_48C39EFB8CAA4F62B994FCC91DF588E6}
