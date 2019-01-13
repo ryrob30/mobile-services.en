@@ -33,7 +33,7 @@ This information can help you troubleshoot your in-app messaging issues.
   </tr> 
   <tr> 
    <td colname="col1"> <p> My local notification message in Android isn't working. </p> </td> 
-   <td colname="col2"> <p>Verify that the local notification broadcast receiver is declared in your manifest. </p> <p>For more information, see step #1 in <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/messaging.html/help/android/messaging-main/messaging/messaging.mdformat="https" scope="external"> In-App Messaging</a>.</p></td>
+   <td colname="col2"> <p>Verify that the local notification broadcast receiver is declared in your manifest. </p> <p>For more information, see step #1 in <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/messaging.html/help/android/messaging-main/messaging/messaging.html" format="https" scope="external"> In-App Messaging</a>.</p></td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Is the message live? </p> </td> 
