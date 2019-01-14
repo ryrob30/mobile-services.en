@@ -20,23 +20,25 @@ You can configure audience options for in-app messages, including view, trigger,
 
      Select the option that triggers a message to display: 
 
-      * **[!UICONTROL Always]**
+     * **[!UICONTROL Always]**
 
-        This option means that the message is displayed each time the trigger occurs.
+       This option means that the message is displayed each time the trigger occurs.
 
-      * **[!UICONTROL Once]**
+     * **[!UICONTROL Once]**
 
-        This option means that the message is displayed only the first time the trigger occurs. </p> </li>
+       This option means that the message is displayed only the first time the trigger occurs.
 
-      * **[!UICONTROL Until Click-Through]**
+     * **[!UICONTROL Until Click-Through]**
 
-        This option means that means that the message is displayed each time the trigger occurs until the user clicks through. This trigger applies only to full screen and alert messages. Most messages need to redirect or use a resource from the internet and will not display if offline. To always show the message regardless of network connectivity, select the **[!UICONTROL Show Offline]** check box.  
+       This option means that means that the message is displayed each time the trigger occurs until the user clicks through. This trigger applies only to full screen and alert messages. Most messages need to redirect or use a resource from the internet and will not display if offline. To always show the message regardless of network connectivity, select the **[!UICONTROL Show Offline]** check box.  
 
    * **[!UICONTROL Trigger]**
 
-      Select an option from the drop-down list and select a condition. For example, you could select **[!UICONTROL Launched]** from the first drop-down list and **[!UICONTROL Exists]** from the second drop-down list. You can also specify custom context data that needs to be in the triggering hit to display the message.
-      >[!IMPORTANT]
-      >If you select multiple triggers, for the message to display, all triggers must occur on the same hit.
+     Select an option from the drop-down list and select a condition. For example, you could select **[!UICONTROL Launched]** from the first drop-down list and **[!UICONTROL Exists]** from the second drop-down list. You can also specify custom context data that needs to be in the triggering hit to display the message.
+
+     >[!IMPORTANT]
+     >
+     >If you select multiple triggers, for the message to display, all triggers must occur on the same hit.
 
    * **[!UICONTROL Traits]**
       You can determine who should see the in-app message when it is triggered and filter (segment) the audience to hits that have specified data. For example, you can define a rule in which Points of Interest contain Denver. This filter allows you to show the message to customers that are in one of your points of interest with Denver in the name, at the trigger time.
