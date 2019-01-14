@@ -93,7 +93,7 @@ user-guide-title: Mobile Services User Help
    + Create push messages {#create-push-messages}
       + [Create a push message](in-app-messaging/t-create-push-message/t-create-push-message.md)
       + [Audience: Define and Configure Audience Segments for Push Messages](in-app-messaging/t-create-push-message/c-audience-push-message.md)
-      + [Experience: Push Message](in-app-messaging/t-create-push-message/c-experience--push-message.md)
+      + [Experience: Push Message](in-app-messaging/t-create-push-message/c-experience-push-message.md)
       + [Schedule: Push Message](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
       + [Troubleshooting Push Messaging](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
    + Create in-app messages {#create-inapp-messages}
