@@ -19,9 +19,11 @@ Postbacks let you send data collected by Adobe Mobile to a separate third-party 
 1. Type the following information in the fields:
 
    * **[!UICONTROL Postback Type]**
-    Choose **[!UICONTROL Custom]**. Templates will be available in the future.
+
+     Choose **[!UICONTROL Custom]**. Templates will be available in the future.
 
    * **[!UICONTROL Name]**
+
      Specify a descriptive name for the postback.
 
    * **[!UICONTROL URL]**
@@ -47,5 +49,5 @@ Postbacks let you send data collected by Adobe Mobile to a separate third-party 
 
    To activate the postback in the future, do one of the following:
 
-    * Select the checkbox next to the postback in the **[!UICONTROL Manage Postbacks]** list and click **[!UICONTROL Activate Selected]**.
-    * Click **[!UICONTROL Save & Activate]** to save your changes and immediately activate the postback.
+   * Select the checkbox next to the postback in the **[!UICONTROL Manage Postbacks]** list and click **[!UICONTROL Activate Selected]**.
+   * Click **[!UICONTROL Save & Activate]** to save your changes and immediately activate the postback.
