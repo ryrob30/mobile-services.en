@@ -6,7 +6,7 @@ title: Configure Postbacks
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
 ---
 
-# Configure Postbacks{#configure-postbacks}
+# Configure Postbacks {#configure-postbacks}
 
 Postbacks let you send data collected by Adobe Mobile to a separate third-party server. By leveraging the same triggers and traits that you use to display an in-app message, you can configure Mobile Services to send customized data to a third-party destination.
 
@@ -38,7 +38,7 @@ Postbacks let you send data collected by Adobe Mobile to a separate third-party 
     Specify the time (in seconds) to wait for the postback.
 
    * **[!UICONTROL Trigger(s)]**
-     Specify one or more data tags and conditions that trigger the postback. For example, you could choose **[!UICONTROL Crashed]** as the trigger and **[!UICONTROL Exists]** as the condition to trigger the postback when the app crashes. </p> <p>You can also specify which metrics activate the postback. For example, you can select **[!UICONTROL Device Name]** as the trigger, **[!UICONTROL Equals]**, and **[!UICONTROL iPhone 6 Plus]** as conditions to activate the postback when the app crashes on iPhone 6 Plus devices.
+     Specify one or more data tags and conditions that trigger the postback. For example, you could choose **[!UICONTROL Crashed]** as the trigger and **[!UICONTROL Exists]** as the condition to trigger the postback when the app crashes. You can also specify which metrics activate the postback. For example, you can select **[!UICONTROL Device Name]** as the trigger, **[!UICONTROL Equals]**, and **[!UICONTROL iPhone 6 Plus]** as conditions to activate the postback when the app crashes on iPhone 6 Plus devices.
 
    * **[!UICONTROL Trait(s)]**
     Specify who can see the message when it is triggered. Options include <span class="uicontrol"> Session Length</span>, <span class="uicontrol"> First Launch Date</span>, and **[!UICONTROL App ID]**.

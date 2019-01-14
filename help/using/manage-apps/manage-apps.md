@@ -13,8 +13,6 @@ uuid: 5949f549-172e-417e-b668-71fec628586a
 
 On the Manage Apps page, you can create, manage, and delete apps.
 
-Blah, blah, blah
-
 For more information, see: 
 
 * [Add a New App](/help/using/manage-apps/t-new-app.md)

@@ -100,12 +100,12 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
 
 ## Manage Points of Interest {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
-Points of Interest allow you to define geographical locations that you can use for correlation purposes, target with in-app messages, and so on. When a hit is sent in a point of interest, the point of interest is attached to the hit. For more information about points of interest, see [Manage Points of Interest](../location/t-manage-points.md#task_2F8223787D4E46CD827AFE156346ACBE).  
+Points of Interest allow you to define geographical locations that you can use for correlation purposes, target with in-app messages, and so on. When a hit is sent in a point of interest, the point of interest is attached to the hit. For more information about points of interest, see [Manage Points of Interest](../location/t-manage-points.md).  
 
 ## Manage Link Destinations {#section_F722A387E22A430187B063D358A87711}
 
-You can create, edit, archive/unarchive, and delete link destinations. These destinations can then be called inline when building marketing links, push notifications, or in-app messages. For more information about link destinations, see [Manage Link Destinations](../acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md#task_3D807CDD30964F9DB7D43AE6E720C2A8).
+You can create, edit, archive/unarchive, and delete link destinations. These destinations can then be called inline when building marketing links, push notifications, or in-app messages. For more information about link destinations, see [Manage Link Destinations](../acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md).
 
 ## Manage Postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
-Postbacks let you send data collected by Adobe Mobile to a separate third-party server. Leveraging the same triggers and traits you use to display an in-app message, you can configure Mobile to send customized data to a third-party destination. For more information about postbacks, see [Configure Postbacks](../c-manage-app-settings/c-mob-confg-app/signals.md#concept_3471F8B9625446DBAB4C6C45AE25E91D).
+Postbacks let you send data collected by Adobe Mobile to a separate third-party server. Leveraging the same triggers and traits you use to display an in-app message, you can configure Mobile to send customized data to a third-party destination. For more information about postbacks, see [Configure Postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md).

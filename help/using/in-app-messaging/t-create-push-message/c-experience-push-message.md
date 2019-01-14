@@ -36,8 +36,10 @@ You can configure experience options for push messages and rich push messages, i
 
 * **[!UICONTROL Destination]**
 
-   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](../../acquisition-main/c-create-destinations.md). 
+   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](../../acquisition-main/c-create-destinations.md). \
+
    >[!TIP]
+   >
    >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked.
 
 ## Requirements for Rich Push Notifications
@@ -56,20 +58,20 @@ Here are the requirements for sending rich push notifications:
      >* Rich push messages sent to earlier versions will still be sent but only text will be displayed.
      >* There is no watch support at this time.
 
-  * **File Formats**
+* **File Formats**
 
-     Here are the supported file formats:
-    * Images: JPG and PNG </li>
-    * Animations (iOS only): GIF
-    * Videos (iOS only): MP4 </li>
+  Here are the supported file formats:
+  * Images: JPG and PNG 
+  * Animations (iOS only): GIF
+  * Videos (iOS only): MP4 
 
-  * **URL Formats**
-    * HTTPS only
+* **URL Formats**
+  * HTTPS only
 
-  * **Sizing**
-    * Images must be in a 2:1 format or they will be cropped.
+* **Sizing**
+  * Images must be in a 2:1 format or they will be cropped.
 
-  For more information about configuring rich push notifications, see the following content:
+For more information about configuring rich push notifications, see the following content:
 
 * [Receive Push Notifications in Android](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
 * [Receive Rich Push Notifications in iOS](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)

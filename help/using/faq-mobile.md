@@ -91,7 +91,7 @@ The following table contains a list of frequently asked questions for Adobe Mobi
   </tr> 
   <tr> 
    <td colname="col1"> Do you support custom payloads for push notifications? </td> 
-   <td colname="col2"> <p>Yes, we provide for a custom push payload that may coded in JSON. Android and iOS payloads are restricted to 4KB and 2KB respectively. These payloads are sent to the app via a push or a local notification. For more information, see <a href="in-app-messaging/t-create-push-message/c-experience--push-message.md#concept_FFB89CED02B14436A2F922962FFFC040" format="dita" scope="local"> Experience: Push Message</a>. </p> </td> 
+   <td colname="col2"> <p>Yes, we provide for a custom push payload that may coded in JSON. Android and iOS payloads are restricted to 4KB and 2KB respectively. These payloads are sent to the app via a push or a local notification. For more information, see <a href="in-app-messaging/t-create-push-message/c-experience-push-message.md format="dita" scope="local"> Experience: Push Message</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Are there size limitations on in-app messages? </td> 
@@ -103,7 +103,7 @@ The following table contains a list of frequently asked questions for Adobe Mobi
   </tr> 
   <tr> 
    <td colname="col1"> What triggers can I use to send push notifications or in-app messages? </td> 
-   <td colname="col2"> <p>Marketers may choose any Analytics data or event that is being sent as a trigger to display in-app messages. In-app messages use triggers that happen locally on the device. If multiple triggers are chosen, all triggers must occur in the same hit for the message to display. For more information, see <a href="in-app-messaging/t-in-app-message/c-experience-in-app-message.md#concept_5BF20C67C4D4425C8A41CE17AB162DE4" format="dita" scope="local"> Experience: In-App Message</a>. </p> <p>Push messages are sent using pre-existing Adobe Analytics segments or custom segments that may be created on historic Analytics data already collected. For more information, see <a href="in-app-messaging/t-create-push-message/c-experience--push-message.md#concept_FFB89CED02B14436A2F922962FFFC040" format="dita" scope="local"> Experience: Push Message</a>. </p> </td> 
+   <td colname="col2"> <p>Marketers may choose any Analytics data or event that is being sent as a trigger to display in-app messages. In-app messages use triggers that happen locally on the device. If multiple triggers are chosen, all triggers must occur in the same hit for the message to display. For more information, see <a href="in-app-messaging/t-in-app-message/c-experience-in-app-message.md#concept_5BF20C67C4D4425C8A41CE17AB162DE4" format="dita" scope="local"> Experience: In-App Message</a>. </p> <p>Push messages are sent using pre-existing Adobe Analytics segments or custom segments that may be created on historic Analytics data already collected. For more information, see <a href="in-app-messaging/t-create-push-message/c-experience-push-message.md" format="dita" scope="local"> Experience: Push Message</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why am I getting an error with the in-app, push, or marketing link name that I typed? </p> </td> 
