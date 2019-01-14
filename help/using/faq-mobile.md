@@ -42,7 +42,7 @@ The Adobe Mobile SDKs use the standard iOS and Android network stacks. For iOS, 
 
 ### What are Lifecycle Metrics?
 
-Lifecycle Metrics are "out-of-the-box" metrics that are automatically collected when the SDK is first implemented in your app. For more information, see [Lifecycle Metrics](Android)[/help/android/metrics.md) and [Lifecycle Metrics (iOS)](/help/ios/metrics.md).
+Lifecycle Metrics are "out-of-the-box" metrics that are automatically collected when the SDK is first implemented in your app. For more information, see [Lifecycle Metrics (Android)](/help/android/metrics.md) and [Lifecycle Metrics (iOS)](/help/ios/metrics.md).
 
 ### How can I troubleshoot processing rules? 
 
@@ -94,7 +94,7 @@ There no specific restriction, but for ideal performance and due to memory restr
 
 ### Can I attribute campaigns to in-app activities? 
 
-Yes. Adobe Mobile Services can help you build marketing tricks that help promote and drive traffic to your apps and tie acquisition campaigns to in-app analytics and conversions. For more information, see [Acquisition](/Users/rekrishn/Documents/GitHub/mobile-services.en/help/using/acquisition-main/acquisition-main.md). 
+Yes. Adobe Mobile Services can help you build marketing tricks that help promote and drive traffic to your apps and tie acquisition campaigns to in-app analytics and conversions. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md). 
 
 ### How can I set up links to acquire and track new app users? 
 
