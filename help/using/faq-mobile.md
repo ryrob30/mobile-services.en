@@ -72,7 +72,7 @@ Published and active in-app messages created in Adobe Mobile Services are hosted
 
 ### Can I use my own HTML for in-app messages? 
 
-Yes, we support custom HTML for your in-app messages. For more information, see [Experience: In-App Message](help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
+Yes, we support custom HTML for your in-app messages. For more information, see [Experience: In-App Message](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md).
 
 ### What triggers can I use to send push notifications or in-app messages?
 
