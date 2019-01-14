@@ -26,7 +26,7 @@ You can configure experience options for push messages and rich push messages, i
 
 * **[!UICONTROL Media URL]**
 
-  Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see [Requirements for Rich Push Notifications](../../in-app-messaging/t-create-push-message/c-experience--push-message.md#table_C244F841CD724DEDA6EFEADE9F9A7F91)
+  Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see [Requirements for Rich Push Notifications](../../in-app-messaging/t-create-push-message/c-experience-push-message.md#table_C244F841CD724DEDA6EFEADE9F9A7F91)
   
    >[!IMPORTANT]
    >
