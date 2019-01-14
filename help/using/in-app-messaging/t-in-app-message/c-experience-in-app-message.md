@@ -24,14 +24,20 @@ Configure experience options for in-app messages, including type (full screen, a
          * **[!UICONTROL Local Notification]**
 
     * **[!UICONTROL Template ]**
+
       Customize a themed responsive message template for your content.
+    
       >[!TIP]
       >
       >This option is displayed only when you select the **[!UICONTROL Full Screen]** message type.
+    
     * **[!UICONTROL Custom]**
+    
       Load your custom HTML content (full screen only). You must provide a click-through link and a cancel link.
+    
       1. Click **[!UICONTROL Browse]** and download an HTML file or drag an HTML document to the window.
       1. Click **[!UICONTROL Download Example]** to view sample custom HTML content.
+    
       >[!TIP]
       >
       >This option is displayed only when you select the **[!Full Screen]** message type.
@@ -39,20 +45,25 @@ Configure experience options for in-app messages, including type (full screen, a
 1. Complete the fields in the **[!UICONTROL Display]** section:
 
     * **[!UICONTROL Theme ]**
-   Select a theme for your message.
+
+    Select a theme for your message.
 
     * **[!UICONTROL Layout]**
-   Select the app layout on the device screen.
+
+    Select the app layout on the device screen.
 
     * **[!UICONTROL Image URL]**
+
       The URL for an image. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](../../in-app-messaging/t-in-app-message/in-apps-ts.md).
 
     * **[!UICONTROL Bundled Image**]
+
       Path to an image in your app code bundle. This option is used when there is no image. or the image is unavailable. The imagine might not be available if, for example, the device is offline. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](../../in-app-messaging/t-in-app-message/in-apps-ts.md).
 
 1. Complete the fields in the **[!UICONTROL Text]** section:
 
     * **[!UICONTROL Header]**
+
       Type the text for the message's header.
 
     * **[!UICONTROL Content]**
@@ -61,17 +72,21 @@ Configure experience options for in-app messages, including type (full screen, a
 1. Complete the fields in the **[!UICONTROL Buttons]** section:
 
     * **[!UICONTROL Click-Through Button]**
+
       Label for the **[!UICONTROL Click-Through]** button. Tapping this button will count as a successful click-through. The user will be redirected to the destination.
 
     * **[!UICONTROL Destination]**
+
       Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. The redirect URL for a successful click-through. This URL might contain the following information:
-      * {userId}, which is replaced with the user identifier or is blank when the user identifier is not set.  
-      * {trackingId}, which is replaced with the aid (correlates with *s_vi* cookie).
-      * {messageId}, which is replaced with the unique ID for the in-app message.
-      * {lifetimeValue}, which is replaced with the lifetime value or 0 if no lifetime value exists.
+
+      * `{userId}`, which is replaced with the user identifier or is blank when the user identifier is not set.  
+      * `{trackingId}`, which is replaced with the aid (correlates with *s_vi* cookie).
+      * `{messageId}`, which is replaced with the unique ID for the in-app message.
+      * `{lifetimeValue}`, which is replaced with the lifetime value or 0 if no lifetime value exists.
 
       Here is an example of tracking the user ID: `https://www.mysite.com?uid={userId}`.
       If the click-through URL uses `https://` or `https://`</span>`, the URL will open in the device browser outside the app. Otherwise, each platform supports schemes that allow you to open or reference your app if the app has been developed to support the custom scheme. 
+
       >[!TIP]
       >
       >When you use the **[!UICONTROL Web Link]** or **[!Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked. For more information, see [Destinations](../../acquisition-main/c-create-destinations.md).
@@ -81,15 +96,16 @@ Configure experience options for in-app messages, including type (full screen, a
    * **[!UICONTROL x Summary}** hides the preview pane. Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL Change the orientation]**
-    To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). For watches, the orientation changes from a round watch face to a square watch face.
+
+     To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). For watches, the orientation changes from a round watch face to a square watch face.
 
    * **[!UICONTROL Preview on a user's watch]**
 
-      To preview your message as it will appear on a users's watches click ![watch icon](assets/icon_watch.png).
+     To preview your message as it will appear on a users's watches click ![watch icon](assets/icon_watch.png).
 
    * **[!UICONTROL Preview on a user's mobile phone]**
 
-      To preview your message as it will appear on a users's mobile phones click ![phone icon](assets/icon_phone.png).
+     To preview your message as it will appear on a users's mobile phones click ![phone icon](assets/icon_phone.png).
 
    * **[!UICONTROL Preview on a user's tablet]**
 
