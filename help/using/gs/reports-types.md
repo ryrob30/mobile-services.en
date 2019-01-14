@@ -9,30 +9,19 @@ topic: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 ---
 
-# Report Types{#report-types}
+# Report Types {#report-types}
 
 When customizing reports, the broad flexibility might create some questions as to the type of report that is best suited to get the data that you need.
 
- Before customizing reports, you must understand the difference between a metric and a dimension. 
+ Before customizing reports, you must understand the difference between a metric and a dimension.
 
-<table id="table_548AFD96D5724DAD9AD36B7F5317E33E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Metric </p> </td> 
-   <td colname="col2"> <p>A metric is used to measure your data. </p> <p>Metrics are values that can be counted and added and are used to see how often specific actions occur in your app. Common metrics include installs, launches, revenue, lifetime value, and logins. For example, each time your app is launched, the <span class="term"> launches</span> value is increased by one. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dimension </p> </td> 
-   <td colname="col2"> <p>A dimension is used to describe your data. </p> <p>Dimensions are represented by using a string, or a number that acts like a string (such as a postal code), and is used to organize and segment your data. Examples of common dimensions include OS version, campaign name, product name, and mobile carrier. Each dimension has a number of specific values that are associated with that dimension. For example, the OS version dimension has values such as "iOS 7" and "Android 4.1.2". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Metric
+
+  A metric is used to measure your data. Metrics are values that can be counted and added and are used to see how often specific actions occur in your app. Common metrics include installs, launches, revenue, lifetime value, and logins. For example, each time your app is launched, the _launches_value is increased by one.
+
+* Dimension
+
+  A dimension is used to describe your data. Dimensions are represented by using a string, or a number that acts like a string (such as a postal code, and is used to organize and segment your data. Examples of common dimensions include OS version, campaign name, product name, and mobile carrier. Each dimension has a number of specific values that are associated with that dimension. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
 
 Here are the types of reports that you can generate in the Mobile UI:
 
@@ -74,14 +63,14 @@ You can view the report an in-product tutorial that describes how to interact wi
 
 To start the tutorial:
 
-1. in [!DNL Manage App Settings], click **[!UICONTROL Usage]**. 
+1. in [!DNL Manage App Settings], click **[!UICONTROL Usage]**.
 
-1. Click **[!UICONTROL Technology]** > **[!UICONTROL Technology Breakdown]**. 
+1. Click **[!UICONTROL Technology]** > **[!UICONTROL Technology Breakdown]**.
 1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon  ![](assets/icon_information.png).
 
 ![](assets/report_technology.png){width="500px"}
 
-## Pathing Report {#section_AD400106BC684B50B27CCCD3F4497114}
+### Pathing Report {#section_AD400106BC684B50B27CCCD3F4497114}
 
 A Pathing report is based on path analysis and displays a pathing chart that represents paths that are taken from one state in the app to another state.
 
@@ -89,7 +78,7 @@ A Pathing report is based on path analysis and displays a pathing chart that rep
 
 Each node is shaped like a box and represents a state in the users' paths though an app. For example, in the illustration above, the top node represents the number of users that launched the app and selected a photo from the gallery.
 
-## Funnel Report {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### Funnel Report {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
 Funnel reports allow you to identify where customers abandon a marketing campaign or divert from a defined conversion path while interacting with your mobile app. You can also use the Funnel report to compare the actions of different segments.
 

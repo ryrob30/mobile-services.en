@@ -36,9 +36,9 @@ To expand, click the **[!UICONTROL +]** icon. This option displays the additiona
 
 Expanding a state is similar to a funnel.
 
-![](assets/action_paths_expand.png)
+![action path expand](assets/action_paths_expand.png)
 
-To isolate the node and show paths that come into, and go out of the selected node, click the  ![](assets/icon_focus.png) icon. In the graphic below, the following paths were completed **before** users selected a photo:
+To isolate the node and show paths that come into, and go out of the selected node, click the  ![focus icon](assets/icon_focus.png) icon. In the graphic below, the following paths were completed **before** users selected a photo:
 
 * Rotating an item 
 * Scaling an item 
@@ -52,38 +52,19 @@ Of the users who selected a photo, the following paths were completed **after** 
 * Dragging an item 
 * Scaling an item
 
-![](assets/action_paths_focus.png)
+![action path focus](assets/action_paths_focus.png)
 
 You can focus or expand multiple nodes to get a detailed view of paths users take in your app. For example:
 
-![](assets/action_paths_mult.png)
+![action path multi](assets/action_paths_mult.png)
 
 You can configure the following options for this report:
 
-<table id="table_1F79804A6A0240A98CB73A6EBE7F1068"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Time Period</span> </p> </td> 
-   <td colname="col2"> <p>Click the <span class="uicontrol"> Calendar</span> icon to select a custom period or to select a preset time period from the drop-down list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Customize</span> </p> </td> 
-   <td colname="col2"> <p>Customize your reports by changing the <span class="uicontrol"> Show By</span> options, adding metrics and filters, and adding additional series (metrics), and more </p> <p>For more information, see <a href="../usage/reports-customize/reports-customize.md#concept_ED099E16594044E69FFD91829F436907" format="dita" scope="local"> Customize Reports</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Filter</span> </p> </td> 
-   <td colname="col2"> <p>Click <span class="uicontrol"> Filter</span> to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. </p> <p>For more information, see <a href="../usage/reports-customize/t-sticky-filter.md#task_75B0AD4D58014BB0A5A09FE1B074ECE1" format="dita" scope="local"> Add Sticky Filter</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Download</span> </p> </td> 
-   <td colname="col2"> <p>Click <span class="uicontrol"> PDF</span> or <span class="uicontrol"> CSV</span> to download or open documents and share with users who do not have access to Mobile Services or to use it in presentations. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+* **[!UICONTROL Time Period]**
+    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list. 
+* **[!UICONTROL Customize]**
+    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md).
+* **[!UICONTROL Filter]**
+    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](../usage/reports-customize/t-sticky-filter.md).
+* **[!UICONTROL Download]**
+    Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.

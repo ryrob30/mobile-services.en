@@ -53,7 +53,7 @@ For additional information about messaging, see the following links:
 * [View Message Reports](/help/using/in-app-messaging/messages-manage/view-message-reports.md)
 * [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md)
 * [Audience: Define and Configure Audience Segments for Push Messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)
-* [Experience: Push Message](/help/using/in-app-messaging/t-create-push-message/c-experience--push-message.md)
+* [Experience: Push Message](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)
 * [Schedule: Push Message](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
 * [Troubleshooting Push Messaging](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
 * [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)
