@@ -22,14 +22,14 @@ Your [!UICONTROL] Adobe Analytics Company must be [!UICONTROL] Experience Cloud 
 * **Install the Mobile SDK**
     The Push Messaging feature requires that you download and install the appropriate 4.6 (or later) Mobile SDK.
 
-    For more information, see [Download the SDKs.](../../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
+    For more information, see [Download the SDKs](../../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md).
 
 * **Configure Push Services**
 
     You must configure push services in the Mobile SDK.
     For more information, see the following content:
-      *   [Android: Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md)
-      *   [iOS: Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      *   [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md)
+      *   [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 ## Log in to the Mobile Core Service using your Adobe ID
 

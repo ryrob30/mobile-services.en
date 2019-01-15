@@ -14,7 +14,7 @@ In Adobe Analytics, you can manage roles on the Admin Tools Home page.
 
 The following roles manage permissions in the Mobile Services UI:
 
-**Analytics Admin**
+### Analytics Admin
 
 An Analytics Admin manages user groups and assigns permissions, one of which is the Mobile App Admin. The Experience Cloud Admin links your Adobe ID to your Adobe Analytics account, which allows you to log in to the Mobile Services UI by using your Adobe ID. For more information about the Experience Cloud Administrator, see [Administration - User Management and FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
@@ -26,10 +26,11 @@ For more information about this role, see the following content:
 
 * [Users]
 <!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html) --> 
+
 * [User and Group permission changes]
 <!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html) -->
 
-**Mobile App Admin**
+### Mobile App Admin
 
 This role is the Admin for the Mobile Services UI.
 
@@ -41,11 +42,11 @@ This role is the Admin for the Mobile Services UI.
 
 Here is some additional information about accessing options in the Mobile Services UI:
 
-**Apps and Report Suites**
+### Apps and Report Suites
 
 All Mobile Service apps are tied to report suites. If users do not have access to a report suite, they will not have access to that report suite's associated app.
 
-**Mobile Services and Analytics Features**
+### Mobile Services and Analytics Features
 
 If your company does not have an Analytics contract to access a feature in the UI, such as Push Messaging, no user in your company will have access to that feature, regardless of permission level.
 
@@ -53,10 +54,10 @@ If your company does not have an Analytics contract to access a feature in the U
 
 Here are the roles in the Mobile Services UI, with their relevant permissions:
 
-**Analytics Admin**
+### Analytics Admin
 
-* All User & Mobile App Admin Permissions 
-* Create App with new report suite 
+* All User & Mobile App Admin Permissions
+* Create App with new report suite
 * Delete App from Mobile Services
 
   >[!IMPORTANT]
@@ -65,41 +66,39 @@ Here are the roles in the Mobile Services UI, with their relevant permissions:
 
 * Manage App Settings
 
-    * Enable Lifecycle Reporting 
-    * Enable Location Reporting
+  * Enable Lifecycle Reporting
+  * Enable Location Reporting
 
-**Mobile App Admin**
+### Mobile App Admin
 
-* All User Permissions 
-* Create App with existing report suite 
+* All User Permissions
+* Create App with existing report suite
 * Manage App Settings
 
-    * Configure App's Mobile SDK options 
-    * Configure App's UI settings 
-    * Configure linked App Store apps 
-    * Configure App's Universal Link options 
-    * Configure Push Services certs and API keys 
-    * Create/Update/Activate/Deactivate/Duplicate/Archive/Delete Postbacks 
-    * Create/Update/Archive/Delete Link Destinations
+  * Configure App's Mobile SDK options
+  * Configure App's UI settings
+  * Configure linked App Store apps
+  * Configure App's Universal Link options
+  * Configure Push Services certs and API keys
+  * Create/Update/Activate/Deactivate/Duplicate/Archive/Delete Postbacks
+  * Create/Update/Archive/Delete Link Destinations
 
-* Create/Update/Archive Marketing Links 
-* Create/Import/Update/Delete Legacy Acquisition Links 
-* Create/Import/Update/Delete Places (Points of Interest) configuration 
-* Create/Update/Send/Schedule/Cancel/Duplicate/Archive/Delete Push Messages 
+* Create/Update/Archive Marketing Links
+* Create/Import/Update/Delete Legacy Acquisition Links
+* Create/Import/Update/Delete Places (Points of Interest) configuration
+* Create/Update/Send/Schedule/Cancel/Duplicate/Archive/Delete Push Messages
 * Create/Update/Activate/Deactivate/Duplicate/Archive/Delete In-App Messages
 
 For more information about groups and users, see:
 
-* [User group settings]
-<!--REKHA: (https://docs-author-stg.corp.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) --> 
-* [Add a user to a group]
-<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html) -->
+* [User group settings](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
+* [Add a user to a group](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
-**Mobile Services User**
+### Mobile Services User
 
 This role has view-only permissions and can provide feedback in the Mobile Services UI.
 
-* Provide Feedback on Mobile Services UI 
+* Provide Feedback on Mobile Services UI
 * View Apps
 
   >[!IMPORTANT]
@@ -108,16 +107,15 @@ This role has view-only permissions and can provide feedback in the Mobile Servi
 
 * View App Settings
 
-    * Download App SDK configuration 
-    * View all UI and SDK settings 
-    * View Variables & Metrics configuration 
-    * View Postbacks 
-    * View Link Destinations
+  * Download App SDK configuration
+  * View all UI and SDK settings
+  * View Variables & Metrics configuration
+  * View Postbacks 
+  * View Link Destinations
 
-* View & Run Reports 
-* View Marketing Links 
-* View & Export Legacy Acquisition Links 
-* View & Export Places (Points of Interest) configuration 
-* View Push Messages 
+* View & Run Reports
+* View Marketing Links
+* View & Export Legacy Acquisition Links
+* View & Export Places (Points of Interest) configuration
+* View Push Messages
 * View In-App Messages
-

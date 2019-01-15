@@ -23,10 +23,10 @@ The appFigures data connector integration combines the power of the appFigures i
 * Key benefits and features of the integration 
 * Implementing the integration, including:
 
-    * Adobe Analytics requirements 
-    * appFigures requirements 
-    * Pricing 
-    * Analytics integration variables
+  * Adobe Analytics requirements 
+  * appFigures requirements 
+  * Pricing 
+  * Analytics integration variables
 
 * Configuring the integration 
 * Metrics and dimensions that are included in the integration 

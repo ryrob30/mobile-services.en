@@ -26,14 +26,14 @@ Today, the mobile app landscape is dramatically different from when the smart ph
 
 The Mobile Services UI is supported on the following browsers:
 
-* Google Chrome (the latest two versions) 
-* Mozilla Firefox (the latest two versions) 
-* Apple Safari (the latest two versions) 
+* Google Chrome (the latest two versions)
+* Mozilla Firefox (the latest two versions)
+* Apple Safari (the latest two versions)
 * Microsoft Edge (the latest two versions)
 
 Adobe Mobile Services helps drive mobile app engagement in the following way:
 
-**Acquire**
+### Acquire
 
 In *Acquire*, you use paid, owned, and earned media to drive user acquisition for app downloads across the leading app stores. Using Adobe Mobile Services, you can accelerate the app user acquisition process.
 
@@ -50,7 +50,7 @@ Acquisition offers the following key features:
 
 For more information about this phase, see [Acquisition](../acquisition-main/acquisition-main.md#concept_542D3F9599614CB89ACF558683E9D34B).
 
-**Analyze**
+### Analyze
 
 In *Analyze*, you can understand how consumers are using the mobile app and what makes them convert or come back.
 
@@ -68,7 +68,7 @@ You can use Adobe Audience Manager to enrich your audience segments with rich da
 
 For more information about the reports you can run and analyze your customers, see [Reports](../usage/usage.md#concept_3E360F0C43EE429CA282A30D2FC65CDB).
 
-**Engage**
+### Engage
 
 In *Engage*, you can use relevant push notifications and in-app messages to communicate with your users. With targeted push notifications and in-app messaging, you can ensure that users continue to return to your app. With support for segments from Analytics, you can target your push notifications to user segments that will respond and increase their propensity to convert.
 
@@ -78,7 +78,7 @@ In *Engage*, you can use relevant push notifications and in-app messages to comm
 * In-app messages are triggered by real-time analytics, alerts, and new offers/content. 
 * Understand views, click-through rates, and downstream behavior
 
-**Adobe Mobile Messaging**
+### Adobe Mobile Messaging
 
 You can use push and in-app notifications to communicate with your users. Push notifications are sent via the operating system on the device, while in-app messages are sent in the app when a user is actively interacting with the app. In-app messages can typically include a variety of additional formats like pop-ups and interstitials.
 
@@ -103,13 +103,13 @@ For more information about creating push notifications, see [Create a push messa
 
 For more information about creating in-app messages, see [Create an in-app message](../in-app-messaging/t-in-app-message/t-in-app-message.md#task_C45D2BCC35324B4987B9BDC391B6F569).
 
-**Optimize**
+### Optimize
 
 In *Optimize*, you can optimize conversions (subscriptions, commerce, ad revenue, and so on) and improve customer retention. Optimizing the user experience in your app can help you personalize your content to drive maximum ROI and conversion.
 
 For more information about testing and Adobe Target, go to [Adobe Target]<!--rekha(https://docs.adobe.com/content/help/en/target/using/target-home.html)-->.
 
-**Geo-Targeting**
+### Geo-Targeting
 
 A mobile device allows you to inherently know where a consumer is as they engage with your app or have it running in the background through GPS location. With geo-targeting, Adobe Target enables you to deliver tailored, relevant content, offers, or messages at a time where proximity matters. You can target users who are within a defined radius of a point of interest or when they are in proximity to iBeacons and with relevant push notifications.
 
@@ -117,9 +117,9 @@ Adobe Target for Mobile apps now takes full advantage of the enhanced segmentati
 
 For more information about location, see the following content:
 
-* [Location](../location/c-location-overview.md) in the user’s guide. 
-* [Location](/help/android/location/location.md) in the Android SDK guide 
-* [Location](/help/ios/location/location.md) in the iOS SDK guide
+* [Location in the Mobile Services user's guide](../location/c-location-overview.md)
+* [Location in the Android SDK guide](/help/android/location/location.md)
+* [Location in the iOS SDK guide](/help/ios/location/location.md)
 
 ## Adobe Mobile SDK {#section_5D4E1915B81B41C1A26740808DB95782}
 
@@ -129,30 +129,30 @@ The Adobe Mobile SDK offers the following features:
 
 * End-to-end mobile engagement
 
-  You can measure and optimize apps across platforms with one, lightweight, and integrated Adobe Mobile SDK. 
+  You can measure and optimize apps across platforms with one, lightweight, and integrated Adobe Mobile SDK.
 * Acquire new customers and deliver engaging micro moments
 
-    * Bring users back to your app again and again through targeted push notifications, including support for rich media, and in-app messaging. 
-    * Use deep-linking to drive app users directly into the content you want them.
+  * Bring users back to your app again and again through targeted push notifications, including support for rich media, and in-app messaging. 
+  * Use deep-linking to drive app users directly into the content you want them.
 
 * Measure and optimize experiences to drive ROI
 
-  You can gain insight into app lifecycle metrics including funnel analysis (downloads, installs, opens), actions including session length, crashes, beacons, and messaging interactions. 
+  You can gain insight into app lifecycle metrics including funnel analysis (downloads, installs, opens), actions including session length, crashes, beacons, and messaging interactions.
 * Comprehensive
 
-    * Broad support for leading mobile operating systems and cross platform development tools. 
-    * Extensive device support across smartphones, tablets, wearables, and OTT (over-the-top) consoles.
+  * Broad support for leading mobile operating systems and cross platform development tools.
+  * Extensive device support across smartphones, tablets, wearables, and OTT (over-the-top) consoles.
 
 * Integrated
 
-    * One SDK for multiple solutions (Analytics, Campaign, and Audience Manager), which reduces implementation time and effort for developers. 
-    * Only one line of code is required for collecting the “baseline” app lifecycle metrics. 
-    * As you evolve your mobile strategy, you can easily activate Adobe Experience Cloud capabilities to acquire, analyze, and engage users.
+  * One SDK for multiple solutions (Analytics, Campaign, and Audience Manager), which reduces implementation time and effort for developers. 
+  * Only one line of code is required for collecting the “baseline” app lifecycle metrics.
+  * As you evolve your mobile strategy, you can easily activate Adobe Experience Cloud capabilities to acquire, analyze, and engage users.
 
 * Fast and Lightweight
 
-    * Minimizes device processing load for sending data to Adobe servers and third-party systems. 
-    * Small footprint minimizes the size of the app package that is submitted to app stores.
+  * Minimizes device processing load for sending data to Adobe servers and third-party systems. 
+  * Small footprint minimizes the size of the app package that is submitted to app stores.
 
 For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions]
 <!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) --> and [iOS SDK 4.x for Experience Cloud Solutions]
@@ -160,7 +160,7 @@ For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Exper
 
 ## Additional Information
 
-This section also contains the following information: 
+This section also contains the following information:
 
 * [Roles and Permissions](/help/using/gs/c-mob-roles-and-permissions.md)
 * [Signing In](/help/using/gs/gs-signin.md)

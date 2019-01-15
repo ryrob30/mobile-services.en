@@ -11,7 +11,7 @@ uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 
 # Download Mobile SDKs and Tools{#download-mobile-sdks-and-tools}
 
-This informaton helps you download the Mobile Services SDKs and tools.
+This information helps you download the Mobile Services SDKs and tools.
 
 ## App SDK Downloads {#section_F647A95C96B0439BA276781E0C97C689}
 

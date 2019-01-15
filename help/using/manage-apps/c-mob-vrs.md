@@ -6,7 +6,7 @@ title: Virtual Report Suites
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
 ---
 
-# Virtual Report Suites{#virtual-report-suites}
+# Virtual Report Suites {#virtual-report-suites}
 
 A virtual report suite (VRS) is a report suite that is created by applying one or more segment definition to a report suite. This allows users to maintain their data in one report suite but manage the data as if it were in separate report suites.
 
@@ -14,13 +14,13 @@ Apps that use VRSs do the same thing as apps that use a regular report suite,exc
 
 * Processing rules 
 * evars/props/listvars/events 
-* Timestamp enabled option 
+* Timestamp-enabled option 
 * Dimension flags (lifecycle, location, and so on) 
 * Classifications
 
 These values are managed in the parent report suite and are shared with the VRSs that belong to the same parent report suite.
 
-The following areas can be accessed in the Adobe Mobile Services UI, independent of the parent report suite:
+The following areas can be accessed in the [!UICONTROL] Adobe Mobile Services UI, independent of the parent report suite:
 
 * The config file 
 * Manage Points of Interest 
@@ -43,18 +43,15 @@ A VRS can help you achieve the following tasks:
 
   The regional team builds their app by using the config file from the VRS. The data will be sent to the parent report suite, but in-app/push messaging, location POIs, acquisition, and postbacks are controlled in the app that was created from the VRS.
 
-## Create a Virtual Report Suite in Adobe Analytics {#section_D56B90B2653847D68ECA1F9B39204330}
+## Create a virtual report suite in Adobe Analytics {#section_D56B90B2653847D68ECA1F9B39204330}
 
 >[!IMPORTANT]
 >
->Only Adobe Analytics admins can create and modify virtual report suites in Adobe Analytics.
+>Only Adobe Analytics admins can create and modify virtual report suites in Adobe Analytics. To create a virtual report suite, see [Create virtual report suites](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html).
 
-To create a virtual report suite, see [Create virtual report suites]
-<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)-->.
+Each VRS has a unique ID. To view the parent report suite ID in [!UICONTROL]Adobe Mobile Services UI, on [!DNL Manage App Settings], click **[!UICONTROL More Details]** in the **[!UICONTROL App Information]** section.
 
-Each VRS has a unique ID. To view the parent report suite ID in Adobe Mobile Services UI, on [!DNL Manage App Settings], click **[!UICONTROL More Details in the App Information]** section.
-
-In the Adobe Mobile Services UI, you can use a VRS to create an app and segment data to a specific group in your organization. This way, for example, a business user in Spain cannot see the data that is relevant to a business user in Japan.
+In the [!UICONTROL]Adobe Mobile Services UI, you can use a VRS to create an app and segment data to a specific group in your organization. This way, for example, a business user in Spain cannot see the data that is relevant to a business user in Japan.
 
 >[!TIP]
 >
@@ -64,7 +61,7 @@ A VRS is a server-side segment definition that is attached to a parent report su
 
 ## Virtual Report Suite in Adobe Mobile Services and Data Collection {#section_8ED8FBA5B44044D9ABC2151A39C577D4}
 
-In the Adobe Mobile Services, you can create an app based on a parent report suite or a virtual report suite. When creating an app based on a virtual report suite, we recommend that you align the VRS segment with the definition of the app.
+In the [!UICONTROL] Adobe Mobile Services, you can create an app based on a parent report suite or a virtual report suite. When creating an app based on a virtual report suite, we recommend that you align the VRS segment with the definition of the app.
 
 >[!TIP]
 >
@@ -74,7 +71,7 @@ To ensure that your push messages are sent correctly, the audience segment must 
 
 ## Understanding Time Zones {#section_498E1EED22D741C3BDED44F01FACA72A}
 
-The time zone property on the Manage App Settings page in the Adobe Mobile Services UI is different from the time zone property that you use to create the VRS in Adobe Analytics. The property on the Manage App Settings page is inherited from the parent report suite, which is used to send data to Adobe Analytics. The property that you specify when you create the VRS in Adobe Analytics is used to display the reports in Adobe Mobile Services UI and could be different than the parent report suite.
+The time zone property on the Manage App Settings page in the [!UICONTROL]Adobe Mobile Services UI is different from the time zone property that you use to create the VRS in [!UICONTROL]Adobe Analytics. The property on the Manage App Settings page is inherited from the parent report suite, which is used to send data to [!UICONTROL]Adobe Analytics. The property that you specify when you create the VRS in Adobe Analytics is used to display the reports in [!UICONTROL]Adobe Mobile Services UI and could be different than the parent report suite.
 
 ## Select a Virtual Report Suite in the Mobile Services UI {#section_3212D0FC01FD43DCAF30FBAA354CD6E4}
 
@@ -233,10 +230,7 @@ Here are the properties for VRSs:
 
 ## Additional Information {#section_4C4446F1FBE64F659BC0A2362C9F3E59}
 
-Here is some additional information from the Adobe Analytics documentation:
+Here is some additional information about virtual report suites:
 
-* For more information about VRSs, see [Virtual Report Suites]
-<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-about.html)-->. 
-* For more information about planning a VRS implementation, see [Virtual report suite workflow]
-<!--REKHA: (https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html)-->.
-
+* For more information about VRSs, see [Virtual Report Suites](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-about.html).
+* For more information about planning a VRS implementation, see [Virtual report suite workflow](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html).
