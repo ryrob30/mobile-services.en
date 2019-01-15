@@ -22,9 +22,9 @@ Before you can configure your app, you must add it in the [!DNL Adobe Mobile Ser
     * Click **[!UICONTROL Create New]** to create an app. 
     * To add additional apps, click [!DNL Manage Apps] in the left navigation menu, then click **[!UICONTROL Add]**.
 
-       >[!TIP]
-       >
-       >To manage existing apps, click [!DNL Manage Apps] in the left navigation menu and click the app that you want to modify. You can make changes on the [!DNL App Information] page.
+      >[!TIP]
+      >
+      >To manage existing apps, click [!DNL Manage Apps] in the left navigation menu and click the app that you want to modify. You can make changes on the [!DNL App Information] page.
 
 1. Type information in the following fields:
 

@@ -15,13 +15,13 @@ You can configure the SDK Acquisition options on the Manage App Settings page wh
 
 1. Type information in the following fields under **[!UICONTROL SDK Acquisition Options]**:
 
-   * **[!UICONTROL Enable]**
+    * **[!UICONTROL Enable]**
 
       Create app store links that allow you to download applications directly from the Apple App Store and Google Play. The links you create help you attribute your success events to the downloads. For more information, see [Acquisition](../../acquisition-main/acquisition-main.md).
 
-   * **[UICONTROL Referrer Timeout (Seconds)]**
+    * **[UICONTROL Referrer Timeout (Seconds)]**
 
-     Specify the referrer timeout value. The default is 5 seconds. This value specifies the number of seconds to wait for acquisition information before sending the First Launch hit.
+      Specify the referrer timeout value. The default is 5 seconds. This value specifies the number of seconds to wait for acquisition information before sending the First Launch hit.
 
-   * **[!UICONTROL More Details]**
-     Click the **[!UICONTROL More Details]** ink to view the app's Tracking ID.
+    * **[!UICONTROL More Details]**
+      Click the **[!UICONTROL More Details]** link to view the app's Tracking ID.

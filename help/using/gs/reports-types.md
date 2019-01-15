@@ -66,7 +66,7 @@ To start the tutorial:
 1. in [!DNL Manage App Settings], click **[!UICONTROL Usage]**.
 
 1. Click **[!UICONTROL Technology]** > **[!UICONTROL Technology Breakdown]**.
-1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon  ![](assets/icon_information.png).
+1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.
 
 ![](assets/report_technology.png){width="500px"}
 

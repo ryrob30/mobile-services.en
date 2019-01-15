@@ -31,14 +31,14 @@ For example you can filter the data by App Version and by Device Type.
 
 To create a filter:
 
-1. Click the **[!UICONTROL Filter]** icon to display the **[!UICONTROL Sticky Filter]** dialog box. 
+1. Click the **[!UICONTROL Filter]** icon to display the **[!UICONTROL Sticky Filter]** dialog box.
 1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
 
-   For example, you might select **[!UICONTROL App Version]** and type `4.5` for the version. You could select **[!UICONTROL Device Type]** and type `Android`.
+    For example, you might select **[!UICONTROL App Version]** and type `4.5` for the version. You could select **[!UICONTROL Device Type]** and type `Android`.
 
-   >[!TIP]
-   >
-   >You can create complex filters by using *AND* and *OR* statements.
+    >[!TIP]
+    >
+    >You can create complex filters by using *AND* and *OR* statements.
 
 1. Click **[!UICONTROL Update]**.
 
@@ -50,14 +50,13 @@ To cancel filters, click the **[!UICONTROL Filter]** icon, and click **[!UICONTR
 
 ## Display Key Performance Indicators {#section_44EFF65D62DC43BB8371EA5965942CED}
 
-Click the name of the app to display details about the key performance indicators. The lines on the chart are color coded, and you can mouse over the data point to display the statistics for specific dates. To drill down, click the **[!UICONTROL >]** icon next to **[!UICONTROL Key Performance Indicator]**s. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Click a column header in the table to sort the data in ascending or descending order.
+Click the name of the app to display details about the key performance indicators. The lines on the chart are color coded, and you can mouse over the data point to display the statistics for specific dates. To drill down, click the **[!UICONTROL >]** icon next to **[!UICONTROL Key Performance Indicators]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Click a column header in the table to sort the data in ascending or descending order.
 
 ## Edit an App's Settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
 1. Click the gear icon in any app's tile to open the [!DNL App Information] page. 
 1. Edit the app's settings.
 
-   For more information about each setting, see [Configuring your App](../../c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md#concept_4C07DC7208074BAF9DD19BFF8E1ECE73). 
+    For more information about each setting, see [Configuring your App](../../c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md#concept_4C07DC7208074BAF9DD19BFF8E1ECE73).
 
 1. Click **[!UICONTROL Save]**.
-
