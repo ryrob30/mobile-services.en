@@ -49,12 +49,12 @@ The following method must be called once in the `onCreate` method of your main a
       Config.registerAdobeDataCallback(new Config.AdobeDataCallback() {
         @Override
         public void call(Config.MobileDataEvent event, Map<String, Object> contextData) {
-        // handle each event type accordingly 
-        if (event == Config.MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL) {
-          // do something with acquisition data found in contextData parameter
-          HashMap&lt;String, Object&gt; acquisitionData = new HashMap&lt;String, Object&gt;(contextData);            ...
+            // handle each event type accordingly 
+            if (event == Config.MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL) {
+                 // do something with acquisition data found in contextData parameter
+                 HashMap<String, Object> acquisitionData = new HashMap<String, Object>(contextData);            ...
+            }
         }
-      }
     });
     ```
 * `getVersion`
@@ -62,12 +62,12 @@ The following method must be called once in the `onCreate` method of your main a
   * Here is the syntax for this method:
 
     ```java
-      public static String getVersion();
+    public static String getVersion();
       ```
   * Here is a code example for this method:
 
     ```java
-      String libraryVersion = Config.getVersion(); 
+    String libraryVersion = Config.getVersion(); 
     ``` 
 * `getPrivacyStatus`
   * Returns the enum representation of the privacy status for current user.
@@ -82,13 +82,13 @@ The following method must be called once in the `onCreate` method of your main a
   * Here is the syntax for this method:
 
       ```java
-        public static MobilePrivacyStatus getPrivacyStatus(); 
+      public static MobilePrivacyStatus getPrivacyStatus(); 
         ```
   * Here is a code sample for this method:
 
       ```java
-      MobilePrivacyStatus privacyStatus Config.getPrivacyStatus();
-       ```
+    MobilePrivacyStatus privacyStatus Config.getPrivacyStatus();
+     ```
 * `setPrivacyStatus`
   * Sets the privacy status for the current user to `status`. 
   
@@ -106,7 +106,7 @@ The following method must be called once in the `onCreate` method of your main a
   * Here is a code sample for this method:
 
     ```java
-      Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
+    Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
     ```
 * `getLifetimeValue`
   * Returns the lifetime value of the current user. The default value is `0`. 
@@ -114,13 +114,13 @@ The following method must be called once in the `onCreate` method of your main a
   * Here is the syntax for this method:
 
     ```java
-      public static BigDecimal getLifetimeValue();
+    public static BigDecimal getLifetimeValue();
       ```
   
   * Here is a code sample for this method:
 
     ```java
-      BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
+    BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
     ```
 * `getUserIdentifier`
   * If a custom identifier has been set, the custom user identifier is returned. If a custom identifier has not been set, it returns `null`. The default value is `null`. 
@@ -131,12 +131,13 @@ The following method must be called once in the `onCreate` method of your main a
 
   * Here is the syntax for this method: 
     ```java
-      public static String&amp getUserIdentifier();
+    public static String&amp getUserIdentifier();
       ```
   * Here the code sample for this method:
     ```java
-    String userId = Config.getUserIdentifier(); 
+    String userId = Config.getUserIdentifier();
     ```
+
 * `setUserIdentifier` 
   * Sets the user identifier to `identifier`. 
   * Here is the syntax for this method:
@@ -146,14 +147,14 @@ The following method must be called once in the `onCreate` method of your main a
   * Here is the code sample for this method:
     ```java
     Config.setUserIdentifier("billybob"); 
-      ```
+    ```
 * `getDebugLogging`
   * Returns the current debug logging preference. The default value is `false`.
   * Here is the syntax for this method:
   
     ```java
     public static Boolean getDebugLogging(); 
-      ```
+    ```
 
   * Here is the code sample for this method:
     ```java
@@ -188,7 +189,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     @Override
     public  void  onResume()  {
-      HashMap&lt;String, Object&gt; contextData = new HashMap&lt;String, Object&gt;();
+      HashMap<String, Object> contextData = new HashMap<String, Object>();
       contextData.put("myapp.category", "Game");        Config.collectLifecycleData(this, contextData);} 
     ```
   * `collectLifecycleData (Activity activity)`
@@ -218,14 +219,14 @@ The following method must be called once in the `onCreate` method of your main a
     @Override
     protected void onPause() {
       super.onPause();
-      Config.pauseCollectingLifecycleData();} 
+      Config.pauseCollectingLifecycleData();
+    } 
     ```
 * `setSmallIconResourceId(int resourceId)`
   * (**Version 4.2 or later**</b>**) Sets the small icon that will be used for notifications that were created by the SDK. This icon will appear in the status bar and will be the secondary image that is displayed when the user sees the complete notification in the notification center.
   * Here is the syntax for this method:
     ```java
-    public static void
-    setSmallIconResourceId(final int resourceId); 
+    public static void setSmallIconResourceId(final int resourceId); 
     ```
   * Here is the code sample for this method:
     ```java
@@ -245,26 +246,27 @@ The following method must be called once in the `onCreate` method of your main a
   * (**Version 4.2 or later**) Allows you to load a different ADBMobile JSON config file when the application starts. The different configuration is used until the application is closed. 
   * Here is the syntax for this method:
     ````java
-    public static void overrideConfigStream(final InputStream& configInput);
+    public static void overrideConfigStream(final InputStream configInput);
     ```
   * Here is the code sample for this method: 
     ```java
      try {
         InputStream configInput = getAssets().open("ExampleJSONFile.json") 
-        Config.overrideConfigStream(configInput) } catch (IOException ex) { 
-          //do something with the exception if needed
+        Config.overrideConfigStream(configInput)
+        } catch (IOException ex) { 
+        //do something with the exception if needed
     }
     ``` 
 * `setPushIdentifier`
   * Sets the device token for push notifications. 
   * Here is the syntax for this method:
     ```java
-    public static void setPushIdentifier(final String&amp; registrationId); 
+    public static void setPushIdentifier(final String registrationId); 
     ```
   * Here is the code sample for this method:
     ```java
     ...// note the code to retreive the push token must run in the background
-    InstanceID instanceID= InstanceID.getInstance(getApplicationContext());String& token=instanceID.getToken("835015092242", GoogleCloudMessaging.INSTANCE_ID_SCOPE,&nbsp;null);Config.setPushIdentifier(token);
+    InstanceID instanceID= InstanceID.getInstance(getApplicationContext());String token=instanceID.getToken("835015092242", GoogleCloudMessaging.INSTANCE_ID_SCOPE null);Config.setPushIdentifier(token);
     ...
     ```
 * `submitAdvertisingIdentifierTask`
@@ -273,34 +275,39 @@ The following method must be called once in the `onCreate` method of your main a
     >[!IMPORTANT]
     > 
     >If you want to use the Advertising Identifier in Acquisition or Lifecycle, call it before calling `Config.collectLifecycleData`.
+
     * Here is the syntax for this method:
       ```java
       public static void submitAdvertisingIdentifierTask(final Callable<String> task); 
       ```
     * Here is the code sample for this method:
+  
     ```java
     @Override
     public void  onResume() {
-       super.onResume();
-
-       final  Callable<String>; task = new  Callable<String>()  {
-           @Override
-           public String call() throws Exception {                AdvertisingIdClient.Info  idInfo;                  String adid = null;                           Context appContext = CLASSNAME.this.getApplicationContext();
-           try  {
-                 idInfo =  AdvertisingIdClient.getAdvertisingIdInfo(appContext);
-                 if  (idInfo != null) {                          adid = idInfo.getId();
-                 } 
-             } catch  (Exception ex) {                            Log.e("Error",  ex.getLocalizedMessage());
-             }
-
-             return  adid;
-           }
-      };
-
-     Config.submitAdvertisingIdentifierTask(task); 
-     Config.collectLifecycleData(this);
+        super.onResume();
+        final  Callable<String>; task = new Callable<String>(){
+            @Override
+             public String call() throws Exception {
+                AdvertisingIdClient.Info idInfo;
+                String adid = null;
+                Context appContext = CLASSNAME.this.getApplicationContext();
+                try {
+                    idInfo = AdvertisingIdClient.getAdvertisingIdInfo(appContext);
+                    if (idInfo != null) { 
+                        adid = idInfo.getId();
+                    } 
+                } catch  (Exception ex) {
+                    Log.e("Error",  ex.getLocalizedMessage());
+                }
+                return  adid;
+            }
+         };
+         Config.submitAdvertisingIdentifierTask(task); 
+         Config.collectLifecycleData(this);
     }
-    ``` 
+    ```
+
 
 ## AdobeDataCallback Interface {#section_600A63B3136F47DCB928071485C5117C}
 

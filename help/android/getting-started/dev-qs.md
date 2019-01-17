@@ -45,10 +45,8 @@ To add the SDK and config file to your project:
 1. Right click your project in the project navigation panel. 
 1. Select **[!UICONTROL Open Module Settings]**. 
 1. Under **[!UICONTROL Project Settings]**, select **[!UICONTROL Libraries]**. 
-
 1. Click the **[!UICONTROL +]** icon to add a new library. 
 1. Select **[!UICONTROL Java]** and navigate to the `adobeMobileLibrary.jar` file. 
-
 1. Select the modules where you plan to use the mobile library. 
 1. Click **[!UICONTROL Apply]** and **[!UICONTROL OK]** to close the [!DNL Module Settings] window.
 
@@ -57,13 +55,11 @@ To add the SDK and config file to your project:
 To add the SDK and config file to your project:
 
 1. Add the `ADBMobileConfig.json` file to the [!DNL assets] folder in your project. 
-
 1. In **[!UICONTROL Eclipse IDE]**, right-click the project name. 
 1. Select  **[!UICONTROL Build Path]** > **[!UICONTROL Add External Archives]** . 
 1. Select `adobeMobileLibrary.jar`. 
 1. Click **[!UICONTROL Open]**. 
 1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**. 
-
 1. On the **[!UICONTROL Order and Export]** tab, ensure that [!DNL adobeMobileLibrary.jar] is selected.
 
 ## Add App Permissions {#section_2EAF73ABF6424647B219A63B33B02CD5}
@@ -121,7 +117,7 @@ To include additional data with lifecycle metric calls, pass an additional param
 
 ```java
 @Override 
-public void onResume() { 
+public void onResume() {
     HashMap<String, Object> contextData = new HashMap<String, Object>(); 
     contextData.put("myapp.category", "Game"); 
     Config.collectLifecycleData(this, contextData); 

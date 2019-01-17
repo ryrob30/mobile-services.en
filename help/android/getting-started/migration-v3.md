@@ -99,7 +99,7 @@ To migrate from version 2.x to version 4, move the value from the first column t
 |trackOffline|"offlineEnabled"|
 |offlineLimit|"batchLimit"|
 |account|"rsids"|
-|trackingServer|"server", remove the "https://" prefix. The protocol prefix is added automatically based on the "ssl" setting.|
+|trackingServer|"server", remove the `"https://"` prefix. The protocol prefix is added automatically based on the "ssl" setting.|
 |trackingServerSecure|Remove. For secure connections, define "server" and then enable "ssl".|
 |charSet|"charset"|
 |currencyCode|"currency"|
@@ -130,7 +130,7 @@ The `contextData` parameter for both of these methods is a `HashMap<String, Obje
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists directly in your app. The SDK now uses context data and processing rules to map your app data to Analytics variables for reporting.
 
-Processing rules provide the following advantages:(/Users/rekrishn/Documents/GitHub/mobile-services.en/help/android/getting-started/dev-qs.md)
+Processing rules provide the following advantages:
 
 * You can change your data mapping without submitting an update to the app store. 
 * You can use meaningful names for data instead of setting variables that are specific to a report suite. 

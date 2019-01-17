@@ -97,7 +97,6 @@ If you are using Android Studio, you can also add the following to your app's `b
 
 ```java
 compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
-
 ```
 
 Remember the following information:

@@ -12,7 +12,7 @@ uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 
 This information helps you use the ADBMobile.json config file.
 
-## ADBMobileConfig.json Config File Reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 The same config file can be used for your app across multiple platforms:
 
@@ -27,7 +27,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   * Enables mobile app acquisition.
     * `server`, which is the acquisition server that is checked at the initial launch for an acquisition referrer. 
     * `appid`, which is the generated ID that uniquely identifies this app on the acquisition server.  
-     If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see  *referrerTimeout* row in this list of variables. 
+     If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see *referrerTimeout* in this list of variables. 
 
 * `analyticsForwardingEnabled`
   * Minimum SDK version is 4.8.0.
@@ -43,9 +43,9 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
     * If you do not provide a value, the default value is `true`, and hits are **enabled**. When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. One hit is backdated on every new launch of the application. 
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      >Backdated session hit information is sent in a session info server call, and additional server calls might apply. 
+      >Backdated session hit information is sent in a session info server call and additional server calls might apply. 
 
 * `batchLimit`
   * Minimum SDK version: 4.1
@@ -104,15 +104,15 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   * Minimum SDK version: 4.0 
   * When enabled, hits are queued while the device is offline and sent later when the device is online. Your report suite must be timestamp-enabled to use offline tracking.
   
-  The default value is `false`. 
+    The default value is `false`. 
   
-  >[!IMPORTANT]
-  >
-  >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property **must** be true. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property **must** be false. 
-  >
-  >If this is not configured correctly, data will be lost. If you are not sure whether a report suite is timestamp enabled, contact Customer Care or download the configuration file from Adobe Mobile services. 
+    >[!IMPORTANT]
+    >
+    >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property **must** be true. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property **must** be false. 
+    >
+    >If this is not configured correctly, data will be lost. If you are not sure whether a report suite is timestamp enabled, contact Customer Care or download the configuration file from Adobe Mobile services. 
   
-  If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits that use the `s.timestamp` variable. 
+    If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits that use the `s.timestamp` variable. 
 
 * `org`
 
@@ -125,7 +125,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
     ```javascript
 
-      "poi":  [
+    "poi": [
                ["san francisco",37.757144,-122.44812,7000]
                ["santa cruz",36.972935,-122.01725,600]
            ]
@@ -134,8 +134,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires the `analytics.poi` setting: 
 
   ```javascript
-
-    “analytics.poi“: https://assets.adobedtm.com/
+  “analytics.poi“: https://assets.adobedtm.com/
    …/yourfile.json”`,
   ```
 
@@ -146,7 +145,6 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   * Here is the definition for the "callback" message template:
 
     ```javascript
-
     "payload":{
       "templateurl":"", //required will be token-expanded prior to being sent
       "templatebody":"", //optional - if this length > 0 POST will be used as transport method. This is a base64 encoded blob, which will be decoded and token-expanded prior to being sent.
@@ -211,6 +209,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
         "templatebody": "", //optional - if this length >  0 POST will be used& as transport method. This is a base64 encoded blob, which will be  decoded and token-expanded prior to being sent.
         "contenttype": "" // optional - if this is length > 0 POST type is selected this will be set as the Content-Type header. if this is not supplied for a POST request, the default will be "application/x-www-form-urlencoded"
         "timeout": 0 // optional - number of seconds to wait before timing& out. Default is 2.}
+    ```
 
 * `timeout`
   * Minimum SDK verson: 4.0 
