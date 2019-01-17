@@ -152,7 +152,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       "timeout": 0 // optional - number of seconds to wait before timing out.  Default is 2.}
      ```
 
-    The `payload` object in the code is a sample payload for a message definition that goes in `ADBMobileConfig.json`. For more information, see [Postbacks](help/android/analytics-main/postbacks/postbacks.md).
+    The `payload` object in the code is a sample payload for a message definition that goes in `ADBMobileConfig.json`. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
 
 * `privacyDefault`
   * Minimum SDK version: 4.0 

@@ -193,7 +193,7 @@ The following method must be called once in the `onCreate` method of your main a
       contextData.put("myapp.category", "Game");        Config.collectLifecycleData(this, contextData);} 
     ```
   * `collectLifecycleData (Activity activity)`
-    * (**Version 4.2 or later**) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md.).
+    * (**Version 4.2 or later**) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
     * Here is the syntax for this method:
 
       ```java
