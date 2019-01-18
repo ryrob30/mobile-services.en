@@ -54,7 +54,7 @@ The following method must be called once in the `onCreate` method of your main a
             // handle each event type accordingly 
             if (event == Config.MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL) {
                  // do something with acquisition data found in contextData parameter
-                 HashMap<String, Object> acquisitionData = new HashMap<String, Object>(contextData);            ...
+                 HashMap<String, Object> acquisitionData = new HashMap<String, Object>(contextData);
             }
         }
     });
