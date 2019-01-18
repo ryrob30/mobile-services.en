@@ -17,7 +17,9 @@ Hit batching allows applications to hold hits from being sent until the number o
 >
 >To use hit batching, you must enable offline tracking.
 
-**Requires SDK version 4.1 or later**
+>[!IMPORTANT]
+>
+>To use hit batching, you must have SDK version 4.1 or later.
 
 To enable hit batching, update your `ADBMobileConfig.json` and specify a value for `batchLimit`:
 

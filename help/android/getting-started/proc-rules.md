@@ -10,12 +10,7 @@ uuid: ea892228-86f5-4980-acb8-45ae43c6996d
 
 # Processing Rules and Context Data {#processing-rules-and-context-data}
 
-Processing rules are used to copy the data that you send in context data variables to evars, props, and other variables for reporting.
-
- For more information, see the following content:
-
-* [Processing Rules Training](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013 
-* [Processing Rules](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules)
+Processing rules are used to copy the data that you send in context data variables to evars, props, and other variables for reporting. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 When working with processing rules, remember the following information:
 

@@ -18,10 +18,10 @@ Calling this method with a different path causes a one-time override of the conf
 
 ```java
  try { 
- InputStream configInput = getAssets().open("ExampleJSONFile.json"); 
- Config.overrideConfigStream(configInput); 
- } catch (IOException ex) { 
- // do something with the exception if needed 
+   InputStream configInput = getAssets().open("ExampleJSONFile.json"); 
+   Config.overrideConfigStream(configInput); 
+   } catch (IOException ex) { 
+   // do something with the exception if needed 
 }
 ```
 
