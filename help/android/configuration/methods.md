@@ -40,9 +40,11 @@ The following method must be called once in the `onCreate` method of your main a
     >This method requires version 4.9.0 or later. 
 
   * Here is the syntax for this method:
+
     ```java
-      public static void registerAdobeDataCallback(final AdobeDataCallback&amp;nbsp;callback);
-      ```
+    public static void registerAdobeDataCallback(final AdobeDataCallback&amp;nbsp;callback);
+    ```
+
   * Here is the code sample for this method:
 
      ```java
@@ -57,18 +59,20 @@ The following method must be called once in the `onCreate` method of your main a
         }
     });
     ```
+
 * `getVersion`
-  * Returns the current version of the Adobe Mobile library. 
+  * Returns the current version of the Adobe Mobile library.
   * Here is the syntax for this method:
 
     ```java
     public static String getVersion();
-      ```
+    ```
   * Here is a code example for this method:
 
     ```java
     String libraryVersion = Config.getVersion(); 
-    ``` 
+    ```
+
 * `getPrivacyStatus`
   * Returns the enum representation of the privacy status for current user.
   
@@ -83,18 +87,19 @@ The following method must be called once in the `onCreate` method of your main a
 
       ```java
       public static MobilePrivacyStatus getPrivacyStatus(); 
-        ```
+      ```
   * Here is a code sample for this method:
 
-      ```java
+    ```java
     MobilePrivacyStatus privacyStatus Config.getPrivacyStatus();
-     ```
+    ```
+
 * `setPrivacyStatus`
   * Sets the privacy status for the current user to `status`. 
   
     You can set the privacy status to one of the following values: 
     * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately. These hits are sent immediately.  
-    * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded. <p>These hits are discarded.  
+    * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded. These hits are discarded.  
     * `MOBILE_PRIVACY_STATUS_UNKNOWN`, where if your report suite is timestamp enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded).
     If your report suite is not timestamp enabled, hits are discarded until the privacy status changes to opt in. 
 
@@ -108,6 +113,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
     ```
+
 * `getLifetimeValue`
   * Returns the lifetime value of the current user. The default value is `0`. 
 
@@ -122,6 +128,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
     ```
+
 * `getUserIdentifier`
   * If a custom identifier has been set, the custom user identifier is returned. If a custom identifier has not been set, it returns `null`. The default value is `null`. 
   
@@ -129,11 +136,13 @@ The following method must be called once in the `onCreate` method of your main a
     >
     >If your app upgrades from the Experience Cloud 3.x to the 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. This preserves visitor data between SDK upgrades. For new installations on the 4.x SDK, until it is set, the user identifier is `null`. 
 
-  * Here is the syntax for this method: 
+  * Here is the syntax for this method:
+
     ```java
     public static String&amp getUserIdentifier();
       ```
   * Here the code sample for this method:
+
     ```java
     String userId = Config.getUserIdentifier();
     ```
@@ -141,13 +150,16 @@ The following method must be called once in the `onCreate` method of your main a
 * `setUserIdentifier` 
   * Sets the user identifier to `identifier`. 
   * Here is the syntax for this method:
+
     ```java
     public static void setUserIdentifer(String identifier); 
     ```
   * Here is the code sample for this method:
+
     ```java
     Config.setUserIdentifier("billybob"); 
     ```
+
 * `getDebugLogging`
   * Returns the current debug logging preference. The default value is `false`.
   * Here is the syntax for this method:
@@ -160,24 +172,30 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     Boolean debugging = Config.getDebugLogging(); 
     ```
+
 * `setDebugLogging`
   * Sets the debug logging preference to `debugLogging`.
   * Here is the syntax for this method:
+
     ```java
-    public static void setDebugLogging(Boolean&amp;nbsp;debugLogging);
+    public static void setDebugLogging(Boolea debugLogging);
     ```
   * Here is the code sample for this method:
+
     ```java
     Config.setDebugLogging(true);
     ```
+
 * `collectLifecycleData`
   * Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/configuration/methods.md).
   
   * Here is the syntax for this method:
+
     ```java
     public static void collectLifecycleData(final Activity activity,final Map<String, Object>contextData); 
     ```
   * Here is the code sample for this method:
+
     ```java
     @Override
     protectedvoid  onResume()  {
@@ -186,20 +204,22 @@ The following method must be called once in the `onCreate` method of your main a
       } 
       ```
     With extra context data:
+
     ```java
     @Override
     public  void  onResume()  {
       HashMap<String, Object> contextData = new HashMap<String, Object>();
       contextData.put("myapp.category", "Game");        Config.collectLifecycleData(this, contextData);} 
     ```
-  * `collectLifecycleData (Activity activity)`
-    * (**Version 4.2 or later**) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
-    * Here is the syntax for this method:
+
+* `collectLifecycleData (Activity activity)`
+  * (**Version 4.2 or later**) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
+  * Here is the syntax for this method:
 
       ```java
       public static void collectLifecycleData(final Activity activity);
       ```
-    * Here is the code sample for this method:
+  * Here is the code sample for this method:
 
       ```java
       @Overrideprotected void onResume() {
@@ -207,14 +227,17 @@ The following method must be called once in the `onCreate` method of your main a
         // assume being called in an Activity class Config.collectLifecycleData(this);
         } 
         ```
-  * `pauseCollecting​LifecycleData`
-    * Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, `onPause` collects a timestamp to determine the previous session length. This also sets a flag so that lifecycle knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
+
+* `pauseCollecting​LifecycleData`
+  * Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, `onPause` collects a timestamp to determine the previous session length. This also sets a flag so that lifecycle knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
 
   * Here is the syntax for this method:
+
     ```java
     public static void pauseCollectingLifecycleData(); 
     ```
   * Here is the code sample for this method:
+
     ```java
     @Override
     protected void onPause() {
@@ -222,33 +245,40 @@ The following method must be called once in the `onCreate` method of your main a
       Config.pauseCollectingLifecycleData();
     } 
     ```
+
 * `setSmallIconResourceId(int resourceId)`
   * (**Version 4.2 or later**</b>**) Sets the small icon that will be used for notifications that were created by the SDK. This icon will appear in the status bar and will be the secondary image that is displayed when the user sees the complete notification in the notification center.
   * Here is the syntax for this method:
+
     ```java
     public static void setSmallIconResourceId(final int resourceId); 
     ```
   * Here is the code sample for this method:
+
     ```java
     Config.setSmallIconResourceId(R.drawable.appIcon);
     ```
 * setLargeIconResourceId(int resourceId)
   * (**Version 4.2 or later**) Sets the large icon that will be used for notifications that were created by the SDK. This icon will be the primary image that is displayed when the user sees the complete notification in the notification center. 
   * Here is the syntax for this method:
+
     ```java
     public static void setLargeIconResourceId(final int  resourceId);
     ```
   * Here is the code sample for this method:
+
     ```Java
     Config.setLargeIconResourceId(R.drawable.appIcon);
     ```
 * `overrideConfigStream(InputStream configInput)`
   * (**Version 4.2 or later**) Allows you to load a different ADBMobile JSON config file when the application starts. The different configuration is used until the application is closed. 
   * Here is the syntax for this method:
+
     ````java
     public static void overrideConfigStream(final InputStream configInput);
     ```
-  * Here is the code sample for this method: 
+  * Here is the code sample for this method:
+
     ```java
      try {
         InputStream configInput = getAssets().open("ExampleJSONFile.json") 
@@ -260,15 +290,18 @@ The following method must be called once in the `onCreate` method of your main a
 * `setPushIdentifier`
   * Sets the device token for push notifications. 
   * Here is the syntax for this method:
+
     ```java
     public static void setPushIdentifier(final String registrationId); 
     ```
   * Here is the code sample for this method:
+
     ```java
     ...// note the code to retreive the push token must run in the background
     InstanceID instanceID= InstanceID.getInstance(getApplicationContext());String token=instanceID.getToken("835015092242", GoogleCloudMessaging.INSTANCE_ID_SCOPE null);Config.setPushIdentifier(token);
     ...
     ```
+
 * `submitAdvertisingIdentifierTask`
   * Provides a Callable to the SDK that returns the string of the Advertising Identifier that is returned from Google Play Services. The SDK runs this task on a background thread and sets an internal variable for the Advertising Identifier that is based on the value returned from the Callable. 
   
@@ -277,6 +310,7 @@ The following method must be called once in the `onCreate` method of your main a
     >If you want to use the Advertising Identifier in Acquisition or Lifecycle, call it before calling `Config.collectLifecycleData`.
 
     * Here is the syntax for this method:
+
       ```java
       public static void submitAdvertisingIdentifierTask(final Callable<String> task); 
       ```
