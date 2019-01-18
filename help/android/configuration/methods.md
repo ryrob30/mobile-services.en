@@ -33,6 +33,7 @@ The following method must be called once in the `onCreate` method of your main a
 ## SDK Settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * `registerAdobeDataCallback`
+
   * Registers an object that implements the `AdobeDataCallback` interface. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. For more details about which events will trigger this callback, see *MobileDataEventEnum* at the bottom of this topic. 
 
     >[!TIP]
@@ -47,7 +48,7 @@ The following method must be called once in the `onCreate` method of your main a
 
   * Here is the code sample for this method:
 
-     ```java
+    ```java
       Config.registerAdobeDataCallback(new Config.AdobeDataCallback() {
         @Override
         public void call(Config.MobileDataEvent event, Map<String, Object> contextData) {
@@ -61,12 +62,14 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `getVersion`
+
   * Returns the current version of the Adobe Mobile library.
   * Here is the syntax for this method:
 
     ```java
     public static String getVersion();
     ```
+
   * Here is a code example for this method:
 
     ```java
@@ -74,9 +77,11 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `getPrivacyStatus`
+
   * Returns the enum representation of the privacy status for current user.
   
     Here are the privacy status values: 
+
     * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately.  
     * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded.  
     * `MOBILE_PRIVACY_STATUS_UNKNOWN`, where if your report suite is timestamp enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded).
@@ -95,6 +100,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `setPrivacyStatus`
+
   * Sets the privacy status for the current user to `status`. 
   
     You can set the privacy status to one of the following values: 
@@ -108,6 +114,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     public static void setPrivacyStatus(MobilePrivacyStatus status); 
     ```
+
   * Here is a code sample for this method:
 
     ```java
@@ -115,6 +122,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `getLifetimeValue`
+
   * Returns the lifetime value of the current user. The default value is `0`. 
 
   * Here is the syntax for this method:
@@ -130,6 +138,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `getUserIdentifier`
+
   * If a custom identifier has been set, the custom user identifier is returned. If a custom identifier has not been set, it returns `null`. The default value is `null`. 
   
     >[!TIP]
@@ -140,7 +149,8 @@ The following method must be called once in the `onCreate` method of your main a
 
     ```java
     public static String&amp getUserIdentifier();
-      ```
+    ```
+
   * Here the code sample for this method:
 
     ```java
@@ -148,12 +158,14 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `setUserIdentifier` 
+
   * Sets the user identifier to `identifier`. 
   * Here is the syntax for this method:
 
     ```java
-    public static void setUserIdentifer(String identifier); 
+    public static void setUserIdentifer(String identifier);
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -161,6 +173,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `getDebugLogging`
+
   * Returns the current debug logging preference. The default value is `false`.
   * Here is the syntax for this method:
   
@@ -169,6 +182,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
   * Here is the code sample for this method:
+
     ```java
     Boolean debugging = Config.getDebugLogging(); 
     ```
@@ -180,6 +194,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     public static void setDebugLogging(Boolea debugLogging);
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -194,6 +209,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     public static void collectLifecycleData(final Activity activity,final Map<String, Object>contextData); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -202,7 +218,8 @@ The following method must be called once in the `onCreate` method of your main a
       super.onResume();
       Config.collectLifecycleData(this);
       } 
-      ```
+    ```
+
     With extra context data:
 
     ```java
@@ -213,12 +230,14 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `collectLifecycleData (Activity activity)`
+
   * (**Version 4.2 or later**) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
   * Here is the syntax for this method:
 
       ```java
       public static void collectLifecycleData(final Activity activity);
       ```
+
   * Here is the code sample for this method:
 
       ```java
@@ -229,6 +248,7 @@ The following method must be called once in the `onCreate` method of your main a
         ```
 
 * `pauseCollecting​LifecycleData`
+
   * Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, `onPause` collects a timestamp to determine the previous session length. This also sets a flag so that lifecycle knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
 
   * Here is the syntax for this method:
@@ -236,6 +256,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```java
     public static void pauseCollectingLifecycleData(); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -247,36 +268,44 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `setSmallIconResourceId(int resourceId)`
-  * (**Version 4.2 or later**</b>**) Sets the small icon that will be used for notifications that were created by the SDK. This icon will appear in the status bar and will be the secondary image that is displayed when the user sees the complete notification in the notification center.
+
+  * (**Version 4.2 or later**) Sets the small icon that will be used for notifications that were created by the SDK. This icon will appear in the status bar and will be the secondary image that is displayed when the user sees the complete notification in the notification center.
   * Here is the syntax for this method:
 
     ```java
     public static void setSmallIconResourceId(final int resourceId); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
     Config.setSmallIconResourceId(R.drawable.appIcon);
     ```
-* setLargeIconResourceId(int resourceId)
+
+* `setLargeIconResourceId(int resourceId)`
+
   * (**Version 4.2 or later**) Sets the large icon that will be used for notifications that were created by the SDK. This icon will be the primary image that is displayed when the user sees the complete notification in the notification center. 
   * Here is the syntax for this method:
 
     ```java
     public static void setLargeIconResourceId(final int  resourceId);
     ```
+
   * Here is the code sample for this method:
 
     ```Java
     Config.setLargeIconResourceId(R.drawable.appIcon);
     ```
+
 * `overrideConfigStream(InputStream configInput)`
+
   * (**Version 4.2 or later**) Allows you to load a different ADBMobile JSON config file when the application starts. The different configuration is used until the application is closed. 
   * Here is the syntax for this method:
 
-    ````java
+    ```java
     public static void overrideConfigStream(final InputStream configInput);
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -287,13 +316,16 @@ The following method must be called once in the `onCreate` method of your main a
         //do something with the exception if needed
     }
     ``` 
+
 * `setPushIdentifier`
+
   * Sets the device token for push notifications. 
   * Here is the syntax for this method:
 
     ```java
     public static void setPushIdentifier(final String registrationId); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -303,6 +335,7 @@ The following method must be called once in the `onCreate` method of your main a
     ```
 
 * `submitAdvertisingIdentifierTask`
+
   * Provides a Callable to the SDK that returns the string of the Advertising Identifier that is returned from Google Play Services. The SDK runs this task on a background thread and sets an internal variable for the Advertising Identifier that is based on the value returned from the Callable. 
   
     >[!IMPORTANT]
@@ -314,6 +347,7 @@ The following method must be called once in the `onCreate` method of your main a
       ```java
       public static void submitAdvertisingIdentifierTask(final Callable<String> task); 
       ```
+
     * Here is the code sample for this method:
   
     ```java
@@ -360,4 +394,3 @@ public enum MobileDataEvent {
     MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH // triggers on launch when the device previously installed via acquisition  
 }
 ```
-
