@@ -16,7 +16,7 @@ Each time you send in a value with `trackLifetimeValueIncrease`, the value is ad
 
 ## Track the Visitor Lifetime Value {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```java

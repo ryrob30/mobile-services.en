@@ -56,26 +56,9 @@ Context data values must be mapped to custom variables in [Adobe Mobile services
 
 ## Action Reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-<table id="table_1715AF0A897C40A39604500C6ABFBFE6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Interface </th> 
-   <th colname="col2" class="entry"> Report </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Action Paths </span> report. </p> <p>View the order in which actions occur in your app. You can also click <span class="uicontrol"> Customize </span> on any report to view actions ranked, trended, or in a breakdown report or apply a filter to view actions for a specific segment. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Marketing reports &amp; analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Custom Event </span> report. </p> <p>After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ad hoc analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Custom Event </span> report. </p> <p>After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Interface | Report |
+|--- |--- |
+|Adobe Mobile Services|**[!UICONTROL Action Paths]** report.  View the order in which actions occur in your app. You can also click **[! UICONTROL Customize]**  on any report to view actions ranked, trended, or in a breakdown report or apply a filter to view actions for a specific segment.|
+|Marketing reports & analytics|**[!UICONTROL Custom Event]** report.  After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|
+|Ad hoc analytics|**[!UICONTROL Custom Event]** report.  After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|
 

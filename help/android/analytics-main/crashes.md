@@ -12,9 +12,9 @@ uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
 
 This information helps you understand how crashes are tracked and the best practices to handle false crashes.
 
->[!NOTE] {othertype="Prerequisite"}
+>[!TIP] 
 >
->App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972).
+>App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md).
 
 When lifecycle metrics are implemented, a call is made to `Config.collectLifecycleData` in the `OnResume` method of each activity. In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
 
@@ -48,7 +48,7 @@ Fragments have application lifecycle events that are similar to Activities. Howe
 
 **(Optional) Implement Activity lifecycle callbacks**
 
-Starting with API Level 14, Android allows global lifecycle callbacks for activities. For more information, see the [Android Developers Guide](https://developer.android.com/reference/android/app/Application.html#registerActivityLifecycleCallbacks(android.app.Application.ActivityLifecycleCallbacks).
+Starting with API Level 14, Android allows global lifecycle callbacks for activities. For more information, see [Application](https://developer.android.com/reference/android/app/Application).
 
 You can use these callbacks to ensure that all of your Activities correctly call `collectLifecycleData()` and `pauseCollectingLifecycleData()`. You need to add this code only in your main Activity and any other Activity in which your app may be launched:
 

@@ -25,7 +25,7 @@ An optional callback allows you to take additional action when the timed action 
 
 ## Track Timed Actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```java
