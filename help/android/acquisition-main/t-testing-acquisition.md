@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 ---
 
-# Testing Legacy Acquisition{#testing-legacy-acquisition}
+# Testing Legacy Acquisition {#testing-legacy-acquisition}
 
 The following information helps you roundtrip a legacy acquisition campaign link on an Android device.
 
@@ -19,14 +19,11 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. In the Mobile Services UI, generate a legacy acquisition campaign URL.
 
-   For more information, see [Use Legacy Acquisition Links](https://marketing.adobe.com/resources/help/en_US/mobile/index.html?f=c_use_legacy_acquisition_links).
+   For more information, see [Use Legacy Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
 1. Connect the device to a computer, launch ADB Shell, and launch the application on the device.
 1. Send a broadcast using the following format:
 
-   ```
-   am broadcast -a com.android.vending.INSTALL_REFERRER -n com.example.adobetesttapp/com.google.analytics.tracking.android.CampaignTrackingReceiver --es "referrer" "utm_source=testSource&utm_medium=testMedium&utm_term=testTerm&utm_content=testContent&utm_campaign=testCampaign&trackingcode=trackingvalue" 
-   
-   ```
+   `am broadcast -a com.android.vending.INSTALL_REFERRER -n com.example.adobetesttapp/com.google.analytics.tracking.android.CampaignTrackingReceiver --es "referrer" "utm_source=testSource&utm_medium=testMedium&utm_term=testTerm&utm_content=testContent&utm_campaign=testCampaign&trackingcode=trackingvalue"`
 
 1. Complete the following steps:
    1. Replace [!DNL com.example.adobetesttapp.com] with your application's reverse DNS entry.
@@ -35,8 +32,6 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 If the broadcast is successful, a response similar to the one below is displayed:
 
-```
-Broadcasting: Intent { act=com.android.vending.INSTALL_REFERRER cmp=com.example.analyticsecommtest/com.google.analytics.tracking.android.AnalyticsReceiver has extras) } Broadcast completed: result=0
-```
+`Broadcasting: Intent { act=com.android.vending.INSTALL_REFERRER cmp=com.example.analyticsecommtest/com.google.analytics.tracking.android.AnalyticsReceiver has extras) } Broadcast completed: result=0`
 
 You will also see an image request sent to Adobe's data collection servers. If the SDK waits for the complete duration of the referrer timeout, which you set in step 1, with an image request that does not include campaign parameters, the broadcast failed. 

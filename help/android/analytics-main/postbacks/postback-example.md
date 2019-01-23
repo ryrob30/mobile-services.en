@@ -19,7 +19,7 @@ You can use this information to help you understand what postbacks are and how t
 
 ## ADBMobileConfig.json Definition {#section_8751E8176F3546C09420341A39758AFF}
 
-```java
+```js
 "messages": [ 
     { 
         "messageId": "79ae37c9-89b9-465e-af7f-d3351771f1dc", 
@@ -51,7 +51,7 @@ You can use this information to help you understand what postbacks are and how t
 
 ## Code Sample {#section_D063DE82976D4EDEA97E804BD1C4718F}
 
-```java
+```js
 HashMap<String, Object> contextData = new HashMap<String, Object>(); 
 contextData.put("user.name", "bob"); 
 contextData.put("user.zip", "90210"); 
