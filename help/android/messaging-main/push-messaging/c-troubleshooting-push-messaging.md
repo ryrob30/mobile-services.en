@@ -27,7 +27,7 @@ This information helps you troubleshoot push messaging.
     >The push services do not guarantee that a message will be sent.
   
     For more information about the reliability of services, see the appropriate documentation: 
-    * **APNS**: [Quality of Service](Https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+    * **APNS**: [Quality of Service](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
     * **GCM**: [Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options#lifetime)
 
 * **Why are my push messages being cut off or are not expanding?**
