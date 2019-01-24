@@ -451,239 +451,287 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ADB.targetLoadRequestWithNameWithLocationParameters  (function () { alert('success'); }, function () { alert('fail'); }, ;'bannerOffer', 'none', {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'}, {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'});
     ```
 
+* **targetLoadRequestWithName**
 
-<table id="table_258F21CC9F1A459597E95D7BFEEE2ACE"> 
- <thead> 
-   <td colname="col1"> <p>targetLoadRequestWithName </p> </td> 
-   <td colname="col2"> <p> Processes a <span class="keyword"> Target </span> service request. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetLoadRequestWithRequestLocationParams(success,&nbsp;fail,&nbsp;name,&nbsp;defaultContent,&nbsp;profileParameters,&nbsp;orderParameters,&nbsp;mboxParameters,&nbsp;requestLocationParameters); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetLoadRequestWithRequestLocationParams(function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;alert('success');&amp;nbsp;},&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;},&amp;nbsp;'bannerOffer',&amp;nbsp;'none',&amp;nbsp;{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},&amp;nbsp;{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe',&amp;nbsp;'hp.val2':'hp_val2'}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetSessionID </p> </td> 
-   <td colname="col2"> <p> Gets the value of the <span class="codeph"> SessionID </span> cookie returned for this visitor by the <span class="keyword"> Target </span>server. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetSessionID&amp;nbsp;(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetSessionID(function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert(value);&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetPcID </p> </td> 
-   <td colname="col2"> <p> Gets the value of the <span class="codeph"> PcID </span> cookie that is returned for this visitor by the <span class="keyword"> Target </span> server. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetPcID&amp;nbsp;(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetPcID(function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert(value);&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetSetThirdPartyID </p> </td> 
-   <td colname="col2"> <p> Sets the custom visitor ID for <span class="keyword"> Target </span>. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetSetThirdPartyID(thirdPartyID,&amp;nbsp;success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetSetThirdPartyID('test-third-party-id',&amp;nbsp;function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('success');&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetThirdPartyID </p> </td> 
-   <td colname="col2"> <p> Gets the custom visitor ID for <span class="keyword"> Target </span>. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetThirdPartyID(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.targetThirdPartyID(function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert(value);&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+  Processes a `Target` service request.
+
+  * Here is the syntax for this method:
+
+    ```java
+    DB.targetLoadRequestWithRequestLocationParams(success, fail, name, defaultContent, profileParameters, orderParameters, mboxParameters, requestLocationParameters); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.targetLoadRequestWithRequestLocationParams(function () ;{ alert('success') }, function () { alert('fail'); } 'bannerOffer', 'none', {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'}, {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'});
+    ```
+* **targetSessionID**
+
+  Gets the value of the <span class="codeph"> SessionID </span> cookie returned for this visitor by the <span class="keyword"> Target </span>server. </p> <p><b>Syntax:</b>
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.targetSessionID (success, fail); 
+    ```
+  * Here is the code sample for this method:
+    ```java
+    ADB.targetSessionID(function (value) { alert(value) },function (value){ alert('fail'); });  
+    ```
+* **targetPcID**
+
+  Gets the value of the `PcID` cookie that is returned for this visitor by the `Target` server.
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.targetPcID (success, fail); 
+    ```
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.targetPcID(function  (value) { alert(value) },function (value) { alert('fail'); });
+    ```
+* **targetSetThirdPartyID**
+  
+  Sets the custom visitor ID for Target.
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.targetSetThirdPartyID(thirdPartyID, success, fail); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.targetSetThirdPartyID('test-third-party-id' function (value) { alert('success'); },function (value) { alert('fail'); }); 
+    ```
+* **targetThirdPartyID**
+
+  Gets the custom visitor ID for Target. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.targetThirdPartyID(success, fail);
+    ```
+  * Here is code sample for this method:
+
+    ```java
+     ADB.targetThirdPartyID(function (value) { alert(value); },function (value) { alert('fail')__;});
+     ```
 
 ## Acquisition Methods {#section_EDEA25C4B2884487827069E9257A0BA6}
 
-<table id="table_0A4C95821E5040B3B6AF98CD07027111"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p> Method </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>acquisitionCampaignStartForApp </p> </td> 
-   <td colname="col2"> <p>Sends a request to your configured <span class="keyword"> Target </span> server and returns the string value of the offer. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.acquisitionCampaignStartForApp(appId,&amp;nbsp;data,&amp;nbsp;success,&amp;nbsp;fail); 
-    </codeblock> <p> </p> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.acquisitionCampaignStartForApp(“appId”,&amp;nbsp;{‘key’:‘value’},&amp;nbsp;function()&amp;nbsp;{…},&amp;nbsp;function()&amp;nbsp;{…})); 
-    </codeblock> <p> </p> 
-    <codeblock class="syntax java">
-      ADB.acquisitionCampaignStartForApp(“appId”,&amp;nbsp;{‘key’:‘value’});&amp;nbsp; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **acquisitionCampaignStartForApp**
 
+  Sends a request to your configured Target server and returns the string value of the offer. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.acquisitionCampaignStartForApp(appId, data, success, fail); 
+    ```
+  * Here are the code samples for this method:
+
+    ```java
+    ADB.acquisitionCampaignStartForApp(“appId”,&amp;nbsp;{‘key’:‘value’}, function() {…}, function() {…}));
+    ```
+
+    ```java
+    ADB.acquisitionCampaignStartForApp(“appId”, {‘key’:‘value’});  
+    ```
 ## Advertising Identifier {#section_194607D101B047A19C51B19E176E1500}
 
 In the main activity that is generated by Cordova, call `Config.submitAdvertisingIdentifierTask()` in the `onResume()` method. For more information, see [Configuration Methods](../configuration/methods.md#concept_12F12E3E0E434F8CB997AF4027810EBF).
 
 ## Audience Manager Methods {#section_1FD12B29A0AF41D3BEACBB3D624EA0E4}
 
-<table id="table_529CF2B892EB483084DDD46B11AC82D8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p> Method </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>audienceGetVisitorProfile </p> </td> 
-   <td colname="col2"> <p>Gets the visitor’s profile. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceGetVisitorProfile(); 
-    </codeblock> <p> </p> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceGetVisitorProfile(function(value)&amp;nbsp;{&amp;nbsp;profile&amp;nbsp;=&amp;nbsp;value;&amp;nbsp;},&amp;nbsp;function()&amp;nbsp;{&amp;nbsp;profile&amp;nbsp;=&amp;nbsp;null;&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>audienceGetDpuuid </p> </td> 
-   <td colname="col2"> <p>Returns the DPUUID. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceGetDpuuid(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceGetDpuuid(function(value)&amp;nbsp;{&amp;nbsp;dpuuid&amp;nbsp;=&amp;nbsp;value;&amp;nbsp;},&amp;nbsp;function()&amp;nbsp;{&amp;nbsp;dpuuid&amp;nbsp;=&amp;nbsp;null;&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>audienceGetDpid </p> </td> 
-   <td colname="col2"> <p>Returns the DPID. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceGetDpid(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceGetDpid(function(value)&amp;nbsp;{&amp;nbsp;dpid&amp;nbsp;=&amp;nbsp;value;&amp;nbsp;},&amp;nbsp;function()&amp;nbsp;{&amp;nbsp;dpid&amp;nbsp;=&amp;nbsp;null;&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>audienceSetDpidAndDpuuid </p> </td> 
-   <td colname="col2"> <p>Sets the DPID and DPUUID. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceSetDpidAndDpuuid(dpid,&amp;nbsp;dpuuid,&amp;nbsp;success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceSetDpidAndDpuuid(‘dpid’,&amp;nbsp;‘dpuuid’,&amp;nbsp;function()&amp;nbsp;{…},&amp;nbsp;function()&amp;nbsp;{…}); 
-    </codeblock> 
-    <codeblock class="syntax java">
-      ADB.audienceSetDpidAndDpuuid(‘dpid’,&amp;nbsp;‘dpuuid’); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>audienceSignalWithData </p> </td> 
-   <td colname="col2"> <p>Processes an <span class="keyword"> Audience Manager </span> service request. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceSignalWithData(success,&amp;nbsp;fail,&amp;nbsp;data); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceSignalWithData(function()&amp;nbsp;{},&amp;nbsp;function()&amp;nbsp;{},&amp;nbsp;{‘key1’:&amp;nbsp;’value1’,&amp;nbsp;‘key2’:&amp;nbsp;‘value2’}); 
-    </codeblock> 
-    <codeblock class="syntax java">
-      ADB.audienceSignalWithData({‘key1’:&amp;nbsp;’value1’,&amp;nbsp;‘key2’:&amp;nbsp;‘value2’}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>audienceReset </p> </td> 
-   <td colname="col2"> <p>Resets <span class="keyword"> Audience Manager </span> UUID and purges the current visitor profile. </p> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.audienceReset(); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **audienceGetVisitorProfile**
+
+  Gets the visitor’s profile. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.audienceGetVisitorProfile(); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.audienceGetVisitorProfile(function(value) { profile = value;}, function() { profile = null; }); 
+    ```
+* **audienceGetDpuuid**
+
+  Returns the DPUUID. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.audienceGetDpuuid(success fail);
+    ```
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.audienceGetDpuuid(function(value) { dpuuid = value;}, function(){dpuuid = null; }); 
+    ```
+* **audienceGetDpid**
+
+  Returns the DPID. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.audienceGetDpid(success, fail);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.audienceGetDpid(function(value){dpid = value;}, function() {dpid =  null;}); 
+    ```
+* **audienceSetDpidAndDpuuid**
+
+  Sets the DPID and DPUUID. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.audienceSetDpidAndDpuuid(dpid,&amp;nbsp;dpuuid,&amp;nbsp;success,&amp;nbsp;fail); 
+    ```
+
+  * Here are the code samples for this method:
+
+    ```java
+    ADB.audienceSetDpidAndDpuuid(‘dpid’, ‘dpuuid’, function() {…}, function(){…};
+    ``` 
+
+    ```java
+    ADB.audienceSetDpidAndDpuuid(‘dpid’, ‘dpuuid’); 
+    ```
+* **audienceSignalWithData**
+
+  Processes an Audience Manager service request. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.audienceSignalWithData(success, fail, data);
+    ```
+  * Here are the code samples for this method:
+
+    ```java
+     ADB.audienceSignalWithData(function() {}, function() {} {‘key1’: ’value1’ ‘key2’: ‘value2’}); 
+    ```
+
+    ```java
+    ADB.audienceSignalWithData({‘key1’: ’value1’, ‘key2’:‘value2’}); 
+    ```
+* **audienceReset**
+
+  Audience Manager UUID and purges the current visitor profile.
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.audienceReset();
+    ```
 
 ## ID Service Methods {#section_840B4FAEA55B466F9754148ABA15EBDA}
 
-<table id="table_AB60E0C194004E9A930B0FFFAA55A356"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p> Method </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>visitorGetMarketingCloudId </p> </td> 
-   <td colname="col2"> <p>Returns the Experience Cloud ID from the ID Service. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorGetMarketingCloudId(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorGetMarketingCloudId(function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;mcid&amp;nbsp;=&amp;nbsp;value;&amp;nbsp;},&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;mcid&amp;nbsp;=&amp;nbsp;null;&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>visitorSyncIdentifiers </p> </td> 
-   <td colname="col2"> <p>Synchronizes the provided identifiers with the ID Service. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorSyncIdentifiers(identifiers,&amp;nbsp;success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorSyncIdentifiers({‘key_id_1’:’value_id_1’},&amp;nbsp;function()&amp;nbsp;{…},&amp;nbsp;function()&amp;nbsp;{…})); 
-    </codeblock> 
-    <codeblock class="syntax java">
-      ADB.visitorSyncIdentifiers({‘key_id_1’:&amp;nbsp;‘value_id_1’});&amp;nbsp; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>visitorSyncIdentifiersWithAuthenticationState </p> </td> 
-   <td colname="col2"> <p> Synchronizes the provided identifiers to the ID Service. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorSyncIdentifiersWithAuthenticationState(identifiers,&nbsp;authenticationState,&nbsp;success,&nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorSyncIdentifiersWithAuthenticationState({'k1':'v1','k2':'v2','k3':'v3'},&amp;nbsp;ADB.mobileVisitorAuthenticationStateAuthenticated,&amp;nbsp;function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('success');&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>visitorSyncIdentifierWithType </p> </td> 
-   <td colname="col2"> <p> Synchronizes the provided identifier to the ID Service. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      &nbsp;ADB.visitorSyncIdentifierWithType(identifierType,&nbsp;identifier,&nbsp;authenticationState,&nbsp;success,&nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorSyncIdentifierWithType('test-identifier-type',&amp;nbsp;'test-identifier',&amp;nbsp;ADB.mobileVisitorAuthenticationStateAuthenticated,&amp;nbsp;function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('success');&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>visitorAppendToURL </p> </td> 
-   <td colname="col2"> <p> Appends visitor identifiers to the given URL. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorAppendToURL(urlToAppend,&amp;nbsp;success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorAppendToURL('test_visitor_url',&amp;nbsp;function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert(value);&amp;nbsp;},''); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>visitorGetIDs </p> </td> 
-   <td colname="col2"> <p> Returns all <span class="codeph"> visitorIDs </span> that have been synced. </p> <p><b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorGetIDs&amp;nbsp;(success,&amp;nbsp;fail); 
-    </codeblock> <p><b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      ADB.visitorGetIDs(function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert(value);&amp;nbsp;},function&amp;nbsp;(value)&amp;nbsp;{&amp;nbsp;alert('fail');&amp;nbsp;}); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **visitorGetMarketingCloudId**
+
+  Returns the Experience Cloud ID from the ID Service.
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.visitorGetMarketingCloudId(success, fail); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.visitorGetMarketingCloudId(function (value) { mcid = value;},function (){ mcid = null;});
+    ```
+* **visitorSyncIdentifiers**
+
+  Synchronizes the provided identifiers with the ID Service.
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.visitorSyncIdentifiers(identifiers,&amp;nbsp;success,&amp;nbsp;fail); 
+    ```
+
+  * Here are the code samples for this method:
+
+    ```java
+    ADB.visitorSyncIdentifiers({‘key_id_1’:’value_id_1’}, function() {…}, function() {…}));
+    ```
+    ```java
+    ADB.visitorSyncIdentifiers({‘key_id_1’: ‘value_id_1’});  
+    ```
+* **visitorSyncIdentifiersWithAuthenticationState**
+
+  Synchronizes the provided identifiers to the ID Service.
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.visitorSyncIdentifiersWithAuthenticationState
+    (identifiers, authenticationState, success, fail); 
+    ```
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.visitorSyncIdentifiersWithAuthenticationState({'k1':'v1','k2':'v2','k3':'v3'}, ADB.mobileVisitorAuthenticationStateAuthenticated, function (value) { alert('success'); },function (value) { alert('fail'); }); 
+    ```
+* **visitorSyncIdentifierWithType**
+
+  Synchronizes the provided identifier to the ID Service.
+  
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.visitorSyncIdentifierWithType(identifierType, identifier authenticationState, success, fail); 
+    ```
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.visitorSyncIdentifierWithType('test-identifier-type', 'test-identifier', ADB.mobileVisitorAuthenticationStateAuthenticated, function (value) { alert('success') },function (value) { alert('fail'); }); 
+    ```
+* **visitorAppendToURL**
+
+  Appends visitor identifiers to the given URL. 
+
+  * Here is the syntax for this method:
+
+    ```java
+     ADB.visitorAppendToURL(urlToAppend, success, fail); 
+     ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.visitorAppendToURL('test_visitor_url', function (value) alert(value);},'');
+    ```
+
+* **visitorGetIDs**
+
+  Returns all `visitorID`s that have been synced. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    ADB.visitorGetIDs (success, fail);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    ADB.visitorGetIDs(function (value) { alert(value); },function (value) { alert('fail') ;}); 
+    ```
