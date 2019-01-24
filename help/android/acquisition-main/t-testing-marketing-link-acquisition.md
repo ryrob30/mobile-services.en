@@ -108,7 +108,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
   | Error | Description |
   |--- |--- |
-|Analytics - Unable to decode response(<String>).|The response is malformed.|
+|Analytics - Unable to decode response(*String*).|The response is malformed.|
 |Analytics - Unable to parse response (*a JSON Response*).|The JSON string is malformed.|
 |Analytics - Unable to parse acquisition service response (no contextData parameter in response).|There in no  contextData  parameter in the response.|
 |Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring.|`a.referrer.campaign.name` is not included in contextData.|
