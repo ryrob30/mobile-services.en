@@ -24,14 +24,13 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    For example:
 
-   ```https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=573e5bb3248a501360c2890b
-   ```
+   `https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=573e5bb3248a501360c2890b`
 
 1. Open the generated link on the Android device.
 
    You should be redirected to a page with a URL similar to the following example:
 
-   `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
+   `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
 1. Copy the unique ID after `utm_content%3D`.
 
@@ -39,7 +38,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    If you cannot get the unique ID on the device, run the following `CURL` command on your desktop to get the unique ID from the response string.
 
-   `curl -A "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815Y Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36" <Your Marketing Link>`.
+   `curl -A "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815Y Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36" <Your Marketing Link>`
 
    For example:
 
@@ -47,9 +46,9 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. Construct the acquisition end link by using the unique ID from step 3, by using the following format:
 
-   `https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>`.
+   `https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>`
 
-   For example, `https://c00.adobe.com/v3/<appid>/end?a_ugid=91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
+   For example, `https://c00.adobe.com/v3/<appid>/end?a_ugid=91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
 1. Open the link in a browser.
 
@@ -106,13 +105,13 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    The following table contains additional information about the possible errors: 
 
-  | Error | Description |
-  |--- |--- |
-|Analytics - Unable to decode response(*String*).|The response is malformed.|
-|Analytics - Unable to parse response (*a JSON Response*).|The JSON string is malformed.|
-|Analytics - Unable to parse acquisition service response (no contextData parameter in response).|There in no  contextData  parameter in the response.|
-|Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring.|`a.referrer.campaign.name` is not included in contextData.|
-|Analytics - Acquisition referrer timed out.|Failed to get the response in the time defined by referrerTimeout. Increase the value and try again.  You should also ensure that you've opened the acquisition link before installing the app.|
+   | Error | Description |
+   |--- |--- |
+   |Analytics - Unable to decode response(`<string>`).|The response is malformed.|
+   |Analytics - Unable to parse response (`a JSON Response`).|The JSON string is malformed.|
+   |Analytics - Unable to parse acquisition service response (no contextData parameter in response).|There in no  contextData  parameter in the response.|
+   |Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring.|`a.referrer.campaign.name` is not included in contextData.|
+   |Analytics - Acquisition referrer timed out.|Failed to get the response in the time defined by referrerTimeout. Increase the value and try again.  You should also ensure that you've opened the acquisition link before installing the app.|
 
 Remember the following information: 
 
@@ -120,21 +119,21 @@ Remember the following information:
 * For more information about how to broadcast `INSTALL_REFERRER`, see [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns) in the Google Developers guide . 
 * You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
 
+**Install the Java Tool** 
 
-  **Install the Java Tool** 
+To install the Java tool:
 
-  To install the Java tool:
-    1. Download the `acquistionTester.zip` file. 
-    1. Extract the .jar file. 
+1. Download the `acquistionTester.zip` file. 
+1. Extract the .jar file. 
 
-  You can run the .jar file on the command line. 
+You can run the .jar file on the command line. 
 
-  For example: 
+For example: 
 
-  ```
-  java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
-  ```
+```
+java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
+```
 
 * The marketing links are cached on the server side with a ten-minutes expiration time. 
 
-  When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again.
+When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again.

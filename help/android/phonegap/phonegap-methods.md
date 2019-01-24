@@ -162,6 +162,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
     ADB.keepLifecycleSessionAlive(); 
     ```
+
 * **trackingSendQueuedHits**
 
   Forces the library to send all queued hits regardless of current batch options. 
@@ -181,6 +182,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
     ADB.trackingGetQueueSize(function (value) { myTempVal = value;}, function () { myTempVal = null;}); 
     ```
+
 * **trackingClearQueue**
 
   Removes all stored tracking calls from the offline queue.
@@ -193,6 +195,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
     ```js
     ADB.trackingClearQueue(function (value) { myTempVal = value; }, function () { myTempVal = null; }); 
+    ```
 
 ## PII Methods {#section_DB27270D2CEB4D369E0090FD9D1A7F81}
 
@@ -210,6 +213,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
     ```javascript
     ADB.collectPII({'k1':'v1','k2':'v2','k3':'v3'}, function (value) { alert('success') },function (value) { alert('fail') ;});
+    ```
 
 ## Tracking Methods {#section_7946BB753A4446FE8A3ED728AEF97D04}
 
@@ -232,6 +236,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
     ADB.trackAdobeDeepLink('xyz-deeplink-url',function (value) { alert('success'); },function (value) { alert('fail') }); 
     ```
+
 * **trackState**
 
   Tracks an app state with optional context data. States are the views that are available in your app, such as such as `home dashboard`, `app settings`, `cart`, and so on. These states are similar to pages on a website, and `trackState` calls increment page views. 
@@ -243,6 +248,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
     ADB.trackState(string stateName[,JSON cData]);
     ```
+
   * Here are code samples for this method:
 
     ```js
@@ -251,6 +257,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
       ADB.trackState("login page", {"user":"john","remember":"true"});
       ```
+
 * **trackAction**
 
   Tracks an action in your app. Actions include `logins`, `banner taps`, `feed subscriptions`, and other metrics that occur in your app and that you want to measure. 
@@ -269,6 +276,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
       ADB.trackAction("login", {"user":"john","remember":"true"}); 
     ```
+
 * **trackLocation**
 
   Sends the current x y coordinates. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine if the location provided as a parameter is within any of your POI. If the current coordinates are within a defined POI, a context data variable is populated and sent with the `trackLocation` call.
@@ -278,6 +286,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.trackLocation(x, y[,JSON cData]); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -321,6 +330,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.trackTimedActionStart("cartToCheckout"); 
     ```
+
 * **trackTimed​ActionUpdate**
 
   Pass in `cData` to update the context data that is associated with the `action`>. 
@@ -338,6 +348,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.trackTimedActionUpdate("cartToCheckout",{'SampleContextDataKey3':'SampleContextDataVal3','SampleContextDataKey4':'SampleContextDataVal4'});
     ```
+
 * **trackTimed​ActionEnd**
 
   End a timed action. 
@@ -369,12 +380,14 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```js
     ADB.trackBeacon(uuid, major, minor, proximity, cData) 
     ```
+
   * Here is the code sample for this method:
 
     ```js
     ADB.trackBeacon('2F234454-CF6D-4A0F-ADF2-F4911BA9FFA6', 1, 2, 
     ADB.beaconUnknown, {'hp':'hp_val','hp.company':'adobe'}
     ```
+
 * **clearCurrentBeacon**
 
   Clears the beacon data after a user leaves the proximity of the beacon. 
@@ -402,12 +415,14 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetLoadRequest(success, fail, name, defaultContent, parameters);
     ```
+
   * Here is the code sample for this method:
 
     ```java
     ADB.targetLoadRequest(function&nbsp;(value)
     {myTempVal = value }, function () { myTempVal = null;},'bannerOffer', 'none', {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'}); 
     ```
+
 * **targetLoadOrderConfirmRequest**
   
   Sends a request to your configured `Target` server.
@@ -428,6 +443,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'}
     ); 
     ```
+
 * **targetClearCookies**
 
   Clears the `Target`cookies from shared cookie storage. 
@@ -437,6 +453,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetClearCookies(); 
     ```
+
 * **targetLoadRequestWithNameWithLocationParameters**
 
   Processes a `Target` service request. 
@@ -448,6 +465,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       success, fail, name, defaultContent, profileParameters, orderParameters, mboxParameters requestLocationParameters
       ); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -469,6 +487,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetLoadRequestWithRequestLocationParams(function () ;{ alert('success') }, function () { alert('fail'); } 'bannerOffer', 'none', {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'}, {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'});
     ```
+
 * **targetSessionID**
 
   Gets the value of the `SessionID` cookie returned for this visitor by the Target server. 
@@ -482,6 +501,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetSessionID(function (value) { alert(value) },function (value){ alert('fail'); });  
     ```
+
 * **targetPcID**
 
   Gets the value of the `PcID` cookie that is returned for this visitor by the `Target` server.
@@ -511,6 +531,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetSetThirdPartyID('test-third-party-id' function (value) { alert('success'); },function (value) { alert('fail'); }); 
     ```
+
 * **targetThirdPartyID**
 
   Gets the custom visitor ID for Target. 
@@ -520,6 +541,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetThirdPartyID(success, fail);
     ```
+
   * Here is code sample for this method:
 
     ```java
@@ -537,6 +559,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.acquisitionCampaignStartForApp(appId, data, success, fail); 
     ```
+
   * Here are the code samples for this method:
 
     ```java
@@ -568,6 +591,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.audienceGetVisitorProfile(function(value) { profile = value;}, function() { profile = null; }); 
     ```
+
 * **audienceGetDpuuid**
 
   Returns the DPUUID. 
@@ -582,6 +606,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.audienceGetDpuuid(function(value) { dpuuid = value;}, function(){dpuuid = null; }); 
     ```
+
 * **audienceGetDpid**
 
   Returns the DPID. 
@@ -597,6 +622,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.audienceGetDpid(function(value){dpid = value;}, function() {dpid =  null;}); 
     ```
+
 * **audienceSetDpidAndDpuuid**
 
   Sets the DPID and DPUUID. 
@@ -616,6 +642,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.audienceSetDpidAndDpuuid(‘dpid’, ‘dpuuid’); 
     ```
+
 * **audienceSignalWithData**
 
   Processes an Audience Manager service request. 
@@ -625,6 +652,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.audienceSignalWithData(success, fail, data);
     ```
+
   * Here are the code samples for this method:
 
     ```java
@@ -634,6 +662,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.audienceSignalWithData({‘key1’: ’value1’, ‘key2’:‘value2’}); 
     ```
+
 * **audienceReset**
 
   Audience Manager UUID and purges the current visitor profile.
@@ -661,6 +690,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.visitorGetMarketingCloudId(function (value) { mcid = value;},function (){ mcid = null;});
     ```
+
 * **visitorSyncIdentifiers**
 
   Synchronizes the provided identifiers with the ID Service.
@@ -676,9 +706,11 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.visitorSyncIdentifiers({‘key_id_1’:’value_id_1’}, function() {…}, function() {…}));
     ```
+
     ```java
     ADB.visitorSyncIdentifiers({‘key_id_1’: ‘value_id_1’});  
     ```
+
 * **visitorSyncIdentifiersWithAuthenticationState**
 
   Synchronizes the provided identifiers to the ID Service.
@@ -694,6 +726,7 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.visitorSyncIdentifiersWithAuthenticationState({'k1':'v1','k2':'v2','k3':'v3'}, ADB.mobileVisitorAuthenticationStateAuthenticated, function (value) { alert('success'); },function (value) { alert('fail'); }); 
     ```
+
 * **visitorSyncIdentifierWithType**
 
   Synchronizes the provided identifier to the ID Service.
@@ -703,11 +736,13 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.visitorSyncIdentifierWithType(identifierType, identifier authenticationState, success, fail); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
     ADB.visitorSyncIdentifierWithType('test-identifier-type', 'test-identifier', ADB.mobileVisitorAuthenticationStateAuthenticated, function (value) { alert('success') },function (value) { alert('fail'); }); 
     ```
+
 * **visitorAppendToURL**
 
   Appends visitor identifiers to the given URL. 
@@ -739,3 +774,4 @@ In the main activity that is generated by Cordova, call `Config.submitAdvertisin
     ```java
     ADB.visitorGetIDs(function (value) { alert(value); },function (value) { alert('fail') ;}); 
     ```
+    
