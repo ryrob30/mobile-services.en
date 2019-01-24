@@ -12,14 +12,9 @@ uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
 
 Starting in Android SDK version 4.5, a new Android extension was added that allows you to collect data from your Android Wearable app.
 
-This section contains the following information:
-
-* [Configuring the SDK for a Handheld App (Android Studio)](../wearables/android-wearable.md#section_262237484EC44C58953891B105F0D000) 
-* [Configuring the SDK for a Wearable App (Android Studio)](../wearables/android-wearable.md#section_2268EC03E20B4A228A28BDCFEA2E9AE4)
-
 ## Configuring the SDK for a Handheld App (Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
-For more information about importing the SDK into your project, see [Core Implementation and Lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972).
+For more information about importing the SDK into your project, see [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md).
 
 1. Add the [!DNL ADBMobileConfig.json] file to the assets folder of your project. 
 1. Add the [!DNL adobeMobileLibrary-*.jar] file to the libs folder or make sure this file is referenced by the project.
@@ -35,7 +30,7 @@ For more information about importing the SDK into your project, see [Core Implem
    public void onCreate(Bundle savedInstanceState) { 
        super.onCreate(savedInstanceState); 
        setContentView(R.layout.main); 
-         
+
        // Allow the SDK access to the application context 
        Config.setContext(this.getApplicationContext()); 
    }
@@ -47,7 +42,7 @@ For more information about importing the SDK into your project, see [Core Implem
        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
        <uses-permission android:name="android.permission.INTERNET" /> 
        <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
-    
+
    <application> 
    ....... 
    <meta-data android:name="com.google.android.gms.version" 
@@ -60,14 +55,14 @@ For more information about importing the SDK into your project, see [Core Implem
 
    ```java
    public class WearListenerService extends WearableListenerService { 
-    
+
        @Override 
        public void onMessageReceived(MessageEvent messageEvent) { 
            super.onMessageReceived(messageEvent); 
        } 
-    
+
        private GoogleApiClient mGoogleApiClient; 
-    
+
        @Override 
        public void onCreate() { 
            super.onCreate(); 
@@ -81,7 +76,7 @@ For more information about importing the SDK into your project, see [Core Implem
            super.onDestroy(); 
            mGoogleApiClient.disconnect(); 
        } 
-    
+
        @Override 
        public void onDataChanged(com.google.android.gms.wearable.DataEventBuffer dataEvents) { 
            DataListenerHandheld.onDataChanged(dataEvents, mGoogleApiClient, this); 
@@ -113,6 +108,7 @@ For more information about importing the SDK into your project, see [Core Implem
                </intent-filter> 
        </service> 
    </application> 
+
    Please find more information from google's blog https://android-developers.googleblog.com/2016/04/deprecation-of-bindlistener.html. 
    Permalink Edit
    ```
@@ -124,9 +120,9 @@ For more information about importing the SDK into your project, see [Core Implem
     * Add the same [!DNL ADBMobileConfig.json] file to the assets folder of your wearable project. 
     * Change the gradle config to use the [!DNL ADBMobileConfig.json] in the assets folder of the handheld app:
 
-      ```java    
+      ```java
       android { 
-           
+
           sourceSets { 
               main { 
                   assets.srcDirs = ['src/main/assets','../mobile/src/main/assets'] 
@@ -166,12 +162,12 @@ For more information about importing the SDK into your project, see [Core Implem
 
    ```java
    public class WearListenerService extends WearableListenerService { 
-    
+
        @Override 
        public void onDataChanged(com.google.android.gms.wearable.DataEventBuffer dataEvents) { 
            DataListenerWearable.onDataChanged(dataEvents); 
        } 
-    
+
    }
    ```
 

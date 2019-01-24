@@ -16,6 +16,6 @@ snippet: y
 
 This information helps you use the Location feature in your Android apps.
 
-*  [Geo-Location and Points of Interest](geo-poi.md)
-*  [Beacon tracking](beacon.md)
+* [Geo-Location and Points of Interest](/help/android/location/geo-poi.md)
+* [Beacon tracking](/help/android/location/beacon.md)
 

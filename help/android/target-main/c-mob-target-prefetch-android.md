@@ -6,7 +6,7 @@ title: Prefetch offer content in Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
 ---
 
-# Prefetch offer content in Android{#prefetch-offer-content-in-android}
+# Prefetch offer content in Android {#prefetch-offer-content-in-android}
 
 The Adobe Target prefetch feature uses the Android Mobile SDKs to fetch offer content as few times as possible by caching the server responses.
 
@@ -35,115 +35,117 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 Here are the methods that you can use for prefetch in Android:
 
-### prefetchContent
+* **prefetchContent**
 
-Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback.
+  Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback.
 
-**Syntax**
+  * Here is the syntax for this method:
 
-```
-public static void prefetchContent(
-final List<TargetPrefetchObject> targetPrefetchArray,
-final Map<String, Object> profileParameters,
-final TargetCallback<Boolean> callback)
-```
+    ```java
+    public static void prefetchContent(
+    final List<TargetPrefetchObject> targetPrefetchArray,
+    final Map<String, Object> profileParameters,
+    final TargetCallback<Boolean> callback)
+    ```
 
-**Parameters**
+  * Here are the parameters for this method:
 
-|Name |Description |
-|--- |--- |
-|targetPrefetchArray|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
-|profileParameters|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
-|callback|Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.|
+    |Name |Description |
+    |--- |--- |
+    |targetPrefetchArray|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
+    |profileParameters|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
+    |callback|Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.|
 
-### loadRequests
+* **loadRequests**
 
-Executes a batch request for multiple mbox locations that are specified in the requests array. &nbsp;Each object in the array contains a callback function, which will be invoked when content is available for its given mbox location.
+   Executes a batch request for multiple mbox locations that are specified in the requests array. &nbsp;Each object in the array contains a callback function, which will be invoked when content is available for its given mbox location.
 
->[!IMPORTANT]
->
->If the content for the requested locations is already cached, it will be returned immediately in the provided callback. Otherwise, the SDK will send a network request to the Target servers to retrieve the content.
+  >[!IMPORTANT]
+  >
+  >If the content for the requested locations is already cached, it will be returned immediately in the provided callback. Otherwise, the SDK will send a network request to the Target servers to retrieve the content.
 
-**Syntax:**
+  * Here is the syntax for this method: 
 
-```
-public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
-```
+    ```java
+    public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
+    ```
 
-**Parameters**
+  * Here are the parameters for this method: 
 
-|Name |Description |
-|--- |--- |
-|requestArray|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
-|profileParameters|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
+    |Name |Description |
+    |--- |--- |
+    |requestArray|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
+    |profileParameters|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
 
-### clearPrefetchCache
+* **clearPrefetchCache**
 
-Clears the data that was cached by Target Prefetch.
+  Clears the data that was cached by Target Prefetch.
 
-**Syntax**:
+  * Here is the syntax for this method:
 
-`public static void clearPrefetchCache();`
+    ```java
+    public static void clearPrefetchCache();
+    ```
 
-**Parameters**: N/A
+  * There are no parameters for this method. 
 
-### createTargetRequestObject
+* **createTargetRequestObject**
 
-Creates and returns an instance of `TargetRequestObject` with the provided data.
+    Creates and returns an instance of `TargetRequestObject` with the provided data.
 
-**Syntax**
+  * Here is the syntax for this method:
 
-```
-public static TargetPrefetchObject createTargetRequestObject( 
-final String mboxName,
-final String defaultContent, 
-final Map<String, Object> mboxParams, 
-final Map<String, Object> orderParams, 
-final Map<String, Object> productParams, 
-final Target.TargetCallback<String> callback)
-```
+    ```java
+    public static TargetPrefetchObject createTargetRequestObject( 
+    final String mboxName,
+    final String defaultContent, 
+    final Map<String, Object> mboxParams, 
+    final Map<String, Object> orderParams, 
+    final Map<String, Object> productParams, 
+    final Target.TargetCallback<String> callback)
+    ```
 
-### createTargetPrefetchObject
+* **createTargetPrefetchObject**
 
-Creates and returns an instance of TargetPrefetchObject with the provided data.
+  Creates and returns an instance of TargetPrefetchObject with the provided data.
 
-**Syntax**:
+  * Here is the syntax for this method:
 
-```
-public static TargetPrefetchObject createTargetPrefetchObject( 
-final String mboxName, 
-final Map<String, Object> mboxParams) 
-final Map<String, Object> orderParams, 
-final Map<String, Object> productParams)
-```
+    ```java
+    public static TargetPrefetchObject createTargetPrefetchObject( 
+    final String mboxName, 
+    final Map<String, Object> mboxParams) 
+    final Map<String, Object> orderParams, 
+    final Map<String, Object> productParams)
+    ```
 
 ## Public Classes {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Here are the public classes that support pre-fetch in Android:
 
-**Class Reference: TargetPrefetchObject**
+### Class Reference: TargetPrefetchObject
 
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
 | Property | Description |
 |--- |--- |
-|name|Type: String<br>Name of the location that will be prefetched.|
-|mboxParameters|Type: Map`<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.|
-|orderParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
-|productParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
+|name|**Type**: String <br>Name of the location that will be prefetched.|
+|mboxParameters|**Type**: Map`<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.|
+|orderParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
+|productParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
 
-**Class Reference: TargetRequestObject**
+### Class Reference: TargetRequestObject
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
 | Property | Description |
 |--- |--- |
-|mboxName|Type: String <br>Name of the requested location.|
+|mboxName|**Type**: String <br>Name of the requested location.|
 |mboxParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetRequestObject`.|
-|orderParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
-|productParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
-|defaultContent|Type: String <br>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.|
-|callback|Type: Target.TargetCallback`<String>` <br>Function pointer that will be called when content for the given `TargetRequestObject` is available.|
+|orderParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
+|productParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
+|defaultContent|**Type**: String <br>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.|
+|callback|**Type**: Target.TargetCallback`<String>` <br>Function pointer that will be called when content for the given `TargetRequestObject` is available.|
 
 ## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
 
@@ -219,13 +221,13 @@ Here is some additional information about these samples:
 
 * `ProductParameters` only allows the following keys:
 
-    * `id` 
-    * `categoryId`
+  * `id` 
+  * `categoryId`
 
 * `OrderParameters` only allows the following keys:
 
-    * `id` 
-    * `total` 
-    * `purchasedProductIds`
+  * `id` 
+  * `total` 
+  * `purchasedProductIds`
 
 * `purchasedProducts` accepts an ArrayList of strings.

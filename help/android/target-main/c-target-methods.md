@@ -17,7 +17,7 @@ The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], inc
 
 >[!TIP]
 >
->[Lifecycle Metrics](../metrics.md#concept_77CA5CEB51D1418FB98EC7C044682A05) are sent as parameters to each mbox load.
+>[Lifecycle Metrics](/help/android/metrics.md) are sent as parameters to each mbox load.
 
 ## Class Reference : TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
 
@@ -51,224 +51,208 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 >
 >* If you are using SDKs **before** version 4.14.0, see [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations. 
 >
->* If you are using SDKs version 4.14.0 **or after**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
+>* If you are using SDKs version 4.14.0 **or later**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations. 
 
-### loadRequest
+* **loadRequest**
 
-Sends request to your configured Target server and returns the string value of the offer that is generated in a block callback.
+  Sends request to your configured Target server and returns the string value of the offer that is generated in a block callback.
 
-**Syntax:**
+  * Here is the syntax for this method: 
 
-```
-public static void loadRequest(TargetLocationRequest request, TargetCallback<String> callback);
-```
+    ```java
+    public static void loadRequest(TargetLocationRequest request, TargetCallback<String> callback);
+    ```
 
-**Example:**
+  * Here is the code sample for this method: 
 
-```
-Target.loadRequest(heroBannerRequest, new Target.TargetCallback<String>() {  @Override  public void call(String item) {   // do something with item  } });
-```
+    ```java
+    Target.loadRequest(heroBannerRequest, new Target.TargetCallback<String>() {  @Override  public void call(String item) {   // do something with item  } });
+    ```
 
-**Syntax:**
+* **loadRequest**
 
-```java
-public static void loadRequest(final String name, final String defaultContent, final Map `<String, Object>` profileParameters, final Map `<String, Object>` orderParameters,
-                                final Map `<String, Object>` mboxParameters, final TargetCallback<String> callback)
-```
+  Sends request to your configured Target server and returns the string value of the offer that is generated in a block callback.
 
-**Example:**
+  * Here is the syntax for this method:
 
-```java
-Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”);
+    ```java
+    public static void loadRequest(final String name final String defaultContent, final Map `<String, Object>` profileParameters, 
+                                   final Map `<String, Object>` orderParameters,final Map `<String Object>` mboxParameters, final TargetCallback<String> callback)
+    ```
 
-Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters,  new TargetCallback<String>() {
-       @Override     public void call (String item) {
-          Log.d(“Target Content”, item); 
-     } });
-```
+  * Here is the code sample for this method:
 
-### loadRequest
+    ```java
+    Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
 
-Sends request to your configured Target server and returns the string value of the offer that is generated in a block callback .
+    Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”);
 
-**Syntax:**
+    Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); 
+    mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
+    Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters
+    new TargetCallback<String>() {
+        @Override
+        public void call (String item) {
+           Log.d(“Target Content”, item); 
+        }
+    });
+    ```
 
-```java
-public static void loadRequest(final String name, final String defaultContent, final Map `<String, Object>` profileParameters, final Map `<String, Object>` orderParameters, 
-                               final Map `<String, Object>` mboxParameters, final TargetCallback<String> callback)
-```
+* **loadRequest**
 
-**Example:**
+  Sends a request to your configured Target server and returns the string value of the offer that is generated in a TargetCallback.
 
-```java
-Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
+  * Here is the syntax for this method: 
 
-Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
+    ```java
+    public static void loadRequest(final String name, final String defaultContent, final Map<String, Object> profileParameters, final Map<String, Object> orderParameters, final Map<String, Object> mboxParameters, final Map<String, Object> requestLocationParameters, final TargetCallback<String> callback);
+    ```
 
-Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters,  new TargetCallback<String>() {     
-  
-   @Override 
-       public void call (String item) {
-             Log.d(“Target Content”, item);
-       } });
-```
+  * **Returns:** N/A
 
-### loadRequest
+  * **Parameters:**
 
-Sends a request to your configured Target server and returns the string value of the offer that is generated in a TargetCallback.
+    Here are the parameters for this method:
 
-**Syntax:**
+    |Name: |Description: |
+    |--- |--- |
+    |name|****Type:**** String Name of the Target mbox/location that you want to retrieve.|
+    |defaultContent|**Type:** String Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.|
+    |profileParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the "profileParameters" object in the request to Target.|
+    |orderParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the "order" object in the request to Target.|
+    |mboxParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the request to Target.|
+    |requestLocationParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the "requestLocation" object in the request to Target.|
+    |callback|**Type:** TargetCallback `<String>` This method will be called with the content of the offer from the Target server. If the Target server is unreachable or the user does not qualify for the campaign, defaultContent will be returned.|
 
-```java
-public static void loadRequest(final String name, final String defaultContent, final Map<String, Object> profileParameters, final Map<String, Object> orderParameters, final Map<String, Object> mboxParameters, final Map<String, Object> requestLocationParameters, final TargetCallback<String> callback);
-```
+  * Here is sample code for this method: 
 
-**Returns:** N/A
+    ```java
+    Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
 
-**Parameters:**
+    Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
 
-|Name: |Description: |
-|--- |--- |
-|name|****Type:**** String<br>Name of the Target mbox/location that you want to retrieve.|
-|defaultContent|**Type:** String<br>Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.|
-|profileParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the "profileParameters" object in the request to Target.|
-|orderParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the "order" object in the request to Target.|
-|mboxParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the request to Target.|
-|requestLocationParameters|**Type:** Map `<String, Object>` <br>Values in this dictionary will go in the "requestLocation" object in the request to Target.|
-|callback|**Type:** TargetCallback `<String>` <br>This method will be called with the content of the offer from the Target server. If the Target server is unreachable or the user does not qualify for the campaign, defaultContent will be returned.|
+    Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
 
-**Example:**
+    Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put(“request-location-parameter-key”, “request-location-parameter-value”); 
 
-```java
-Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
+    Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
+       @Override
+       public void call (String item) { 
+          Log.d(“Target Content”, item);
+       } 
+    });
+    ```
 
-Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
+    For more information about the underlying Target API, see [Delivery](https://docs.adobe.com/dev/products/target/reference/delivery.html) in the Target Developer's help.
 
-Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
+* **createOrder​ConfirmRequest**
 
-Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put(“request-location-parameter-key”, “request-location-parameter-value”); 
+  Creates a TargetLocationRequest object with the given parameters.
 
-Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
-       @Override 
-       public void call (String item) { 
-           Log.d(“Target Content”, item);
-       } });
-```
+  * Here is the syntax for this method: 
 
-For more information about the underlying Target API, see [Delivery](https://docs.adobe.com/dev/products/target/reference/delivery.html) in the Target Developer's help.
+    ```java
+    public static TargetLocationRequest createOrderConfirmRequest(String name, String orderId, String orderTotal, String productPurchasedId, Map<String, Object> parameters);
+    ```
 
-### createOrder​ConfirmRequest
+  * Here is the code sample for this method: 
 
-Creates a TargetLocationRequest object with the given parameters.
+    ```java
+    TargetLocationRequest orderConfirm = Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null);
+    ```
 
-**Syntax:**
+* **createRequest**
 
-```java
-public static TargetLocationRequest createOrderConfirmRequest(String name, String orderId, String orderTotal, String productPurchasedId, Map<String, Object> parameters);
-```
+  Creates a TargetLocationRequest object with the given parameters.
 
-**Example:**
+  * Here is the syntax for this method:
 
-```
-TargetLocationRequest orderConfirm = Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null);
-```
+    ```java
+    public static TargetLocationRequest createRequest(String name, String defaultContent, Map<String, Object> parameters);
+    ```
 
-### createRequest
+  * Here is the code sample for this method: 
 
-```
-Creates a TargetLocationRequest object with the given parameters.
-```
+    ```java
+    TargetLocationRequest heroBannerRequest = Target.createRequest("heroBanner", "default.png", null);
+    ```
 
-**Syntax:**
+* **clearCookies**
 
-```
-public static TargetLocationRequest createRequest(String name, String defaultContent, Map<String, Object> parameters);
-```
+  Clears any target cookies from your app.
 
-**Example:**
+  * Here is the syntax for this method: 
 
-```
-TargetLocationRequest heroBannerRequest = Target.createRequest("heroBanner", "default.png", null);
-```
+    ```java
+    public static void clearCookies();
+    ```
 
-### clearCookies
+  * Here is the code sample for this method: 
 
-```
-Clears any target cookies from your app.
-```
+    ```java
+    Target.clearCookies();
+    ```
 
-**Syntax:**
+* **getPcID**
 
-```
-public static void clearCookies();
-```
+  Returns the pcID.
 
-**Example:**
+  * Here is the syntax for this method:
 
-```
-Target.clearCookies();
-```
+    ```java
+    public static String getPcID();
+    ```
 
-### getPcID
+  * Here is the code sample for this method: 
 
-Returns the pcID.
+    ```java
+    Target.getPcID();
+    ```
 
-**Syntax:**
+* **getSessionID**
 
-```
-public static String getPcID();
-```
+  Returns the session ID.
 
-**Example:**
+  * Here is the syntax for this method:
 
-```
-Target.getPcID();
-```
+    ```java
+    public static String getSessionID();
+    ```
 
-### getSessionID
+  * Here is the code sample for this method:
 
-Returns the session ID.
+    ```java
+    Target.getSessionID();
+    ```
 
-**Syntax:**
+* **setThirdPartyID**
 
-```
-public static String getSessionID();
-```
+  Sets the third-party ID.
 
-**Example:**
+  * Here is the syntax for this method:
 
-```
-Target.getSessionID();
-```
+    ```java
+    public static String setThirdPartyID(final String thirdPartyId);
+    ```
 
-### setThirdPartyID
+  * Here is the code sample for this method:
 
-Sets the third-party ID.
+    ```java
+    Target.setThirdPartyID(“third-party-id”);
+    ```
 
-**Syntax:**
+* **getThirdPartyID**
 
-```
-public static String setThirdPartyID(final String thirdPartyId);
-```
+  Returns the third-party ID.
 
-**Example:**
+  * Here is the syntax for this method:
 
-```
-Target.setThirdPartyID(“third-party-id”);
-```
+    ```java
+    public static String getThirdPartyID();
+    ```
 
-### getThirdPartyID
+  * Here is the code sample for this method:
 
-Returns the third-party ID.
-
-**Syntax:**
-
-```
-public static String getThirdPartyID();
-```
-
-**Example:**
-
-```
-String thirdPartyId = Target.getThirdPartyID();
-```
+    ```java
+    String thirdPartyId = Target.getThirdPartyID();
+    ```

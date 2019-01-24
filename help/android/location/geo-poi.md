@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 ---
 
-# Geo-Location and Points of Interest{#geo-location-and-points-of-interest}
+# Geo-Location and Points of Interest {#geo-location-and-points-of-interest}
 
 Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your Android apps.
 
@@ -20,29 +20,21 @@ Each `trackLocation` call sends the following information:
 
 * Distance from center and accuracy passed as context data.
 
-  These variables are not captured automatically. You must map these context data variables by using the instructions in [Sending Additional Data](../location/geo-poi.md#section_3EBE813E54A24F6FB669B2478B5661F9).
-
-This section contains the following information:
-
-* [Dynamic POI updates](../location/geo-poi.md#section_3747B310DD5147E2AAE915E762997712) 
-* [How to Track](../location/geo-poi.md#section_B1616E400A7548F9A672F97FEC75AE27) 
-* [Sending Additional Data](../location/geo-poi.md#section_3EBE813E54A24F6FB669B2478B5661F9) 
-* [Location Context Data](../location/geo-poi.md#section_FFB71E6653F9410A89CC6ACC0C9164A9) 
-* [Notes](../location/geo-poi.md#section_931AC1E0D88147E29FE1B6E3CC1E9550)
+  These variables are not captured automatically. You must map these context data variables by using the instructions in the *Sending Additional Data* section below.
 
 ## Dynamic POI updates {#section_3747B310DD5147E2AAE915E762997712}
 
-Starting in version 4.2, POIs are defined in the Adobe Mobile UI and dynamically synchronized to the app configuration file. This synchronization requires an `analytics.poi` setting in the [ADBMobile JSON Config](../configuration/json-config/json-config.md#concept_0F700EEE71F94B44A0E4000E6C2DA7FB):
+Starting in version 4.2, POIs are defined in the Adobe Mobile UI and dynamically synchronized to the app configuration file. This synchronization requires an `analytics.poi` setting in the [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md):
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-If this is not configured, you must download an updated version of the `ADBMobile.json` file and add it to your app. For more information, see [Download the SDK and Testing Tools](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
+If this is not configured, you must download an updated version of the `ADBMobile.json` file and add it to your app. For more information, see [Download the SDK and Testing Tools](/help/android/getting-started/requirements.md).
 
 ## Tracking Geo-Location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```java
@@ -60,7 +52,7 @@ If this is not configured, you must download an updated version of the `ADBMobil
    >
    >You can call `trackLocation` at any time.
 
-   You can use [Android Location Strategies](https://developer.android.com/guide/topics/location/strategies.html) to determine the location that is passed to the `trackLocation` call.
+   You can use location strategies to determine the location that is passed to the `trackLocation` call. For more information, see [Android Location Strategies](https://developer.android.com/guide/topics/location/strategies.html).
 
 Additionally, if the location is determined to be in a defined POI radius, an `a.loc.poi` context data variable is sent in with the `trackLocation` hit and is reported as a POI on the **[!UICONTROL Location Breakdown]** reports. An `a.loc.dist` context variable is also sent with the distance in meters from the defined coordinates.
 

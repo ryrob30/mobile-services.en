@@ -20,18 +20,18 @@ The following beacon data is sent to Analytics and Target when `trackBeacon` is 
 * `a.beacon.minor` - Minor number of the beacon (such as a unique number within a store) 
 * `a.beacon.prox` - Values of 0-3 represent how close the user is to the beacon.
 
-  Here is what these values mean:
+Here is what these values mean:
 
-    * 0 = unknown 
-    * 1 = immediate 
-    * 2 = near 
-    * 3 = far
+* 0 = unknown 
+* 1 = immediate 
+* 2 = near 
+* 3 = far
 
 This beacon data is captured in mobile solution variables.
 
 ## Tracking Beacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```java
