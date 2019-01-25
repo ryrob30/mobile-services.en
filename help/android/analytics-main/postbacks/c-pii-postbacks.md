@@ -6,7 +6,7 @@ title: PII Postbacks
 uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
 ---
 
-# PII Postbacks{#pii-postbacks}
+# PII Postbacks {#pii-postbacks}
 
 You can use the Adobe SDK to collect personally identifiable information (PII) and send it to a third-party endpoint.
 
@@ -18,7 +18,7 @@ When you want to use the Adobe SDK to collect PII, you should send a track PII c
 
 ## Tracking PII Postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
 
-1. Add [the library to your project and implement lifecycle](https://marketing.adobe.com/resources/help/en_US/mobile/android/dev_qs.html). 
+1. Add [the library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```java

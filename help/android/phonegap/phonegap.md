@@ -9,17 +9,11 @@ topic: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 ---
 
-# PhoneGap Plug-in{#phonegap-plug-in}
+# PhoneGap Plug-in {#phonegap-plug-in}
 
 This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project.
 
 To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
-
-This section contains the following information:
-
-* [Install the plug-in using npm](../phonegap/phonegap.md#section_43229E57C16944C0B51531CB92089189) 
-* [Manually install the plug-in](../phonegap/phonegap.md#section_EA1FD59C484D44878AB509954DEE6037) 
-* [Implement Custom Tracking](../phonegap/phonegap.md#section_FD102B3CDAA4492FB04E56BF17E28663)
 
 ## Install the plug-in using npm {#section_43229E57C16944C0B51531CB92089189}
 
@@ -31,7 +25,7 @@ cordova plugin add adobe-mobile-services
 
 ## Manually install the plug-in {#section_EA1FD59C484D44878AB509954DEE6037}
 
-**Include the Plug-in**
+### Include the Plug-in
 
 1. Drag [!DNL ADBMobile_PhoneGap.java] to your [!DNL src] folder.
 
@@ -55,9 +49,9 @@ cordova plugin add adobe-mobile-services
    <param name="android-package" value="com.example.phonegaptest.ADBMobile_PhoneGap" />
    ```
 
-**Include the AppMeasurement Library**
+### Include the AppMeasurement Library
 
-1. To download the AppMeasurement library, see [Get the SDK](../getting-started/dev-qs.md#section_99FE1A17A36D4A2C943939023CF6265C). 
+1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md). 
 1. Drag [!DNL adobeMobileLibrary.jar] to your [!DNL src] folder.
 
    To move this file, click **[!UICONTROL OK]**. 
@@ -69,7 +63,7 @@ cordova plugin add adobe-mobile-services
 
    To move this file, click **[!UICONTROL OK]**.
 
-**Add App Permissions**
+### Add App Permissions
 
 The AppMeasurement library requires the following permissions to send data and record offline tracking calls:
 

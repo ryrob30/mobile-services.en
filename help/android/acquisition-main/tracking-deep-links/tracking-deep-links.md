@@ -15,11 +15,11 @@ You can use this information to track deep and deferred deep links in your mobil
 
 ## Getting Started {#section_3DC3E891AC7840DAA723F83427CB77F2}
 
-**Tracking Deep Links**
+### Tracking Deep Links
 
 1. Add the SDK to your project and implement Lifecycle metrics.
 
-   For more information, see [Core Implementation and Lifecycle](../../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+   For more information, see [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Register the application to handle [URLs](https://developer.android.com/training/basics/intents/filters.html). 
 1. Pass Activity with deep link intent to Adobe SDK by using `collectLifecycleData`.
 
@@ -30,7 +30,7 @@ You can use this information to track deep and deferred deep links in your mobil
        @Override 
        protected void onCreate(Bundle savedInstanceState) { 
            super.onCreate(savedInstanceState); 
-     
+
            Config.collectLifecycleData(this); 
            ... 
        } 
@@ -47,21 +47,21 @@ Additionally, you might append one or more of the following reserved keys (with 
 * `a.launch.campaign.term` 
 * `a.launch.campaign.content`
 
-These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](../../getting-started/proc-rules.md#concept_4DAF0756D0DB43BD8C0627E023665FA5).
+These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-**Tracking Deferred Deep Links (for use with Marketing Links)**
+### Tracking Deferred Deep Links (for use with Marketing Links)
 
 With a deferred deep link, the Adobe SDK will open a new Intent with the deep link as the intent data. This process is handled as an external deep link using the code above.
 
 ## Deep Link Public Information {#section_1815396353614DA8A63D8D92112217E7}
 
-**Constants**
+### Constants
 
 ```java
 /* 
- * Used for message deep link tracking 
+ * Used for message deep link tracking
  * Key for deep link URL. 
- */ 
+ */
 public static final String ADB_MESSAGE_DEEPLINK_KEY = "adb_deeplink";
 ```
 

@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 ---
 
-# In-App Messaging{#in-app-messaging}
+# In-App Messaging {#in-app-messaging}
 
 You can deliver in-app messages that are triggered from any analytics data or event. After the implementation, messages are dynamically delivered to the app and do not require a code update.
 
@@ -16,18 +16,11 @@ You can deliver in-app messages that are triggered from any analytics data or ev
 >
 >To use in-app messaging, you **must** have SDK version 4.2 or later.
 
-You can create messages and the rules in Adobe Mobile services that define when messages are displayed. For more information, see [Create an in-app message](https://marketing.adobe.com/resources/help/en_US/mobile/?f=t_in_app_message). To display in-app messages, updates must be made to the SDK. You can complete these steps even if you have not yet defined any messages. After you define messages, they will be delivered dynamically to your app and displayed without an app store update.
-
-This topic contains the following information:
-
-* [Enabling In-App Messaging](../../messaging-main/messaging/messaging.md#section_380DF56C4EE4432A823940E4AE4C9E91) 
-* [Tracking In-App Messages](../../messaging-main/messaging/messaging.md#section_B85CDF6929564AAEA79338B55E5CB1E8) 
-* [Local Fallback Image](../../messaging-main/messaging/messaging.md#section_DEACC1CE549B4573B556A44A52409941) 
-* [Configuring Notification Icons](../../messaging-main/messaging/messaging.md#section_DDA28BDBCBB748BCBECF3AB50A177D48)
+You can create messages and the rules in Adobe Mobile services that define when messages are displayed. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). To display in-app messages, updates must be made to the SDK. You can complete these steps even if you have not yet defined any messages. After you define messages, they will be delivered dynamically to your app and displayed without an app store update.
 
 ## Enabling In-App Messaging {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
-1. Add the [library to your project and implement lifecycle](../../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Update [!DNL AndroidManifest.xml] to declare the full screen activity and enable the Message Notification Handler:
 
    ```java
@@ -99,7 +92,7 @@ This topic contains the following information:
    }
    ```
 
-   If this object is not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Before You Start](../../getting-started/requirements.md#concept_2FA4E790CA1646FFB44488CF017821DE).
+   If this object is not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Before You Start](/help/android/getting-started/requirements.md).
 
 ## Tracking In-App Messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
@@ -107,16 +100,14 @@ The Android Mobile SDKs track the following metrics for your in-app messages:
 
 * For full screen and alert style in-app messages:
 
-    * **Impressions**: when user triggers an in-app message. 
-    * **Click throughs**: when user presses the **[!UICONTROL Click through]** button. 
-    
-    * **Cancels**: when user pushes the **[!UICONTROL Cancel]** button.
+  * **Impressions**: when user triggers an in-app message. 
+  * **Click throughs**: when user presses the **[!UICONTROL Click through]** button. 
+  * **Cancels**: when user presses the **[!UICONTROL Cancel]** button.
 
 * For custom, full screen in-app messages, the HTML content in the message needs to include the correct code to notify the SDK tracking about the following buttons:
 
-    * **Click-through** (redirect) example tracking: `adbinapp://confirm/?url=https://www.yoursite.com` 
-    
-    * **Cancel** (close) example tracking: `adbinapp://cancel`
+  * **Click-through** (redirect) example tracking: `adbinapp://confirm/?url=https://www.yoursite.com` 
+  * **Cancel** (close) example tracking: `adbinapp://cancel`
 
 ## Local Fallback Image {#section_DEACC1CE549B4573B556A44A52409941}
 
@@ -130,34 +121,34 @@ When creating a full-screen message, you can optionally specify a fallback image
 
 The following methods allow you to configure the small and large icons that appear in the notification area, and the large icon that is displayed when notifications appear in the notification drawer. 
 
-<table id="table_AD6469D4C9024D99A6D7EDD830112285"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> Config.setSmallIconResourceId(int resourceId) </span> </td> 
-   <td colname="col2"> <p>Set the small icon that will be used for notifications that are created by the SDK. This icon appears in the status bar and is the secondary image that is displayed shown when the user sees the complete notification in the notification center. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;setSmallIconResourceId(final&amp;nbsp;int&amp;nbsp;resourceId); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Config.setSmallIconResourceId(R.drawable.appIcon); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> Config.setLargeIconResourceId(int resourceId) </span> </td> 
-   <td colname="col2"> <p>Set the large icon that will be used for notifications that are created by the SDK. This icon will be the primary image that is displayed when the user sees the complete notification in the notification center. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax java">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;setLargeIconResourceId(final&amp;nbsp;int&amp;nbsp;resourceId); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax java">
-      Config.setLargeIconResourceId(R.drawable.appIcon); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **Config.setSmallIconResourceId(int resourceId)**
 
+  Set the small icon that will be used for notifications that are created by the SDK. This icon appears in the status bar and is the secondary image that is displayed shown when the user sees the complete notification in the notification center. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void setSmallIconResourceId(final int resourceId); 
+    ```
+
+  * Here is the code example for this method:
+
+    ```java
+    Config.setSmallIconResourceId(R.drawable.appIcon);
+    ```
+
+* **Config.setLargeIconResourceId(int resourceId)** 
+
+  Set the large icon that will be used for notifications that are created by the SDK. This icon will be the primary image that is displayed when the user sees the complete notification in the notification center.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void setLargeIconResourceId(final int resourceId); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Config.setLargeIconResourceId(R.drawable.appIcon); 
+    ```

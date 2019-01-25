@@ -15,9 +15,9 @@ Here is some information to help you configure the Android extension, which allo
 * The Adobe Mobile Android Wearables extension requires Android version 4.4 (KitKat) or above. 
 * There is one additional context value, [!DNL A.RunMode], which has been added to indicate whether the data comes from the containing app or the extension.
 
-    * [!DNL RunMode = Application] (the hit comes from handheld app) 
-    * [!DNL RunMode = Extension] (the hit comes from wearable app)
+  * [!DNL RunMode = Application] (the hit comes from handheld app) 
+  * [!DNL RunMode = Extension] (the hit comes from wearable app)
 
 * The SDK automatically syncs the [!DNL aid/vid/visitor service id/privacy] status from the handheld app to the wearable app, so do not call [!DNL setPrivacyStatus/setUserIdentifier/idSync] from the wearable app. 
-* [In-app messages](../messaging-main/messaging/messaging.md#concept_C780209084B94D44A107332C87FE943E), [Target](../target-main/target.md#concept_CB9A3D33B3404A17AAB44EF5ADE4447D), and [Audience Manager](../audience-manager/audiencemgmt.md#concept_526A892D2DC744B98782004E9583F014) are disabled for the wearable app.
+* [In-app messages](/help/android/messaging-main/messaging/messaging.md), [Target](/help/android/target-main/target.md), and [Audience Manager](/help/android/audience-manager/audiencemgmt.md) are disabled for the wearable app.
 

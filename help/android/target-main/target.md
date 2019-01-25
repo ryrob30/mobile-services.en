@@ -9,13 +9,13 @@ topic: Developer and implementation
 uuid: 09fe2c9c-7b60-49c3-bb9d-36a30ce7c350
 ---
 
-# Target Configuration{#target-configuration}
+# Target Configuration {#target-configuration}
 
 You can deliver targeted content in Android applications.
 
 ## Set the Application Context {#section_37CAE496FF894FCA821F7760605574CA}
 
-(Required) The `setContext()` method must be called once in the `onCreate()` method of your main activity.
+**(Required)** The `setContext()` method must be called once in the `onCreate()` method of your main activity.
 
 For example:
 

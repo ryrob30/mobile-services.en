@@ -22,14 +22,14 @@ For the Adobe Mobile SDK portions of your mobile apps, you can use the following
 
 * To retrieve data from the SDKs, and send this data to your servers, use the `getAllIdentifiersAsync` method.
 
-  For more information, see [Retrieving Stored Identifiers](../c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md#concept_45DF30ADF75C497AA96A275C584A4118). 
+  For more information, see [Retrieving Stored Identifiers](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md). 
 
 * To set your opt status and help you with a GDPR data deletion request, use the following settings:
 
-    * `privacyDefault` 
-    * `setPrivacyStatus`
+  * `privacyDefault` 
+  * `setPrivacyStatus`
 
-  For more information, see [Setting the User's Opt Status](../c-mob-privacy-gdpr-android/privacy.md#concept_BF4AFEA7801F42E4B2A638A755BF11D5).
+  For more information, see [Setting the User's Opt Status](/help/android/c-mob-privacy-gdpr-android/privacy.md).
 
 ## Additional Information {#section_7C7124C50D85469C8C8714533FB1A37D}
 

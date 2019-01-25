@@ -6,7 +6,7 @@ title: Receive Rich Push Notifications
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
 ---
 
-# Receive Rich Push Notifications{#receive-rich-push-notifications}
+# Receive Rich Push Notifications {#receive-rich-push-notifications}
 
 You can attach image files to your Android notifications. Adding visual components can significantly increase your user's engagement with push notifications.
 
