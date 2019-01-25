@@ -8,7 +8,7 @@ title: Xamarin components for Experience Cloud Solutions 4.x SDK
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
 ---
 
-# Xamarin components for Experience Cloud Solutions 4.x SDK{#xamarin-components-for-experience-cloud-solutions-x-sdk}
+# Xamarin components for Experience Cloud Solutions 4.x SDK {#xamarin-components-for-experience-cloud-solutions-x-sdk}
 
 This topic describes how to get started using Xamarin components for Mobile solutions 4.x SDK.
 
@@ -30,17 +30,18 @@ Import the ADBMobile Component to your Xamarin.Android Project:
 
 1. Select [!DNL ADBMobile.XamarinAndroidBinding.dll] from the folder **[!UICONTROL lib/Android]**. 
 
-1. Add your [!DNL ADBMobileConfig.json] file into the **[!UICONTROL Assets]** folder of your project.&nbsp; 
+1. Add your [!DNL ADBMobileConfig.json] file into the **[!UICONTROL Assets]** folder of your project. 
 
 1. Add permissions for:
 
-    * `INTERNET` 
-    * `ACCESS_NETWORK_STATE`
+   * `INTERNET` 
+   * `ACCESS_NETWORK_STATE`
 
-```java
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-```
+
+   ```java
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    ```
 
 Add the following activity and receiver if you are using In-app messaging:
 

@@ -8,14 +8,11 @@ title: Unity Plug-in for the iOS and Android 4.x SDKs
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 ---
 
-# Unity Plug-in for the iOS and Android 4.x SDKs{#unity-plug-in-for-the-ios-and-android-x-sdks}
+# Unity Plug-in for the iOS and Android 4.x SDKs {#unity-plug-in-for-the-ios-and-android-x-sdks}
 
 This Plug-in lets you send Adobe Analytics calls from your Unity applications.
 
 Last Updated: **October 20, 2016**
-
-* [Getting Started](get-started.md#section_246D1F9B32ED47EABC41BDA8D0BD0CC7) 
-* [Importing the ADBMobile plug-in to your Unity project](get-started.md#section_35FB6DAE49FB4FA1ACB749A1F9480FE0)
 
 ## Getting Started {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
@@ -25,37 +22,37 @@ ADBMobile.unitypackage contents
 
 * Assets (root)
 
-    * ADBMobile
+  * ADBMobile
 
-        * Demo
+    * Demo
 
-            * ADBMobileDemo.cs 
-            * BooDemo.boo 
-            * BooScene.unity 
-            * CSharpScene.unity 
-            * JavaScriptDemo.js 
-            * JavaScriptScene.unity 
-            * SecondScene.unity 
-            * SecondSceneScript.cs
+      * ADBMobileDemo.cs 
+      * BooDemo.boo 
+      * BooScene.unity 
+      * CSharpScene.unity 
+      * JavaScriptDemo.js 
+      * JavaScriptScene.unity 
+      * SecondScene.unity 
+      * SecondSceneScript.cs
 
-    * Plugins
+  * Plugins
 
-        * ADBMobile.cs 
-        * Android
+    * ADBMobile.cs 
+    * Android
 
-            * adobeMobileLibrary-{version}.jar 
-            * AndroidManifest.xml 
-            * assets
+      * adobeMobileLibrary-{version}.jar 
+      * AndroidManifest.xml 
+      * assets
 
-                * ADBMobileConfig.json
+        * ADBMobileConfig.json
 
-        * iOS
+    * iOS
 
-            * ADBMobile.h 
-            * ADBMobileConfig.json 
-            * ADBMobileWrapper.h 
-            * ADBMobileWrapper.mm 
-            * AdobeMobileLibrary.a
+      * ADBMobile.h 
+      * ADBMobileConfig.json 
+      * ADBMobileWrapper.h 
+      * ADBMobileWrapper.mm 
+      * AdobeMobileLibrary.a
 
 Optional folders: The Demo folder contains Unity scenes and sample code for each of the supported scripting languages.
 

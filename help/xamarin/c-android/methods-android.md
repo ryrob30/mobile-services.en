@@ -14,138 +14,190 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 ## Configuration Methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
-<table id="table_8493CC7EBDF647BFACC9B2F94BE951D0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> DebugLogging </td> 
-   <td colname="col2"> <p> Returns the current debug logging preference. &amp;nbsp;Default: false </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;Boolean&amp;nbsp;DebugLogging; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      getter:&nbsp;&nbsp;var&nbsp;debuglog&nbsp;=&nbsp;Config.DebugLogging; 
-     
-setter:&nbsp;Config.DebugLogging&nbsp;=&nbsp;(Java.Lang.Boolean)true; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> LifetimeValue </td> 
-   <td colname="col2"> <p>Returns the lifetime value of the current user. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;BigDecimal&amp;nbsp;LifetimeValue; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&amp;nbsp;lifetimeValue&amp;nbsp;=&amp;nbsp;Config.LifetimeValue; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> PrivacyStatus </td> 
-   <td colname="col2"> <p> Returns the enum representation of the privacy status for current user. </p> <p> <span class="codeph"> ADBMobilePrivacyStatus.OptIn </span> - hits are sent immediately. </p> <p> <span class="codeph"> ADBMobilePrivacyStatus.OptOut </span> - hits are discarded. </p> <p> <span class="codeph"> ADBMobilePrivacyStatus.Unknown </span> - If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If offline tracking is not enabled, hits are discarded until the privacy status changes to opt in. </p> <p>Default: The default value is set in <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/json_config.html" format="https" scope="external"> ADBMobileConfig.json </a>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;MobilePrivacyStatus&amp;nbsp;PrivacyStatus; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      getter:&nbsp;var&nbsp;privacyStatus&nbsp;=&nbsp;Config.PrivacyStatus; 
-     
-setter:&nbsp;Config.PrivacyStatus&nbsp;=&nbsp;MobilePrivacyStatus.MobilePrivacyStatusUnknown; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> UserIdentifier </td> 
-   <td colname="col2"> <p> Returns the custom user identifier if a custom identifier has been set. Returns null if a custom identifier is not set. </p> <p>Default: null </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      &amp;nbsp;public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;UserIdentifier(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      getter:&nbsp;var&nbsp;userId&nbsp;=&nbsp;Config.UserIdentifier; 
-     
-setter:&nbsp;Config.UserIdentifier&nbsp;=&nbsp;"imBatman"; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Version </td> 
-   <td colname="col2"> <p>Gets the library version. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;Version; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&amp;nbsp;version&amp;nbsp;=&amp;nbsp;ADBMobile.Version; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PauseCollectingLifecycleData </p> </td> 
-   <td colname="col2"> <p> </p> <p> Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecycle correctly knows that the app did not crash. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=metrics" format="https" scope="external"> Lifecycle Metrics </a>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;PauseCollectingLifecycleData&amp;nbsp;(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Config.PauseCollectingLifecycleData(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>CollectLifecycleData (Activity activity) </p> </td> 
-   <td colname="col2"> <p>(4.2 or later) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=metrics" format="https" scope="external"> Lifecycle Metrics </a>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;collectLifecycleData(Activity&amp;nbsp;activity); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Config.CollectLifecycleData&amp;nbsp;(this); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> CollectLifecycleData (Activity activity) </td> 
-   <td colname="col2"> <p>(4.2 or later) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. See Lifecycle Metrics. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;collectLifecycleData(Activity&amp;nbsp;activity,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;context)); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;context&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-context.Add&nbsp;("key",&nbsp;"value"); 
-     
-Config.CollectLifecycleData&nbsp;(this,&nbsp;context); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>OverrideConfigStream </p> </td> 
-   <td colname="col2"> <p>(4.2 or later) Lets you load a different <span class="codeph"> ADBMobile JSON </span> Config file when the application starts. The different configuration is used until the application is closed. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;OverrideConfigStream&amp;nbsp;(Stream&amp;nbsp;strem); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Stream&nbsp;st1&nbsp;=&nbsp;Assets.Open&nbsp;("ADBMobileConfig-2.json"); 
-     
-Config.OverrideConfigStream&nbsp;(st1); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>SetLargeIconResourceId(int resourceId) </p> </td> 
-   <td colname="col2"> <p> (4.2 or later) Set the large icon that will be used for notifications created by the SDK. This icon will be the primary image shown when the user sees the full notification in the notification center. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SetLargeIconResourceId(&amp;nbsp;int&amp;nbsp;resourceId); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Config.SetLargeIconResourceId(R.drawable.appIcon); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>SetSmallIconResourceId(int resourceId) </p> </td> 
-   <td colname="col2"> <p>(4.2 or later) Set the small icon that will be used for notifications created by the SDK. This icon will show up in the status bar. This will also be the secondary image shown when the user sees the full notification in the notification center. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SetSmallIconResourceId(&amp;nbsp;int&amp;nbsp;resourceId); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Config.SetSmallIconResourceId(R.drawable.appIcon); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **DebugLogging**
+
+  Returns the current debug logging preference. The default: false.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static Boolean DebugLogging;
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    getter: var debuglog = Config.DebugLogging;
+    setter: Config.DebugLogging = (Java.Lang.Boolean)true;
+    ```
+
+* **LifetimeValue**
+
+  Returns the lifetime value of the current user. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static BigDecimal LifetimeValue; 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+     var lifetimeValue = Config.LifetimeValue;
+     ```
+
+* **PrivacyStatus**
+
+   Returns the enum representation of the privacy status for current user. 
+  * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately. 
+  * `ADBMobilePrivacyStatus.OptOut` - hits are discarded. 
+  * `ADBMobilePrivacyStatus.Unknown` - If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If offline tracking is not enabled, hits are discarded until the privacy status changes to opt in. 
+  
+   The default value is set in the [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) file.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static MobilePrivacyStatus PrivacyStatus; 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    getter: var privacyStatus = Config.PrivacyStatus; 
+    setter: Config.PrivacyStatus = MobilePrivacyStatus.MobilePrivacyStatusUnknown;
+    ```
+
+* **UserIdentifier**
+
+  eturns the custom user identifier if a custom identifier has been set. Returns null if a custom identifier is not set. The default value is `null`.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static UserIdentifier();
+    ```
+  * Here is the code sample for this method:
+
+    ```java
+    getter: var userId = Config.UserIdentifier;
+    setter: Config.UserIdentifier = "imBatman";
+    ```
+
+* **Version**
+
+  Gets the library version. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static string Version;
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var version = ADBMobile.Version;
+    ```
+
+* **PauseCollectingLifecycleData**
+
+  ndicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecycle correctly knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void PauseCollectingLifecycleData (); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Config.PauseCollectingLifecycleData();
+    ```
+
+* **CollectLifecycleData (Activity activity)**
+
+  (4.2 or later) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void collectLifecycleData(Activity activity); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Config.CollectLifecycleData (this);
+    ```
+
+* **CollectLifecycleData (Activity activity)**
+
+  (4.2 or later) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void collectLifecycleData(Activity activity, IDictionary<string, Object> context));
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    IDictionary<string, Java.Lang.Object> context = new Dictionary<string, Java.Lang.Object> ();
+    context.Add ("key", "value"); 
+    Config.CollectLifecycleData (this, context);
+    ```
+* **OverrideConfigStream**
+
+  (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. The different configuration is used until the application is closed. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void OverrideConfigStream (Stream stream);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Stream st1 = Assets.Open ("ADBMobileConfig-2.json"); 
+    Config.OverrideConfigStream (st1); 
+    ```
+
+* **SetLargeIconResourceId(int resourceId)**
+
+  (4.2 or later) Set the large icon that will be used for notifications created by the SDK. This icon will be the primary image shown when the user sees the full notification in the notification center. 
+
+  * Here is the syntax for this method:
+
+  ```java
+    public static void SetLargeIconResourceId( int resourceId);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Config.SetLargeIconResourceId(R.drawable.appIcon);
+    ```
+
+* **SetSmallIconResourceId(int resourceId)**
+
+  (4.2 or later) Set the small icon that will be used for notifications created by the SDK. This icon will show up in the status bar. This will also be the secondary image shown when the user sees the full notification in the notification center. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void SetSmallIconResourceId( int resourceId); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+     Config.SetSmallIconResourceId(R.drawable.appIcon);
+     ```
 
 ## Analytics Methods {#section_63CF636104EF41F790C3E4190D755BBA}
 
