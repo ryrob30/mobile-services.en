@@ -201,186 +201,264 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 ## Analytics Methods {#section_63CF636104EF41F790C3E4190D755BBA}
 
-<table id="table_7B0B5547D17F4DF7A3F27265BEA46EDE"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>TrackingIdentifier </p> </td> 
-   <td colname="col2"> <p>Returns the automatically generated ID for Analytics. This is an app-specific unique ID that is generated on initial launch and then stored and used from that point forward. This ID is preserved between app upgrades, and is removed on uninstall. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;TrackingIdentifier; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Var&amp;nbsp;trackingId&amp;nbsp;=&amp;nbsp;Analytics.TrackingIdentifier 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackState </p> </td> 
-   <td colname="col2"> <p>Tracks an app state with optional context data. <span class="term"> States </span> are the views that are available in your app, such as "title screen", "level 1", "pause", and so on. These states are similar to pages on a website, and <span class="codeph"> TrackState </span> calls increment page views. </p> <p>If state is empty, it displays as "app name app version (build)" in reports. If you see this value in reports, make sure you are setting state in each <span class="codeph"> TrackState </span> call. </p> <p> <b>Note</b>: This is the only tracking call that increments page views. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackState&amp;nbsp;(string&amp;nbsp;state,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&nbsp;cdata&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value"); 
-     
-Analytics.TrackState&nbsp;("stateName",&nbsp;(IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;)cdata); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackAction </p> </td> 
-   <td colname="col2"> <p>Tracks an action in your app. Actions are the things that happen in your app that you want to measure, such as "deaths", "level gained", "feed subscriptions", and other metrics. </p> <p>Note: If you have code that might run while the app is in the background (for example, a background data retrieval), use <span class="codeph"> trackActionFromBackground </span> instead. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackAction(string&amp;nbsp;action,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&nbsp;cdata&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value"); 
-     
-Analytics.TrackAction&nbsp;("actionName",&nbsp;(IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;)cdata); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackLocation </p> </td> 
-   <td colname="col2"> <p>Sends the current latitude and longitude coordinates. Also uses points of interest defined in the <span class="codeph"> ADBMobileConfig.json </span> file to determine if the location provided as a parameter is within any of your POI. If the current coordinates are within a defined POI, a context data variable is populated and sent with the <span class="codeph"> TrackLocation </span> call. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackLocation(Location&amp;nbsp;location,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Location&nbsp;loc&nbsp;=&nbsp;new&nbsp;Location(LocationManager.GpsProvider);; 
-     
-loc.Latitude&nbsp;=&nbsp;111; 
-     
-loc.Longitude&nbsp;=&nbsp;44; 
-     
-loc.Accuracy&nbsp;=&nbsp;5; 
-     
-Analytics.TrackLocation&nbsp;(loc,&nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackBeacon </p> </td> 
-   <td colname="col2"> <p>Tracks when a users enters proximity of a beacon. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackBeacon&amp;nbsp;(string&amp;nbsp;uuid,&amp;nbsp;string&amp;nbsp;major,&amp;nbsp;string&amp;nbsp;minor,&amp;nbsp;Analytics.BEACON_PROXIMITY&amp;nbsp;prox,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.TrackBeacon&amp;nbsp;("UUID",&amp;nbsp;"1",&amp;nbsp;"2",&amp;nbsp;Analytics.BEACON_PROXIMITY.ProximityImmediate,&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ClearBeacon </p> </td> 
-   <td colname="col2"> <p>Clears beacons data after a user leaves the proximity of the beacon. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackingClearCurrentBeacon(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.ClearBeacon(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackLifetimeValueIncrease </p> </td> 
-   <td colname="col2"> <p>Adds amount to the user's lifetime value. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackLifetimeValueIncrease(double&amp;nbsp;amount,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.TrackLifetimeValueIncrease(5,&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackTimedActionStart </p> </td> 
-   <td colname="col2"> <p>Start a timed action with name action. </p> <p>If you call this method for an action that has already started, the previous timed action is overwritten. </p> <p> <b>Note</b>: This call does not send a hit. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackTimedActionStart(string&amp;nbsp;action,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.TrackTimedActionStart("level2",&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackTimedActionUpdate </p> </td> 
-   <td colname="col2"> <p>Pass in data to update the context data associated with the given action. </p> <p>The data passed in is appended to the existing data for the given action, and overwrites the data if the same key is already defined for action. </p> <p> <b>Note</b>: This call does not send a hit. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackTimedActionUpdate(string&amp;nbsp;action,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&nbsp;updatedData&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-cdata.Add&nbsp;("key",&nbsp;(Java.Lang.Object)"value"); 
-     
-&nbsp;Analytics.TrackTimedActionUpdate("level2",&nbsp;updatedData); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackTimedActionEnd </p> </td> 
-   <td colname="col2"> <p>End a timed action. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackTimedActionEnd(string&amp;nbsp;action,&amp;nbsp;&amp;nbsp;Analytics.ITimedActionBlock&amp;nbsp;block); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.TrackTimedActionEnd&nbsp;("level2",&nbsp;new&nbsp;TimedActionBlock()); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;TimedActionBlock:&nbsp;Java.Lang.Object,&nbsp;Analytics.ITimedActionBlock{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;Java.Lang.Object&nbsp;Call&nbsp;(long&nbsp;inAppDuration,&nbsp;long&nbsp;totalDuration,&nbsp;IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;contextData){ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;Java.Lang.Boolean.True; 
-     
-&nbsp;&nbsp;} 
-     
-} 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>TrackingTimedActionExists </p> </td> 
-   <td colname="col2"> <p>Returns whether or not a timed action is in progress. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;bool&amp;nbsp;TrackingTimedActionExists(string&amp;nbsp;action); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&amp;nbsp;level2InProgress&amp;nbsp;=&amp;nbsp;Analytics.TrackingTimedActionExists("level2"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>SendQueuedHits </p> </td> 
-   <td colname="col2"> <p>Forces the library to send all hits in the offline queue no matter how many are currently queued. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SendQueuedHits(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.SendQueuedHits(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ClearQueue </p> </td> 
-   <td colname="col2"> <p>Clears all hits from the offline queue. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;ClearQueue(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Analytics.ClearQueue(); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>QueueSize </p> </td> 
-   <td colname="col2"> <p>Retrieves the number of hits currently in the offline queue. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;long&amp;nbsp;QueueSize(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&amp;nbsp;queueSize&amp;nbsp;=&amp;nbsp;Analytics.QueueSize(); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **TrackingIdentifier**
+
+  Returns the automatically generated ID for Analytics. This is an app-specific unique ID that is generated on initial launch and then stored and used from that point forward. This ID is preserved between app upgrades, and is removed on uninstall. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static string TrackingIdentifier;
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Var trackingId = Analytics.TrackingIdentifier
+    ```
+
+* **TrackState**
+
+  Tracks an app state with optional context data. `States` are the views that are available in your app, such as "title screen", "level 1", "pause", and so on. These states are similar to pages on a website, and `TrackState` calls increment page views. If state is empty, it displays as "app name app version (build)" in reports. If you see this value in reports, make sure you are setting state in each `TrackState` call. 
+  
+  >[!TIP]
+  >
+  >This is the only tracking call that increments page views. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackState (string state, IDictionary<string, Object> cdata); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var cdata = new Dictionary<string, Java.Lang.Object>(); 
+    cdata.Add ("key", (Java.Lang.Object)"value"); 
+    Analytics.TrackState ("stateName", (IDictionary<string, 
+    Java.Lang.Object>)cdata);
+    ```
+
+* **TrackAction**
+
+  Tracks an action in your app. Actions are the things that happen in your app that you want to measure, such as "deaths", "level gained", "feed subscriptions", and other metrics. 
+  
+  >[!TIP]
+  >
+  >
+  >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackAction(string action, IDictionary<string,Object> cdata); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var cdata = new Dictionary<string, Java.Lang.Object> (); 
+    cdata.Add ("key", (Java.Lang.Object)"value");
+    Analytics.TrackAction ("actionName", (IDictionary<string, 
+    Java.Lang.Object>)cdata);
+    ``` 
+
+* **TrackLocation**
+
+  Sends the current latitude and longitude coordinates. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine if the location provided as a parameter is within any of your POI. If the current coordinates are within a defined POI, a context data variable is populated and sent with the `TrackLocation` call. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackLocation(Location location, IDictionary<string, Object> cdata); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+     Location loc = new Location(LocationManager.GpsProvider);;
+     loc.Latitude = 111; 
+     loc.Longitude = 44; 
+     loc.Accuracy = 5; 
+     Analytics.TrackLocation (loc, null);
+     ```
+
+* **TrackBeacon**
+
+  Tracks when a users enters proximity of a beacon.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackBeacon (string uuid, string major, string minor,  Analytics.BEACON_PROXIMITY prox, IDictionary<string, Object> cdata); 
+    ```  
+  * Here is the code sample for this method:
+
+    ```java
+    Analytics.TrackBeacon ("UUID", "1", "2", Analytics.BEACON_PROXIMITY.ProximityImmediate, null); 
+    ```
+
+* **ClearBeacon**
+
+  Clears beacons data after a user leaves the proximity of the beacon. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackingClearCurrentBeacon();
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Analytics.ClearBeacon(); 
+    ```
+
+* **TrackLifetimeValueIncrease**
+
+  Adds amount to the user's lifetime value.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackLifetimeValueIncrease(double&amp;nbsp;amount,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Analytics.TrackLifetimeValueIncrease(5,&amp;nbsp;null);
+    ```
+
+* **TrackTimedActionStart**
+
+  Start a timed action with name action. If you call this method for an action that has already started, the previous timed action is overwritten.
+  
+  >[!TIP]
+  >
+  > This call does not send a hit. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackTimedActionStart(string action,IDictionary<string, Object> cdata); 
+    ```
+
+  * Here is code sample for this method:
+
+    ```java
+    Analytics.TrackTimedActionStart("level2", null);
+    ```
+
+* **TrackTimedActionUpdate**
+
+  Pass in data to update the context data associated with the given action. The data passed in is appended to the existing data for the given action, and overwrites the data if the same key is already defined for action. 
+  
+  >[!TIP]
+  >
+  >This call does not send a hit. 
+
+  * Here is the syntax for this method:
+
+    ```java
+
+    public static void TrackTimedActionUpdate(string action, IDictionary<string, Object> cdata); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var updatedData = new Dictionary<string, Java.Lang.Object> (); 
+    cdata.Add ("key", (Java.Lang.Object)"value"); 
+    &nbsp;Analytics.TrackTimedActionUpdate("level2", updatedData); 
+    ```
+
+* **TrackTimedActionEnd**
+
+  End a timed action. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void TrackTimedActionEnd(string action,Analytics.ITimedActionBlock block);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Analytics.TrackTimedActionEnd ("level2", new TimedActionBlock()); 
+         class TimedActionBlock: Java.Lang.Object, 
+    Analytics.ITimedActionBlock{ 
+         public Java.Lang.Object Call (long inAppDuration, long 
+    totalDuration IDictionary<string, Java.Lang.Object> contextData){ 
+         return Java.Lang.Boolean.True; 
+      } 
+    }
+    ```
+
+* **TrackingTimedActionExists**
+
+  Returns whether or not a timed action is in progress.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static bool&amp TrackingTimedActionExists(string action); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var level2InProgress = Analytics.TrackingTimedActionExists("level2"); 
+    ```
+
+* **SendQueuedHits**
+
+  Forces the library to send all hits in the offline queue no matter how many are currently queued.
+
+  * Here is the syntax for this method:
+
+    public static void SendQueuedHits();
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Analytics.SendQueuedHits(); 
+    ```
+
+* **ClearQueue**
+
+  Clears all hits from the offline queue. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public& static void ClearQueue(); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Analytics.ClearQueue(); 
+    ```
+
+* **QueueSize**
+
+  Retrieves the number of hits currently in the offline queue.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static long QueueSize(); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var queueSize = Analytics.QueueSize();
+    ```
 
 ## Experience Cloud ID Methods {#section_157919E46030443DBB5CED60D656AD9F}
 
