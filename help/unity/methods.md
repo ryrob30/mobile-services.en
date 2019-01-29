@@ -69,7 +69,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
   * Here is the code sample for this method:
 
     ```java
-    var lifetimeValue&amp = ADBMobile.GetLifetimeValue();
+    var lifetimeValuea = ADBMobile.GetLifetimeValue();
     ```
 * **GetPrivacyStatus**
   
@@ -97,7 +97,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
   * Here is the syntax for this method:
 
     ```java
-    public static& string GetUserIdentifier();
+    public static string GetUserIdentifier();
     ```
 
   * Here is the code sample for this method:
@@ -280,7 +280,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
   * Here is the code sample for this method:
 
     ```java
-    ADBMobile.TrackAction("level&amp;nbsp;gained", null); 
+    ADBMobile.TrackAction("level gained", null); 
      ```
 
 * **TrackActionFromBackground (iOS only)**
@@ -294,7 +294,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
   * Here is the syntax for this method:
 
     ```java
-    public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackActionFromBackground(string&amp;nbsp;action,&amp;nbsp;Dictionary&lt;string,&amp;nbsp;object&gt;&amp;nbsp;cdata); 
+    public static void TrackActionFromBackground(string action, Dictionary<string,object> cdata); 
     ```
 
   * Here is the code sample for this method:
@@ -423,7 +423,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
   * Here is the syntax for this method:
 
     ```java
-    public& static bool TrackingTimedActionExists(string action); 
+    public static bool TrackingTimedActionExists(string action); 
     ```
 
   * Here is the code sample for this method:

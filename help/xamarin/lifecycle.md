@@ -29,7 +29,6 @@ protected override void OnCreate (Bundle bundle)
     Config.SetContext (Application.Context); 
     ... 
 }
-
 ```
 
 In every activity, you need to implement lifecycle calls.

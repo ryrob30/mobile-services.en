@@ -246,7 +246,11 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **TrackActionFromBackground (iOS only)**
 
-  Tracks an action that occurred in the background. This suppresses lifecycle events from firing in certain scenarios. </p> <p> <b>Note</b>: This method should only be called in code that runs while your app is in the background. 
+  Tracks an action that occurred in the background. This suppresses lifecycle events from firing in certain scenarios.
+  
+  >[!TIP]
+  >
+  > This method should only be called in code that runs while your app is in the background. 
 
   * Here is the syntax for this method:
 
@@ -557,7 +561,7 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **AudienceVisitorProfile**
 
-  Returns the visitor profile that was most recently obtained. Returns nil if no signal has been submitted yet. Visitor profile is saved in <span class="codeph"> NSUserDefaults </span> for easy access across multiple launches of your app. 
+  Returns the visitor profile that was most recently obtained. Returns nil if no signal has been submitted yet. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app. 
 
   * Here is the syntax for this method:
 
@@ -603,172 +607,198 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     string currentDpuuid = ADBMobile.AudienceDpuuid(); 
     ```
 
-<table id="table_2C6EDD39B53F4F31B39119B90AF62100"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1">  </td> 
-   <td colname="col2"> <p> </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-       
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-    
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> AudienceSetDpidAndDpuuid </td> 
-   <td colname="col2"> <p>Sets the dpid and dpuuid. If dpid and dpuuid are set, they will be sent with each signal. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void AudienceSetDpidAndDpuuid (NSDictionary data, Action&lt;NSDictionary&gt; callback); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.AudienceSetDpidAndDpuuid ("testDppid", "testDpuuid"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> AudienceSignalWithData </td> 
-   <td colname="col2"> <p> Sends audience management a signal with traits and get the matching segments returned in a <span class="codeph"> Action&lt;NSDictionary&gt; </span>   callback. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void AudienceSignalWithData (NSDictionary data, Action&lt;NSDictionary&gt; callback); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      NSDictionary  audienceData  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
-     
-ADBMobile.AudienceSignalWithData  (audienceData,  (context)  =&gt;  { 
-     
-Console.WriteLine  (context); 
-     
-}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> AudienceReset </td> 
-   <td colname="col2"> <p> Resets audience manager UUID and purges current visitor profile. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void AudienceReset (); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.AudienceReset (); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **AudienceSetDpidAndDpuuid**
+
+  Sets the dpid and dpuuid. If dpid and dpuuid are set, they will be sent with each signal. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void AudienceSetDpidAndDpuuid (NSDictionary data, Action<NSDictionary> callback); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMobile.AudienceSetDpidAndDpuuid ("testDppid", "testDpuuid")
+    ```
+
+* **AudienceSignalWithData**
+
+  Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>`  callback. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void AudienceSignalWithData (NSDictionary data, Action<NSDictionary> callback); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    NSDictionary  audienceData  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
+    ADBMobile.AudienceSignalWithData  (audienceData,  (context)  =>  { 
+    Console.WriteLine  (context); 
+    }); 
+    ```
+
+* **AudienceReset**
+
+  Resets audience manager UUID and purges current visitor profile. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void AudienceReset ();
+    ```
+
+  * Here is the syntax for this method:
+
+    ```c
+    ADBMobile.AudienceReset ();
+    ```
 
 ## Video {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-For more information, see [Video Analytics](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=video_qs). 
+For more information, see [Video Analytics](/help/ios/getting-started/dev-qs.md). 
 
-<table id="table_66ADC5C237DC4D2791A749564197A1CB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> MediaCreateSettings </td> 
-   <td colname="col2"> <p> Returns an <span class="codeph"> ADBMediaSettings </span> object with specified parameters. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static ADBMediaSettings MediaCreateSettings ([string name, double length, string playerName, string playerID); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMediaSettings settings = ADBMobile.MediaCreateSettings ("name1", 10, "playerName1", "playerID1"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaAdCreateSettings </td> 
-   <td colname="col2"> <p>Returns an <span class="codeph"> ADBMediaSettings </span> object for use with tracking an ad video. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static ADBMediaSettings MediaAdCreateSettings ( string name,  double length,  string playerName,  string parentName,  string parentPod,  double parentPodPosition,  string CPM); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMediaSettings adSettings = ADBMobile.MediaAdCreateSettings("adName1", 2, "playerName1", "name1", "podName1", 4, "CPM1"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaOpenWithSettings </td> 
-   <td colname="col2"> <p> Opens an <span class="codeph"> ADBMediaSettings </span> object for tracking. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaOpenWithSettings ( ADBMediaSettings settings,  Action&lt;ADBMediaState&gt; callback); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMediaSettings  settings  =  ADBMobile.MediaCreateSettings  ("name1",  10,  "playerName1",  "playerID1"); 
-     
-ADBMobile.MediaOpenWithSettings  (settings,  (state)  =&gt;  { 
-     
-Console.WriteLine  (state.Name); 
-     
-}); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaClose </td> 
-   <td colname="col2"> <p>Closes the media item named name. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaClose ( string name); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.MediaClose  (settings.Name);
+* **MediaCreateSettings**
 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaPlay </td> 
-   <td colname="col2"> <p>Plays the media item named name at the given offset (in seconds). </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaPlay ( string name, double offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.MediaPlay (settings.Name, 0); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaComplete </td> 
-   <td colname="col2"> <p> Manually mark the media item as complete at the offset provided (in seconds). </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaComplete ( string name, double offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.MediaComplete (settings.Name, 5); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaStop </td> 
-   <td colname="col2"> <p>Notifies the media module that the video has been stopped or paused at the given offset. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaStop ( string name, double offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.MediaStop (settings.Name, 3); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaClick </td> 
-   <td colname="col2"> <p>Notifies the media module that the media item has been clicked. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaClick ( string name, double offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.MediaClick (settings.Name, 3); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> MediaTrack </td> 
-   <td colname="col2"> <p> Sends a track action call (no page view) for the current media state. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public static void MediaTrack ( string name, NSDictionary data); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      ADBMobile.MediaTrack (settings.Name, null); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+  Returns an `ADBMediaSettings` object with specified parameters.
 
+  * Here is the syntax for this method:
+
+    ```c
+    public static ADBMediaSettings MediaCreateSettings ([string name, double length, string playerName, string playerID); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMediaSettings settings = ADBMobile.MediaCreateSettings ("name1", 10, "playerName1", "playerID1"); 
+    ```
+
+* **MediaAdCreateSettings**
+
+  Returns an `ADBMediaSettings` object for use with tracking an ad video.
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static ADBMediaSettings MediaAdCreateSettings ( string name,  double length,  string playerName,  string parentName,  string parentPod,  double parentPodPosition,  string CPM); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMediaSettings adSettings = ADBMobile.MediaAdCreateSettings("adName1", 2, "playerName1", "name1", "podName1", 4, "CPM1");
+    ```
+
+* **MediaOpenWithSettings**
+
+  Opens an `ADBMediaSettings` object for tracking. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaOpenWithSettings ( ADBMediaSettings settings,  Action<ADBMediaState> callback); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMediaSettings settings = ADBMobile.MediaCreateSettings  ("name1",  10,  "playerName1",  "playerID1"); 
+    ADBMobile.MediaOpenWithSettings  (settings,  (state)  =>  { 
+    Console.WriteLine  (state.Name); 
+    }); 
+    ```
+
+* **MediaClose**
+
+  Closes the media item named name. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaClose ( string name);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMobile.MediaClose  (settings.Name);
+    ```
+
+* **MediaPlay**
+
+  Plays the media item named name at the given offset (in seconds). 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaPlay ( string name, double offset);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMobile.MediaPlay (settings.Name, 0); 
+    ```
+
+* **MediaComplete**
+
+  Manually mark the media item as complete at the offset provided (in seconds). 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaComplete ( string name, double offset);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+    ADBMobile.MediaComplete (settings.Name, 5);
+    ```
+
+* ** MediaStop**
+
+   Notifies the media module that the video has been stopped or paused at the given offset. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaStop ( string name, double offset);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+     ADBMobile.MediaStop (settings.Name, 3);
+     ```
+
+* **MediaClick**
+
+  Notifies the media module that the media item has been clicked. 
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaClick ( string name, double offset); 
+    ```
+
+* **MediaTrack**
+
+  Sends a track action call (no page view) for the current media state.
+
+  * Here is the syntax for this method:
+
+    ```c
+    public static void MediaTrack ( string name, NSDictionary data); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```c
+     ADBMobile.MediaTrack (settings.Name, null);
+     ```

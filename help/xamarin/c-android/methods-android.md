@@ -373,7 +373,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     ```java
     var updatedData = new Dictionary<string, Java.Lang.Object> (); 
     cdata.Add ("key", (Java.Lang.Object)"value"); 
-    &nbsp;Analytics.TrackTimedActionUpdate("level2", updatedData); 
+    Analytics.TrackTimedActionUpdate("level2", updatedData); 
     ```
 
 * **TrackTimedActionEnd**
@@ -439,7 +439,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```java
-    public& static void ClearQueue(); 
+    public static void ClearQueue(); 
     ```
 
   * Here is the code sample for this method:
