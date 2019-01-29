@@ -146,8 +146,9 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the code sample for this method:
 
     ```java
-    IDictionary<string, Java.Lang.Object> context = new Dictionary<string, Java.Lang.Object> ();
-    context.Add ("key", "value"); 
+    IDictionary<string, Java.Lang.Object> context = new Dictionary<string, 
+    Java.Lang.Object> ();
+    context.Add ("key", "value");
     Config.CollectLifecycleData (this, context);
     ```
 * **OverrideConfigStream**
@@ -173,7 +174,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
   * Here is the syntax for this method:
 
-  ```java
+    ```java
     public static void SetLargeIconResourceId( int resourceId);
     ```
 
@@ -296,7 +297,8 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the code sample for this method:
 
     ```java
-    Analytics.TrackBeacon ("UUID", "1", "2", Analytics.BEACON_PROXIMITY.ProximityImmediate, null); 
+    Analytics.TrackBeacon ("UUID", "1", "2", 
+    Analytics.BEACON_PROXIMITY.ProximityImmediate, null); 
     ```
 
 * **ClearBeacon**
@@ -322,13 +324,13 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```java
-    public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;TrackLifetimeValueIncrease(double&amp;nbsp;amount,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;&amp;nbsp;cdata); 
+    public static void TrackLifetimeValueIncrease (double amount, IDictionary<string,Object> cdata); 
     ```
 
   * Here is the code sample for this method:
 
     ```java
-    Analytics.TrackLifetimeValueIncrease(5,&amp;nbsp;null);
+    Analytics.TrackLifetimeValueIncrease(5,null);
     ```
 
 * **TrackTimedActionStart**
@@ -381,7 +383,8 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```java
-    public static void TrackTimedActionEnd(string action,Analytics.ITimedActionBlock block);
+    public static void TrackTimedActionEnd(string action,
+      Analytics.ITimedActionBlock block);
     ```
 
   * Here is the code sample for this method:
@@ -404,7 +407,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```java
-    public static bool&amp TrackingTimedActionExists(string action); 
+    public static bool TrackingTimedActionExists(string action); 
     ```
 
   * Here is the code sample for this method:
@@ -419,6 +422,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
   * Here is the syntax for this method:
 
+    ```java
     public static void SendQueuedHits();
     ```
 
@@ -462,315 +466,375 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 ## Experience Cloud ID Methods {#section_157919E46030443DBB5CED60D656AD9F}
 
-<table id="table_4B49BB96CB4C4193AF05B3FE96E21205"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>MarketingCloudId </p> </td> 
-   <td colname="col2"> <p>Retrieves the Experience Cloud ID from the ID service. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;MarketingCloudId; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&amp;nbsp;mcid&amp;nbsp;=&amp;nbsp;Visitor.MarketingCloudId; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>SyncIdentifiers </p> </td> 
-   <td colname="col2"> <p>With the Experience Cloud ID, you can set additional customer IDs to associate with each visitor. The Visitor API accepts multiple Customer IDs for the same visitor, with a customer type identifier to separate the scope of the different customer IDs. This method corresponds to setCustomerIDs in the JavaScript library. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SyncIdentifiers((IDictionary&lt;string,&amp;nbsp;string&gt;&amp;nbsp;identifiers); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;string&gt;&nbsp;ids&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;(); 
-     
-ids.Add&nbsp;("pushID",&nbsp;"value2"); 
-     
-Visitor.SyncIdentifiers&nbsp;(ids); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **MarketingCloudId**
+
+  Retrieves the Experience Cloud ID from the ID service.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static string MarketingCloudId;
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var mcid = Visitor.MarketingCloudId;
+    ```
+
+* **SyncIdentifiers**
+
+  With the Experience Cloud ID, you can set additional customer IDs to associate with each visitor. The Visitor API accepts multiple Customer IDs for the same visitor, with a customer type identifier to separate the scope of the different customer IDs. This method corresponds to setCustomerIDs in the JavaScript library. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void SyncIdentifiers((IDictionary<string> identifiers);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    IDictionary<string,string> ids = new Dictionary<string, string> ();
+    ids.Add ("pushID", ;"value2");
+    Visitor.SyncIdentifiers (ids);
+    ```
 
 ## Target Methods {#section_C1E4121CAF9D43538511D857A1F549A7}
 
-<table id="table_17A32CA5A57845209483D8999CC5C082"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>LoadRequest </p> </td> 
-   <td colname="col2"> <p>Sends request to your configured Target server and returns the string value of the offer generated in a <span class="codeph"> Action&lt;NSDictionary&gt; </span> callback. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;LoadRequest&amp;nbsp;(TargetLocationRequest&amp;nbsp;request,&amp;nbsp;Target.ITargetCallback&amp;nbsp;callback); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      class&nbsp;TargetBlock:&nbsp;Java.Lang.Object,&nbsp;Target.ITargetCallback{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content) 
-     
-&nbsp;&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString()); 
-     
-&nbsp;&nbsp;} 
-     
-} 
-     
-var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal",&nbsp;parameters); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Target.LoadRequest&nbsp;(req,&nbsp;new&nbsp;TargetBlock()); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>CreateRequest </p> </td> 
-   <td colname="col2"> <p>Convenience constructor to create an <span class="codeph"> ADBTargetLocationRequest </span> object with the given parameters. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;TargetLocationRequest&amp;nbsp;TargetCreateRequest&amp;nbsp;(string&amp;nbsp;name,&amp;nbsp;string&amp;nbsp;defaultContent,&amp;nbsp;IDictionary&lt;string,&amp;nbsp;string&gt;&amp;nbsp;parameters); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;parameters&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;parameters.Add&nbsp;("key1",&nbsp;"value2"); 
-     
-var&nbsp;req&nbsp;=&nbsp;Target.CreateRequest&nbsp;("AndroidTest",&nbsp;"defGal",&nbsp;parameters); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>CreateOrderConfirmRequest </p> </td> 
-   <td colname="col2"> <p>Creates an ADBTargetLocationRequest. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;TargetLocationRequest&amp;nbsp;TargetCreateRequest&amp;nbsp;(string&amp;nbsp;name,&amp;nbsp;string&amp;nbsp;defaultContent,&amp;nbsp;&amp;nbsp;IDictionary&lt;string,&amp;nbsp;string&gt;&amp;nbsp;&amp;nbsp;parameters); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      var&amp;nbsp;orderConfirm&amp;nbsp;=&amp;nbsp;Target.CreateOrderConfirmRequest&amp;nbsp;("myOrder",&amp;nbsp;"12345",&amp;nbsp;"29.41",&amp;nbsp;"cool&amp;nbsp;stuff",&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ClearCookies </p> </td> 
-   <td colname="col2"> <p>Clears any target cookies from your app. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;ClearCookies(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Target.ClearCookies&amp;nbsp;(); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **LoadRequest**
+
+  Sends request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void LoadRequest (TargetLocationRequest request, Target.ITargetCallback callback); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    class TargetBlock: Java.Lang.Object, Target.ITargetCallback{ 
+        public void Call (Java.Lang.Object content) 
+       { 
+        Console.WriteLine (content.ToString()); 
+       } 
+    } 
+    var req = Target.CreateRequest ("AndroidTest", "defGal", parameters); 
+         Target.LoadRequest (req, new TargetBlock()); 
+    ```
+
+* **CreateRequest**
+
+  Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static TargetLocationRequest TargetCreateRequest(string name,string defaultContent,IDictionary<string,string> parameters); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    IDictionary<string, Java.Lang.Object> parameters = new Dictionary> string, Java.Lang.Object> (); 
+        parameters.Add ("key1", "value2"); 
+    var req = Target.CreateRequest ("AndroidTest", "defGal", parameters); 
+    ```
+
+* **CreateOrderConfirmRequest**
+
+  Creates an ADBTargetLocationRequest.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static TargetLocationRequest TargetCreateRequest (string name, string defaultContent, IDictionary<;string, string> parameters);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    var orderConfirm = Target.CreateOrderConfirmRequest ("myOrder", "12345", "29.41", "cool stuff", null); 
+    ```
+
+* **ClearCookies**
+
+  Clears any target cookies from your app. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void ClearCookies(); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Target.ClearCookies (); 
+    ```
 
 ## Audience Manager {#section_862C4202B6294B978DEEBB15C5CD5C01}
 
-<table id="table_2C6EDD39B53F4F31B39119B90AF62100"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>VisitorProfile </p> </td> 
-   <td colname="col2"> <p>Returns the visitor profile that was most recently obtained. Returns nil if no signal has been submitted yet. Visitor profile is saved in <span class="codeph"> NSUserDefaults </span> for easy access across multiple launches of your app. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;VisitorProfile; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      NSDictionary&amp;nbsp;profile&amp;nbsp;=&amp;nbsp;AudienceManager.VisitorProfile; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dpid </p> </td> 
-   <td colname="col2"> <p>Returns the current <span class="codeph"> DPID </span>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;Dpuuid; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      string&amp;nbsp;currentDpid&amp;nbsp;=&amp;nbsp;AudienceManager.Dpid; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dpuuid </p> </td> 
-   <td colname="col2"> <p>Returns the current <span class="codeph"> DPUUID </span>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;string&amp;nbsp;AudienceDpuuid; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      string&amp;nbsp;currentDpuuid&amp;nbsp;=&amp;nbsp;AudienceManager.Dpuuid; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AudienceSetDpidAndDpuuid </p> </td> 
-   <td colname="col2"> <p>Sets the <span class="codeph"> dpid </span> and <span class="codeph"> dpuuid </span>. If <span class="codeph"> dpid </span> and <span class="codeph"> dpuuid </span> are set, they will be sent with each signal. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;AudienceSetDpidAndDpuuid&amp;nbsp;(string&amp;nbsp;Dpid,&amp;nbsp;String&amp;nbsp;Dpuuid); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      AudienceManager.SetDpidAndDpuuid&amp;nbsp;("testDpid",&amp;nbsp;"testDpuuid"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>SignalWithData </p> </td> 
-   <td colname="col2"> <p>Sends audience management a signal with traits and get the matching segments returned in a <span class="codeph"> Action&lt;NSDictionary&gt; </span> &nbsp;callback. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;SignalWithData&amp;nbsp;(IDictionary&lt;string,&amp;nbsp;Object&gt;&amp;nbsp;audienceData,&amp;nbsp;AudienceManager.IAudienceManagerCallback&amp;nbsp;callback); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      class&nbsp;AudienceManagerCallback:&nbsp;Java.Lang.Object,&nbsp;&nbsp;AudienceManager.IAudienceManagerCallback{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content) 
-     
-&nbsp;&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine&nbsp;(content.ToString()); 
-     
-&nbsp;&nbsp;} 
-     
-} 
-     
-IDictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;traits&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;Java.Lang.Object&gt;&nbsp;(); 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;traits.Add&nbsp;("trait",&nbsp;"b");
+* **VisitorProfile**
 
-AudienceManager.SignalWithData&nbsp;(traits,&nbsp;new&nbsp;AudienceManagerCallback()); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reset </p> </td> 
-   <td colname="col2"> <p>Resets audience manager <span class="codeph"> UUID </span> and purges current visitor profile. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Reset&amp;nbsp;(); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      AudienceManager.Reset&amp;nbsp;(); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+  Returns the visitor profile that was most recently obtained. Returns nil if no signal has been submitted yet. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static IDictionary<string, Object> VisitorProfile; 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    NSDictionary profile = AudienceManager.VisitorProfile; 
+    ```
+
+* **Dpid**
+
+  Returns the current `DPID`. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static string Dpuuid; 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    string currentDpid = AudienceManager.Dpid;
+    ```
+
+* **Dpuuid**
+
+  Returns the current `DPUUID`. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static string AudienceDpuuid; 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    string currentDpuuid = AudienceManager.Dpuuid;
+    ```
+
+* **AudienceSetDpidAndDpuuid**
+
+  Sets the `dpid` and `dpuuid`. If `dpid` and `dpuuid` are set, they will be sent with each signal.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void AudienceSetDpidAndDpuuid (string Dpid, String Dpuuid);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    AudienceManager.SetDpidAndDpuuid ("testDpid", "testDpuuid");
+    ```
+
+* **SignalWithData**
+
+  Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>` callback. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void SignalWithData (IDictionary<string, Object> audienceData, AudienceManager.IAudienceManagerCallback callback); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    class AudienceManagerCallback: Java.Lang.Object, 
+     AudienceManager.IAudienceManagerCallback{ 
+       public void Call (Java.Lang.Object content) 
+      {
+        Console.WriteLine (content.ToString()); 
+      }
+    }
+    IDictionary<string, Java.Lang.Object> traits = new Dictionary<string, 
+    Java.Lang.Object> (); 
+       traits.Add ("trait", "b");
+    AudienceManager.SignalWithData (traits, new AudienceManagerCallback());
+    ``` 
+
+* **Reset**
+
+  Resets audience manager `UUID` and purges current visitor profile. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Reset ();
+    ```
+  
+  * Here is the code sample for this method:
+
+    ```java
+     AudienceManager.Reset ();
+     ```
 
 ## Video {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-More information is available at [here](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=video_qs). 
+For more information about Video Analytics, see [Video Analytics](/help/android/analytics-main/video-qs.md). 
 
-<table id="table_66ADC5C237DC4D2791A749564197A1CB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method Name </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>MediaSettings </p> </td> 
-   <td colname="col2"> <p>Returns an <span class="codeph"> MediaSettings </span> object with specified parameters. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;MediaSettings&amp;nbsp;SettingsWith&amp;nbsp;(string&amp;nbsp;name,&amp;nbsp;double&amp;nbsp;length,&amp;nbsp;string&amp;nbsp;playerName,&amp;nbsp;string&amp;nbsp;playerID);&amp;nbsp; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      MediaSettings&amp;nbsp;settings&amp;nbsp;=&amp;nbsp;Media.SettingsWith&amp;nbsp;("name1",&amp;nbsp;10,&amp;nbsp;"playerName1",&amp;nbsp;"playerID1"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AdSettingsWith </p> </td> 
-   <td colname="col2"> <p>Returns an <span class="codeph"> MediaSettings </span> object for use with tracking an ad video. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;MediaSettings&amp;nbsp;AdSettingsWith&amp;nbsp;(&amp;nbsp;string&amp;nbsp;name,&amp;nbsp;&amp;nbsp;double&amp;nbsp;length,&amp;nbsp;&amp;nbsp;string&amp;nbsp;playerName,&amp;nbsp;&amp;nbsp;string&amp;nbsp;parentName,&amp;nbsp;&amp;nbsp;string&amp;nbsp;parentPod,&amp;nbsp;&amp;nbsp;double&amp;nbsp;parentPodPosition,&amp;nbsp;&amp;nbsp;string&amp;nbsp;CPM); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      MediaSettings&amp;nbsp;adSettings&amp;nbsp;=&amp;nbsp;Media.AdSettingsWith&amp;nbsp;("adName1",&amp;nbsp;2,&amp;nbsp;"playerName1",&amp;nbsp;"name1",&amp;nbsp;"podName1",&amp;nbsp;4,&amp;nbsp;"CPM1"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Open </p> </td> 
-   <td colname="col2"> <p>Opens an <span class="codeph"> ADBMediaSettings </span> object for tracking. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Open&amp;nbsp;(MediaSettings&amp;nbsp;settings,&amp;nbsp;Media.IMediaCallback&amp;nbsp;callback); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      MediaSettings&nbsp;settings&nbsp;=&nbsp;Media.SettingsWith&nbsp;("name1",&nbsp;10,&nbsp;"playerName1",&nbsp;"playerID1"); 
-     
-&nbsp;&nbsp;Media.Open&nbsp;(settings,&nbsp;new&nbsp;MediaCallback()); 
-     
-&nbsp;&nbsp;class&nbsp;MediaCallback:&nbsp;Java.Lang.Object,&nbsp;&nbsp;&nbsp;Media.IMediaCallback{ 
-     
-public&nbsp;void&nbsp;Call&nbsp;(Java.Lang.Object&nbsp;content) 
-     
-{
+* **MediaSettings**
 
-} 
-     
-} 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Close </p> </td> 
-   <td colname="col2"> <p>Closes the media item named name. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Close(&amp;nbsp;string&amp;nbsp;name); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Media.Close&amp;nbsp;&amp;nbsp;(settings.Name); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Play </p> </td> 
-   <td colname="col2"> <p>Plays the media item named name at the given offset (in seconds). </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Play&amp;nbsp;(&amp;nbsp;string&amp;nbsp;name,&amp;nbsp;double&amp;nbsp;offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Media.Play&amp;nbsp;(settings.Name,&amp;nbsp;0); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Complete </p> </td> 
-   <td colname="col2"> <p>Manually mark the media item as complete at the offset provided (in seconds). </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Complete&amp;nbsp;(&amp;nbsp;string&amp;nbsp;name,&amp;nbsp;double&amp;nbsp;offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Media.Complete&amp;nbsp;(settings.Name,&amp;nbsp;5); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Stop </p> </td> 
-   <td colname="col2"> <p>Notifies the media module that the video has been stopped or paused at the given offset. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Stop&amp;nbsp;(&amp;nbsp;string&amp;nbsp;name,&amp;nbsp;double&amp;nbsp;offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Media.Stop&amp;nbsp;(settings.Name,&amp;nbsp;3); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Click </p> </td> 
-   <td colname="col2"> <p>Notifies the media module that the media item has been clicked. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Click&amp;nbsp;(&amp;nbsp;string&amp;nbsp;name,&amp;nbsp;double&amp;nbsp;offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Media.Click&amp;nbsp;(settings.Name,&amp;nbsp;3); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Track </p> </td> 
-   <td colname="col2"> <p>Sends a track action call (no page view) for the current media state. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax c">
-      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;Track&amp;nbsp;(&amp;nbsp;string&amp;nbsp;name,&amp;nbsp;&amp;nbsp;NSDictionary&amp;nbsp;data); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax c">
-      Media.Track&amp;nbsp;(settings.Name,&amp;nbsp;null); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+  Returns an `MediaSettings` object with specified parameters.
 
+  * Here is the syntax for this method:
+
+    ```java
+    public static MediaSettings SettingsWith (string name, double length, string playerName, string playerID);  
+    ```
+
+  * Here is the code sample for this method:
+
+    ``` java
+    MediaSettings settings = Media.SettingsWith("name1", 10, "playerName1", "playerID1");
+    ```
+
+* **AdSettingsWith**
+
+  Returns an `MediaSettings` object for use with tracking an ad video. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static MediaSettings AdSettingsWith ( string name, double length, 
+      string playerName, string parentName, string parentPod, 
+    double parentPodPosition, string CPM); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    MediaSettings adSettings = Media.AdSettingsWith ("adName1", 2, "playerName1", "name1", "podName1", 4, "CPM1"); 
+    ```
+
+* **Open**
+
+  Opens an `ADBMediaSettings` object for tracking.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Open (MediaSettings settings, Media.IMediaCallback callback);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    MediaSettings settings = Media.SettingsWith ("name1", 10, "playerName1", "playerID1"); 
+       Media.Open (settings, new MediaCallback()); 
+       class MediaCallback: Java.Lang.Object, Media.IMediaCallback{ 
+    public void Call (Java.Lang.Object content) 
+    {
+    }
+    }
+    ```
+
+* **Close**
+
+  Closes the media item named name. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Close(string name);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Media.Close (settings.Name); 
+    ```
+
+* **Play**
+
+  Plays the media item named name at the given offset (in seconds).
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Play ( string name, double offset); 
+    ```
+
+    * Here is the code sample for this method:
+
+      ```java
+      Media.Play (settings.Name, 0); 
+      ```
+
+* **Complete**
+
+  Manually mark the media item as complete at the offset provided (in seconds). 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Complete (string name, double offset); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Media.Complete (settings.Name, 5); 
+    ```
+
+* **Stop**
+
+  Notifies the media module that the video has been stopped or paused at the given offset. 
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Stop ( string name, double offset); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Media.Stop (settings.Name, 3);
+    ```
+
+* **Click**
+
+  >Notifies the media module that the media item has been clicked.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Click ( string name, double offset); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Media.Click (settings.Name, 3); 
+    ```
+
+* **Track**
+
+  Sends a track action call (no page view) for the current media state.
+
+  * Here is the syntax for this method:
+
+    ```java
+    public static void Track ( string name, NSDictionary data); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```java
+    Media.Track (settings.Name, null); 
+    ```
