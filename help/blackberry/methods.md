@@ -235,7 +235,7 @@ The [!DNL ADBMobileConfig.json] must be placed in the [!DNL assets] folder.
   
   >[!TIP]
   >
-  >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, contact [Customer Care](http://helpx.adobe.com/marketing-cloud/contact-support.html). 
+  >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, contact [Enterprise Support](https://helpx.adobe.com/contact/enterprise-support.ec.html). 
   
   If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable. 
 
@@ -252,12 +252,12 @@ The [!DNL ADBMobileConfig.json] must be placed in the [!DNL assets] folder.
   Maximum number of offline hits stored in the queue. The default value is 0 (No limit).
 
 * **privacyDefault**
- 
+
   * `optedin` - hits are sent immediately.  
   * `optedout` - hits are discarded.  
   * `optunknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.  
- 
-  This variable sets the initial value only. If this value is ever set or changed in code, then the new value is used going forward until it is changed, or the app is uninstalled and then reinstalled. 
+
+  This variable sets the initial value only. If this value is ever set or changed in code, then the new value is used going forward until it is changed, or the app is uninstalled and then reinstalled.
 
   The default value is `optedin`.
 

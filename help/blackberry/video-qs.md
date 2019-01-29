@@ -72,7 +72,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a .media.complete**
 
-  Indicates that a user has viewed a complete video. By default, the complete event is measured 1 second before the end of the video. </p> <p>During implementation, you can specify how many seconds from the end of the video you would like to consider a view complete. For live video and other streams that don't have a defined end, you can specify a custom point to measure completes. For example, after a specific time viewed. 
+  Indicates that a user has viewed a complete video. By default, the complete event is measured 1 second before the end of the video. During implementation, you can specify how many seconds from the end of the video you would like to consider a view complete. For live video and other streams that don't have a defined end, you can specify a custom point to measure completes. For example, after a specific time viewed. 
 
   * Variable type: Event
   * Type: Counter
