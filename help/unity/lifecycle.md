@@ -10,62 +10,53 @@ uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 
 # Implement Lifecycle{#implement-lifecycle}
 
-See [Lifecycle Metrics](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=metrics) for the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented.
+For more information about the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see [Lifecycle Metrics in Android](/help/android/metrics.md).
 
-** iOS**
+## iOS
 
-For iOS, lifecycle metrics are automatically collected.
+Lifecycle metrics are automatically collected in iOS.
 
-**Android**
+## Android
 
 In your Unity script, you set the application context for the Android SDK. Add the following code to the `Awake()` function of your FIRST scene:
 
 ```
-void Awake() 
- { 
-  ... 
-   
-  ADBMobile.SetContext(); 
-   
-  ... 
- } 
-
+void Awake()
+ {
+  ...
+  ADBMobile.SetContext();
+  ...
+ }
 ```
 
 To collect lifecycle metrics, add the following code to all of your scene scripts:
 
 ```
-void OnEnable() 
- { 
-  ... 
-   
+void OnEnable()
+ {
+  ...
   ADBMobile.CollectLifecycleData (); 
-   
-  ... 
- } 
+  ...
+ }
  
- void OnDisable() 
- { 
-  ... 
-   
+ void OnDisable()
+ {
+  ...
   ADBMobile.PauseCollectingLifecycleData (); 
-   
-  ... 
- } 
+  ...
+ }
   
  void OnApplicationPause(bool isPaused) 
- { 
-  ... 
-   
-  if (isPaused) { 
+ {
+  ...
+  if (isPaused) {
    ADBMobile.PauseCollectingLifecycleData (); 
   }  
-  else { 
+  else {
    ADBMobile.CollectLifecycleData(); 
-  } 
-   
-  ... 
- } 
+  }
+  ...
+ }
 
 ```
 

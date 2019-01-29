@@ -10,7 +10,7 @@ uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 
 # Building your project{#building-your-project}
 
- ** iOS**
+## iOS
 
 When you build for iOS, an Xcode Project is created. By default, the [!DNL ADBMobileWrapper.mm] and [!DNL AdobeMobileLibrary.a] files will be in your new project's Libraries group. Perform the following manual steps required to build you app:
 
@@ -20,16 +20,17 @@ When you build for iOS, an Xcode Project is created. By default, the [!DNL ADBMo
 
 1. In the Build Phases tab of your project, add a link to the following libraries:
 
-    * SystemConfiguration.framework (this one may be linked already) 
-    * libsqlite3.0.dylib
+    * `SystemConfiguration.framework`
+      (This library might be linked already.) 
+    * `libsqlite3.0.dylib`
 
->[!NOTE]
+>[!TIP]
 >
->If you want to use Local Notification In-App messages from the SDK, you must call `ADBMobile.EnableLocalNotifications();` from the Start method in your first Unity Scene.
+>To use Local Notification In-App messages from the SDK, you must call `ADBMobile.EnableLocalNotifications();` from the Start method in your first Unity Scene.
 
-**Android**
+## Android
 
-When you build for Android, the [!DNL apk] file already includes the [!DNL ADBMobileConfig.json] file in the correct location. By default, the [!DNL AndroidManifest.xml] file in your [!DNL /Plugins/Android] folder is also used.
+When you build for Android, the [!DNL `apk`] file already includes the [!DNL `ADBMobileConfig.json`] file in the correct location. By default, the [!DNL `AndroidManifest.xml`] file in your [!DNL /Plugins/Android] folder is also used.
 
 If you need to use your own custom manifest file, the following changes should be added.
 
@@ -43,16 +44,15 @@ Add permissions for:
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-Add the following activity and receiver if you are using In-app messaging:
+If you are using In-app messaging, add the following activity and receiver:
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
 android:theme="@android:style/Theme.Translucent.NoTitleBar" /> 
 <receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
-
 ```
 
-Add the following receiver if you are using acquisition:
+If you are using acquisition, add the following receiver:
 
 ```java
 <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
@@ -60,6 +60,5 @@ Add the following receiver if you are using acquisition:
       <action android:name="com.android.vending.INSTALL_REFERRER" /> 
    </intent-filter> 
 </receiver>
-
 ```
 
