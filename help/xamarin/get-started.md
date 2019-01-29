@@ -43,26 +43,24 @@ Import the ADBMobile Component to your Xamarin.Android Project:
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     ```
 
-Add the following activity and receiver if you are using In-app messaging:
+    Add the following activity and receiver if you are using In-app messaging:
 
-```java
-<activity 
-android:name="com.adobe.mobile.MessageFullScreenActivity" 
-android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-<receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
+    ```java
+    <activity 
+    android:name="com.adobe.mobile.MessageFullScreenActivity" 
+    android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
+    ```
 
-```
+    Add the following receiver if you are using acquisition:
 
-Add the following receiver if you are using acquisition:
-
-```java
-<receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
+    ```java
+    <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
     <intent-filter>
         <action android:name="com.android.vending.INSTALL_REFERRER" />
     </intent-filter>
-</receiver>
-
-```
+    </receiver>
+    ```
 
 ## iOS {#section_1531928DDE904D769B3987BF927D0E02}
 
