@@ -10,7 +10,7 @@ uuid: b729d55e-2265-4ca9-a286-2efbb9c6776b
 
 Lets you send server calls to a local computer to test mobile applications.
 
- During application development, Bloodhound lets you view server calls locally, and optionally forward the data to Adobe collection servers.
+During application development, Bloodhound lets you view server calls locally, and optionally forward the data to Adobe collection servers.
 
 Bloodhound is available for Mac and Windows.
 
@@ -25,9 +25,9 @@ The Adobe Bloodhound download is available from the releases page of the [Adobe 
 
 ## Using Bloodhound {#section_0AFA172F3D474E068833A03C0BDFAA5B}
 
-*  For more information about using Bloodhound, see the following guides:
-   * [Bloodhound 3.x for Mac](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/)
-   * [Bloodhound 2.2 for Windows](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound_win_2x/)
+* For more information about using Bloodhound, see the following guides:
+  * [Bloodhound 3.x for Mac](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/)
+  * [Bloodhound 2.2 for Windows](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound_win_2x/)
 
 >[!IMPORTANT]
 >

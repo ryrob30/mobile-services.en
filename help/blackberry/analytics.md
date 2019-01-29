@@ -6,7 +6,7 @@ title: Analytics
 uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 ---
 
-# Analytics{#analytics}
+# Analytics {#analytics}
 
 After you add the library to your project, you can make any of the Analytics method calls anywhere in your App (make sure you import ADBMobile.h to your class).
 
@@ -14,11 +14,6 @@ After you add the library to your project, you can make any of the Analytics met
 
 Before you add code, have your Analytics Administrator complete the following to enable Mobile App Lifecycle tracking. This ensures that your report suite is ready to capture metrics as you begin development. 
 
-<!-- 
-
-analytics.xml
-
- -->
 
 1. Open **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** and select your mobile report suite(s).
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
@@ -34,12 +29,6 @@ analytics.xml
 Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface. 
 
 ## Collect Lifecycle Metrics {#task_25D469C62DF84573AEB5E8E950B96205}
-
-<!-- 
-
-analytics.xml
-
- -->
 
 1. To collect lifecycle metrics in your app, call `collectLifecycleData()` in the `ApplicationUI` constructor.
 
@@ -57,13 +46,7 @@ analytics.xml
 ## Events, Props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-<!-- 
-
-analytics.xml
-
- -->
-
-If you've looked at the [ADBMobile Class and Method Reference](methods.md#concept_12F12E3E0E434F8CB997AF4027810EBF), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting. 
+If you've looked at the [ADBMobile Class and Method Reference](/help/blackberry/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting. 
 
 Processing rules provide you several advantages: 
 
@@ -79,9 +62,9 @@ Processing rules are used to copy the data you send in context data variables to
 
 [Processing Rules Training](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013 
 
-[Processing Rules Help](https://microsite.omniture.com/t2/help/en_US/reference/?f=processing_rules) 
+[Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) 
 
-[Become authorized to use Processing Rules](https://microsite.omniture.com/t2/help/en_US/reference/index.html#kb-processing-rules-authorization) 
+[Become authorized to use processing rules](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html) 
 
 We recommend grouping your context data variables using "namespaces", as it helps you keep logical ordering. For example, if you want to collect info about a product, you might define the following variables: 
 
@@ -117,12 +100,16 @@ Context data variables that define incrementor events can have the event as the 
 "levels completed":"6"
 ```
 
->[!NOTE]
+>[!TIP]
 >
->Adobe reserves the namespace " `a.`". Aside from that small restriction, context data variables just need to be unique in your login company to avoid collisions. 
+>Adobe reserves the namespace `a.`. Aside from that small restriction, context data variables just need to be unique in your login company to avoid collisions. 
 
 ## Enable Offline Tracking {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
 To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file. 
 
 Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking. For more information about tracking, see [Analytics Methods](methods.md#section_91F4AD0A045D4E4E8F9A93450503E49E). 
+
+## Analytics Methods
+
+For a list of the Analytics methods that are available for BlackBerry, see [Adobe Mobile Class and Method Reference](/help/blackberry/methods.md).
