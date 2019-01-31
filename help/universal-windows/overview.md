@@ -8,11 +8,11 @@ topic: Developer and implementation
 uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
 ---
 
-# Universal Windows Platform SDK 4.x for Experience Cloud Solutions{#universal-windows-platform-sdk-x-for-experience-cloud-solutions}
+# Universal Windows Platform SDK 4.x for Experience Cloud Solutions {#universal-windows-platform-sdk-x-for-experience-cloud-solutions}
 
 Universal Windows Platform SDK 4.x for Experience Cloud Solutions lets you measure native Windows 10 applications, deliver targeted content within your app, and leverage and collect audience data through audience management.
 
-**Last Updated: September 17, 2015 **
+**Last Updated: September 17, 2015**
 
 ## Supported Platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
@@ -26,4 +26,4 @@ Visual Studio 2015 or later.
 
 Adobe Mobile services provides a new UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics and Adobe Target solutions.
 
-Learn more at [Adobe Mobile services documentation](https://microsite.omniture.com/t2/help/en_US/mobile/). 
+For more information, see the [Adobe Mobile services documentation](/help/using/home.md). 

@@ -12,5 +12,5 @@ uuid: f49667b9-b87b-42bd-b7a6-4c6154d1b137
 
 Information to help you configure the Universal Windows Platform SDK, including JSON configuration, hit batching, and SDK methods.
 
-+ [ADBMobileConfig.json config](c.json.md)
-+ [SDK methods](methods.md)
++ [ADBMobileConfig.json config](/help/universal-windows/c-configuration/c.json.md)
++ [SDK methods](/help/universal-windows/c-configuration/methods.md)

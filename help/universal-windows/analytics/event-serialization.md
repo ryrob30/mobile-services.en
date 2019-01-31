@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 7220a001-1174-4013-91ff-e8603d8ab265
 ---
 
-# Event serialization{#event-serialization}
+# Event serialization {#event-serialization}
 
 Event serialization is not supported by processing rules. In the mobile SDK, you must use a special syntax in the context data parameter to set serialized events directly on the server call.
 

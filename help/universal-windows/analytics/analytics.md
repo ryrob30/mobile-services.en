@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 ---
 
-# Analytics{#analytics}
+# Analytics {#analytics}
 
 After you add the library to your project, you can make any of the Analytics method calls anywhere in your App (make sure you import [!DNL ADBMobile.h] to your class).
 
@@ -29,7 +29,7 @@ Before you add code, have your Analytics Administrator complete the following to
 
 Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface.
 
-**New Versions**
+### New Versions
 
 Periodically, new versions of mobile application reporting are released. New versions are not applied to your report suite automatically, you must repeat these steps to perform the upgrade. Each time you add new Experience Cloud functionality to your app, we recommend repeating these steps to ensure you have the latest configuration.
 
@@ -37,14 +37,13 @@ Periodically, new versions of mobile application reporting are released. New ver
 
 To collect lifecycle metrics in your app, add calls to when the application is activated as shown in the following examples.
 
-**WinJS, in default.js**:
+### WinJS in default.js:
 
 ```js
 app.onactivated = function (args) { 
   if (args.detail.kind === activation.ActivationKind.launch) { 
    ... 
-   // launched and resumed stuff 
-  
+   // launched and resumed stuff  
    ADBMobile.Config.collectLifecycleData(); 
   } 
 }; 
@@ -53,7 +52,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-**C#, in App.xaml.cs**:
+### C# in App.xaml.cs:
 
 ```js
 public App() 
@@ -62,21 +61,17 @@ public App()
     this.Resuming += OnResuming; 
     this.Suspending += OnSuspending; 
 } 
- 
 protected override void OnLaunched(LaunchActivatedEventArgs e) 
-{ 
-    ... 
+{   ... 
     ADBMobile.Config.CollectLifecycleData(); 
     ... 
 } 
- 
 private void OnResuming(object sender, object e) 
 { 
     ... 
     ADBMobile.Config.CollectLifecycleData(); 
     ... 
 } 
- 
 private void OnSuspending(object sender, SuspendingEventArgs e) 
 { 
     ... 
@@ -85,7 +80,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-**C++/CX, in App.xaml.cpp**:
+### C++/CX in App.xaml.cpp:
 
 ```js
 App::App() 
@@ -94,21 +89,18 @@ App::App()
  Resuming += ref new EventHandler<Object ^>(this, &App::OnResuming); 
  Suspending += ref new SuspendingEventHandler(this, &App::OnSuspending); 
 } 
- 
 void App::OnResuming(Object ^sender, Object ^args) 
 { 
  ... 
  ADBMobile::Config::CollectLifecycleData(); 
  ... 
 } 
- 
 void App::OnSuspending(Object^ sender, SuspendingEventArgs^ e) 
 { 
  ... 
  ADBMobile::Config::PauseCollectingLifecycleData(); 
  ... 
 } 
- 
 void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ e) 
 { 
  ... 
@@ -121,7 +113,7 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 
 ## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-If you've looked at the [ADBMobile Class and Method Reference](../c-configuration/methods.md#concept_12F12E3E0E434F8CB997AF4027810EBF), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
+If you've looked at the [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
 Processing rules provide you several advantages:
 
@@ -137,9 +129,9 @@ Processing rules are used to copy the data you send in context data variables to
 
 [Processing Rules Training](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
 
-[Processing Rules Help](https://microsite.omniture.com/t2/help/en_US/reference/?f=processing_rules)
+[Processing Rules Help](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Become authorized to use Processing Rules](https://microsite.omniture.com/t2/help/en_US/reference/index.html#kb-processing-rules-authorization)
+[Become authorized to use Processing Rules](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
 We recommend grouping your context data variables using "namespaces", as it helps you keep logical ordering. For example, if you want to collect info about a product, you might define the following variables:
 
@@ -177,15 +169,15 @@ Context data variables that define incrementor events can have the value to incr
 
 >[!NOTE]
 >
->Adobe reserves the namespace " `a.`". Aside from that small restriction, context data variables just need to be unique in your login company to avoid collisions.
+>Adobe reserves the namespace `a.`. Other than this restriction, context data variables just need to be unique in your login company to avoid collisions.
 
 ## Products Variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-To set *`products`* in the mobile SDK, you must use a special syntax. See [Products Variable](../analytics/products.md#concept_A3BB7FB891B743C7B2A9028819FB9EE1).
+To set *`products`* in the mobile SDK, you must use a special syntax. For more information, see [Products Variable](/help/universal-windows/analytics/products.md).
 
 ## (Optional) Enable Offline Tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](../c-configuration/methods.md#section_5AD4EDF87E304980B4AC4A5657FDA8B9). Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/universal-windows/c-configuration/methods.md) file. Pay close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
 
 ## Geo-location & Points of Interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
@@ -209,7 +201,7 @@ If the following POI is defined in the `ADBMobileConfig.json` config file:
         ]
 ```
 
-When the device location is determined to be within a 7000 meter radius of the defined point, an `a.loc.poi` context data variable with the value "San Francisco" is sent in with the `TrackLocation` hit. An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
+When the device location is determined to be within a 7000 meter radius of the defined point, an `a.loc.poi` context data variable with the value `San Francisco` is sent in with the `TrackLocation` hit. An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
 
 ## Lifetime Value {#section_D2C6971545BA4D639FBE07F13EF08895}
 
@@ -260,7 +252,7 @@ ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 
 For more information, see the following links:
 
-* [Products variable](products.md)
-* [Event serialization](event-serialization.md)
-* [Video Analytics](video-qs.md)
-* [Analytics methods](analytics-methods.md)
+* [Products variable](/help/universal-windows/analytics/products.md)
+* [Event serialization](/help/universal-windows/analytics/event-serialization.md)
+* [Video Analytics](/help/universal-windows/analytics/video-qs.md)
+* [Analytics methods](/help/universal-windows/analytics/analytics-methods.md)

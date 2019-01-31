@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
 ---
 
-# Products variable{#products-variable}
+# Products variable {#products-variable}
 
 The products variable cannot be set using processing rules. In the mobile SDK, you must use a special syntax within the context data parameter to set products directly on the server call.
 
@@ -38,7 +38,7 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-Note that *`products`* is set directly on the image request, and the other variables are set as context data: 
+The *`products`* is set directly on the image request, and the other variables are set as context data: 
 
 ![](assets/products-bloodhound.png)
 
@@ -71,7 +71,7 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
->[!NOTE]
+>[!TIP]
 >
 >If you trigger a product-specific event using the *`&&products`* variable, you must also set that event in the *`&&events`* variable, otherwise the event is filtered out during processing.
 
