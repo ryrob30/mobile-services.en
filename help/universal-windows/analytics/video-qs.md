@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 ---
 
-# Video Analytics{#video-analytics}
+# Video Analytics {#video-analytics}
 
 Information to help you with Video Analytics.
 
@@ -120,7 +120,7 @@ property bool isMediaAd;
 
 ### Media Measurement Class and Method Reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **SettingsWith (winJS: settingsWith)
+* **SettingsWith (winJS: settingsWith)**
 
   Returns a `MediaSettings` object with specified parameters. 
 
@@ -168,81 +168,98 @@ property bool isMediaAd;
     ADB.Media.open(mySettings);
     ```
 
-* **
+* **Close (winJS: close)**
 
+  Tracks a media close for the media item named *`name`*.
 
-<table id="table_09C45190983F41B4A5790B756ADACE51"> 
- <thead> 
-  <tr> 
-   <td colname="col1"> </p> </td> 
-   <td colname="col2"> <p> </span> </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-       
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Close <p>winJS: close </p> </td> 
-   <td colname="col2"> <p> Tracks a media close for the media item named <i>name</i>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      static  void  Close(Platform::String  ^name); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-      ADB.Media.close("mediaName"); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Play <p>winJS: play </p> </td> 
-   <td colname="col2"> <p>Tracks a media play for the media item named <i>name</i> at the given <i>offset</i> (in seconds). </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      static  void  Play(Platform::String  ^name,  double  offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-      ADB.Media.play("mediaName",  0); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Complete <p>winJS: complete </p> </td> 
-   <td colname="col2"> <p> Manually mark the media item as complete at the <i>offset</i> provided (in seconds). </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      static  void  Complete(Platform::String  ^name,  double  offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-      ADB.Media.complete("mediaName",  8); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Stop <p>winJS: stop </p> </td> 
-   <td colname="col2"> <p> Notifies the media module that the video has been stopped or paused at the given <i>offset</i>. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      static  void  Stop(Platform::String  ^name,  double  offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-      ADB.Media.stop("mediaName",  4); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Click <p>winJS: click </p> </td> 
-   <td colname="col2"> <p> Notifies the media module that the media item has been clicked. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      static  void  Click(Platform::String  ^name,  double  offset); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-      ADB.Media.click("mediaName",  3); 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Track <p>winJS: track </p> </td> 
-   <td colname="col2"> <p>Sends a track action call (no page view) for the current media state. </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax csharp">
-      static  void  Track(Platform::String  ^name,  Windows::Foundation::Collections::IMap&lt;Platform::String^,  Platform::Object^&gt;  ^contextData); 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
-      ADB.Media.track("mediaName",  null); 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+  * Here is the syntax for this method:
 
+    ```csharp
+    static  void  Close(Platform::String  ^name);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```js
+    ADB.Media.close("mediaName"); 
+    ```
+
+* **Play (winJS: play)**
+
+  Tracks a media play for the media item named *`name`* at the given *offset* (in seconds).
+
+  * Here is the syntax for this method:
+
+    ```csharp
+    static  void  Play(Platform::String ^name, double offset);
+    ```
+
+  * Here is the code sample for this method:
+
+     ```js
+     ADB.Media.play("mediaName",  0);
+     ```
+
+* **Complete (winJS: complete)**
+
+  Manually mark the media item as complete at the *offset* provided (in seconds). 
+
+  * Here is the syntax for this method:
+
+    ```csharp
+    static  void  Complete(Platform::String ^name, double offset);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```js
+    ADB.Media.complete("mediaName", 8);
+    ```
+
+* **Stop (winJS: stop)**
+
+  Notifies the media module that the video has been stopped or paused at the given *offset*.
+
+  * Here is the syntax for this method:
+
+    ```csharp
+    static void Stop(Platform::String ^name, double offset);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```js
+    ADB.Media.stop("mediaName",  4);
+    ```
+
+* **Click (winJS: click)**
+
+  Notifies the media module that the media item has been clicked.
+
+  * Here is the syntax for this method:
+
+    ```csharp
+    static void Click(Platform::String ^name, double  offset);
+    ```
+
+  * Here is the code sample for this method:
+
+    ```js
+    ADB.Media.click("mediaName",  3); 
+    ```
+
+* **Track (winJS: track)**
+
+  Sends a track action call (no page view) for the current media state.
+
+  * Here is the syntax for this method:
+
+    ```csharp
+    static void Track(Platform::String ^name, Windows::Foundation::Collections::IMap<Platform::String^,  Platform::Object> ^contextData); 
+    ```
+
+  * Here is the code sample for this method:
+
+    ```js
+    ADB.Media.track("mediaName",  null);
+    ```

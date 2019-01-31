@@ -12,4 +12,6 @@ uuid: c764e65c-476d-47a4-a463-ac232d011824
 
 Information to help you deliver targeted content within Universal Windows Platform applications.
 
-+ [Target methods](target-methods.md)
+## Additional Information
+
++ [Target methods](/help/universal-windows/target/target-methods.md)
