@@ -44,7 +44,7 @@ The *`products`* is set directly on the image request, and the other variables a
 
 All context data variables must be mapped using processing rules: 
 
-![](assets/products-procrules.png){width="672px"}
+![](assets/products-procrules.png)
 
 You do not need to map the *`products`* variable using processing rules since it is set directly on the image request by the SDK.
 

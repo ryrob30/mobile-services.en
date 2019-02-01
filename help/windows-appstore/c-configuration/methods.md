@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 ---
 
-# SDK methods{#sdk-methods}
+# SDK methods {#sdk-methods}
 
 Classes and methods provided by the Windows 8.1 Universal App Store library.
 
