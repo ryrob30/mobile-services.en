@@ -15,75 +15,72 @@ Lists the metrics and dimensions that can be measured automatically by the mobil
 
 For more information, go to the Knowledge Base at [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
 
-This topic contains the following information:
-
-* [Lifecycle Metrics and Dimensions](metrics.md#section_78F036C4296F4BA3A47C2044F79C86C1) 
-* [Additional Mobile Metrics and Dimensions](metrics.md#section_0B32BBF9CA734103BEDB5E755FFE5B31)
-
 ## Lifecycle Metrics and Dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 When configured, lifecycle metrics are sent in context data parameters to Analytics, in parameters to Target with each mbox call, and as a signal to Audience Manager. Analytics and Target use the same format, while Audience Manager uses a different prefix for each metric.
 
-For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported on by using the metric or dimension listed in the first column, with the exceptions noted in the **Description** column.
+For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported on by using the metric or dimension listed below, and exceptions are noted.
 
-**Metrics** 
+### Metrics
 
-<table id="table_953334C153F9490ABDB5174E26572C47"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> <p>Metric </p> </th> 
-   <th colname="col02" class="entry"> <p>Analytics Context Data/Target Parameter </p> </th> 
-   <th colname="col4" class="entry"> <p>Audience Manager Signal </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> <p> First Launches </p> </td> 
-   <td colname="col02"> <p>a.InstallEvent </p> </td> 
-   <td colname="col4"> <p>c_a_InstallEvent </p> </td> 
-   <td colname="col2"> <p>Triggered at the first run after installation or re-installation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Upgrades </p> </td> 
-   <td colname="col02"> <p>a.UpgradeEvent </p> </td> 
-   <td colname="col4"> <p>c_a_UpgradeEvent </p> </td> 
-   <td colname="col2"> <p>Triggered at the first run after an upgrade or when the version number changes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Daily Engaged Users </p> </td> 
-   <td colname="col02"> <p>a.DailyEngUserEvent </p> </td> 
-   <td colname="col4"> <p>c_a_DailyEngUserEvent </p> </td> 
-   <td colname="col2"> <p>Triggered when the application is used on a particular day. </p> <p>Important:  This metric is not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture this metric. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Monthly Engaged Users </p> </td> 
-   <td colname="col02"> <p>a.MonthlyEngUserEvent </p> </td> 
-   <td colname="col4"> <p>c_a_MonthlyEngUserEvent </p> </td> 
-   <td colname="col2"> <p>Triggered when the application is used during a particular month. </p> <p>Important:  This metric is not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture this metric. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Launches </p> </td> 
-   <td colname="col02"> <p>a.LaunchEvent </p> </td> 
-   <td colname="col4"> <p>c_a_LaunchEvent </p> </td> 
-   <td colname="col2"> <p>Triggered at every run, including crashes and installs. Also triggered on a resume from the background when the lifecycle session timeout has been exceeded. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Crashes </p> </td> 
-   <td colname="col02"> <p>a.CrashEvent </p> </td> 
-   <td colname="col4"> <p>c_a_CrashEvent </p> </td> 
-   <td colname="col2"> <p>Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. </p> <p>Adobe Mobile crash reporting does not implement a global uncaught exception handler. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Previous Session Length </p> </td> 
-   <td colname="col02"> <p>a.PrevSessionLength </p> </td> 
-   <td colname="col4"> <p>c_a_PrevSessionLength </p> </td> 
-   <td colname="col2"> <p>Reports the number of seconds that a previous application session lasted, based on how long the application was open and in the foreground. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **First Launches**
 
-**Dimensions** 
+  Triggered at the first run after installation or re-installation. 
+
+  * Analytics context data/Target parameter: `a.InstallEvent`
+  * Audience Manager signal: `c_a_InstallEvent`
+
+* **Upgrades**
+
+  Triggered at the first run after an upgrade or when the version number changes. 
+
+  * Analytics context data/Target parameter: `a.UpgradeEvent`
+  * Audience Manager signal: `c_a_UpgradeEvent`
+
+* **Daily Engaged Users**
+
+  Triggered when the application is used on a particular day. 
+  
+  >[!TIP]
+  >
+  >This metric is not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture this metric.
+
+  * Analytics context data/Target parameter: `a.DailyEngUserEvent`
+  * Audience Manager signal: `c_a_DailyEngUserEvent`  
+
+* **Monthly Engaged Users**
+
+  Triggered when the application is used during a particular month. 
+  
+  >[!IMPORTANT]
+  >
+  >This metric is not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture this metric. 
+
+  * Analytics context data/Target parameter: `a.MonthlyEngUserEvent`
+  * Audience Manager signal: `c_a_MonthlyEngUserEvent`
+
+* **Launches**
+
+  Triggered at every run, including crashes and installs. Also triggered on a resume from the background when the lifecycle session timeout has been exceeded. 
+
+  * Analytics context data/Target parameter: `a.LaunchEvent`
+  * Audience Manager signal: `c_a_LaunchEvent`
+
+* **Crashes**
+
+  Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. </p> <p>Adobe Mobile crash reporting does not implement a global uncaught exception handler.
+
+  * Analytics context data/Target parameter: `a.CrashEvent`
+  * Audience Manager signal: `c_a_CrashEvent`
+
+* **Previous Session Length**
+
+  Reports the number of seconds that a previous application session lasted, based on how long the application was open and in the foreground. 
+
+  * Analytics context data/Target parameter: `a.PrevSessionLength`
+  * Audience Manager signal: `c_a_PrevSessionLength` 
+
+### Dimensions
 
 <table id="table_2F24CB1C8E8448AE9A94D3AD57C21662"> 
  <thead> 
