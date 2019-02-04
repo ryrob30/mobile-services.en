@@ -34,7 +34,7 @@ The main difference between the implementations is the data structure used for c
 
 Additionally, when using the SDK in a WinJS project, use an empty string ( `""` or `''`) instead of `null` for empty string values.
 
-## Add the Library and Config File to your Project - C# {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## Add the Library and Config File to your Project - C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Launch Visual Studio and open your solution. 
 1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UIUCONTROL Add Reference]**. 
@@ -161,9 +161,9 @@ For more details, see [ADBMobileConfig.json Config File Reference](/help/windows
 
 When you want to enable debugging for the SDK, you have to call `ADBMobile.Config.setDebugLogging(true);`.
 
-For C# and JS apps, you have to enable native code debugging by completing the following steps (native code debugging is the default setting for C++ apps):
+For C Sharp and JS apps, you have to enable native code debugging by completing the following steps (native code debugging is the default setting for C++ apps):
 
-### C#
+### C Sharp
 
 Right-click the project, select  **[!UICONTROL Properties]** > **[!UICONTROL Debug tab]** . Change the debugger type drop down to **Native Only**.
 

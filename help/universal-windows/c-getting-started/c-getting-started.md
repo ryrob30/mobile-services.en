@@ -6,7 +6,7 @@ title: Get started
 uuid: 5fbfde5e-eb08-496c-8d3b-d2350e374404
 ---
 
-# Get started{#get-started}
+# Get started {#get-started}
 
 Information to help you get starting with the Universal Windows Platform SDK for Experience Cloud Solutions.
 
