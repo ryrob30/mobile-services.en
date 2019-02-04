@@ -12,4 +12,6 @@ uuid: fadc3296-c17c-4732-9b75-a6fb4d33a282
 
 Information to help you send signals and retrieve visitor segments from Audience Manager.
 
-+ [Audience Manager methods](audience-manager-methods.md)
+## Additional Information
+
++ [Audience Manager methods](/help/windows-appstore/audiencemgmt/audience-manager-methods.md)

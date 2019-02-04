@@ -12,4 +12,6 @@ uuid: 2823b22c-d9a1-4724-9020-dfc6614691be
 
 Information to help you use extensions with the Windows 8.1 Universal App Store SDK for Experience Cloud Solutions.
 
-+ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](win-vse-4x.md)
+## Additional Information
+
++ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](/help/windows-appstore/extensions/win-vse-4x.md)

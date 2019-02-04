@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 1b9a29db-7928-438e-8729-8429a34d887e
 ---
 
-# Using Bloodhound to test mobile applications{#using-bloodhound-to-test-mobile-applications}
+# Using Bloodhound to test mobile applications {#using-bloodhound-to-test-mobile-applications}
 
 The Bloodhound Tool lets you send server calls to a local computer to test mobile applications.
 
@@ -32,7 +32,7 @@ Bloodhound is available for Mac and Windows.
 
 ## Using Bloodhound {#section_0AFA172F3D474E068833A03C0BDFAA5B}
 
-After you start the tool, the server is disabled until you click the **[!UICONTROL Start]** button. Click the **[!UICONTROL Start]** button when you are ready to capture server calls from your application.
+After you start the tool, the server is disabled until you click **[!UICONTROL Start]**. Click **[!UICONTROL Start]** when you are ready to capture server calls from your application.
 
 Optionally, you can specify a custom port number (must be above 1024) before you start the server. If you do not provide a port number, the server automatically selects an open port.
 
@@ -48,7 +48,7 @@ If your device does not support a proxy, you can send the hits directly to Blood
 >
 >Bloodhound does not support SSL tracking. You must disable SSL in the AppMeasurement library when testing using Bloodhound.
 
-**iOS Devices**
+### iOS Devices
 
 The iOS Device must be on the same network as the computer hosting Bloodhound.
 
@@ -59,11 +59,11 @@ The iOS Device must be on the same network as the computer hosting Bloodhound.
 1. Select **[!UICONTROL Auto]**. 
 1. Enter the Proxy URL and port (from the Bloodhound UI) into the **[!UICONTROL URL]** field.
 
-**Other Devices**
+### Other Devices
 
 If the device supports proxy auto config, simply use the Proxy URL (From the Bloodhound UI) as the Proxy Auto Config (PAC) URL. Proxy support varies across Android versions, and there are some proxy configuration tools available for Android to simplify configuration.
 
-**Send Hits Directly**
+### Send Hits Directly
 
 For devices that do not support proxy (iOS Simulator, older Android versions, etc) it is possible to specify Bloodhound as your tracking server in order to capture the hits it generates. To do this set your tracking server to `"<Bloodhound IP>:<Bloodhound Port>"`.
 

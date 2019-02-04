@@ -6,10 +6,10 @@ title: Get started
 uuid: 769cba99-ff82-4fa0-a14a-83b5f0495b04
 ---
 
-# Get started{#get-started}
+# Get started {#get-started}
 
 Information to help you get starting with the Windows 8.1 Universal App Store SDK for Experience Cloud Solutions.
 
-Complete the tasks in [Developer Quick Start](../c-getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972) to add the Windows 8.1 Universal App Store SDK to your project. Next, review the [ADBMobile Class and Method Reference](../c-configuration/methods.md#concept_12F12E3E0E434F8CB997AF4027810EBF) and then implement [Analytics](../analytics/analytics.md#concept_CAC339E719A74D09B91B457DBF506336), [Target](../target/target.md#concept_CB9A3D33B3404A17AAB44EF5ADE4447D), and [Audience Management](../audiencemgmt/audiencemgmt.md#concept_526A892D2DC744B98782004E9583F014).
+Complete the tasks in [Developer Quick Start](/help/windows-appstore/c-getting-started/dev-qs.md) to add the Windows 8.1 Universal App Store SDK to your project. Next, review the [ADBMobile Class and Method Reference](/help/windows-appstore/c-configuration/c-configuration.md) and then implement [Analytics](/help/windows-appstore/analytics/analytics.md), [Target](/help/windows-appstore/target/target.md), and [Audience Management](/help/windows-appstore/target/target.md).
 
-If you are upgrading from a previous version, you'll want to take a look at the [Migration Guide](../migration-v3.md#concept_F3ED480E38D64396A80048AA45FC6849). 
+If you are upgrading from a previous version, you'll want to take a look at the [Migration Guide](/help/windows-appstore/migration-v3.md). 

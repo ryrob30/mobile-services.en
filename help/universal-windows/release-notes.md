@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 9c164e5c-ce2c-4eda-bba6-71324e4954fa
 ---
 
-# Release notes{#release-notes}
+# Release notes {#release-notes}
 
 Release notes and known issues for Universal Windows Platform SDK 4.x for Experience Cloud Solutions.
 
@@ -16,19 +16,9 @@ Release notes and known issues for Universal Windows Platform SDK 4.x for Experi
 
 In addition to significant performance increases, version 4.x adds the following new features: 
 
-<table id="table_FC1AE268F94E41509D7AB1FB7020A47F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Feature </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Universal Windows Platform SDK 4.x for Experience Cloud Solutions </td> 
-   <td colname="col2"> <p>Initial release. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Feature | Description |
+|--- |--- |
+|Universal Windows Platform SDK 4.x for Experience Cloud Solutions|Initial release.|
+
 
 For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 

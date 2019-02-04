@@ -8,8 +8,10 @@ topic: Developer and implementation
 uuid: 7fa58ffb-ecc6-46bb-b920-bda42c1f78b5
 ---
 
-# Audience Manager{#audience-manager}
+# Audience Manager {#audience-manager}
 
 Information to help you send signals and retrieve visitor segments from Audience Manager.
 
-+ [Audience Manager methods](audience-manager-methods.md)
+## Additional Information
+
++ [Audience Manager methods](/help/universal-windows/audiencemgmt/audience-manager-methods.md)
