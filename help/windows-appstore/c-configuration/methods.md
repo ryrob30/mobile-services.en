@@ -207,7 +207,7 @@ Classes and methods provided by the Windows 8.1 Universal App Store library.
 
 * **PauseCollecting​LifecycleData (winJS: pauseCollecting​LifecycleData)**
 
-  Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecyle correctly knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/windows-appstore/metrics.md). 
+  Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecycle correctly knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/windows-appstore/metrics.md). 
   
   >[!TIP]
   >
