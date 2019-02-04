@@ -68,7 +68,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
 * **Crashes**
 
-  Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. </p> <p>Adobe Mobile crash reporting does not implement a global uncaught exception handler.
+  Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. Adobe Mobile crash reporting does not implement a global uncaught exception handler.
 
   * Analytics context data/Target parameter: `a.CrashEvent`
   * Audience Manager signal: `c_a_CrashEvent`
@@ -82,182 +82,198 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
 ### Dimensions
 
-<table id="table_2F24CB1C8E8448AE9A94D3AD57C21662"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p> Dimension </p> </th> 
-   <th colname="col02" class="entry"> <p>Analytics Context Data/Target </p> </th> 
-   <th colname="col4" class="entry"> <p>Audience Management </p> </th> 
-   <th colname="col3" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Install Date </p> </td> 
-   <td colname="col02"> <p>a.InstallDate </p> </td> 
-   <td colname="col4"> <p>c_a_InstallDate </p> </td> 
-   <td colname="col3"> <p>Date of first launch after installation. </p> <p>The date format is <span class="codeph"> MM/DD/YYYY</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> App ID </p> </td> 
-   <td colname="col02"> <p>a.AppID </p> </td> 
-   <td colname="col4"> <p>c_a_AppID </p> </td> 
-   <td colname="col3"> <p>Stores the application name and version in the following format: </p> <p> <span class="codeph"> [AppName] [BundleVersion] </span> </p> <p>An example of this format is <span class="codeph"> myapp 1.1</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Launch Number </p> </td> 
-   <td colname="col02"> <p>a.Launches </p> </td> 
-   <td colname="col4"> <p>c_a_Launches </p> </td> 
-   <td colname="col3"> <p>Number of times the application was launched or brought out of the background. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Days since first use </p> </td> 
-   <td colname="col02"> <p>a.DaysSinceFirstUse </p> </td> 
-   <td colname="col4"> <p>c_a_DaysSinceFirstUse </p> </td> 
-   <td colname="col3"> <p>Number of days since the first run. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Days since last use </p> </td> 
-   <td colname="col02"> <p>a.DaysSinceLastUse </p> </td> 
-   <td colname="col4"> <p>c_a_DaysSinceLastUse </p> </td> 
-   <td colname="col3"> <p>Number of days since the last use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Hour of Day </p> </td> 
-   <td colname="col02"> <p>a.HourOfDay </p> </td> 
-   <td colname="col4"> <p>c_a_HourOfDay </p> </td> 
-   <td colname="col3"> <p>Measures the hour that the app was launched. </p> <p>This metric uses the 24-hour numerical format and is used for time parting to determine peak usage times. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Day of Week </p> </td> 
-   <td colname="col02"> <p>a.DayOfWeek </p> </td> 
-   <td colname="col4"> <p>c_a_DayOfWeek </p> </td> 
-   <td colname="col3"> <p>Number of the day in a week when the app was launched. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Operating System Version </p> </td> 
-   <td colname="col02"> <p>a.OSVersion </p> </td> 
-   <td colname="col4"> <p>c_a_OSVersion </p> </td> 
-   <td colname="col3"> <p>OS version. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Days since last upgrade </p> </td> 
-   <td colname="col02"> <p>a.DaysSinceLastUpgrade </p> </td> 
-   <td colname="col4"> <p>c_a_DaysSinceLastUpgrade </p> </td> 
-   <td colname="col3"> <p>Number of days since the application version number has changed. </p> <p>Important:  This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Launches since last upgrade </p> </td> 
-   <td colname="col02"> <p>a.LaunchesSinceUpgrade </p> </td> 
-   <td colname="col4"> <p>c_a_LaunchesSinceUpgrade </p> </td> 
-   <td colname="col3"> <p>Number of launches since the application version number has changed. </p> <p>Important:  This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Device Name </p> </td> 
-   <td colname="col02"> <p>a.DeviceName </p> </td> 
-   <td colname="col4"> <p>c_a_DeviceName </p> </td> 
-   <td colname="col3"> <p>Stores the device name. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Carrier Name </p> </td> 
-   <td colname="col02"> <p>a.CarrierName </p> </td> 
-   <td colname="col4"> <p>c_a_CarrierName </p> </td> 
-   <td colname="col3"> <p>Stores the name of the mobile service provider as provided by the device. </p> <p>Important:  This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Resolution </p> </td> 
-   <td colname="col02"> <p>a.Resolution </p> </td> 
-   <td colname="col4"> <p>c_a_Resolution </p> </td> 
-   <td colname="col3"> <p> Width x Height in actual pixels. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **Install Date**
+
+  Date of first launch after installation. The date format is `MM/DD/YYYY`.
+
+  * Analytics context data/Target: `a.InstallDate`
+  * Audience Manager: `c_a_InstallDate`
+
+* **App ID**
+
+  Stores the application name and version in the `[AppName] [BundleVersion]` format. An example of this format is `myapp 1.1`. 
+
+  * Analytics context data/Target: `a.AppID`
+  * Audience Manager: `c_a_AppID`
+
+* **Launch Number**
+
+  Number of times the application was launched or brought out of the background. 
+
+  * Analytics context data/Target: `a.Launches`
+  * Audience Manager: `c_a_Launches`  
+
+* **Days since first use**
+
+  Number of days since the first run.
+
+  * Analytics context data/Target: `a.DaysSinceFirstUse`
+  * Audience Manager: `c_a_DaysSinceFirstUse`
+
+* **Days since last use**
+
+  Number of days since the last use. 
+
+  * Analytics context data/Target: `a.DaysSinceLastUse`
+  * Audience Manager: `c_a_DaysSinceLastUse`
+
+* ** Hour of Day**
+
+  Measures the hour that the app was launched. This metric uses the 24-hour numerical format and is used for time parting to determine peak usage times. 
+
+  * Analytics context data/Target: `a.HourOfDay`
+  * Audience Manager: `c_a_HourOfDay`
+
+* **Day of Week**
+
+  Number of the day in a week when the app was launched. 
+
+  * Analytics context data/Target: `a.DayOfWeek`
+  * Audience Manager: `c_a_DayOfWeek`
+
+* **Operating System Version**
+
+  The OS version. 
+
+  * Analytics context data/Target: `a.OSVersion`
+  * Audience Manager: `c_a_OSVersion`
+
+* **Days since last upgrade**
+
+  Number of days since the application version number has changed. 
+  
+  >[!IMPORTANT]
+  >
+  >This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting.
+
+  * Analytics context data/Target: `a.DaysSinceLastUpgrade`
+  * Audience Manager: `c_a_DaysSinceLastUpgrade`
+
+* **Launches since last upgrade**
+
+  Number of launches since the application version number has changed. 
+  
+  >[!IMPORTANT]
+  >
+  >This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. 
+
+  * Analytics context data/Target: `a.LaunchesSinceUpgrade`
+  * Audience Manager: `c_a_LaunchesSinceUpgrade`
+
+* **Device Name**
+
+  Stores the device name. 
+
+  * Analytics context data/Target: `a.DeviceName`
+  * Audience Manager: `c_a_DeviceName`
+
+* **Carrier Name**
+
+  Stores the name of the mobile service provider as provided by the device. 
+  
+  >[!IMPORTANT]
+  >
+  >This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting.
+
+  * Analytics context data/Target: `a.CarrierName`
+  * Audience Manager: `c_a_CarrierName`
+
+* **Resolution**
+
+   Width x Height in actual pixels.
+
+  * Analytics context data/Target: `a.Resolution`
+  * Audience Manager: `c_a_Resolution`
+  
 
 ## Additional Mobile Metrics and Dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-The following metrics and dimensions are captured in mobile solution variables by the method listed in the **Description** column.
+The following metrics and dimensions are captured in mobile solution variables by the methods listed in the description.
 
-**Metrics** 
+### Metrics
 
-<table id="table_92CBE8E17335426691B77B462E4BCA6F"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> <p>Event </p> </th> 
-   <th colname="col02" class="entry"> <p>Analytics Context Data/Target Parameter </p> </th> 
-   <th colname="col4" class="entry"> <p>Audience Management Trait </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> Action Time Total </td> 
-   <td colname="col02"> a.action.time.total </td> 
-   <td colname="col4"> c_a_action_time_total </td> 
-   <td colname="col2"> <p>Populated by <span class="codeph"> trackTimedAction</span> methods. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> Action Time In App </td> 
-   <td colname="col02"> a.action.time.inapp </td> 
-   <td colname="col4"> c_a_action_time_inapp </td> 
-   <td colname="col2"> <p>Populated by <span class="codeph"> trackTimedAction</span> methods. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> Lifetime Value (event) </td> 
-   <td colname="col02"> a.ltv.amount </td> 
-   <td colname="col4"> c_a_ltv_amount </td> 
-   <td colname="col2"> <p>Populated by <span class="codeph"> trackLifetimeValue</span> methods. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **Action Time Total**
 
-**Dimensions** 
+  Populated by `trackTimedAction` methods.
 
-<table id="table_8986A9AD2C1541E1870CCE493EAC124C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p> Dimension </p> </th> 
-   <th colname="col02" class="entry"> <p>Analytics Context Data/Target Parameter </p> </th> 
-   <th colname="col4" class="entry"> <p>Audience Management Trait </p> </th> 
-   <th colname="col3" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Location (down to 10 km) </td> 
-   <td colname="col02"> <p>a.loc.lat.a </p> <p>a.loc.lon.a </p> </td> 
-   <td colname="col4"> <p>c_a_loc_lat_a </p> <p>c_a_loc_lon_a </p> </td> 
-   <td colname="col3"> <p>Populated by <span class="codeph"> trackLocation</span> methods. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Location (down to 100 m) </td> 
-   <td colname="col02"> <p>a.loc.lat.b </p> <p>a.loc.lon.b </p> </td> 
-   <td colname="col4"> <p>c_a_loc_lat_b </p> <p>c_a_loc_lon_b </p> </td> 
-   <td colname="col3"> <p>Populated by <span class="codeph"> trackLocation</span> methods. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Location (down to 1 m) </td> 
-   <td colname="col02"> <p>a.loc.lat.c </p> <p>a.loc.lon.c </p> </td> 
-   <td colname="col4"> <p>c_a_loc_lat_c </p> <p>c_a_loc_lon_c </p> </td> 
-   <td colname="col3"> <p>Populated by <span class="codeph"> trackLocation</span> methods. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Point of Interest Name </td> 
-   <td colname="col02"> a.loc.poi </td> 
-   <td colname="col4"> c_a_loc_poi </td> 
-   <td colname="col3"> <p>Populated by <span class="codeph"> trackLocation</span> methods when device is within a defined POI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Distance to Point of Interest Center </td> 
-   <td colname="col02"> a.loc.dist </td> 
-   <td colname="col4"> c_a_loc_dist </td> 
-   <td colname="col3"> <p>Populated by <span class="codeph"> trackLocation</span> methods when device is within a defined POI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Lifetime Value (conversion variable) </td> 
-   <td colname="col02"> a.ltv.amount </td> 
-   <td colname="col4"> c_a_ltv_amount </td> 
-   <td colname="col3"> <p>Populated by <span class="codeph"> trackLifetimeValue</span> methods. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  * Analytics context data/Target parameter: `a.action.time.total`
+  * Audience Manager trait: `c_a_action_time_total`
 
+* **Action Time In App**
+
+  Populated by `trackTimedAction` methods. 
+
+  * Analytics context data/Target parameter: `a.action.time.inapp`
+  * Audience Manager trait: `c_a_action_time_inapp`
+
+* **Lifetime Value (event)**
+
+  Populated by `trackLifetimeValue` methods.
+
+  * Analytics context data/Target parameter: `a.ltv.amount`
+  * Audience Manager trait: `c_a_ltv_amount`
+
+## Dimensions
+
+* **Location (down to 10 km)**
+
+  Populated by `trackLocation` methods.
+
+  * Analytics context data/Target parameter: 
+
+    * `a.loc.lat.a`
+    * `a.loc.lon.a`
+
+  * Audience Manager trait: 
+
+    * `c_a_loc_lat_a`
+    * `c_a_loc_lon_a`
+
+* **Location (down to 100 m)**
+
+  Populated by `trackLocation` methods.
+
+  * Analytics context data/Target parameter: 
+
+    * `a.loc.lat.b`
+    * `a.loc.lon.b`
+
+  * Audience Manager trait: 
+
+    * `c_a_loc_lat_b`
+    * `c_a_loc_lon_b`
+
+* **Location (down to 1 m)**
+
+  Populated by `trackLocation` methods. 
+
+  * Analytics context data/Target parameter: 
+
+    * `a.loc.lat.c`
+    * `a.loc.lon.c`
+
+  * Audience Manager trait: 
+
+    * `c_a_loc_lat_c`
+    * `c_a_loc_lon_c`
+
+* **Point of Interest Name**
+
+  Populated by `trackLocation` methods when device is within a defined POI. 
+
+  * Analytics context data/Target parameter: `a.loc.poi`
+  * Audience Manager trait: `c_a_loc_poi`
+
+* **Distance to Point of Interest Center**
+
+  Populated by `trackLocation` methods when device is within a defined POI. 
+
+  * Analytics context data/Target parameter: `a.loc.dist`
+  * Audience Manager trait: `c_a_loc_dist`
+
+* **Lifetime Value (conversion variable)**
+
+  Populated by `trackLifetimeValue` methods. 
+
+  * Analytics context data/Target parameter: `a.ltv.amount`
+  * Audience Manager trait: `c_a_ltv_amount`

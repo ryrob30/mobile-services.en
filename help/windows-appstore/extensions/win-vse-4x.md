@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 7d0ea312-340b-46ea-a737-b70a6766a536
 ---
 
-# Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK{#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
+# Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
 
 This Extensions provides you a much easier way to add the reference of Experience Cloud Solutions 4.x Windows SDK in you project.
 
