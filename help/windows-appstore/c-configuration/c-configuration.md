@@ -14,5 +14,5 @@ Information to help you configure the Windows 8.1 Universal App Store SDK, inclu
 
 ## Additional Information
 
-* [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md)
+* [ADBMobile JSON file](/help/windows-appstore/c-configuration/c.json.md)
 * [SDK methods](/help/windows-appstore/c-configuration/methods.md)
