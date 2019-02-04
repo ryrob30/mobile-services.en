@@ -147,15 +147,15 @@ At a minimum, update the following values for the solutions you are using:
 
 * **Adobe Audience Manager**: `server`
 
-For more informatio, see [ADBMobileConfig.json Config File Reference](/help/universal-windows/c-configuration/methods.md).
+For more information, see [ADBMobileConfig.json Config File Reference](/help/universal-windows/c-configuration/methods.md).
 
 ## Debugging {#section_3A10376A60394A15BEE483323E0CD4AA}
 
 When you want to enable debugging for the SDK, you have to call `ADBMobile.Config.setDebugLogging(true);`.
 
-For C# and JS apps, you have to enable native code debugging by completing the following steps (native code debugging is the default setting for C++ apps):
+For C Sharp and JS apps, you have to enable native code debugging by completing the following steps (native code debugging is the default setting for C++ apps):
 
-### C#
+### C Sharp
 
 Right-click project, select  **[!UICONTROL Properties]** > **[!UICONTROL Debug tab]** . Change the debugger type drop down to **Native Only**.
 
