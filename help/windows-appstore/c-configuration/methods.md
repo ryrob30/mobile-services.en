@@ -186,7 +186,7 @@ Classes and methods provided by the Windows 8.1 Universal App Store library.
 
 * **CollectLifecycleData (winJS: collectLifecycleData)**
 
-  Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/Users/rekrishn/Documents/GitHub/mobile-services.en/help/windows-appstore/metrics.md). 
+  Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/windows-appstore/metrics.md). 
   
   >[!TIP]
   >
