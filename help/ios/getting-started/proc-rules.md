@@ -15,8 +15,8 @@ Processing rules are used to copy the data that you send in context data variabl
  For more information, see the following content:
 
 * [Processing Rules Training](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013 
-* [Processing Rules Help](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules) 
-* [Become authorized to use Processing Rules](https://marketing.adobe.com/resources/help/en_US/reference/)
+* Become authorized to use processing rules
+  For more information about processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 When working with processing rules, remember the following information:
 

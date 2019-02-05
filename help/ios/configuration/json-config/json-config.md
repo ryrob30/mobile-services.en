@@ -26,37 +26,48 @@ The same config file can be used for your app across multiple platforms:
 >
 >On **iOS**, the [!DNL ADBMobileConfig.json] can be placed anywhere that it is accessible in your bundle.
 
+* **acquisition**
+
+  Enables mobile app acquisition.
+
+  * `server` - Acquisition server that is checked at the initial launch for an acquisition referrer.  
+  * `appid` - Generated ID that uniquely identifies this app on the acquisition server. 
+  
+  If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see *referrerTimeout* below.
+
+  * Minimum SDK version: 4.1
+
+* **analyticsForwardingEnabled**
+
+  The property in the `audienceManager` object. If `Audience Manager` is configured and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager. The default value is `false`.
+
+  * Minimum SDK version: 4.8.0
+
+* **backdateSessionInfo**
+
+  Enables/disables the ability for the Adobe SDK to backdate session info hits. 
+  
+  Session info hits currently consist of crashes and session length and can be enabled or disabled. 
+  
+  **Enabling or Disabling Hits** 
+  
+  * If you set the value to `false`, the hits are **disabled**. 
+  
+    The SDK returns to its pre-4.1 behavior of lumping the session information for the previous session with the first hit of the subsequent session. The Adobe SDK also attaches the session info to the current lifecycle, which avoids the creation of an inflated visit. Because inflated visits are no longer created, an immediate drop in visit counts occurs.  
+  
+  * If you do not provide a value, the default value is `true`, and hits are <b>enabled</b>. <p>When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. </p> <p>One hit is backdated on every new launch of the application. </p> </li> 
+     </ul> </p> <p> <p>Important:  Backdated session hit information is sent in a session info server call, and additional server calls might apply. 
+
 <table id="table_4068E4D18FA043DA902A2B67731348F2"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Variable </th> 
    <th colname="col02" class="entry"> Minimum SDK Version </th> 
    <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
   <tr> 
-   <td colname="col1"> acquisition </td> 
-   <td colname="col02"> 4.1 </td> 
-   <td colname="col2"> <p>Enables mobile app acquisition. </p> <p> 
-     <ul id="ul_811D701D9DF246289CA719ABEC42784B"> 
-      <li id="li_73704A5583BF4E41AA5D0EDFF2158D94"> <span class="codeph"> server </span> - Acquisition server that is checked at the initial launch for an acquisition referrer. </li> 
-      <li id="li_981270F54556419F87EEBF76EA3BAB4B"> <span class="codeph"> appid </span> - Generated ID that uniquely identifies this app on the acquisition server. </li> 
-     </ul> </p> <p>If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see <i>referrerTimeout</i> below. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> analyticsForwardingEnabled </td> 
-   <td colname="col02"> 4.8.0 </td> 
-   <td colname="col2"> <p>The default value is false. </p> <p>The property in the <span class="codeph"> audienceManager </span> object. If <span class="keyword"> Audience Manager </span> is configured and <span class="codeph"> analyticsForwardingEnabled </span> is set to <span class="codeph"> true </span>, all <span class="keyword"> Analytics </span> traffic is also forwarded to <span class="keyword"> Audience Manager </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> backdateSessionInfo </td> 
+   <td colname="col1">  </td> 
    <td colname="col02"> 4.6 </td> 
-   <td colname="col2"> <p>Enables/disables the ability for the Adobe SDK to backdate session info hits. </p> <p>Session info hits currently consist of crashes and session length and can be enabled or disabled. </p> <p><b>Enabling or Disabling Hits</b> </p> <p> 
-     <ul id="ul_E5ECCD247EF440C797C9E563F0C73EA5"> 
-      <li id="li_40DCF27F84A242D1A645D02A226D4613">If you set the value to <span class="codeph"> false </span>, the hits are <b>disabled</b>. <p>The SDK returns to its pre-4.1 behavior of lumping the session information for the previous session with the first hit of the subsequent session. The Adobe SDK also attaches the session info to the current lifecycle, which avoids the creation of an inflated visit. Because inflated visits are no longer created, an immediate drop in visit counts occurs. </p> </li> 
-      <li id="li_1FCD2E45B4AE4F088ECB95729CFED9DF">If you do not provide a value, the default value is <span class="codeph"> true </span>, and hits are <b>enabled</b>. <p>When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. </p> <p>One hit is backdated on every new launch of the application. </p> </li> 
-     </ul> </p> <p> <p>Important:  Backdated session hit information is sent in a session info server call, and additional server calls might apply. </p> </p> </td> 
+   <td colname="col2"> <p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> batchLimit </td> 
