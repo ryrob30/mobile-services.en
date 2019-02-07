@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 ---
 
-# Track App States{#track-app-states}
+# Track App States {#track-app-states}
 
 States are the different screens or views in your application. Each time a new state is displayed in your application, for example, when a user navigates from the home page to the news feed, a track state call should be sent. In iOS, a state is typically tracked in the viewDidLoad method of each view.
 
@@ -18,16 +18,17 @@ States are the different screens or views in your application. Each time a new s
 
 ## Tracking States {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the library to your project and implement lifecycle.
+  For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library.
 
-   ```
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
 1. Call `trackState` to send a hit for this state view.
 
-   ```
+   ```objective-c
    [ADBMobile trackState:@"Login Screen"  
                     data:nil];
    ```
@@ -38,13 +39,13 @@ In Adobe Mobile services, the **[!UICONTROL State Name]** is reported in the *`V
 
 In addition to the **[!UICONTROL State Name]**, you can send additional context data with each track action call:
 
-```
+```objective-c
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
 [contextData setObject:@"logged in" forKey:@"myapp.login.LoginStatus"]; 
 [ADBMobile trackState:@"Home Screen" data:contextData];
 ```
 
-Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com): 
+Context data values must be mapped to custom variables: 
 
 ![](assets/map-variable-context-state.png)
 
@@ -52,26 +53,9 @@ Context data values must be mapped to custom variables in [Adobe Mobile services
 
 States are typically viewed by using a pathing report so you can see how users navigate your app and which states are viewed most.
 
-<table id="table_1715AF0A897C40A39604500C6ABFBFE6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p>The <b>View States</b> report. </p> <p>This report is based on the paths that the users took through your application. For example, after you log in, click <span class="ignoretag"> <span class="uicontrol"> Home </span>  &gt; <span class="uicontrol"> Settings </span>  &gt; <span class="uicontrol"> Feed </span> </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Adobe Analytics </td> 
-   <td colname="col2"> States can be viewed anywhere that <span class="uicontrol"> Pages </span> can be viewed, such as the <span class="uicontrol"> Pages </span> report, the <span class="uicontrol"> Page Views </span> report, and the <span class="uicontrol"> Path </span> report. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ad hoc analytics </td> 
-   <td colname="col2"> States can be viewed anywhere <span class="uicontrol"> Pages </span> can be viewed using the <b></b> <span class="uicontrol"> Page </span>dimension, <span class="uicontrol"> Page Views </span> <b></b> metric, and <span class="uicontrol"> Path </span> reports. </td> 
-  </tr> 
- </tbody> 
-</table>
+| | |
+|--- |--- |
+|Adobe Mobile Services|The View States report.  This report is based on the paths that the users took through your application. For example, after you log in, click **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  >  **[!UICONTROL Feed]**.|
+|Adobe Analytics|States can be viewed anywhere that Pages can be viewed, such as the **[!UICONTROL Pages]** report, the **[UICONTROL Page Views]** report, and the **[!UICONTROL Path]** report.|
+|Ad hoc analytics|States can be viewed anywhere Pages can be viewed using the Page dimension, Page Views metric, and **[!UICONTROL Path]** reports.
 

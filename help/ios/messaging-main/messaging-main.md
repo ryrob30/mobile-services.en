@@ -12,9 +12,9 @@ uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 
 This information helps you use messaging in your iOS apps.
 
-* [In-App Messaging](messaging/messaging.md)
-* [Troubleshooting In-App Messaging](messaging/in-apps-ts.md)
-* [Push Messaging](push-messaging/push-messaging.md)
-* [Implement Push Messaging with Deep Linking](push-messaging/t-mob-imp-push-deeplinking-ios-4x.md)
-* [Receive Rich Push Notifications](push-messaging/c-set-up-rich-push-notif-ios.md)
-* [Troubleshooting Push Messaging](push-messaging/c-troubleshooting-push-messaging.md)
+* [In-App Messaging](/help/ios/messaging-main/messaging/messaging.md)
+* [Troubleshooting In-App Messaging](/help/ios/messaging-main/messaging/in-apps-ts.md)
+* [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
+* [Implement Push Messaging with Deep Linking](/help/ios/messaging-main/push-messaging/t-mob-imp-push-deeplinking-ios-4x.md)
+* [Receive Rich Push Notifications](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
+* [Troubleshooting Push Messaging](/help/ios/messaging-main/push-messaging/c-troubleshooting-push-messaging.md)

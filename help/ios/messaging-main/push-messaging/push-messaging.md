@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
 ---
 
-# Push Messaging{#push-messaging}
+# Push Messaging {#push-messaging}
 
 Adobe Mobile and the Adobe Mobile SDK allow you to send push messages to your users. The SDK also allows you to easily report users who have opened your app as a result of clicking through a push message.
 
@@ -22,16 +22,15 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 >
 >Do not manually set the Experience Cloud ID inside your app. This causes the creation of a new unique user that will not receive push messages because of its opt-in status. For example, suppose a user that has opt-ed in to receive push messages logs in to your app. After logging in, if you manually set the ID inside your app, a new unique user is created that has not opted to receive push messages. This new user will not receive your push messages.
 
-This section contains the following information:
-
-* [Prerequisites](../../messaging-main/push-messaging/push-messaging.md#section_06655ABE973743DC965897B229A2118D)
-* [Enabling Push Messaging](../../messaging-main/push-messaging/push-messaging.md#section_CBD63C5B11FE4424BC2BF552C23F2BD9) 
-* [Example](../../messaging-main/push-messaging/push-messaging.md#section_20BEA0D64F7C4D45A5EBEF21066E62AD)
-
 ## Prerequisites {#section_06655ABE973743DC965897B229A2118D}
 
-* Add the library to your project and implement [lifecycle metrics](../../metrics.md#concept_77CA5CEB51D1418FB98EC7C044682A05). 
-* SDK must be [enabled for the ID Service](https://marketing.adobe.com/resources/help/en_US/mobile/t_config_visitor.html).
+* Add the library to your project and implement lifecycle metrics. 
+
+  For more information, see [Lifecycle metrics](/help/ios/metrics.md). 
+
+
+* SDK must be enabled for the ID Service.
+  For more information, see [Configure SDK ID Service Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
 >[!IMPORTANT]
 >
@@ -43,7 +42,7 @@ This section contains the following information:
 
    The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
 
-   ```
+   ```objective-c
    "marketingCloud": { 
        "org": "3CE342C92046435B0A490D4C@AdobeOrg" 
    }
@@ -51,7 +50,7 @@ This section contains the following information:
 
 1. Import the library in your `AppDelegate`. 
 
-   ```
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
@@ -59,7 +58,7 @@ This section contains the following information:
 
    Here is an example of a possible implementation asking for permission to use Alerts, Badges, Sounds, and Remote notification:
 
-   ```
+   ```objective-c
    // iOS 10 and newer 
    if (NSClassFromString(@"UNUserNotificationCenter")) { 
        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];   
@@ -69,14 +68,11 @@ This section contains the following information:
            else { NSLog(@"authorization rejected"); } 
            if (error) { NSLog(@"error during authorization: %@", error.localizedDescription); } 
        }]; 
-    
        // have to ask for permission for remote notifications separately  
        [application registerForRemoteNotifications]; 
-    
        // make this class the delegate for user notification handling  
        center.delegate = self; 
    } 
-               
    // iOS 8.0 to iOS 9.3.5 
    else if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) { 
    #pragma GCC diagnostic push 
@@ -84,11 +80,9 @@ This section contains the following information:
        UIUserNotificationTypetypes = UIUserNotificationTypeAlert | UIUserNotificationTypeBadge| UIUserNotificationTypeSound; 
        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:types categories:nil]; 
        [application registerUserNotificationSettings:settings]; 
-    
        // have to ask for permission for remote notifications separately  
        [application registerForRemoteNotifications]; 
    } 
-        
    // older than iOS 8.0  
    else { 
        [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge| UIRemoteNotificationTypeSound];  
@@ -98,7 +92,7 @@ This section contains the following information:
 
 1. The push token must be passed to the SDK using the method `setPushIdentifier:` in ADBMobile class.
 
-   ```
+   ```objective-c
    - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken { 
        ... 
        [ADBMobile setPushIdentifier:deviceToken]; 
@@ -112,7 +106,7 @@ This section contains the following information:
 
    The following code sample is an example of a possible implementation:
 
-   ```
+   ```objective-c
    // device running < iOS 7 
    - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo { 
        // only send the hit if the app is inactive 
@@ -120,7 +114,6 @@ This section contains the following information:
            [ADBMobile trackPushMessageClickThrough:userInfo]; 
        } 
    } 
-    
    // device running between iOS 7 and iOS 9.3.5 
    - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult)) completionHandler { 
        // only send the hit if the app is inactive 
@@ -132,7 +125,6 @@ This section contains the following information:
        } 
        completionHandler(UIBackgroundFetchResultNoData); 
    } 
-    
    // device running >= iOS 10 
    - (void) userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler { 
        if ([response.notification.request.trigger isKindOfClass:UNPushNotificationTrigger.class]) { 
@@ -144,7 +136,7 @@ This section contains the following information:
 
 1. To keep your estimated push audience accurate, notify the SDK when a user manually disables push messaging for your app by calling `[ADBMobile setPushIdentifier: nil]` in the `applicationDidBecomeActive:` method in your `AppDelegate`.
 
-   ```
+   ```objective-c
    // device running < iOS 7 
    - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo { 
        // only send the hit if the app is inactive 
@@ -152,7 +144,6 @@ This section contains the following information:
            [ADBMobile trackPushMessageClickThrough:userInfo]; 
        } 
    } 
-    
    // device running between iOS 7 and iOS 9.3.5 
    - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult)) completionHandler { 
        // only send the hit if the app is inactive 
@@ -164,7 +155,6 @@ This section contains the following information:
        } 
        completionHandler(UIBackgroundFetchResultNoData); 
    } 
-    
    // device running >= iOS 10 
    - (void) userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler { 
        if ([response.notification.request.trigger isKindOfClass:UNPushNotificationTrigger.class]) { 
@@ -178,7 +168,7 @@ This section contains the following information:
 
 The following is an example of what an `AppDelegate.m` implementation might look like:
 
-```
+```objective-c
 #import "AppDelegate.h" 
 #import "ADBMobile.h" 
  
@@ -193,7 +183,6 @@ The following is an example of what an `AppDelegate.m` implementation might look
             else { NSLog(@"authorization rejected"); } 
             if (error) { NSLog(@"error during authorization: %@", error.localizedDescription); } 
         }]; 
-         
         center.delegate = self; 
         [application registerForRemoteNotifications]; 
     } 

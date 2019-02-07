@@ -6,7 +6,7 @@ title: PII Postbacks
 uuid: 08f76a52-75dd-4fc1-b4cc-4f5eef93d0f7
 ---
 
-# PII Postbacks{#pii-postbacks}
+# PII Postbacks {#pii-postbacks}
 
 You can use the Adobe SDK to collect personally identifiable information (PII) and send it to a third-party endpoint.
 
@@ -18,16 +18,17 @@ When you want to use the Adobe SDK to collect PII, you should send a track PII c
 
 ## Tracking PII Postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
 
-1. Add [the library to your project and implement lifecycle](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html). 
+1. Add [the library to your project and implement lifecycle. 
+   For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library:
 
-   ```java
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
 1. When you are ready to capture PII, call `trackPII` to send a hit for this action, event, or view:
 
-   ```java
+   ```objective-c
    [ADBMobile collectPII data:nil];
    ```
 

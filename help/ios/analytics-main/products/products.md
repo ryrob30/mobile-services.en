@@ -14,13 +14,13 @@ The products variable cannot be set by using processing rules. In the iOS 4.x SD
 
 To set the *`products`* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *`products`* variable:
 
-```
+```objective-c
 [contextData setObject:@"Category;Product;Quantity;Price[,Category;Product;Quantity;Price]" forKey:@"&&products"];
 ```
 
 For example:
 
-```
+```objective-c
 //create a context data dictionary 
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
  

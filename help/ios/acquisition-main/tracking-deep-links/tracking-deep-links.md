@@ -13,40 +13,33 @@ You can use this information to track deep and deferred deep links in your mobil
 
 For more information about how marketers use deep linking in their applications, see [Acquisition](https://marketing.adobe.com/resources/help/en_US/mobile/index.html?f=acquisition_main) in the [!DNL Adobe Mobile Services] documentation.
 
-This section contains the following information:
-
-* [Getting Started](../../acquisition-main/tracking-deep-links/tracking-deep-links.md#section_29495797A02E48C49CE7A2E3AE170ABD) 
-* [Deep Link Public Info](../../acquisition-main/tracking-deep-links/tracking-deep-links.md#section_44600E9AA68D4A53AA0C14BD86CC5284)
-
 ## Getting Started {#section_29495797A02E48C49CE7A2E3AE170ABD}
 
-**Tracking Deep Links**
+### Tracking Deep Links
 
 1. Add the SDK to your project and implement Lifecycle metrics.
 
-   For more information, see [Core Implementation and Lifecycle](../../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+   For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Register the application to handle [Inter-App Communications](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) or [Support Universal Links](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html). 
 
 1. Track deep link in openURL.
 
    Here is a sample track deep link:
 
-   ```
+   ```objective-c
    - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url { 
        [ADBMobile trackAdobeDeepLink:url]; 
        /* 
         Handle deep link 
         */ 
-     
        return YES; 
    } 
-     
    - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options { 
        [ADBMobile trackAdobeDeepLink:url]; 
        /* 
         Handle deep link 
         */ 
-     
+
        return YES; 
    }
    ```
@@ -61,20 +54,20 @@ Additionally, you might also choose to append one or more of the following reser
 * `a.launch.campaign.term` 
 * `a.launch.campaign.content`
 
-These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](../../getting-started/proc-rules.md#concept_4DAF0756D0DB43BD8C0627E023665FA5).
+These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](help/ios/getting-started/proc-rules.md).
 
-**Tracking Deferred Deep Links**
+### Tracking Deferred Deep Links
 
 1. Register Adobe data callback.
 
-   ```
+   ```objective-c
    [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) { 
    }];
    ```
 
 1. Handle `ADBMobileDataEventDeepLink` within `AdobeDataCallback`.
 
-   ```
+   ```objective-c
    [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) { 
        if (event == ADBMobileDataEventDeepLink) { 
            [self handleDeepLink:adobeData[ADBConfigKeyCallbackDeepLink]]; 
@@ -84,9 +77,9 @@ These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For
 
 ## Deep Link Public Information {#section_44600E9AA68D4A53AA0C14BD86CC5284}
 
-**Methods**
+### Methods
 
-```
+```objective-c
 /** 
  * @brief Tracks a Adobe Deep Link click-through 
  * @param url The URL resource received from UIApplication delegate method. 
@@ -95,9 +88,9 @@ These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For
 + (void) trackAdobeDeepLink:(nullable NSURL *)url;
 ```
 
-**Constants**
+#### Constants
 
-```
+```objective-c
 /* 
  * Used within ADBMobileDataCallback 
  * Key for deep link URL. 

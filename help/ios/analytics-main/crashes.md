@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
 ---
 
-# Track App Crashes{#track-app-crashes}
+# Track App Crashes {#track-app-crashes}
 
 This information helps you understand how crashes are tracked and the best practices to handle false crashes.
 

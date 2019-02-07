@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 ---
 
-# Track App Actions{#track-app-actions}
+# Track App Actions {#track-app-actions}
 
 Actions are the events that occur in your app that you want to measure. Each action has one or more corresponding metrics that are incremented each time the event occurs. For example, you might track a new subscription, each time an article is viewed or each time a level is completed. The corresponding metrics for these events are configured as subscriptions, articles read, and levels completed.
 
@@ -16,16 +16,17 @@ Actions are not tracked automatically, so to track an event, you must call `trac
 
 ## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the library to your project and implement lifecycle.
+   For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library.
 
-   ```
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
 1. When the action that you want to track occurs in your app, call `trackAction` to send a hit for this action.
 
-   ```
+   ```objective-c
    [ADBMobile trackAction:@"myapp.ActionName"  
                      data:nil];
    ```
@@ -34,7 +35,7 @@ Actions are not tracked automatically, so to track an event, you must call `trac
    >
    >If the code where you are adding this call might run while the app is in the background, call `trackActionFromBackground` instead of `trackAction`.
 
-1. In [Adobe Mobile services](https://mobilemarketing.adobe.com/), select your app and click **[!UICONTROL Manage App Settings]**. 
+1. In Adobe Mobile services, select your app and click **[!UICONTROL Manage App Settings]**. 
 
 1. Click **[!UICONTROL Manage Variables and Metrics]** and click the **[!UICONTROL Custom Metrics]** tab. 
 
@@ -50,7 +51,7 @@ You can also set a prop to hold all action values by mapping a custom prop with 
 
 In addition to the action name, you can send additional context data with each track action call:
 
-```
+```objective-c
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
 [contextData setObject:@"Twitter" forKey:@"myapp.social.SocialSource"]; 
 [ADBMobile trackAction:@"myapp.SocialShare" data:contextData];
@@ -66,26 +67,8 @@ If you are tracking an action in code that might run when the app is in the back
 
 ## Action Reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-<table id="table_1715AF0A897C40A39604500C6ABFBFE6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Interface </th> 
-   <th colname="col2" class="entry"> Report </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Action Paths </span> report. </p> <p>View the order in which actions occur in your app. </p> <p>You can also click <span class="uicontrol"> Customize </span> on any report to view actions ranked, trended, or in a breakdown report or apply a filter to view actions for a specific segment. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Marketing reports &amp; analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Custom Event </span> report. </p> <p>After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ad hoc analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Custom Event </span> report. </p> <p>After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Interface | Report |
+|--- |--- |
+|Adobe Mobile Services|**[!UICONTROL Action Paths]** report. View the order in which actions occur in your app. You can also click **[!UICONTROL Customize}** on any report to view actions ranked, trended, or in a breakdown report or apply a filter to view actions for a specific segment.|
+|Marketing reports and analytics|**[UICONTROL Custom Event]** report.  After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|
+|Ad hoc analytics|**[!UICONTROL Custom Event]** report. After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|

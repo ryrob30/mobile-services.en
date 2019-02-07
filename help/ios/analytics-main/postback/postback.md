@@ -7,7 +7,7 @@ title: Postbacks
 uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
 ---
 
-# Postbacks{#postbacks}
+# Postbacks {#postbacks}
 
 Postbacks allow you to send data that is collected by the SDK to a third-party server. By leveraging the same triggers and traits that you use to display an in-app message, you can configure the SDK to send customized data to a third-party destination.
 
@@ -25,39 +25,11 @@ There are also specific, reserved templates that the SDK will replace for you au
 
 This list includes: 
 
-<table id="table_38E463568634440CA72552A6C80168AD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Token Name </th> 
-   <th colname="col2" class="entry"> Token Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> {%sdkver%}</span> </p> </td> 
-   <td colname="col2"> <p>Returns SDK version. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> {%cachebust%}</span> </p> </td> 
-   <td colname="col2"> <p>Resolves to a random number between 1 and 100000000. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> {%adid%}</span> </p> </td> 
-   <td colname="col2"> <p>Returns IDFA.
-     <!-- and Advertiser ID for Android--> Note, this only works if you have used <span class="codeph"> setAdvertisingIdentifier</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> {%pushid%}</span> </p> </td> 
-   <td colname="col2"> <p>Returns the Push Identifier token. Note, this only works if you have used <span class="codeph"> setPushIdentifier</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> {%timestampu%}</span> </p> </td> 
-   <td colname="col2"> <p>Returns current timestamp in epoch time. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> {%timestampz%}</span> </p> </td> 
-   <td colname="col2"> <p>Returns current timestamp in JavaScript (ISO 8601) format. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Token Name | Token Description |
+|--- |--- |
+|`{%sdkver%}`|Returns SDK version.|
+|`{%cachebust%}`|Resolves to a random number between 1 and 100000000.|
+|`{%adid%}`|Returns IDFA. This token only works if you used  `setAdvertisingIdentifier`.|
+|`{%pushid%}`|Returns the Push Identifier token. This token only works if you used `setPushIdentifier`.|
+|`{%timestampu%}`|Returns current timestamp in epoch time.|
+|`{%timestampz%}`|Returns current timestamp in JavaScript (ISO 8601) format.|
