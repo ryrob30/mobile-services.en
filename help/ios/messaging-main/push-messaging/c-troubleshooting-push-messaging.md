@@ -39,10 +39,10 @@ The following types of delays might be associated with push messages for Mobile 
 
 Sending push messages requires a valid Push Service Certificate. Mobile Services will notify you when your certificate is close to expiring or has expired. If you receive this notification, complete the following steps to renew your certificate:
 
-1.  Click [!UICONTROL Manage App Settings].
-2.  To delete the current certificate, scroll to [!UICONTROL Push Services] and click [!UICONTROL Delete].
-3.  Configure and test a new certificate.
-    
+1. Click **[!UICONTROL Manage App Settings]**.
+2. To delete the current certificate, scroll to **[!UICONTROL Push Services]** and click **[!UICONTROL Delete]**.
+3. Configure and test a new certificate.
+
     For more information, see [Prerequisites to Enable Push Messaging](https://marketing.adobe.com/resources/help/en_US/mobile/prerequisites_push_messaging.html)
-    
-4.  Click Save.
+
+4. Click Save.

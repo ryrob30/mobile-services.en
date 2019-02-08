@@ -8,60 +8,54 @@ topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 ---
 
-# Geo-Location and Points of Interest{#geo-location-and-points-of-interest}
+# Geo-Location and Points of Interest {#geo-location-and-points-of-interest}
 
 Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your iOS apps.
 
 Each `trackLocation` call sends the following:
 
-* Latitude, longitude, and location in a point of interest (POI) that is defined in [Adobe Mobile services](https://mobilemarketing.adobe.com).
+* Latitude, longitude, and location in a point of interest (POI) that is defined in Adobe Mobile services.
 
   This information is passed to mobile solution variables for automatic reporting. 
 
-* Distance from center & accuracy passed as context data.
+* Distance from center and accuracy passed as context data.
 
-  These variables are not captured automatically. You must map these context data variables by using the instructions in [Sending Additional Data](../location/geo-poi.md#section_3EBE813E54A24F6FB669B2478B5661F9).
-
-This section contains the following information:
-
-* [Dynamic POI updates](../location/geo-poi.md#section_3747B310DD5147E2AAE915E762997712) 
-* [How to Track](../location/geo-poi.md#section_B1616E400A7548F9A672F97FEC75AE27) 
-* [Sending Additional Data](../location/geo-poi.md#section_3EBE813E54A24F6FB669B2478B5661F9) 
-* [Location Context Data](../location/geo-poi.md#section_FFB71E6653F9410A89CC6ACC0C9164A9) 
-* [Notes](../location/geo-poi.md#section_931AC1E0D88147E29FE1B6E3CC1E9550)
+  These variables are not captured automatically. You must map these context data variables by using the instructions in [Sending Additional Data](/help/ios/location/location.md).
 
 ## Dynamic POI updates {#section_3747B310DD5147E2AAE915E762997712}
 
-Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires an `analytics.poi` setting in the [ADBMobile JSON Config](../configuration/json-config/json-config.md#concept_105FBD9EBABE4B21BD7D49687AB2D5BA):
+Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires an `analytics.poi` setting in the `ADBMobile.json` file:
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-If this is not configured, an updated version of the `ADBMobile.json` file must be downloaded and added to your app. For more information and instructions, see [Download the SDK and Testing Tools](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
+For more information, see [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
+
+If this is not configured, an updated version of the `ADBMobile.json` file must be downloaded and added to your app. For more information and instructions, see *Download the SDK and Testing Tools* in [Before you Start](/help/ios/getting-started/requirements.md).
 
 ## How to Track {#section_B1616E400A7548F9A672F97FEC75AE27}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the [library to your project and implement lifecycle].
+  For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 
-   ```java
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
 1. Call `trackLocation` to track the current location: 
 
-   ```
+   ```objective-c
    CLLocation *currentLocation = location; 
    [ADBMobile trackLocation: currentLocation data: nil]; 
-   
    ```
 
    >[!TIP]
    >
    >You can call `trackLocation` at any time.
 
-   You can use [Getting the User’s Location](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html) to determine the location that is passed to the `trackLocation` call.
+   To determine the location that is passed to the `trackLocation` call, use [Getting the User’s Location](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
 
 Additionally, if the location is determined to be in a defined POI radius, an `a.loc.poi` context data variable is sent in with the `trackLocation` hit and is reported as a POI in Location reports. An `a.loc.dist` context variable is also sent with the distance in meters from the defined coordinates.
 
@@ -69,13 +63,13 @@ Additionally, if the location is determined to be in a defined POI radius, an `a
 
 In addition to the location data, you can send additional context data with each track location call:
 
-```
+```objective-c
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
 [contextData setObject:@"GPS" forKey:@"myapp.location.LocationSource"]; 
 [ADBMobile trackLocation: currentLocation data:contextData];
 ```
 
-Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com): 
+Context data values must be mapped to custom variables: 
 
 ![](assets/map-location-context-data.png)
 
@@ -85,17 +79,12 @@ The latitude and longitude are each sent using three different context data para
 
 For example, the coordinates lat = 40.93231, lon = -111.93152 represent a location with 1 m precision. This location is split according to the level of precision across the following variables:
 
-`a.loc.lat.a`= 040.9
-
-`a.loc.lat.b` = 32
-
-`a.loc.lat.c` = 31
-
-`a.loc.lon.a` = -111.9
-
-`a.loc.lon.b` = 31
-
-`a.loc.lon.c` = 52
+* `a.loc.lat.a`= 040.9
+* `a.loc.lat.b` = 32
+* `a.loc.lat.c` = 31
+* `a.loc.lon.a` = -111.9
+* `a.loc.lon.b` = 31
+* `a.loc.lon.c` = 52
 
 Some precision levels might appear as "00" depending on the accuracy of the current location. For example, if the location is currently accurate to 100m, `a.loc.lat.c` and `a.loc.lon.c` will be populated with "00".
 

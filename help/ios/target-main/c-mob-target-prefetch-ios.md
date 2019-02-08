@@ -6,7 +6,7 @@ title: Prefetch offer content in iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 ---
 
-# Prefetch offer content in iOS{#prefetch-offer-content-in-ios}
+# Prefetch offer content in iOS {#prefetch-offer-content-in-ios}
 
 The Adobe Target prefetch feature uses the iOS Mobile SDKs to fetch offer content as few times as possible by caching the server responses.
 
@@ -35,145 +35,119 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 Here are the methods that you can use for prefetch in iOS:
 
-<table id="table_5690297F6526421698A01BAF995776B5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>targetPrefetchContent </p> </td> 
-   <td colname="col2"> <p>Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback. </p> <p><b>Syntax</b> </p> <p> 
-     <codeblock class="syntax objective-c">
-       (void)&nbsp;targetPrefetchContent:(nonnull&nbsp;NSArray&nbsp;*)targetPrefetchObjectArray 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;withProfileParameters:(nullable&nbsp;NSDictionary&nbsp;*)profileParameters 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callback:(nullable&nbsp;void(^)(BOOL&nbsp;success))callback;
+* **targetPrefetchContent**
 
-     </codeblock> </p> <p><b>Parameters</b> 
-     <table id="table_F9566AA2648843AC93674C376C3B2B08">  
-     </table> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetLoadRequests </p> </td> 
-   <td colname="col2"> <p>Executes a batch request for multiple mbox locations that are specified in the requests array. &amp;nbsp;Each object in the array contains a callback function, which will be invoked when content is available for its given mbox location. </p> <p> <p>Important:  If the content for the requested locations is already cached, it will be returned immediately in the provided callback. Otherwise, the SDK will send a network request to the Target servers to retrieve the content. </p> </p> <p>Syntax: 
-     <codeblock class="syntax objective-c">
-       (void)&nbsp;targetLoadRequests:(nonnull&nbsp;NSArray&nbsp;*)requests 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;withProfileParameters:(nullable&nbsp;NSDictionary&nbsp;*)profileParameters;
+  Sends a prefetch request with an array of locations to the configured Target server and returns the request status in the provided callback. 
 
-     </codeblock> </p> <p><b>Parameters</b>: </p> <p> 
-     <table id="table_52BA3E5A5A0F4CDB87F156E52DEA6284">  
-     </table> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetPrefetchClearCache </p> </td> 
-   <td colname="col2"> <p>Clears the data that was cached by Target Prefetch. </p> <p><b>Syntax</b>: </p> <p> 
-     <codeblock class="syntax objective-c">
-       (void)&amp;nbsp;targetPrefetchClearCache; 
-     </codeblock> </p> <p><b>Parameters</b>: N/A </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>targetRequestObjectWithName </p> </td> 
-   <td colname="col2"> <p>Creates and returns an instance of <span class="codeph"> TargetRequestObject </span> with the provided data. </p> <p><b>Syntax</b>: </p> <p> 
-     <codeblock class="syntax objective-c">
-       +&nbsp;(nullable&nbsp;ADBTargetRequestObject&nbsp;*)&nbsp;targetRequestObjectWithName:(nonnull&nbsp;NSString&nbsp;*)name&nbsp;
+  * Here is the syntax for this method:
 
-defaultContent:(nonnull&nbsp;NSString&nbsp;*)defaultContent
+    ```objective-c
+    (void) targetPrefetchContent:(nonnull NSArray*)targetPrefetchObjectArray 
+                   withProfileParameters:(nullable NSDictionary*)profileParameters 
+                          callback:(nullable void(^)(BOOL success))callback;
+    ```
 
-mboxParameters:(nullable&nbsp;NSDictionary&nbsp;*)mboxParameters&nbsp;
+  * Here are the parameters for this method:
 
-callback:(nullable&nbsp;void&nbsp;(^)(NSString*&nbsp;__nullable&nbsp;content))callback;
+    |Name |Description 
+    |--- |--- |
+    |`targetPrefetchArray`|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
+    |`profileParameters`|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
+    `callback`|Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.|
 
-     </codeblock> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>createTargetPrefetchObject </p> </td> 
-   <td colname="col2"> <p>Creates and returns an instance of <span class="codeph"> TargetPrefetchObject </span> with the provided data. </p> <p><b>Syntax</b>: </p> <p> 
-     <codeblock class="syntax objective-c">
-       +&nbsp;(nullable&nbsp;ADBTargetPrefetchObject&nbsp;*)&nbsp;targetPrefetchObjectWithName:(nonnull&nbsp;NSString&nbsp;*)name&nbsp;
+* **targetLoadRequests**
 
-mboxParameters:(nullable&nbsp;NSDictionary&nbsp;*)mboxParameters;
+  Executes a batch request for multiple mbox locations that are specified in the requests array. Each object in the array contains a callback function, which will be invoked when content is available for its given mbox location. 
+  
+  >[!IMPORTANT]
+  >
+  >If the content for the requested locations is already cached, it will be returned immediately in the provided callback. Otherwise, the SDK will send a network request to the Target servers to retrieve the content. 
 
-     </codeblock> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  * Here is the syntax for this method:
+
+    ```objective-c
+    (void)targetLoadRequests:(nonnullNSArray*)requests 
+             withProfileParameters:(nullableNSDictionary*)profileParameters;
+    ```
+
+  * Here are the parameters for this method:
+
+    |Name|Description 
+    |--- |--- |
+    |`requests`|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
+    |`profileParameters`|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
+
+* **targetPrefetchClearCache**
+
+  Clears the data that was cached by Target Prefetch.
+
+  * Here is the syntax for this method:
+
+    ```objective-c
+    (void) targetPrefetchClearCache; 
+    ```
+
+  * There are no parameters for this method.
+
+* **targetRequestObjectWithName**
+
+  Creates and returns an instance of `TargetRequestObject` with the provided data. 
+
+  * Here is the syntax for this method:
+
+    ```objective-c
+    +(nullableADBTargetRequestObject*)targetRequestObjectWithName:(nonnullNSString*)name
+    defaultContent:(nonnullNSString*)defaultContent
+    mboxParameters:(nullableNSDictionary*)mboxParameters
+    callback:(nullablevoid(^)(NSString*__nullablecontent))callback;
+    ```
+
+  * There are no parameters for this method.
+
+* **createTargetPrefetchObject**
+
+  Creates and returns an instance of `TargetPrefetchObject` with the provided data. 
+
+  * Here is the syntax for this method:
+
+    ```objective-c
+    +(nullable ADBTargetPrefetchObject *) targetPrefetchObjectWithName:(nonnullNSString *)name
+    mboxParameters:(nullableNSDictionary *)mboxParameters;
+    ```
 
 ## Public Classes {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Here are the public classes that support pre-fetch in iOS :
 
-**Class Reference: TargetPreFetchObject**
+### Class Reference: TargetPreFetchObject
+
+
 
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
-<table id="table_987E9D0D9B76495A9ED9EF851AFCAD16"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Property </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>name </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: NSString* </p> <p>The NSString value that represents the name for the location/mbox you want to retrieve. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mboxParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: NSDictionary* </p> <p>An optional dictionary that contains the key-value pairs of mbox parameters. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>orderParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: NSDictionary* </p> <p>Dictionary that contains the key-value pairs of order parameters. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>productParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: NSDictionary* </p> <p>Dictionary that contains the key-value pairs of product parameters. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Description |
+|--- |--- |
+|`name`|**Type**: NSString* <br>Name for the location/mbox you want to retrieve.|
+|`mboxParameters`|**Type**: NSDictionary* <br>An optional dictionary that contains the key-value pairs of mbox parameters.|
+|`orderParameters`|**Type**: NSDictionary* <br>Dictionary that contains the key-value pairs of order parameters.|
+|`productParameter`s|**Type**: NSDictionary* <br>Dictionary that contains the key-value pairs of product parameters. |
 
-**Class Reference: TargetRequestObject **
+### Class Reference: TargetRequestObject
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
-<table id="table_47A7702703144124B6CC2974FF24FD05"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Property </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>name </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: NSString* </p> <p>Name of the requested location. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mboxParameters </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: </p> <p>The NSString value that represents the name for the location/mbox you want to retrieve. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>defaultContent </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: NSString* </p> <p>The default content that will be returned if Target servers are unreachable. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>callback </p> </td> 
-   <td colname="col2"> <p><b>Type</b>: Function </p> When the batch requests Target locations, callback will be invoked when content is available for this location. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Description |
+|--- |--- |
+|name|**Type**: NSString* <br>Name of the requested location.|
+|mboxParameters|Type: NSString* <br>The NSString value that represents the name for the location/mbox you want to retrieve.|
+|defaultContent|**Type**: NSString* <br>The default content that will be returned if Target servers are unreachable.|
+|callback|**Type**: Function <br>When the batch requests Target locations, callback will be invoked when content is available for this location. |
 
 ## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
 
 Here is an example of how to prefetch content by using the iOS SDKs:
 
-```
+```objective-c
 /** 
  * Prefetch Content 
  */ 
@@ -202,7 +176,7 @@ Here is an example of how to prefetch content by using the iOS SDKs:
     ADBTargetPrefetchObject *prefetch2 = [ADBMobile targetPrefetchObjectWithName:@"buttonColor" mboxParameters:mboxParameters2]; 
     prefetch2.productParameters = productParameters2; 
     prefetch2.orderParameters = orderParameters2; 
-                                           
+
     // Creating prefetch Array 
     NSArray *prefetchArray = @[prefetch1,prefetch2]; 
   
@@ -213,12 +187,11 @@ Here is an example of how to prefetch content by using the iOS SDKs:
     [ADBMobile targetPrefetchContent:prefetchArray withProfileParameters:profileParmeters callback:^(BOOL isSuccess){ 
        // do something with the Boolean result 
     }];
-
 ```
 
 Here is an example of the batch `loadRequest` by using the iOS SDKs: 
 
-```
+```objective-c
 /** 
  * Batch loadRequest  
  */ 
@@ -264,14 +237,13 @@ Here is some additional information about these samples:
 
 * `ProductParameters` only allows the following keys:
 
-    * `id` 
-    * `categoryId`
+  * `id` 
+  * `categoryId`
 
 * `OrderParameters` only allows the following keys:
 
-    * `id` 
-    * `total` 
-    * `purchasedProductIds`
+  * `id` 
+  * `total` 
+  * `purchasedProductIds`
 
 * `purchasedProducts` accepts an array of strings.
-

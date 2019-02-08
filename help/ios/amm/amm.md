@@ -12,4 +12,4 @@ uuid: a1f86814-6b1e-4fe1-9400-f443b92405f1
 
 This information helps you send signals and retrieve visitor segments from Audience Manager.
 
-+ [Audience Manager Methods](aam-methods.md)
+* [Audience Manager Methods](/help/ios/amm/aam-methods.md)

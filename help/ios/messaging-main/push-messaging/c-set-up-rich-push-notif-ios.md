@@ -6,7 +6,7 @@ title: Receive Rich Push Notifications
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
 ---
 
-# Receive Rich Push Notifications{#receive-rich-push-notifications}
+# Receive Rich Push Notifications {#receive-rich-push-notifications}
 
 You can attach image files to your Apple notifications. Adding visual components can significantly increase your users' engagement with push notifications.
 
@@ -27,15 +27,15 @@ To receive rich push notifications in your iOS app:
 
    To receive rich push notifications, the first method is used: 
 
-   ```
+   ```objective-c
    (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
    ```
 
-   In this method, you can get the Media URL from `userInfo` by using the `‘attachment-url’` key, and after you download the file to a local directory, add the local path to `bestAttemptContent.attachments`.
+   In this method, you can get the Media URL from `userInfo` by using the `attachment-url` key. After you download the file to a local directory, add the local path to `bestAttemptContent.attachments`.
 
    Here is an example of the code in this method: 
 
-   ```
+   ```objective-c
    - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler { 
        self.contentHandler = contentHandler; 
        self.bestAttemptContent = [request.content mutableCopy]; 
@@ -61,11 +61,11 @@ To receive rich push notifications in your iOS app:
                } 
                self.bestAttemptContent.attachments = @[attachment]; 
                self.contentHandler(self.bestAttemptContent); 
-                
+
            }]; 
            [task resume]; 
        } 
-        
+
    }
    ```
 

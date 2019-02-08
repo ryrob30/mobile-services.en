@@ -6,7 +6,7 @@ title: Experience Cloud Device Co-op
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
 ---
 
-# Experience Cloud Device Co-op{#experience-cloud-device-co-op}
+# Experience Cloud Device Co-op {#experience-cloud-device-co-op}
 
 To start using the Experience Cloud Device Co-op, contact your Adobe representative.
 
@@ -16,14 +16,14 @@ To enable your mobile apps for the Experience Cloud Device Co-op, complete the f
 >
 >This functionality requires iOS SDK version 4.8.5 or later.
 
-Starting in SDK version 4.16.1, Device Co-op members can opt their mobile device data out of the Experience Cloud Device Co-op. For more information see [ADBMobile JSON Config](../configuration/json-config/json-config.md#concept_105FBD9EBABE4B21BD7D49687AB2D5BA) and the `visitorAPI.js` method for [isCoopSafe](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-coopsafe.html). 
+Starting in SDK version 4.16.1, Device Co-op members can opt their mobile device data out of the Experience Cloud Device Co-op. For more information see [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) and the `visitorAPI.js` method for [isCoopSafe](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-coopsafe.html). 
 
 1. Implement the Adobe Mobile SDK.
 
-   For more information, see [Core Implementation and Lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972).
+   For more information, see [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md).
 1. Enable your Experience Cloud ID.
 
-   For more information, see [Experience Cloud ID](../marketing-cloud/mcvid.md#concept_581581B6726A422BAB8F44AE78E402AE).
+   For more information, see [Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md).
 1. Pass authenticated identities such as CRM IDs or hashed emails using one of the sync methods contained here.
 
-   For more information, see [Experience Cloud ID Service Methods](../marketing-cloud/mc-methods.md#concept_FFC0A9EA4C804CC5BAD5FB358F52A22A). 
+   For more information, see [Experience Cloud ID Service Methods](/help/ios/marketing-cloud/mc-methods.md). 
