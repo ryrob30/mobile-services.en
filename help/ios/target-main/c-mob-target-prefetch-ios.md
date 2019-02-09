@@ -49,7 +49,7 @@ Here are the methods that you can use for prefetch in iOS:
 
   * Here are the parameters for this method:
 
-    |Name |Description 
+    |Name |Description |
     |--- |--- |
     |`targetPrefetchArray`|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
     |`profileParameters`|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
