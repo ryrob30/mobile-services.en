@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 ---
 
-# Apple Search Ads{#apple-search-ads}
+# Apple Search Ads {#apple-search-ads}
 
 The Adobe SDK leverages Apple's Search Ads App Attribution APIs to enable developers and marketers to track and attribute app downloads that originate from Search Ads campaigns in the Apple App Store.
 
@@ -31,7 +31,7 @@ To enable your app for Search Ad attribution:
 
 1. Implement the Adobe SDK version 4.13.2 or above.
 
-   For more information, see [Getting Started](../getting-started/getting-started.md#concept_3BB5C843F92A4600A107BB906943BC2B). 
+   For more information, see [Getting Started](/help/ios/getting-started/getting-started.md). 
 
 1. Add the iAd framework to the Xcode project file for your app.
 
@@ -44,11 +44,8 @@ To enable your app for Search Ad attribution:
    In addition, the following values will be mapped from the " `iad`" dictionary to our typical acquisition context data fields:
 
     * " `iad-campaign-id`" --> " `a.referrer.campaign.trackingcode`" 
-    
-    * " `iad-campaign-name`" --> " ` `a.referrer.campaign.name``" 
-    
+    * " `iad-campaign-name`" -->" `a.referrer.campaign.name``" 
     * " `iad-adgroup-id`" --> " `a.referrer.campaign.content`" 
-    
     * " `iad-keyword`" --> " `a.referrer.campaign.term`"
 
    This mapping will make the values available in our standard reporting.

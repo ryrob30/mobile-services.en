@@ -8,50 +8,24 @@ topic: Developer and implementation
 uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
 ---
 
-# App Transport Security{#app-transport-security}
+# App Transport Security {#app-transport-security}
 
 This information helps you work with App Transport Security (ATS), which is a new set of security requirements for iOS 9.
 
-Starting with iOS 9, Apple introduced [App Transport Security](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/), a set of requirements that conforms to best practices for secure connections. For the Adobe Mobile SDK version 4.7 or later to work seamlessly with ATS, use the enable SSL option in the [!DNL Manage App Settings] page. For more information, see [Manage App Settings](https://marketing.adobe.com/resources/help/en_US/mobile/c_manage_app_settings.html) or [ADBMobile JSON Config](../configuration/json-config/json-config.md#concept_105FBD9EBABE4B21BD7D49687AB2D5BA).
+Starting with iOS 9, Apple introduced [App Transport Security](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/), a set of requirements that conforms to best practices for secure connections. For the Adobe Mobile SDK version 4.7 or later to work seamlessly with ATS, use the enable SSL option in the [!DNL Manage App Settings] page. For more information, see [Manage App Settings](/help/using/c-manage-app-settings/c-manage-app-settings.md) or [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
 
 In [!DNL Adobe Mobile Services], by selecting the **[!UICONTROL Use HTTPS]** option in the [!DNL Manage App Settings] page, all hits from [!DNL Analytics], [!DNL Audience Manager], [!DNL Target], and [!DNL Experience Cloud ID services] are sent via HTTPS.
 
 As an alternative, you can also choose to whitelist service the following servers: 
 
-<table id="table_BD4CB2193C5D4971B5E5008964EFD7ED"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Product </th> 
-   <th colname="col2" class="entry"> Instructions </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Analytics </td> 
-   <td colname="col2"> <p>To whitelist your <span class="keyword"> Analytics</span> server, add your tracking server domain to your <span class="filepath"> info.plist</span> file as an exception domain for ATS. </p> <p>The tracking server domain can be found in the <span class="uicontrol"> Analytics</span> section of the <span class="filepath"> ADBMobileConfig.json</span> file or in the <span class="uicontrol"> Analytics</span> section in the <span class="wintitle"> Manage App Settings</span> page. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Audience Manager </td> 
-   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> domain is found in the server property of the <span class="filepath"> audienceManager</span> object in your <span class="filepath"> ADBMobileConfig.json</span> file. </p> <p>If you are using <span class="keyword"> Audience Manager</span> in your app, and SSL is not enabled, add this server as an exception domain for ATS in your <span class="filepath"> Info.plist</span> file </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Target </td> 
-   <td colname="col2"> <p>You can add your <span class="keyword"> Target</span> endpoint to your <span class="filepath"> Info.plist</span> file as an exception domain for ATS. </p> <p>To find your <span class="keyword"> Target</span> endpoint, find the <span class="filepath"> clientCodeproperty</span> in the target object of your <span class="filepath"> ADBMobileConfig.json</span> file. Your endpoint will be <span class="filepath"> https://{clientCode}.tt.omtrdc.net</span>. </p> <p>For example, if your <span class="filepath"> clientCodeproperty</span> is “myCompany”, your endpoint will be <span class="filepath"> https://myCompany.tt.omtrdc.net</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Experience Cloud ID service </td> 
-   <td colname="col2"> <p>You can add the <span class="keyword"> Experience Cloud</span> server as an exception domain for ATS in your <span class="filepath"> Info.plist</span> file. This domain is <span class="filepath"> dpm.demdex.net</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mobile Services: Acquisition </td> 
-   <td colname="col2"> <p>Whitelist the Acquisition server as an exception domain for ATS in your <span class="filepath"> Info.plist </span>file. This domain is <span class="filepath"> c00.adobe.com</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mobile Services: In-App Messages </td> 
-   <td colname="col2"> <p>If you are using in-app messages, you might need to add entries into the exception domain for ATS for each URL you use that is not HTTPS. This list includes hosted images and any URL embedded into your custom full screen message HTML. </p> <p>For more detail on setting up exceptions domain in a <span class="filepath"> info.plist</span> file, see the Exceptions section on Apple’s <a href="https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/" format="https" scope="external"> App Transport Security Technote</a> page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Product | Instructions |
+|--- |--- |
+|Analytics|To whitelist your  Analytics server, add your tracking server domain to your  info.plist file as an exception domain for ATS.  The tracking server domain can be found in the  Analytics section of the  `ADBMobileConfig.json` file or in the  Analytics section in the  Manage App Settings page.|
+|Audience Manager|Your  Audience Manager domain is found in the server property of the  audienceManager object in your  `ADBMobileConfig.json` file.  If you are using  Audience Manager in your app, and SSL is not enabled, add this server as an exception domain for ATS in your  `Info.plist` file|
+|Target|You can add your  Target endpoint to your  Info.plist file as an exception domain for ATS.  To find your  Target endpoint, find the `clientCodeproperty` in the target object of your  `ADBMobileConfig.json` file. Your endpoint will be  `https://{clientCode}.tt.omtrdc.net`.  For example, if your  `clientCodeproperty` is `“myCompany”`, your endpoint will be  `https://myCompany.tt.omtrdc.net`.|
+|Experience Cloud ID service|You can add the  Experience Cloud server as an exception domain for ATS in your  `Info.plist` file. This domain is `dpm.demdex.net`.|
+|Mobile Services: Acquisition|Whitelist the Acquisition server as an exception domain for ATS in your  `Info.plist` file. This domain is `c00.adobe.com`.|
+|Mobile Services: In-App Messages|If you are using in-app messages, you might need to add entries into the exception domain for ATS for each URL you use that is not HTTPS. This list includes hosted images and any URL embedded into your custom full screen message HTML.  For more detail on setting up exceptions domain in a  info.plist file, see the *Exception* section on Apple’s  App Transport Security technote page.|
 
 >[!TIP]
 >

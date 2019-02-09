@@ -8,17 +8,17 @@ topic: Developer and implementation
 uuid: 19a27df4-0998-403d-800c-26ff61149208
 ---
 
-# Event Serialization{#event-serialization}
+# Event Serialization {#event-serialization}
 
 Event serialization is not supported by processing rules. In the Mobile SDK, you must use a special syntax in the context data parameter to set serialized events directly on the server call.
 
-```
+```objective-c
 [contextData setObject:@"eventN:serial number" forKey:@"&&events"];
 ```
 
 For example:
 
-```
+```objective-c
 //create a context data dictionary 
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
  

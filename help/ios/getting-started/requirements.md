@@ -8,26 +8,19 @@ topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 ---
 
-# Before You Start{#before-you-start}
+# Before You Start {#before-you-start}
 
 Complete these steps to configure a report suite to collect iOS app data.
-
-This section contains the following information:
-
-* [Role-Specific Tasks](../getting-started/requirements.md#section_EE6627E2938B465A8A4EFD0F65B8394B) 
-* [Log in to the Adobe Mobile Services UI](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8) 
-* [Create a Report Suite](../getting-started/requirements.md#section_79CC41BC376742D090E828AFCF7630CE) 
-* [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46)
 
 ## Role-Specific Tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 Analytics administrators and app developers must complete the following tasks:
 
-**Analytics administrators**
+### Analytics administrators
 
 To configure a report suite and collect mobile app data:
 
-1. Complete one of the sections in [Log in to the Adobe Mobile Services UI](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8). 
+1. Complete one of the sections in [Log in to the Adobe Mobile Services UI](/help/ios/getting-started/getting-started.md). 
 1. Create an Analytics account for each app developer.
 
 App developers now have access to view the report suite(s) that you created.
@@ -36,14 +29,14 @@ App developers now have access to view the report suite(s) that you created.
 >
 >To create a new report suite and download the SDKs, you must be an Analytics Administrator.
 
-**App developers**
+### App developers
 
-1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* section in [Role-Specific Tasks](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC). 
+1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* section above. 
 
-1. Verify that your Analytics administrator has completed one of the sections in [Log in to the Adobe Mobile Services UI](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8). 
-1. After the report suite has been configured, complete steps in [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
+1. Verify that your Analytics administrator has completed one of the sections in the *Log in to the Adobe Mobile Services UI* below. 
+1. After the report suite has been configured, complete steps in the *Download the SDK* section below.
 
-For more information about roles and permissions, see [Roles and Permissions](https://marketing.adobe.com/resources/help/en_US/mobile/c_mob_roles-and-permissions.html).
+For more information about roles and permissions, see [Roles and Permissions](/help/using/gs/c-mob-roles-and-permissions.md).
 
 ## Log in to the Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
 
@@ -53,7 +46,9 @@ You can log in to the Adobe Mobile Services in one of the following ways:
 
 * **Experience Cloud**
 
-  Sign in to the [Experience Cloud](https://marketing.adobe.com) with your Adobe ID. This method assumes that your company has been [provisioned](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started) in the Experience Cloud, and you have [linked your Analytics account](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_link_accounts).
+  Sign in to the [Experience Cloud](https://marketing.adobe.com) with your Adobe ID. 
+  
+  This method assumes that your company has been provisioned. For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) and you have linked your Analytics account. For more information, see [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
   >[!TIP]
   >
@@ -78,7 +73,7 @@ To create a report suite to collect app data and define an app:
    An example of a report suite ID is `mycomobileappdev`. You need to set up separate report suites and apps for the development and production versions, so you can repeat these steps when you are ready to set up the production version. 
 1. Leave **[!UICONTROL Mobile App Template]** selected.
 
-   This template enables timestamps to collect offline data and activates the mobile solution variables to capture lifecyle metrics. 
+   This template enables timestamps to collect offline data and activates the mobile solution variables to capture lifecycle metrics. 
 
 1. Select your **[!UICONTROL Timezone]**, your **[!UICONTROL Currency]**, and click **[!UICONTROL Save]**.
 
@@ -96,7 +91,7 @@ To download the mobile SDK:
 
 1. Download the SDK and the sample app for your platform.
 
->[!NOTE] {othertype="Attention"}
+>[!TIP]
 >
 >A config file for your app is automatically included in the SDK download, so you do not need to download that file separately. However, if you already downloaded the SDK, and you just want to get updated settings, download the config file again.
 

@@ -16,16 +16,9 @@ Starting with WatchOS 2, your WatchKit Extensions will run on an Apple Watch dev
 >
 >Starting with AdobeMobileLibrary v4.6.0, WatchConnectivity is supported.
 
-This topic contains the following information:
-
-* [Getting Started](apple-watch-implementation-watchkit.md#section_70BC28BB69414F169196953D3D264BC1) 
-* [Configuring the Containing App](apple-watch-implementation-watchkit.md#section_0A2A3995575B4E2ABD12E426BA06AEFF) 
-* [Configuring the WatchKit Extension](apple-watch-implementation-watchkit.md#section_5ADE31741E514330A381F2E3CFD4A814) 
-* [Additional Information](apple-watch-implementation-watchkit.md#section_7BCDB5CF0D424DCA97883753D1881233)
-
 ## Getting Started {#section_70BC28BB69414F169196953D3D264BC1}
 
->[!NOTE] {othertype="Prerequisite"}
+>[!IMPORTANT]
 >
 >Ensure that you have a project with at least the following targets: 
 >
@@ -50,20 +43,20 @@ Complete the following steps in your Xcode project:
 
 1. In your class that implements the [!DNL UIApplicationDelegate] protocol, add the [!DNL WCSessionDelegate] protocol.
 
-   ```
+   ```objective-c
    #import <WatchConnectivity/WatchConnectivity.h> 
    @interface AppDelegate : UIResponder <UIApplicationDelegate, WCSessionDelegate>
    ```
 
 1. In the implementation file of your app delegate class, import the `AdobeMobileLibrary`.
 
-   ```
+   ```objective-c
    #import “ADBMobile.h”
    ```
 
 1. Before making a call to the `ADBMobile` library, in `application:didFinishLaunchingWithOptions:` of your app delegate, configure your `WCSession`.
 
-   ```
+   ```objective-c
    // check for session availability 
    if ([WCSession isSupported]) { 
        WCSession *session = [WCSession defaultSession]; 
@@ -76,14 +69,13 @@ Complete the following steps in your Xcode project:
 
    `syncSettings:` is called in the `ADBMobile` library, which returns a bool that indicates whether the dictionary was meant for consumption by the `ADBMobile` library. If it returns `No`, the message was not initiated from the Adobe SDK.
 
-   ```
+   ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
        // pass message to ADBMobile 
        if (![ADBMobile syncSettings:message]) { 
            // handle your own custom messages 
        } 
    } 
-    
    - (void) session:(WCSession *)session didReceiveUserInfo:(NSDictionary<NSString *,id> *)userInfo { 
        // pass userInfo to ADBMobile 
        if (![ADBMobile syncSettings:userInfo]) { 
@@ -103,20 +95,20 @@ Complete the following steps in your Xcode project:
 
 1. In your class that implements the `WKExtensionDelegate` protocol, import `WatchConnectivity` and add the `WCSessionDelegate` protocol.
 
-   ```
+   ```objective-c
    #import <WatchConnectivity/WatchConnectivity.h> 
    @interface ExtensionDelegate : NSObject <WKExtensionDelegate, WCSessionDelegate>
    ```
 
 1. In the implementation file of your extension delegate class, import the `AdobeMobileLibrary`.
 
-   ```
+   ```objective-c
    #import “ADBMobile.h”
    ```
 
 1. In `applicationDidFinishLaunching` of your extension delegate, configure your `WCSession` before making any calls to the `ADBMobile` library.
 
-   ```
+   ```objective-c
    // check for session availability 
    if ([WCSession isSupported]) { 
        WCSession *session = [WCSession defaultSession]; 
@@ -127,7 +119,7 @@ Complete the following steps in your Xcode project:
 
 1. In `applicationDidFinishLaunching` of your extension delegate, initialize the watch app for the SDK.
 
-   ```
+   ```objective-c
    [ADBMobile initializeWatch];
    ```
 
@@ -135,21 +127,19 @@ Complete the following steps in your Xcode project:
 
    `syncSettings:` is called in the `ADBMobile` library, which returns a bool that indicates whether the dictionary was meant for consumption by the `ADBMobile` library. If it returns `NO`, the message was not initiated from the Adobe SDK.
 
-   ```
+   ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
        // pass message to ADBMobile 
        if (![ADBMobile syncSettings:message]) { 
            // handle your own custom messages 
        } 
    } 
-    
    - (void) session:(WCSession *)session didReceiveUserInfo:(NSDictionary<NSString *,id> *)userInfo { 
        // pass userInfo to ADBMobile 
        if (![ADBMobile syncSettings:userInfo]) { 
            // handle your own custom messages 
        } 
    } 
-   
    ```
 
 ## Additional Information {#section_7BCDB5CF0D424DCA97883753D1881233}

@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
 ---
 
-# Visitor Lifetime Value{#visitor-lifetime-value}
+# Visitor Lifetime Value {#visitor-lifetime-value}
 
 Lifetime value lets you measure and target on a lifetime value for each user.
 
@@ -16,16 +16,17 @@ Each time you send in a value with `trackLifetimeValueIncrease`, the value is ad
 
 ## How to Track {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the library to your project and implement lifecycle.
+   For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 
-   ```java
+   ```objective-c
    import com.adobe.mobile.*;
    ```
 
 1. Call `trackLifetimeValueIncrease` with the amount to increase the value: 
 
-   ```
+   ```objective-c
    [ADBMobile trackLifetimeValueIncrease:increaseAmount data:nil];
    ```
 
@@ -33,13 +34,13 @@ Each time you send in a value with `trackLifetimeValueIncrease`, the value is ad
 
 In addition to the lifetime value, you can send additional context data with each track action call:
 
-```
+```objective-c
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
 [contextData setObject:imageName forKey:@"myapp.ImageLiked"]; 
 [ADBMobile trackLifetimeValueIncrease:increaseAmount data:contextData];
 ```
 
-Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com): 
+Context data values must be mapped to custom variables: 
 
 ![](assets/map-variable-context-ltv.png)
 

@@ -29,7 +29,7 @@ Experience Cloud SDK identities (as applicable) are locally stored and returned 
 
 Here is an example of the `ADBMobile getAllIdentifiersAsync` method in iOS:
 
-```
+```objective-c
 [ADBMobile getAllIdentifiersAsync:^(NSString * _Nullable content){
       NSLog(content) 
 }]

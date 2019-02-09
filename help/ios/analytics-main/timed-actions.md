@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 ---
 
-# Timed Actions{#timed-actions}
+# Timed Actions {#timed-actions}
 
 Timed actions allow you to measure the in-app time and total time between the start and the end of an action. The SDK calculates the amount of time in each session and the total time across-sessions that it will take for the action to be completed. You can use timed actions to define segments and compare time to purchase, pass level, checkout flow, and so on.
 
@@ -25,23 +25,24 @@ An optional callback allows you to take additional action when the timed action 
 
 ## Tracking Timed Actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the library to your project and implement lifecycle.
+   For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library:
 
-   ```
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
 1. Call `trackTimedActionStart` and provide a timed action name and optional context data.
 
-   ```
+   ```objective-c
    [ADBMobile trackTimedActionStart:@"TimeUntilPurchase"  
                                data:@{@"ExperienceName" : experience}];
    ```
 
 1. (Optional) To add additional context data at any time, you can call `trackTimedActionUpdate` with the timed action name.
 
-   ```
+   ```objective-c
    [ADBMobile trackTimedActionUpdate:@"TimeUntilPurchase"  
                                 data:@{@"myapp.ImageLiked" : imageName}];
    ```
@@ -50,7 +51,7 @@ An optional callback allows you to take additional action when the timed action 
 
    Timed event metrics are saved in mobile solution variables for automatic reporting. 
 
-   ```
+   ```objective-c
    [ADBMobile trackTimedActionEnd:@"TimeUntilPurchase"  
                             logic:nil];
    ```
@@ -59,18 +60,18 @@ An optional callback allows you to take additional action when the timed action 
 
 In addition to the timed action name, you can send additional context data with the action start and action update calls: 
 
-```
+```objective-c
 [ADBMobile trackTimedActionUpdate:@"TimeUntilPurchase"  
                              data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com): 
+Context data values must be mapped to custom variables: 
 
 ![](assets/map-variable-context-ltv.png)
 
-## Examples {#section_7BA344B8BD4F48DCBAE27AC9320CBCEA}
+## Example {#section_7BA344B8BD4F48DCBAE27AC9320CBCEA}
 
-```
+```objective-c
 // Timed Action Start Example 
 [ADBMobile trackTimedActionStart:@"TimeUntilPurchase"  
                             data:@{@"ExperienceName" : experience}];

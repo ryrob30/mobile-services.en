@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
 ---
 
-# Experience Cloud ID{#experience-cloud-id}
+# Experience Cloud ID {#experience-cloud-id}
 
 The Experience Cloud ID service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
 
@@ -20,10 +20,11 @@ The Experience Cloud ID service provides a universal visitor ID across Experienc
 
 ## Enabling the Experience Cloud ID {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the library to your project and implement lifecycle. 
+   For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 
-   ```
+   ```objective-c
    #import "ADBMobile.h"
    ```
 
@@ -41,6 +42,6 @@ The Experience Cloud ID service provides a universal visitor ID across Experienc
    >
    >You must include `@AdobeOrg`.
 
-   If these values are not present, [download an updated](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46) `ADBMobileConfig.json` from Adobe Mobile services.
+   If these values are not present, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [ADBMobile JSON Config](/help/ios/getting-started/requirements.md).
 
 After the configuration, a Experience Cloud ID is generated and is included on all hits. Other visitor IDs, such as custom and automatically-generated, will continue to be sent with each hit. 

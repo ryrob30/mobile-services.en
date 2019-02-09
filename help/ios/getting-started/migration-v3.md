@@ -18,16 +18,6 @@ This information helps you migrate from the versions 3.x or 2.x of the iOS libra
 
 In the version 4.x of the iOS SDK library, all of the public methods are consolidated into one header. Also, all functionality is now accessible through class level methods, so you do not have to keep track of pointers, instances, or singletons.
 
-The following sections walk you through the migration process:
-
-* [Events, Props, and eVars](../getting-started/migration-v3.md#section_76EA6F5611184C5CAE6E62956D84D7B6) 
-* [Remove Unused Properties](../getting-started/migration-v3.md#section_145222EAA20F4CC2977DD883FDDBBFC5) 
-* [Update Track Calls and Tracking Variables](../getting-started/migration-v3.md#section_96E7D9B3CDAC444789503B7E7F139AB9) 
-* [Custom Visitor ID](../getting-started/migration-v3.md#section_2CF930C13BA64F04959846E578B608F3) 
-* [Offline Tracking](../getting-started/migration-v3.md#section_5D4CD8CD1BE041A79A8657E31C0D24C6) 
-* [Products Variable](../getting-started/migration-v3.md#section_AFBA36F3718C44D29AF81B9E1056A1B4) 
-* [Test the Migration](../getting-started/migration-v3.md#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6)
-
 ## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
@@ -76,146 +66,54 @@ The new [!DNL ADBMobileConfig.json] file contains application-specific, global s
 
 The following tables list the configuration variables that you need to move to the configuration file.
 
-**Moving the configuration file**
+### Moving the configuration file
 
 To move the configuration file:
 
 1. Move the value that is set for the variable in the first column to the variable in the second column. 
 1. Remove the old configuration variable from your code.
 
-**Migrating from version 3.x**
+### Migrating from version 3.x
 
 Move the value from the first column to the variable in the second column. 
 
-<table id="table_3F755933E2904E7C9BBF8D89A08A2685"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Configuration Variable </th> 
-   <th colname="col2" class="entry"> Variable in ADBMobileConfig.json </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> offlineTrackingEnabled </td> 
-   <td colname="col2"> <p>"offlineEnabled" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> offlineHitLimit </td> 
-   <td colname="col2"> <p> "batchLimit" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> reportSuiteIDs </td> 
-   <td colname="col2"> <p>"rsids" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> trackingServer </td> 
-   <td colname="col2"> <p>"server" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> charSet </td> 
-   <td colname="col2"> <p> "charset" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> currencyCode </td> 
-   <td colname="col2"> <p> "currency" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ssl </td> 
-   <td colname="col2"> <p> "ssl" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> linkTrackVars </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> linkTrackEvents </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Configuration Variable | Variable in ADBMobileConfig.json |
+|--- |--- |
+|offlineTrackingEnabled|"offlineEnabled"|
+|offlineHitLimit|"batchLimit"|
+|reportSuiteIDs|"rsids"|
+|trackingServer|"server"|
+|charSet|"charset"|
+|currencyCode|"currency"|
+|ssl|"ssl"|
+|linkTrackVars|Remove, no longer used.|
+|linkTrackEvents|Remove, no longer used.|
 
-**Migrating from version 2.x:**
+
+### Migrating from version 2.x
 
 Move the value from the first column to the variable in the second column. 
 
-<table id="table_6744953BD9034A898FE7F91FA424CD35"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Configuration Variable </th> 
-   <th colname="col2" class="entry"> Variable in ADBMobileConfig.json </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> trackOffline </td> 
-   <td colname="col2"> <p>"offlineEnabled" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> offlineLimit </td> 
-   <td colname="col2"> <p> "batchLimit" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> account </td> 
-   <td colname="col2"> <p>"rsids" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> trackingServer </td> 
-   <td colname="col2"> <p>"server", remove the "https://" prefix. The protocol prefix is added automatically based on the "ssl" setting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> trackingServerSecure </td> 
-   <td colname="col2"> <p>Remove. For secure connections, define "server" and then enable "ssl". </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> charSet </td> 
-   <td colname="col2"> <p> "charset" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> currencyCode </td> 
-   <td colname="col2"> <p> "currency" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ssl </td> 
-   <td colname="col2"> <p> "ssl" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> linkTrackVars </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> linkTrackEvents </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> timestamp </td> 
-   <td colname="col2"> <p>Remove, no longer configurable. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> dc </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> userAgent </td> 
-   <td colname="col2"> <p>Remove, no longer configurable. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> dynamicVariablePrefix </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> visitorNamespace </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> usePlugins </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>useBestPractices </p> <p>all calls to churn measurement ( <span class="codeph"> getChurnInstance </span>) </p> </td> 
-   <td colname="col2"> <p>Remove, replaced by <a href="../metrics.md#concept_77CA5CEB51D1418FB98EC7C044682A05" format="dita" scope="local"> Lifecycle Metrics </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Configuration Variable | Variable in ADBMobileConfig.json |
+|--- |--- |
+|trackOffline|"offlineEnabled"|
+|offlineLimit|"batchLimit"|
+|account|"rsids"|
+|trackingServer|"server", remove the "https://" prefix. The protocol prefix is added automatically based on the "ssl" setting.|
+|trackingServerSecure|Remove. For secure connections, define "server" and then enable "ssl".|
+|charSet|"charset"|
+|currencyCode|"currency"|
+|ssl|"ssl"|
+|linkTrackVars|Remove, no longer used.|
+|linkTrackEvents|Remove, no longer used.|
+|timestamp|Remove, no longer configurable.|
+|dc|Remove, no longer used.|
+|userAgent|Remove, no longer configurable.|
+|dynamicVariablePrefix|Remove, no longer used.|
+|visitorNamespace|Remove, no longer used.|
+|usePlugins|Remove, no longer used.|
+|useBestPractices  all calls to churn measurement (  getChurnInstance )|Remove, replaced by  Lifecycle Metrics .|
+
 
 ## Update Track Calls and Tracking Variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
@@ -229,7 +127,7 @@ Instead of using the web-focused `track` and `trackLink` calls, the version 4 SD
 
 The `data` parameter for both of these methods is an `NSDictionary` that contains name-value pairs that are sent as context data.
 
-**Events, Props, eVars**
+### Events, Props, eVars
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists directly in your app. The SDK now uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -239,19 +137,19 @@ Processing rules provide the following advantages:
 * You can use meaningful names for data instead of setting variables that are specific to a report suite. 
 * There is little impact to sending in extra data.
 
-  These values will not appear in reports until they are mapped by using processing rules. For more information, see [Processing Rules and Context Data](../getting-started/proc-rules.md#concept_4DAF0756D0DB43BD8C0627E023665FA5).
+  These values will not appear in reports until they are mapped by using processing rules. For more information, see [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md).
 
 Values that you assigned directly to variables should be added to the `data` `NSDictionary` instead. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
 
-**AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables **
+### AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables
 
 Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` `NSDictionary` instead. The only data that is sent with a `trackState` or `trackAction` call is the payload in the `data` parameter.
 
-**Replace Tracking Calls**
+### Replace Tracking Calls
 
 In your code, replace the following methods with a call to `trackState` or `trackAction`:
 
-**Migrating from version 3.x**
+### Migrating from version 3.x
 
 * `trackAppState (trackState)` 
 * `trackEvents (trackAction)` 
@@ -259,7 +157,7 @@ In your code, replace the following methods with a call to `trackState` or `trac
 * `trackWithContextData (trackAction)` 
 * `trackLinkURL (trackAction)`
 
-**Migrating from version 2.x**
+### Migrating from version 2.x
 
 * `track (trackState)` 
 * `trackLink (trackAction)`
@@ -274,12 +172,12 @@ Offline tracking is enabled in [!DNL ADBMobileConfig.json], and all other offlin
 
 In your code, remove calls to the following methods:
 
-**3.x**
+### Version 3.x
 
 * `setOnline` 
 * `setOffline`
 
-**2.x**
+### Version 2.x
 
 * `forceOffline` 
 * `forceOnline`
@@ -288,7 +186,7 @@ In your code, remove calls to the following methods:
 
 Since the products variable is not available in processing rules, you can use the following syntax to set `products`:
 
-```
+```objective-c
 //create a processing rule to set the corresponding product event. 
 // for example, set prodView event when context data a.action = "product view" 
 [ADBMobile trackAction:@"LikeButtonClicked"  
