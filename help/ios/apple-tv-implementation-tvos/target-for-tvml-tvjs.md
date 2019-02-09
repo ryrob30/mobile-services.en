@@ -10,16 +10,9 @@ uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
 
 You can leverage Adobe Target in your TVML/TVJS apps by making direct replacements to your .xml files. Designate areas of your page to be replaced by Target content by using the custom ADBTarget XML element.
 
-This section contains the following information:
-
-* [Getting Started](../apple-tv-implementation-tvos/target-for-tvml-tvjs.md#section_88445645FD67416EAF6FDC3E3D3F5C33) 
-* [Configuring Your Mbox in Target](../apple-tv-implementation-tvos/target-for-tvml-tvjs.md#section_F2DA140C34B0421D976046F825B23123) 
-* [Configuring Your ADBTarget Element](../apple-tv-implementation-tvos/target-for-tvml-tvjs.md#section_44A7AEC6FC0648ADAD0BACB57D493AFA) 
-* [Examples](../apple-tv-implementation-tvos/target-for-tvml-tvjs.md#section_6D6D6E8C7FE147168FC30D83CBC06985)
-
->[!NOTE] {othertype="Prerequisite"}
+>[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see [Apple TV Implementation with tvOS](../apple-tv-implementation-tvos/apple-tv-implementation-tvos.md#concept_11073AFBA9124EFF8ACEC763F0A72E8C).
+>Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see [Apple TV Implementation with tvOS](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
 
 ## Getting Started {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
@@ -39,66 +32,65 @@ Your use case might be as simple as replacing a string value in a label or as co
 
 ## Configuring Your ADBTarget Element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
-In the `ADBTarget` element, you must provide the Mbox name in the `mbox` property. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format. 
+In the `ADBTarget` element, you must provide the Mbox name in the `mbox` property. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 
-<table id="table_0B415FFFB1C942EA97D93159F7EB20B4"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Property Name </th> 
-   <th colname="col2" class="entry"> Property Type </th> 
-   <th colname="col3" class="entry"> Property Value </th> 
-   <th colname="col4" class="entry"> Required? </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> mbox </span> </td> 
-   <td colname="col2"> String </td> 
-   <td colname="col3"> Name of your Mbox location </td> 
-   <td colname="col4"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> id </span> </td> 
-   <td colname="col2"> String </td> 
-   <td colname="col3"> Order ID </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> total </span> </td> 
-   <td colname="col2"> String </td> 
-   <td colname="col3"> Order Total </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> purchasedProductIds </span> </td> 
-   <td colname="col2"> String </td> 
-   <td colname="col3"> A comma-separated list of purchased product IDs for this order. <p>For example: </p> 
-    <codeblock class="syntax c">
-      purchasedProductIds="product1,product2,product3" 
-    </codeblock> </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> mboxParameters </span> </td> 
-   <td colname="col2"> String </td> 
-   <td colname="col3"> <p>A list of key-value pairs for <span class="codeph"> mboxParameters </span>. Each entry in this string is separated by a semicolon ( <span class="codeph"> ; </span>), and key-values are separated by a colon <span class="codeph"> : </span> . </p> <p>For example: </p> 
-    <codeblock class="syntax c">
-      &amp;nbsp;mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2" 
-    </codeblock> </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> customParameterName </span> </td> 
-   <td colname="col2"> String </td> 
-   <td colname="col3"> customParameterValue </td> 
-   <td colname="col4"> No </td> 
-  </tr> 
- </tbody> 
-</table>
+* **`mbox`**
+
+  Name of your Mbox location.
+
+  * Property type: String
+  * This property is required.
+
+* **`id`**
+
+  The Order ID.
+
+  * Property type: String
+  * This property is **not** required.
+
+* **`total`**
+
+  The order total.
+
+  * Property type: String
+  * This property is **not** required.
+
+* **`purchasedProductIds`**
+
+  A comma-separated list of purchased product IDs for this order. 
+  
+  * Here is the code sample for this property:
+  
+    ```objective-c
+    purchasedProductIds="product1,product2,product3" 
+    ```
+  * Property type: String
+  * This property is **not** required.
+
+* **`mboxParameters`**
+
+  A list of key-value pairs for `mboxParameters`. Each entry in this string is separated by a semicolon, and key-values are separated by a colon. 
+  
+  * Here is the code sample for this property:
+
+    ```objective-c
+    mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2"
+    ```
+
+  * Property type: String
+  * This property is **not** required.
+
+* **`customParameterName`**
+
+  The value of this property is `customParameterValue`.
+
+  * Property type: String
+  * This property is **not** required.  
+
 
 ## Examples {#section_6D6D6E8C7FE147168FC30D83CBC06985}
 
-**Example 1**
+### Example 1
 
 The following example uses an `ADBTarget` element in the [!DNL LandingPage.xml.js] page to replace the contents of an alert:
 
@@ -106,7 +98,7 @@ The following example uses an `ADBTarget` element in the [!DNL LandingPage.xml.j
 
 Assume that you have an Mbox location named `landingPage` and the offer content is set to be the following:
 
-```
+```objective-c
 <title>My cool landing page</title> 
 <description>Thanks for coming to my page</description> 
 ```
@@ -115,7 +107,7 @@ Assume that you have an Mbox location named `landingPage` and the offer content 
 
 * Here is the configuration for landingPage.xml.js: 
 
-  ```
+  ```js
   <alertTemplate> 
       <ADBTarget mbox="landingPage">  
           <title>TargetTestPage</title> 
@@ -126,7 +118,7 @@ Assume that you have an Mbox location named `landingPage` and the offer content 
 
 * If the request to Target is successful, and your offer content is returned, your page will result with:
 
-  ```
+  ```objective-c
   <alertTemplate> 
       <title>My cool landing page</title> 
       <description>Thanks for coming to my page</description> 
@@ -135,18 +127,18 @@ Assume that you have an Mbox location named `landingPage` and the offer content 
 
 * If the Target server cannot be reached or the request times out, your page will result with:
 
-  ```
+  ```objective-c
   <alertTemplate> 
       <title>TargetTestPage</title> 
       <description>Load fail or timeout (defaultContent)</description> 
   </alertTemplate>
   ```
 
-**Example 2**
+### Example 2
 
 The following example illustrates how to add custom data to your `ADBTarget` element. This method lets you create conditional experiences and offer content for this Mbox location in Target: 
 
-```
+```objective-c
 <alertTemplate> 
     <ADBTarget mbox="landingPage" customData="custom data" moreCustomData="more custom data"> 
         <title>TargetTestPage</title> 

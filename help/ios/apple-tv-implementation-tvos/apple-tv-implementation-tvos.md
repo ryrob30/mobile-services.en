@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 ---
 
-# Apple TV Implementation with tvOS{#apple-tv-implementation-with-tvos}
+# Apple TV Implementation with tvOS {#apple-tv-implementation-with-tvos}
 
 This information helps you implement Apple TV with tvOS.
 
@@ -17,12 +17,6 @@ With Apple TV, you can now create applications to run in the native tvOS environ
 >[!TIP]
 >
 >tvOS suppor is available starting in AdobeMobileLibrary version 4.7.0.
-
-This section contains the following information:
-
-* [Getting Started](../apple-tv-implementation-tvos/apple-tv-implementation-tvos.md#section_CAB40A5B5FC745068C8A5DF8F9AB6199) 
-* [Configuring a Native App for tvOS](../apple-tv-implementation-tvos/apple-tv-implementation-tvos.md#section_5095F19B3C4545F68E8C1E37A7E303AE) 
-* [Configuring a TVML/TVJS App for tvOS](../apple-tv-implementation-tvos/apple-tv-implementation-tvos.md#section_AB2EC8C326654F3387658EBBD990BB12)
 
 ## Getting Started {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
@@ -38,9 +32,9 @@ Complete the following steps in your Xcode project:
 1. Ensure that [!DNL ADBMobileConfig.json] is a member of your target. 
 1. On the **[!UICONTROL Build Phases]** tab of your tvOS app’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
-    * [!DNL AdobeMobileLibrary_TV.a] 
-    * [!DNL libsqlite3.0.tbd] 
-    * [!DNL SystemConfiguration.framework]
+   * [!DNL AdobeMobileLibrary_TV.a] 
+   * [!DNL libsqlite3.0.tbd] 
+   * [!DNL SystemConfiguration.framework]
 
 For information, see the iOS documentation on [iOS](https://developer.apple.com/ios/resources/).
 
@@ -56,7 +50,7 @@ For information, see the iOS documentation on [iOS](https://developer.apple.com/
 
 1. In the implementation file of your [!DNL TVApplicationControllerDelegate] class, import the SDK.
 
-   ```
+   ```objective-c
    #import “ADBMobile.h"
    ```
 
@@ -64,11 +58,11 @@ For information, see the iOS documentation on [iOS](https://developer.apple.com/
 
    The Adobe SDK needs access to your app’s `TVApplicationController` to register itself into the JSContext of your app. This step allows you to call the native methods in the Adobe SDK from your JavaScript files.
 
-   ```
+   ```objective-c
    [ADBMobile installTVMLHooks:appController];
    ```
 
 1. In your JavaScript files, use the `ADBMobile` object to access the native methods of the Adobe SDK.
 
-   For a complete listing of the available methods, see [TVJS Methods](../apple-tv-implementation-tvos/tvjs-methods.md#concept_A875FB3AE8A749D19BB8A74AC446CC0F).
+   For a complete listing of the available methods, see [TVJS Methods](/help/ios/apple-tv-implementation-tvos/tvjs-methods.md).
 

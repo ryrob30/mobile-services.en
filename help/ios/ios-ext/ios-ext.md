@@ -8,15 +8,10 @@ topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 ---
 
-# iOS Extension Implementation{#ios-extension-implementation}
+# iOS Extension Implementation {#ios-extension-implementation}
 
 You can use the iOS extension helps you collect usage data from your Apple Watch Apps (WatchOS 1), Today Widgets, Photo Editing widgets, and other iOS extension apps.
 
-This section contains the following information:
-
-* [Recommendations for Using the iOS SDK Instead of Your Own...](../ios-ext/ios-ext.md#section_97577331FD9E4FFBBE05D402C67AEE69) 
-* [Getting Started](../ios-ext/ios-ext.md#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4) 
-* [Additional Notes](../ios-ext/ios-ext.md#section_21497E81231549CB9F164DEECFF5BA0D)
 
 ## Recommendations for Using the iOS SDK Instead of Your Wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
 
@@ -32,7 +27,7 @@ Even if these three tracking methods meet your requirements, use the iOS SDK, be
 
 ## Getting Started {#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4}
 
->[!NOTE] {othertype="Prerequisite"}
+>[!IMPORTANT]
 >
 >Ensure that you have a project with at least the following targets: 
 >
@@ -40,7 +35,7 @@ Even if these three tracking methods meet your requirements, use the iOS SDK, be
 >* One target for the extension. 
 >
 
-If you are working on a WatchKit app, you should have a third target. For more information on developing for Apple Watch, see [Developing for Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1) in the *Apple Watch Programming Guide.*
+If you are working on a WatchKit app, you should have a third target. For more information on developing for Apple Watch, see [Developing for Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
 ## Configuring the Containing App {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -58,7 +53,7 @@ Complete the following steps in your Xcode project:
 
 1. In your application delegate, set the app group in [!DNL application:didFinishLaunchingWithOptions] before making any interactions with the Adobe Mobile library:
 
-   ```
+   ```objective-c
    [ADBMobile 
          setAppGroup:@"group.com.adobe.testApp"];
    ```
@@ -78,7 +73,7 @@ Complete the following steps in your Xcode project:
 
 1. In your [!DNL InterfaceController], set the app group in [!DNL awakeWithContext:] before making any other interactions with the Adobe Mobile library:
 
-   ```
+   ```objective-c
    [ADBMobile 
          setAppGroup:@"group.com.adobe.testApp"];
    ```
@@ -91,9 +86,8 @@ Here is some information to remember:
 
 * An additional context data value, [!DNL a.RunMode] has been added to indicate whether the data comes from your containing app or your extension:
 
-    * [!DNL a.RunMode = Application] This value means that the hit came from the containing app. 
-    
-    * [!DNL a.RunMode = Extension] This value means that the hit came from the extension.
+  * [!DNL a.RunMode = Application] This value means that the hit came from the containing app. 
+  * [!DNL a.RunMode = Extension] This value means that the hit came from the extension.
 
 * If you upgrade from a older version of the SDK, when the containing app is launched, Adobe automatically migrates all the user defaults and cached files from the containing app's folder to the app group's shared folder. 
 * If the containing app is never launched, hits from the extension are discarded. 

@@ -6,7 +6,7 @@ title: Privacy and General Data Protection Regulation
 uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 ---
 
-# Privacy and General Data Protection Regulation{#privacy-and-general-data-protection-regulation}
+# Privacy and General Data Protection Regulation {#privacy-and-general-data-protection-regulation}
 
 Experience Cloud Mobile SDKs provide General Data Protection Regulation (GDPR)-ready APIs for Controllers that allow users to retrieve locally stored identities and set opt status flags for data collection and transmission.
 
@@ -22,14 +22,14 @@ For the Adobe Mobile SDK portions of your mobile apps, you can use the following
 
 * To retrieve data from the SDKs, and send this data to your servers, use the `getAllIdentifiersAsync` method.
 
-  For more information, see [Retrieving Stored Identifiers](../c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md#concept_45DF30ADF75C497AA96A275C584A4118). 
+  For more information, see [Retrieving Stored Identifiers](/help/ios/c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md). 
 
 * To set your opt status and help you with a GDPR data deletion request, use the following settings:
 
-    * `privacyDefault` 
-    * `setPrivacyStatus`
+  * `privacyDefault` 
+  * `setPrivacyStatus`
 
-  For more information, see [Setting the User's Opt Status](../c-mob-privacy-gdpr-ios/privacy.md#concept_BF4AFEA7801F42E4B2A638A755BF11D5).
+  For more information, see [Setting the User's Opt Status](/help/ios/c-mob-privacy-gdpr-ios/privacy.md).
 
 ## Additional Information {#section_7C7124C50D85469C8C8714533FB1A37D}
 
