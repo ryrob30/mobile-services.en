@@ -72,7 +72,7 @@ Here are the methods that you can use for prefetch in iOS:
 
   * Here are the parameters for this method:
 
-    |Name|Description 
+    |Name|Description|
     |--- |--- |
     |`requests`|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
     |`profileParameters`|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
