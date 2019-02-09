@@ -54,7 +54,7 @@ Additionally, you might also choose to append one or more of the following reser
 * `a.launch.campaign.term` 
 * `a.launch.campaign.content`
 
-These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](help/ios/getting-started/proc-rules.md).
+These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md).
 
 ### Tracking Deferred Deep Links
 
