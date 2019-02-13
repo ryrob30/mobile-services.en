@@ -76,9 +76,9 @@ Here are some examples to help you understand how to correctly define segments:
       * Even though the device has a valid device token, unless Adobe Analytics has set the opted-in flag, the message will not get pushed to the device.
       * For more information about troubleshooting push messaging, see the following:
 
-        * [Push Messaging in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/push_messaging.html)
+        * [Push Messaging in iOS](/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.md)
 
-        * [Push Messaging in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/push_messaging.html)
+        * [Push Messaging in Android](/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.md)
 
 1. Type information in the following fields:
 
@@ -92,7 +92,7 @@ Here are some examples to help you understand how to correctly define segments:
 
    * **[!UICONTROL Analytics Segments]**
 
-      Select an existing [!DNL Adobe Analytics] segment from the drop-down list.For more information, see  [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.htm).
+      Select an existing [!DNL Adobe Analytics] segment from the drop-down list.For more information, see  [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
    * **[!UICONTROL Custom Segments]**
 

@@ -43,7 +43,7 @@ To help you understand how in-app messaging works, here is some additional infor
 
 Push messages are sent to users who have opted in to receive notifications. You can target these push messages to users in [!DNL Analytics] segments or custom segments. You can use push messages to re-engage passive users or to convey time-specific and location-specific information because the messages appear outside your app.
 
-Before you can configure Push Messaging, see [Prerequisites to Enable Push Messaging](../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE). After you perform these tasks, you must configure push messaging in your app's settings. For more information, see [Configure Push Messaging](../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md#concept_37A4002F4EA549C99FFD9EBC95554D9C).
+Before you can configure Push Messaging, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md). After you perform these tasks, you must configure push messaging in your app's settings. For more information, see [Configure Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
 
 ## Additional Information
 

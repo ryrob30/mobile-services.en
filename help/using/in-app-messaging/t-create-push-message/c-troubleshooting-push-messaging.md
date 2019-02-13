@@ -88,7 +88,7 @@ You can also check the validity of a registration token by replacing `"ABC"` wit
     * VRSID Definition Segment: `a.appid contains “PhotoShop_iOS_app_SF”`
   * App Name: PhotoShop_app_iOS 
     * Parent RSID: AllAdobe PhotoShop_apps  
-    * RSID: PhotoShop_iOS_app_LA </li> 
+    * RSID: PhotoShop_iOS_app_LA 
     * VRSID Definition Segment: `a.os contains “iOS”`
 
   In this example, if a Photoshop employee sends a push to the PhotoShop_iOS_app_SF app, all PhotoShop_iOS_app_SF app users will receive the push message as expected. But, if the employee sends a message to the PhotoShop_iOS_app_LA app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in AllAdobe PhotoShop_apps. Although the message will still go to PhotoShop_iOS_app_LA users, the message will also blacklist the push IDs for PhotoShop_iOS_app_SF users because the PhotoShop_iOS_app_SF app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only PhotoShop_iOS_app_LA users. 
