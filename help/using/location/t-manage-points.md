@@ -40,7 +40,7 @@ On the user's device, for a hit to be assigned to a **[!UICONTROL Points of Inte
       Type the radius (in meters) around the **[!UICONTROL Point of Location]** that you want to include. For example, if you create a POI, for Denver, Colorado, you could specify a radius large enough to include the city of Denver and the surrounding areas but exclude Colorado Springs.
 
     * **[!UICONTROL Map Icon]**
-      Select an icon that will display on the [Overview](../location/c-location-overview.md) and [Map](../location/c-map-points.md) reports.
+      Select an icon that will display on the [Overview](/help/using/location/c-location-overview.md) and [Map](/help/using/location/c-map-points.md) reports.
 
 1. Add additional points of interest, as needed.
 

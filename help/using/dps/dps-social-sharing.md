@@ -17,4 +17,4 @@ The Social Sharing report displays a sunburst visualization for your existing da
 
 By default, this report shows the number of readers who shared articles in different channels, such as email, message, and so on.
 
-This report is similar to the **[!UICONTROL Technology]** report. For information about how to navigate and use sunburst reports; add breakdowns and metrics; create target activities; create sticky filters, and share reports, see [Technology](../usage/reports-technology.md#concept_FA595B66323E47AE8EC785D2184F2951). The information in the Technology topic can be used to customize the **[!UICONTROL Social Sharing]** report. 
+This report is similar to the **[!UICONTROL Technology]** report. For information about how to navigate and use sunburst reports; add breakdowns and metrics; create target activities; create sticky filters, and share reports, see [Technology](//help/using/usage/reports-technology.md). The information in the Technology topic can be used to customize the **[!UICONTROL Social Sharing]** report. 

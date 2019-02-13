@@ -21,15 +21,15 @@ In this example, we will customize the [!DNL Users & Sessions] report, but the i
 
 1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users & Sessions]**.
 
-   ![Step Result](assets/customize1.png)
+   ![](assets/customize1.png)
 
    This report provides a complete overtime view of our app users. However, metrics for both the iOS and Android versions of this app are collected in the same report suite. We can segment users by mobile OS by adding a custom filter to the Users metric. 
 
 1. Click **[!UICONTROL Customize]**.
 
-   ![Step Result](assets/customize2.png)
+   ![](assets/customize2.png)
 
-1. Under **[!UICONTROL Users]**, click **[!UICONTROL Add Filter]**and click **[!UICONTROL Add Rule]**,
+1. Under **[!UICONTROL Users]**, click **[!UICONTROL Add Filter]** and click **[!UICONTROL Add Rule]**,
 
 1. Select **[!UICONTROL Operating Systems]**, and from the drop-down list, and select **[!UICONTROL iOS]**.
 

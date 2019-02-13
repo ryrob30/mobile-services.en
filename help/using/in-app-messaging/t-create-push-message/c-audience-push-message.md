@@ -15,11 +15,11 @@ You can define and configure audience options for push messages, including date 
 
 ## Define Audience Segments {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-When an audience segment for push messaging is created, the segment might involve users from one or more apps because report suites or virtual report suites might contain data from one or more apps. For more information about virtual report suites, see [Virtual Report Suites](../../manage-apps/c-mob-vrs.md#concept_0C6EDD6139AC4B08A2316CFCE77CC717).
+When an audience segment for push messaging is created, the segment might involve users from one or more apps because report suites or virtual report suites might contain data from one or more apps. For more information about virtual report suites, see [Virtual Report Suites](/help/using/manage-apps/c-mob-vrs.md).
 
-In Adobe Mobile Services, marketers might only push to one app per platform. If marketers attempt to push to segments that contain users from multiple apps, a warning is displayed that states that proceeding can result in serious push failures and the potential blacklisting of users. If you experience a push failure, see *Resolving push failures* in [Troubleshooting Push Messaging](../../in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md#concept_8CECEBF5C278422796BAD09107DCED93).
+In Adobe Mobile Services, marketers might only push to one app per platform. If marketers attempt to push to segments that contain users from multiple apps, a warning is displayed that states that proceeding can result in serious push failures and the potential blacklisting of users. If you experience a push failure, see *Resolving push failures* in [Troubleshooting Push Messaging](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
-To use Audience Manager data in your segment definition, see <!-- REKHA: [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/). Not sure where the migrated content is, so commenting out for now. -->
+To use Audience Manager data in your segment definition, see [Audience Analytics](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html). 
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Here are some examples to help you understand how to correctly define segments:
 
 ## Configure Audience Segments {#section_A92C60885A30421B8150820EC1CCBF13}
 
-1. Go to the [!DNL Audience] page for a [new push message](../../in-app-messaging/t-create-push-message/t-create-push-message.md#task_70E6D9C01F5A4082B9880C049804A2A0).
+1. Go to the [!DNL Audience] page for a [new push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
    As you configure the audience options, remember the following **important** information:
 
@@ -75,8 +75,10 @@ Here are some examples to help you understand how to correctly define segments:
       This means that the SDK has sent a value of `True` for the Push Message Opt-In evar.
       * Even though the device has a valid device token, unless Adobe Analytics has set the opted-in flag, the message will not get pushed to the device.
       * For more information about troubleshooting push messaging, see the following:
-        * [Push Messaging in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/push_messaging.html)
-        * [Push Messaging in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/push_messaging.html)
+
+        * [Push Messaging in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+
+        * [Push Messaging in Android](https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
 
 1. Type information in the following fields:
 
@@ -90,7 +92,7 @@ Here are some examples to help you understand how to correctly define segments:
 
    * **[!UICONTROL Analytics Segments]**
 
-      Select one or more existing [!DNL Adobe Analytics] segment from the drop-down list.For more information, see <!--REKHA: <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html" format="https" scope="external"> Build Segments</a>. -->
+      Select an existing [!DNL Adobe Analytics] segment from the drop-down list.For more information, see  [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
    * **[!UICONTROL Custom Segments]**
 
@@ -98,4 +100,4 @@ Here are some examples to help you understand how to correctly define segments:
 
    >[!IMPORTANT]
    >
-   >In the **[!UICONTROL Create Audience]** section, if you click **[!UICONTROL And]**, a dialog box appears that reminds you to ensure that each app that is listed **must** have a valid certificate. If you clicked **[!UICONTROL Or]**, the default dialog box appears. For more information about valid certificates and report suites, see [Virtual Report Suites](../../manage-apps/c-mob-vrs.md#concept_0C6EDD6139AC4B08A2316CFCE77CC717).
+   >In the **[!UICONTROL Create Audience]** section, if you click **[!UICONTROL And]**, a dialog box appears that reminds you to ensure that each app that is listed **must** have a valid certificate. If you clicked **[!UICONTROL Or]**, the default dialog box appears. For more information about valid certificates and report suites, see [Virtual Report Suites](/help/using/manage-apps/c-mob-vrs.md).

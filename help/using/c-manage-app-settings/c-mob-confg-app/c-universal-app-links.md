@@ -15,7 +15,7 @@ Starting in iOS 9.2, deep linking is no longer supported. You must use Universal
 
 ## Universal Links and App Links {#section_F8147944679A42E59CF4FD8814E5EF12}
 
-A Universal Link is a link that can be handled by an iOS application or the browser and is known as deeplinking. Starting with iOS 9.2, deeplinking is no longer supported. For more information, see [iOS 9.2 may break deeplinking](https://www.adjust.com/product-updates/ios-9-2-deeplinking/). For more information about Universal Links, see [Support Universal Links](https://developer.apple.com/library/content/documentation/General/Conceptual/AppSearch/UniversalLinks.html).
+A Universal Link is a link that can be handled by an iOS application or the browser and is known as deeplinking. Starting with iOS 9.2, deeplinking is no longer supported. For more information about Universal Links, see [Support Universal Links](https://developer.apple.com/library/content/documentation/General/Conceptual/AppSearch/UniversalLinks.html).
 
 An App Link is the Android version of the Universal Link. Although deeplinking might currently still work on all Android operating systems, Adobe Mobile Services supports App Links because a marketing link should be consistent across all platforms. For more information about App Links, see the [Handling Android App Links](https://developer.android.com/training/app-links/index.html).
 

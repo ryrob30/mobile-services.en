@@ -29,7 +29,7 @@ The following Acquisition reports provide insight into how your marketing links 
 
 * **Link Report** {#section_A23A640C363B43569D9D484CF49EA277}
 
-  This report provides a ranked view into your marketing links performance. In addition to seeing your link names with key performance metrics, this report is also customizable. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md#concept_ED099E16594044E69FFD91829F436907).
+  This report provides a ranked view into your marketing links performance. In addition to seeing your link names with key performance metrics, this report is also customizable. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
 
   Remember the following information:
 

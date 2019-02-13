@@ -19,6 +19,8 @@ Apps that are created from DPS have access to the Adobe Mobile core service user
 
 For more information, see [DPS Analytics in the Digital Publishing Solution Help](https://helpx.adobe.com/digital-publishing-suite/help/omniture-analytics.html). 
 
+## Additional Information
+
 For more information about the types of reports that are available in DPS:
 
 + [Top 10 Articles](/help/using/dps/dps-top-ten-articles.md)

@@ -23,13 +23,13 @@ The **[!UICONTROL Overview]** report contains an over-time graph that displays i
 
 You can click any metric to hide or display its corresponding line. To view the data for a day, hover over that day.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >App store metrics, such as downloads, rank, revenue, rating, and so on in Adobe Analytics require a Data Connector integration with an appropriate vendor. `appFigures` currently provides an integration, which requires purchasing the appropriate product and/or service from `appFigures` **before** you can enable the integration. For more information about Data Connector integrations, see [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html).
 
 >[!TIP]
 >
->In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md#concept_ED099E16594044E69FFD91829F436907).
+>In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
 
 ## App Store Average Rating {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
