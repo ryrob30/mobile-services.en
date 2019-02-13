@@ -68,14 +68,13 @@ user-guide-title: Mobile Services User Help
   + [Acquisition Prerequisites](acquisition-main/c-acquisition-prerequisites.md)
   + [Configure Acquisition](acquisition-main/t-enable-acquisition.md)
   + [Destinations](acquisition-main/c-create-destinations.md)
-  + Create and Manage Link Destination {#create-manage-link-destination}
+  + Create and Manage Link Destinations {#create-manage-link-destination}
     + [Create and Manage Link Destinations](acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md)
     + [Create New Link Destination](acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
     + [Manage Link Destinations](acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
     + Marketing Link Builder {#marketing-links-builder}
       + [Marketing Links Builder](acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)
       + [Create or Edit Marketing Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
-    + Interstitials {#interstitials}
       + [Interstitials](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)
     + Legacy Acquisition links {#legacy-acquisition-links}
       + [Use Legacy Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)
@@ -83,8 +82,8 @@ user-guide-title: Mobile Services User Help
       + [Manage Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/c-manage-acquisition-links.md)
       + [Delete Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-del.md)
       + [Import or Export Acquisition Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-import.md)
-      + [Manage Marketing Links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
-      + [Create Acquisition Link Manually](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
+        + [Manage Marketing Links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
+        + [Create Acquisition Link Manually](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
 + Location {#location-ug}
   + [Overview (Location)](location/c-location-overview.md)
   + [Map](location/c-map-points.md)
@@ -93,18 +92,17 @@ user-guide-title: Mobile Services User Help
   + [Messaging Overview](in-app-messaging/in-app-messaging.md)
   + [Manage Messages](in-app-messaging/messages-manage/messages-manage.md)
   + [View Message Reports](in-app-messaging/messages-manage/view-message-reports.md)
-  + Create push messages {#create-push-messages}
+  + Push messages {#push-messages}
     + [Create a push message](in-app-messaging/t-create-push-message/t-create-push-message.md)
     + [Audience: Define and Configure Audience Segments for Push Messages](in-app-messaging/t-create-push-message/c-audience-push-message.md)
     + [Experience: Push Message](in-app-messaging/t-create-push-message/c-experience-push-message.md)
     + [Schedule: Push Message](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
     + [Troubleshooting Push Messaging](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
-  + Create in-app messages {#create-inapp-messages}
+  + In-app messages {#inapp-messages}
     + [Create an in-app message](in-app-messaging/t-in-app-message/t-in-app-message.md)
     + [Audience: In-App Message](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
     + [Experience: In-App Message](in-app-messaging/t-in-app-message/c-experience-in-app-message.md)
     + [Schedule: In-App Message](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
     + [Troubleshooting In-App Messaging](in-app-messaging/t-in-app-message/in-apps-ts.md)
     + [Trigger an In-App Message when the App is Opened from a Push Message](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
-+ Frequently Asked Questions {#faq-ug}
-  + [Frequently Asked Questions](faq-mobile.md)
++ [Frequently Asked Questions](faq-mobile.md)
