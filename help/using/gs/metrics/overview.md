@@ -13,7 +13,7 @@ uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 
 You can display the key performance metrics of the apps that you most recently viewed. By default, you can view up to 12 apps. You can change the date range and create filters to segment the data and edit any app on the Overview page.
 
-The metrics that display for each app reflect the key metrics that you selected when you created the app. For more information, see [Add a New App](../../manage-apps/t-new-app.md#task_DB20EA0C8DF54C62B46858A77C53221F).
+The metrics that display for each app reflect the key metrics that you selected when you created the app. For more information, see [Add a New App](/help/using/manage-apps/t-new-app.md).
 
 If the app you want to view is not displayed, search for it by typing the app's name or by clicking the drop-down list in **[!UICONTROL All Apps]**.
 
@@ -57,6 +57,6 @@ Click the name of the app to display details about the key performance indicator
 1. Click the gear icon in any app's tile to open the [!DNL App Information] page. 
 1. Edit the app's settings.
 
-    For more information about each setting, see [Configuring your App](../../c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md#concept_4C07DC7208074BAF9DD19BFF8E1ECE73).
+    For more information about each setting, see [Configuring your App](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md).
 
 1. Click **[!UICONTROL Save]**.

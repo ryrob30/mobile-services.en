@@ -26,7 +26,7 @@ You can configure experience options for push messages and rich push messages, i
 
 * **[!UICONTROL Media URL]**
 
-  Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see [Requirements for Rich Push Notifications](../../in-app-messaging/t-create-push-message/c-experience-push-message.md#table_C244F841CD724DEDA6EFEADE9F9A7F91)
+  Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see *Requirements for Rich Push Notifications* below.
   
    >[!IMPORTANT]
    >
@@ -36,7 +36,7 @@ You can configure experience options for push messages and rich push messages, i
 
 * **[!UICONTROL Destination]**
 
-   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](../../acquisition-main/c-create-destinations.md). \
+   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md). \
 
    >[!TIP]
    >
@@ -123,4 +123,4 @@ To configure a push message on the Experience page:
 1. Select the service and type the push tokens for at least one device to which you want to push the message.
 
    Specify the tokens in a comma-separated list to push the message to more than one device.
-1. Configure [Schedule options](../../in-app-messaging/t-create-push-message/c-schedule-push-message.md#concept_F7B31A14470E4EF69ECAC264F52084A3).
+1. Configure [Schedule options](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).

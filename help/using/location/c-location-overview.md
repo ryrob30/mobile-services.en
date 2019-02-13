@@ -22,8 +22,8 @@ Here is some additional information about this report:
   This visualization provides, for example, the base report with breakdowns. The visualization uses height to show the metric in focus, and the performance differences between the metrics. Each ring represents an audience segment in the ring's category. You can take actions on an audience, such as applying a Sticky Filter, hiding a metric, and viewing metrics.
 
 >[!TIP]
-    >
-    >In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. To launch the tutorial, click **[!UICONTROL Location Breakdown]** in the title bar of the report and click the **[!UICONTROL i]** icon.
+>
+>In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. To launch the tutorial, click **[!UICONTROL Location Breakdown]** in the title bar of the report and click the **[!UICONTROL i]** icon.
 
 ![](assets/location.png)
 
@@ -54,8 +54,8 @@ You can click a secondary metric on the right side to add it to the visualizatio
 You can add breakdowns and secondary metrics, which change the height of each audience relative to the other audiences in the chart.
 
 >[!TIP]
-    >
-    >The more rings you add to the sunburst, the longer it takes to process.
+>
+>The more rings you add to the sunburst, the longer it takes to process.
 
 To add breakdowns and secondary metrics, click **[!UICONTROL Location Breakdown]** in the title bar of the report and click **[!UICONTROL Customize]** to open the right rail.
 

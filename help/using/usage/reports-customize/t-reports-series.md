@@ -39,10 +39,10 @@ In this example, we will customize the [!DNL Users & Sessions] report, but the i
       ![Step Result](assets/add_series.png)
 
     * To add a new app (in a different report suite) so that you can compare data across apps, click the app name in the newly created series and select the desired app.
-    
+  
       ![](assets/add_series_app.png)
 
 1. (Conditional) Add filters to the new series.
 
-   For more information, see [Add Filters to Reports](../../usage/reports-customize/t-reports-customize.md#task_B6EAC2611CD9477586B2D7C913121C7B). 
+   For more information, see [Add Filters to Reports](/help/using/usage/reports-customize/t-reports-customize.md). 
 1. Click **[!UICONTROL Update]** and **[!UICONTROL Run]**.

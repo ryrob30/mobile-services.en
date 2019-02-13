@@ -27,7 +27,7 @@ On Android devices, you can use Google Play referrer tracking to measure how use
 
 ## Revenue {#section_AECF333049D14A1C9C5912E2EE2DDA94}
 
-You can view revenue collected by app stores, and revenue measured directly using in-app purchase events. Other cart metrics are available by [Customize Reports](../../usage/reports-customize/reports-customize.md#concept_ED099E16594044E69FFD91829F436907).
+You can view revenue collected by app stores, and revenue measured directly using in-app purchase events. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 
 ## App Events {#section_BDF4DE61C20F4A2589249AD83FB1AFFC}
 

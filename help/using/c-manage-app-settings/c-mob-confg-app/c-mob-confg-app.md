@@ -6,7 +6,7 @@ title: Configuring your App
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 ---
 
-# Configuring your App{#configuring-your-app}
+# Configuring your App {#configuring-your-app}
 
 On the Manage App Settings page, you can make the following types of changes:
 
@@ -14,34 +14,35 @@ On the Manage App Settings page, you can make the following types of changes:
 
   This section includes information such as the name of the app, the type of app, key metrics, lifecycle, and location reports.
 
-    * **Lifecycle Reports**
+  * **Lifecycle Reports**
 
       >[!TIP]
       >
       >If you created the report suite in Adobe Analytics, you must enable lifecycle reports. If you created the report suite in Adobe Mobile, this option is enabled by default.
 
-      This report allows you to measure the following metrics:
+    This report allows you to measure the following metrics:
 
-        * **Acquisition** Track referring URLs for app-download campaigns. For more information, see [Acquisition](../../acquisition-main/acquisition-main.md#concept_542D3F9599614CB89ACF558683E9D34B). 
-        
-        * **Lifecycle** Track the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented. For more information, see the following sections:
+    * **Acquisition** 
+  
+      Track referring URLs for app-download campaigns. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md). 
 
-          * [iOS SDK Lifecycle Metrics](/help/ios/metrics.md) 
-          * [Android Lifecycle Metrics](/help/android/metrics.md) 
-          * [Windows Lifecycle Metrics](/help/universal-windows/metrics.md) 
-          * [BlackBerry Lifecycle Metrics](/help/blackberry/metrics.md)
+    * **Lifecycle** Track the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented. For more information, see the following sections:
 
-        * **App Actions**
+      * [iOS SDK Lifecycle Metrics](/help/ios/metrics.md) 
+      * [Android Lifecycle Metrics](/help/android/metrics.md)* [Windows Lifecycle Metrics](/help/universal-windows/metrics.md) 
+      * [BlackBerry Lifecycle Metrics](/help/blackberry/metrics.md)
 
-          Enable reports and pathing based on in-app actions. 
-        
-        * **Lifetime Value**
+    * **App Actions**
 
-          Understand how users accrue value over time by using app KPIs, such as purchases, ad views, video completes, social shares, photo uploads, and more. 
-        
-        * **Timed Events**
+      Enable reports and pathing based on in-app actions. 
+  
+    * **Lifetime Value**
 
-          Measure the amount of time that elapses (in-app and total time) between key app actions, such as time before first purchase.
+      Understand how users accrue value over time by using app KPIs, such as purchases, ad views, video completes, social shares, photo uploads, and more. 
+  
+    * **Timed Events**
+
+      Measure the amount of time that elapses (in-app and total time) between key app actions, such as time before first purchase.
 
 * **Location Reports**
 
@@ -49,23 +50,25 @@ On the Manage App Settings page, you can make the following types of changes:
 
 * **App SDKs and Developer Tester Tools**
 
-  >[!NOTE] {othertype="Prerequisite"}
+  >[!IMPORTANT]
   >
-  >Before you download the SDKs and tools, you must configure the SDK Analytics options. For more information, see [Configure the SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md#task_8F9FBCDFB906467DAADA3FBDBBFF54CE).
+  >Before you download the SDKs and tools, you must configure the SDK Analytics options. For more information, see [Configure the SDK Analytics Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
   When you are ready to upgrade to the 4.x SDKs, or if you are working on a new app, download the latest SDKs and development tools from the bottom of the Manage App Settings page.
 
   After set up is complete, you can send the configuration file to your developers so that data can be collected properly. If you are not ready to download SDKs and tools now, click [!DNL Manage App Settings] and click the app to display the [!DNL App Information] page at any time.
 
+## Additional Information
+
 For information about configuring these options, see the following content: 
 
-*  [Configure SDK Analytics Options](../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
-*  [Download Mobile SDKs and Tools](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-*  [Configure Audience Manager Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
-*  [Configure SDK Acquisition Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
-*  [Universal Links and App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
-*  [Configure SDK ID Service Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
-*  [Configure Postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md)
-*  [Configure Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
-*  [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
-*  [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
+* [Configure SDK Analytics Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
+* [Download Mobile SDKs and Tools](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
+* [Configure Audience Manager Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
+* [Configure SDK Acquisition Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
+* [Universal Links and App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
+* [Configure SDK ID Service Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
+* [Configure Postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md)
+* [Configure Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
+* [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
+* [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)

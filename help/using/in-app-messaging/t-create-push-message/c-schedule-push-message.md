@@ -55,7 +55,7 @@ You **must** understand the following information before scheduling recurring pu
 
 ## Schedule a Recurring Push Message {#section_675BD754E5A04423A1751193698A978F}
 
-1. On the [!DNL Schedule] page for a [new push message](../../in-app-messaging/t-create-push-message/t-create-push-message.md#task_70E6D9C01F5A4082B9880C049804A2A0), click **[!UICONTROL Scheduled]** or **[!UICONTROL Now]**.
+1. On the [!DNL Schedule] page for a [new push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md), click **[!UICONTROL Scheduled]** or **[!UICONTROL Now]**.
 
    If you select **[!UICONTROL Now]**, the message is pushed immediately. To prevent the message from being scheduled immediately, click **[!UICONTROL Save as Draft]**.
 

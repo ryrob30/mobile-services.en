@@ -9,7 +9,7 @@ topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 ---
 
-# Technology{#technology}
+# Technology {#technology}
 
 The Technology report allows you to see the different device types, operating systems, operating system versions, and mobile carriers on which your app is being used.
 
