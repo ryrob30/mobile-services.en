@@ -129,10 +129,10 @@ Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
 | Property | Description |
 |--- |--- |
-|name|**Type**: String <br>Name of the location that will be prefetched.|
-|mboxParameters|**Type**: Map`<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.|
-|orderParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
-|productParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
+|`name`|**Type**: String <br>Name of the location that will be prefetched.|
+|`mboxParameters`|**Type**: Map`<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.|
+|`orderParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
+|`productParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
 
 ### Class Reference: TargetRequestObject
 
@@ -140,12 +140,12 @@ This class encapsulates the mbox name, default content, mbox parameters and the 
 
 | Property | Description |
 |--- |--- |
-|mboxName|**Type**: String <br>Name of the requested location.|
-|mboxParameters|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetRequestObject`.|
-|orderParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
-|productParameters|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
-|defaultContent|**Type**: String <br>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.|
-|callback|**Type**: Target.TargetCallback`<String>` <br>Function pointer that will be called when content for the given `TargetRequestObject` is available.|
+|`mboxName`|**Type**: String <br>Name of the requested location.|
+|`mboxParameters`|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetRequestObject`.|
+|`orderParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
+|`productParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
+|`defaultContent`|**Type**: String <br>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.|
+|`callback`|**Type**: Target.TargetCallback`<String>` <br>Function pointer that will be called when content for the given `TargetRequestObject` is available.|
 
 ## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
 

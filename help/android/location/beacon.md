@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
 ---
 
-# Beacon tracking{#beacon-tracking}
+# Beacon tracking {#beacon-tracking}
 
 Beacon tracking allows you to measure and target micro locations by using iBeacon and Bluetooth Low Energy.
 
@@ -31,7 +31,10 @@ This beacon data is captured in mobile solution variables.
 
 ## Tracking Beacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
-1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
+
 1. Import the library: 
 
    ```java
@@ -70,7 +73,7 @@ cdata.put("myapp.ImageLiked", imageName);
 Analytics.trackBeacon(beaconUUID, major, minor, proximity, cdata);
 ```
 
-Context data values must be mapped to custom variables in the [Adobe Mobile services](https://mobilemarketing.adobe.com) UI: 
+Context data values must be mapped to custom variables in the Adobe Mobile services: 
 
 ![](assets/map-variable-context-ltv.png)
 

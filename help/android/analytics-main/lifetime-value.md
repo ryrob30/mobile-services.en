@@ -16,7 +16,9 @@ Each time you send in a value with `trackLifetimeValueIncrease`, the value is ad
 
 ## Track the Visitor Lifetime Value {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
+1. Add the [library to your project and implement lifecycle.
+
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```java
@@ -39,7 +41,7 @@ cdata.put("myapp.ImageLiked", imageName);
 Analytics.trackLifetimeValueIncrease(BigDecimal.valueOf(5.0), cdata);
 ```
 
-Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com):
+Context data values must be mapped to custom variables in Adobe Mobile services:
 
 ![](assets/map-variable-context-ltv.png)
 

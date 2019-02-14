@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 ---
 
-# Tracking Deep Links{#tracking-deep-links}
+# Tracking Deep Links {#tracking-deep-links}
 
 You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile Android SDK.
 
@@ -19,7 +19,8 @@ You can use this information to track deep and deferred deep links in your mobil
 
 1. Add the SDK to your project and implement Lifecycle metrics.
 
-   For more information, see [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md). 
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md). 
+
 1. Register the application to handle [URLs](https://developer.android.com/training/basics/intents/filters.html). 
 1. Pass Activity with deep link intent to Adobe SDK by using `collectLifecycleData`.
 

@@ -23,8 +23,11 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
 To prepare to add Facebook deep linking support with the Adobe Mobile SDK, the app developer completes the following tasks:
 
 * Get started with the Android SDK.
+
   For more information, see [Getting Started Android SDK](https://developers.facebook.com/docs/android/getting-started) .
+
 * Set up deep linking.
+
   For more information, see [Deep Linking Set up](https://developers.facebook.com/docs/app-ads/deep-linking#os).
 
 If the application is set up correctly, the `trackAdobeDeepLink()` API should enable collecting the deep link information from the Facebook acquisition campaign and send it to Adobe Mobile Service. If the install hit has not been sent to Adobe Mobile Service at the first launch, this information will be added to the Lifecycle hit. Otherwise, it will be sent as an Adobe deep link hit.

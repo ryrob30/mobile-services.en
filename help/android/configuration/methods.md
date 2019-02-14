@@ -32,7 +32,7 @@ The following method must be called once in the `onCreate` method of your main a
 
 ## SDK Settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
-* `registerAdobeDataCallback`
+* **registerAdobeDataCallback**
 
   * Registers an object that implements the `AdobeDataCallback` interface. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. For more details about which events will trigger this callback, see *MobileDataEventEnum* at the bottom of this topic. 
 
@@ -61,7 +61,7 @@ The following method must be called once in the `onCreate` method of your main a
     });
     ```
 
-* `getVersion`
+* **getVersion**
 
   * Returns the current version of the Adobe Mobile library.
   * Here is the syntax for this method:
@@ -76,7 +76,7 @@ The following method must be called once in the `onCreate` method of your main a
     String libraryVersion = Config.getVersion(); 
     ```
 
-* `getPrivacyStatus`
+* **getPrivacyStatus**
 
   * Returns the enum representation of the privacy status for current user.
   
@@ -93,13 +93,14 @@ The following method must be called once in the `onCreate` method of your main a
       ```java
       public static MobilePrivacyStatus getPrivacyStatus(); 
       ```
+
   * Here is a code sample for this method:
 
     ```java
     MobilePrivacyStatus privacyStatus Config.getPrivacyStatus();
     ```
 
-* `setPrivacyStatus`
+* **setPrivacyStatus**
 
   * Sets the privacy status for the current user to `status`. 
   
@@ -121,7 +122,7 @@ The following method must be called once in the `onCreate` method of your main a
     Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
     ```
 
-* `getLifetimeValue`
+* **getLifetimeValue**
 
   * Returns the lifetime value of the current user. The default value is `0`. 
 
@@ -129,15 +130,15 @@ The following method must be called once in the `onCreate` method of your main a
 
     ```java
     public static BigDecimal getLifetimeValue();
-      ```
-  
+    ```
+
   * Here is a code sample for this method:
 
     ```java
     BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
     ```
 
-* `getUserIdentifier`
+* **getUserIdentifier**
 
   * If a custom identifier has been set, the custom user identifier is returned. If a custom identifier has not been set, it returns `null`. The default value is `null`. 
   
@@ -157,7 +158,7 @@ The following method must be called once in the `onCreate` method of your main a
     String userId = Config.getUserIdentifier();
     ```
 
-* `setUserIdentifier` 
+* **setUserIdentifier**
 
   * Sets the user identifier to `identifier`. 
   * Here is the syntax for this method:
@@ -172,7 +173,7 @@ The following method must be called once in the `onCreate` method of your main a
     Config.setUserIdentifier("billybob"); 
     ```
 
-* `getDebugLogging`
+* **getDebugLogging**
 
   * Returns the current debug logging preference. The default value is `false`.
   * Here is the syntax for this method:
@@ -187,7 +188,7 @@ The following method must be called once in the `onCreate` method of your main a
     Boolean debugging = Config.getDebugLogging(); 
     ```
 
-* `setDebugLogging`
+* **setDebugLogging**
   * Sets the debug logging preference to `debugLogging`.
   * Here is the syntax for this method:
 
@@ -201,7 +202,7 @@ The following method must be called once in the `onCreate` method of your main a
     Config.setDebugLogging(true);
     ```
 
-* `collectLifecycleData`
+* **collectLifecycleData**
   * Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/configuration/methods.md).
   
   * Here is the syntax for this method:
@@ -229,7 +230,7 @@ The following method must be called once in the `onCreate` method of your main a
       contextData.put("myapp.category", "Game");        Config.collectLifecycleData(this, contextData);} 
     ```
 
-* `collectLifecycleData (Activity activity)`
+* **collectLifecycleData (Activity activity)**
 
   * (**Version 4.2 or later**) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
   * Here is the syntax for this method:
@@ -247,7 +248,7 @@ The following method must be called once in the `onCreate` method of your main a
         } 
         ```
 
-* `pauseCollecting​LifecycleData`
+* **pauseCollecting​LifecycleData**
 
   * Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, `onPause` collects a timestamp to determine the previous session length. This also sets a flag so that lifecycle knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
 
@@ -267,7 +268,7 @@ The following method must be called once in the `onCreate` method of your main a
     } 
     ```
 
-* `setSmallIconResourceId(int resourceId)`
+* **setSmallIconResourceId(int resourceId)**
 
   * (**Version 4.2 or later**) Sets the small icon that will be used for notifications that were created by the SDK. This icon will appear in the status bar and will be the secondary image that is displayed when the user sees the complete notification in the notification center.
   * Here is the syntax for this method:
@@ -282,7 +283,7 @@ The following method must be called once in the `onCreate` method of your main a
     Config.setSmallIconResourceId(R.drawable.appIcon);
     ```
 
-* `setLargeIconResourceId(int resourceId)`
+* **setLargeIconResourceId(int resourceId)**
 
   * (**Version 4.2 or later**) Sets the large icon that will be used for notifications that were created by the SDK. This icon will be the primary image that is displayed when the user sees the complete notification in the notification center. 
   * Here is the syntax for this method:
@@ -297,7 +298,7 @@ The following method must be called once in the `onCreate` method of your main a
     Config.setLargeIconResourceId(R.drawable.appIcon);
     ```
 
-* `overrideConfigStream(InputStream configInput)`
+* **overrideConfigStream(InputStream configInput)**
 
   * (**Version 4.2 or later**) Allows you to load a different ADBMobile JSON config file when the application starts. The different configuration is used until the application is closed. 
   * Here is the syntax for this method:
@@ -317,7 +318,7 @@ The following method must be called once in the `onCreate` method of your main a
     }
     ``` 
 
-* `setPushIdentifier`
+* **setPushIdentifier**
 
   * Sets the device token for push notifications. 
   * Here is the syntax for this method:
@@ -334,7 +335,7 @@ The following method must be called once in the `onCreate` method of your main a
     ...
     ```
 
-* `submitAdvertisingIdentifierTask`
+* **submitAdvertisingIdentifierTask**
 
   * Provides a Callable to the SDK that returns the string of the Advertising Identifier that is returned from Google Play Services. The SDK runs this task on a background thread and sets an internal variable for the Advertising Identifier that is based on the value returned from the Callable. 
   
@@ -350,31 +351,31 @@ The following method must be called once in the `onCreate` method of your main a
 
     * Here is the code sample for this method:
   
-    ```java
-    @Override
-    public void  onResume() {
-        super.onResume();
-        final  Callable<String>; task = new Callable<String>(){
-            @Override
-             public String call() throws Exception {
-                AdvertisingIdClient.Info idInfo;
-                String adid = null;
-                Context appContext = CLASSNAME.this.getApplicationContext();
-                try {
-                    idInfo = AdvertisingIdClient.getAdvertisingIdInfo(appContext);
-                    if (idInfo != null) { 
-                        adid = idInfo.getId();
-                    } 
-                } catch  (Exception ex) {
-                    Log.e("Error",  ex.getLocalizedMessage());
-                }
-                return  adid;
-            }
-         };
-         Config.submitAdvertisingIdentifierTask(task); 
-         Config.collectLifecycleData(this);
-    }
-    ```
+      ```java
+      @Override
+      public void  onResume() {
+          super.onResume();
+          final  Callable<String>; task = new Callable<String>(){
+              @Override
+              public String call() throws Exception {
+                 AdvertisingIdClient.Info idInfo;
+                 String adid = null;
+                 Context appContext = CLASSNAME.this.getApplicationContext();
+                 try {
+                      idInfo = AdvertisingIdClient.getAdvertisingIdInfo(appContext);
+                      if (idInfo != null) { 
+                          adid = idInfo.getId();
+                      } 
+                 } catch  (Exception ex) {
+                     Log.e("Error",  ex.getLocalizedMessage());
+                 }
+                 return  adid;
+              }
+        };
+        Config.submitAdvertisingIdentifierTask(task); 
+        Config.collectLifecycleData(this);
+      }
+      ```
 
 
 ## AdobeDataCallback Interface {#section_600A63B3136F47DCB928071485C5117C}

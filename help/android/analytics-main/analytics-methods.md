@@ -18,6 +18,7 @@ The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], inc
 Each of the following methods is used to send data to your Adobe Analytics report suite: 
 
 * **trackState**
+
   Tracks an app state with optional context data. States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. These states are similar to pages on a website, and `trackState` calls increment page views. 
   
   If `state` is empty, `app name app version (build)` is displayed in reports. If you see this value in reports, ensure that you set `state` in each `trackState` call. 

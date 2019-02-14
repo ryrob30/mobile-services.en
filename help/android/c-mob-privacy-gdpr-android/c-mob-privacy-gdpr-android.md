@@ -6,7 +6,7 @@ title: Privacy and General Data Protection Regulation
 uuid: 56d6f155-efec-4b3f-a972-a63155729167
 ---
 
-# Privacy and General Data Protection Regulation{#privacy-and-general-data-protection-regulation}
+# Privacy and General Data Protection Regulation {#privacy-and-general-data-protection-regulation}
 
 Experience Cloud Mobile SDKs provide General Data Protection Regulation (GDPR)-ready APIs for Controllers that allow users to retrieve locally stored identities and set opt status flags for data collection and transmission.
 

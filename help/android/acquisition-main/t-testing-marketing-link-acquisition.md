@@ -85,7 +85,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    If the broadcast is successful, you should expect a response like the following example:
 
-  ```
+   ```
    Broadcasting: Intent 
    { act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) } 
    Broadcast completed: result=0 
@@ -134,6 +134,4 @@ For example:
 java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
 ```
 
-* The marketing links are cached on the server side with a ten-minutes expiration time. 
-
-When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again.
+The marketing links are cached on the server side with a ten-minutes expiration time. When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again.

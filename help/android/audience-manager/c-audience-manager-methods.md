@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 ---
 
-# Audience Manager Methods{#audience-manager-methods}
+# Audience Manager methods{#audience-manager-methods}
 
 Here is a list of the Audience Manager methods that are provided by the Android library.
 
@@ -26,11 +26,13 @@ If Audience Manager is configured in your JSON file, a signal that contains life
     ```java
     public static HashMap<String, Object> getVisitorProfile(); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
     HashMap<String, Object> visitorProfile = AudienceManager.getVisitorProfile(); 
     ```
+
 * **getDpid**
 
   Returns the current DPID. 
@@ -40,11 +42,13 @@ If Audience Manager is configured in your JSON file, a signal that contains life
     ```java
     public static void getDpid(); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
     String dpid = AudienceManager.getDpid(); 
     ```
+
 * **getDpuuid**
  
   Returns the current DPUUID. 
@@ -54,6 +58,7 @@ If Audience Manager is configured in your JSON file, a signal that contains life
     ```java
     public static void getDpuuid(); 
     ``` 
+
   * Here is the code sample for this method:
 
    ```java
@@ -69,11 +74,13 @@ If Audience Manager is configured in your JSON file, a signal that contains life
     ```java
     public static void setDpidAndDpuuid(String dpid, String dpuuid); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
     AudienceManager.setDpidAndDpuuid("myDpid", "myDpuuid"); 
     ```
+
 * **signalWithData**
 
   Sends audience management a signal with traits and gets the matching segments returned in a block callback. 
@@ -83,6 +90,7 @@ If Audience Manager is configured in your JSON file, a signal that contains life
     ```java
     public static void signalWithData(Map<String, Object> data, AudienceManagerCallback<Map<String, Object>> callback);
     ```
+
   * Here is the code sample for this method:
 
     ```java

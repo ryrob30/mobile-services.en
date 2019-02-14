@@ -20,7 +20,10 @@ You can create messages and the rules in Adobe Mobile services that define when 
 
 ## Enabling In-App Messaging {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
-1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+  For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
+
 1. Update [!DNL AndroidManifest.xml] to declare the full screen activity and enable the Message Notification Handler:
 
    ```java

@@ -16,7 +16,8 @@ Each action has one or more corresponding metrics that are incremented each time
 
 ## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
-1. Add the [library to your project and implement lifecycle](../getting-started/dev-qs.md#concept_13176B6E37F547D6935E37125F457972). 
+1. Add the library to your project and implement lifecycle.
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md).
 1. Import the library: 
 
    ```java
@@ -50,7 +51,7 @@ exampleContextData.put("myapp.social.SocialSource", "Twitter");
 Analytics.trackAction("myapp.SocialShare", exampleContextData);
 ```
 
-Context data values must be mapped to custom variables in [Adobe Mobile services](https://mobilemarketing.adobe.com):
+Context data values must be mapped to custom variables in Adobe Mobile services:
 
 ![](assets/map-variable-context-action.png)
 
