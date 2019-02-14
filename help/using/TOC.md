@@ -1,5 +1,5 @@
 ---
-product: adobe
+product: mobile-services
 audience: end-user
 user-guide-title: Mobile Services User Help
 ---
