@@ -14,7 +14,7 @@ This information helps you understand how crashes are tracked and the best pract
 
 >[!TIP] 
 >
->App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md).
+>App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the library to your project and implement lifecycle. For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md).
 
 When lifecycle metrics are implemented, a call is made to `Config.collectLifecycleData` in the `OnResume` method of each activity. In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
 

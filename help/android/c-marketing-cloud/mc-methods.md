@@ -35,7 +35,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
   * Here is the code sample for this method:
 
     ```java
-    String urlSample = "https://example.com";
+    String urlSample = "https://example.com";`
             String urlWithAdobeVisitorInfo = Visitor.appendToURL(urlSample);
 
             Intent(Intent.ACTION_VIEW);

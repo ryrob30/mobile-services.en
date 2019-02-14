@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 ---
 
-# Visitor Tracking Between an App and Mobile Web{#visitor-tracking-between-an-app-and-mobile-web}
+# Visitor tracking between an app and the mobile web {#visitor-tracking-between-an-app-and-mobile-web}
 
 If your app opens mobile web content, ensure that visitors are not identified separately as they move between the native and mobile web.
 
@@ -28,7 +28,10 @@ Typical mobile web implementations use the same standard Analytics `s_code.js` o
 
 To use the same visitor ID in the app and mobile web:
 
-1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
+
 1. To append visitor information to the URL that is being used to open the web view, call `visitorAppendToURL`:
 
    ```java

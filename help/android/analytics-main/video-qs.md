@@ -17,9 +17,7 @@ Here is some information about measuring video on Android by the video measureme
 >
 >During video playback, frequent "heartbeat" calls are sent to this service to measure time played. These heartbeat calls are sent every 10 seconds, which results in granular video engagement metrics and more accurate video fallout reports. For more information about Adobe's video measurement solution, see [Measuring Video in Adobe Analytics using Video Heartbeat]<!--REKHA(https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)-->.
 
-The general process to measure video is similar across all platforms. This content provides an overview of the developer tasks with code samples.
-
-The following table lists the media data that is sent to Analytics. Processing rules are used to map the context data to an Analytics variable.
+The general process to measure video is similar across all platforms. This content provides an overview of the developer tasks with code samples. The following table lists the media data that is sent to Analytics. Processing rules are used to map the context data to an Analytics variable.
 
 ## Map Player Events to Analytics Variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 

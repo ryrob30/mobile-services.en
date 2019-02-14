@@ -14,7 +14,7 @@ Geo-location helps you measure location data by using latitude and longitude and
 
 Each `trackLocation` call sends the following information:
 
-* Latitude, longitude, and location in a point of interest (POI) that is defined in the [Adobe Mobile Services UI](https://mobilemarketing.adobe.com).
+* Latitude, longitude, and location in a point of interest (POI) that is defined in the Adobe Mobile Services UI.
 
   This information is passed to mobile solution variables for automatic reporting. 
 
@@ -34,7 +34,10 @@ If this is not configured, you must download an updated version of the `ADBMobil
 
 ## Tracking Geo-Location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
-1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
+
 1. Import the library: 
 
    ```java
@@ -68,7 +71,7 @@ Location currentLocation = new Location("my location here");
 Analytics.trackLocation(currentLocation, locationContextData);
 ```
 
-Context data values must be mapped to custom variables in the [Adobe Mobile Services UI](https://mobilemarketing.adobe.com): 
+Context data values must be mapped to custom variables in the Adobe Mobile Services UI: 
 
 ![](assets/map-location-context-data.png)
 

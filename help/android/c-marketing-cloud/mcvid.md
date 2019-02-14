@@ -22,7 +22,10 @@ The Experience Cloud ID service provides a universal visitor ID across Experienc
 
 To enable the Experience Cloud ID:
 
-1. Add the [library to your project and implement lifecycle](/help/android/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+   For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
+
 1. Import the library: 
 
    ```java

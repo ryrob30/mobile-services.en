@@ -22,18 +22,18 @@ The same config file can be used for your app across multiple platforms:
 
 Here is a list of the variables in the JSON file and the minimum SDK version you need for each variable:
 
-* `acquisition` 
+* **acquisition**
   * Minimum SDK version: 4.1
   * Enables mobile app acquisition.
     * `server`, which is the acquisition server that is checked at the initial launch for an acquisition referrer. 
     * `appid`, which is the generated ID that uniquely identifies this app on the acquisition server.  
      If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see *referrerTimeout* in this list of variables. 
 
-* `analyticsForwardingEnabled`
+* **analyticsForwardingEnabled**
   * Minimum SDK version is 4.8.0.
   * The default value is `false`. The property in the `audienceManager` object. If Audience Manager is configured, and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager.
 
-* `backdateSessionInfo`
+* **backdateSessionInfo**
   * Minimum SDK version: 4.6.
   * Enables/disables the ability for the Adobe SDK to backdate session info hits. Session info hits currently consist of crashes and session length and can be enabled or disabled.
   
@@ -47,7 +47,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       >
       >Backdated session hit information is sent in a session info server call and additional server calls might apply. 
 
-* `batchLimit`
+* **batchLimit**
   * Minimum SDK version: 4.1
   * Threshold for number of hits to be sent in consecutive calls. For example, if `batchLimit` is set to 10, each hit before the 10th hit will be stored in the queue. When the 10th hit comes in, all 10 hits will be sent consecutively. 
   
@@ -56,11 +56,11 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
     * Default value is `0`, which means that batching not enabled. 
     * Requires `offlineEnabled = true`. 
 
-* `charset`
+* **charset**
   * Minimum SDK version: 4.0 
   * Defines the character set that you are using for the data that is sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. 
 
-* `clientCode`
+* **clientCode**
   * Minimum SDK version: 4.0
   * Your assigned client code.
   
@@ -68,7 +68,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   >
   >This variable is required by Target. 
 
-* `coopUnsafe`
+* **coopUnsafe**
   * Minimum SDK version:  4.16.1
   * The Boolean property of the `marketingCloud` object that, when set to `true`, will cause device to be opted-out of the Experience Cloud's Device Co-Op. 
   * Default value is `false`. 
@@ -82,11 +82,11 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
     * If you enable Analytics server-side forwarding to Audience Manager, you will also see `coop_unsafe=1` Analytics hits. 
 
-* `environmentId`
+* **environmentId**
   * Minimum SDK version: 4.14
   * The ID of the environment you want to use. You can specify a valid ID (`environmentId=8`), and if `environmentId` is not included, the default Production environment is used. 
 
-* `lifecycleTimeout`
+* **lifecycleTimeout**
   * Minimum SDK version: 4.0
   * Default value is 300 seconds. 
   
@@ -94,12 +94,12 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
     The time that your app spends in the background is not included in the session length. 
 
-* `messages` 
+* **messages**
 
   * Minimum SDK version: 4.2 
   * Generated automatically by Adobe Mobile services, defines the settings for in-app messaging. For more information, see the *Messages Description* section below. 
 
-* `offlineEnabled`
+* **offlineEnabled**
 
   * Minimum SDK version: 4.0 
   * When enabled, hits are queued while the device is offline and sent later when the device is online. Your report suite must be timestamp-enabled to use offline tracking.
@@ -114,12 +114,12 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   
     If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits that use the `s.timestamp` variable. 
 
-* `org`
+* **org**
 
   * Minimum SDK version: 4.3
   * Specifies the Experience Cloud org ID for the ID service.
 
-* `poi`
+* **poi**
   * Minimum SDK version: 4.0
   * Each point of interest (POI) array holds the POI name, latitude, longitude, and radius in meters for the area of the point. The POI name can be any string. When a `trackLocation` call is sent, if the current coordinates are within a defined POI, a context data variable is populated and sent with the `trackLocation` call. 
 
@@ -140,7 +140,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
   If this setting is not configured, the `ADBMobile.json` file must be updated to include this line. To download an updated configuration file, see [Before you Start](/help/android/getting-started/requirements.md).
 
-* `postback`
+* **postback**
   * Minimum SDK version: 4.6
   * Here is the definition for the "callback" message template:
 
@@ -154,7 +154,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
     The `payload` object in the code is a sample payload for a message definition that goes in `ADBMobileConfig.json`. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
 
-* `privacyDefault`
+* **privacyDefault**
   * Minimum SDK version: 4.0 
   * The default value is `optedin`. 
     * For `optedin`, the hits are sent immediately. 
@@ -163,7 +163,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
     If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.  This only sets the initial value. If this value is set or changed in code, the new value is used until it is changed again, or when the app is uninstalled and reinstalled.
 
-* `referrerTimeout`
+* **referrerTimeout**
   * Minimum SDK version: 4.1
   * Number of seconds the SDK waits for acquisition referrer data on the initial launch before timing out. If you are using acquisition, we recommend a 5-second timeout. 
 
@@ -171,31 +171,33 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
     >
     >This variable is required by Acquisition. If the variable is set to `0` or is not included, the SDK does not wait for acquisition data, and acquisition metrics are not tracked.  
 
-* `remotes`
+* **remotes**
   * Minimum SDK version: 4.2
   * Configured automatically and defines the Adobe-hosted endpoints for dynamic configuration files. The last update time of each configuration file is checked against the current version at each launch, and the updates are downloaded and saved. 
     * `analytics.poi` is the endpoint for hosted POI configuration.  
     * `messages` is the endpoint for hosted in-app message configuration. 
 
-* `rsids`
+* **rsids**
   * Minimum SDK version: 4.0
   * One or more report suites to receive Analytics data. Multiple report suite IDs should be comma-separated with no space between. 
 
     ```javascript
       "rsids" "rsid"
     ```
+
     ```javascript
       "rsids" "rsid1,rsid2"
        ```
+
     >[!IMPORTANT]
     >
     >This variable is required by Analytics. 
 
-* `server`
+* **server**
   * Minimum SDK version: 4.0
   * The Analytics or Audience Management server, based on the parent node. This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. This prefix is handled automatically by the library and is based on the `ssl` variable. If `ssl` is `true`, a secure connection is made to this server. If `ssl` is `false`, a non-secure connection is made to this server. 
 
-* `ssl`
+* **ssl**
   * Minimum SDK version: 4.0
   * The default value is `false`. 
   
@@ -211,7 +213,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
         "timeout": 0 // optional - number of seconds to wait before timing& out. Default is 2.}
     ```
 
-* `timeout`
+* **timeout**
   * Minimum SDK verson: 4.0 
   * Determines how long Target waits for a response.
 
