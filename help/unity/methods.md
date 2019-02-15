@@ -14,7 +14,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 
 * **CollectLifecycleData**
 
-  Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. See [Lifecycle Metrics](/help/ios/metrics.md). 
+  Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/ios/metrics.md). 
 
   * Here is the syntax for this method:
 
@@ -27,6 +27,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     ADBMobile.CollectLifecycleData(); 
     ```
+
 * **EnableLocalNotifications (iOS only)**
 
   Enable local notifications in your app. 
@@ -36,6 +37,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void EnableLocalNotifications();
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -51,11 +53,13 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static bool GetDebugLogging();
     ```
+
   * Here is the code sample for this method:
 
     ```java
     var debugEnabled = ADBMobile.GetDebugLogging();
     ```
+
 * **GetLifetimeValue**
 
   Returns the lifetime value of the current user. 
@@ -71,25 +75,28 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     var lifetimeValuea = ADBMobile.GetLifetimeValue();
     ```
+
 * **GetPrivacyStatus**
   
   Returns the enum representation of the privacy status for current user. 
   * `MOBILE_PRIVACY_STATUS_OPT_IN`: Hits are sent immediately. 
   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Hits are discarded. 
-  * `MOBILE_PRIVACY_STATUS_UNKNOWN`: If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If offline tracking is not enabled, hits are discarded until the privacy status changes to opt in. 
+  * `MOBILE_PRIVACY_STATUS_UNKNOWN`: If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). 
   
-  The default value is set in [ADBMobileConfig.json](https://marketing.adobe.com/resources/help/en_US/mobile/ios/json_config.html). 
+    If offline tracking is not enabled, hits are discarded until the privacy status changes to opt in. The default value is set in [ADBMobileConfig.json](https://marketing.adobe.com/resources/help/en_US/mobile/ios/json_config.html). 
 
   * Here is the syntax for this method:
 
     ```java
     public static ADBPrivacyStatus GetPrivacyStatus();
     ```
+
   * Here is the code sample for this method:
 
     ```java
     var privacyStatus = ADBMobile.GetPrivacyStatus();
     ```
+
 * **GetUserIdentifier**
 
   Returns the custom user identifier if a custom identifier has been set. Returns null if a custom identifier is not set. The default value is `null`.
@@ -141,6 +148,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     ADBMobile.KeepLifecycleSessionAlive(); 
     ```
+
 * **PauseCollectingLifecycleData (Android only)**
 
   Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecycle correctly knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
@@ -166,7 +174,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void SetContext();
     ```
- 
+
   * Here is the code sample for this method:
 
     ```java
@@ -182,6 +190,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void SetDebugLogging (bool enabled); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -201,6 +210,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void SetPrivacyStatus(ADBPrivacyStatusstatus); 
     ```
+
   * Here is the code sample for this syntax:
 
     ```java
@@ -240,6 +250,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     var trackingId = ADBMobile.GetTrackingIdentifier(); 
     ```
+
 * **TrackState**
 
   Tracks an app state with optional context data. States are the views that are available in your app, such as "title screen", "level 1", "pause", and so on. These states are similar to pages on a website, and `TrackState` calls increment page views. 
@@ -255,6 +266,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void TrackState(string state, Dictionary<string, object> cdata);
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -318,6 +330,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     ADBMobile.TrackLocation(28.418649, -81.581324, null); 
     ```
+
 * **TrackBeacon**
 
   Tracks when a users enters proximity of a beacon. 
@@ -373,6 +386,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void TrackTimedActionStart(string action, Dictionary<string,object> cdata); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -410,6 +424,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ```java
     public static void TrackTimedActionEnd(string action); 
     ```
+
   * Here is the code sample for this method:
 
     ```java

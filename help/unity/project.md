@@ -12,17 +12,18 @@ uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 
 ## iOS
 
-When you build for iOS, an Xcode Project is created. By default, the [!DNL ADBMobileWrapper.mm] and [!DNL AdobeMobileLibrary.a] files will be in your new project's Libraries group. Perform the following manual steps required to build you app:
+When you build for iOS, an Xcode Project is created. By default, the `ADBMobileWrapper.mm` and  `AdobeMobileLibrary.a` files will be in your new project's Libraries group. Perform the following manual steps required to build you app:
 
-1. Add your [!DNL ADBMobileConfig.json] file to the project.
+1. Add your `ADBMobileConfig.json` file to the project.
 
    Ensure that it is a member of the build any targets necessary. 
 
-1. In the Build Phases tab of your project, add a link to the following libraries:
+1. In the **[!UICONTROL Build Phases]** tab of your project, add a link to the following libraries:
 
-    * `SystemConfiguration.framework`
-      (This library might be linked already.) 
-    * `libsqlite3.0.dylib`
+   * `SystemConfiguration.framework`
+      (This library might be linked already.)
+
+   * `libsqlite3.0.dylib`
 
 >[!TIP]
 >
@@ -61,4 +62,3 @@ If you are using acquisition, add the following receiver:
    </intent-filter> 
 </receiver>
 ```
-

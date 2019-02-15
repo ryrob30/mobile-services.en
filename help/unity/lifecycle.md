@@ -20,7 +20,7 @@ Lifecycle metrics are automatically collected in iOS.
 
 In your Unity script, you set the application context for the Android SDK. Add the following code to the `Awake()` function of your FIRST scene:
 
-```
+```java
 void Awake()
  {
   ...
@@ -31,7 +31,7 @@ void Awake()
 
 To collect lifecycle metrics, add the following code to all of your scene scripts:
 
-```
+```java
 void OnEnable()
  {
   ...
