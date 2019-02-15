@@ -18,13 +18,13 @@ This information helps you with a GDPR data deletion request.
 
 You can control whether the [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager] activity is allowed on a device by using the following settings:
 
-* `privacyDefault` in [ADBMobile JSON Config](../configuration/json-config/json-config.md#concept_0F700EEE71F94B44A0E4000E6C2DA7FB).
+* `privacyDefault` in [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md).
 
   This setting controls the initial setting that persists until it is changed in the code. 
 
 * The `Config.setPrivacyStatus` method.
 
-  After the privacy setting is changed by using this method, this change remains effective until you change it again or when you uninstall and install the app again. For more information about the methods, see [Configuration Methods](../configuration/methods.md#concept_12F12E3E0E434F8CB997AF4027810EBF).
+  After the privacy setting is changed by using this method, this change remains effective until you change it again or when you uninstall and install the app again. For more information about the methods, see [Configuration Methods](/help/android/configuration/methods.md).
 
 The following table describes each privacy status: 
 

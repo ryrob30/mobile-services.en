@@ -174,11 +174,11 @@ Context data variables that define incrementor events can have the value to incr
 
 ## Products Variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-To set *`products`* in the mobile SDK, you must use a special syntax. See [Products Variable](../analytics/products/products.md#concept_A3BB7FB891B743C7B2A9028819FB9EE1).
+To set *`products`* in the mobile SDK, you must use a special syntax. See [Products Variable](/help/windows-appstore/analytics/products/products.md).
 
 ## (Optional) Enable Offline Tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](../c-configuration/methods.md#section_5AD4EDF87E304980B4AC4A5657FDA8B9). Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/windows-appstore/c-configuration/methods.md). Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
 
 ## Geo-location and Points of Interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 

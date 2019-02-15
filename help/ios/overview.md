@@ -26,7 +26,7 @@ Some information to remember:
   >
   >As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided.
 
-* If you are upgrading from a previous version (2.x or 3.x), see the [4.x Migration Guide](getting-started/migration-v3.md#concept_F3ED480E38D64396A80048AA45FC6849).
+* If you are upgrading from a previous version (2.x or 3.x), see the [4.x Migration Guide](/help/ios/getting-started/migration-v3.md).
 
 ## Adobe Mobile User Documentation {#section_7583FD5FDED143619048E9744A3F2D21}
 

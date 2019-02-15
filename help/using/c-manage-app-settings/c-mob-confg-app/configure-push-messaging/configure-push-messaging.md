@@ -17,7 +17,7 @@ Before you configure push messaging, review the following information:
 
 * You must perform some prerequisite tasks.
 
-  For more information about these tasks, see [Prerequisites to Enable Push Messaging](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md#concept_28A61FEE3C7F48F1866BD1995EC43ACE).
+  For more information about these tasks, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md).
 
 * **Report Suite Considerations**
 
@@ -38,11 +38,11 @@ Before you configure push messaging, review the following information:
         >If the file that you select for the **[!UICONTROL Private Key]** input also contains a certificate, you do not need to specify the certificate.
 
       * **[UICONTROL Certificate]**
-       Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+       Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
     * Google
       **[!UICONTROL API Key]**
-        Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](../../../c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+        Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
       For more information, see the following topics:
 

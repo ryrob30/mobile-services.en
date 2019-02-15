@@ -32,4 +32,4 @@ The appFigures data connector integration combines the power of the appFigures i
 * Metrics and dimensions that are included in the integration 
 * Segment app data
 
-For more information about the App Store report, see [App Store Overview Report](../../usage/c-app-store-store-performance.md#concept_2D34C066E48B48FBBDC6CCC683C714AF). 
+For more information about the App Store report, see [App Store Overview Report](/help/using/usage/c-app-store-store-performance.md). 

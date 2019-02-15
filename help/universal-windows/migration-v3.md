@@ -109,7 +109,7 @@ The `contextData` parameter for both of these methods contains name-value pairs 
 
 **Events, Props, eVars**
 
-If you've looked at the [ADBMobile Class and Method Reference](c-configuration/methods.md#concept_12F12E3E0E434F8CB997AF4027810EBF), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
+If you've looked at the [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
 Processing rules provide you several advantages:
 
@@ -117,7 +117,7 @@ Processing rules provide you several advantages:
 * You can use meaningful names for data instead of setting variables that are specific to a report suite. 
 * There is little impact to sending in extra data. These values won’t appear in reports until they are mapped using processing rules.
 
-See [Processing Rules](analytics/analytics.md#section_66EE762EEA5E4728864166201617DEBF).
+See [Processing Rules](/help/universal-windows/analytics/analytics.md).
 
 Any values that you were assigning directly to variables should be added to context data instead. This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
 
@@ -171,4 +171,4 @@ The value of `"&&products"` (in this example, the value is `";Cool Shoe`") shoul
 
 ## Test the Migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
 
-After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](bloodhound.md#concept_20BC9E1C41F24A98BF862CF57DD608DA) to find out how to inspect the data being sent by the mobile SDK. 
+After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](/help/universal-windows/bloodhound.md) to find out how to inspect the data being sent by the mobile SDK. 

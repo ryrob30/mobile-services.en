@@ -29,8 +29,8 @@ To help you understand how in-app messaging works, here is some additional infor
 
 * In-app messages require SDK version 4.2 or later. 
 * You must specify who has Mobile App Admin rights.
-    
-  These rights enable access to acquisition links and in-app messages. For more information, see [Roles and Permissions](../gs/c-mob-roles-and-permissions.md#concept_B1EC13F686F742D1AD7025C38F60A70D). 
+
+  These rights enable access to acquisition links and in-app messages. For more information, see [Roles and Permissions](/help/using/gs/c-mob-roles-and-permissions.md). 
 * After a message is approved, the message is published automatically to the application. 
 * The SDK presents the message to users when the message parameters, such as traits, trigger, and schedule, are met. 
 * Messages can contain custom HTML or an image, using an online URL.
