@@ -10,11 +10,7 @@ uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 
 Classes and methods provided by the BlackBerry library.
 
- The SDK currently has support for Adobe Analytics, and methods are in separate classes based on the solution. The list of solutions and each class is as follows: 
-
-|  Solution  | Class  |
-|---|---|
-|  Analytics  | Analytics  |
+ The SDK currently has support for Adobe Analytics, and methods are in separate classes based on the solution. 
 
 ## SDK Settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -26,7 +22,7 @@ Classes and methods provided by the BlackBerry library.
   * ADBMobilePrivacyStatusOptOut - hits are discarded.
   * ADBMobilePrivacyStatusUnknown - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.  
   
-  The default value is set in the `ADBMobileConfig.json` file. 
+    The default value is set in the `ADBMobileConfig.json` file. 
 
   * Here is the syntax for this method:
 
@@ -44,9 +40,9 @@ Classes and methods provided by the BlackBerry library.
 
   Sets the privacy status for the current user to `status`. Set to one of the following values:
   
-  * ADBMobilePrivacyStatusOptIn - hits are sent immediately.
-  * ADBMobilePrivacyStatusOptOut - hits are discarded.  
-  * ADBMobilePrivacyStatusUnknown - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in. 
+  * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.
+  * `ADBMobilePrivacyStatusOptOut` - hits are discarded.  
+  * `ADBMobilePrivacyStatusUnknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in. 
 
   * Here is the syntax for this method:
 
@@ -177,7 +173,7 @@ Each of these methods is used to send data into your Adobe Analytics report suit
     static void trackAction(QString action, QHash<QString, QString> contextData = QHash<QString, QString>()); 
     ```
 
-  * Here is the syntax for this method:
+  * Here is the code sample for this method:
 
     ```cpp
       ADBMobile::trackAction("heroBannerTouched", null); 
@@ -255,7 +251,9 @@ The [!DNL ADBMobileConfig.json] must be placed in the [!DNL assets] folder.
 
   * `optedin` - hits are sent immediately.  
   * `optedout` - hits are discarded.  
-  * `optunknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.  
+  * `optunknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). 
+  
+    If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.  
 
   This variable sets the initial value only. If this value is ever set or changed in code, then the new value is used going forward until it is changed, or the app is uninstalled and then reinstalled.
 

@@ -5,7 +5,7 @@ description: The BlackBerry Developer Quick Start Guide helps you understand the
 seo-description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
 ---
 
-# Developer Quick Start
+# Developer quick start
 
 This information helps you understand the process to implement the BlackBerry library.
 
@@ -49,7 +49,7 @@ After unzipping the downloaded SDK, verify that the following files exist in an 
       >
       >There is a bug in the QNX Momentics IDE that sometimes prevents those buttons from being visible. If you can't see the buttons, resize the windows until they appear.
 
-1. Click the **[!UICONTROL Workspace]** button.
+1. Click **[!UICONTROL Workspace]**.
 1. Find the `ADBMobileConfig.json` file in your project and click **[!UICONTROL OK]**.
 
 Your application can import the classes/interfaces from the `adobeMobileLibrary.jar` library by using `#include <ADBMobile.hpp>`.

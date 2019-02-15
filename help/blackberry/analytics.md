@@ -10,7 +10,7 @@ uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 
 After you add the library to your project, you can make any of the Analytics method calls anywhere in your App (make sure you import ADBMobile.h to your class).
 
-## Enable Mobile Application Reports in Analytics {#task_3DA1354942CF4BF4B11B9CC97588A9ED}
+## Enable mobile application reports in Analytics {#task_3DA1354942CF4BF4B11B9CC97588A9ED}
 
 Before you add code, have your Analytics Administrator complete the following to enable Mobile App Lifecycle tracking. This ensures that your report suite is ready to capture metrics as you begin development. 
 
@@ -26,9 +26,9 @@ Before you add code, have your Analytics Administrator complete the following to
 
    ![](assets/enable-lifecycle.png)
 
-Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface. 
+Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the **[!UICONTROL Reports]** menu in the marketing reports interface. 
 
-## Collect Lifecycle Metrics {#task_25D469C62DF84573AEB5E8E950B96205}
+## Collect lifecycle metrics {#task_25D469C62DF84573AEB5E8E950B96205}
 
 1. To collect lifecycle metrics in your app, call `collectLifecycleData()` in the `ApplicationUI` constructor.
 
@@ -43,7 +43,7 @@ Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Rep
 
    If `collectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `collectLifecyleData()` reports a crash. 
 
-## Events, Props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
+## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
 If you've looked at the [ADBMobile Class and Method Reference](/help/blackberry/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting. 
@@ -56,7 +56,7 @@ Processing rules provide you several advantages:
 
 Any values that you were assigning directly to variables should be added to the `data` HashMap instead. 
 
-## Processing Rules {#concept_3EA4CD602AF4488A896B0EDD3BA2D969}
+## Processing rules {#concept_3EA4CD602AF4488A896B0EDD3BA2D969}
 
 Processing rules are used to copy the data you send in context data variables to evars, props, and other variables for reporting. 
 
@@ -104,12 +104,12 @@ Context data variables that define incrementor events can have the event as the 
 >
 >Adobe reserves the namespace `a.`. Aside from that small restriction, context data variables just need to be unique in your login company to avoid collisions. 
 
-## Enable Offline Tracking {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
+## Enable offline tracking {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
 To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file. 
 
-Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking. For more information about tracking, see [Analytics Methods](methods.md#section_91F4AD0A045D4E4E8F9A93450503E49E). 
+Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking. 
 
-## Analytics Methods
+## Analytics methods
 
-For a list of the Analytics methods that are available for BlackBerry, see [Adobe Mobile Class and Method Reference](/help/blackberry/methods.md).
+For a list of the Analytics methods that are available for BlackBerry, see *Analytics methods* in [Adobe Mobile Class and Method Reference](/help/blackberry/methods.md).
