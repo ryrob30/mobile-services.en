@@ -15,8 +15,8 @@ This information helps you understand and use with Adobe Mobile Services.
 
 Adobe Mobile Services is composed of the following parts:
 
-* [Adobe Mobile Services UI](/help/using/gs/gs.md/#mobile-services-ui) 
-* [Adobe Mobile SDK](/help/using/gs/gs.md/#mobile-services-sdk)
+* Adobe Mobile Services UI
+* Adobe Mobile SDK
 
 For enterprise companies looking for the most effective way to increase user engagement and prove return on investment (ROI) for their mobile app investment, Adobe provides an end-to-end solution, Adobe Mobile Services, to acquire and engage app users and analyze and optimize their experiences.
 
