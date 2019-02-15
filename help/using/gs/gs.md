@@ -16,7 +16,7 @@ This information helps you understand and use with Adobe Mobile Services.
 Adobe Mobile Services is composed of the following parts:
 
 * [Adobe Mobile Services UI](/help/using/gs/gs.md/#mobile-services-ui) 
-* [Adobe Mobile SDK](/help/using/gs/gs.md/#mobile-services-#mobile-services-sdk)
+* [Adobe Mobile SDK](/help/using/gs/gs.md/#mobile-services-sdk)
 
 For enterprise companies looking for the most effective way to increase user engagement and prove return on investment (ROI) for their mobile app investment, Adobe provides an end-to-end solution, Adobe Mobile Services, to acquire and engage app users and analyze and optimize their experiences.
 
@@ -121,7 +121,7 @@ For more information about location, see the following content:
 * [Location in the Android SDK guide](/help/android/location/location.md)
 * [Location in the iOS SDK guide](/help/ios/location/location.md)
 
-## Adobe Mobile SDK {#section_5D4E1915B81B41C1A26740808DB95782}
+## Adobe Mobile SDK {#mobile-services-sdk}
 
 Adobe provides an end-to-end mobile marketing solution that accelerates your customer engagement across all these areas. With one SDK, you can access the capabilities of Adobe Analytics, Adobe Campaign, and Adobe Audience Manager, which reduces the technical cost of managing multiple different SDKs.
 
