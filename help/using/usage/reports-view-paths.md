@@ -15,7 +15,7 @@ The View Paths report, which is based on path analysis, displays a pathing chart
 
 >[!TIP]
 >
->The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. The **[!UICONTROL View Paths]** report allows you to see how users navigate in your app from one screen to the next. The **[!UICONTROL View Actions]** report displays the sequence of actions (events, such as clicks, selections, resizing, and so on) that users perform in your app. You can use a [funnel report](../usage/reports-funnel.md#concept_7FA67283442D428FA444B0706083F67E) to combine navigation and actions in one report.
+>The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. The **[!UICONTROL View Paths]** report allows you to see how users navigate in your app from one screen to the next. The **[!UICONTROL View Actions]** report displays the sequence of actions (events, such as clicks, selections, resizing, and so on) that users perform in your app. You can use a [funnel report](/help/using/usage/reports-funnel.md) to combine navigation and actions in one report.
 
 ![view paths](assets/view_paths.png)
 

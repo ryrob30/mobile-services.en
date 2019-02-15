@@ -55,11 +55,11 @@ Configure experience options for in-app messages, including type (full screen, a
 
    * **[!UICONTROL Image URL]**
 
-    The URL for an image. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](../../in-app-messaging/t-in-app-message/in-apps-ts.md).
+    The URL for an image. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
    * **[!UICONTROL Bundled Image**]
 
-    Path to an image in your app code bundle. This option is used when there is no image. or the image is unavailable. The imagine might not be available if, for example, the device is offline. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](../../in-app-messaging/t-in-app-message/in-apps-ts.md).
+    Path to an image in your app code bundle. This option is used when there is no image. or the image is unavailable. The imagine might not be available if, for example, the device is offline. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
 1. Complete the fields in the **[!UICONTROL Text]** section:
 
@@ -92,7 +92,7 @@ Configure experience options for in-app messages, including type (full screen, a
 
      >[!TIP]
      >
-     >When you use the **[!UICONTROL Web Link]** or **[!Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked. For more information, see [Destinations](../../acquisition-main/c-create-destinations.md).
+     >When you use the **[!UICONTROL Web Link]** or **[!Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
 
 1. (Optional) Preview the layout of your message by clicking following icons:
 
@@ -116,4 +116,4 @@ Configure experience options for in-app messages, including type (full screen, a
 
      At the bottom of the preview pane, you can view a description of the audience that you selected in the previous step. You can also view a description of the audience you selected in the previous step at the bottom of the preview pane.
 
-1. Configure [Schedule options](../../in-app-messaging/t-in-app-message/c-schedule-in-app-message.md#concept_FA23889DD15F45628182A51436280765).
+1. Configure [Schedule options](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md).

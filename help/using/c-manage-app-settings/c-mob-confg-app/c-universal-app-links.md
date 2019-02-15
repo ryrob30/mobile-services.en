@@ -46,7 +46,7 @@ An App Link is the Android version of the Universal Link. Although deeplinking m
 
 ## Create a Universal / App Link {#section_609ADEFFB9B441C4A8C45E936D0DC859}
 
-For more information, see [Create or Edit Marketing Links](../../acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md#task_154A125591904CA598DF9391A44C081C).
+For more information, see [Create or Edit Marketing Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md).
 
 1. Select the app from the Mobile Services home page, expand **[!UICONTROL Acquisition]**, and click **[!UICONTROL Marketing Link Builder]**. 
 1. Click **[!UICONTROL Create New]**. 

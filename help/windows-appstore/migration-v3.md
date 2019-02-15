@@ -136,7 +136,7 @@ The value of `"&&products"` (in this example, the value is `";Cool Shoe`") shoul
 
 ## Test the Migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
 
-After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](bloodhound.md#concept_20BC9E1C41F24A98BF862CF57DD608DA) to find out how to inspect the data being sent by the mobile SDK.
+After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](/help/windows-appstore/bloodhound.md) to find out how to inspect the data being sent by the mobile SDK.
 
 >[!IMPORTANT]
 >

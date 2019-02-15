@@ -12,7 +12,7 @@ You can attach image files to your Apple notifications. Adding visual components
 
 To receive rich push notifications in your iOS app:
 
-1. Implement push messaging for the app by completing the steps in [Push Messaging](../../messaging-main/push-messaging/push-messaging.md#concept_20DC1BC609B642CB93DB39D930DD7AF2). 
+1. Implement push messaging for the app by completing the steps in [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md). 
 1. Verify that you can send a text push message to your app. 
 1. Add a Notification Service Extension by completing the following steps:
 

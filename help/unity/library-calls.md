@@ -12,10 +12,10 @@ uuid: 74c30379-6cdf-4318-9db8-e14fb63aa18a
 
 When you want to make calls to the plug-in from your scripts, import the namespace:
 
-* **C#:** using *`com.adobe.mobile;`* 
+* **C#:** using `com.adobe.mobile;`
 
-* **JavaScript:** import *`com.adobe.mobile;`* 
+* **JavaScript:** import `com.adobe.mobile;`
 
-* **boo:** import *`com.adobe.mobile;`*
+* **boo:** import `com.adobe.mobile;`
 
 After you import the namespace, you can make calls directly to the plug-in via the static methods of the ADBMobile class. 

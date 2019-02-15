@@ -17,7 +17,7 @@ You can use this information to create a new app and configure its key metrics;c
 
 Before you can configure your app, you must add it in the [!DNL Adobe Mobile Services] user interface. After you create the app, the correct configuration is generated, and you can provide this configuration to the developers who are implementing the Mobile SDK for the app. 
 
-1. [Sign in](../gs/gs-signin.md#concept_7C5CF11607B4441EBE22982E955D1D5E) to [!DNL Adobe Mobile Services] and complete one of the following tasks:
+1. [Sign in](/help/using/gs/gs-signin.md) to [!DNL Adobe Mobile Services] and complete one of the following tasks:
 
     * Click **[!UICONTROL Create New]** to create an app. 
     * To add additional apps, click [!DNL Manage Apps] in the left navigation menu, then click **[!UICONTROL Add]**.

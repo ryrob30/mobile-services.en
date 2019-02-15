@@ -60,7 +60,7 @@ Here are some examples to help you understand how to correctly define segments:
 
 **Do**: The Marketer provides push certificates for the iOS and Android versions of one app, for example, for Adobe Photoshop. The Marketer might send a push notification to a user segment that spans across both platforms.
 
-**Do not**: Marketers provide push certificates for iOS and Android versions of one app, for example, for Adobe Photoshop. If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blacklisted. For more detailed, example see *Resolving push message failures* in [Troubleshooting Push Messaging](../../in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md#concept_8CECEBF5C278422796BAD09107DCED93).
+**Do not**: Marketers provide push certificates for iOS and Android versions of one app, for example, for Adobe Photoshop. If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blacklisted. For more detailed, example see *Resolving push message failures* in [Troubleshooting Push Messaging](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configure Audience Segments {#section_A92C60885A30421B8150820EC1CCBF13}
 

@@ -67,7 +67,7 @@ In the [!UICONTROL] Adobe Mobile Services, you can create an app based on a pare
 >
 >Push certifications are attached at the app level in the Mobile Services UI.
 
-To ensure that your push messages are sent correctly, the audience segment must be correctly defined. For more information, see [Audience: Define and Configure Audience Segments for Push Messages](../in-app-messaging/t-create-push-message/c-audience-push-message.md#concept_2A4EFA42181B41A98477C0E9164E017E).
+To ensure that your push messages are sent correctly, the audience segment must be correctly defined. For more information, see [Audience: Define and Configure Audience Segments for Push Messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
 
 ## Understanding Time Zones {#section_498E1EED22D741C3BDED44F01FACA72A}
 

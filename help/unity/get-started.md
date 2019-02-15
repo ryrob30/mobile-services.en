@@ -18,7 +18,7 @@ Last Updated: **October 20, 2016**
 
 Download the [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) file from GitHub or Developer Connection.
 
-ADBMobile.unitypackage contents
+Here are the contents of the `ADBMobile.unitypackage` file:
 
 * Assets (root)
 

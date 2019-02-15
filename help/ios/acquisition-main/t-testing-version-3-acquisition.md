@@ -17,7 +17,7 @@ This information helps you roundtrip a V3 acquisition campaign link based on a d
 
 If the mobile app is not yet in the App Store, when you create the campaign link, select any mobile app as a destination. This only affects the app to which the acquisition server redirects you after you click the acquisition link, but does not affect the ability to test the link. 
 
-1. Complete the prerequisite tasks in [Mobile App Acquisition](../acquisition-main/acquisition.md#concept_ADB7BFDDBE9B4FFC8DD4940F49E2F0FA).
+1. Complete the prerequisite tasks in [Mobile App Acquisition](/help/ios/acquisition-main/acquisition.md).
 1. Navigate to the **[!UICONTROL Acquisition Builder]** in the [!DNL Adobe Mobile Services] UI and generate an acquisition campaign URL.
 
    For example:

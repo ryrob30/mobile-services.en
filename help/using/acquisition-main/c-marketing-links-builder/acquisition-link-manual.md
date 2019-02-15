@@ -15,7 +15,7 @@ You can create marketing links to acquire new mobile app users on-the-fly by man
 
 >[!IMPORTANT]
 >
->This feature requires SDK version 4.6 or later. For more information, see [Acquisition Prerequisites](../../acquisition-main/c-acquisition-prerequisites.md#concept_1395BCF2199642E7B653928E1A15AD19).
+>This feature requires SDK version 4.6 or later. For more information, see [Acquisition Prerequisites](/help/using/acquisition-main/c-acquisition-prerequisites.md).
 
 The following diagram illustrates the components of a manually built tracking link and displays the different URL parameters that you must properly configure when manually creating acquisition links.
 

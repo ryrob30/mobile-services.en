@@ -16,7 +16,7 @@ You can view message reports for in-app and push messages.
 1. Click ![report icon](assets/icon_report.png) in the **[!UICONTROL Report]** column for a message.
 1. (Optional) Create a sticky filter for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
 
-    For more information about creating a sticky filter, see [Sticky Filter](../../usage/reports-customize/t-sticky-filter.md#task_75B0AD4D58014BB0A5A09FE1B074ECE1).
+    For more information about creating a sticky filter, see [Sticky Filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 >[!TIP]
 >

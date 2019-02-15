@@ -15,7 +15,7 @@ You can add an app from the Apple App Store or from Google Play.
 
 1. Complete one of the following tasks:
 
-    * [Sign in](../../gs/gs-signin.md#concept_7C5CF11607B4441EBE22982E955D1D5E) to [!DNL Adobe Mobile Services] and click **[!UICONTROL Create New]**. 
+    * [Sign in](/help/using/gs/gs-signin.md) to [!DNL Adobe Mobile Services] and click **[!UICONTROL Create New]**. 
     * To add additional apps, click **[!UICONTROL Manage Apps]** in the left navigation menu and click **[!UICONTROL Add]**.
 
 1. Click **[!UICONTROL Add App Store App]**.

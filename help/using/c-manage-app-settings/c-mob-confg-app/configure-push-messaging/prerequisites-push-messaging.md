@@ -22,7 +22,7 @@ Your [!UICONTROL] Adobe Analytics Company must be [!UICONTROL] Experience Cloud 
 * **Install the Mobile SDK**
     The Push Messaging feature requires that you download and install the appropriate 4.6 (or later) Mobile SDK.
 
-    For more information, see [Download the SDKs](../../../c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md).
+    For more information, see [Download the SDKs](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md).
 
 * **Configure Push Services**
 
@@ -64,7 +64,7 @@ For more information, see [Troubleshooting Account Linking](https://marketing.ad
 
 ## Configure Push Services and the SDK ID service in the Mobile User Interface
 
-Before you enable the ID service for your app, the Push Services section is disabled. But, after you [enable the ID service](../../../c-manage-app-settings/c-mob-confg-app/t-config-visitor.md#task_568C5F05E4E044E9BCCCF91ABBA736F7), the Push Services section is enabled.
+Before you enable the ID service for your app, the Push Services section is disabled. But, after you [enable the ID service](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md), the Push Services section is enabled.
 
 >[!IMPORTANT]: You must click **[!UICONTROL Save]** to save your changes and refresh the Push Services.
 >
