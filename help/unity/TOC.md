@@ -1,5 +1,5 @@
 ---
-product: adobe
+product: mobile-services
 audience: end-user
 user-guide-title: Mobile Services Unity Plug-in Help
 ---
