@@ -12,7 +12,7 @@ BlackBerry 10 SDK 4.x for Experience Cloud Solutions lets you measure native Bla
 
 ## Getting Started {#section_DB6175C7BD5C41E3A7D5DB175C5E01C7}
 
-To get started:
+To get started with the BlackBerry SDKs:
 
 1. To add the SDKs to your project, complete the tasks in [Developer Quick Start](/help/blackberry/dev-qs.md). 
 1. Review the [ADBMobile Class and Method Reference](/help/blackberry/methods.md). 
