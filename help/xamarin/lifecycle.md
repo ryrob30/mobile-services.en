@@ -22,7 +22,7 @@ In iOS, lifecycle metrics are automatically collected.
 
 In your main activity, you need to set the application context for the Android SDK.
 
-```
+```java
 protected override void OnCreate (Bundle bundle) 
 {
     ... 
@@ -33,7 +33,7 @@ protected override void OnCreate (Bundle bundle)
 
 In every activity, you need to implement lifecycle calls.
 
-```
+```java
 protected override void OnResume()
 {
     ...

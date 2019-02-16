@@ -14,7 +14,7 @@ List of classes and enumerations for use in Xamarin applications.
 
 ADBVisitorID
 
-```
+```objective-c
 public class ADBVisitorID : NSObject
 {
     public override IntPtr ClassHandle {
@@ -29,7 +29,7 @@ public class ADBVisitorID : NSObject
 
 ADBTargetLocationRequest
 
-```
+```objective-c
 public class ADBTargetLocationRequest : NSObject
 { 
     public override IntPtr ClassHandle {
@@ -54,7 +54,7 @@ public class ADBTargetLocationRequest : NSObject
 
 ADBMediaState
 
-```
+```objective-c
 public class ADBMediaState : NSObject
 { 
     public virtual bool Ad {
@@ -149,7 +149,7 @@ public class ADBMediaState : NSObject
 
 ADBMediaSettings
 
-```
+```objective-c
 public class ADBMediaSettings : NSObject
 { 
     public virtual string Channel {
@@ -225,7 +225,7 @@ public class ADBMediaSettings : NSObject
 
 Constants
 
-```
+```objective-c
 public static class Constants 
 { 
     public static NSString ADBConfigKeyCallbackDeepLink {
@@ -265,7 +265,7 @@ public static class Constants
 
 ADBMobileVisitorAuthenticationState
 
-```
+```objective-c
 public enum ADBMobileVisitorAuthenticationState : ulong 
 { 
     Unknown, 
@@ -276,7 +276,7 @@ public enum ADBMobileVisitorAuthenticationState : ulong
 
 ADBMobilePrivacyStatus
 
-```
+```objective-c
 public enum ADBMobilePrivacyStatus : ulong 
 { 
     OptIn = 1uL, 
@@ -287,7 +287,7 @@ public enum ADBMobilePrivacyStatus : ulong
 
 ADBMobileDataEvent
 
-```
+```objective-c
 public enum ADBMobileDataEvent : ulong 
 { 
     Lifecycle, 
@@ -299,7 +299,7 @@ public enum ADBMobileDataEvent : ulong
 
 ADBMobileAppExtensionType
 
-```
+```objective-c
 public enum ADBMobileAppExtensionType : ulong 
 { 
     Regular, 
