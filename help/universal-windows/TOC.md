@@ -21,15 +21,9 @@ user-guide-title: Mobile Services Universal Windows Help
   + [Event serialization](analytics/event-serialization.md)
   + [Video Analytics](analytics/video-qs.md)
   + [Analytics methods](analytics/analytics-methods.md)
-+ Target {#target-univ-win-plat}
-  + [Target Overivew](target/target.md)
-  + [Target methods](target/target-methods.md)
-+ Audience Manager {#audiencemgmt-univ-win-plat}
-  + [Audience Manager Overview](audiencemgmt/audiencemgmt.md)
-  + [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
++ [Target methods](target/target-methods.md)
++ [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
 + [Lifecycle metrics](metrics.md)
-+ Extensions {#extensions-univ-win-plat}
-  + [Extensions Overview](extensions/extensions.md)
-  + [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
++ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
 + [Using Bloodhound to test mobile applications](bloodhound.md)
 + [Migrate to 4.x](migration-v3.md)
