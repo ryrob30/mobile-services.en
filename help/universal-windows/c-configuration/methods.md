@@ -26,7 +26,7 @@ Classes and methods provided by the Universal Windows Platform library.
     static Platform::String ^GetVersion();
     ```
 
-  * Here is the syntax for this method:
+  * Here is the code sample for this method:
 
     ```js
     var ADB = ADBMobile;var libVersion = ADB.Config.getVersion();
