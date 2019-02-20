@@ -14,6 +14,6 @@ Information to help you get starting with the Universal Windows Platform SDK for
 
 1. Review the [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md).
 
-1. Implement [Analytics](/help/universal-windows/analytics/analytics.md), [Target](/help/universal-windows/target/target.md), and [Audience Manager](/help/universal-windows/audiencemgmt/audiencemgmt.md).
+1. Implement [Analytics](/help/universal-windows/analytics/analytics.md), [Target](/help/universal-windows/target/target-methods.md), and [Audience Manager](/help/universal-windows/audiencemgmt/audience-manager-methods.md).
 
 1. If you are upgrading from a previous version, review the [Migration Guide](/help/universal-windows/migration-v3.md). 

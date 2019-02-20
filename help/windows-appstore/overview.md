@@ -12,7 +12,7 @@ uuid: a06d8cf2-5d2d-49a8-86ac-102e2934ea59
 
 Windows 8.1 Universal App Store SDK 4.x for Experience Cloud Solutions lets you measure native Windows 8.1 and Windows Phone 8.1 applications, deliver targeted content within your app, and leverage and collect audience data through Audience Manager.
 
-**Last Updated: August 21, 2015 **
+**Last Updated: August 21, 2015**
 
 ## Supported Platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
@@ -28,4 +28,4 @@ Visual Studio 2013 or later.
 
 Adobe Mobile services provides a new UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics and Adobe Target solutions.
 
-Learn more at [Adobe Mobile services documentation](https://microsite.omniture.com/t2/help/en_US/mobile/). 
+Learn more at [Adobe Mobile services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/home.html). 
