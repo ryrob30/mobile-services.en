@@ -46,7 +46,7 @@ Before you can configure your app, you must add it in the [!DNL Adobe Mobile Ser
       * **[!UICONTROL Currency]**
         Revenue is both tracked and reported as this type of currency.
 
-      [!TIP] To use a virtual reporting suite (VRS), see [Virtual Report Suites](../manage-apps/c-mob-vrs.md).  
+      [!TIP] To use a virtual reporting suite (VRS), see [Virtual Report Suites](/help/using/manage-apps/c-mob-vrs.md).  
 
    * **[!UICONTROL Icon]**
 
@@ -80,4 +80,4 @@ Before you can configure your app, you must add it in the [!DNL Adobe Mobile Ser
 
 1. Click **[!UICONTROL Save]** to add the new app.
 
-   After the app has been added, you can check the [!DNL App Information] page about configuring additional options. For more information, see [Manage App Settings](../c-manage-app-settings/c-manage-app-settings.md#concept_3A1E216CB91D43C5BE343CF2D9398D27).
+   After the app has been added, you can check the [!DNL App Information] page about configuring additional options. For more information, see [Manage App Settings](/help/using/c-manage-app-settings/c-manage-app-settings.md).

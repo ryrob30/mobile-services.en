@@ -15,7 +15,7 @@ You can use the Marketing Links page to create, use, and archive marketing links
 
 >[!NOTE] {othertype="Prerequisite"}
 >
->To create and use marketing links, you must first create link destinations. For more information, see [Create or Edit Marketing Links](../../acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md#task_154A125591904CA598DF9391A44C081C).
+>To create and use marketing links, you must first create link destinations. For more information, see [Create or Edit Marketing Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md).
 
 On the [!DNL Marketing Links] page, you can complete the following tasks:
 
