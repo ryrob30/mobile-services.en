@@ -169,6 +169,6 @@ That's it! You're now ready to implement Analytics, Target, and Audience Managem
 
 * [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md) 
 * [Analytics](/help/universal-windows/analytics/analytics.md) 
-* [Target](/help/universal-windows/target/target.md) 
-* [Audience Manager](/help/universal-windows/target/target.md)
+* [Target](/help/universal-windows/target/target-methods.md) 
+* [Audience Manager](/help/universal-windows/target/target-methods.md)
 

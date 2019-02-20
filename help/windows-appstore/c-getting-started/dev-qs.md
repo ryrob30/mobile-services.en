@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: b368959b-d985-436e-8b3e-97e355a97951
 ---
 
-# Developer quick start{#developer-quick-start}
+# Developer quick start {#developer-quick-start}
 
 You'll need Visual Studio 2013 or later to implement the SDK.
 
@@ -39,17 +39,20 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 1. Launch Visual Studio and open your solution. 
 1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UIUCONTROL Add Reference]**. 
 
-1. [Select the Correct Version](../c-getting-started/dev-qs.md#section_E53C5AA7D5474824A89BB32C003865A1) of the library and then browse to the associated [!DNL ADBMobile.winmd] file. Click **[!UICONTROL Add]**. 
+1. [Select the Correct Version](../c-getting-started/dev-qs.md#section_E53C5AA7D5474824A89BB32C003865A1) of the library and then browse to the associated [!DNL ADBMobile.winmd] file. 
+1. Click **[!UICONTROL Add]**. 
 
 1. Verify that [!DNL ADBMobile.winmd] is checked in the **[!UICONTROL Reference Manager]** window and click **[!UICONTROL OK]**. 
 
    >[!NOTE]
    >
-   >When adding a reference to a Windows Phone app, you will have to change the default file filter from **[!UICONTROL Component Files]** to **All Files** in order to select [!DNL ADBMobile.winmd].
+   >When adding a reference to a Windows Phone app, to select [!DNL ADBMobile.winmd], change the default file filter from **[!UICONTROL Component Files]** to **All Files**.
 
 1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**. 
 
-1. (Skip this step if you also have a C++ project in your solution) In the **Windows** tab on the left, select **[!UICONTROL Extensions]**, then select and add **[!UICONTROL Microsoft Visual C++ 2013 Runtime Package for Windows]**. 
+    Skip this step if you also have a C++ project in your solution.
+
+1. In the **Windows** tab on the left, select **[!UICONTROL Extensions]**, then select and add **[!UICONTROL Microsoft Visual C++ 2013 Runtime Package for Windows]**. 
 
 1. Add the following line to your class: 
 
@@ -70,13 +73,17 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 1. Launch Visual Studio and open your solution. 
 1. In the **[!UICONTROL Solution Explorer]**, right-click your project and select **[!UICONTROL Add]** > **[!UICONTROL References]**. 
 
-1. [Select the Correct Version](../c-getting-started/dev-qs.md#section_E53C5AA7D5474824A89BB32C003865A1) of the library and then add a reference to the associated [!DNL ADBMobile.winmd] file. Click **[!UICONTROL Add]**. 
+1. Select the correct version of the library and then add a reference to the associated [!DNL ADBMobile.winmd] file. 
 
-1. Verify that [!DNL ADBMobile.winmd] is checked in the **[!UICONTROL Reference Manager]** window and click **[!UICONTROL OK]**. 
+    For more information, see *Select the Correct Version* in [Developer quick start](/help/windows-appstore/c-getting-started/dev-qs.md).
 
-   >[!NOTE]
+1. Click **[!UICONTROL Add]**. 
+
+1. In the **[!UICONTROL Reference Manager]** window, verify that [!DNL ADBMobile.winmd] is selected and click **[!UICONTROL OK]**. 
+
+   >[!TIP]
    >
-   >When adding a reference to a Windows Phone app, you will have to change the default file filter from **[!UICONTROL Component Files]** to **All Files** in order to select [!DNL ADBMobile.winmd].
+   >When adding a reference to a Windows Phone app, to select [!DNL ADBMobile.winmd], change the default file filter from **[!UICONTROL Component Files]** to **All Files**.
 
 1. Add the following line to your class: 
 
@@ -90,20 +97,24 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click [!DNL ADBMobileConfig.json] in your solution and select **[!UICONTROL Properties]**. 
 
-1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]** and click **[!UICONTROL OK]**.
+1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]**, and click **[!UICONTROL OK]**.
 
 ## Add the Library and Config File to your Project - WinJS {#section_FF83113EBF4742AFA929F4AC28F92DB5}
 
 1. Launch Visual Studio and open your solution. 
-1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference**. 
+1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference**.
 
-1. [Select the Correct Version](../c-getting-started/dev-qs.md#section_E53C5AA7D5474824A89BB32C003865A1) of the library and then browse to the associated [!DNL ADBMobile.winmd] file. Click **[!UICONTROL Add]**. 
+    For more information, see *Select the Correct Version* in [Developer quick start](/help/windows-appstore/c-getting-started/dev-qs.md).
+
+1. Select the correct version of the library and then browse to the associated [!DNL ADBMobile.winmd] file. 
+
+1. Click **[!UICONTROL Add]**.
 
 1. Verify that [!DNL ADBMobile.winmd] is checked in the **[UICONTROL Reference Manager]** window and click **[UICONTROL OK]**. 
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >When adding a reference to a Windows Phone app, you will have to change the default file filter from **[!UICONTROL Component Files]** to **All Files** in order to select [!DNL ADBMobile.winmd].
+   >When adding a reference to a Windows Phone app, to select [!DNL ADBMobile.winmd], change the default file filter from **[!UICONTROL Component Files]** to **All Files**.
 
 1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**. 
 
