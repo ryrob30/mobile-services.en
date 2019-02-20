@@ -116,7 +116,7 @@ Classes and methods provided by the Windows 8.1 Universal App Store library.
 
   Returns the custom user identifier if a custom identifier has been set. Returns null if a custom identifier is not set. The default value is `null`.  
   
-  [!TIP]
+  >[!TIP]
   >
   >If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous ID (either custom or automatically generated) is retrieved and stored as the custom user identifier. This preserves visitor data between upgrades of the SDK. For new installations on the 4.x SDK, user identifier is `null` until set. 
 

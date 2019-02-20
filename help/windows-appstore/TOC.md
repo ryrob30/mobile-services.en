@@ -23,18 +23,9 @@ user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
   + [Event serialization](analytics/event-serialization.md)
   + [Video Analytics](analytics/video-qs.md)
   + [Analytics methods](analytics/analytics-methods.md)
-+ Target {#target-win-appstore}
-  + [Target Overview](target/target-methods.md)
-  + [Target methods](target/target-methods.md)
-+ Audience Manager {#audience-mgr-win-appstore}
-  + [Audience Manager Overview](audiencemgmt/audience-manager-methods.md)
-  + [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
-+ Lifecycle Metrics {#lifecycle-metrics-win-appstore}
-  + [Lifecycle metrics](metrics.md)
-+ Extensions {#extensions-win-appstore}
-  + [Extensions](extensions/win-vse-4x.md)
-  + [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
-+ Bloodhound {#bloodhound-win-appstore}
-  + [Using Bloodhound to test mobile applications](bloodhound.md)
-+ Migrate to the 4.x SDKs {#migration-win-appstore}
-  + [Migration](migration-v3.md)
++ [Target methods](target/target-methods.md)
++ [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
++ [Lifecycle metrics](metrics.md)
++ [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
++ [Using Bloodhound to test mobile applications](bloodhound.md)
++ [Migration](migration-v3.md)

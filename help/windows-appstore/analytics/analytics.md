@@ -29,15 +29,19 @@ Before you add code, have your Analytics Administrator complete the following to
 
 Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface.
 
+
 ### New Versions
 
 Periodically, new versions of mobile application reporting are released. New versions are not applied to your report suite automatically, you must repeat these steps to perform the upgrade. Each time you add new Experience Cloud functionality to your app, we recommend repeating these steps to ensure you have the latest configuration.
+
 
 ## Lifecycle Metrics {#section_532702562A7A43809407C9A2CBA80E1E}
 
 To collect lifecycle metrics in your app, add calls to when the application is activated as shown in the following examples.
 
-### WinJS, in default.js
+
+### WinJS in default.js
+
 
 ```js
 app.onactivated = function (args) { 
@@ -52,7 +56,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C#, in App.xaml.cs:
+### C# in App.xaml.cs
 
 ```js
 public App() 
@@ -81,7 +85,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-### C/CX, in App.xaml.cpp:
+### C/CX in App.xaml.cpp
 
 ```js
 App::App() 
@@ -112,7 +116,9 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 
 If `CollectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `CollectLifecyleData()` reports a crash.
 
+
 ## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+
 
 If you've looked at the [ADBMobile Class and Method Reference](/help/windows-appstore/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -123,6 +129,7 @@ Processing rules provide you several advantages:
 * There is little impact to sending in extra data. These values won’t appear in reports until they are mapped using processing rules.
 
 Any values that you were assigning directly to variables should be added to context data instead.
+
 
 ## Processing Rules {#section_66EE762EEA5E4728864166201617DEBF}
 
@@ -178,7 +185,7 @@ To set *`products`* in the mobile SDK, you must use a special syntax. See [Produ
 
 ## (Optional) Enable Offline Tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/windows-appstore/c-configuration/methods.md). Pay very close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/windows-appstore/c-configuration/methods.md). Before you enable offline tracking, Pay attention to the timestamp requirements described in the config file reference.
 
 ## Geo-location and Points of Interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 

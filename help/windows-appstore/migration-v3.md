@@ -86,7 +86,7 @@ For more information, see *Processing Rules* in [Analytics](/help/windows-appsto
 
 Any values that you were assigning directly to variables should be added to context data instead. This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
 
-**AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables **
+**AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables**
 
 Any other data that you were setting on the measurement object, including the variables listed above, should be added to context data instead.
 
@@ -98,10 +98,10 @@ Throughout your code, replace the following methods with a call to `trackState` 
 
 ### Migrating from 3.x
 
-* TrackAppState (TrackState) 
-* TrackEvents (TrackAction) 
-* Track (TrackAction) 
-* TrackLinkURL (TrackAction)
+* `TrackAppState` (TrackState) 
+* `TrackEvents` (TrackAction) 
+* `Track` (TrackAction) 
+* `TrackLinkURL` (TrackAction)
 
 ## Custom Visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
 
@@ -115,8 +115,8 @@ Throughout your code, remove calls to the following methods:
 
 ### Migrating from 3.x
 
-* SetOnline 
-* SetOffline
+* `SetOnline` 
+* `SetOffline`
 
 ## Products Variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
