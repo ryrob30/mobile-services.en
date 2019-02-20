@@ -139,15 +139,15 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
   * Here is the syntax for this method:
 
-  ```csharp
-  static Platform::String ^GetPcId();
-  ```
+    ```csharp
+    static Platform::String ^GetPcId();
+    ```
 
   * Here is the code sample for this method:
 
-   ```js
-   auto pcId = ADBMobile.Target.getPcId(); 
-   ```
+    ```js
+    auto pcId = ADBMobile.Target.getPcId(); 
+    ```
 
 * **GetSessionId (winJS: getSessionId)**
 

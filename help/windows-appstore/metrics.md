@@ -117,7 +117,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
   * Analytics context data/Target: `a.DaysSinceLastUse`
   * Audience Manager: `c_a_DaysSinceLastUse`
 
-* ** Hour of Day**
+* **Hour of Day**
 
   Measures the hour that the app was launched. This metric uses the 24-hour numerical format and is used for time parting to determine peak usage times. 
 
