@@ -23,7 +23,7 @@ cordova plugin add adobe-mobile-services
 
 # Manually install the plug-in {#section_EA1FD59C484D44878AB509954DEE6037}
 
-### Include the Plug-in
+## Include the Plug-in
 
 1. Drag the `ADBMobile_PhoneGap.java` file to your `src` folder.
 
