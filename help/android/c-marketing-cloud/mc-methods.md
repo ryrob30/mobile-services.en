@@ -30,6 +30,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
     ```java
     URL java.lang.String  
     ```
+
     A required URL string to which the visitor information is appended.  
 
   * Here is the code sample for this method:

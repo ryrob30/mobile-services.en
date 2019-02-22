@@ -21,7 +21,9 @@ You can use this information to track deep and deferred deep links in your mobil
 
    For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md). 
 
-1. Register the application to handle [URLs](https://developer.android.com/training/basics/intents/filters.html). 
+1. Register the application to handle URLs.
+
+    For more information, see [URLs](https://developer.android.com/training/basics/intents/filters.html).
 1. Pass Activity with deep link intent to Adobe SDK by using `collectLifecycleData`.
 
    Here is a sample track deep link:

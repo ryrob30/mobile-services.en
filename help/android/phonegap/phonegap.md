@@ -11,9 +11,7 @@ uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 
 # PhoneGap Plug-in {#phonegap-plug-in}
 
-This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project.
-
-To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
+This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project. To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## Install the plug-in using npm {#section_43229E57C16944C0B51531CB92089189}
 
@@ -23,19 +21,19 @@ Run the following command:
 cordova plugin add adobe-mobile-services
 ```
 
-## Manually install the plug-in {#section_EA1FD59C484D44878AB509954DEE6037}
+# Manually install the plug-in {#section_EA1FD59C484D44878AB509954DEE6037}
 
-### Include the Plug-in
+## Include the Plug-in
 
-1. Drag [!DNL ADBMobile_PhoneGap.java] to your [!DNL src] folder.
-
-   To move this file, click **[!UICONTROL OK]**. 
-
-1. Drag [!DNL ADB_Helper.js] into the folder that contains [!DNL index.html] ( [!DNL assets] > [!DNL www]).
+1. Drag the `ADBMobile_PhoneGap.java` file to your `src` folder.
 
    To move this file, click **[!UICONTROL OK]**. 
 
-1. In the [!DNL res/xml] folder, open [!DNL config.xml] and register an new plugin by adding the following:
+1. Drag the `ADB_Helper.js` file into the folder that contains the `index.html` file 
+
+   To move this file, click **[!UICONTROL OK]**. 
+
+1. In the `res/xml` folder, open the `config.xml` file and register an new plugin by adding the following:
 
    ```xml
    <feature name="ADBMobile_PhoneGap"> 
@@ -49,21 +47,21 @@ cordova plugin add adobe-mobile-services
    <param name="android-package" value="com.example.phonegaptest.ADBMobile_PhoneGap" />
    ```
 
-### Include the AppMeasurement Library
+## Include the AppMeasurement Library
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md). 
-1. Drag [!DNL adobeMobileLibrary.jar] to your [!DNL src] folder.
+1. Drag the the `adobeMobileLibrary.jar` file to your `src` folder.
 
    To move this file, click **[!UICONTROL OK]**. 
 
-1. Right-click [!DNL adobeMobileLibrary.jar] and select **[!UICONTROL Add as Library]**. 
+1. Right-click the `adobeMobileLibrary.jar file and select **[!UICONTROL Add as Library]**. 
 1. Based on the requirements of your project, enter the name, level, and location for the library. 
-1. Drag [!DNL ADBMobileConfig.json] to your [!DNL assets] folder in the application root. 
+1. Drag the `ADBMobileConfig.json` file to your `assets` folder in the application root. 
 1. Confirm that you have selected the root application and **not** an application in an application.
 
    To move this file, click **[!UICONTROL OK]**.
 
-### Add App Permissions
+## Add app permissions
 
 The AppMeasurement library requires the following permissions to send data and record offline tracking calls:
 

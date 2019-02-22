@@ -84,9 +84,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
     ```java
     Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
-
     Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”);
-
     Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); 
     mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
     Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters
@@ -114,25 +112,54 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
     Here are the parameters for this method:
 
-    |Name: |Description: |
-    |--- |--- |
-    |name|****Type:**** String Name of the Target mbox/location that you want to retrieve.|
-    |defaultContent|**Type:** String Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.|
-    |profileParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the "profileParameters" object in the request to Target.|
-    |orderParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the "order" object in the request to Target.|
-    |mboxParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the request to Target.|
-    |requestLocationParameters|**Type:** Map `<String, Object>` Values in this dictionary will go in the "requestLocation" object in the request to Target.|
-    |callback|**Type:** TargetCallback `<String>` This method will be called with the content of the offer from the Target server. If the Target server is unreachable or the user does not qualify for the campaign, defaultContent will be returned.|
+    * **name**
+
+      Name of the Target mbox/location that you want to retrieve.
+
+      * **Type:** String
+
+    * **defaultContent**
+
+      Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.
+
+      * **Type:** String
+
+    * **profileParameters**
+
+      Values in this dictionary will go in the "profileParameters" object in the request to Target.
+
+      * **Type:** Map `<String, Object>`
+
+    * **orderParameters**
+
+      Values in this dictionary will go in the "order" object in the request to Target.
+
+      * **Type:** Map `<String, Object>`
+
+    * **mboxParameters**
+
+      Values in this dictionary will go in the request to Target.
+
+      * **Type:** Map `<String, Object>`
+
+    * **requestLocationParameters**
+
+      Values in this dictionary will go in the "requestLocation" object in the request to Target.
+
+      * **Type:** Map `<String, Object>`
+
+    * **callback**
+
+      This method will be called with the content of the offer from the Target server. If the Target server is unreachable or the user does not qualify for the campaign, defaultContent will be returned.
+
+      * **Type:** TargetCallback `<String>`
 
   * Here is sample code for this method: 
 
     ```java
     Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
-
     Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
-
     Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
-
     Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put(“request-location-parameter-key”, “request-location-parameter-value”); 
 
     Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {

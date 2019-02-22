@@ -22,11 +22,11 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
 
 To prepare to add Facebook deep linking support with the Adobe Mobile SDK, the app developer completes the following tasks:
 
-* Get started with the Android SDK.
+* Get started with the Android SDK
 
   For more information, see [Getting Started Android SDK](https://developers.facebook.com/docs/android/getting-started) .
 
-* Set up deep linking.
+* Set up deep linking
 
   For more information, see [Deep Linking Set up](https://developers.facebook.com/docs/app-ads/deep-linking#os).
 

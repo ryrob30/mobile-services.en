@@ -12,18 +12,18 @@ uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
 
 Starting in Android SDK version 4.5, a new Android extension was added that allows you to collect data from your Android Wearable app.
 
-## Configuring the SDK for a Handheld App (Android Studio) {#section_262237484EC44C58953891B105F0D000}
+## Configuring the SDK for a handheld app (Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
 For more information about importing the SDK into your project, see [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md).
 
-1. Add the [!DNL ADBMobileConfig.json] file to the assets folder of your project. 
-1. Add the [!DNL adobeMobileLibrary-*.jar] file to the libs folder or make sure this file is referenced by the project.
+1. Add the `ADBMobileConfig.json` file to the assets folder of your project. 
+1. Add the `adobeMobileLibrary-*.jar` file to the libs folder or make sure this file is referenced by the project.
 
    >[!TIP]
    >
    >You might need to sync the gradle project after adding the [!DNL .jar] file.
 
-1. In the [!DNL onCreate] method, allow the SDK access to your application context by using [!DNL Config.setContext]: 
+1. In the `onCreate` method, allow the SDK access to your application context by using `Config.setContext`: 
 
    ```java
    @Override 
@@ -36,7 +36,7 @@ For more information about importing the SDK into your project, see [Core Implem
    }
    ```
 
-1. Add the following code to [!DNL AndroidManifest.xml]: 
+1. Add the following code to the `AndroidManifest.xml` file: 
 
    ```java
        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
@@ -51,7 +51,7 @@ For more information about importing the SDK into your project, see [Core Implem
    ```
 
 1. Make sure your project includes the Google play-services library. 
-1. Implement [!DNL WearableListenerService] or add the corresponding code to your [!DNL WearableListenerService]: 
+1. Implement [!DNL WearableListenerService] or add the corresponding code to your `WearableListenerService`: 
 
    ```java
    public class WearListenerService extends WearableListenerService { 
@@ -84,7 +84,7 @@ For more information about importing the SDK into your project, see [Core Implem
    }
    ```
 
-1. Add [!DNL WearListenerService] to [!DNL AndroidManifest.xml]: 
+1. Add `WearListenerService` to the `AndroidManifest.xml` file: 
 
    ```java
    If you are using Google Play Services  < 8.2 
@@ -117,8 +117,8 @@ For more information about importing the SDK into your project, see [Core Implem
 
 1. Complete one of the following tasks:
 
-    * Add the same [!DNL ADBMobileConfig.json] file to the assets folder of your wearable project. 
-    * Change the gradle config to use the [!DNL ADBMobileConfig.json] in the assets folder of the handheld app:
+    * Add the same `ADBMobileConfig.json` file to the assets folder of your wearable project. 
+    * Change the gradle config to use the  `ADBMobileConfig.json` in the assets folder of the handheld app:
 
       ```java
       android { 
@@ -131,11 +131,11 @@ For more information about importing the SDK into your project, see [Core Implem
       }
       ```
 
-1. Add the [!DNL adobeMobileLibrary-*.jar] file to the libs folder or make sure it get referenced by the project.
+1. Add the `adobeMobileLibrary-*.jar` file to the libs folder or make sure it get referenced by the project.
 
    You might need to sync the gradle project after adding the jar file. 
 
-1. In the [!DNL onCreate] method, allow the SDK access to your application context using [!DNL Config.setContext]: 
+1. In the `onCreate` method, allow the SDK access to your application context using `Config.setContext`: 
 
    ```java
    @Override 
@@ -158,7 +158,7 @@ For more information about importing the SDK into your project, see [Core Implem
    ```
 
 1. Ensure that your project includes the Google play-services library. 
-1. Implement [!DNL WearableListenerService] or add the corresponding code to your [!DNL WearableListenerService]: 
+1. Implement `WearableListenerService` or add the corresponding code to your `WearableListenerService`: 
 
    ```java
    public class WearListenerService extends WearableListenerService { 
@@ -171,7 +171,7 @@ For more information about importing the SDK into your project, see [Core Implem
    }
    ```
 
-1. Add [!DNL WearListenerService] to [!DNL AndroidManifest.xml]: 
+1. Add `WearListenerService` to the `AndroidManifest.xml` file: 
 
    ```java
    If you are using Google Play Services  < 8.2 

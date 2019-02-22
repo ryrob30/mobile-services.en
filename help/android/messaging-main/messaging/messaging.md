@@ -22,9 +22,9 @@ You can create messages and the rules in Adobe Mobile services that define when 
 
 1. Add the library to your project and implement lifecycle.
 
-  For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
+    For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md). 
 
-1. Update [!DNL AndroidManifest.xml] to declare the full screen activity and enable the Message Notification Handler:
+1. Update the `AndroidManifest.xml` file to declare the full screen activity and enable the Message Notification Handler:
 
    ```java
    <activity  
@@ -104,13 +104,17 @@ The Android Mobile SDKs track the following metrics for your in-app messages:
 * For full screen and alert style in-app messages:
 
   * **Impressions**: when user triggers an in-app message. 
-  * **Click throughs**: when user presses the **[!UICONTROL Click through]** button. 
-  * **Cancels**: when user presses the **[!UICONTROL Cancel]** button.
+  * **Click throughs**: when user presses **[!UICONTROL Click through]**. 
+  * **Cancels**: when user presses **[!UICONTROL Cancel]**.
 
 * For custom, full screen in-app messages, the HTML content in the message needs to include the correct code to notify the SDK tracking about the following buttons:
 
-  * **Click-through** (redirect) example tracking: `adbinapp://confirm/?url=https://www.yoursite.com` 
-  * **Cancel** (close) example tracking: `adbinapp://cancel`
+  * **Click-through** (redirect) example tracking: 
+  
+    `adbinapp://confirm/?url=https://www.yoursite.com` 
+  * **Cancel** (close) example tracking: 
+  
+    `adbinapp://cancel`
 
 ## Local Fallback Image {#section_DEACC1CE549B4573B556A44A52409941}
 
@@ -142,7 +146,7 @@ The following methods allow you to configure the small and large icons that appe
 
 * **Config.setLargeIconResourceId(int resourceId)** 
 
-  Set the large icon that will be used for notifications that are created by the SDK. This icon will be the primary image that is displayed when the user sees the complete notification in the notification center.
+  Set the large icon that will be used for notifications that are created by the SDK. This icon is the primary image that is displayed when the user sees the complete notification in the notification center.
 
   * Here is the syntax for this method:
 

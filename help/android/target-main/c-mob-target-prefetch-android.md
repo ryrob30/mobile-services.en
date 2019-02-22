@@ -16,7 +16,7 @@ Prefetch content does not persist across launches. The prefetch content is cache
 
 >[!IMPORTANT]
 >
->Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
+>Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [Batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
 
 In SDK version 4.14 or later, if specified, the `environmentId` is picked from the ADBMobileConfig.json file when initiating a v2 batch mbox TnT call. If no `environmentId` is specified in this file, no environment parameter is sent in TNT batch mbox call, and offer is delivered for the default environment.
 
@@ -50,11 +50,17 @@ Here are the methods that you can use for prefetch in Android:
 
   * Here are the parameters for this method:
 
-    |Name |Description |
-    |--- |--- |
-    |targetPrefetchArray|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
-    |profileParameters|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
-    |callback|Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.|
+    * **targetPrefetchArray**
+
+      Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.
+
+    * **profileParameters**
+
+      Contains the keys and values of profile parameters to be used with every location prefetch in this request.
+
+    * **callback**
+
+      Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.
 
 * **loadRequests**
 
@@ -70,12 +76,15 @@ Here are the methods that you can use for prefetch in Android:
     public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
     ```
 
-  * Here are the parameters for this method: 
+  * Here are the parameters for this method:
 
-    |Name |Description |
-    |--- |--- |
-    |requestArray|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
-    |profileParameters|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
+    * **requestArray**
+
+      Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.
+
+    * **profileParameters**
+
+      Contains keys and values of profile parameters to be used with every location prefetch in this request.
 
 * **clearPrefetchCache**
 
@@ -127,25 +136,68 @@ Here are the public classes that support pre-fetch in Android:
 
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
-| Property | Description |
-|--- |--- |
-|`name`|**Type**: String <br>Name of the location that will be prefetched.|
-|`mboxParameters`|**Type**: Map`<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.|
-|`orderParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
-|`productParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
+* **`name`**
+
+  Name of the location that will be prefetched.
+  * **Type**: String
+
+* `mboxParameters`
+
+  Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetPrefetchObject`'s request.
+  * **Type**: Map`<String, Object>`
+
+* **`orderParameters`**
+
+  Collection of key-value pairs that will be attached to current mbox under the order node.
+  * **Type**: Map `<String, Object>`
+
+* **`productParameters`**
+
+  Collection of key-value pairs that will be attached to current mbox under the product node.
+
+  * **Type**: Map `<String, Object>`
+
 
 ### Class Reference: TargetRequestObject
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
-| Property | Description |
-|--- |--- |
-|`mboxName`|**Type**: String <br>Name of the requested location.|
-|`mboxParameters`|Type: Map `<String, Object>` <br>Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetRequestObject`.|
-|`orderParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the order node.|
-|`productParameters`|**Type**: Map `<String, Object>` <br>Collection of key-value pairs that will be attached to current mbox under the product node.|
-|`defaultContent`|**Type**: String <br>String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.|
-|`callback`|**Type**: Target.TargetCallback`<String>` <br>Function pointer that will be called when content for the given `TargetRequestObject` is available.|
+* **`mboxName`**
+
+  Name of the requested location.
+
+  * **Type**: String
+
+* **`mboxParameters`**
+
+  Collection of key-value pairs that will be attached as `mboxParameters` for this  `TargetRequestObject`.
+
+  * **Type: Map `<String, Object>`**
+
+* **`orderParameters`**
+
+  Collection of key-value pairs that will be attached to current mbox under the order node.
+
+  * **Type**: Map `<String, Object>`
+
+* **`productParameters`**
+
+  Collection of key-value pairs that will be attached to current mbox under the product node.
+
+  * **Type**: Map `<String, Object>`
+
+* **`defaultContent`**
+
+  String value that is returned in the callback if the SDK is unable to retrieve content from Target servers.
+
+  * **Type**: String
+
+* **`callback`**
+
+  Function pointer that will be called when content for the given `TargetRequestObject` is available.
+
+  * **Type**: Target.TargetCallback`<String>`
+
 
 ## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
 

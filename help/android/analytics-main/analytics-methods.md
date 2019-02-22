@@ -38,6 +38,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     Analytics.trackState("loginScreen",null);
     ```
+
 * **trackAction**
   Tracks an action in your app.
   
@@ -54,6 +55,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     Analytics.trackAction("heroBannerTouched",null);
     ```
+
 * **getTrackingIdentifier**
   Returns the automatically generated visitor identifier for Analytics. 
   
@@ -73,7 +75,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
   
 * **trackLocation**
 
-  Sends the current latitude, longitude, and location in a defined [point of interest](/help/android/location/geo-poi.md). 
+  Sends the current latitude, longitude, and location in a defined point of interest. For more information, see [Geo-location and Points of Interest](/help/android/location/geo-poi.md).
 
   * Here is the syntax for this method:
 
@@ -124,6 +126,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     Analytics.trackTimedActionStart("cartToCheckout",null)
     ```
+
 * **trackTimed​ActionUpdate**
 
   Pass in `contextData` to update the context data that is associated with the `action`. The `data` that is passed in is appended to the existing data for the action, and if the same key is already defined for `action`, overwrites the data. 
@@ -137,6 +140,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     public static void trackTimedActionUpdate(Stringaction,Map <String,Object> contextData); 
     ```
+
   * Here is a code sample for this method:
 
     ```java
@@ -158,6 +162,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     public static void trackTimedActionEnd(Stringaction,TimedActionBlock<Boolean> logic); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -171,6 +176,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
        }
     });
     ```
+
 * **sendQueuedHits**
 
   **Requires SDK 4.1.** 
@@ -204,6 +210,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     long queueSize = Analytics.getQueueSize(); 
     ```
+
 * **clearQueue**
   
   Clears all of the hits from the offline queue.
@@ -219,6 +226,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
     ```java
     Analytics.clearQueue();
     ```
+
     >[!WARNING]
     >
     > Use caution when manually clearing the queue. This process cannot be reversed.

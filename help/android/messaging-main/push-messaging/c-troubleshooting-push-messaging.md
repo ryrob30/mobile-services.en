@@ -22,6 +22,7 @@ This information helps you troubleshoot push messaging.
 
   * Waiting for Push Service
     The push service (APNS or GCM) might not immediately send out the message. Although uncommon, we have seen a delay of 5-10 minutes. On the Messages page, you can verify that the push message has been sent to the push service by clicking the **[!UICONTROL View]** link for the message. In the report, the number of successful sends to the push service is listed in the **[!UICONTROL Published]** column.  
+  
     >[!TIP]
     >
     >The push services do not guarantee that a message will be sent.

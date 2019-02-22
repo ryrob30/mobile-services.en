@@ -12,7 +12,7 @@ uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 
 If your app opens mobile web content, ensure that visitors are not identified separately as they move between the native and mobile web.
 
-## Visitor IDs in Apps
+## Visitor IDs in apps
 
 The Android SDK generates a unique visitor ID when an app is installed. This ID is stored in persistent memory on the mobile device, is sent with every hit, and is removed only when the user uninstalls the app. 
 
@@ -20,11 +20,11 @@ The Android SDK generates a unique visitor ID when an app is installed. This ID 
 >
 >App visitor IDs persist through upgrades.
 
-## Visitor IDs in the Mobile Web
+## Visitor IDs in the mobile web
 
 Typical mobile web implementations use the same standard Analytics `s_code.js` or `AppMeasurement.js` that is used in desktop sites. The JavaScript libraries have their own methods of generating unique visitor IDs, which causes a different visitor ID to be generated when you open mobile web content from your app.
 
-## Implementing Visitor Tracking Between an App and the Mobile Web {#section_1755BCCFD42D456EB2319141030FDDFF}
+## Implementing visitor tracking between an app and the mobile web {#section_1755BCCFD42D456EB2319141030FDDFF}
 
 To use the same visitor ID in the app and mobile web:
 
@@ -59,7 +59,7 @@ The ID service code on the destination domain extracts the MID from the URL inst
 
 On hits from the mobile web content, verify that the `mid` parameter exists on each hit, and that this value matches the `mid` parameter that is sent by the app code.
 
-## Troubleshooting Visitor Tracking {#section_9B641F8569E34A089C52AA28EA4C891D}
+## Troubleshooting visitor tracking {#section_9B641F8569E34A089C52AA28EA4C891D}
 
 **I do not see `Visitor.appendToURL`.**
 

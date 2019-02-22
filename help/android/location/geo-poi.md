@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 ---
 
-# Geo-Location and Points of Interest {#geo-location-and-points-of-interest}
+# Geo-location and points of interest {#geo-location-and-points-of-interest}
 
 Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your Android apps.
 
@@ -32,7 +32,7 @@ Starting in version 4.2, POIs are defined in the Adobe Mobile UI and dynamically
 
 If this is not configured, you must download an updated version of the `ADBMobile.json` file and add it to your app. For more information, see [Download the SDK and Testing Tools](/help/android/getting-started/requirements.md).
 
-## Tracking Geo-Location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Tracking Geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Add the library to your project and implement lifecycle.
 

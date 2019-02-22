@@ -12,16 +12,13 @@ uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
 
 Adobe Mobile and the Adobe Mobile SDK allow you to send push messages to your users. The SDK also allows you to easily report users who have opened your app after clicking through a push message.
 
->[!IMPORTANT]
->
->To use push messaging, you **must** have SDK version 4.6 or later.
+To use push messaging, you **must** have SDK version 4.6 or later.
 
 >[!IMPORTANT]
 >
 >Do not manually set the Experience Cloud ID inside your app. This causes the creation of a new unique user that will not receive push messages because of its opt-in status. For example, a user has opted-in to receive push messages logs in to your app. After logging in, if you manually set the ID inside your app, a new unique user is created who has not opted to receive push messages. This new user will not receive your push messages.
-
->[!IMPORTANT]
 >
+
 >Moving your app to a new report suite is not supported. If you migrate to a new report suite, your push configuration can break, and messages might not be sent.
 
 ## Enable Push Messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
@@ -70,9 +67,7 @@ Adobe Mobile and the Adobe Mobile SDK allow you to send push messages to your us
 
    Here are the requirements to enable push click-through reporting:
 
-    * In your implementation of `GCMListenerService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method, must be added to the Intent that is used to open the target activity on a click-through.
-
-      This can be done using the method `putExtras`. For more information, see [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))). 
+    * In your implementation of `GCMListenerService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method, must be added to the Intent that is used to open the target activity on a click-through. This can be done using the `putExtras` method. For more information, see [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))). 
   
     * In the target activity of the clickthrough, the activity must be passed into the SDK with the `collectLifecycleData` call.
 

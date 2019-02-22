@@ -15,7 +15,7 @@ You can use this information to help you understand what postbacks are and how t
 
 >[!CAUTION]
 >
->This example is provided for informational purposes only. The [!DNL ADBMobileConfig.json] file should be configured in the Adobe Mobile UI and should not be manually modified. A manually edited configuration file can be dangerous when you have remote messages configuration enabled.
+>This example is provided for informational purposes only. The `ADBMobileConfig.json` file should be configured in the Adobe Mobile UI and should not be manually modified. A manually edited configuration file can be dangerous when you have remote messages configuration enabled.
 
 ## ADBMobileConfig.json Definition {#section_8751E8176F3546C09420341A39758AFF}
 
