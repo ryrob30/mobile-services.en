@@ -28,4 +28,4 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-If you already added this method call when you implemented [!DNL Analytics] or [!DNL Target], you do not need to add it again. 
+If you already added this method call when you implemented Analytics or Target, you do not need to add it again. 

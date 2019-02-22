@@ -15,7 +15,7 @@ Here is some information about measuring video on Android by the video measureme
 
 >[!TIP]
 >
->During video playback, frequent "heartbeat" calls are sent to this service to measure time played. These heartbeat calls are sent every 10 seconds, which results in granular video engagement metrics and more accurate video fallout reports. For more information about Adobe's video measurement solution, see [Measuring Video in Adobe Analytics using Video Heartbeat]<!--REKHA(https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)-->.
+>During video playback, frequent "heartbeat" calls are sent to this service to measure time played. These heartbeat calls are sent every 10 seconds, which results in granular video engagement metrics and more accurate video fallout reports. For more information about Adobe's video measurement solution, see [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 The general process to measure video is similar across all platforms. This content provides an overview of the developer tasks with code samples. The following table lists the media data that is sent to Analytics. Processing rules are used to map the context data to an Analytics variable.
 
@@ -55,7 +55,9 @@ The general process to measure video is similar across all platforms. This conte
 * **a.contentType**
   * Variable type: eVar
   * Default expiration: Page view
-  * Collects data about the type of content that is viewed by a visitor. Hits sent by video measurement are assigned a content type of `video`. From a video measurement perspective, **Content Type** allows you identify video visitors and calculate video conversion rates. 
+  * Collects data about the type of content that is viewed by a visitor. 
+  
+    Hits sent by video measurement are assigned a content type of `video`. From a video measurement perspective, **Content Type** allows you identify video visitors and calculate video conversion rates. 
 
 * **a.media.timePlayed**
   * Variable type: Event
@@ -65,17 +67,23 @@ The general process to measure video is similar across all platforms. This conte
 * **a.media.view**
   * Variable type: Event
   * Type: Counter
-  * Indicates that a visitor has viewed some portion of a video. However, it does not provide any information about how much, or which part, of a video that the visitor viewed.
+  * Indicates that a visitor has viewed some portion of a video. 
+  
+    However, it does not provide any information about how much, or which part, of a video that the visitor viewed.
 
 * **a.media.segmentView**
   * Variable type: Event
   * Type: Counter
-  * Indicates that a visitor has viewed some portion of a video segment. However, it does not provide any information about how much, or which part, of a video that the visitor viewed. 
+  * Indicates that a visitor has viewed some portion of a video segment. 
+  
+    However, it does not provide any information about how much, or which part, of a video that the visitor viewed. 
 
 * **a .media.complete**
   * Variable type: Event
   * Type: Counter
-  * Indicates that a user has viewed a complete video. By default, the complete event is measured 1 second before the end of the video. During implementation, you can specify how many seconds from the end of the video you would like to consider a view as being complete. For live video and other streams that do not have a defined end, you can specify a custom point to measure completes (for example, after a specific time viewed). 
+  * Indicates that a user has viewed a complete video. 
+  
+    By default, the complete event is measured 1 second before the end of the video. During implementation, you can specify how many seconds from the end of the video you would like to consider a view as being complete. For live video and other streams that do not have a defined end, you can specify a custom point to measure completes (for example, after a specific time viewed). 
 
 
 ## Configure Media Settings {#section_929945D4183C428AAF3B983EFD3E2500}
@@ -142,12 +150,15 @@ public boolean eventFirstTime;
 Here are the methods in the Media Measurement class:
 
 * **settingsWith**
-  * Returns a `MediaSettings` object with specified parameters. 
+  
+  Returns a `MediaSettings` object with specified parameters. 
+
   * Here is the syntax for this method:
   
     ```java
     public static MediaSettings adSettingsWith(String name, double length, String playerName, String parentName, String parentPod, double parentPodPosition, String CPM);
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -155,19 +166,24 @@ Here are the methods in the Media Measurement class:
     ```
 
 * **adSettingsWith**
-  * Returns a `MediaSettings` object for use with tracking an ad video.
+
+  Returns a `MediaSettings` object for use with tracking an ad video.
   * Here is the syntax for this method:
   
     ```java
     public static MediaSettings adSettingsWith(String name, double length, String playerName, String parentName, String parentPod, double parentPodPosition, String CPM);
     ```
+
 * **open**
-  * Opens a `MediaSettings` object for tracking.
+  
+  Opens a `MediaSettings` object for tracking.
+
   * Here is the syntax for this method:
 
     ```java
     public static void open(MediaSettings settings, MediaCallback callback); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -177,18 +193,23 @@ Here are the methods in the Media Measurement class:
       {//  monitor  callback  if  you  want  to  be  notified  every  second  the  media  is  playing  }
       }); 
     ```
+
   * **close**
-    * Closes the media item named *name*.
+
+    Closes the media item named *name*.
+
     * Here is the syntax for this method:
   
     ```java
     public static void close(String name);
     ``` 
+
   * Here is the code sample for this method:
 
     ```java
     Media.close("name"); 
     ```
+
 * **play**
   * Plays the media item named *name* at the given *offset* in seconds.
   * Here is the syntax for this method:
@@ -196,13 +217,17 @@ Here are the methods in the Media Measurement class:
     ```java
     publicstatic void play(String name, double offset); 
     ```
+
 * **complete**
-  * Manually mark the media item as complete at the *offset* provided in seconds. 
+  
+  Manually mark the media item as complete at the *offset* provided in seconds. 
+
   * Here is the syntax for this method:
 
     ```java
     public static void complete(String name, double offset); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -210,7 +235,9 @@ Here are the methods in the Media Measurement class:
     ```
 
 * **stop**
-  * Notifies the media module that the video has been stopped or paused at the given *offset*.
+
+  Notifies the media module that the video has been stopped or paused at the given *offset*.
+
   * Here is the syntax for this method:
 
     ```java
@@ -224,24 +251,31 @@ Here are the methods in the Media Measurement class:
     ```
 
 * **click**
-  * Notifies the media module that the media item has been clicked. 
+  
+  Notifies the media module that the media item has been clicked. 
+
   * Here is the syntax for this method:
 
     ```java
     public static void click(String name double offset); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
     Media.click("name", 0);
     ```
+
 * **track**
-  * Sends a track action call (no page view) for the current media state. 
+
+  Sends a track action call (no page view) for the current media state. 
+
   * Here is the syntax for this method:
 
     ```java
     publicstatic void track(String name, Map<String, Object> data); 
     ```
+
   * Here is the code sample for this method:
   
     ```java

@@ -18,7 +18,7 @@ The same config file can be used for your app across multiple platforms:
 
 >[!TIP]
 >
->In **Android**, the [!DNL ADBMobileConfig.json] file must be placed in the [!DNL assets] folder.
+>In **Android**, the `ADBMobileConfig.json` file must be placed in the [!DNL assets] folder.
 
 Here is a list of the variables in the JSON file and the minimum SDK version you need for each variable:
 
@@ -27,15 +27,20 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   * Enables mobile app acquisition.
     * `server`, which is the acquisition server that is checked at the initial launch for an acquisition referrer. 
     * `appid`, which is the generated ID that uniquely identifies this app on the acquisition server.  
-     If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see *referrerTimeout* in this list of variables. 
+
+  If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see *referrerTimeout* in this list of variables. 
 
 * **analyticsForwardingEnabled**
   * Minimum SDK version is 4.8.0.
-  * The default value is `false`. The property in the `audienceManager` object. If Audience Manager is configured, and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager.
+  * The default value is `false`. 
+  
+    The property in the `audienceManager` object. If Audience Manager is configured, and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager.
 
 * **backdateSessionInfo**
   * Minimum SDK version: 4.6.
-  * Enables/disables the ability for the Adobe SDK to backdate session info hits. Session info hits currently consist of crashes and session length and can be enabled or disabled.
+  * Enables/disables the ability for the Adobe SDK to backdate session info hits. 
+  
+    Session info hits currently consist of crashes and session length and can be enabled or disabled.
   
     **Enabling or Disabling Hits**
 
@@ -49,7 +54,9 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
 * **batchLimit**
   * Minimum SDK version: 4.1
-  * Threshold for number of hits to be sent in consecutive calls. For example, if `batchLimit` is set to 10, each hit before the 10th hit will be stored in the queue. When the 10th hit comes in, all 10 hits will be sent consecutively. 
+  * Threshold for number of hits to be sent in consecutive calls. 
+  
+    For example, if `batchLimit` is set to 10, each hit before the 10th hit will be stored in the queue. When the 10th hit comes in, all 10 hits will be sent consecutively. 
   
     Remember the following information:  
 
@@ -58,20 +65,23 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
 * **charset**
   * Minimum SDK version: 4.0 
-  * Defines the character set that you are using for the data that is sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. 
+  * Defines the character set that you are using for the data that is sent to Analytics. 
+  
+    The charset is used to convert incoming data into UTF-8 for storage and reporting. 
 
 * **clientCode**
   * Minimum SDK version: 4.0
   * Your assigned client code.
   
-  >[!IMPORTANT]
-  >
-  >This variable is required by Target. 
+    >[!IMPORTANT]
+    >
+    >This variable is required by Target. 
 
 * **coopUnsafe**
   * Minimum SDK version:  4.16.1
-  * The Boolean property of the `marketingCloud` object that, when set to `true`, will cause device to be opted-out of the Experience Cloud's Device Co-Op. 
+  * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op. 
   * Default value is `false`. 
+
     This setting is used **only** for Device Co-op provisioned customers.  
 
     For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blacklist flag on your Device Co-op account. There is no self-service path to enabling these flags. 
@@ -84,7 +94,9 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
 * **environmentId**
   * Minimum SDK version: 4.14
-  * The ID of the environment you want to use. You can specify a valid ID (`environmentId=8`), and if `environmentId` is not included, the default Production environment is used. 
+  * The ID of the environment you want to use. 
+  
+    You can specify a valid ID (`environmentId=8`), and if `environmentId` is not included, the default Production environment is used. 
 
 * **lifecycleTimeout**
   * Minimum SDK version: 4.0
@@ -102,7 +114,9 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 * **offlineEnabled**
 
   * Minimum SDK version: 4.0 
-  * When enabled, hits are queued while the device is offline and sent later when the device is online. Your report suite must be timestamp-enabled to use offline tracking.
+  * When enabled, hits are queued while the device is offline and sent later when the device is online. 
+  
+    Your report suite must be timestamp-enabled to use offline tracking.
   
     The default value is `false`. 
   
@@ -121,24 +135,25 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
 * **poi**
   * Minimum SDK version: 4.0
-  * Each point of interest (POI) array holds the POI name, latitude, longitude, and radius in meters for the area of the point. The POI name can be any string. When a `trackLocation` call is sent, if the current coordinates are within a defined POI, a context data variable is populated and sent with the `trackLocation` call. 
+  * Each point of interest (POI) array holds the POI name, latitude, longitude, and radius in meters for the area of the point. 
+  
+    The POI name can be any string. When a `trackLocation` call is sent, if the current coordinates are within a defined POI, a context data variable is populated and sent with the `trackLocation` call. 
 
     ```javascript
-
     "poi": [
                ["san francisco",37.757144,-122.44812,7000]
                ["santa cruz",36.972935,-122.01725,600]
            ]
     ```
 
-  Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires the `analytics.poi` setting: 
+    Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires the `analytics.poi` setting: 
 
-  ```javascript
-  “analytics.poi“: https://assets.adobedtm.com/
-   …/yourfile.json”`,
-  ```
+      ```javascript
+      “analytics.poi“: `https://assets.adobedtm.com/`
+    …/yourfile.json”`,
+    ```
 
-  If this setting is not configured, the `ADBMobile.json` file must be updated to include this line. To download an updated configuration file, see [Before you Start](/help/android/getting-started/requirements.md).
+    If this setting is not configured, the `ADBMobile.json` file must be updated to include this line. To download an updated configuration file, see [Before you Start](/help/android/getting-started/requirements.md).
 
 * **postback**
   * Minimum SDK version: 4.6
@@ -161,7 +176,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
     * For `optedout`, the hits are discarded. 
     * For `optunknown`, if your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded). 
 
-    If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.  This only sets the initial value. If this value is set or changed in code, the new value is used until it is changed again, or when the app is uninstalled and reinstalled.
+    If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to `optedin`.  This only sets the initial value. If this value is set or changed in code, the new value is used until it is changed again, or when the app is uninstalled and reinstalled.
 
 * **referrerTimeout**
   * Minimum SDK version: 4.1
@@ -173,7 +188,9 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
 * **remotes**
   * Minimum SDK version: 4.2
-  * Configured automatically and defines the Adobe-hosted endpoints for dynamic configuration files. The last update time of each configuration file is checked against the current version at each launch, and the updates are downloaded and saved. 
+  * Configured automatically and defines the Adobe-hosted endpoints for dynamic configuration files. 
+  
+    The last update time of each configuration file is checked against the current version at each launch, and the updates are downloaded and saved. 
     * `analytics.poi` is the endpoint for hosted POI configuration.  
     * `messages` is the endpoint for hosted in-app message configuration. 
 
@@ -214,7 +231,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
     ```
 
 * **timeout**
-  * Minimum SDK verson: 4.0 
+  * Minimum SDK version: 4.0 
   * Determines how long Target waits for a response.
 
 

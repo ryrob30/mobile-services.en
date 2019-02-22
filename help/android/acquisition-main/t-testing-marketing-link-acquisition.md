@@ -109,9 +109,9 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    |--- |--- |
    |Analytics - Unable to decode response(`<string>`).|The response is malformed.|
    |Analytics - Unable to parse response (`a JSON Response`).|The JSON string is malformed.|
-   |Analytics - Unable to parse acquisition service response (no contextData parameter in response).|There in no  contextData  parameter in the response.|
+   |Analytics - Unable to parse acquisition service response (no `contextData` parameter in response).|There in no  `contextData`  parameter in the response.|
    |Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring.|`a.referrer.campaign.name` is not included in contextData.|
-   |Analytics - Acquisition referrer timed out.|Failed to get the response in the time defined by referrerTimeout. Increase the value and try again.  You should also ensure that you've opened the acquisition link before installing the app.|
+   |Analytics - Acquisition referrer timed out.|Failed to get the response in the time defined by `referrerTimeout`. Increase the value and try again.  You should also ensure that you've opened the acquisition link before installing the app.|
 
 Remember the following information: 
 
@@ -123,10 +123,10 @@ Remember the following information:
 
 To install the Java tool:
 
-1. Download the `acquistionTester.zip` file. 
+1. Download the [`acquistionTester.zip`](../assets/acquisitionTester.zip) file. 
 1. Extract the .jar file. 
 
-You can run the .jar file on the command line. 
+    You can run the .jar file on the command line. 
 
 For example: 
 

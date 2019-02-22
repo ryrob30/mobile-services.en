@@ -110,14 +110,14 @@ Remember the following information:
 
   **Install the Java Tool** 
 
-To install the Java tool: >
-1. Download the acquisitionTester.zip file. 
+To install the Java tool: 
+1. Download the [`acquisitionTester.zip`](/help/android/assets/acquisitionTester.zip) file. 
 1. Extract the .jar file. 
 
-You can run the file on the command line. 
+    You can run the file on the command line. 
 
-For example: 
+    For example: 
 
-```java
-java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
-```
+    ```java
+    java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
+    ```

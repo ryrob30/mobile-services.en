@@ -17,6 +17,7 @@ Each time a new state is displayed in your application, for example, when a user
 ## Tracking States {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
+
    For more information, see *Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project* in [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md).
  
 1. Import the library: 
@@ -68,7 +69,7 @@ States are typically viewed by using a pathing report, which allows you to see h
 | | |
 |--- |--- |
 |Adobe Mobile Services | The **[!UICONTROL View States]** report. This report is based on the paths that the users took through your application. A sample path is  Home  >  Settings  > Feed. |
-|Adobe Analytics|States can be viewed anywhere that Pages can be viewed, such as the **[!UICONTROL Pages]** report, the **Page Views** report, and the **[!UICONTROL Path]** report. |
+|Adobe Analytics|States can be viewed anywhere that Pages can be viewed, such as the **[!UICONTROL Pages]** report, the **[!UICONTROL Page Views]** report, and the **[!UICONTROL Path]** report. |
 |Ad hoc analytics|States can be viewed anywhere Pages can be viewed by using the **[!UICONTROL Page]** dimension, **[!UICONTROL Page Views]** metric, **[!UICONTROL Path]** reports. |
 
 

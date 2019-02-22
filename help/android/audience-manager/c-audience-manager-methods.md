@@ -13,7 +13,7 @@ uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 
 Here is a list of the Audience Manager methods that are provided by the Android library.
 
-The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Experience Cloud ID Service]. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
+The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID Service. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
 
 If Audience Manager is configured in your JSON file, a signal that contains lifecycle metrics is sent with your lifecycle hit. 
 
@@ -61,9 +61,9 @@ If Audience Manager is configured in your JSON file, a signal that contains life
 
   * Here is the code sample for this method:
 
-   ```java
-   String dpuuid = AudienceManager.getDpuuid(); 
-   ```
+     ```java
+     String dpuuid = AudienceManager.getDpuuid(); 
+     ```
 
 * **setDpidAndDpuuid**
 

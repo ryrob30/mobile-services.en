@@ -18,11 +18,13 @@ You can get the URL by calling `data.getString("adb_deeplink")` in the customize
 
 1. Complete one of the following tasks:
 
-* If the deep linking URL **is** in the push payload, create a `ACTION_VIEW` intent with the URL.
+    * If the deep linking URL **is** in the push payload, create a `ACTION_VIEW` intent with the URL.
 
-  When the user clicks the push message, a deep link is triggered. 
+      When the user clicks the push message, a deep link is triggered. 
 
-* If the deep linking URL **is not** in the push payload, create an intent that will open one of your activities.
+    * If the deep linking URL **is not** in the push payload, create an intent that will open one of your activities.
+
+## Examples
 
 Here is an example that uses a GCM implementation to pass data to the Mobile SDK after the message is received: 
 

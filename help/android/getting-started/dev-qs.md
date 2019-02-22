@@ -24,19 +24,19 @@ This information helps you implement the Android library and collect lifecycle m
     * [Create a Report Suite](/help/android/getting-started/requirements.md) 
     * [Download the SDK](/help/android/getting-started/requirements.md)
 
-1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` file, and verify that the following software components exist:
+1. Download and unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` file and verify that the following software components exist:
 
     * `adobeMobileLibrary.jar`, which is the library that will be used with Android devices and simulators. 
 
     * `ADBMobileConfig.json`, which is the SDK configuration file that is customized for your app.
 
->[!IMPORTANT]
->
->If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, and you want to set up a development report suite and download a pre-populated version of the configuration file, see [Before You Start](/help/android/getting-started/requirements.md).
+    >[!IMPORTANT]
+    >
+    >If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, and you want to set up a development report suite and download a pre-populated version of the configuration file, see [Before You Start](/help/android/getting-started/requirements.md).
 
 ## Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-### IntelliJ IDEA Project
+**IntelliJ IDEA Project**
 
 To add the SDK and config file to your project:
 
@@ -50,7 +50,7 @@ To add the SDK and config file to your project:
 1. Select the modules where you plan to use the mobile library. 
 1. Click **[!UICONTROL Apply]** and **[!UICONTROL OK]** to close the [!DNL Module Settings] window.
 
-### Eclipse Project
+**Eclipse Project**
 
 To add the SDK and config file to your project:
 
@@ -60,7 +60,7 @@ To add the SDK and config file to your project:
 1. Select `adobeMobileLibrary.jar`. 
 1. Click **[!UICONTROL Open]**. 
 1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**. 
-1. On the **[!UICONTROL Order and Export]** tab, ensure that [!DNL adobeMobileLibrary.jar] is selected.
+1. On the **[!UICONTROL Order and Export]** tab, ensure that **`adobeMobileLibrary.jar`** is selected.
 
 ## Add App Permissions {#section_2EAF73ABF6424647B219A63B33B02CD5}
 
@@ -111,7 +111,7 @@ After you enable lifecycle, each time your app is launched, one hit is sent to m
 >
 >You must add these calls to every activity to ensure accurate crash reporting. For more information, see [Track App Crashes](/help/android/analytics-main/crashes.md).
 
-### Include Additional Data with Lifecycle Calls
+## Include Additional Data with Lifecycle Calls
 
 To include additional data with lifecycle metric calls, pass an additional parameter to `collectLifecycleData` that contains context data:
 

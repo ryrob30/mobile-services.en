@@ -31,11 +31,11 @@ To collect acquisition data from a standard Google Play Acquisition campaign:
 
 * When the user downloads and runs an app as the result of a Google Play store acquisition, the data from the referrer will be collected and sent to [!DNL Adobe Mobile Services].
 
-  * The data will be stored and available in the `AdobeDataCallback` instance that was registered earlier with the SDK.
+  * The data is stored and available in the `AdobeDataCallback` instance that was registered earlier with the SDK.
 
       For more information, see [Configuration Methods](/help/android/configuration/methods.md). 
 
-  * The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used.
+  * The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type are used.
   
   * Custom keys that were part of the acquisition data from Google Play will be name-spaced with " `a.acquisition.custom.`"
 
@@ -47,7 +47,7 @@ If you are using the Acquisition links that were created on [!DNL Adobe Mobile S
 
 1. The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used. 
 
-1. The custom data keys will be prefixed with "`a.acquisition.custom.`"
+1. The custom data keys are prefixed with "`a.acquisition.custom.`"
 
 >[!TIP]
 >

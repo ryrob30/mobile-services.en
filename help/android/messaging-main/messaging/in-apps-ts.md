@@ -41,7 +41,9 @@ This information helps you troubleshoot in-app messaging.
 
   * Verify the assumptions in data for traits/trigger in Bloodhound. 
   
-  * Validate the hits in Bloodhound. For more information, see [View Hits](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html) for a screen shot that displays the SDK version. 
+  * Validate the hits in Bloodhound. 
+  
+     For more information, see [View Hits](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html) for a screen shot that displays the SDK version. 
 
     >[!IMPORTANT]
     > 
@@ -51,7 +53,7 @@ This information helps you troubleshoot in-app messaging.
 
   Verify that these settings are set the way you want. On the **[!UICONTROL Audience]** tab, review your **[!UICONTROL Trigger]** options, which allow you to specify how often the message is shown. 
 
-* ** If using launch event as trigger...**
+* **If using a launch event as the trigger...**
 
   Launch only fires on a new session. For more information about when a session begins, see the `lifecycleTimeout` row in [JSON Config](/help/android/configuration/json-config/json-config.md).
 
@@ -80,5 +82,5 @@ This information helps you troubleshoot in-app messaging.
     * The image scaled to 100% of the height of the device.  
     * The width is 75% of the device, with a fade out on the right.
   
-If you have issues with the full-screen template, you can download and use the Custom HTML template. This template provides more flexibility for images and allows full control of the template.
+    If you have issues with the full-screen template, you can download and use the Custom HTML template. This template provides more flexibility for images and allows full control of the template.
 

@@ -37,7 +37,7 @@ Processing rules provide the following advantages:
 
 ## Remove Unused Properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-The new [!DNL ADBMobileConfig.json] file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an [!DNL ADBMobileConfig.json] file:
+The new `ADBMobileConfig.json` file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an `ADBMobileConfig.json` file:
 
 ```js
 {
@@ -76,9 +76,9 @@ The following tables list the configuration variables that you need to move to t
 
 ### Migrating from version 3.x
 
-To migrate from version 3.x to 4, move the configuration variable/method value to the ADBMobileConfig.json variable. 
+To migrate from version 3.x to 4, move the configuration variable/method value to the `ADBMobileConfig.json` variable. 
 
-| Configuration Variable/Method | Variable in the ADBMobileConfig.json file |
+| Configuration Variable or Method | Variable in the `ADBMobileConfig.json` file |
 |--- |--- |
 |setOfflineTrackingEnabled|"offlineEnabled"|
 |setOfflineHitLimit|"batchLimit"|

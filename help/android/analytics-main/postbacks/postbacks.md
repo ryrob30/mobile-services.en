@@ -21,7 +21,7 @@ Postback messages are queued and follow all existing online/offline rules that g
 
 ## Template Expansions {#section_6758AD05A24C4E9E965F5253294C164A}
 
-Template expansions are available in the `templateurl` and `templatebody` properties. Template items take the form of `{key}`, where `key` is a context data key or traditional data key. The values that are available for template expansion are limited to the [standard Lifecycle variables list](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html), in addition to any custom data that is attached to the hit that triggers the message. No historical- or segment-based data is available at this time.
+Template expansions are available in the `templateurl` and `templatebody` properties. Template items take the form of `{key}`, where `key` is a context data key or traditional data key. The values that are available for template expansion are limited to the [Lifecycle metrics](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html), in addition to any custom data that is attached to the hit that triggers the message. No historical- or segment-based data is available at this time.
 
 There are also specific, reserved templates that the SDK will automatically replace with internal data that is known to the SDK.
 
@@ -29,9 +29,9 @@ This list includes:
 
 | Token Name | Token Description |
 |--- |--- |
-|{%sdkver%}|Returns SDK version.|
+|{%sdkver%}|Returns the SDK version.|
 |{%cachebust%}|Resolves to a random number between 1 and 100000000.|
-|{%adid%}|Returns Advertiser ID for Android. Note, this only works if you have used  submitAdvertisingIdentifierTask.|
-|{%pushid%}|Returns the Push Identifier token. Note, this only works if you have used  setPushIdentifier.|
+|{%adid%}|Returns Advertiser ID for Android. Note, this only works if you have used `submitAdvertisingIdentifierTask`.|
+|{%pushid%}|Returns the Push Identifier token. Note, this only works if you have used `setPushIdentifier`.|
 |{%timestampu%}|Returns current timestamp in epoch time.|
 |{%timestampz%}|Returns current timestamp in JavaScript (ISO 8601) format.|

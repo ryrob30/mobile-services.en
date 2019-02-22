@@ -20,8 +20,7 @@ user-guide-title: Mobile Services Android Help
   + [Override the ADBMobile JSON Config Path](configuration/json-config/json-config-remote.md)
   + [Hit Batching](configuration/hit-batching.md)
   + [Configuration Methods](configuration/methods.md)
-+ Lifecycle Metrics{#lifecycle-metrics-android}
-  + [Lifecycle Metrics](metrics.md)
++ [Lifecycle Metrics](metrics.md)
 + Analytics{#analytics-android}
   + [Analytics Overview](analytics-main/analytics-main.md)
   + [Track App States](analytics-main/states.md)
@@ -98,8 +97,7 @@ user-guide-title: Mobile Services Android Help
   + [Privacy and GDPR Overview](c-mob-privacy-gdpr-android/c-mob-privacy-gdpr-android.md)
   + [Retrieving Stored Identifiers](c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)
   + [Setting the User's Opt Status](c-mob-privacy-gdpr-android/privacy.md)
-+ Using Bloodhound to Test Mobile Applications{#bloodhound-android}
-  + [Using Bloodhound to Test Mobile Applications](bloodhound.md)
++ [Using Bloodhound to Test Mobile Applications](bloodhound.md)
 + PhoneGap Plug-in{#phonegap-android}
   + [PhoneGap Plug-in](phonegap/phonegap.md)
   + [PhoneGap Plug-in Methods](phonegap/phonegap-methods.md)

@@ -34,4 +34,3 @@ The following methods are used with hit batching:
 
 * `Analytics.sendQueuedHits` forces the library to send all hits in the queue no matter how many hits are currently queued. 
 * `Analytics.clearQueue` clears all hits from the queue without sending them.
-
