@@ -12,19 +12,13 @@ uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 
 This information helps you use the ADBMobile.json config file.
 
-This section contains the following information:
-
-* [ADBMobileConfig.json Config File Reference](../../configuration/json-config/json-config.md#section_5AD4EDF87E304980B4AC4A5657FDA8B9) 
-* [Sample ADBMobileConfig.json File](../../configuration/json-config/json-config.md#section_52FA7C71A99147AFA9BE08D2177D8DA7) 
-* [Messages description](../../configuration/json-config/json-config.md#section_B97D654BA92149CE91F525268D7AD71F)
-
 ## ADBMobileConfig.json Config File Reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 The same config file can be used for your app across multiple platforms:
 
 >[!TIP]
 >
->On **iOS**, the [!DNL ADBMobileConfig.json] can be placed anywhere that it is accessible in your bundle.
+>On **iOS**, the `ADBMobileConfig.json` file can be placed anywhere that it is accessible in your bundle.
 
 * **acquisition**
 
@@ -47,9 +41,7 @@ The same config file can be used for your app across multiple platforms:
 
   Enables/disables the ability for the Adobe SDK to backdate session info hits. 
   
-  Session info hits currently consist of crashes and session length and can be enabled or disabled. 
-  
-  **Enabling or Disabling Hits** 
+  Session info hits currently consist of crashes and session length and can be enabled or disabled.
   
   * If you set the value to `false`, the hits are **disabled**. 
   
@@ -69,7 +61,7 @@ The same config file can be used for your app across multiple platforms:
   
   Remember the following information:  
   
-  * Default value is `0`, which means that batching not enabled.  
+  * Default value is `0`, which means that batching is not enabled.  
   * Requires `offlineEnabled = true`.
   * Minimum SDK version: 4.1
 
@@ -91,7 +83,7 @@ The same config file can be used for your app across multiple platforms:
 
 * **coopUnsafe**
 
-  * The Boolean property of the `marketingCloud` object that, when set to `true`, will cause device to be opted-out of the Experience Cloud's Device Co-Op.  
+  * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.  
   * Default value is `false`.  
   * This setting is used **only** for Device Co-op provisioned customers.  
   
@@ -112,7 +104,9 @@ The same config file can be used for your app across multiple platforms:
 
 * **lifecycleTimeout**
 
-  Default value is 300 seconds. Specifies the length of time, in seconds, that must elapse between the time the app launches but before the launch is considered to be a new session. This timeout also applies when your application is sent to the background and reactivated. The time that your app spends in the background is not included in the session length. 
+  Default value is 300 seconds. 
+  
+  Specifies the length of time, in seconds, that must elapse between the time the app launches but before the launch is considered to be a new session. This timeout also applies when your application is sent to the background and reactivated. The time that your app spends in the background is not included in the session length. 
 
   * Minimum SDK version: 4.0
 
@@ -418,7 +412,7 @@ The messages node is generated automatically by Adobe Mobile services and typica
 
 * "audiences"
 
-  An array of objects that defines how the message should be shown
+  An array of objects that defines how the message should be shown:
 
   * "key"
 
@@ -426,7 +420,7 @@ The messages node is generated automatically by Adobe Mobile services and typica
 
   * "matches"
 
-    Type of matcher used when doing the comparison
+    Type of matcher used when doing the comparison:
 
     * eq = equals
     * ne = does not equal

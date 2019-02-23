@@ -12,9 +12,11 @@ uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
 
 This information helps you work with App Transport Security (ATS), which is a new set of security requirements for iOS 9.
 
-Starting with iOS 9, Apple introduced [App Transport Security](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/), a set of requirements that conforms to best practices for secure connections. For the Adobe Mobile SDK version 4.7 or later to work seamlessly with ATS, use the enable SSL option in the [!DNL Manage App Settings] page. For more information, see [Manage App Settings](/help/using/c-manage-app-settings/c-manage-app-settings.md) or [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
+Starting with iOS 9, Apple introduced App Transport Security,  [App Transport Security], a set of requirements that conforms to best practices for secure connections. For more information, see *NSAppTransportSecurity* in [Information Property List Key Reference](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/). 
 
-In [!DNL Adobe Mobile Services], by selecting the **[!UICONTROL Use HTTPS]** option in the [!DNL Manage App Settings] page, all hits from [!DNL Analytics], [!DNL Audience Manager], [!DNL Target], and [!DNL Experience Cloud ID services] are sent via HTTPS.
+For the Adobe Mobile SDK version 4.7 or later to work seamlessly with ATS, use the enable SSL option in the Manage App Settings page. For more information, see [Manage App Settings](/help/using/c-manage-app-settings/c-manage-app-settings.md) or [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
+
+In Adobe Mobile Services, by selecting the **[!UICONTROL Use HTTPS]** option in the Manage App Settings page, all hits from Analytics, Audience Manager, Target, and Experience Cloud ID services are sent via HTTPS.
 
 As an alternative, you can also choose to whitelist service the following servers: 
 
@@ -25,7 +27,7 @@ As an alternative, you can also choose to whitelist service the following server
 |Target|You can add your  Target endpoint to your  Info.plist file as an exception domain for ATS.  To find your  Target endpoint, find the `clientCodeproperty` in the target object of your  `ADBMobileConfig.json` file. Your endpoint will be  `https://{clientCode}.tt.omtrdc.net`.  For example, if your  `clientCodeproperty` is `“myCompany”`, your endpoint will be  `https://myCompany.tt.omtrdc.net`.|
 |Experience Cloud ID service|You can add the  Experience Cloud server as an exception domain for ATS in your  `Info.plist` file. This domain is `dpm.demdex.net`.|
 |Mobile Services: Acquisition|Whitelist the Acquisition server as an exception domain for ATS in your  `Info.plist` file. This domain is `c00.adobe.com`.|
-|Mobile Services: In-App Messages|If you are using in-app messages, you might need to add entries into the exception domain for ATS for each URL you use that is not HTTPS. This list includes hosted images and any URL embedded into your custom full screen message HTML.  For more detail on setting up exceptions domain in a  info.plist file, see the *Exception* section on Apple’s  App Transport Security technote page.|
+|Mobile Services: In-App Messages|If you are using in-app messages, you might need to add entries into the exception domain for ATS for each URL you use that is not HTTPS. This list includes hosted images and any URL embedded into your custom full screen message HTML.  For more detail on setting up exceptions domain in an `info.plist` file, see the *NSExceptionDomains* row in *Table 2: App Transport Security dictionary primary keys*. Also see *Table 3  Exception domains dictionary keys* in [Information Property List Key Reference](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/).|
 
 >[!TIP]
 >

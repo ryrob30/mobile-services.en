@@ -48,15 +48,15 @@ You can log in to the Adobe Mobile Services in one of the following ways:
 
   Sign in to the [Experience Cloud](https://marketing.adobe.com) with your Adobe ID. 
   
-  This method assumes that your company has been provisioned. For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) and you have linked your Analytics account. For more information, see [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+  This method assumes that your company has been provisioned and you have linked your Analytics account. For more information about provisioning, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html). For more information about linking your account, see [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
   >[!TIP]
   >
-  >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing [!DNL Adobe Analytics] account.
+  >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing Adobe Analytics account.
 
 * **Adobe Analytics**
 
-  Click **[!UICONTROL Sign in with Analytics]** and enter your [!DNL Analytics] company name, your username, and your password.
+  Click **[!UICONTROL Sign in with Analytics]** and enter your Analytics company name, your username, and your password.
 
 ## Create a Report Suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
@@ -70,7 +70,7 @@ To create a report suite to collect app data and define an app:
 
 1. Enter the name of your app and select a unique report suite ID.
 
-   An example of a report suite ID is `mycomobileappdev`. You need to set up separate report suites and apps for the development and production versions, so you can repeat these steps when you are ready to set up the production version. 
+   An example of a report suite ID is `mycomobileappdev`. You need to set up separate report suites and apps for the development and production versions. When you are ready to set up the production version, repeat these steps. 
 1. Leave **[!UICONTROL Mobile App Template]** selected.
 
    This template enables timestamps to collect offline data and activates the mobile solution variables to capture lifecycle metrics. 
@@ -81,7 +81,7 @@ To create a report suite to collect app data and define an app:
 
 To download the mobile SDK:
 
-1. Log in to the Mobile Services UI and open your app in one of the following ways:
+1. Log in to Mobile Services and open your app in one of the following ways:
 
     * In the **[!UICONTROL All Apps]** drop-down list, select your app. 
     * On the right pane, find your app, and open it.
@@ -93,5 +93,5 @@ To download the mobile SDK:
 
 >[!TIP]
 >
->A config file for your app is automatically included in the SDK download, so you do not need to download that file separately. However, if you already downloaded the SDK, and you just want to get updated settings, download the config file again.
+>A config file for your app is automatically included in the SDK download, so you do not need to download that file separately. However, if you already downloaded the SDK, and you want to get updated settings, download the config file again.
 

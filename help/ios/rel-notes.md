@@ -14,23 +14,17 @@ Release notes and known issues for iOS SDKs 4.x for Experience Cloud Solutions.
 
 **Mobile Services**
 
-Release date: **September 20, 2018**
+Release date: **January 17, 2019**
 
-New features, updates, and fixes to the iOS SDKs:
+New features, updates, and fixes to the Android SDKs:
 
-<table id="table_EABFE83E2DA94348B7665EE41A73D9B8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Feature </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> iOS version 4.17.0 </td> 
-   <td colname="col2"> <p> Target - Added a new API to support reporting for users who click on a Target location. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **iOS version 4.18.0**
+
+  * **Configuration**: Added a new API to allow overriding internal NSURLSession parameters.
+
+  * **Adobe Target**: Fixed a crashing bug caused when multiple loadRequests calls were being made consecutively in environments with poor network connectivity.
+
+  * **In-App Messaging**: Fixed an issue that would sometimes allow show-once local notifications to show more than once if their conditions were triggered quickly in succession.
+
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
