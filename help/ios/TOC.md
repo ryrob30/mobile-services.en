@@ -75,9 +75,7 @@ user-guide-title: Mobile Services iOS Help
   + [Experience Cloud ID](marketing-cloud/mcvid.md)
   + [Experience Cloud ID Service Methods](marketing-cloud/mc-methods.md)
   + [Experience Cloud Device Co-op](marketing-cloud/t-mob-mc-device-coop-ios-.md)
-+ Audience Manager {#amm-ios}
-  + [Audience Manager Overview](amm/amm.md)
-  + [Audience Manager Methods](amm/aam-methods.md)
++ [Audience Manager Methods](amm/aam-methods.md)
 + Apple TV Implementation with tvOS {#apple-tv-implementation-tvos-ios}
   + [Apple TV Implementation with tvOS](apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
   + [Adobe Target for TVML/TVJS](apple-tv-implementation-tvos/target-for-tvml-tvjs.md)
@@ -85,8 +83,7 @@ user-guide-title: Mobile Services iOS Help
 + iOS Extension Implementation {#ios-ext/ios-ext.md}
   + [iOS Extension Implementation](ios-ext/ios-ext.md)
   + [Stand-Alone Extension Implementation](ios-ext/c-stand-alone-extension-implementation.md)
-+ Apple Watch Implementation with WatchOS 2 {#apple-watch-implementation-watchkit-ios}
-  + [Apple Watch Implementation with WatchOS 2](apple-watch-implementation-watchkit.md)
++ [Apple Watch Implementation with WatchOS 2](apple-watch-implementation-watchkit.md)
 + iOS SDK Reference {#sdk-reference-ios}
   + [iOS SDK Reference](reference/reference.md)
   + [App IDs](reference/app-ids.md)

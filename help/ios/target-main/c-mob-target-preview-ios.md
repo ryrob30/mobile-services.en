@@ -10,7 +10,7 @@ uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
 
 Target Preview allows you to easily perform end-to-end QA for Target activities and preview these activities on your device.
 
-For more information on how to set up and use Target Preview, go to [Target Mobile Preview](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+For more information on how to set up and use Target Preview, see [Target Mobile Preview](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/target-mobile-preview.html).
 
 >[!IMPORTANT]
 >

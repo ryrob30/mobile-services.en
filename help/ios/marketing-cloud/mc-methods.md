@@ -12,13 +12,13 @@ uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 
 Here are the Experience Cloud ID service methods that are provided by the iOS library.
 
-The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Experience Cloud Visitor ID service].
+The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud Visitor ID service.
 
 Methods are prefixed according to the solution, and Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Enabling the Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md). 
 
-* **+ (nullable NSURL *) visitorAppendToURL: (nullable NSURL *) url;**
+* **+ (nullable NSURL *)visitorAppendToURL:(nullable NSURL *)url;**
 
-  Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. To use this method, you must have Mobile SDK 4.12+. For more information, see [Append Visitor ID Helper Function](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html). 
+  Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. To use this method, you must have Mobile SDK version 4.12 or higher. For more information, see [Append Visitor ID Helper Function](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html). 
   
   >[!IMPORTANT]
   >

@@ -23,7 +23,7 @@ Apple provides a set of APIs that lets the Watch app communicate with the contai
 
 In most cases when a user is using the Watch app, the containing app is running in the background, and it is only safe to call `TrackActionInBackground`, `TrackLocation`, and `TrackBeacon`. Calling other tracking methods interferes with lifecycle data, so you should use only these three methods to send the data from Watch app.
 
-Even if these three tracking methods meet your requirements, use the iOS SDK, because the SDK for the Watch app includes all [!DNL Mobile] features except in-app messaging.
+Even if these three tracking methods meet your requirements, use the iOS SDK, because the SDK for the Watch app includes all Mobile features except in-app messaging.
 
 ## Getting Started {#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4}
 
@@ -41,15 +41,15 @@ If you are working on a WatchKit app, you should have a third target. For more i
 
 Complete the following steps in your Xcode project:
 
-1. Drag the [!DNL AdobeMobileLibrary] folder into your project. 
-1. Ensure that [!DNL ADBMobileConfig.json] is a member of the containing app's target. 
+1. Drag the AdobeMobileLibrary folder into your project. 
+1. Ensure that ADBMobileConfig.json is a member of the containing app's target. 
 1. On the **[!UICONTROL Build Phases]** tab of your containing app's target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary.a` 
     * `libsqlite3.dylib` 
     * `SystemConfiguration.framework`
 
-1. Open the **[!UICONTROL Capabilities]** tab of the containing app's target, enable **[!UICONTROL App Groups]**, and add a new app group (for example, [!DNL group.com.adobe.testApp]). 
+1. Open the **[!UICONTROL Capabilities]** tab of the containing app's target, enable **[!UICONTROL App Groups]**, and add a new app group (for example, `group.com.adobe.testAp`). 
 
 1. In your application delegate, set the app group in [!DNL application:didFinishLaunchingWithOptions] before making any interactions with the Adobe Mobile library:
 
@@ -62,7 +62,7 @@ Complete the following steps in your Xcode project:
 
 ## Configuring the Extension {#section_28C994B7892340AC8D1F07AF26FF3946}
 
-1. Ensure that [!DNL ADBMobileConfig.json] is a member of the extension's target. 
+1. Ensure that ADBMobileConfig.json is a member of the extension's target. 
 1. On the **[!UICONTROL Build Phases]** tab of your extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary_Extension.a` 
@@ -71,7 +71,7 @@ Complete the following steps in your Xcode project:
 
 1. Open the **[!UICONTROL Capabilities]** tab of the extension's target, enable **[!UICONTROL App Groups]**, and select the app group that you added in step 4 of *Configuring the Containing App* above. 
 
-1. In your [!DNL InterfaceController], set the app group in [!DNL awakeWithContext:] before making any other interactions with the Adobe Mobile library:
+1. In your InterfaceController, set the app group in `awakeWithContext:` before making any other interactions with the Adobe Mobile library:
 
    ```objective-c
    [ADBMobile 
@@ -84,10 +84,14 @@ Complete the following steps in your Xcode project:
 
 Here is some information to remember:
 
-* An additional context data value, [!DNL a.RunMode] has been added to indicate whether the data comes from your containing app or your extension:
+* An additional context data value, `a.RunMode` has been added to indicate whether the data comes from your containing app or your extension:
 
-  * [!DNL a.RunMode = Application] This value means that the hit came from the containing app. 
-  * [!DNL a.RunMode = Extension] This value means that the hit came from the extension.
+  * `a.RunMode = Application`
+  
+    This value means that the hit came from the containing app. 
+  * `a.RunMode = Extension` 
+
+    This value means that the hit came from the extension.
 
 * If you upgrade from a older version of the SDK, when the containing app is launched, Adobe automatically migrates all the user defaults and cached files from the containing app's folder to the app group's shared folder. 
 * If the containing app is never launched, hits from the extension are discarded. 

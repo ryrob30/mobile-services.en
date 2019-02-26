@@ -14,7 +14,7 @@ Starting with iOS 10, Apple allows you to create an extension called a stand-alo
 
 >[!IMPORTANT]
 >
->Mobile SDK version 4.13.0 or above is required to use stand-alone extensions.
+>To use stand-alone extensions, you must have Mobile SDK version 4.13.0 or later.
 
 ## Configure your stand-alone extension for use with the SDK {#section_B7A84603BB9D4B48BB46BE8D3B9E3CF0}
 
@@ -39,10 +39,14 @@ To configure your stand-alone extension:
 
 Here is some additional information:
 
-* An additional context data value, [!DNL a.RunMode] has been added to indicate whether the data comes from your containing app or your extension:
+* An additional context data value, `a.RunMode` has been added to indicate whether the data comes from your containing app or your extension:
 
-  * [!DNL a.RunMode = Application] This value means that the hit came from the containing app. 
-  * [!DNL a.RunMode = Extension] This value means that the hit came from the extension.
+  * `a.RunMode = Application`
+  
+     This value means that the hit came from the containing app. 
+  * `a.RunMode = Extension`
+  
+    This value means that the hit came from the extension.
 
 * No lifecycle call is triggered on iOS extension apps.
 

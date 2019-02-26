@@ -20,7 +20,9 @@ For more information about how marketers use deep linking in their applications,
 1. Add the SDK to your project and implement Lifecycle metrics.
 
    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
-1. Register the application to handle [Inter-App Communications](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) or [Support Universal Links](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html). 
+1. Register the application to handle Inter-App Communications or support Universal Links. 
+
+  For more information, see [Inter-App Communications](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) or [Support Universal Links](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
 1. Track deep link in openURL.
 
@@ -44,9 +46,9 @@ For more information about how marketers use deep linking in their applications,
    }
    ```
 
-The [!DNL Adobe Mobile] SDK can parse key and value pairs of data appended to any deep or universal link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. All key and value pairs of data that are appended to the link will be parsed, attached to a lifecycle hit, and sent to [!DNL Adobe Analytics], provided the link contains the `a.deeplink.id` key and value.
+The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or universal link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. All key and value pairs of data that are appended to the link will be parsed, attached to a lifecycle hit, and sent to [!DNL Adobe Analytics], provided the link contains the `a.deeplink.id` key and value.
 
-Additionally, you might also choose to append one or more of the following reserved keys (with user-generated values) to the deep or universal link:
+You might also choose to append one or more of the following reserved keys (with user-generated values) to the deep or universal link:
 
 * `a.launch.campaign.trackingcode` 
 * `a.launch.campaign.source` 

@@ -26,6 +26,7 @@ An optional callback allows you to take additional action when the timed action 
 ## Tracking Timed Actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. Add the library to your project and implement lifecycle.
+
    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library:
 

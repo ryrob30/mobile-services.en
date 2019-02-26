@@ -15,7 +15,7 @@ Postbacks allow you to send data that is collected by the SDK to a third-party s
 >
 >This functionality requires SDK version 4.6.0 or later.
 
-Postback messages are queued and follow all existing online/offline rules that govern analytics data collection. When a message matches (like shown-messages do), postback messages do not cancel the rest of the messages. This allows for multiple postbacks to occur on the same analytics hit. For the definition, see the *postbacks* row in [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md)
+Postback messages are queued and follow all existing online/offline rules that govern analytics data collection. When a message matches (like shown-messages do), postback messages do not cancel the rest of the messages. This allows for multiple postbacks to occur on the same analytics hit. For the definition, see the *postbacks* row in [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
 
 ## Template Expansions {#section_6758AD05A24C4E9E965F5253294C164A}
 

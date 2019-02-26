@@ -14,16 +14,18 @@ uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
 The following instructions help you roundtrip an acquisition campaign with a marketing link that is based on a device fingerprint.
 
 1. Complete the prerequisite tasks in [Mobile App Acquisition](/help/ios/acquisition-main/acquisition.md).
-1. In the [!DNL Adobe Mobile Services] UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets the App Store as the destination for iOS devices.
+1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets the App Store as the destination for iOS devices.
 
-   For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
+    For example:
 
-   For example:
+    ```
+    https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=57477650072932ec6d3a470f
+    ```
 
-   `https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=57477650072932ec6d3a470f`
+    For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
 
-1. Open the generated link on the iOS device and open [!DNL `https://c00.adobe.com/v3/<appid>/end`].
+1. Open the generated link on the iOS device and open `https://c00.adobe.com/v3/<appid>/end`.
 
    You should see the contextData in the JSON response:
 
@@ -37,8 +39,8 @@ The following instructions help you roundtrip an acquisition campaign with a mar
 
     | Setting | Value |
     |--- |--- |
-    |acquisition|The server should be  c00.adobe.com. `appid` should equal the  *`appid`* in your acquisition link.|
-    |analytics|referrerTimeout should have a value greater than 0.|
+    |acquisition|The server should be  `c00.adobe.com`. `appid` should equal the  *`appid`* in your acquisition link.|
+    |analytics|`referrerTimeout` should have a value greater than 0.|
 
 1. (Conditional) If the SSL setting in your app's config file is `false`, update your acquisition link to use the HTTP protocol instead of HTTPS.
 1. Click the generated link from the mobile device on which you want to install the app.
@@ -54,11 +56,12 @@ The following instructions help you roundtrip an acquisition campaign with a mar
     `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
     `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   If you do not see the above logs, verify that you completed steps 4 and 5.
+   If you do not see these logs, verify that you completed steps 4 and 5.
 
    Here is some information about possible errors: 
 
-   * `Analytics - Unable to retrieve acquisition service response (<error message>)`
+   * `Analytics - Unable to retrieve acquisition service response (<error message>)`: 
+  
       A network error occurred. 
 
    * `Analytics - Unable to parse acquisition service response (<error message>)`
@@ -89,11 +92,11 @@ Remember the following information:
 
 * Variations in the user-agent sent might cause attribution to fail. 
 
-  Ensure that [!DNL `https://c00.adobe.com/v3/<appid>/start`] and [!DNL `https://c00.adobe.com/v3/<appid>/end`] have the same user-agent values. 
+  Ensure that `https://c00.adobe.com/v3/<appid>/start` and `https://c00.adobe.com/v3/<appid>/end` have the same user-agent values. 
 
 * The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. 
 
-  If the link and the hit are using different protocols (for example, the link uses HTTP and the SDK uses HTTPS) the IP address might differ for each request (on some carriers). This could cause the attribution to fail. 
+  If the link and the hit are using different protocols, where for example, the link uses HTTP and the SDK uses HTTPS, the IP address might differ on some carriers for each request. This could cause the attribution to fail. 
 
 * The marketing links are cached on the server side with a ten-minutes expiration time. 
 

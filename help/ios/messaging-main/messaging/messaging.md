@@ -21,7 +21,7 @@ Some information to remember:
 
   >[!TIP]
   >
-  >You can complete these steps even if you do not have any messages defined. After you define messages, they will be delivered dynamically to your app and displayed without an app store update.
+  >You can complete these steps even if you do not have any messages defined. After you define messages, they are delivered dynamically to your app and displayed without an app store update.
 
 ## Enabling In-App Messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
@@ -73,9 +73,9 @@ The iOS Mobile Services SDKs track the following metrics for your in-app message
 
 * For full screen and alert style in-app messages:
 
-  * **[!UICONTROL Impressions]**: when user triggers an in-app message. 
-  * **[!UICONTROL Click throughs]**: when user pushes the **[!UICONTROL Click-through]** button. 
-  * **[!UICONTROL Cancels]**: when user pushes the **[!UICONTROL Cancel]** button.
+  * **[!UICONTROL Impressions]**: when the user triggers an in-app message. 
+  * **[!UICONTROL Click throughs]**: when the user pushes the **[!UICONTROL Click-through]** button. 
+  * **[!UICONTROL Cancels]**: when the user pushes the **[!UICONTROL Cancel]** button.
 
 * For custom, full screen in-app messages, the HTML content in the message needs to include the correct code to notify the SDK tracking about the following buttons:
 

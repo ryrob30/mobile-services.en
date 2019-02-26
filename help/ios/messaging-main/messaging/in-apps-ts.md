@@ -64,11 +64,13 @@ If you completed all the requirements for In-App Messaging, but messages do not 
   Because device screens have many different dimensions, the image will most likely not fit exactly into the space provided by the template. The template focuses on showing the center of the image and, if the image does not fit, crops (portrait) or fades (landscape) the sides.
   
   Here is the exact placement and sizing rules for each orientation:
+
   * **Portrait**:  
     * A height of 195px for phones  
     * A height of 529px for tablets  
     * Centered if the image width is smaller than the device width.  
     * Cropped if the image width is greater than the device width.
+
   * **Landscape**:  
     * The image scaled to 100% of the height of the device.  
     * The width is 75% of the device, with a fade out on the right.  
@@ -84,6 +86,7 @@ If you completed all the requirements for In-App Messaging, but messages do not 
          ```html
         <meta name="viewport" content="viewport-fit=cover">
         ```
+
     1. Set up appropriate padding in the CSS for the top UI element such as: 
 
         ```html
