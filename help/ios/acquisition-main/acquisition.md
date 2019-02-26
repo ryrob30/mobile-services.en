@@ -16,12 +16,13 @@ Acquisition links with unique tracking codes can be generated in Adobe Mobile se
 
 Acquisition links must be created in Adobe Mobile services. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md).
 
-The updates described in this section enable the SDK to send acquisition data from an acquisition link.
+The information in this section allow the SDK to send acquisition data from an acquisition link.
 
 ## Tracking Mobile App Acquisition {#section_CEA30C652AC8470784B8054E299B80FA}
 
 1. Add the library to your project and implement lifecycle.
-  For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
+
+    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```objective-c

@@ -12,14 +12,17 @@ After you configure the deep linking URL in the Adobe Mobile Services UI, this U
 
 1. In AppDelegate, you can get the deep link URL back and handle it on your own in the following locations:
 
-* In `application:didFinishLaunchingWithOptions`:
+    * In `application:didFinishLaunchingWithOptions`:
 
-  If the app is not running when a push click through happens, you can get the push payload from `launchOptions`, and deep link URL is in the payload dictionary by the `adb_deeplink` key. 
+      If the app is not running when a push click through happens, you can get the push payload from `launchOptions`, and deep link URL is in the payload dictionary by the `adb_deeplink` key. 
 
-* The delegate methods for Remote Notification
+    * The delegate methods for Remote Notification
 
-  In the `didReceiveRemoteNotification:` application or in the `didReceiveRemoteNotification:fetchCompletionHandler:` application, you can get the URL by accessing the `userInfo` dictionary with the `adb_deeplink` key. 
-* The delegate methods for `UNUserNotificationCenter` In the `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` method, you can get the push payload from the `userInfo` dictionary, in the `adb_deeplink` key.
+      In the `didReceiveRemoteNotification:` application or in the `didReceiveRemoteNotification:fetchCompletionHandler:` application, you can get the URL by accessing the `userInfo` dictionary with the `adb_deeplink` key. 
+ 
+    * The delegate methods for `UNUserNotificationCenter`
+
+      In the `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` method, you can get the push payload from the `userInfo` dictionary, in the `adb_deeplink` key.
 
 For example: 
 

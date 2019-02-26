@@ -55,6 +55,6 @@ NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"};
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL will replace all template variables with values from the hit. Assuming that the user’s previous session was 132 seconds long, and that user is on iOS SDK version 4.6.0, the resulting URL looks like this:
+Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL replaces all template variables with values from the hit. Assuming that the user’s previous session was 132 seconds long, and that user is on iOS SDK version 4.6.0, here is an example of the resulting URL:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132` 

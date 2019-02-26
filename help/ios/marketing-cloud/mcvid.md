@@ -21,6 +21,7 @@ The Experience Cloud ID service provides a universal visitor ID across Experienc
 ## Enabling the Experience Cloud ID {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Add the library to your project and implement lifecycle. 
+
    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 

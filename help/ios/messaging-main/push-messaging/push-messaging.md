@@ -14,7 +14,7 @@ Adobe Mobile and the Adobe Mobile SDK allow you to send push messages to your us
 
 >[!IMPORTANT]
 >
->The information in this topic is a suggestion for a possible implementation. We strongly recommend that you review Apple's iOS documentation to determine the best implementation for your app. Your implementation should be determined by the frameworks that you are using and the versions of iOS that your app will target.
+>The information in this topic is a suggestion for a possible implementation. We strongly recommend that you review Apple's iOS documentation to determine the best implementation for your app. Your implementation should be determined by the frameworks that you are using, and the versions of iOS that your app will target.
 
 To use push messaging, you **must** have SDK version 4.6 or later.
 
@@ -29,7 +29,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
   For more information, see [Lifecycle metrics](/help/ios/metrics.md). 
 
 
-* SDK must be enabled for the ID Service.
+* The SDK must be enabled for the ID Service.
   For more information, see [Configure SDK ID Service Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
 >[!IMPORTANT]
@@ -54,9 +54,9 @@ To use push messaging, you **must** have SDK version 4.6 or later.
    #import "ADBMobile.h"
    ```
 
-1. Review [Configuring Remote Notification Support](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1) to determine the settings for which your app needs to ask for permission.
+1. To determine the settings for which your app needs to ask for permission, review [Configuring Remote Notification Support](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1).
 
-   Here is an example of a possible implementation asking for permission to use Alerts, Badges, Sounds, and Remote notification:
+   Here is an example of a possible implementation that is asking for permission to use Alerts, Badges, Sounds, and Remote notification:
 
    ```objective-c
    // iOS 10 and newer 
@@ -90,7 +90,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
    }
    ```
 
-1. The push token must be passed to the SDK using the method `setPushIdentifier:` in ADBMobile class.
+1. The push token must be passed to the SDK using the `setPushIdentifier:` method in ADBMobile class.
 
    ```objective-c
    - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken { 
@@ -100,7 +100,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
    }
    ```
 
-1. Go to [UserNotifications](https://developer.apple.com/documentation/usernotifications) to determine the correct implementation for your environment.
+1. To determine the correct implementation for your environment, go to [UserNotifications](https://developer.apple.com/documentation/usernotifications).
 
    This step helps you enable push reporting by passing the `userInfo` dictionary to the SDK when the user opens the app by using click-through of a push message.
 

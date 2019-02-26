@@ -36,8 +36,9 @@ If this is not configured, an updated version of the `ADBMobile.json` file must 
 
 ## How to Track {#section_B1616E400A7548F9A672F97FEC75AE27}
 
-1. Add the [library to your project and implement lifecycle].
-  For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```objective-c
@@ -105,5 +106,7 @@ Remember the following information:
   They are not applied to historical `trackLocation` calls that were sent previously. 
 * `trackLocation` calls support sending additional context data similar to `trackAction` calls. 
 
-* When two POIs have overlapping diameters, the first POI that contains the current location is used. If your POIs overlap, you should list POIs in order of most granular to least granular to ensure that the most granular POI is reported.
+* When two POIs have overlapping diameters, the first POI that contains the current location is used. 
+
+  If your POIs overlap, you should list POIs in order of most granular to least granular to ensure that the most granular POI is reported.
 

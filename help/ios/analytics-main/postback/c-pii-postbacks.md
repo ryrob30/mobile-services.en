@@ -18,7 +18,8 @@ When you want to use the Adobe SDK to collect PII, you should send a track PII c
 
 ## Tracking PII Postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
 
-1. Add [the library to your project and implement lifecycle. 
+1. Add the library to your project and implement lifecycle. 
+
    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library:
 

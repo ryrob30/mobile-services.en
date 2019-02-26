@@ -10,7 +10,7 @@ uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 
 # Messaging{#messaging}
 
-This information helps you use messaging in your iOS apps.
+This information helps you use messaging in your iOS apps:
 
 * [In-App Messaging](/help/ios/messaging-main/messaging/messaging.md)
 * [Troubleshooting In-App Messaging](/help/ios/messaging-main/messaging/in-apps-ts.md)

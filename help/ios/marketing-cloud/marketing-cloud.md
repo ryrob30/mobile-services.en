@@ -10,7 +10,7 @@ uuid: fb498937-b263-4cff-adde-8d709f51b950
 
 # Experience Cloud {#experience-cloud}
 
-This information helps you use the iOS SDK with the Adobe Experience Cloud.
+The following information helps you use the iOS SDK with the Adobe Experience Cloud:
 
 * [Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md)
 * [Experience Cloud ID Service Methods](/help/ios/marketing-cloud/mc-methods.md)

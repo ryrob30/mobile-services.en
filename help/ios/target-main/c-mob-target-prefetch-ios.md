@@ -16,9 +16,9 @@ Prefetch content does not persist across launches. The prefetch content is cache
 
 >[!IMPORTANT]
 >
->Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
+>Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [Batch Input Parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
 
-In SDK version 4.14 or later, if specified, the `environmentId` is picked from the ADBMobileConfig.json file when initiating a v2 batch mbox TnT call. If no `environmentId` is specified in this file, no environment parameter is sent in TNT batch mbox call, and offer is delivered for the default environment.
+In SDK version 4.14 or later, if specified, the `environmentId` is picked from the `ADBMobileConfig.json` file when initiating a v2 batch mbox TnT call. If no `environmentId` is specified in this file, no environment parameter is sent in TNT batch mbox call, and offer is delivered for the default environment.
 
 For example:
 
@@ -49,11 +49,17 @@ Here are the methods that you can use for prefetch in iOS:
 
   * Here are the parameters for this method:
 
-    |Name |Description |
-    |--- |--- |
-    |`targetPrefetchArray`|Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.|
-    |`profileParameters`|Contains the keys and values of profile parameters to be used with every location prefetch in this request.|
-    `callback`|Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.|
+    * **`targetPrefetchArray`**
+
+      Array of `TargetPrefetchObjects` that contains the name and mboxParameters for each Target location to prefetch.
+
+    * **`profileParameters`**
+
+      Contains the keys and values of profile parameters to be used with every location prefetch in this request.
+
+    * **`callback`**
+
+      Invoked when the prefetch is complete. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.
 
 * **targetLoadRequests**
 
@@ -72,10 +78,13 @@ Here are the methods that you can use for prefetch in iOS:
 
   * Here are the parameters for this method:
 
-    |Name|Description|
-    |--- |--- |
-    |`requests`|Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.|
-    |`profileParameters`|Contains keys and values of profile parameters to be used with every location prefetch in this request.|
+    * **`requests`**
+
+      Array of `TargetRequestObjects` that contains the name, default content, parameters, and callback function per location to retrieve.
+
+    * **`profileParameters`**
+
+      Contains keys and values of profile parameters to be used with every location prefetch in this request.
 
 * **targetPrefetchClearCache**
 
@@ -121,27 +130,59 @@ Here are the public classes that support pre-fetch in iOS :
 
 ### Class Reference: TargetPreFetchObject
 
-
-
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
-| Property | Description |
-|--- |--- |
-|`name`|**Type**: NSString* <br>Name for the location/mbox you want to retrieve.|
-|`mboxParameters`|**Type**: NSDictionary* <br>An optional dictionary that contains the key-value pairs of mbox parameters.|
-|`orderParameters`|**Type**: NSDictionary* <br>Dictionary that contains the key-value pairs of order parameters.|
-|`productParameter`s|**Type**: NSDictionary* <br>Dictionary that contains the key-value pairs of product parameters. |
+* **`name`**
+
+  Name for the location/mbox you want to retrieve.
+
+  * **Type**: NSString*
+
+* **`mboxParameters`**
+
+  An optional dictionary that contains the key-value pairs of mbox parameters.
+
+  * **Type**: NSDictionary*
+
+* **`orderParameters`**
+
+  Dictionary that contains the key-value pairs of order parameters.
+
+  * **Type**: NSDictionary*
+
+* **`productParameters`**
+
+  Dictionary that contains the key-value pairs of product parameters.
+
+  * **Type**: NSDictionary*
 
 ### Class Reference: TargetRequestObject
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
-| Property | Description |
-|--- |--- |
-|name|**Type**: NSString* <br>Name of the requested location.|
-|mboxParameters|Type: NSString* <br>The NSString value that represents the name for the location/mbox you want to retrieve.|
-|defaultContent|**Type**: NSString* <br>The default content that will be returned if Target servers are unreachable.|
-|callback|**Type**: Function <br>When the batch requests Target locations, callback will be invoked when content is available for this location. |
+* **`name`**
+
+  Name of the requested location.
+
+  * **Type**: NSString*
+
+* **`mboxParameters`**
+
+  The NSString value that represents the name for the location/mbox you want to retrieve.
+
+  * **Type**: NSString*
+
+* **`defaultContent`**
+
+  The default content that will be returned if Target servers are unreachable.
+
+  * **Type**: NSString*
+
+* **`callback`**
+
+  When the batch requests Target locations, callback will be invoked when content is available for this location.
+
+  * **Type**: Function
 
 ## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
 

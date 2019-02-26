@@ -26,7 +26,9 @@ The following beacon data is sent to Analytics and Target when `trackBeacon` is 
 
 ## Tracking iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
-1. Add the [library to your project and implement lifecycle](/help/ios/getting-started/dev-qs.md). 
+1. Add the library to your project and implement lifecycle.
+
+    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library: 
 
    ```objective-c

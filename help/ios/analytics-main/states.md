@@ -19,7 +19,8 @@ States are the different screens or views in your application. Each time a new s
 ## Tracking States {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
-  For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
+
+    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library.
 
    ```objective-c

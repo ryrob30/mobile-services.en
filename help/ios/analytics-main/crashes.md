@@ -36,20 +36,20 @@ Crash reporting libraries provided by companies like Apteligent (formerly Critte
 
 The following scenarios are known to falsely cause a crash to be reported by the SDK:
 
-1. If you are debugging using Xcode, launching the app again while it is in the foreground, causes a crash.
+* If you are debugging using Xcode, launching the app again while it is in the foreground, causes a crash.
 
    >[!TIP]
    >
    >You can avoid a crash in this scenario by backgrounding the app before launching the app again from Xcode.
 
-1. If your app is in the background and sends [!DNL Analytics] hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
+* If your app is in the background and sends [!DNL Analytics] hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
 
    >[!TIP]
    >
    >Background activity that occurs beyond the `lifecycleTimeout` threshold might also result in an additional false launch.
 
-1. If your app is launched in the background because of a background fetch, location update, and so on, and is terminated by the OS without coming to the foreground, the next launch (background or foreground) results in a crash. 
-1. If you programmatically delete Adobe’s pause flag from `NSUserDefaults`, while the app is in the background, the next launch or resume causes a crash.
+* If your app is launched in the background because of a background fetch, location update, and so on, and is terminated by the OS without coming to the foreground, the next launch (background or foreground) results in a crash. 
+* If you programmatically delete Adobe’s pause flag from `NSUserDefaults`, while the app is in the background, the next launch or resume causes a crash.
 
 **How can I prevent false crashes from being reported?**
 
@@ -62,5 +62,5 @@ The following practices can help you prevent false crashes from being reported:
 * Ensure that you perform your development against non-production report suites, which should prevent false crash #1 from occurring. 
 * Do not delete or modify any values that the AdobeMobile SDK puts in `NSUserDefaults`.
 
-  If these values are modified outside the SDK, the data reported will be invalid.
+  If these values are modified outside the SDK, the reported data will be invalid.
 

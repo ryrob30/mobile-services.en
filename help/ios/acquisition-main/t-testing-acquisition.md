@@ -13,10 +13,13 @@ The following information helps you roundtrip an legacy acquisition campaign lin
 
 If the mobile app is not yet in Google Play, you can select any mobile app as a destination when creating the campaign link. This only affects which app the acquisition server redirects you to, after you click the acquisition link, not the ability to test the acquisition link. 
 
-1. Navigate to [Use Legacy Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md) in [!DNL Adobe Mobile Services] and generate an acquisition campaign URL.
+1. Navigate to **[!UICONTROL Use Legacy Acquisition Links]** in Adobe Mobile Services and generate an acquisition campaign URL.
+
+    For more information, see [Use Legacy Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
+
 1. From the mobile device on which you will install the app, click the generated link.
 
-   Adobe's servers ( [!DNL c00.adobe.com]) store the fingerprint and then redirect to the App Store. The app does not have to be downloaded for testing. 
+   Adobe's servers (`c00.adobe.com`) store the fingerprint and then redirect to the App Store. The app does not have to be downloaded for testing. 
 
 1. On the same mobile device that you used in step 2, launch the application for the first time.
 

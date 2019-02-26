@@ -16,14 +16,19 @@ This information helps you implement the iOS library and collect lifecycle metri
 
 >[!IMPORTANT]
 >
->To download the SDKs, you must use iOS 6 or later.
+>To download the SDKs, you **must** use iOS 6 or later.
 
-1. Complete the steps in [Create a Report Suite](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file. 
-1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` file, and verify that you have the following software components:
+**Prerequisite**
+
+Before you download the SDK, complete the steps in [Create a Report Suite](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file. 
+
+To download the SDK:
+
+1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` file and verify that you have the following software components:
 
     * `ADBMobile.h`, the Objective-C header file that is used for iOS AppMeasurement. 
     * `ADBMobileConfig.json`, the SDK configuration file that is customized for your app. 
-    * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64) and simulators (i386, x86_64).
+    * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64), and simulators (i386, x86_64).
 
       This fat binary should be linked when the target is intended for an iOS app. 
 
@@ -46,51 +51,52 @@ This information helps you implement the iOS library and collect lifecycle metri
 ## Add the SDK and Config File to your Project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Launch the Xcode IDE and open your app. 
-1. In [!DNL Project Navigator], drag the `AdobeMobileLibrary` folder and drop it under your project . 
+1. In Project Navigator, drag the `AdobeMobileLibrary` folder and drop it under your project . 
 1. Verify the following:
 
     * The **[!UICONTROL Copy Items if needed]** checkbox is selected. 
     * **[!UICONTROL Create groups]** is selected. 
     * None of the checkboxes in the **[!UICONTROL Add to targets]** section is selected.
 
-   ![](assets/step_3.png)
+     ![](assets/step_3.png)
 
 1. Click **[!UICONTROL Finish]**. 
-1. In [!DNL Project Navigator], select [!DNL ADBMobileConfig.json]. 
-1. In [!DNL File Inspector], add the JSON file to any targets in your project that will use the Adobe SDK.
+1. In **[!UICONTROL Project Navigator]**, select **`ADBMobileConfig.json`**. 
+1. In **[!UICONTROL File Inspector]**, add the JSON file to any targets in your project that will use the Adobe SDK.
 
    ![](assets/step_4.png)
 
-1. In [!DNL Project Navigator], complete the following steps:
+1. In **[!UICONTROL Project Navigator]**, complete the following steps:
 
     1. Click on your app. 
     1. On the **[!UICONTROL General]** tab, select your targets and link the required frameworks and libraries in the **[!UICONTROL Linked Frameworks]** and **[!UICONTROL Libraries]** sections.
 
-    * **iOS App Targets**
-      * `SystemConfiguration.framework`
-      * `libsqlite3.0.tbd`
-      * `AdobeMobileLibrary.a`
+      * **iOS App Targets**
+        * `SystemConfiguration.framework`
+        * `libsqlite3.0.tbd`
+        * `AdobeMobileLibrary.a`
 
-    * **iOS Extension Target**
-
-      * `SystemConfiguration.framework`
-      * `libsqlite3.0.tbd`
-      * `AdobeMobileLibrary\_Extension.a`
-
-    * **Apple Watch (watchOS 2) Target**
-
-      * `libsqlite3.0.tbd`
-      * `AdobeMobileLibrary\_Watch.a`
-
-    * **Apple TV (tvOS) Target**
+      * **iOS Extension Target**
 
         * `SystemConfiguration.framework`
         * `libsqlite3.0.tbd`
-        * `AdobeMobileLibrary\_TV.a`
+        * `AdobeMobileLibrary\_Extension.a`
 
-    >[!CAUTION]
-    >
-    >Linking more than one [!DNL AdobeMobileLibrary*.a] file in the same target will result in unexpected behavior or the inability to build.
+      * **Apple Watch (watchOS 2) Target**
+
+        * `libsqlite3.0.tbd`
+        * `AdobeMobileLibrary\_Watch.a`
+
+      * **Apple TV (tvOS) Target**
+
+          * `SystemConfiguration.framework`
+          * `libsqlite3.0.tbd`
+          * `AdobeMobileLibrary\_TV.a`
+
+
+  >[!CAUTION]
+  >
+  > Linking more than one `AdobeMobileLibrary*.a` file in the same target will result in unexpected behavior or the inability to build.
 
 1. Confirm that your app builds without errors.
 
@@ -117,7 +123,7 @@ To include additional data with lifecycle metric calls, use `collectLifecycleDat
 
 >[!IMPORTANT]
 >
->Any data that is passed to the SDK through `collectLifecycleDataWithAdditionalData:` will be persisted in `NSUserDefaults` by the SDK. The SDK strips the values in the `NSDictionary` parameter that are not of the `NSString` or `NSNumber` types.
+>Any data that is passed to the SDK through `collectLifecycleDataWithAdditionalData:` is persisted in `NSUserDefaults` by the SDK. The SDK strips the values in the `NSDictionary` parameter that are not of the `NSString` or `NSNumber` types.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 

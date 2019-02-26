@@ -16,7 +16,7 @@ With Apple TV, you can now create applications to run in the native tvOS environ
 
 >[!TIP]
 >
->tvOS suppor is available starting in AdobeMobileLibrary version 4.7.0.
+>tvOS support is available starting in `AdobeMobileLibrary` version 4.7.0.
 
 ## Getting Started {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
@@ -29,26 +29,26 @@ With Apple TV, you can now create applications to run in the native tvOS environ
 Complete the following steps in your Xcode project:
 
 1. Drag the [!DNL AdobeMobileLibrary] folder into your project. 
-1. Ensure that [!DNL ADBMobileConfig.json] is a member of your target. 
+1. Ensure that `ADBMobileConfig.json` is a member of your target. 
 1. On the **[!UICONTROL Build Phases]** tab of your tvOS app’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
-   * [!DNL AdobeMobileLibrary_TV.a] 
-   * [!DNL libsqlite3.0.tbd] 
-   * [!DNL SystemConfiguration.framework]
+   * `AdobeMobileLibrary_TV.a` 
+   * `libsqlite3.0.tbd`
+   * `SystemConfiguration.framework`
 
 For information, see the iOS documentation on [iOS](https://developer.apple.com/ios/resources/).
 
 ## Configuring a TVML/TVJS App for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
 
-1. Drag the [!DNL AdobeMobileLibrary] folder into your project. 
-1. Ensure that [!DNL ADBMobileConfig.json] is a member of your target. 
+1. Drag the `AdobeMobileLibrary` folder into your project. 
+1. Ensure that `ADBMobileConfig.json` is a member of your target. 
 1. On the **[!UICONTROL Build Phases]** tab of your tvOS app’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary_TV.a` 
-    * [!DNL libsqlite3.0.tbd] 
-    * [!DNL SystemConfiguration.framework]
+    * `libsqlite3.0.tbd` 
+    * `SystemConfiguration.framework`
 
-1. In the implementation file of your [!DNL TVApplicationControllerDelegate] class, import the SDK.
+1. In the implementation file of your `TVApplicationControllerDelegate` class, import the SDK.
 
    ```objective-c
    #import “ADBMobile.h"

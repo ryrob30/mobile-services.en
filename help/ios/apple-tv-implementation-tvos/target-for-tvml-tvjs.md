@@ -16,13 +16,13 @@ You can leverage Adobe Target in your TVML/TVJS apps by making direct replacemen
 
 ## Getting Started {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
-1. Identify the [!DNL .xml] file in which you want to use your Target location. 
+1. Identify the `.xml` file in which you want to use your Target location. 
 1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
-1. If [!DNL Target] fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
+1. If Target fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
 
 ## Configuring Your Mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
 
-The returned content from [!DNL Target] replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
+The returned content from Target replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
 
 >[!TIP]
 >
@@ -60,10 +60,12 @@ In the `ADBTarget` element, you must provide the Mbox name in the `mbox` propert
   A comma-separated list of purchased product IDs for this order. 
   
   * Here is the code sample for this property:
-  
+
+
     ```objective-c
     purchasedProductIds="product1,product2,product3" 
     ```
+
   * Property type: String
   * This property is **not** required.
 

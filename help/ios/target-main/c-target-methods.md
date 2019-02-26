@@ -12,7 +12,7 @@ uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 
 Here is the list of Adobe Target methods that are provided by the iOS library.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Experience Cloud ID service]. Methods are prefixed according to the solution. For example, [!DNL Target] methods are prefixed with `target`.
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID service. Methods are prefixed according to the solution. For example, Target methods are prefixed with `target`.
 
 >[!TIP]
 >
@@ -100,39 +100,39 @@ NSString *const ADBTargetParameterMboxHost;
 
       * **Type**: NSString *
 
-  * **`defaultContent`**
+    * **`defaultContent`**
 
-    Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.
+      Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.
 
-    * **Type**: NSString *
+      * **Type**: NSString *
 
-  * **`profileParameters`**
+    * **`profileParameters`**
 
-    Values in this dictionary will go in the "profileParameters" object in the request to Target.
+      Values in this dictionary will go in the "profileParameters" object in the request to Target.
 
-    * **Type**: NSDictionary *
+      * **Type**: NSDictionary *
 
-  * **`orderParameters`**
+    * **`orderParameters`**
 
-    Values in this dictionary will go in the "order" object in the request to Target.
+      Values in this dictionary will go in the "order" object in the request to Target.
 
-    * **Type**: NSDictionary
+      * **Type**: NSDictionary
 
-  * **`mboxParameters`**
+    * **`mboxParameters`**
 
-    Values in this dictionary will go in the "mboxParameters" object in the request to Target.
+      Values in this dictionary will go in the "mboxParameters" object in the request to Target.
 
-    * **Type**: NSDictionary *
+      * **Type**: NSDictionary *
 
-  * **`requestLocationParameters`**
+    * **`requestLocationParameters`**
 
-    Values in this dictionary will go in the "requestLocation" object in the request to Target.
+      Values in this dictionary will go in the "requestLocation" object in the request to Target.
 
-    **Type**: NSDictionary *
+      **Type**: NSDictionary *
 
-  * **`callback`**
+    * **`callback`**
 
-    This method will be called with the content of the offer from the Target server. If the Target server is unreachable, or the user does not qualify for the campaign, defaultContent will be returned.
+      This method will be called with the content of the offer from the Target server. If the Target server is unreachable, or the user does not qualify for the campaign, defaultContent will be returned.
 
     **Type**: Function
 

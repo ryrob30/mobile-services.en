@@ -14,7 +14,7 @@ For more information about GDPR, see [GDPR and Your Business](https://www.adobe.
 
 >[!IMPORTANT]
 >
->The `getAllIdentifiersAsync` method retrieves identities stored in the Experience Cloud SDKs. You must call this method **before** the user opts-out.
+>The `getAllIdentifiersAsync` method retrieves identities that are stored in the Experience Cloud SDKs. You must call this method **before** the user opts-out.
 
 Experience Cloud SDK identities (as applicable) are locally stored and returned in a JSON string, which might contain:
 

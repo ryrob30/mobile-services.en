@@ -51,7 +51,7 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
   * Here is the code sample for this method:
 
     ```objective-c
-      NSString*libraryVersion = [ADBMobileversion];
+    NSString*libraryVersion = [ADBMobileversion];
       ```
 
 * **privacyStatus**
@@ -155,7 +155,7 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
     NSString *uid = [ADBMobileuserIdentifier];
     ```
 
-* **setUserIdentifier:
+* **setUserIdentifier**
 
   Sets the user identifier to `identifier`.
 
@@ -187,7 +187,7 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
     BOOL debugging = [ADBMobile debugLogging];
     ```
 
-* **setDebugLogging:
+* **setDebugLogging**
 
   Sets the debug logging preference to `debug`.
 

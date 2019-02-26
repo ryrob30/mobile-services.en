@@ -16,7 +16,7 @@ This information helps you migrate from the versions 3.x or 2.x of the iOS libra
 >
 >The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  If you modify or remove the values in `NSUserDefaults` that are expected by the SDK, unexpected behavior might result in the form of data inconsistencies.
 
-In the version 4.x of the iOS SDK library, all of the public methods are consolidated into one header. Also, all functionality is now accessible through class level methods, so you do not have to keep track of pointers, instances, or singletons.
+In the version 4.x of the iOS SDK library, the public methods are consolidated into one header. Also, the functionality is now accessible through class level methods, so you do not have to keep track of pointers, instances, or singletons.
 
 ## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
@@ -36,7 +36,7 @@ Processing rules provide the following advantages:
 
 ## Remove Unused Properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-The new [!DNL ADBMobileConfig.json] file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an [!DNL ADBMobileConfig.json] file:
+The new `ADBMobileConfig.json` file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an [!DNL ADBMobileConfig.json] file:
 
 ```js
 { 
@@ -64,7 +64,6 @@ The new [!DNL ADBMobileConfig.json] file contains application-specific, global s
 }
 ```
 
-The following tables list the configuration variables that you need to move to the configuration file.
 
 ### Moving the configuration file
 
@@ -73,7 +72,11 @@ To move the configuration file:
 1. Move the value that is set for the variable in the first column to the variable in the second column. 
 1. Remove the old configuration variable from your code.
 
-### Migrating from version 3.x
+### Migration information
+
+The following tables list the configuration variables that you need to move to the configuration file.
+
+#### Migrating from version 3.x
 
 Move the value from the first column to the variable in the second column. 
 
@@ -90,7 +93,7 @@ Move the value from the first column to the variable in the second column.
 |linkTrackEvents|Remove, no longer used.|
 
 
-### Migrating from version 2.x
+#### Migrating from version 2.x
 
 Move the value from the first column to the variable in the second column. 
 
@@ -112,7 +115,7 @@ Move the value from the first column to the variable in the second column.
 |dynamicVariablePrefix|Remove, no longer used.|
 |visitorNamespace|Remove, no longer used.|
 |usePlugins|Remove, no longer used.|
-|useBestPractices  all calls to churn measurement (  getChurnInstance )|Remove, replaced by  Lifecycle Metrics .|
+|useBestPractices  all calls to churn measurement (  getChurnInstance )|Remove, replaced by lifecycle metrics. For more information, see [Lifecycle Metrics](//help/ios/metrics.md).|
 
 
 ## Update Track Calls and Tracking Variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
@@ -149,7 +152,7 @@ Data that you were setting on the measurement object, including the variables li
 
 In your code, replace the following methods with a call to `trackState` or `trackAction`:
 
-### Migrating from version 3.x
+#### Migrating from version 3.x
 
 * `trackAppState (trackState)` 
 * `trackEvents (trackAction)` 
@@ -157,7 +160,7 @@ In your code, replace the following methods with a call to `trackState` or `trac
 * `trackWithContextData (trackAction)` 
 * `trackLinkURL (trackAction)`
 
-### Migrating from version 2.x
+#### Migrating from version 2.x
 
 * `track (trackState)` 
 * `trackLink (trackAction)`

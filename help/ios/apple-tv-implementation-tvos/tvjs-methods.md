@@ -44,7 +44,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
   
     If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in. THe default value is set in the `ADBMobileConfig.json` file.
 
-  * Here is the synax for this method:
+  * Here is the syntax for this method:
 
     ```objective-c
     privacyStatus()
@@ -64,7 +64,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   * `ADBMobilePrivacyStatusOptIn` : Hits are sent immediately.
   * `ADBMobilePrivacyStatusOptOut` : Hits are discarded.
-  * `ADBMobilePrivacyStatusUnknown` : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded).
+  * `ADBMobilePrivacyStatusUnknown` : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (hits are sent), or opt-out (hits are discarded).
   
   If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in.
 
@@ -162,6 +162,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     ```objective-c
     ADBMobile.setAdvertisingIdentifier(‘myIdfa’);
     ```
+
   * Returns: N/A
   * Parameter: `idfa`
     * Type: `String`
@@ -182,6 +183,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     ```objective-c
     `ADBMobile.setDebugLogging(true);
     ```
+
   * Returns: N/A
   * Parameters: `logging`
     * Type: `Bool`
@@ -224,7 +226,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
 * **trackActionData**
 
-  Tracks an action in your app. Actions are the things that happen in your app that you want to measure, such as logons , banner taps , feed subscriptions , and other metrics.
+  Tracks an action in your app. Actions are the things that happen in your app that you want to measure, such as logons, banner taps, feed subscriptions, and other metrics.
 
   * Here is the syntax for this method:
 
@@ -271,6 +273,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     * Parameter: `contextData`
       * Type: Object
       * Additional context data for this hit.
+
   * Here is the code sample for this method:
 
     ```objective-c
@@ -311,6 +314,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     ```objective-c
     trackTimedActionStartData(name [, contextData])
     ```
+
     * Returns: N/A
     * Parameter: `name`
       * Type: String
@@ -340,6 +344,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     ```objective-c
     trackTimedActionUpdateData(name [, contextData])
     ```
+
     * Returns: N/A
     * Parameter: `name`
       * Type: String
@@ -387,6 +392,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
           return true;
           });
         ```
+
 * **trackingTimedActionExistsJs**
 
   Returns whether a timed action is in progress.
@@ -404,9 +410,11 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   * Here is the code sample for this method:
   
+
     ```objective-c
     var actionExists = ADBMobile.trackTimedActionExistsJs(‘level1’);
     ```
+
 * **trackingIdentifier**
 
   Returns the automatically generated visitor identifier.
@@ -447,6 +455,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   * Here is the code sample for this method:
   
+
     ```objective-c
     ADBMobile.trackingSendQueuedHits();
     ```
@@ -770,7 +779,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     var thirdPartyID = ADBMobile.targetThirdPartyID();
     ```
 
-* ***targetSetThirdPartyID**
+* **targetSetThirdPartyID**
 
   Sets the third-party ID.
 
@@ -785,7 +794,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
       * Type: `String`
       * Third-party ID to use for target requests.
 
-* Here is the code sample for this method:
+  * Here is the code sample for this method:
 
   ```objective-c
   ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);

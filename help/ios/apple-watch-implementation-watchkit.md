@@ -10,11 +10,11 @@ uuid: 9498467e-db5e-411e-a00e-d19841f485de
 
 # Apple Watch Implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
 
-Starting with WatchOS 2, your WatchKit Extensions will run on an Apple Watch device. Applications that run in this environment require the WatchConnectivity framework to share data with their containing iOS app.
+Starting with WatchOS 2, your WatchKit Extensions can run on an Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
 
 >[!TIP]
 >
->Starting with AdobeMobileLibrary v4.6.0, WatchConnectivity is supported.
+>Starting with `AdobeMobileLibrary` v4.6.0, `WatchConnectivity` is supported.
 
 ## Getting Started {#section_70BC28BB69414F169196953D3D264BC1}
 
@@ -82,16 +82,15 @@ Complete the following steps in your Xcode project:
            // handle your own custom messages 
        } 
    } 
-   
    ```
 
 ## Configuring the WatchKit Extension {#section_5ADE31741E514330A381F2E3CFD4A814}
 
-1. Ensure that [!DNL ADBMobileConfig.json] is a member of your WatchKit extension’s target. 
+1. Ensure that ADBMobileConfig.json is a member of your WatchKit extension’s target. 
 1. In the **[!UICONTROL Build Phases]** tab of your WatchKit extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
-    * [!DNL AdobeMobileLibrary_Watch.a] 
-    * [!DNL libsqlite3.tbd]
+    * `AdobeMobileLibrary_Watch.a`
+    * `libsqlite3.tbd`
 
 1. In your class that implements the `WKExtensionDelegate` protocol, import `WatchConnectivity` and add the `WCSessionDelegate` protocol.
 

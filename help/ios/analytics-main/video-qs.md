@@ -34,14 +34,17 @@ The following table lists the media data that is sent to Analytics. Use processi
 
 * **a.media.name**
 
-  (**Optional**) Provides video pathing information. Pathing must be enabled for this variable by ClientCare.
+  (**Optional**) Provides video pathing information. Pathing must be enabled for this variable by Customer Care.
 
   * Variable type: Custom Insight (s.prop)
   * Event type: Custom Insight (s.prop)
 
 * **a.media.segment**
 
-  (Required) Collects video segment data, including the segment name and the order in which the segment occurs in the video. This variable is populated by enabling the `segmentByMilestones` variable when tracking player events automatically, or by setting a custom segment name when tracking player events manually. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` Segments evar. The default video data collection method collects data at the following points:  
+  (Required) Collects video segment data, including the segment name and the order in which the segment occurs in the video. This variable is populated by enabling the `segmentByMilestones` variable when tracking player events automatically, or by setting a custom segment name when tracking player events manually. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` Segments evar. 
+  
+  The default video data collection method collects data at the following points:  
+
   * video start (play)  
   * segment begin  
   * video end (stop) 
@@ -55,7 +58,7 @@ The following table lists the media data that is sent to Analytics. Use processi
 
   Collects data about the type of content that is viewed by a visitor. Hits sent by video measurement are assigned a content type of `video`. This variable does not need to be reserved exclusively for video tracking. Having other content report content type by using this same variable lets you analyze the distribution of visitors across the different types of content. For example, you could tag other content types using values such as “article" or “product page" using this variable. From a video measurement perspective, Content Type allows you to identify video visitors and calculate video conversion rates.
 
-  * Variable type: >eVar 
+  * Variable type: eVar 
   * Default expiration: Page view
 
 * **a.media.timePlayed**
@@ -371,11 +374,5 @@ NSUInteger eventType
 
     ```objective-c
     + (void) mediaTrack:(NSString *)name withData:(NSDictionary *)data;
-    ```
-
-  * Here is the code sample for this method:
-
-    ```objective-c
-
     ```
 

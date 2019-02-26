@@ -17,6 +17,7 @@ Actions are not tracked automatically, so to track an event, you must call `trac
 ## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
+
    For more information, see *Add the SDK and Config File to your Project* in [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md). 
 1. Import the library.
 
@@ -35,11 +36,11 @@ Actions are not tracked automatically, so to track an event, you must call `trac
    >
    >If the code where you are adding this call might run while the app is in the background, call `trackActionFromBackground` instead of `trackAction`.
 
-1. In Adobe Mobile services, select your app and click **[!UICONTROL Manage App Settings]**. 
+1. In the Adobe Mobile services UI, select your app and click **[!UICONTROL Manage App Settings]**. 
 
 1. Click **[!UICONTROL Manage Variables and Metrics]** and click the **[!UICONTROL Custom Metrics]** tab. 
 
-1. Map the context data name that is defined in your code (for example, `a.action=myapp.ActionName` to a custom event.
+1. Map the context data name that is defined in your code, for example, `a.action=myapp.ActionName`, to a custom event.
 
    ![](assets/map-event-context-data.png)
 
@@ -57,7 +58,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackAction:@"myapp.SocialShare" data:contextData];
 ```
 
-Context data values must be mapped to custom variables in Adobe Mobile services: 
+Context data values must be mapped to custom variables: 
 
 ![](assets/map-variable-context-action.png)
 

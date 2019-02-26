@@ -12,7 +12,7 @@ Use the iOS SDK to implement tracking of third-party deferred deep links.
 
 ## Classic Adobe Mobile SDK Deep Linking {#section_D114FA1EB9664EAA82E036A990694B26}
 
-The [!DNL Adobe Mobile SDK] currently supports deep linking where the app developer is expected to call the `trackAdobeDeepLink` API and pass the deep linking URL (fingerprinter URL generated in [!DNL Adobe Mobile Services] during configuration). The SDK pings the fingerprinter to get acquisition data and appends it to the install/launch analytics calls context data as a part of lifecycle. In addition, it also appends the deeplink data from the deeplink URL parameters. For more information on deep linking, see [Tracking Deep Links](/help/ios/acquisition-main/tracking-deep-links/tracking-deep-links.md).
+The Adobe Mobile SDK currently supports deep linking where the app developer is expected to call the `trackAdobeDeepLink` API and pass the deep linking URL, which is the fingerprinter URL that is generated in Adobe Mobile Services during configuration. The SDK pings the fingerprinter to get acquisition data and appends it to the install/launch analytics calls context data as a part of lifecycle. In addition, the SDK also appends the deeplink data from the deeplink URL parameters. For more information on deep linking, see [Tracking Deep Links](/help/ios/acquisition-main/tracking-deep-links/tracking-deep-links.md).
 
 ## Facebook Deep Linking {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
@@ -20,14 +20,14 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
 
 ## Setting up the SDKs {#section_834CD3109175432B8173ECB6EA7DE315}
 
-1. Set up the Facebook SDK:
+1. Set up the Facebook SDK.
+
+    For more information, see the following:
 
     * [Getting Started with the Facebook SDK for iOS](https://developers.facebook.com/docs/ios/getting-started) 
     * [Deeplinking Setup](https://developers.facebook.com/docs/app-ads/deep-linking#os)
 
-1. Set up the SDK:
-
-   Call `trackAdobeDeepLink` and pass the URL to the SDKs:
+1. To set up the SDK, call `trackAdobeDeepLink` and pass the URL to the SDKs:
 
    ```objective-c
    - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation 
@@ -43,7 +43,7 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
 
 If the application is set up as described above, the current AMSDK version will work fine and append the deep link data to install/launch analytics calls correctly.
 
-## Enable Feature in Sample Application {#section_64C15E269E89424B8E3D029F88094620}
+## Enable feature in a sample application {#section_64C15E269E89424B8E3D029F88094620}
 
 1. Register a URL scheme.
 
@@ -96,7 +96,7 @@ If the application is set up as described above, the current AMSDK version will 
        @import Bolts;
        ```
 
-    1. Add handle for deferred deep linking.
+    1. Add the handle for deferred deep linking.
 
        ```objective-c
        - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
@@ -124,7 +124,8 @@ If the application is set up as described above, the current AMSDK version will 
            return YES; 
        }
        ```
-    1. Call `trackAdobeDeepLink` API and pass the deep link URL to the SDKs.
+
+    1. Call the `trackAdobeDeepLink` API and pass the deep link URL to the SDK.
 
        ```objective-c
        - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options { 

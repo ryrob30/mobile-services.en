@@ -25,48 +25,47 @@ To receive rich push notifications in your iOS app:
    * One method to receive a notification request. 
    * One method to handle the expiration of the service extension.
 
-   To receive rich push notifications, the first method is used: 
+     To receive rich push notifications, the first method is used: 
 
-   ```objective-c
-   (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
-   ```
+     ```objective-c
+     (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
+     ```
 
-   In this method, you can get the Media URL from `userInfo` by using the `attachment-url` key. After you download the file to a local directory, add the local path to `bestAttemptContent.attachments`.
+     In this method, you can get the Media URL from `userInfo` by using the `attachment-url` key. After you download the file to a local directory, add the local path to `bestAttemptContent.attachments`.
 
-   Here is an example of the code in this method: 
+     Here is an example of the code in this method: 
 
-   ```objective-c
-   - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler { 
-       self.contentHandler = contentHandler; 
-       self.bestAttemptContent = [request.content mutableCopy]; 
-           NSDictionary* userInfo = request.content.userInfo; 
-       if(userInfo[@"attachment-url"]){ 
-           NSURL* url = [[NSURL alloc] initWithString:userInfo[@"attachment-url"]]; 
-           NSURLSessionDownloadTask* task = [[NSURLSession sharedSession] downloadTaskWithURL:url completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) { 
-               if(!location){ 
-                   return; 
-               } 
-               NSString* tmpDirectory = NSTemporaryDirectory(); 
-               NSString* tmpFilePath = [NSString stringWithFormat:@"file://%@%d%d%@", tmpDirectory, arc4random_uniform(100000), 
-                                      arc4random_uniform(100000), [url lastPathComponent]]; 
-               NSURL* tmpUrl = [[NSURL alloc] initWithString:tmpFilePath]; 
-               NSError * fileError = nil; 
-               [[NSFileManager defaultManager] moveItemAtURL:location toURL:tmpUrl error:&fileError]; 
-               if(fileError){ 
-                   return; 
-               } 
-               UNNotificationAttachment* attachment = [UNNotificationAttachment attachmentWithIdentifier:@"video" URL:tmpUrl options:nil error:&fileError]; 
-               if(fileError){ 
-                   return; 
-               } 
-               self.bestAttemptContent.attachments = @[attachment]; 
-               self.contentHandler(self.bestAttemptContent); 
+     ```objective-c
+     - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
+     self.contentHandler = contentHandler;
+     self.bestAttemptContent = [request.content mutableCopy];
+        NSDictionary* userInfo = request.content.userInfo;
+     if(userInfo[@"attachment-url"]){
+        NSURL* url = [[NSURL alloc] initWithString:userInfo[@"attachment-url"]];
+        NSURLSessionDownloadTask* task = [[NSURLSession sharedSession] downloadTaskWithURL:url completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+            if(!location){
+                return;
+            }
+            NSString* tmpDirectory = NSTemporaryDirectory();
+            NSString* tmpFilePath = [NSString stringWithFormat:@"file://%@%d%d%@", tmpDirectory, arc4random_uniform(100000),
+                                   arc4random_uniform(100000), [url lastPathComponent]];
+            NSURL* tmpUrl = [[NSURL alloc] initWithString:tmpFilePath];
+            NSError * fileError = nil;
+            [[NSFileManager defaultManager] moveItemAtURL:location toURL:tmpUrl error:&amp;fileError];
+            if(fileError){
+                return;
+            }
+            UNNotificationAttachment* attachment = [UNNotificationAttachment attachmentWithIdentifier:@"video" URL:tmpUrl options:nil error:&amp;fileError];
+            if(fileError){
+                return;
+            }
+            self.bestAttemptContent.attachments = @[attachment];
+            self.contentHandler(self.bestAttemptContent);
+        }];
+        [task resume];
+      }
+     }
+     ```
 
-           }]; 
-           [task resume]; 
-       } 
-
-   }
-   ```
 
 For more information about rich push notifications with iOS, see [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment). 
