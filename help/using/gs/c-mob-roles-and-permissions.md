@@ -34,7 +34,7 @@ This role is the Admin for the Mobile Services UI.
 
 >[!IMPORTANT]
 >
->For some features, such as push messaging, the Analytics Admin must select the **[!UICONTROL Segment Creation]** check box in [!DNL User Management].
+>For some features, such as push messaging, the Analytics Admin must select the **[!UICONTROL Segment Creation]** check box in User Management.
 
 ## Managing Access {#section_E6939C2695AA4A0DBF432D50B2670920}
 
@@ -54,7 +54,7 @@ Here are the roles in the Mobile Services UI, with their relevant permissions:
 
 ### Analytics Admin
 
-* All User & Mobile App Admin Permissions
+* All User and Mobile App Admin Permissions
 * Create App with new report suite
 * Delete App from Mobile Services
 
@@ -111,9 +111,9 @@ This role has view-only permissions and can provide feedback in the Mobile Servi
   * View Postbacks 
   * View Link Destinations
 
-* View & Run Reports
+* View and Run Reports
 * View Marketing Links
-* View & Export Legacy Acquisition Links
-* View & Export Places (Points of Interest) configuration
+* View and Export Legacy Acquisition Links
+* View and Export Places (Points of Interest) configuration
 * View Push Messages
 * View In-App Messages

@@ -15,7 +15,7 @@ Adobe Mobile Services brings together mobile marketing capabilities for mobile a
 
 >[!IMPORTANT]
 >
->Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see the [SDK documentation](home.md#section_3A500233347C4305AB545E298A827CEA).
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.
 
 For the latest release notes, see [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
@@ -55,32 +55,21 @@ In addition to the user's guide, you can download the Software Development Kits 
 
 Native libraries are provided for the following platforms:
 
-* [Android SDK 4.x for Experience Cloud Solutions]
+* [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
 
-<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)--> 
+* [iOS SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
 
-* [iOS SDK 4.x for Experience Cloud Solutions]
+* [Unity Plug-in for iOS and Android 4.x SDK](https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)
 
-<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html)--> 
+* [Xamarin Components for Experience Cloud Solutions 4.x SDK](https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)
 
-* [Unity Plug-in for iOS and Android 4.x SDK]
+* [Universal Windows Platform SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)
 
-<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)--> 
+* [Windows 8.1 Universal App Store](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)
 
-* [Xamarin Components for Experience Cloud Solutions 4.x SDK]
+  * [Windows Visual Studio Extensions for Experience Cloud Solutions 4.x SDK](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/win-vse-4x.html)
 
-<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)--> 
-
-* [Universal Windows Platform SDK 4.x for Experience Cloud Solutions]     <!--REKHA(https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)--> 
-
-* [Windows 8.1 Universal App Store]
-  <!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)-->
-
-  * [Windows Visual Studio Extensions for Experience Cloud Solutions 4.x SDK]<!--(https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/extensions-win-appstore/win-vse-4x.html)-->
-
-* [BlackBerry 10 SDK 4.x for Experience Cloud Solutions]
-
-<!--REKHA: (https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)-->
+* [BlackBerry 10 SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)
 
 ## Getting Started with Adobe Mobile Webinar {#section_420EA66F39FE44B9B531ADF5F5465543}
 

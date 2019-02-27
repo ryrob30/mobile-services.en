@@ -17,7 +17,7 @@ The metrics that display for each app reflect the key metrics that you selected 
 
 If the app you want to view is not displayed, search for it by typing the app's name or by clicking the drop-down list in **[!UICONTROL All Apps]**.
 
-In [!DNL Overview], you can perform the following tasks:
+You can perform the following tasks on the Overview page:
 
 ## Change Date Range {#section_E9ED7BB941EC48B58DF938C831493CD5}
 
@@ -54,7 +54,7 @@ Click the name of the app to display details about the key performance indicator
 
 ## Edit an App's Settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
-1. Click the gear icon in any app's tile to open the [!DNL App Information] page. 
+1. Click the gear icon in any app's tile to open the App Information page. 
 1. Edit the app's settings.
 
     For more information about each setting, see [Configuring your App](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md).

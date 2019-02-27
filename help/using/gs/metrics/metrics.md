@@ -27,7 +27,7 @@ On Android devices, you can use Google Play referrer tracking to measure how use
 
 ## Revenue {#section_AECF333049D14A1C9C5912E2EE2DDA94}
 
-You can view revenue collected by app stores, and revenue measured directly using in-app purchase events. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+You can view revenue collected by app stores and revenue measured directly using in-app purchase events. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 
 ## App Events {#section_BDF4DE61C20F4A2589249AD83FB1AFFC}
 
@@ -39,7 +39,7 @@ States are the different views that are provided by your app. States are viewed 
 
 ## Location and Points of Interest {#section_1852E9BB15924E1295256A662813FA7A}
 
-If GeoReporting is enabled on your [!DNL Analytics] report suite, several location-based reports are available. On Wi-Fi, GeoReporting accuracy is similar to that of a desktop web browsers. On a data connection, accuracy varies based on the provider and how requests are routed.
+If GeoReporting is enabled on your Analytics report suite, several location-based reports are available. On Wi-Fi, GeoReporting accuracy is similar to that of a desktop web browser. On a data connection, accuracy varies based on the provider and how requests are routed.
 
 For increased accuracy, you can also add location and point of interest tracking to your app. These options allow you to report detailed latitude and longitude location data and use geo-fencing to determine when a user is in a radius of a pre-defined point of interest.
 

@@ -9,13 +9,13 @@ topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 ---
 
-# Mobile Metrics and Dimensions Reference {#mobile-metrics-and-dimensions-reference}
+# Mobile metrics and dimensions reference {#mobile-metrics-and-dimensions-reference}
 
 Here is the reference information for the default mobile metrics and dimensions.
 
 >[!TIP]
 >
->The dimension and metric permissions that are set in [!DNL Adobe Analytics] apply to [!DNL Mobile Services]. If you attempt to run a report without proper permissions, you will receive an error.
+>The dimension and metric permissions that are set in Adobe Analytics apply to Mobile Services. If you attempt to run a report without proper permissions, you will receive an error.
 
 ## Metrics {#section_6704C815147D44AF96151D626BEB813C}
 

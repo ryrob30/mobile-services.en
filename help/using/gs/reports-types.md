@@ -68,7 +68,7 @@ To start the tutorial:
 1. Click **[!UICONTROL Technology]** > **[!UICONTROL Technology Breakdown]**.
 1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.
 
-![](assets/report_technology.png){width="500px"}
+![](assets/report_technology.png)
 
 ### Pathing Report {#section_AD400106BC684B50B27CCCD3F4497114}
 
