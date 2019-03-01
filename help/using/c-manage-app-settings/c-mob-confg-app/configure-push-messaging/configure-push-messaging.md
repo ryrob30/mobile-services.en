@@ -9,15 +9,11 @@ topic: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
 ---
 
-# Configure Push Messaging{#configure-push-messaging}
+# Configure push messaging{#configure-push-messaging}
 
-You can use this information to help you configure the Push Services options on the Manage App Settings page while creating a new app or editing an existing app.
+You can use this information to help you configure the Push Services options on the Manage App Settings page when creating a new app or editing an existing app.
 
-Before you configure push messaging, review the following information:
-
-* You must perform some prerequisite tasks.
-
-  For more information about these tasks, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md).
+Before you configure push messaging, complete the prerequisite tasks in [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md).
 
 * **Report Suite Considerations**
 
@@ -32,21 +28,24 @@ Before you configure push messaging, review the following information:
     * Apple
 
       * **[!UICONTROL Private Key]**
+
         Browse to and select your valid private key `.p12`, `.key`, or `.pen`.
 
         >[!IMPORTANT]
         >If the file that you select for the **[!UICONTROL Private Key]** input also contains a certificate, you do not need to specify the certificate.
 
       * **[UICONTROL Certificate]**
-       Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+
+         Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
     * Google
+
       **[!UICONTROL API Key]**
         Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
       For more information, see the following topics:
 
-        * [Push Messaging](/help/android/messaging-main/push-messaging/push-messaging.md)
-        * [Push Messaging](/help/ios/messaging-main/push-messaging/push-messaging.md)
+        * [Push Messaging in Android](/help/android/messaging-main/push-messaging/push-messaging.md)
+        * [Push Messagingnin iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 1. Click **[!UICONTROL Save]**.

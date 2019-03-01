@@ -26,10 +26,13 @@ On the Manage App Settings page, you can make the following types of changes:
   
       Track referring URLs for app-download campaigns. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md). 
 
-    * **Lifecycle** Track the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented. For more information, see the following sections:
+    * **Lifecycle** 
+
+      Track the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented. For more information, see the following sections:
 
       * [iOS SDK Lifecycle Metrics](/help/ios/metrics.md) 
-      * [Android Lifecycle Metrics](/help/android/metrics.md)* [Windows Lifecycle Metrics](/help/universal-windows/metrics.md) 
+      * [Android Lifecycle Metrics](/help/android/metrics.md) 
+      * [Windows Lifecycle Metrics](/help/universal-windows/metrics.md) 
       * [BlackBerry Lifecycle Metrics](/help/blackberry/metrics.md)
 
     * **App Actions**

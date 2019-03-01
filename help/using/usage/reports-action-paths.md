@@ -17,7 +17,7 @@ The Action Paths report is based on path analysis and displays a pathing chart t
 
 >[!TIP]
 >
->You can use a [funnel report](/help/using/usage/reports-funnel.md) to combine navigation and actions in one report.
+>You can use a funnel report to combine navigation and actions in one report. For more information, see [Funnel](/help/using/usage/reports-funnel.md).
 
 ![](assets/action_paths.png)
 
@@ -66,11 +66,11 @@ You can configure the following options for this report:
 
 * **[!UICONTROL Customize]**
 
-    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
+    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize reports](/help/using/usage/reports-customize/t-reports-customize.md).
 
 * **[!UICONTROL Filter]**
 
-    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](/help/using/usage/reports-customize/t-sticky-filter.md).
+    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL Download]**
 

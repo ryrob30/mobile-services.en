@@ -9,7 +9,7 @@ topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 ---
 
-# Troubleshooting Push Messaging{#troubleshooting-push-messaging}
+# Troubleshooting push messaging{#troubleshooting-push-messaging}
 
 This information can help you troubleshoot push messaging.
 
@@ -17,11 +17,12 @@ This information can help you troubleshoot push messaging.
 
   The following types of delays might be associated with push messages for Mobile Services:
 
-  * **Waiting for Analytics Hits**
+  * **Waiting for Analytics hits**
   
     Every report suite has a setting to determine when to process incoming Analytics hits. The default is every 1 hour. 
   
     The actual processing of Analytics hits might take up to 30 minutes, but is typically 15-20 minutes. For example, a report suite processes hits every hour. When you factor the required processing time of 30 minutes max, it can take up to 90 minutes for an incoming hit to be available for a push message. If a user launched the app at 9:01 AM, the hit would appear in the Mobile Services UI as a new unique user between 10:15 to 10:30 AM.  
+
   * **Waiting for the Push Service** 
   
     The Push Service (APNS or GCM) might not immediately send out the message. Although uncommon, there have been occurrences of wait times up to 5-10 minute. You can verify that the push message has been sent to the Push Service by looking in the **[!UICONTROL Report** view of the Push Message, finding the message in the **[!UICONTROL Message History]** table, and looking at the **[!UICONTROL Published]** count. 
@@ -77,7 +78,7 @@ You can also check the validity of a registration token by replacing `"ABC"` wit
 
 * **Resolving push message failures**
 
-  **An Example**
+  **An example**
   
   The following example illustrates how you can resolve a push failure when using a VRS. 
   
@@ -97,4 +98,4 @@ You can also check the validity of a registration token by replacing `"ABC"` wit
   
   >[!CAUTION]
   >
-  >After you create a push message for an app that is using a VRS and click **[!UICONTROL Save & Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. If each app does **not** have a valid certificate, your audience segments might be indefinitely blacklisted, and you might not be able to send future push messages to the affected users. For more information about audience segments, see [Audience: Define and Configure Audience Options for Push Messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md). 
+  >After you create a push message for an app that is using a VRS and click **[!UICONTROL Save & Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. If each app does **not** have a valid certificate, your audience segments might be indefinitely blacklisted, and you might not be able to send future push messages to the affected users. For more information about audience segments, see [Audience: define and configure audience options for push messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md). 

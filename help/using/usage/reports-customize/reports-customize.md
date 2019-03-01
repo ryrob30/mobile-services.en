@@ -9,15 +9,15 @@ topic: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
 ---
 
-# Customize Reports{#customize-reports}
+# Customize reports{#customize-reports}
 
 This information helps you understand and customize the built-in reports.
 
 You can customize your reports by changing the date range, the **[!UICONTROL Show By]** options (display graph and table data by time periods or by dimensions), add metrics and filters, add additional series (metrics), and more.
 
-To display the [!DNL Customize] rail, click the name of the app to go to its [!DNL Overview] page, and click **[!UICONTROL Customize]**.
+To display the Customize rail, click the name of the app to go to its [!DNL Overview] page, and click **[!UICONTROL Customize]**.
 
-The following example shows the [!DNL Users & Sessions] report with the open **[!UICONTROL Customize]** rail. This example displays data for the last 30 days, shown by days, with four active series:
+The following example shows the Users & Sessions report with the open **[!UICONTROL Customize]** rail. This example displays data for the last 30 days, shown by days, with four active series:
 
 * **[!UICONTROL Users]** 
 * **[!UICONTROL Launches]** 

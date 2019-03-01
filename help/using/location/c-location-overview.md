@@ -11,13 +11,13 @@ uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 
 # Overview (Location){#overview-location}
 
-The Location Overview report lets you see the different countries, regions, and points of interest (POI) where your app is being used.
+The **[!UICONTROL Location Overview]** report lets you see the different countries, regions, and points of interest (POI) where your app is being used.
 
-This report provides a sunburst visualization for your existing data, and you can use the report to discover audience segments (collections of visitors) for targeting. Creating and managing audiences is similar to creating and using segments, except that you can make the audiences available in the [!DNL Experience Cloud].
+This report provides a sunburst visualization for your existing data, and you can use the report to discover audience segments (collections of visitors) for targeting. Creating and managing audiences is similar to creating and using segments, except that you can make the audiences available in the Experience Cloud.
 
 Here is some additional information about this report:
 
-## Navigation and Usage {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
+## Navigation and usage {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
   This visualization provides, for example, the base report with breakdowns. The visualization uses height to show the metric in focus, and the performance differences between the metrics. Each ring represents an audience segment in the ring's category. You can take actions on an audience, such as applying a Sticky Filter, hiding a metric, and viewing metrics.
 
@@ -49,7 +49,7 @@ You can click a secondary metric on the right side to add it to the visualizatio
 
 ![](assets/location_secondary.png)
 
-## Add Breakdowns and Metrics {#section_15833511E82648869E7B1EFC24EF7B82}
+## Add breakdowns and metrics {#section_15833511E82648869E7B1EFC24EF7B82}
 
 You can add breakdowns and secondary metrics, which change the height of each audience relative to the other audiences in the chart.
 
@@ -63,7 +63,7 @@ To add breakdowns and secondary metrics, click **[!UICONTROL Location Breakdown]
 
 When you click **[!UICONTROL Add Breakdown]** or **[!UICONTROL Add Metric]**, a new item displays with the same name as the previous item in the respective list. Click the newly created breakdown or metric to access a drop-down list from which you can select a new item.
 
-## Create a Sticky Filter {#section_365999D49FC744ECBF9273132497E06C}
+## Create a sticky filter {#section_365999D49FC744ECBF9273132497E06C}
 
 Click a slice in the ring to select the audience for which you want to create a sticky filter and click **[!UICONTROL Sticky Filter]**. This sticky filter lets you apply the current filters and run a new report based on the filters.
 

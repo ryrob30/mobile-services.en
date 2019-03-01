@@ -11,9 +11,9 @@ uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
 
 # Delete Acquisition Links{#delete-acquisition-links}
 
-When you no longer needed acquistion links, you can delete them.
+When you no longer needed Acquisition links, you can delete them.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
+1. Click **[!UICONTROL Acquisition >]** **[!UICONTROL Manage Acquisition Links]**.
 1. Complete one of the following tasks:
 
    * Select the check box next to one or more acquisition links. 

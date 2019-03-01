@@ -15,7 +15,7 @@ You can send push messages to Analytics segments from the Mobile Services UI to 
 
 >[!IMPORTANT]
 >
->Before you create a push message, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md).
+>Before you create a push message, see [Prerequisites to enable push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md).
 
 Push messages appear to users who opted in to receive notifications when they are not actively using your app. These notifications alert users about new updates, offers, and reminders. With these notifications, you can create, test, manage, and report on push messages in a streamlined workflow.
 
@@ -25,5 +25,7 @@ Push messages are sent server-side by the app stores rather than from Adobe Mobi
 
 To create a push message: 
 
-1. Click **[!UICONTROL *`<app name>`*]** > **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create Push]**.
-1. Configure the [audience options](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+1. Click **[!UICONTROL *your_app_name* >]** **[!UICONTROL Messaging >]** **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message >]** **[!UICONTROL Create Push]**.
+1. Configure the audience options.
+
+    For more information, see [Audience: define and configure audience segments for push messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).

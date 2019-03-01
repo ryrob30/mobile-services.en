@@ -9,11 +9,11 @@ topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 ---
 
-# Experience: Push Message {#experience-push-message}
+# Experience: push message {#experience-push-message}
 
 You can configure experience options for push messages and rich push messages, including name, message text, and destination options. You can also configure advanced options, including payload options and custom options for iOS devices.
 
-1. On the [!DNL Audience] page for a new push message, click **[!UICONTROL Experience]**.
+1. On the Audience page for a new push message, click **[!UICONTROL Experience]**.
 
    ![experience push message screen](assets/experience-push-message.png)
 
@@ -36,13 +36,13 @@ You can configure experience options for push messages and rich push messages, i
 
 * **[!UICONTROL Destination]**
 
-   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md). \
+   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md). 
 
    >[!TIP]
    >
    >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked.
 
-## Requirements for Rich Push Notifications
+## Requirements for rich push notifications
 
 Here are the requirements for sending rich push notifications:
 
@@ -69,7 +69,7 @@ Here are the requirements for sending rich push notifications:
   * HTTPS only
 
 * **Sizing**
-  * Images must be in a 2:1 format or they will be cropped.
+  * Images must be in a 2:1 format, or they will be cropped.
 
 For more information about configuring rich push notifications, see the following content:
 
@@ -78,7 +78,7 @@ For more information about configuring rich push notifications, see the followin
 
 To configure a push message on the Experience page:
 
-1. (Optional) Click the **[!UICONTROL Show Advanced Options]** link to configure additional options:
+1. (**Optional**) Click the **[!UICONTROL Show Advanced Options]** link to configure additional options:
 
     * **[!UICONTROL Payload: Data]**
 
@@ -99,7 +99,8 @@ To configure a push message on the Experience page:
 1. (Optional) Preview the layout of your message by clicking following icons:
 
    * **[!UICONTROL x Summary}**
-     hides the preview pane. Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
+
+     Hides the preview pane. Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL Change the orientation]**
 
@@ -119,7 +120,7 @@ To configure a push message on the Experience page:
 
    At the bottom of the preview pane, you can view a description of the audience that you selected in the previous step.
 
-1. (Optional) Click **[!UICONTROL Test]** to push your message to specified devices for testing purposes.
+1. (**Optional**) Click **[!UICONTROL Test]** to push your message to specified devices for testing purposes.
 1. Select the service and type the push tokens for at least one device to which you want to push the message.
 
    Specify the tokens in a comma-separated list to push the message to more than one device.

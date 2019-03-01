@@ -15,15 +15,13 @@ You can view reports that are available to Digital Publishing Solution (DPS) cus
 
 DPS reports allow you to track the user data of your custom viewer app from [!DNL Mobile Services]. When you subscribe to the Adobe Digital Publishing Suite with a Professional or Enterprise account, you get access to base-level analytics for all your apps.
 
-Apps that are created from DPS have access to the Adobe Mobile core service user interface through Analytics Essentials - DPS.
-
-For more information, see [DPS Analytics in the Digital Publishing Solution Help](https://helpx.adobe.com/digital-publishing-suite/help/omniture-analytics.html). 
+Apps that are created from DPS have access to the Adobe Mobile core service user interface through Analytics Essentials - DPS. For more information, see [DPS Analytics in the Digital Publishing Solution Help](https://helpx.adobe.com/digital-publishing-suite/help/omniture-analytics.html). 
 
 ## Additional Information
 
-For more information about the types of reports that are available in DPS:
+For more information about the types of reports that are available in DPS, see:
 
-+ [Top 10 Articles](/help/using/dps/dps-top-ten-articles.md)
-+ [Top 50 Articles](/help/using/dps/dps-top-50-articles.md)
-+ [Social Sharing](/help/using/dps/dps-social-sharing.md)
-+ [Banner Metrics](/help/using/dps/dps-banner-metrics.md)
+* [Top 10 Articles report](/help/using/dps/dps-top-ten-articles.md)
+* [Top 50 Articles report](/help/using/dps/dps-top-50-articles.md)
+* [Social Sharing report](/help/using/dps/dps-social-sharing.md)
+* [Banner Metrics report](/help/using/dps/dps-banner-metrics.md)

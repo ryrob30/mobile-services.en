@@ -11,7 +11,7 @@ uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 
 # App Store Overview Report{#app-store-overview-report}
 
-The App Store Overview report gives you a snapshot of your app store metrics, including the number of downloads, in-app purchases, app store average rating, download revenue, in-app revenue, downloads by country, downloads by app store, and in-app purchases by name.
+The **[!UICONTROL App Store Overview]** report gives you a snapshot of your app store metrics, including the number of downloads, in-app purchases, app store average rating, download revenue, in-app revenue, downloads by country, downloads by app store, and in-app purchases by name.
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ You can click any metric to hide or display its corresponding line. To view the 
 
 >[!TIP]
 >
->In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
+>In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize reports](/help/using/usage/reports-customize/t-reports-customize.md).
 
 ## App Store Average Rating {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
@@ -37,7 +37,7 @@ This report displays the average rating users gave your app using app-store func
 
 ![](assets/app_store_rating.png)
 
-You can click anywhere on the App Store Average Rating widget to display a graph and chart that displays the average rating by date. To view the data for a day, hover over that day.
+You can click anywhere on the **[!UICONTROL App Store Average Rating]** widget to display a graph and chart that displays the average rating by date. To view the data for a day, hover over that day.
 
 ![](assets/app_store_downloads_detail.png)
 

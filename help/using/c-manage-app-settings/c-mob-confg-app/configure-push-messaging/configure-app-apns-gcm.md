@@ -15,9 +15,9 @@ You can configure your app to use Apple Push Notification Service (APNS) or Goog
 
 ## Android Apps {#section_41D304102CDF4586911EC1413AD35A10}
 
-**[!UICONTROL If GCM is not enabled in your app]**
+### If GCM is not enabled in your app
 
-To configure your Android app to use GCM, if GCM is not enabled in your app:
+To configure your Android app to use GCM in this scenario:
 
 1. Go to [https://developers.google.com/mobile/add](https://developers.google.com/mobile/add) and log in with your [Google Dev credentials](https://developers.google.com/mobile/add). 
 
@@ -39,38 +39,28 @@ To configure your Android app to use GCM, if GCM is not enabled in your app:
    - Sender ID = 835015092250
    ```
 
-**[!UICONTROL If GCM is enabled in your app]**
+### If GCM is enabled in your app
 
-To configure your Android app to use GCM (Google Cloud Messaging) when GCM is enabled in your app:
+To configure your Android app to use GCM in this scenario:
 
 1. Go to [https://console.developers.google.com/project](https://console.developers.google.com/project). 
-1. Select your app that is GCM enabled. 
-1. Note the **[!UICONTROL Project number]** in the **[!UICONTROL Overview]** section. 
+1. Select your GCM-enabled app. 
+1. Write down the **[!UICONTROL Project number]** in the **[!UICONTROL Overview]** section. 
 
-   This is the GCM Sender ID for the app.
-
-   For example:
-
-   ```
-   - Project Number = 835015092250
-   ```
+   This is the GCM Sender ID for the app. For example, `- Project Number = 835015092250`.
 
 1. Under the **[!UICONTROL APIs & Auth]** header, select **[!UICONTROL Credentials]**. 
 1. Copy the API Key under the **[!UICONTROL Public API access]** section for use later.
 
-   For example:
+   For example, `- API Key = AIzaSyC6FNgsCOpBL5eXhDvwf8979mWba6x7Roo`.
 
-   ```
-    - API Key = AIzaSyC6FNgsCOpBL5eXhDvwf8979mWba6x7Roo
-   ```
-
-## iOS Apps {#section_2031DAB485FC4D2B9027E42AD90B294D}
+## iOS apps {#section_2031DAB485FC4D2B9027E42AD90B294D}
 
 To configure your iOS app to use APNS:
 
 1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account). 
 1. Under **[!UICONTROL iOS Apps]**, select **[!UICONTROL Identifiers]**. 
-1. If you already have an App ID set up for push, skip to Step 11. 
+1. If you have an App ID set up for push, go to Step 11. 
 1. Press the **[!UICONTROL +]** button to create a new App ID. 
 1. Type an App ID Description. 
 1. Type an App ID Suffix.
@@ -88,13 +78,13 @@ To configure your iOS app to use APNS:
 1. Scroll down to **[!UICONTROL Push Notifications]** and click the correct **[!UICONTROL Create Certificate...]** button.
 
    The button you click depends whether you are creating a certificate for Development or Production. 
-1. Follow the steps outlined on the Apple website to create your CSR, upload it, and generate your certificate. 
+1. Follow the steps on how to create your CSR on Apple's website, upload the CSR, and generate your certificate. 
 1. Scroll down to the **[!UICONTROL Push Notifications]** section and download the SSL certificate you just created. 
-1. Double-click the certificate you downloaded to add it to your keychain.
+1. Double-click the downloaded certificate to add it to your keychain.
 
-**SSL Certificate and Private Key**
+### SSL certificate and private keys
 
-To get your SSL Certificate and Private Key (APNS):
+To get your SSL certificate and private key (APNS):
 
 1. Open **[!UICONTROL Keychain Access]**. 
 1. Click **[!UICONTROL My Certificates]** and find the appropriate **[!UICONTROL Push iOS Push Services Certificate]** for your app and environment.
@@ -103,9 +93,9 @@ To get your SSL Certificate and Private Key (APNS):
 
 1. Expand the certificate and verify that it contains a private key. 
 1. Right-click the private key and select **[!UICONTROL  Export " *`<name of key>`*]**. 
-1. Go through the dialog and save your new [!DNL .p12] file.
+1. Type the necessary information in the dialog box and save your new `.p12` file.
 
    You do not have to type a password. 
 
-1. In the **[!UICONTROL Private Key]**, type the [!DNL .p12] file.
+1. In the **[!UICONTROL Private Key]**, type the `.p12` file.
 

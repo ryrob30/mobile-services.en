@@ -9,13 +9,13 @@ topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
 ---
 
-# App Store{#app-store}
+# App store{#app-store}
 
-The appFigures data connector integration combines the power of the appFigures integrated mobile app store analytics and the direct app tracking of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
+The `appFigures` data connector integration combines the power of the appFigures integrated mobile app store analytics and the direct app tracking of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 
 >[!TIP]
 >
->In the Mobile Services UI, the **[!UICONTROL App Store]** menu item and associated reports display in the left navigation menu after you configure the integration.
+>In the Mobile Services UI, after you configure the integration, the **[!UICONTROL App Store]** menu item and associated reports display in the left navigation pane.
 
 [appFigures Data Connector for Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/connectors/appfigures/) contains the following information:
 <!--REKHA: no idea where this guide lives--> 

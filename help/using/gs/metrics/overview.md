@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 ---
 
-# Display Mobile Metrics {#display-mobile-metrics}
+# Display mobile metrics {#display-mobile-metrics}
 
 You can display the key performance metrics of the apps that you most recently viewed. By default, you can view up to 12 apps. You can change the date range and create filters to segment the data and edit any app on the Overview page.
 
@@ -19,40 +19,40 @@ If the app you want to view is not displayed, search for it by typing the app's 
 
 You can perform the following tasks on the Overview page:
 
-## Change Date Range {#section_E9ED7BB941EC48B58DF938C831493CD5}
+* **Change the date range**
 
-The previous 30 days of data displays for key metrics. You can change this by clicking the calendar icon in the top right-hand side. You can select a date range or a pre-determined time frame from the drop-down list.
+  The previous 30 days of data displays for key metrics. You can change this by clicking the calendar icon in the top right-hand side. You can select a date range or a pre-determined time frame from the drop-down list.
 
-## Filter Data {#section_83786CBDB69644E3BC4EBC66C35B3FE8}
+* **Filter data**
 
-You can user filters to segment the data for each app.
+  You can user filters to segment the data for each app.
 
-For example you can filter the data by App Version and by Device Type.
+  For example you can filter the data by App Version and by Device Type.
 
-To create a filter:
+  To create a filter:
 
-1. Click the **[!UICONTROL Filter]** icon to display the **[!UICONTROL Sticky Filter]** dialog box.
-1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
+  1. Click the **[!UICONTROL Filter]** icon to display the **[!UICONTROL Sticky Filter]** dialog box.
+  1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
 
-    For example, you might select **[!UICONTROL App Version]** and type `4.5` for the version. You could select **[!UICONTROL Device Type]** and type `Android`.
+      For example, you might select **[!UICONTROL App Version]** and type `4.5` for the version. You could select **[!UICONTROL Device Type]** and type `Android`.
 
-    >[!TIP]
-    >
-    >You can create complex filters by using *AND* and *OR* statements.
+      >[!TIP]
+      >
+      >You can create complex filters by using *AND* and *OR* statements.
 
-1. Click **[!UICONTROL Update]**.
+  1. Click **[!UICONTROL Update]**.
 
->[!TIP]
->
->A blue bubble displays next to the **[!UICONTROL Filter]** icon to indicate the number of active filters.
+  >[!TIP]
+  >
+  >A blue bubble displays next to the **[!UICONTROL Filter]** icon to indicate the number of active filters.
 
-To cancel filters, click the **[!UICONTROL Filter]** icon, and click **[!UICONTROL Cancel]**.
+  To cancel filters, click the **[!UICONTROL Filter]** icon, and click **[!UICONTROL Cancel]**.
 
-## Display Key Performance Indicators {#section_44EFF65D62DC43BB8371EA5965942CED}
+* **Display Key Performance Indicators** 
 
-Click the name of the app to display details about the key performance indicators. The lines on the chart are color coded, and you can mouse over the data point to display the statistics for specific dates. To drill down, click the **[!UICONTROL >]** icon next to **[!UICONTROL Key Performance Indicators]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Click a column header in the table to sort the data in ascending or descending order.
+  Click the name of the app to display details about the key performance indicators. The lines on the chart are color coded, and you can mouse over the data point to display the statistics for specific dates. To drill down, click the **[!UICONTROL >]** icon next to **[!UICONTROL Key Performance Indicators]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Click a column header in the table to sort the data in ascending or descending order.
 
-## Edit an App's Settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
+## Edit an app's settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
 1. Click the gear icon in any app's tile to open the App Information page. 
 1. Edit the app's settings.

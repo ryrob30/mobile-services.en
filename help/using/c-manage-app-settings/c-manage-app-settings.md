@@ -15,9 +15,11 @@ Managing your apps involves configuring an App and managing a variety of variabl
 
 >[!IMPORTANT]
 >
->To edit this page, you must be a member of the Mobile App Admin group. To determine whether you are a member of this group, click **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management] ** > **[!UICONTROL Groups] ** > **[!UICONTROL Mobile App Admin]**.
+>To edit this page, you must be a member of the Mobile App Admin group. To determine whether you are a member of this group, click **[!UICONTROL Admin Tools >]** **[!UICONTROL User Management >]** **[!UICONTROL Groups >]** **[!UICONTROL Mobile App Admin]**.
 
-To configure and manage your app see the following information: 
+## Additional information
+
+For more information about configuring and managing your app,see the following information: 
 
 * [Configuring your App](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)
 * [Configure SDK Analytics Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)

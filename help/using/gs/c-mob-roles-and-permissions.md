@@ -6,7 +6,7 @@ title: Roles and Permissions
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 ---
 
-# Roles and Permissions{#roles-and-permissions}
+# Roles and permissions{#roles-and-permissions}
 
 In Adobe Analytics, you can manage roles on the Admin Tools Home page.
 
@@ -36,19 +36,19 @@ This role is the Admin for the Mobile Services UI.
 >
 >For some features, such as push messaging, the Analytics Admin must select the **[!UICONTROL Segment Creation]** check box in User Management.
 
-## Managing Access {#section_E6939C2695AA4A0DBF432D50B2670920}
+## Managing access {#section_E6939C2695AA4A0DBF432D50B2670920}
 
 Here is some additional information about accessing options in the Mobile Services UI:
 
-### Apps and Report Suites
+### Apps and report suites
 
 All Mobile Service apps are tied to report suites. If users do not have access to a report suite, they will not have access to that report suite's associated app.
 
-### Mobile Services and Analytics Features
+### Mobile Services and Analytics features
 
 If your company does not have an Analytics contract to access a feature in the UI, such as Push Messaging, no user in your company will have access to that feature, regardless of permission level.
 
-## Roles and Permissions {#section_20AA029D5B8C413C8659777E79B11620}
+## Roles and permissions {#section_20AA029D5B8C413C8659777E79B11620}
 
 Here are the roles in the Mobile Services UI, with their relevant permissions:
 
@@ -92,7 +92,7 @@ For more information about groups and users, see:
 * [User group settings](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
 * [Add a user to a group](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
-### Mobile Services User
+### Mobile Services user
 
 This role has view-only permissions and can provide feedback in the Mobile Services UI.
 

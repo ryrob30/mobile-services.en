@@ -11,11 +11,11 @@ uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
 
 # View Paths{#view-paths}
 
-The View Paths report, which is based on path analysis, displays a pathing chart that represents the paths that were taken between states in the app.
+The **[!UICONTROL View Paths]** report, which is based on path analysis, displays a pathing chart that represents the paths that were taken between states in the app.
 
 >[!TIP]
 >
->The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. The **[!UICONTROL View Paths]** report allows you to see how users navigate in your app from one screen to the next. The **[!UICONTROL View Actions]** report displays the sequence of actions (events, such as clicks, selections, resizing, and so on) that users perform in your app. You can use a [funnel report](/help/using/usage/reports-funnel.md) to combine navigation and actions in one report.
+>The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. The **[!UICONTROL View Paths]** report allows you to see how users navigate in your app from one screen to the next. The **[!UICONTROL View Actions]** report displays the sequence of actions (events, such as clicks, selections, resizing, and so on) that users perform in your app. You can use a funnel report to combine navigation and actions in one report. For more information, see [Funnel](/help/using/usage/reports-funnel.md).
 
 ![view paths](assets/view_paths.png)
 
@@ -25,9 +25,9 @@ When you click a node to provide the additional options to modify the chart, add
 
 To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. In the illustration below, state 1 is launching the app, state 2 is viewing the main page of the app, and state 3 includes the following paths that users took:
 
-* Navigating to the camera roll 
-* navigating to the item selector 
-* navigating to the camera 
+* Navigating to the camera roll
+* navigating to the item selector
+* navigating to the camera
 * navigating to the item info page
 
 ![](assets/view_paths_expand.png)
@@ -50,8 +50,8 @@ You can configure the following options for this report:
 * **[!UICONTROL Time Period]**
     Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list.
 * **[!UICONTROL Customize]**
-    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](../usage/reports-customize/reports-customize.md).
+    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filter]**
-    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](../usage/reports-customize/t-sticky-filter.md).
+    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 * **[!UICONTROL Download]**
     Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.

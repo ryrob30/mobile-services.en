@@ -13,7 +13,7 @@ uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
 
 Marketers can create, save, and edit link destinations, such as web, deep, or other links, that can be used while building trackable marketing links.
 
-To create different types of link destinations, see [Create and Manage Link Destinations](/help/using/acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md).
+To create different types of link destinations, see [Create and manage link destinations](/help/using/acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md).
 
 You can create the following types of link destinations:
 
@@ -31,6 +31,6 @@ You can create the following types of link destinations:
 
 * **[!UICONTROL Hybrid Link]**
 
-    Hybrid links support iOS Universal Links or Android App Links.
+    Hybrid links support iOS universal links or Android app links.
 
-For more information about how to create each type of link, see [Create New Link Destination](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md). 
+For more information about how to create each type of link, see [Create new link destination](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md). 
