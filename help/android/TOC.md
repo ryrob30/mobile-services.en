@@ -80,10 +80,10 @@ user-guide-title: Mobile Services Android Help
   + [Android Wearables: getting started](wearables/android-wearable.md)
   + [Android Wearables: additional notes](wearables/c-android-wearables--additional-notes.md)
 + Android SDK Reference{#sdk-reference-android} 
-  + [Experience Cloud overview](c-marketing-cloud/c-marketing-cloud.md)
-  + [Experience Cloud ID configuration](c-marketing-cloud/mcvid.md)
-  + [Experience Cloud ID Service methods](c-marketing-cloud/mc-methods.md)
-  + [Experience Cloud Device Co-op](c-marketing-cloud/t-mob-mc-device-coop-android-.md)
+  + [Android SDK reference](/help/android/reference/reference.md)
+  + [App IDs](/help/android/reference/app-ids.md)
+  + [Visitor tracking between an app and mobile web](/help/android/reference/hybrid-app.md)
+  + [Android widgets](/help/android/reference/widgets.md)
 + Privacy and General Data Protection Regulation{#gdpr-privacy-android}
   + [Privacy and GDPR overview](c-mob-privacy-gdpr-android/c-mob-privacy-gdpr-android.md)
   + [Retrieving stored identifiers](c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)
