@@ -56,7 +56,7 @@ This information can help you troubleshoot your in-app messaging issues.
 
 * **If using launch event as trigger...**
 
-  Launch only fires on a new session. For information on when a session begins, see `lifecycleTimeout` in the [ADBMobile JSON config](/Users/rekrishn/Documents/GitHub/mobile-services.en/help/ios/configuration/json-config/json-config.md) file.
+  Launch only fires on a new session. For information on when a session begins, see `lifecycleTimeout` in the [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md) file.
 
 * **I updated my message remotely but my app is still showing the old message.**
 
