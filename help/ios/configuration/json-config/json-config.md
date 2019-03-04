@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 ---
 
-# ADBMobile JSON Config {#adbmobile-json-config}
+# ADBMobile JSON config {#adbmobile-json-config}
 
 This information helps you use the ADBMobile.json config file.
 

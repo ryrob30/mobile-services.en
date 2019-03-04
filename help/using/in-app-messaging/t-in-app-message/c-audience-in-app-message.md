@@ -9,12 +9,12 @@ topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 ---
 
-# Audience: In-App Message{#audience-in-app-message}
+# Audience: in-app messages{#audience-in-app-message}
 
 You can configure audience options for in-app messages, including view, trigger, and trait options.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
-1. On the [!DNL Audience] page, type information in the following fields:
+1. In your app, click **[!UICONTROL Messaging >]** **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message >]** **[!UICONTROL Create In-App]**.
+1. On the Audience page, type information in the following fields:
 
    * **[!UICONTROL View]**
 
@@ -43,13 +43,13 @@ You can configure audience options for in-app messages, including view, trigger,
    * **[!UICONTROL Traits]**
       You can determine who should see the in-app message when it is triggered and filter (segment) the audience to hits that have specified data. For example, you can define a rule in which Points of Interest contain Denver. This filter allows you to show the message to customers that are in one of your points of interest with Denver in the name, at the trigger time.
 
-## Additional Information about Traits and Triggers {#section_48C39EFB8CAA4F62B994FCC91DF588E6}
+## Additional information about traits and triggers {#section_48C39EFB8CAA4F62B994FCC91DF588E6}
 
 >[!IMPORTANT]
 >
 >Triggers and traits use data that is passed to Analytics from your app. These values are passed as context data, mapped variables, and metrics. A variable is a text-based value, and a metric is a numerical value.
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables & Metrics]** , which displays the following tabs:
+To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings >]**  **[!UICONTROL Manage Variables & Metrics >]**, which displays the following tabs:
 
 * **[!UICONTROL Standard Variables & Metrics]**
 * **[!UICONTROL Custom Variables]**
@@ -57,17 +57,17 @@ To see the mapping of these key value pairs in the Mobile Services UI and valida
 
 After you validate the mapping, select the appropriate matcher or logical operator to configure your audience for the message.
 
-### Selecting Metrics and Variables {#example_AB126F03BD1C4094B791E230B3DB1189}
+### Selecting metrics and variables {#example_AB126F03BD1C4094B791E230B3DB1189}
 
 ![trigger options](assets/custom_trigger_matcher_options.png)
 
-The following scenarios help you determine whether you should select a metric or a variable as your trigger:
+The following scenarios help you determine whether to select a metric or a variable as your trigger:
 
 ### Metrics
 
-A metric is a number and an example is the number of purchases.
+A metric is a number, and an example is the number of purchases.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**. 
+1. Click **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message]**. 
 1. Complete the following steps in the **[!UICONTROL Trigger]** section on the **[!UICONTROL Audience]** tab:
 
     1. Select a standard event such as **[!UICONTROL Launched]** and select **[!UICONTROL exists]**.
@@ -78,11 +78,11 @@ A metric is a number and an example is the number of purchases.
 
 A variable is a text string that is a unique identifier, and examples include country, airport, and so on.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. Click **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message]**.
 1. Complete the following steps in the **[!UICONTROL Trigger]** section on the **[!UICONTROL Audience]** tab:
 
     1. Select a standard event such as **[!UICONTROL Launched]** and select **[!UICONTROL exists]**.
     1. Select a second trigger that is a custom data point and that is mapped to a variable.
     1. Under **[!UICONTROL Text]**, select a matcher option.
 
-For more information about context data, variables, and metrics, see [Managing your App](../../manage-apps/manage-apps.md).
+For more information about context data, variables, and metrics, see [Managing your app](/help/using/manage-apps/manage-apps.md).

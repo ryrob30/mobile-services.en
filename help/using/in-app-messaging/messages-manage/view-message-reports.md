@@ -58,7 +58,7 @@ Here is a list of the metrics that are available for push messages:
 
 * **[!UICONTROL Time]**
 
-The time the message was pushed to devices from [!DNL Mobile Services].
+  The time the message was pushed to devices from Mobile Services.
 
 * **[!UICONTROL Status]**
 

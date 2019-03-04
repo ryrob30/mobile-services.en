@@ -38,35 +38,35 @@ This information can help you troubleshoot push messaging.
 
 * **Why is my Android GCM API key invalid?**
 
-  **Invalid API key**
+  * **Invalid API key**
   
-  Your API key might be invalid for the following reasons: 
+    Your API key might be invalid for the following reasons: 
   
-  * The API key that you provided is not a server key with the correct GCM API key value.
-  * The server key has whitelisted the IPs and is blocking Adobe's servers from sending a push message. 
+    * The API key that you provided is not a server key with the correct GCM API key value.
+    * The server key has whitelisted the IPs and is blocking Adobe's servers from sending a push message. 
   
-  **Determine the validity of the API key**
+  * **Determine the validity of the API key**
   
-    To determine the validity of your API key, run the following command: 
+      To determine the validity of your API key, run the following command: 
 
-    **Android** 
+      **Android** 
 
-    ```java
-    # api_key=YOUR_API_KEY
-    #curl--header"Authorization:key=$api_key"\
-         --headerContent-Type:"application/json"\ 
-         https://gcm-http.googleapis.com/gcm/send\
-         -d"{\"registration_ids\":[\"ABC\"]}"
-     ```
+      ```java
+      # api_key=YOUR_API_KEY
+      #curl--header"Authorization:key=$api_key"\
+          --headerContent-Type:"application/json"\ 
+          https://gcm-http.googleapis.com/gcm/send\
+          -d"{\"registration_ids\":[\"ABC\"]}"
+      ```
 
-    A returned 401 HTTP status code means that your API key is invalid. Otherwise, you will see something similar to this: 
+      A returned 401 HTTP status code means that your API key is invalid. Otherwise, you will see something similar to this: 
 
-    ```java
-     {"multicast_id":6782339717028231855,"success":0,"failure":1,
-     canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
-     ```
+      ```java
+      {"multicast_id":6782339717028231855,"success":0,"failure":1,
+      canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+      ```
 
-You can also check the validity of a registration token by replacing `"ABC"` with the token.
+  You can also check the validity of a registration token by replacing `"ABC"` with the token.
 
 * **Why is my APNS cert not working?**
 
@@ -92,9 +92,9 @@ You can also check the validity of a registration token by replacing `"ABC"` wit
     * RSID: PhotoShop_iOS_app_LA 
     * VRSID Definition Segment: `a.os contains “iOS”`
 
-  In this example, if a Photoshop employee sends a push to the PhotoShop_iOS_app_SF app, all PhotoShop_iOS_app_SF app users will receive the push message as expected. But, if the employee sends a message to the PhotoShop_iOS_app_LA app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in AllAdobe PhotoShop_apps. Although the message will still go to PhotoShop_iOS_app_LA users, the message will also blacklist the push IDs for PhotoShop_iOS_app_SF users because the PhotoShop_iOS_app_SF app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only PhotoShop_iOS_app_LA users. 
+  In this example, if a Photoshop employee sends a push to the *PhotoShop_iOS_app_SF* app, all *PhotoShop_iOS_app_SF app* users receive the push message as expected. But, if the employee sends a message to the *PhotoShop_iOS_app_LA* app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blacklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only *PhotoShop_iOS_app_LA* users. 
   
-  If passed with the PhotoShop_IOS_app_LA push certificate, the push identifiers for the PhotoShop_iOS_app_SF will come back as `invalid`.
+  If passed with the *PhotoShop_IOS_app_LA* push certificate, the push identifiers for the *PhotoShop_iOS_app_SF* come back as `invalid`.
   
   >[!CAUTION]
   >

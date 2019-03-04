@@ -9,12 +9,12 @@ topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 ---
 
-# Experience: In-App Message{#experience-in-app-message}
+# Experience: in-app messages{#experience-in-app-message}
 
 Configure experience options for in-app messages, including type (full screen, alert, or notification) and display, text, and button options.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
-1. On the [!DNL Experience] page, type a name for the message.
+1. In your app, click **[!UICONTROL Messaging >]** **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message >]** **[!UICONTROL Create In-App]**.
+1. On the Experience page, type a name for the message.
 1. Complete the fields in the **[!UICONTROL Type]** section:
 
    * **[!UICONTROL Type]**
@@ -51,15 +51,15 @@ Configure experience options for in-app messages, including type (full screen, a
 
    * **[!UICONTROL Layout]**
 
-    Select the app layout on the device screen.
+      Select the app layout on the device screen.
 
    * **[!UICONTROL Image URL]**
 
-    The URL for an image. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      The URL for an image. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting in-app messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
    * **[!UICONTROL Bundled Image**]
 
-    Path to an image in your app code bundle. This option is used when there is no image. or the image is unavailable. The imagine might not be available if, for example, the device is offline. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting In-App Messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      Path to an image in your app code bundle. This option is used when there is no image. or the image is unavailable. The imagine might not be available if, for example, the device is offline. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting in-app messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
 1. Complete the fields in the **[!UICONTROL Text]** section:
 
@@ -75,11 +75,13 @@ Configure experience options for in-app messages, including type (full screen, a
 
    * **[!UICONTROL Click-Through Button]**
 
-    Label for the **[!UICONTROL Click-Through]** button. Tapping this button will count as a successful click-through. The user will be redirected to the destination.
+      Label for the **[!UICONTROL Click-Through]** button. Tapping this button counts as a successful click-through. The user is redirected to the destination.
 
    * **[!UICONTROL Destination]**
 
-     Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. The redirect URL for a successful click-through. This URL might contain the following information:
+     Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. The redirect URL for a successful click-through. 
+  
+     This URL might contain the following information:
 
      * `{userId}`, which is replaced with the user identifier or is blank when the user identifier is not set.  
      * `{trackingId}`, which is replaced with the aid (correlates with *s_vi* cookie).
@@ -88,7 +90,7 @@ Configure experience options for in-app messages, including type (full screen, a
 
      Here is an example of tracking the user ID: `https://www.mysite.com?uid={userId}`.
 
-     If the click-through URL uses `https://` or `https://`, the URL will open in the device browser outside the app. Otherwise, each platform supports schemes that allow you to open or reference your app if the app has been developed to support the custom scheme. 
+     If the click-through URL uses `https://` or `https://`, the URL opens in the device browser outside the app. Otherwise, each platform supports schemes that allow you to open or reference your app if the app has been developed to support the custom scheme. 
 
      >[!TIP]
      >
@@ -96,19 +98,21 @@ Configure experience options for in-app messages, including type (full screen, a
 
 1. (Optional) Preview the layout of your message by clicking following icons:
 
-   * **[!UICONTROL x Summary}** hides the preview pane. Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
+   * **[!UICONTROL Summary]** hides the preview pane. 
+   
+     Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL Change the orientation]**
-
-     To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). For watches, the orientation changes from a round watch face to a square watch face.
+   
+     To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). For watches, the orientation changes from a round to a square watch face.
 
    * **[!UICONTROL Preview on a user's watch]**
 
-     To preview your message as it will appear on a users's watches click ![watch icon](assets/icon_watch.png).
+     To preview your message as it will appear on a users's watche, click ![watch icon](assets/icon_watch.png).
 
    * **[!UICONTROL Preview on a user's mobile phone]**
 
-     To preview your message as it will appear on a users's mobile phones click ![phone icon](assets/icon_phone.png).
+     To preview your message as it will appear on a users's mobile phone click ![phone icon](assets/icon_phone.png).
 
    * **[!UICONTROL Preview on a user's tablet]**
 

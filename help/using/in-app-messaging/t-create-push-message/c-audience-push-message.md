@@ -13,7 +13,7 @@ uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 
 You can define and configure audience options for push messages, including date range options, Analytics segments, and custom segments.
 
-## Define Audience Segments {#section_7C4D2393CF7441959FE2381A02867CAC}
+## Define audience segments {#section_7C4D2393CF7441959FE2381A02867CAC}
 
 When an audience segment for push messaging is created, the segment might involve users from one or more apps because report suites or virtual report suites might contain data from one or more apps. For more information about virtual report suites, see [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
@@ -72,7 +72,7 @@ Here are some examples to help you understand how to correctly define segments:
 
       * The **[!UICONTROL Estimated Opt-In Audience]** is the number of devices that match the Adobe Analytics segment **and** the number of opted-in devices.
 
-      You can view an estimate of the number of users in your selected segment(s) that have opted in to receive messages and will receive the push message. The total number of app users displays below the estimate, regardless of opt-in status.
+        You can view an estimate of the number of users in your selected segment(s) that have opted in to receive messages and will receive the push message. The total number of app users displays below the estimate, regardless of opt-in status.
 
       * The **[!UICONTROL Total]** is the number of devices that match the Adobe Analytics segment.
 

@@ -55,7 +55,7 @@ Here are the requirements for sending rich push notifications:
      >[!IMPORTANT]
      >
      >Remember the following information:
-     >* Rich push messages sent to earlier versions will still be sent but only text will be displayed.
+     >* Rich push messages sent to earlier versions will still be sent but only the text is displayed.
      >* There is no watch support at this time.
 
 * **File Formats**
@@ -100,7 +100,7 @@ To configure a push message on the Experience page:
 
    * **[!UICONTROL x Summary}**
 
-     Hides the preview pane. Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
+     Hides the preview pane. Click ![preview](assets/icon_preview.png) to display the preview pane again.
 
    * **[!UICONTROL Change the orientation]**
 
@@ -124,4 +124,7 @@ To configure a push message on the Experience page:
 1. Select the service and type the push tokens for at least one device to which you want to push the message.
 
    Specify the tokens in a comma-separated list to push the message to more than one device.
-1. Configure [Schedule options](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+
+1. Configure the scheduling options for the message. 
+
+    For more information, see [Schedule: push message](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
