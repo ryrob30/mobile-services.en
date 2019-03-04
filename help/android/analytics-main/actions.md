@@ -8,13 +8,13 @@ topic: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
 ---
 
-# Track App Actions {#track-app-actions}
+# Track app actions {#track-app-actions}
 
 Actions are the events that occur in your Android app that you want to measure.
 
 Each action has one or more corresponding metrics that are incremented each time the event occurs. For example, you might send a `trackAction` call for each new subscription, each time an article is viewed, or each time a level is completed. Actions are not tracked automatically, so you must call `trackAction` when an event that you want to track occurs, and map the action to a custom event.
 
-## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## Tracking actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -43,7 +43,7 @@ You can also set a prop to hold all action values by mapping a custom prop with 
 
 ![](assets/map-custom-prop.png)
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the action name, you can send additional context data with each track action call:
 
@@ -57,7 +57,7 @@ Context data values must be mapped to custom variables in Adobe Mobile services:
 
 ![](assets/map-variable-context-action.png)
 
-## Action Reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
+## Action reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
 | Interface | Report |
 |--- |--- |

@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
 ---
 
-# Track App Crashes {#track-app-crashes}
+# Track app crashes {#track-app-crashes}
 
 This information helps you understand how crashes are tracked and the best practices to handle false crashes.
 
@@ -46,7 +46,7 @@ Fragments have application lifecycle events that are similar to Activities. Howe
 >
 >You need to rely on the lifecycle events against which the containing activities can run your code. This will be handled by the parent view of the Fragment.
 
-**(Optional) Implement Activity lifecycle callbacks**
+**(Optional) Implement activity lifecycle callbacks**
 
 Starting with API Level 14, Android allows global lifecycle callbacks for activities. For more information, see [Application](https://developer.android.com/reference/android/app/Application).
 

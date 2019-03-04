@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
 ---
 
-# Troubleshooting In-App Messaging{#troubleshooting-in-app-messaging}
+# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
 
 This information helps you troubleshoot in-app messaging.
 

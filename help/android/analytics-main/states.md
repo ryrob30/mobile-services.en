@@ -8,13 +8,13 @@ topic: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
 ---
 
-# Track App States {#track-app-states}
+# Track app states {#track-app-states}
 
 States are the different screens or views in your application.
 
 Each time a new state is displayed in your application, for example, when a user navigates from the home page to the news feed, a `trackState` call is sent. In Android, `trackState` is typically called each time a new activity is loaded.
 
-## Tracking States {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## Tracking states {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -41,7 +41,7 @@ Each time a new state is displayed in your application, for example, when a user
 
 The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. In other Analytics interfaces, `View State` is reported as `Page Name`, and `state views` is reported as `page views`.
 
-## Send Additional Data {#section_CFDB4F944496401786A145C209AB387C}
+## Send additional data {#section_CFDB4F944496401786A145C209AB387C}
 
 In addition to the `"State Name"`, you can send additional context data with each track action call:
 
@@ -62,7 +62,7 @@ Context data values must be mapped to custom variables in Adobe Mobile services:
 
 ![](assets/map-variable-context-state.png)
 
-## App State Reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
+## App state reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
 States are typically viewed by using a pathing report, which allows you to see how users navigate your app and which states are most frequently viewed.
 

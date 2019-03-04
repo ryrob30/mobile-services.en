@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
 ---
 
-# Postbacks Example {#postbacks-example}
+# Postbacks example {#postbacks-example}
 
 You can use this information to help you understand what postbacks are and how they work.
 
@@ -49,7 +49,7 @@ You can use this information to help you understand what postbacks are and how t
 
 ```
 
-## Code Sample {#section_D063DE82976D4EDEA97E804BD1C4718F}
+## Code sample {#section_D063DE82976D4EDEA97E804BD1C4718F}
 
 ```js
 HashMap<String, Object> contextData = new HashMap<String, Object>(); 

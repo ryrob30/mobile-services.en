@@ -6,7 +6,7 @@ title: Retrieving Stored Identifiers
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
 ---
 
-# Retrieving Stored Identifiers{#retrieving-stored-identifiers}
+# Retrieving stored identifiers{#retrieving-stored-identifiers}
 
 This information helps you retrieve locally stored, SDK identities from your Android app and with GDPR data access requests.
 

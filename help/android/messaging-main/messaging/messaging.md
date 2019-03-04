@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 ---
 
-# In-App Messaging {#in-app-messaging}
+# In-app messaging {#in-app-messaging}
 
 You can deliver in-app messages that are triggered from any analytics data or event. After the implementation, messages are dynamically delivered to the app and do not require a code update.
 
@@ -18,7 +18,7 @@ You can deliver in-app messages that are triggered from any analytics data or ev
 
 You can create messages and the rules in Adobe Mobile services that define when messages are displayed. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). To display in-app messages, updates must be made to the SDK. You can complete these steps even if you have not yet defined any messages. After you define messages, they will be delivered dynamically to your app and displayed without an app store update.
 
-## Enabling In-App Messaging {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## Enabling in-app messaging {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -97,7 +97,7 @@ You can create messages and the rules in Adobe Mobile services that define when 
 
    If this object is not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Before You Start](/help/android/getting-started/requirements.md).
 
-## Tracking In-App Messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
+## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
 The Android Mobile SDKs track the following metrics for your in-app messages:
 
@@ -116,7 +116,7 @@ The Android Mobile SDKs track the following metrics for your in-app messages:
   
     `adbinapp://cancel`
 
-## Local Fallback Image {#section_DEACC1CE549B4573B556A44A52409941}
+## Local fallback image {#section_DEACC1CE549B4573B556A44A52409941}
 
 When creating a full-screen message, you can optionally specify a fallback image. If your message cannot retrieve its intended image from the web, the SDK attempts to load the image with the same name from your application’s assets folder. This allows you to show your message in its original form, even if the user is offline, or the predetermined image is unreachable.
 
@@ -124,7 +124,7 @@ When creating a full-screen message, you can optionally specify a fallback image
 >
 >The fallback image asset name is specified when you configure the message in Adobe Mobile services, and you need to ensure that the specified resource is available.
 
-## Configuring Notification Icons {#section_DDA28BDBCBB748BCBECF3AB50A177D48}
+## Configuring notification icons {#section_DDA28BDBCBB748BCBECF3AB50A177D48}
 
 The following methods allow you to configure the small and large icons that appear in the notification area, and the large icon that is displayed when notifications appear in the notification drawer. 
 

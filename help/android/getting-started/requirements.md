@@ -8,11 +8,11 @@ topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 ---
 
-# Before You Start {#before-you-start}
+# Before you start {#before-you-start}
 
 Before configuring a report suite and collecting Android app data, complete the following prerequisite tasks:
 
-## Role-Specific Tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
+## Role-specific tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 Analytics administrators and app developers must complete the following tasks:
 
@@ -56,7 +56,7 @@ You can log in to the Adobe Mobile Services UI in one of the following ways:
 
   Click **[!UICONTROL Sign in with Analytics]** and enter your [!DNL Analytics] company name, your username, and your password.
 
-## Create a Report Suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
+## Create a report suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
 To create a report suite to collect app data and define an app:
 
@@ -103,4 +103,3 @@ Remember the following information:
 
 * Replace the version number in the code sample with the appropriate version of the Android SDKs. 
 * Download the config file and include it in your project.
-

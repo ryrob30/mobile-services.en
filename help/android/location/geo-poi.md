@@ -59,7 +59,7 @@ If this is not configured, you must download an updated version of the `ADBMobil
 
 Additionally, if the location is determined to be in a defined POI radius, an `a.loc.poi` context data variable is sent in with the `trackLocation` hit and is reported as a POI on the **[!UICONTROL Location Breakdown]** reports. An `a.loc.dist` context variable is also sent with the distance in meters from the defined coordinates.
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the location data, you can send additional context data with each track location call:
 
@@ -75,7 +75,7 @@ Context data values must be mapped to custom variables in the Adobe Mobile Servi
 
 ![](assets/map-location-context-data.png)
 
-## Location Context Data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 The latitude and longitude are sent by using three different context data parameters, with each parameter representing a different level of precision, for a total of six context data parameters.
 
@@ -95,7 +95,7 @@ For example, the coordinates lat = 40.93231, long = -111.93152 represent a locat
 
 Some precision levels might appear as `00` depending on the accuracy of the current location. For example, if the location is currently accurate to 100m, `a.loc.lat.c` and `a.loc.lon.c` will be populated with `00`.
 
-## Additional Information {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
+## Additional information {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
 
 Remember the following information:
 

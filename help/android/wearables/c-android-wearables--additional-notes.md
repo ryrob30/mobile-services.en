@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
 ---
 
-# Android Wearables: Additional Notes{#android-wearables-additional-notes}
+# Android Wearables: additional notes{#android-wearables-additional-notes}
 
 Here is some information to help you configure the Android extension, which allows you to collect data from your Android Wearable app.
 

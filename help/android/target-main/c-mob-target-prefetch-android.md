@@ -31,7 +31,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Pre-fetch Methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Pre-fetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 Here are the methods that you can use for prefetch in Android:
 
@@ -128,11 +128,11 @@ Here are the methods that you can use for prefetch in Android:
     final Map<String, Object> productParams)
     ```
 
-## Public Classes {#section_A273E53F069E4327BBC8CE4910B37888}
+## Public classes {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Here are the public classes that support pre-fetch in Android:
 
-### Class Reference: TargetPrefetchObject
+### Class reference: TargetPrefetchObject
 
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
@@ -158,7 +158,7 @@ Encapsulates the mbox name and the parameters that are used for mbox prefetch.
   * **Type**: Map `<String, Object>`
 
 
-### Class Reference: TargetRequestObject
+### Class reference: TargetRequestObject
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
@@ -199,7 +199,7 @@ This class encapsulates the mbox name, default content, mbox parameters and the 
   * **Type**: Target.TargetCallback`<String>`
 
 
-## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
+## Code sample {#section_BF7F49763D254371B4656E17953D520C}
 
 Here is an example of how to prefetch content by using the Android SDKs:
 

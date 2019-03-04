@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 22ec432f-e7ae-4e89-be07-26206bbeacf8
 ---
 
-# Acquisition Methods{#acquisition-methods}
+# Acquisition methods{#acquisition-methods}
 
 The following Acquisition method is provided by the Android library:
 

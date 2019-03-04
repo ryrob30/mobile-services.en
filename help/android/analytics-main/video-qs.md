@@ -19,7 +19,7 @@ Here is some information about measuring video on Android by the video measureme
 
 The general process to measure video is similar across all platforms. This content provides an overview of the developer tasks with code samples. The following table lists the media data that is sent to Analytics. Processing rules are used to map the context data to an Analytics variable.
 
-## Map Player Events to Analytics Variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
 * **a.media.name**
   * Variable type: eVar 
@@ -86,7 +86,7 @@ The general process to measure video is similar across all platforms. This conte
     By default, the complete event is measured 1 second before the end of the video. During implementation, you can specify how many seconds from the end of the video you would like to consider a view as being complete. For live video and other streams that do not have a defined end, you can specify a custom point to measure completes (for example, after a specific time viewed). 
 
 
-## Configure Media Settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
 
 Configure a `MediaSettings` object with the settings you want to use to track video:
 
@@ -94,7 +94,7 @@ Configure a `MediaSettings` object with the settings you want to use to track vi
 MediaSettings mySettings = Media.settingsWith("name", 10, "playerName", "playerId");
 ```
 
-## Track Player Events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
 To measure video playback, the `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. For example, when the player is paused, call `mediaStop`. `mediaPlay` is called when playback starts or is resumed.
 
@@ -145,7 +145,7 @@ public boolean ad;
 public boolean eventFirstTime;
 ```
 
-## Media Measurement Class and Method Reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## Media Measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 Here are the methods in the Media Measurement class:
 

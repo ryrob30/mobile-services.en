@@ -34,9 +34,9 @@ This information helps you implement the Android library and collect lifecycle m
     >
     >If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, and you want to set up a development report suite and download a pre-populated version of the configuration file, see [Before You Start](/help/android/getting-started/requirements.md).
 
-## Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project {#section_B89510FBB4C646AEA73A185B966E54D3}
+## Add the SDK and config file to your IntelliJ IDEA or Eclipse project {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-**IntelliJ IDEA Project**
+**IntelliJ IDEA project**
 
 To add the SDK and config file to your project:
 
@@ -50,7 +50,7 @@ To add the SDK and config file to your project:
 1. Select the modules where you plan to use the mobile library. 
 1. Click **[!UICONTROL Apply]** and **[!UICONTROL OK]** to close the [!DNL Module Settings] window.
 
-**Eclipse Project**
+**Eclipse project**
 
 To add the SDK and config file to your project:
 
@@ -62,7 +62,7 @@ To add the SDK and config file to your project:
 1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**. 
 1. On the **[!UICONTROL Order and Export]** tab, ensure that **`adobeMobileLibrary.jar`** is selected.
 
-## Add App Permissions {#section_2EAF73ABF6424647B219A63B33B02CD5}
+## Add app permissions {#section_2EAF73ABF6424647B219A63B33B02CD5}
 
 The AppMeasurement Library requires the following permissions to send data and record offline tracking calls:
 
@@ -76,7 +76,7 @@ To add these permissions, add the following lines to your `AndroidManifest.xml` 
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-## Implement Lifecycle Metrics {#section_BA686C09021F474AADDE8690BBB910F7}
+## Implement lifecycle metrics {#section_BA686C09021F474AADDE8690BBB910F7}
 
 After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and many other metrics. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
 

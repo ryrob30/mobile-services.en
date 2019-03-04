@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 ---
 
-# Release Notes {#release-notes}
+# Release notes {#release-notes}
 
 Release notes and known issues for Android SDK 4.x for Experience Cloud Solutions.
 

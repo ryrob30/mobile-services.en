@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
 ---
 
-# Products Variable {#products-variable}
+# Products variable {#products-variable}
 
 The products variable cannot be set by using processing rules. In the Mobile SDK, you must use a special syntax in the context data parameter to set products on the server call.
 

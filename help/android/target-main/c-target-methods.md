@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 ---
 
-# Target Methods for Android{#target-methods}
+# Target methods for Android{#target-methods}
 
 Here is the list of Adobe Target methods that are provided by the Android library.
 
@@ -19,7 +19,7 @@ The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], inc
 >
 >[Lifecycle Metrics](/help/android/metrics.md) are sent as parameters to each mbox load.
 
-## Class Reference : TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
+## Class reference : TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
 
 **Properties:**
 
@@ -29,7 +29,7 @@ public String defaultContent;
 public HashMap<String, Object> parameters;
 ```
 
-**String Constants**
+**String constants**
 
 >[!TIP]
 >

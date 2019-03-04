@@ -9,11 +9,11 @@ topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
 ---
 
-# Configuration Methods{#configuration-methods}
+# Configuration methods{#configuration-methods}
 
 Here is the list of methods that are provided by the Android library.
 
-## Initial Configuration {#section_9169243ECC4744A899A8271F92090ECD}
+## Initial configuration {#section_9169243ECC4744A899A8271F92090ECD}
 
 The following method must be called once in the `onCreate` method of your main activity: 
 
@@ -30,7 +30,7 @@ The following method must be called once in the `onCreate` method of your main a
    ````
 
 
-## SDK Settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## SDK settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 

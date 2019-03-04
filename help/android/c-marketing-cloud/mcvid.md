@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 8ebdf2bf-c581-448f-9542-f99a19784fe7
 ---
 
-# Experience Cloud ID Configuration {#experience-cloud-id-configuration}
+# Experience Cloud ID configuration {#experience-cloud-id-configuration}
 
 The Experience Cloud ID service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
 

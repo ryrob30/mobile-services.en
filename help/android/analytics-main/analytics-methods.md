@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
 ---
 
-# Analytics Methods {#analytics-methods}
+# Analytics methods {#analytics-methods}
 
 Here is a list of Adobe Analytics methods that are provided by the Android library.
 

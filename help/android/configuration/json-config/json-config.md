@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 ---
 
-# ADBMobile JSON Config {#adbmobile-json-config}
+# ADBMobile JSON config file {#adbmobile-json-config}
 
 This information helps you use the ADBMobile.json config file.
 
@@ -235,7 +235,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   * Determines how long Target waits for a response.
 
 
-## Sample ADBMobileConfig.json File {#section_4655EF79744649E5A5AE19E3224C472C}
+## Sample ADBMobileConfig.json file {#section_4655EF79744649E5A5AE19E3224C472C}
 
 Here is a sample `ADBMobileConfig.json` file:
 
