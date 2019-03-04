@@ -9,13 +9,13 @@ topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 ---
 
-# Mobile Metrics and Dimensions Reference {#mobile-metrics-and-dimensions-reference}
+# Mobile metrics and dimensions reference {#mobile-metrics-and-dimensions-reference}
 
-Here is the reference information for the default mobile metrics and dimensions.
+This information helps you understand more about the default mobile metrics and dimensions.
 
 >[!TIP]
 >
->The dimension and metric permissions that are set in [!DNL Adobe Analytics] apply to [!DNL Mobile Services]. If you attempt to run a report without proper permissions, you will receive an error.
+>The dimension and metric permissions that are set in Adobe Analytics apply to Mobile Services. When you try to run a report without the proper permissions, an error occurs.
 
 ## Metrics {#section_6704C815147D44AF96151D626BEB813C}
 
@@ -66,43 +66,57 @@ Here is the list of default mobile metrics:
 Here is the list of default mobile dimensions:
 
 * **Install Date**
+
   Date of the first launch after the installation. The date is in the *MM/DD/YYYY* format.
 
 * **App ID**
+
   Stores the Application name and version in the following format: `[AppName] [BundleVersion]`. For example, `myapp 1.1`.
 
 * **Launch Number**
+
   Number of times the application was launched or brought out of the background.
 
 * **Days Since First Use**
+
   Number of days since the first run.
 
 * **Days Since Last Use**
+
     Number of days since the last use.
 
 * **Hour of Day**
+
   Measures the hour in which the app was launched and uses the 24-hour numerical format. This dimension is also used for time parting to determine peak usage times.
 
 * **Day of Week**
+
   Number of the week day the app was launched.
 
 * **Operating System**
+
   Operating system of the device.
 
 * **Operating System Version**
+
   Operating system version.
 
 * **Days Since Last Upgrade**
+
   Number of days since the application version number has changed.
 
 * **Launches Since Last Upgrade**
+
   Number of launches since the application version number has changed.
 
 * **Device Name**
+
   Stores the device name. In iOS, a comma-separated, two-digit string identifies the iOS device. The first number represents the device generation, and the second number versions different members of the device family. For a complete list of common device names, see [iOS Device Versions](/help/ios/reference/device-versions.md).
 
 * **Carrier Name**
+
   Stores the name of the mobile service provider.
 
 * **Resolution**
+
   Width and height in actual pixels.

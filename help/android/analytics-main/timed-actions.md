@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
 ---
 
-# Timed Actions {#timed-actions}
+# Timed actions {#timed-actions}
 
 Timed actions allow you to measure the in-app time and total time between the start and the end of an action. The SDK calculates the amount of time in each session and the total time across sessions that it will take for the action to be completed. You can use timed actions to define segments and compare time to purchase, pass level, checkout flow, and so on.
 
@@ -23,7 +23,7 @@ An optional callback allows you to take additional action when the timed action 
 * Add context data before passing in durations. 
 * Cancel hit and durations not yet sent.
 
-## Track Timed Actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## Track timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. Add the library to your project and implement lifecycle. 
 

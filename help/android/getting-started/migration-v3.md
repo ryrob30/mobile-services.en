@@ -35,7 +35,7 @@ Processing rules provide the following advantages:
 >
 >Values that you assigned directly to variables should be added to the `data` HashMap.
 
-## Remove Unused Properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
 The new `ADBMobileConfig.json` file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an `ADBMobileConfig.json` file:
 
@@ -65,7 +65,7 @@ The new `ADBMobileConfig.json` file contains application-specific, global settin
 }
 ```
 
-## Moving the configuration file and migrating to Version 4 {#section_0B844235E0B04DD4B36976A73DB28FB5}
+## Moving the configuration file and migrating to version 4 {#section_0B844235E0B04DD4B36976A73DB28FB5}
 
 The following tables list the configuration variables that you need to move to the configuration file.
 
@@ -140,11 +140,11 @@ Processing rules provide the following advantages:
 
 Values that you were assigning directly to variables should be added to the `data` HashMap. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should be removed and the values be added to the `data` parameter.
 
-## AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables
+## AppSection/server, GeoZip, transaction ID, Campaign, and other standard variables
 
 Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` HashMap. The only data that is sent with a `trackState` or `trackAction` call is the payload in the `data` parameter.
 
-### Replace Tracking Calls**
+### Replace tracking calls**
 
 Replace the following methods with a call to `trackState` or `trackAction`:
 

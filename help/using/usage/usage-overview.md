@@ -17,9 +17,9 @@ Here is an example of this report:
 
 ![](assets/report_usage_overview.png)
 
-You can change the date range for the report by clicking the calendar icon on the top right side. You can also create a [sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md) that spans different reports to see how a segment is performing across all mobile reports.
+You can change the date range for the report by clicking the calendar icon on the top right side. You can also create a sticky filter that spans different reports to see how a segment is performing across all mobile reports. For more information about creating a sticky filter, see [Add sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 >[!TIP]
 >
->You configure the key metrics for this report while creating the app. For more information, see [Configuring your App](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md).
+>You configure the key metrics for this report while creating the app. For more information, see [Configuring your app](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md).
 

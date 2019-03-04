@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 ---
 
-# Android SDK 4.x for Experience Cloud Solutions{#android-sdk-x-for-experience-cloud-solutions}
+# Android SDK 4.x for Experience Cloud solutions{#android-sdk-x-for-experience-cloud-solutions}
 
 Android SDK 4.x for Experience Cloud Solutions allows you to measure native Android applications, deliver targeted content in your app, and leverage and collect audience data through audience management.
 
@@ -30,10 +30,10 @@ Some information to remember:
 
 * If you are upgrading from a previous version, see the [4.x Migration Guide](/help/android/getting-started/migration-v3.md).
 
-## Adobe Mobile User Documentation {#section_7583FD5FDED143619048E9744A3F2D21}
+## Adobe Mobile user documentation {#section_7583FD5FDED143619048E9744A3F2D21}
 
 Adobe Mobile services provides a UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. To learn more about the UI and read the user documentation, see [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/).
 
-## Release Notes {#section_F8181DC052D44DD2A99AB40A41F6792C}
+## Release notes {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
 For the latest information about Experience Cloud releases, see [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 

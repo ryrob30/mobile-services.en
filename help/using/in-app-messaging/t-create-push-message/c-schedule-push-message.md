@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
 ---
 
-# Schedule: Push Message{#schedule-push-message}
+# Schedule: push messages{#schedule-push-message}
 
 In the Adobe Mobile Services UI, you can schedule a push message to be delivered immediately, to be delivered later, and as a recurring event. These events can be scheduled on a daily, weekly, or monthly basis.
 
@@ -23,7 +23,7 @@ Remember the following information:
 
 * You can edit a scheduled message in the following ways:
 
-  * Can change the date to a later date.
+  * Change the date to a later date.
   * Change the repeat interval to another interval.
 
     For example, if you originally had a message that was sent every day, you can switch the recurrence to weekly.
@@ -53,11 +53,13 @@ You **must** understand the following information before scheduling recurring pu
 
   For example, if your start time is 12:00 pm **PST**, although the message will be sent at 7pm **GMT**, the message report will display the time sent as 12:00 pm **PST**.
 
-## Schedule a Recurring Push Message {#section_675BD754E5A04423A1751193698A978F}
+## Schedule a recurring push message {#section_675BD754E5A04423A1751193698A978F}
 
-1. On the [!DNL Schedule] page for a [new push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md), click **[!UICONTROL Scheduled]** or **[!UICONTROL Now]**.
+1. On the Schedule page for a new push message, select **[!UICONTROL Scheduled]** or **[!UICONTROL Now]**.
 
-   If you select **[!UICONTROL Now]**, the message is pushed immediately. To prevent the message from being scheduled immediately, click **[!UICONTROL Save as Draft]**.
+   For more information, see [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
+
+   If you selected **[!UICONTROL Now]**, the message is pushed immediately. To prevent the message from being scheduled immediately, click **[!UICONTROL Save as Draft]**.
 
    ![](assets/schedule-push-message.png)
 
@@ -68,20 +70,27 @@ You **must** understand the following information before scheduling recurring pu
     * **[!UICONTROL Never]** 
     * **[!UICONTROL Every day]** 
     * **[!UICONTROL Every Tuesday]** 
-    * **[!UICONTROL `<Day x>` of the month]** The displayed options change depending on the day you selected or typed as the start day.
-    * **[!UICONTROL `<nth day>` of Every Month]** The displayed value changes depending on which date you selected or typed as the start date.
+    * **[!UICONTROL `<Day x>` of the month]** 
+
+      The displayed options change depending on the day you selected or typed as the start day.
+    * **[!UICONTROL `<nth day>` of Every Month]** 
+
+      The displayed value changes depending on which date you selected or typed as the start date.
 
 1. In **[!UICONTROL End Repeat]**, type an end date and time.
 1. Click one of the following options:
 
     * **[!UICONTROL Save as Draft]**
-    This option saves the message in a draft format. You can choose this option to save an unfinished message or to save the message so that someone else can edit and approve the message before activating it. If you selected [!DNL Now] in the previous step, the draft message is sent immediately upon activation. If you selected a date and time to push the message, the message is pushed according to schedule.
+
+      This option saves the message in a draft format. You can choose this option to save an unfinished message or to save the message so that someone else can edit and approve the message before activating it. 
+  
+      If you selected **[!UICONTROL Now]** in the previous step, the draft message is sent immediately on activation. If you selected a date and time to push the message, the message is pushed according to this schedule.
+
     * **[!UICONTROL Save & Schedule]**
-    This option sends the message on the scheduled day and time.
+
+      This option sends the message on the scheduled day and time.
 
 To push the draft message later, complete one of the following tasks:
 
-* Click **[!UICONTROL Manage Messages]**, select the check box next to the message, then click **[!UICONTROL Activate Selected]**.
+* Click **[!UICONTROL Manage Messages]**, select the check box next to the message, and click **[!UICONTROL Activate Selected]**.
 * Click **[!UICONTROL Save & Send]** to save the message and send it.
-
-If you selected **[!UICONTROL Now]** in the previous step, the message is immediately pushed. If you selected a date and time to push the message, the message is pushed according to schedule.

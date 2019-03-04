@@ -11,7 +11,7 @@ uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 
 # Funnel{#funnel}
 
-The Funnel report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the Funnel report to compare the actions of different segments.
+The **{!UICONTROL Funnel]** report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the **{!UICONTROL Funnel]** report to compare the actions of different segments.
 
 Gaining visibility into customer decisions at each step helps you understand where they are being deterred, what path they tend to follow, and when customers leave your app.
 
@@ -46,7 +46,7 @@ You can configure the following options for this report:
     Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list. 
 * **[!UICONTROL Customize]**
 
-    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports]((/help/using/usage/reports-customize/t-reports-customize.md).
+    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
 * **[!UICONTROL Filter]**
 
     Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](/help/using/usage/reports-customize/t-sticky-filter.md).

@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 ---
 
-# Testing Marketing Link Acquisition {#testing-marketing-link-acquisition}
+# Testing marketing link acquisition {#testing-marketing-link-acquisition}
 
 The following instructions help you roundtrip an acquisition campaign with a marketing link on an Android device.
 
@@ -17,7 +17,7 @@ If your mobile app is not yet in Google Play, you can select any mobile app as a
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. This ensures that the initial lifecycle metrics that are associated with the campaign query string parameters are sent when the app is first launched. 
 
-1. Complete the prerequisite tasks in [Mobile App Acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
+1. Complete the prerequisite tasks in [Mobile app acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
 1. In the [!DNL Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets Google Play as the destination for Android devices.
 
    For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
@@ -119,7 +119,7 @@ Remember the following information:
 * For more information about how to broadcast `INSTALL_REFERRER`, see [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns) in the Google Developers guide . 
 * You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
 
-**Install the Java Tool** 
+**Install the Java tool** 
 
 To install the Java tool:
 

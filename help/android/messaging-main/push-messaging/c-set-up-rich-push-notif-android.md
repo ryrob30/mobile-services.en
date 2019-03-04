@@ -6,11 +6,11 @@ title: Receive Rich Push Notifications
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
 ---
 
-# Receive Rich Push Notifications {#receive-rich-push-notifications}
+# Receive rich push notifications {#receive-rich-push-notifications}
 
 You can attach image files to your Android notifications. Adding visual components can significantly increase your user's engagement with push notifications.
 
-## Handle the Incoming Rich Push Message (GCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
+## Handle the incoming rich push message (GCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
 If the app is in the foreground, the push message will be handled by the app that extends the `GcmListenerService` class and is declared in the manifest file in the following way: 
 

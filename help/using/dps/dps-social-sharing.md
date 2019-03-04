@@ -11,7 +11,7 @@ uuid: 900e58aa-c1d3-4590-af44-df67575214a4
 
 # Social Sharing{#social-sharing}
 
-The Social Sharing report displays a sunburst visualization for your existing data. This report is available to Digital Publishing Solutions (DPS) customers only.
+The **[!UICONTROL Social Sharing]** report displays a sunburst visualization for your existing data. This report is available to DPS customers only.
 
  ![](assets/dps_social_share.png)
 

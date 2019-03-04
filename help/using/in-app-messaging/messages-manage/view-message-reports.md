@@ -14,21 +14,21 @@ uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
 You can view message reports for in-app and push messages.
 
 1. Click ![report icon](assets/icon_report.png) in the **[!UICONTROL Report]** column for a message.
-1. (Optional) Create a sticky filter for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
+1. (**Optional**) Create a sticky filter for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
 
-    For more information about creating a sticky filter, see [Sticky Filter](/help/using/usage/reports-customize/t-sticky-filter.md).
+    For more information about creating a sticky filter, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 >[!TIP]
 >
 >Depending on the type of message you are viewing, the report might vary.
 
-## In-App Messages {#section_90B79BA58E8141F78538C187EB1BF8C7}
+## In-app messages {#section_90B79BA58E8141F78538C187EB1BF8C7}
 
 If you are viewing reports for an in-app message, the report looks similar to the following illustration:
 
 ![report message](assets/report_message.png)
 
-### In-App Message Metrics
+### In-app message metrics
 
 Here is a list of the metrics that are available for in-app messages:
 
@@ -44,7 +44,7 @@ Here is a list of the metrics that are available for in-app messages:
 * **[!UICONTROL Engagement Rate]**
     This is a calculated metric from Adobe Analytics and is the result of the number of click throughs divided by the number of impressions.
 
-## Push Messages {#section_BEAFD858CA194185B6F88903446058E9}
+## Push messages {#section_BEAFD858CA194185B6F88903446058E9}
 
 If you are viewing reports for a push message, the report looks similar to the following illustration:
 
@@ -52,13 +52,13 @@ If you are viewing reports for a push message, the report looks similar to the f
 
 The chart at the top displays the number of users who opened the message.
 
-### Push Message Metrics
+### Push message metrics
 
 Here is a list of the metrics that are available for push messages:
 
 * **[!UICONTROL Time]**
 
-The time the message was pushed to devices from [!DNL Mobile Services].
+  The time the message was pushed to devices from Mobile Services.
 
 * **[!UICONTROL Status]**
 
@@ -88,4 +88,5 @@ The time the message was pushed to devices from [!DNL Mobile Services].
   >If you have an unusually large number of failures, check your push services configuration. If push services appears to be configured correctly, contact Adobe Customer Care.
 
 * **[!UICONTROL Blacklisted]**
+
   The number of device tokens that are no longer valid to be sent to APNS or GCM. This usually means the app has been uninstalled from the device or the user changed his or her opt-in settings to receive messages. Android and iOS differ about when tokens are counted as blacklisted. Android tokens are immediately shown in the blacklisted count. iOS tokens are initially displayed as published, but based on feedback from APNS, are shown as blacklisted on subsequent messages.

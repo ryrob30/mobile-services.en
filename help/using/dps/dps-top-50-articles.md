@@ -9,11 +9,11 @@ topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 ---
 
-# Top 50 Articles{#top-articles}
+# Top 50 Articles report{#top-articles}
 
-The Top 50 Articles report displays a bar chart and ranked report showing the most-read articles displayed using the app. This report is available only to Digital Publishing Solutions (DPS) customers.
+The **[!UICONTROL Top 50 Articles]** report displays a bar chart and ranked report displays the most-read articles using the app. This report is available only to DPS customers.
 
-Although the default report displays data for the last 30 days by number of readers, you can customize the report as desired.
+Although the default report displays data for the last 30 days by number of readers, you can customize the report.
 
 ![](assets/dps_top_50.png)
 
@@ -26,11 +26,11 @@ You can configure the following options for this report:
 
 * **[!UICONTROL Customize]**
 
-    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
+    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize reports](/help/using/usage/reports-customize/t-reports-customize.md).
 
 * **[!UICONTROL Filter]**
 
-    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add Sticky Filter](/help/using/usage/reports-customize/t-reports-customize.md).
+    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-reports-customize.md).
 
 * **[!UICONTROL Download]**
 

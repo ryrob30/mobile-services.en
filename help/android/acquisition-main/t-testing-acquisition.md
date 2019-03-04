@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 ---
 
-# Testing Legacy Acquisition {#testing-legacy-acquisition}
+# Testing legacy acquisition {#testing-legacy-acquisition}
 
 The following information helps you roundtrip a legacy acquisition campaign link on an Android device.
 
@@ -19,7 +19,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. In the Mobile Services UI, generate a legacy acquisition campaign URL.
 
-   For more information, see [Use Legacy Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
+   For more information, see [Use legacy Acquisition links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
 1. Connect the device to a computer, launch ADB Shell, and launch the application on the device.
 1. Send a broadcast using the following format:
 

@@ -11,7 +11,7 @@ uuid: 50638c55-f10d-43d7-8d12-e48908572766
 
 # Banner Metrics {#banner-metrics}
 
-The Banner Metrics report displays a sunburst visualization for your existing data. This report is only available to Digital Publishing Solutions (DPS) customers.
+The **[!UICONTROL Banner Metrics]** report displays a sunburst visualization for your existing data. This report is only available to DPS customers.
 
  ![](assets/dps_banner_name.png)
 
@@ -19,7 +19,7 @@ By default, this report displays the following metrics:
 
 * **[!UICONTROL Banner Name]**, which is the name of the banner. 
 * **[!UICONTROL Readers]**, which is the number of app users. 
-* **[!UICONTROL Banner Name Instances]**, which is the number of times the banner was referenced (clicks and impressions). 
+* **[!UICONTROL Banner Name Instances]**, which is the number of times the banner was referenced through clicks and impressions. 
 * **[!UICONTROL Banner Click]**, which is the number of times users clicked the banner. 
 * **[!UICONTROL Banner Impressions]**, which is the number of times a banner was viewed (or was visible) on a browser page.
 

@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 ---
 
-# Create New Link Destination {#create-new-link-destination}
+# Create a new link destination {#create-new-link-destination}
 
 You can create a new link destination that directs users to a web or a deep link in your app.
 

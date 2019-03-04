@@ -17,22 +17,22 @@ You can track and manage the data that you receive from the app by configuring a
 
 * **Standard Variables & Metrics**
 
-  Each app includes variables and metrics for tracking shopping cart and purchase activities. Some purchase information cannot be handled with processing rules, so the SDK exposes the special "&&products" context data. For example, you can have variables such as cart additions, cart removals, check outs, orders, and so on. The context data has to be mapped to data in Adobe Analytics. If this variable is populated with a simple mapping from context data, this is the key that maps to it. Leave blank if the variable is populated by more complex rules in Analytics Admin Tools.
+  Each app includes variables and metrics for tracking shopping cart and purchase activities. Some purchase information cannot be handled with processing rules, so the SDK exposes the special `"&&products"` context data. For example, you can have variables such as cart additions, cart removals, check outs, orders, and so on. The context data has to be mapped to data in Adobe Analytics. If this variable is populated with a simple mapping from context data, this is the key that maps to it. Leave it blank if the variable is populated by more complex rules in Analytics Admin Tools.
 
   For more information about these variables and metrics, see the following:
 
-  * Android: [Product Variables](/help/android/analytics-main/products/products.md)
-  * iOS: [Product Variables](/help/ios/analytics-main/products/products.md)
+  * [Product Variables in Android](/help/android/analytics-main/products/products.md)
+  * [Product Variables in iOS](/help/ios/analytics-main/products/products.md)
 
 * **Custom Variables**
 
-  The [!DNL Custom Variables] page displays all of the custom [!DNL Analytics] variables that are configured for the report suite that contains your app data. On this page you can enable additional variables and map context data to [!DNL Analytics] variables.
+  The Custom Variables page displays all of the custom Analytics variables that are configured for the report suite that contains your app data. On this page you can enable additional variables and map context data to Analytics variables.
 
 ### Mapping Context Data to Analytics Variables
 
-Click  **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables & Metrics]** > **[!UICONTROL Custom Variables]**.
+Click **[!UICONTROL Manage App Settings >]** **[!UICONTROL Manage Variables & Metrics >]** **[!UICONTROL Custom Variables]**.
 
-These mappings will call the same API that is used in [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+These mappings call the same API that is used in [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
   ![Context Data Mapping](assets/custom_data_content.png)
 
@@ -41,10 +41,11 @@ Here is a list of the custom variables that you can configure:
 * The **[!UICONTROL Custom Properties]** (or props) answer the question "which one?" Props can be set to a text value that will be associated with other variables and metrics sent in the same hit. The values can be used to filter reports or can be listed in rank order by an associated metric.
 
     When a value is set for a property in a tracking call (or hit), it applies only to that call.
+
 * The **[!UICONTROL Custom Variables]** (or evars) also answer the question "which one?" However, an evar value can apply not only to the hit it is sent in, but also to variables and metrics sent in subsequent hits until the value expires or a new value is set.
 * The **[!UICONTROL Custom List Variables (or Multi-Value Variables)]** behave the same as variables except they allow you to capture multiple values on one hit. For more information, see [List Variables](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html).
 
-The following mappings display in [!DNL Analytics] as being created in Mobile Services.
+The following mappings display in Analytics as being created in Mobile Services.
 
 * **[!UICONTROL Name]**
 
@@ -58,26 +59,34 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
 
 * **[!UICONTROL Persistence (Custom Variables and Custom List Variables)]**
 
-    Persistence determines the point at which a Custom Variable (eVar) value will expire or will no longer be associated with additional hits. If an eVar has expired when a hit fires, the None value will be associated with that hit for that eVar. This means that no eVar value was active when the hit fired.
+  Persistence determines the point at which a Custom Variable (eVar) value will expire or will no longer be associated with additional hits. If an eVar has expired when a hit fires, the None value will be associated with that hit for that eVar. This means that no eVar value was active when the hit fired.
 
-    You can select one of the following options:
+  You can select one of the following options:
 
   * **[!UICONTROL Session]**
-    The eVar value will persist for the length of the Analytics visit.
+  
+    The eVar value persists for the length of the Analytics visit.
+ 
   * **[!UICONTROL Tracking Call]**
-    The eVar value will persist only for the tracking call or hit it in which it was included.
-  * **[!UICONTROL Never Expire]**
-    The eVar value will persist for all subsequent tracking calls.
-  * **[!UICONTROL Advanced]**
-    Adobe Analytics has a more advanced UI for setting persistence for eVars. If a persistence value is set for the eVar that is not supported in Mobile Services, this value is shown in the Mobile Services UI.
 
-    To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** > ** **[!UICONTROL Conversion Variables UI]**.  
+    The eVar value persists only for the tracking call or hit it in which it was included.
+
+  * **[!UICONTROL Never Expire]**
+
+    The eVar value persists for all subsequent tracking calls.
+  * **[!UICONTROL Advanced]**
+
+    Adobe Analytics has a more advanced UI for setting persistence for eVars. If a persistence value is set for the eVar that is not supported in Mobile Services, this value is displayed in the Mobile Services UI.
+
+    To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager >]** ** **[!UICONTROL Conversion Variables UI]**.  
 
   * **[!UICONTROL List Support]**
-    Enables passing multiple values to be associated with the property in a single tracking call. The delimiter must be a single character and cannot be a zero or a space.
+
+    Enables passing multiple values to be associated with the property in one tracking call. The delimiter must be one character and cannot be a zero or a space.
 
   * **[!UICONTROL Delimiter]**
-    The delimiter must be a single character and cannot be a zero or a space.  
+
+    The delimiter must be one character and cannot be a zero or a space.  
 
 ### Additional Analytics Variables
 
@@ -89,9 +98,9 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
 
 * **Custom Metrics**
 
-  Metrics (or events) answer the questions "how much?" or "how many?" Events can increment each time the user takes an action or hold numeric values such as a price. Custom metrics include events such as an app was created, the PDF or CSV file was downloaded or exported, a campaign was saved, the SDK was downloaded, a report was run, a link to the App Store was added, an in-app message was activated, and so on.
+  Metrics (or events) answer the questions *how much?* or *how many?*. Events can increment each time the user takes an action or hold numeric values such as a price. Custom metrics include events such as an app was created, the PDF or CSV file was downloaded or exported, a campaign was saved, the SDK was downloaded, a report was run, a link to the App Store was added, an in-app message was activated, and so on.
 
-  You can select one of the following types of custom metric types:
+  Select one of the following custom metric types:
 
   * **[!UICONTROL Whole number]**
   * **[!UICONTROL Decimal number]**
@@ -99,11 +108,11 @@ The following mappings display in [!DNL Analytics] as being created in Mobile Se
 
 ## Manage Points of Interest {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
-Points of Interest allow you to define geographical locations that you can use for correlation purposes, target with in-app messages, and so on. When a hit is sent in a point of interest, the point of interest is attached to the hit. For more information about points of interest, see [Manage Points of Interest](../location/t-manage-points.md).  
+Points of interest allow you to define geographical locations that you can use for correlation purposes, target with in-app messages, and so on. When a hit is sent in a point of interest, the point of interest is attached to the hit. For more information about points of interest, see [Manage Points of Interest](/help/using/location/t-manage-points.md).  
 
 ## Manage Link Destinations {#section_F722A387E22A430187B063D358A87711}
 
-You can create, edit, archive/unarchive, and delete link destinations. These destinations can then be called inline when building marketing links, push notifications, or in-app messages. For more information about link destinations, see [Manage Link Destinations](../acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md).
+You can create, edit, archive/unarchive, and delete link destinations. These destinations can then be called inline when building marketing links, push notifications, or in-app messages. For more information about link destinations, see [Manage Link Destinations](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md).
 
 ## Manage Postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 

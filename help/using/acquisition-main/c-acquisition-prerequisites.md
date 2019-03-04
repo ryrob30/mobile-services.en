@@ -9,7 +9,7 @@ topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
 ---
 
-# Acquisition Prerequisites{#acquisition-prerequisites}
+# Acquisition prerequisites{#acquisition-prerequisites}
 
 Complete the following prerequisites before you use acquisition links.
 
@@ -17,7 +17,7 @@ To track marketing links, ensure that you meet the following prerequisites:
 
 1. Ensure that you have a mobile app report suite.
 
-   You must create a new mobile app report suite or have an existing report suite that can collect, track, and report on data that is collected from your marketing links. For more information about creating a new mobile app report suite, see [Add New App](/help/using/manage-apps/t-new-app.md). 
+   You must create a new mobile app report suite or have an existing report suite that can collect, track, and report on data that is collected from your marketing links. For more information about creating a new mobile app report suite, see [Add a new app](/help/using/manage-apps/t-new-app.md). 
 
 1. Verify your SDK version.
 
@@ -33,8 +33,8 @@ To track marketing links, ensure that you meet the following prerequisites:
 
 1. Enable SDK Acquisition options
 
-   Tracking must be enabled in the SDK configuration before links can be tracked and reported on. For more information, see [Acquisition Configuration](/help/using/acquisition-main/t-enable-acquisition.md). 
+   Tracking must be enabled in the SDK configuration before links can be tracked and reported on. For more information, see [Configure Acquisition](/help/using/acquisition-main/t-enable-acquisition.md). 
 
 1. Add App Store apps
 
-   You must add the app from the Apple App Store or from Google Play. For more information, see [Add App from Apple App Store or Google Play](/help/using/manage-apps/c-app-store/t-app-store-app.md).
+   You must add the app from the Apple App Store or from Google Play. For more information, see [Add an app from an app store](/help/using/manage-apps/c-app-store/t-app-store-app.md).

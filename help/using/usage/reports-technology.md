@@ -11,9 +11,9 @@ uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 
 # Technology {#technology}
 
-The Technology report allows you to see the different device types, operating systems, operating system versions, and mobile carriers on which your app is being used.
+The **[!UICONTROL Technology]** report allows you to see the different device types, operating systems, operating system versions, and mobile carriers on which your app is being used.
 
-This report provides a sunburst visualization for your existing data, and you can use the report to discover audience segments (collections of visitors) for targeting. Creating and managing audiences is similar to creating and using segments, except that you can make the audiences available in the [!DNL Experience Cloud].
+This report provides a sunburst visualization for your existing data, and you can use the report to discover audience segments (collections of visitors) for targeting. Creating and managing audiences is similar to creating and using segments, except that you can make the audiences available in the  Experience Cloud.
 
 ## Navigation and Usage {#section_83CA60E1AE6245FEBCBFF3205615C4DF}
 
@@ -36,39 +36,19 @@ The sunburst chart is interactive, and you can complete the following tasks:
 
   You can show the secondary metric using color, height, or both.
 
-The following table describes the standard reports and how they are populated in [!DNL Mobile Services]: 
+The following table describes the standard reports and how they are populated in Mobile Services: 
 
-<table id="table_99DDCAE4993C4C579842D4CE4FC57555"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Report </th> 
-   <th colname="col2" class="entry"> Population Method </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Device </td> 
-   <td colname="col2"> Lifecycle metrics. </td> 
-   <td colname="col3"> Common metrics broken down by device type. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Operating Systems </td> 
-   <td colname="col2"> Automatic. </td> 
-   <td colname="col3"> Common metrics broken down by operating system. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Operating System Version </td> 
-   <td colname="col2"> Lifecycle metrics. </td> 
-   <td colname="col3"> Common metrics broken down by operating system version. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Carriers </td> 
-   <td colname="col2"> Automatic. </td> 
-   <td colname="col3"> <p>Common metrics broken down by carriers. </p> <p>Tip: Wi-Fi users are reported as <span class="codeph"> (none)</span> on this report. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Report | Population Method | Description |
+|--- |--- |--- |
+|Device|Lifecycle metrics|Common metrics broken down by device type.|
+|Operating Systems|Automatic|Common metrics broken down by operating system.|
+|Operating System Version|Lifecycle metrics|Common metrics broken down by operating system version.|
+|Carriers|Automatic|Common metrics broken down by carriers.|
+
+>[!TIP]
+>
+>In the **[!UICONTROL Carriers]** report, Wi-fi users are reported as `none`.
+
 
 ## Add Breakdowns and Metrics {#section_15833511E82648869E7B1EFC24EF7B82}
 

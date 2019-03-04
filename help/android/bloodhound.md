@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: a9b5d610-43f4-4428-adf3-2018e0b53ed7
 ---
 
-# Using Bloodhound to Test Mobile Applications{#using-bloodhound-to-test-mobile-applications}
+# Using Bloodhound to test mobile applications{#using-bloodhound-to-test-mobile-applications}
 
 During application development, Bloodhound lets you view server calls locally and optionally forward the data to Adobe collection servers.
 

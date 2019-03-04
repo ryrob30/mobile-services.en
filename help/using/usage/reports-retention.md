@@ -11,7 +11,7 @@ uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 
 # Retention{#retention}
 
-The Retention report (formerly known as First Launch Cohorts) is a cohort report that displays how many unique users launched your app for the first time and then launched the app again at least once in the subsequent months.
+The **[!UICONTROL Retention]** report (formerly known as First Launch Cohorts) is a cohort report that displays how many unique users launched your app for the first time and then launched the app again at least once in the subsequent months.
 
 By default, this report shows the retention of groups of users based on when the users first launched the app. You can also customize this report to use a metric other than First Launch and add additional actions.
 

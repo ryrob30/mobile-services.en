@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
 ---
 
-# Hit Batching {#hit-batching}
+# Hit batching {#hit-batching}
 
 Hit batching allows applications to hold hits from being sent until the number of hits in the queue have exceeded the configured limit.
 
