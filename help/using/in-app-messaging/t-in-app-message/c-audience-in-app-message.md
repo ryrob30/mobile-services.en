@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 ---
 
-# Audience: in-app messages{#audience-in-app-message}
+# Audience: in-app message {#audience-in-app-message}
 
 You can configure audience options for in-app messages, including view, trigger, and trait options.
 

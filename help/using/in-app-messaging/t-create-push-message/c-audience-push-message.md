@@ -9,7 +9,7 @@ topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 ---
 
-# Audience: define and configure audience segments for push messages{#audience-define-and-configure-audience-segments-for-push-messages}
+# Audience: push messages{#audience-define-and-configure-audience-segments-for-push-messages}
 
 You can define and configure audience options for push messages, including date range options, Analytics segments, and custom segments.
 

@@ -8,26 +8,26 @@ user-guide-title: Mobile Services User Help
 
 + [Adobe Mobile Services](home.md)
 + [Release notes](whatsnew.md)
-+ Getting Started {#get-started-ug}
++ Getting started {#get-started-ug}
   + [Getting started](gs/gs.md)
   + [Roles and permissions](gs/c-mob-roles-and-permissions.md)
   + [Signing in](gs/gs-signin.md)
   + [Report types](gs/reports-types.md)
-  + Mobile Metrics {#mobile-metrics}
+  + Mobile metrics {#mobile-metrics}
     + [Mobile metrics](gs/metrics/metrics.md)
     + [Display mobile metrics](gs/metrics/overview.md)
     + [Mobile metrics and Dimensions reference](gs/metrics/metrics-reference.md)
-+ Manage Apps {#manage-apps-ug}
++ Manage apps {#manage-apps-ug}
   + [Manage apps](manage-apps/manage-apps.md)
   + [Add a new app](manage-apps/t-new-app.md)
   + [Virtual report suites](manage-apps/c-mob-vrs.md)
-  + App Store {#app-store}
+  + App store {#app-store}
     + [App store overview](manage-apps/c-app-store/c-app-store.md)
     + [Add an app from an app store](manage-apps/c-app-store/t-app-store-app.md)
     + [Delete an app](manage-apps/t-delete-apps.md)
-+ Manage App Settings {#manage-app-settings-ug}
++ Manage app settings {#manage-app-settings-ug}
   + [Manage app settings](c-manage-app-settings/c-manage-app-settings.md)
-  + Configuring your App {#configuring-app}
+  + Configuring your app {#configuring-app}
     + [Configuring your app](c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)
     + [Configure SDK Analytics options](c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
     + [Download mobile SDKs and tools](c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
@@ -68,7 +68,7 @@ user-guide-title: Mobile Services User Help
   + [Acquisition prerequisites](acquisition-main/c-acquisition-prerequisites.md)
   + [Configure Acquisition](acquisition-main/t-enable-acquisition.md)
   + [Destinations](acquisition-main/c-create-destinations.md)
-  + Create and Manage Link Destinations {#create-manage-link-destination}
+  + Create and manage link destinations {#create-manage-link-destination}
     + [Create and manage link destinations](acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md)
     + [Create a new link destination](acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
     + [Manage link destinations](acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
@@ -94,15 +94,15 @@ user-guide-title: Mobile Services User Help
   + [View message reports](in-app-messaging/messages-manage/view-message-reports.md)
   + Push messages {#push-messages}
     + [Create a push message](in-app-messaging/t-create-push-message/t-create-push-message.md)
-    + [Audience: define and configure audience segments for push messages](in-app-messaging/t-create-push-message/c-audience-push-message.md)
-    + [Experience: push messages](in-app-messaging/t-create-push-message/c-experience-push-message.md)
-    + [Schedule: push messaging](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
+    + [Audience: push message](in-app-messaging/t-create-push-message/c-audience-push-message.md)
+    + [Experience: push message](in-app-messaging/t-create-push-message/c-experience-push-message.md)
+    + [Schedule: push message](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
     + [Troubleshooting push messageing](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
   + In-app messages {#inapp-messages}
     + [Create an in-app message](in-app-messaging/t-in-app-message/t-in-app-message.md)
-    + [Audience: in-app messages](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
-    + [Experience: in-app messages](in-app-messaging/t-in-app-message/c-experience-in-app-message.md)
-    + [Schedule: in-app messages](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
+    + [Audience: in-app message](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
+    + [Experience: in-app message](in-app-messaging/t-in-app-message/c-experience-in-app-message.md)
+    + [Schedule: in-app message](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
     + [Troubleshooting in-app messaging](in-app-messaging/t-in-app-message/in-apps-ts.md)
     + [Trigger an in-app message when the app is opened from a push message](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
 + [Frequently asked questions](faq-mobile.md)

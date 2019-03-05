@@ -9,7 +9,7 @@ topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
 ---
 
-# Schedule: in-app messages {#schedule-in-app-message}
+# Schedule: in-app message {#schedule-in-app-message}
 
 You can configure schedule options for in-app messages, including duration, days of the week, and time of the day options.
 

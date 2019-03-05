@@ -9,7 +9,7 @@ topic: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 ---
 
-# Getting Started{#getting-started}
+# Getting started{#getting-started}
 
 This information helps you understand and use with Adobe Mobile Services.
 
@@ -78,7 +78,7 @@ In *Engage*, you can use relevant push notifications and in-app messages to comm
 * In-app messages are triggered by real-time analytics, alerts, and new offers/content. 
 * Understand views, click-through rates, and downstream behavior
 
-### Adobe Mobile Messaging
+### Adobe Mobile messaging
 
 You can use push and in-app notifications to communicate with your users. Push notifications are sent via the operating system on the device, while in-app messages are sent in the app when a user is actively interacting with the app. In-app messages can typically include a variety of additional formats like pop-ups and interstitials.
 
@@ -109,7 +109,7 @@ In *Optimize*, you can optimize conversions (subscriptions, commerce, ad revenue
 
 For more information about testing and Adobe Target, go to [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html).
 
-### Geo-Targeting
+### Geo-targeting
 
 A mobile device allows you to inherently know where a consumer is as they engage with your app or have it running in the background through GPS location. With geo-targeting, Adobe Target enables you to deliver tailored, relevant content, offers, or messages at a time where proximity matters. You can target users who are within a defined radius of a point of interest or when they are in proximity to iBeacons and with relevant push notifications.
 
@@ -156,7 +156,7 @@ The Adobe Mobile SDK offers the following features:
 
 For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) and [iOS SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html).
 
-## Additional Information
+## Additional information
 
 This section also contains the following information:
 
