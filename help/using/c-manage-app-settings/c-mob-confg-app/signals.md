@@ -6,7 +6,7 @@ title: Configure Postbacks
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
 ---
 
-# Configure Postbacks {#configure-postbacks}
+# Configure postbacks {#configure-postbacks}
 
 Postbacks let you send data collected by Adobe Mobile to a separate third-party server. By leveraging the same triggers and traits that you use to display an in-app message, you can configure Mobile Services to send customized data to a third-party destination.
 
