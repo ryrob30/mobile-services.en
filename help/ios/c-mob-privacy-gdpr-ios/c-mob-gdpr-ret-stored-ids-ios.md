@@ -6,7 +6,7 @@ title: Retrieving Stored Identifiers
 uuid: 4fb2c166-6700-4f8b-b60b-137b199e0509
 ---
 
-# Retrieving Stored Identifiers{#retrieving-stored-identifiers}
+# Retrieving stored identifiers{#retrieving-stored-identifiers}
 
 This information helps you retrieve locally stored, Experience Cloud SDK identities from your iOS app and with GDPR data access requests.
 

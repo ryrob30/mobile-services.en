@@ -8,11 +8,11 @@ topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
 ---
 
-# TVJS Methods {#tvjs-methods}
+# TVJS methods {#tvjs-methods}
 
 Here is a list of TVJS methods that are provided by the tvOS library.
 
-## Configuration Methods {#section_5F82FD2F6A0546B3B4E80DF832E11634}
+## Configuration methods {#section_5F82FD2F6A0546B3B4E80DF832E11634}
 
 * **version**
 
@@ -190,7 +190,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     * Value indicating whether the Adobe SDK should log to the debug console.
 
 
-## Analytics Methods {#section_F3DB9BE225F84F86BE5F8D15164C0379}
+## Analytics methods {#section_F3DB9BE225F84F86BE5F8D15164C0379}
 
 * **trackStateData**
 
@@ -498,7 +498,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     var queueSize = ADBMobile.trackingGetQueueSize();
     ```
 
-## Audience Manager Methods {#section_0155C4DF04644EDAAF6159C420A158DE}
+## Audience Manager methods {#section_0155C4DF04644EDAAF6159C420A158DE}
 
 * **audienceVisitorProfile**
 
@@ -628,7 +628,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     ADBMobile.audienceReset();
     ```
 
-## ID Service Methods {#section_BEB6DA612EA4423FB354B65ECC941335}
+## ID Service methods {#section_BEB6DA612EA4423FB354B65ECC941335}
 
 * **visitorMarketingCloudID**
 
@@ -758,7 +758,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     var myVisitorIds = ADBMobile.visitorGetIDsJs();
     ```
 
-## Target Methods {#section_F9F7EC2B9B7C41AFBCA2458F9F138634}
+## Target methods {#section_F9F7EC2B9B7C41AFBCA2458F9F138634}
 
 * **targetThirdPartyID**
 

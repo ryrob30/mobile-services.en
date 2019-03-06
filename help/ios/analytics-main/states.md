@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 ---
 
-# Track App States {#track-app-states}
+# Track app states {#track-app-states}
 
 States are the different screens or views in your application. Each time a new state is displayed in your application, for example, when a user navigates from the home page to the news feed, a track state call should be sent. In iOS, a state is typically tracked in the viewDidLoad method of each view.
 
@@ -16,7 +16,7 @@ States are the different screens or views in your application. Each time a new s
 >
 >To track states, make a call to `trackState`. States are not automatically tracked.
 
-## Tracking States {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## Tracking states {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -36,7 +36,7 @@ States are the different screens or views in your application. Each time a new s
 
 In Adobe Mobile services, the **[!UICONTROL State Name]** is reported in the *`View State`* variable, and a view is recorded for each `trackState` call. In other Analytics interfaces, **[!UICONTROL View State]** is reported as **[!UICONTROL Page Name]**, and state views is reported as page views.
 
-## Sending Additional Data {#section_CFDB4F944496401786A145C209AB387C}
+## Sending additional data {#section_CFDB4F944496401786A145C209AB387C}
 
 In addition to the **[!UICONTROL State Name]**, you can send additional context data with each track action call:
 
@@ -50,7 +50,7 @@ Context data values must be mapped to custom variables:
 
 ![](assets/map-variable-context-state.png)
 
-## App State Reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
+## App state reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
 States are typically viewed by using a pathing report so you can see how users navigate your app and which states are viewed most.
 

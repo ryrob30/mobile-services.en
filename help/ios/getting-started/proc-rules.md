@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 ---
 
-# Processing Rules and Context Data{#processing-rules-and-context-data}
+# Processing rules and context data{#processing-rules-and-context-data}
 
 Processing rules are used to copy the data that you send in context data variables to evars, props, and other variables for reporting.
 

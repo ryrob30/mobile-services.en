@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 ---
 
-# Migrating to the 4.x iOS Library{#migrating-to-the-x-ios-library}
+# Migrating to the 4.x iOS library{#migrating-to-the-x-ios-library}
 
 This information helps you migrate from the versions 3.x or 2.x of the iOS library to version 4.x.
 
@@ -18,7 +18,7 @@ This information helps you migrate from the versions 3.x or 2.x of the iOS libra
 
 In the version 4.x of the iOS SDK library, the public methods are consolidated into one header. Also, the functionality is now accessible through class level methods, so you do not have to keep track of pointers, instances, or singletons.
 
-## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -34,7 +34,7 @@ Processing rules provide the following advantages:
 >
 >Values that you were assigning directly to variables should now be added to the `data` NSDictionary.
 
-## Remove Unused Properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
 The new `ADBMobileConfig.json` file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an [!DNL ADBMobileConfig.json] file:
 
@@ -102,7 +102,7 @@ Move the value from the first column to the variable in the second column.
 |trackOffline|"offlineEnabled"|
 |offlineLimit|"batchLimit"|
 |account|"rsids"|
-|trackingServer|"server", remove the "https://" prefix. The protocol prefix is added automatically based on the "ssl" setting.|
+|trackingServer|"server", remove the `"https://"` prefix. The protocol prefix is added automatically based on the "ssl" setting.|
 |trackingServerSecure|Remove. For secure connections, define "server" and then enable "ssl".|
 |charSet|"charset"|
 |currencyCode|"currency"|
@@ -118,7 +118,7 @@ Move the value from the first column to the variable in the second column.
 |useBestPractices  all calls to churn measurement (  getChurnInstance )|Remove, replaced by lifecycle metrics. For more information, see [Lifecycle Metrics](//help/ios/metrics.md).|
 
 
-## Update Track Calls and Tracking Variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
+## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 Instead of using the web-focused `track` and `trackLink` calls, the version 4 SDK uses the following methods:
 
@@ -130,7 +130,7 @@ Instead of using the web-focused `track` and `trackLink` calls, the version 4 SD
 
 The `data` parameter for both of these methods is an `NSDictionary` that contains name-value pairs that are sent as context data.
 
-### Events, Props, eVars
+### Events, props, eVars
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists directly in your app. The SDK now uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -144,11 +144,11 @@ Processing rules provide the following advantages:
 
 Values that you assigned directly to variables should be added to the `data` `NSDictionary` instead. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
 
-### AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables
+### AppSection/Server, GeoZip, transaction ID, Campaign, and other standard variables
 
 Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` `NSDictionary` instead. The only data that is sent with a `trackState` or `trackAction` call is the payload in the `data` parameter.
 
-### Replace Tracking Calls
+### Replace tracking calls
 
 In your code, replace the following methods with a call to `trackState` or `trackAction`:
 
@@ -165,11 +165,11 @@ In your code, replace the following methods with a call to `trackState` or `trac
 * `track (trackState)` 
 * `trackLink (trackAction)`
 
-## Custom Visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
+## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
 
 Replace the `visitorID` variable with a call to `setUserIdentifier:`.
 
-## Offline Tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
+## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
 Offline tracking is enabled in [!DNL ADBMobileConfig.json], and all other offline configuration is done automatically.
 
@@ -185,7 +185,7 @@ In your code, remove calls to the following methods:
 * `forceOffline` 
 * `forceOnline`
 
-## Products Variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Since the products variable is not available in processing rules, you can use the following syntax to set `products`:
 
@@ -198,7 +198,7 @@ Since the products variable is not available in processing rules, you can use th
 
 ![](assets/prod-view.png){width="500px"}
 
-## Test the Migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
+## Test the migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
 
 After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](/help/ios/bloodhound.md) for more information about inspecting the data being that is sent by the mobile SDK.
 

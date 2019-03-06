@@ -9,7 +9,7 @@ topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 ---
 
-# Troubleshooting Push Messaging {#troubleshooting-push-messaging}
+# Troubleshooting push messaging {#troubleshooting-push-messaging}
 
 This information helps you troubleshoot push messaging.
 

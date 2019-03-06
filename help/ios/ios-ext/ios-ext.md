@@ -8,12 +8,12 @@ topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 ---
 
-# iOS Extension Implementation {#ios-extension-implementation}
+# iOS extension implementation {#ios-extension-implementation}
 
 You can use the iOS extension helps you collect usage data from your Apple Watch Apps (WatchOS 1), Today Widgets, Photo Editing widgets, and other iOS extension apps.
 
 
-## Recommendations for Using the iOS SDK Instead of Your Wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
+## Recommendations for using the iOS SDK instead of your wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 Even if these three tracking methods meet your requirements, use the iOS SDK, because the SDK for the Watch app includes all Mobile features except in-app messaging.
 
-## Getting Started {#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4}
+## Getting started {#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4}
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Even if these three tracking methods meet your requirements, use the iOS SDK, be
 
 If you are working on a WatchKit app, you should have a third target. For more information on developing for Apple Watch, see [Developing for Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
-## Configuring the Containing App {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
+## Configuring the containing app {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
 Complete the following steps in your Xcode project:
 
@@ -60,7 +60,7 @@ Complete the following steps in your Xcode project:
 
 1. Confirm that your app builds without unexpected errors.
 
-## Configuring the Extension {#section_28C994B7892340AC8D1F07AF26FF3946}
+## Configuring the extension {#section_28C994B7892340AC8D1F07AF26FF3946}
 
 1. Ensure that ADBMobileConfig.json is a member of the extension's target. 
 1. On the **[!UICONTROL Build Phases]** tab of your extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
@@ -80,7 +80,7 @@ Complete the following steps in your Xcode project:
 
 1. Confirm that your app builds without unexpected errors.
 
-## Additional Notes {#section_21497E81231549CB9F164DEECFF5BA0D}
+## Additional notes {#section_21497E81231549CB9F164DEECFF5BA0D}
 
 Here is some information to remember:
 

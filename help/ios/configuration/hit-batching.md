@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
 ---
 
-# Hit Batching {#hit-batching}
+# Hit batching {#hit-batching}
 
 Hit batching allows applications that have offline tracking enabled to hold hits from being sent until the number of hits in the queue pass a configurable limit.
 

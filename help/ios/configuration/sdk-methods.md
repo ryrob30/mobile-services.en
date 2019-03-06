@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 ---
 
-# Configuration Methods {#configuration-methods}
+# Configuration methods {#configuration-methods}
 
 Here is a list of methods that are provided by the iOS library.
 

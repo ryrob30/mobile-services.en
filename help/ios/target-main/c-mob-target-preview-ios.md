@@ -16,7 +16,7 @@ For more information on how to set up and use Target Preview, see [Target Mobile
 >
 >To use Target Preview, you need SDK version 4.14.0 or later.
 
-## Target Preview Method
+## Target Preview method
 
 * **setPreviewRestartDeeplink**
 

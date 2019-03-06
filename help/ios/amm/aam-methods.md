@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
 ---
 
-# Audience Manager Methods {#audience-manager-methods}
+# Audience Manager methods {#audience-manager-methods}
 
 Here is a list of the Audience Manager methods that are provided by the iOS library.
 

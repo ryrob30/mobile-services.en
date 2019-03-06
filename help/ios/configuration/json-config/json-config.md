@@ -12,7 +12,7 @@ uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 
 This information helps you use the ADBMobile.json config file.
 
-## ADBMobileConfig.json Config File Reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 The same config file can be used for your app across multiple platforms:
 
@@ -260,7 +260,7 @@ The same config file can be used for your app across multiple platforms:
   * Minimum SDK version: 4.0
 
 
-## Sample ADBMobileConfig.json File {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Sample ADBMobileConfig.json file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 Here is a sample `ADBMobileConfig.json` file:
 

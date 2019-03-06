@@ -47,7 +47,7 @@ The following beacon data is sent to Analytics and Target when `trackBeacon` is 
    [ADBMobile trackingClearCurrentBeacon];
    ```
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the timed action name, you can send additional context data with each track action call:
 

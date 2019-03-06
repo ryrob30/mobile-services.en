@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
 ---
 
-# Mobile App Acquisition {#mobile-app-acquisition}
+# Mobile app acquisition {#mobile-app-acquisition}
 
 Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 
@@ -18,7 +18,7 @@ Acquisition links must be created in Adobe Mobile services. For more information
 
 The information in this section allow the SDK to send acquisition data from an acquisition link.
 
-## Tracking Mobile App Acquisition {#section_CEA30C652AC8470784B8054E299B80FA}
+## Tracking mobile app acquisition {#section_CEA30C652AC8470784B8054E299B80FA}
 
 1. Add the library to your project and implement lifecycle.
 

@@ -7,7 +7,7 @@ title: Acquisition Methods
 uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
 ---
 
-# Acquisition Methods {#acquisition-methods}
+# Acquisition methods {#acquisition-methods}
 
 The following Acquisition methods are provided by the iOS library:
 

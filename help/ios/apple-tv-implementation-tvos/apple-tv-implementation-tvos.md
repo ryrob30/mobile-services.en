@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 ---
 
-# Apple TV Implementation with tvOS {#apple-tv-implementation-with-tvos}
+# Apple TV implementation with tvOS {#apple-tv-implementation-with-tvos}
 
 This information helps you implement Apple TV with tvOS.
 
@@ -18,13 +18,13 @@ With Apple TV, you can now create applications to run in the native tvOS environ
 >
 >tvOS support is available starting in `AdobeMobileLibrary` version 4.7.0.
 
-## Getting Started {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
+## Getting started {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
 >[!TIP]
 >
 >We assume that your project has a target that is an Apple TV app that is targeting tvOS. For more information, see [tvOS](https://developer.apple.com/tvos/documentation/).
 
-## Configuring a Native App for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
+## Configuring a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
 
 Complete the following steps in your Xcode project:
 
@@ -38,7 +38,7 @@ Complete the following steps in your Xcode project:
 
 For information, see the iOS documentation on [iOS](https://developer.apple.com/ios/resources/).
 
-## Configuring a TVML/TVJS App for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
+## Configuring a TVML/TVJS app for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
 
 1. Drag the `AdobeMobileLibrary` folder into your project. 
 1. Ensure that `ADBMobileConfig.json` is a member of your target. 

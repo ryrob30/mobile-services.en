@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 ---
 
-# Release Notes{#release-notes}
+# Release notes{#release-notes}
 
 Release notes and known issues for iOS SDKs 4.x for Experience Cloud Solutions.
 

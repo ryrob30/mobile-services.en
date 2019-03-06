@@ -7,7 +7,7 @@ title: Testing V3 Acquisition
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
 ---
 
-# Testing V3 Acquisition{#testing-v-acquisition}
+# Testing V3 acquisition{#testing-v-acquisition}
 
 This information helps you roundtrip a V3 acquisition campaign link based on a device fingerprint.
 

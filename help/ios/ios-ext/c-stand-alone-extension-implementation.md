@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 ---
 
-# Stand-Alone Extension Implementation {#stand-alone-extension-implementation}
+# Stand-alone extension implementation {#stand-alone-extension-implementation}
 
 Starting with iOS 10, Apple allows you to create an extension called a stand-alone extension that can be distributed without a containing app. With this extension, you do not need an app group, as there is no containing app with which to share data.
 
@@ -35,7 +35,7 @@ To configure your stand-alone extension:
 
 1. Confirm that your app builds without unexpected errors.
 
-## Additional Notes {#section_1C9A55E2309A44BF842310F735702B3D}
+## Additional notes {#section_1C9A55E2309A44BF842310F735702B3D}
 
 Here is some additional information:
 

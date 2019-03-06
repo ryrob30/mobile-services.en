@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
 ---
 
-# iOS Device Versions {#ios-device-versions}
+# iOS device versions {#ios-device-versions}
 
 The following table contains the iOS version string that is sent by many iOS devices.
 

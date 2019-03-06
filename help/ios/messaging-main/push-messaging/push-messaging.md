@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
 ---
 
-# Push Messaging {#push-messaging}
+# Push messaging {#push-messaging}
 
 Adobe Mobile and the Adobe Mobile SDK allow you to send push messages to your users. The SDK also allows you to easily report users who have opened your app as a result of clicking through a push message.
 
@@ -36,7 +36,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 >
 >Moving your app to a new report suite is not supported. If you migrate to a new report suite, your push configuration can break, and messages might not be sent.
 
-## Enabling Push Messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
+## Enabling push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
 
 1. Verify that `ADBMobileConfig.json` contains the required settings for push messaging.
 

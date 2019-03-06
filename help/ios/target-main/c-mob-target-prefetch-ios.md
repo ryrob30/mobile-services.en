@@ -31,7 +31,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Pre-fetch Methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Prefetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 Here are the methods that you can use for prefetch in iOS:
 
@@ -124,11 +124,11 @@ Here are the methods that you can use for prefetch in iOS:
     mboxParameters:(nullableNSDictionary *)mboxParameters;
     ```
 
-## Public Classes {#section_A273E53F069E4327BBC8CE4910B37888}
+## Public classes {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Here are the public classes that support pre-fetch in iOS :
 
-### Class Reference: TargetPreFetchObject
+### Class reference: TargetPreFetchObject
 
 Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
@@ -156,7 +156,7 @@ Encapsulates the mbox name and the parameters that are used for mbox prefetch.
 
   * **Type**: NSDictionary*
 
-### Class Reference: TargetRequestObject
+### Class reference: TargetRequestObject
 
 This class encapsulates the mbox name, default content, mbox parameters and the return callback used for Target location requests.
 
@@ -184,7 +184,7 @@ This class encapsulates the mbox name, default content, mbox parameters and the 
 
   * **Type**: Function
 
-## Code Sample {#section_BF7F49763D254371B4656E17953D520C}
+## Code sample {#section_BF7F49763D254371B4656E17953D520C}
 
 Here is an example of how to prefetch content by using the iOS SDKs:
 
@@ -272,7 +272,7 @@ Here is an example of the batch `loadRequest` by using the iOS SDKs:
     [ADBMobile targetLoadRequests:requestArray withProfileParameters:profileParmeters];
 ```
 
-## Additional Information {#section_A454BAD1CD49423E86C71BAEE06125FD}
+## Additional information {#section_A454BAD1CD49423E86C71BAEE06125FD}
 
 Here is some additional information about these samples:
 

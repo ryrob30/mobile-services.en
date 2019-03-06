@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 ---
 
-# Geo-Location and Points of Interest {#geo-location-and-points-of-interest}
+# Geo-location and points of interest {#geo-location-and-points-of-interest}
 
 Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your iOS apps.
 
@@ -34,7 +34,7 @@ For more information, see [ADBMobile JSON Config](/help/ios/configuration/json-c
 
 If this is not configured, an updated version of the `ADBMobile.json` file must be downloaded and added to your app. For more information and instructions, see *Download the SDK and Testing Tools* in [Before you Start](/help/ios/getting-started/requirements.md).
 
-## How to Track {#section_B1616E400A7548F9A672F97FEC75AE27}
+## How to track {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -60,7 +60,7 @@ If this is not configured, an updated version of the `ADBMobile.json` file must 
 
 Additionally, if the location is determined to be in a defined POI radius, an `a.loc.poi` context data variable is sent in with the `trackLocation` hit and is reported as a POI in Location reports. An `a.loc.dist` context variable is also sent with the distance in meters from the defined coordinates.
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the location data, you can send additional context data with each track location call:
 
@@ -74,7 +74,7 @@ Context data values must be mapped to custom variables:
 
 ![](assets/map-location-context-data.png)
 
-## Location Context Data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 The latitude and longitude are each sent using three different context data parameters, with each parameter representing a different level of precision, for a total of six context data parameters.
 
@@ -89,7 +89,7 @@ For example, the coordinates lat = 40.93231, lon = -111.93152 represent a locati
 
 Some precision levels might appear as "00" depending on the accuracy of the current location. For example, if the location is currently accurate to 100m, `a.loc.lat.c` and `a.loc.lon.c` will be populated with "00".
 
-## Additional Information {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
+## Additional information {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
 
 Remember the following information:
 

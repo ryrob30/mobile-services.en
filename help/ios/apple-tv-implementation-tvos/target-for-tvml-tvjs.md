@@ -14,13 +14,13 @@ You can leverage Adobe Target in your TVML/TVJS apps by making direct replacemen
 >
 >Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see [Apple TV Implementation with tvOS](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
 
-## Getting Started {#section_88445645FD67416EAF6FDC3E3D3F5C33}
+## Getting started {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
 1. Identify the `.xml` file in which you want to use your Target location. 
 1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
 1. If Target fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
 
-## Configuring Your Mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
+## Configuring your mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
 
 The returned content from Target replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
 
@@ -30,7 +30,7 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 Your use case might be as simple as replacing a string value in a label or as complex as replacing an entire page.
 
-## Configuring Your ADBTarget Element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configuring your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
 In the `ADBTarget` element, you must provide the Mbox name in the `mbox` property. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 
@@ -96,7 +96,7 @@ In the `ADBTarget` element, you must provide the Mbox name in the `mbox` propert
 
 The following example uses an `ADBTarget` element in the [!DNL LandingPage.xml.js] page to replace the contents of an alert:
 
-**Configure Target**
+#### Configure Target
 
 Assume that you have an Mbox location named `landingPage` and the offer content is set to be the following:
 
@@ -105,7 +105,7 @@ Assume that you have an Mbox location named `landingPage` and the offer content 
 <description>Thanks for coming to my page</description> 
 ```
 
-**Configure landingPage.xml.js**
+#### Configure landingPage.xml.js
 
 * Here is the configuration for landingPage.xml.js: 
 

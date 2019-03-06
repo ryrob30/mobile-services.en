@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 5fb77b57-cbf9-4bcf-8b41-65a933bf9336
 ---
 
-# Swift Integration {#swift-integration}
+# Swift integration {#swift-integration}
 
 The iOS Adobe Mobile SDK can be seamlessly integrated in a Swift project by using the Mix and Match feature in the iOS Developer Library.
 

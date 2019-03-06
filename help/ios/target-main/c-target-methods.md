@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 ---
 
-# Target Methods for iOS {#target-methods}
+# Target methods for iOS {#target-methods}
 
 Here is the list of Adobe Target methods that are provided by the iOS library.
 
@@ -18,7 +18,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 >
 >Lifecycle Metrics are sent as parameters to each mbox load. For more information, see [Lifecycle Metrics](/help/ios/metrics.md).
 
-## Class Reference : ADBTargetLocationRequest
+## Class reference : ADBTargetLocationRequest
 
 ### Properties
 
@@ -28,7 +28,7 @@ NSString *defaultContent;
 NSMutableDictionary *parameters;
 ```
 
-### String Constants
+### String constants
 
 >[!TIP]
 >

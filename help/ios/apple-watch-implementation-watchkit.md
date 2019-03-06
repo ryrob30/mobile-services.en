@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
 ---
 
-# Apple Watch Implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
+# Apple Watch implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
 
 Starting with WatchOS 2, your WatchKit Extensions can run on an Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
 
@@ -16,7 +16,7 @@ Starting with WatchOS 2, your WatchKit Extensions can run on an Apple Watch. App
 >
 >Starting with `AdobeMobileLibrary` v4.6.0, `WatchConnectivity` is supported.
 
-## Getting Started {#section_70BC28BB69414F169196953D3D264BC1}
+## Getting started {#section_70BC28BB69414F169196953D3D264BC1}
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Starting with WatchOS 2, your WatchKit Extensions can run on an Apple Watch. App
 
 For more information about developing WatchKit apps, see [The Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1).
 
-## Configuring the Containing App {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
+## Configuring the containing app {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
 Complete the following steps in your Xcode project:
 
@@ -84,7 +84,7 @@ Complete the following steps in your Xcode project:
    } 
    ```
 
-## Configuring the WatchKit Extension {#section_5ADE31741E514330A381F2E3CFD4A814}
+## Configuring the WatchKit extension {#section_5ADE31741E514330A381F2E3CFD4A814}
 
 1. Ensure that ADBMobileConfig.json is a member of your WatchKit extension’s target. 
 1. In the **[!UICONTROL Build Phases]** tab of your WatchKit extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:

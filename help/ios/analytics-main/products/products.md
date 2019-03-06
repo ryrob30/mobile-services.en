@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
 ---
 
-# Products Variable {#products-variable}
+# Products variable {#products-variable}
 
 The products variable cannot be set by using processing rules. In the iOS 4.x SDK, you must use a special syntax in the context data parameter to set products directly on the server call.
 
