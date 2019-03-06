@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 ---
 
-# PhoneGap Plug-in{#phonegap-plug-in}
+# PhoneGap plug-in{#phonegap-plug-in}
 
 This plug-in lets you send iOS AppMeasurement calls from your PhoneGap project.
 
@@ -25,7 +25,7 @@ To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-
 
 ## Manually installing the plug-in {#section_D53BA60D488C4DB8AD2BDF90439C180A}
 
-### Include the AppMeasurement Library
+### Include the AppMeasurement library
 
 To include the AppMeasurement:
 
@@ -44,7 +44,7 @@ To include the AppMeasurement:
    </feature>
    ```
 
-### Add App Permissions
+### Add app permissions
 
 The AppMeasurement library requires the following:
 
@@ -64,7 +64,7 @@ The AppMeasurement library requires the following:
 
 1. Confirm that your app builds without unexpected errors.
 
-## Implement Custom Tracking {#section_FD102B3CDAA4492FB04E56BF17E28663}
+## Implement custom tracking {#section_FD102B3CDAA4492FB04E56BF17E28663}
 
 In `html` files where you want to use tracking, add the following to the `<head>` tag:
 

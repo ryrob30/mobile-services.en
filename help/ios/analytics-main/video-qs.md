@@ -18,7 +18,7 @@ Here is some information about measuring video on iOS by using milestone video m
 
 The general process to measure video is very similar across all platforms. This content provides a basic overview of the developer tasks with code samples.
 
-## Map Player Events to Analytics Variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
 The following table lists the media data that is sent to Analytics. Use processing rules to map the context data to an Analytics variable.
 
@@ -89,7 +89,7 @@ The following table lists the media data that is sent to Analytics. Use processi
   * Variable type: Event
   * Type: Counter
 
-## Configure Media Settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
 
 Configure an `ADBMediaSettings` object with the settings you want to use to track video:
 
@@ -116,7 +116,7 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 // event handlers described in the next section
 ```
 
-## Track Player Events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
 To measure video playback, The `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. For example, when the player is paused, `mediaStop`. `mediaPlay` is called when playback starts or is resumed.
 
@@ -216,7 +216,7 @@ NSUInteger segmentNum
 NSUInteger eventType
 ```
 
-## Media Measurement Class and Method Reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **mediaCreateSettings​WithName:​length:​playerName:​playerID:**
 

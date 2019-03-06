@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 ---
 
-# Core Implementation and Lifecycle {#core-implementation-and-lifecycle}
+# Core implementation and lifecycle {#core-implementation-and-lifecycle}
 
 This information helps you implement the iOS library and collect lifecycle metrics, such as launches, upgrades, sessions, engaged users, and so on.
 
@@ -48,7 +48,7 @@ To download the SDK:
 >
 >If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` must be manually configured. If you are new to Analytics and the Mobile SDK, see [Before You Start](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file.
 
-## Add the SDK and Config File to your Project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## Add the SDK and config file to your project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Launch the Xcode IDE and open your app. 
 1. In Project Navigator, drag the `AdobeMobileLibrary` folder and drop it under your project . 
@@ -100,7 +100,7 @@ To download the SDK:
 
 1. Confirm that your app builds without errors.
 
-## Implement Lifecycle Metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## Implement lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Add a `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` call in `
 }
 ```
 
-### Include Additional Data with Lifecycle Calls
+### Include additional data with lifecycle calls
 
 To include additional data with lifecycle metric calls, use `collectLifecycleDataWithAdditionalData`:
 

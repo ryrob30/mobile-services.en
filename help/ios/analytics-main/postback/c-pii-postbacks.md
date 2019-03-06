@@ -6,7 +6,7 @@ title: PII Postbacks
 uuid: 08f76a52-75dd-4fc1-b4cc-4f5eef93d0f7
 ---
 
-# PII Postbacks {#pii-postbacks}
+# PII postbacks {#pii-postbacks}
 
 You can use the Adobe SDK to collect personally identifiable information (PII) and send it to a third-party endpoint.
 
@@ -16,7 +16,7 @@ When you want to use the Adobe SDK to collect PII, you should send a track PII c
 >
 >An endpoint that supports HTTPS is required to use the PII postback type.
 
-## Tracking PII Postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
+## Tracking PII postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
 
 1. Add the library to your project and implement lifecycle. 
 

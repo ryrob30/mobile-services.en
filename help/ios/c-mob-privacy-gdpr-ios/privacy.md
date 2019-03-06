@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
 ---
 
-# Setting the User's Opt Status {#setting-the-user-s-opt-status}
+# Setting the user's opt status {#setting-the-user-s-opt-status}
 
 This information helps you with a GDPR data deletion request.
 

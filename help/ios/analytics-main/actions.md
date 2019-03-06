@@ -8,13 +8,13 @@ topic: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 ---
 
-# Track App Actions {#track-app-actions}
+# Track app actions {#track-app-actions}
 
 Actions are the events that occur in your app that you want to measure. Each action has one or more corresponding metrics that are incremented each time the event occurs. For example, you might track a new subscription, each time an article is viewed or each time a level is completed. The corresponding metrics for these events are configured as subscriptions, articles read, and levels completed.
 
 Actions are not tracked automatically, so to track an event, you must call `trackAction`.
 
-## Tracking Actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## Tracking actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -48,7 +48,7 @@ You can also set a prop to hold all action values by mapping a custom prop with 
 
 ![](assets/map-custom-prop.png)
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the action name, you can send additional context data with each track action call:
 
@@ -62,11 +62,11 @@ Context data values must be mapped to custom variables:
 
 ![](assets/map-variable-context-action.png)
 
-## Tracking Background Actions {#section_AC13013F207D4FBAAF27E4412034251E}
+## Tracking background actions {#section_AC13013F207D4FBAAF27E4412034251E}
 
 If you are tracking an action in code that might run when the app is in the background, call `trackActionFromBackground` instead of `trackAction`. Although `trackActionFromBackground` contains some additional logic to prevent lifecycle calls from firing when they should not, the parameters are the same.
 
-## Action Reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
+## Action reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
 | Interface | Report |
 |--- |--- |

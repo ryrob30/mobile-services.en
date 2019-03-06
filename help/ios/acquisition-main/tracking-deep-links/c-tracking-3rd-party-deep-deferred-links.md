@@ -6,15 +6,15 @@ title: Tracking Third-Party Deferred Deep Links
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
 ---
 
-# Tracking Third-Party Deferred Deep Links {#tracking-third-party-deferred-deep-links}
+# Tracking third-party deferred deep links {#tracking-third-party-deferred-deep-links}
 
 Use the iOS SDK to implement tracking of third-party deferred deep links.
 
-## Classic Adobe Mobile SDK Deep Linking {#section_D114FA1EB9664EAA82E036A990694B26}
+## Classic Adobe Mobile SDK deep linking {#section_D114FA1EB9664EAA82E036A990694B26}
 
 The Adobe Mobile SDK currently supports deep linking where the app developer is expected to call the `trackAdobeDeepLink` API and pass the deep linking URL, which is the fingerprinter URL that is generated in Adobe Mobile Services during configuration. The SDK pings the fingerprinter to get acquisition data and appends it to the install/launch analytics calls context data as a part of lifecycle. In addition, the SDK also appends the deeplink data from the deeplink URL parameters. For more information on deep linking, see [Tracking Deep Links](/help/ios/acquisition-main/tracking-deep-links/tracking-deep-links.md).
 
-## Facebook Deep Linking {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
+## Facebook deep linking {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
 An ad creator can create an ad on Facebook as a deep link. When users click the ad on Facebook, it goes directly to the information in which they are interested in the app. The deep link, is **not** a fingerprinter URL. However, during ad configuration, there is an option to provide a third-party deep link URL. An app developer who is using the Experience Cloud Mobile SDKs and services is expected to enter the Mobile Services configured fingerprinter URL in this field. If everything is set up correctly, the Facebook SDK passes this URL to the application when the app is installed or launched.
 
@@ -43,7 +43,7 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
 
 If the application is set up as described above, the current AMSDK version will work fine and append the deep link data to install/launch analytics calls correctly.
 
-## Enable feature in a sample application {#section_64C15E269E89424B8E3D029F88094620}
+## Enable the feature in a sample application {#section_64C15E269E89424B8E3D029F88094620}
 
 1. Register a URL scheme.
 

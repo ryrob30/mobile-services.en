@@ -7,15 +7,13 @@ title: Tracking Deep Links
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 ---
 
-# Tracking Deep Links{#tracking-deep-links}
+# Tracking deep links{#tracking-deep-links}
 
 You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile iOS SDK.
 
 For more information about how marketers use deep linking in their applications, see [Acquisition](https://marketing.adobe.com/resources/help/en_US/mobile/index.html?f=acquisition_main) in the [!DNL Adobe Mobile Services] documentation.
 
-## Getting Started {#section_29495797A02E48C49CE7A2E3AE170ABD}
-
-### Tracking Deep Links
+## Tracking deep links
 
 1. Add the SDK to your project and implement Lifecycle metrics.
 
@@ -58,7 +56,7 @@ You might also choose to append one or more of the following reserved keys (with
 
 These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md).
 
-### Tracking Deferred Deep Links
+### Tracking deferred deep links
 
 1. Register Adobe data callback.
 
@@ -77,7 +75,7 @@ These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For
    }];
    ```
 
-## Deep Link Public Information {#section_44600E9AA68D4A53AA0C14BD86CC5284}
+## Deep link public information {#section_44600E9AA68D4A53AA0C14BD86CC5284}
 
 ### Methods
 

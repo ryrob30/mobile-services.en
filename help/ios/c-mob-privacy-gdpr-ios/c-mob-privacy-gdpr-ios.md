@@ -31,7 +31,7 @@ For the Adobe Mobile SDK portions of your mobile apps, you can use the following
 
   For more information, see [Setting the User's Opt Status](/help/ios/c-mob-privacy-gdpr-ios/privacy.md).
 
-## Additional Information {#section_7C7124C50D85469C8C8714533FB1A37D}
+## Additional information {#section_7C7124C50D85469C8C8714533FB1A37D}
 
 * For more information about GDPR, see [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html). 
 * To see the GDPR API documentation, go to [General Data Protection Regulation API](https://adobe.io/apis/cloudplatform/gdpr.html).

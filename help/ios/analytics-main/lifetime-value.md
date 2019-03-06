@@ -8,13 +8,13 @@ topic: Developer and implementation
 uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
 ---
 
-# Visitor Lifetime Value {#visitor-lifetime-value}
+# Visitor lifetime value {#visitor-lifetime-value}
 
 Lifetime value lets you measure and target on a lifetime value for each user.
 
 Each time you send in a value with `trackLifetimeValueIncrease`, the value is added to the existing value. Lifetime value is stored on device and can be retrieved at any time by calling `lifetimeValue`. This can be used to store lifetime purchases, ad views, video completes, social shares, photo uploads, and so on.
 
-## How to Track {#section_390943A49AF841F2941E65D6DF2B3F5A}
+## How to track {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -31,7 +31,7 @@ Each time you send in a value with `trackLifetimeValueIncrease`, the value is ad
    [ADBMobile trackLifetimeValueIncrease:increaseAmount data:nil];
    ```
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the lifetime value, you can send additional context data with each track action call:
 

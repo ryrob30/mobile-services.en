@@ -8,12 +8,12 @@ topic: Developer and implementation
 uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 ---
 
-# Getting Started {#getting-started}
+# Getting started {#getting-started}
 
 The following information helps you get started with the iOS SDK for Experience Cloud Solutions:
 
-+ [Before You Start](/help/ios/getting-started/requirements.md)
-+ [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md)
-+ [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md)
-+ [Swift Integration](/help/ios/getting-started/swift-integration.md)
-+ [Migrating to the 4.x iOS Library](/help/ios/getting-started/migration-v3.md)
+* [Before You Start](/help/ios/getting-started/requirements.md)
+* [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md)
+* [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md)
+* [Swift Integration](/help/ios/getting-started/swift-integration.md)
+* [Migrating to the 4.x iOS Library](/help/ios/getting-started/migration-v3.md)

@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
 ---
 
-# Analytics Methods {#analytics-methods}
+# Analytics methods {#analytics-methods}
 
 Here is a list of Adobe Analytics methods that are provided by the iOS library.
 

@@ -12,13 +12,13 @@ uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
 
 This information helps you work with App Transport Security (ATS), which is a new set of security requirements for iOS 9.
 
-Starting with iOS 9, Apple introduced App Transport Security,  [App Transport Security], a set of requirements that conforms to best practices for secure connections. For more information, see *NSAppTransportSecurity* in [Information Property List Key Reference](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/). 
+Starting with iOS 9, Apple introduced App Transport Security, [App Transport Security], a set of requirements that conforms to best practices for secure connections. For more information, see *NSAppTransportSecurity* in [Information Property List Key Reference](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/). 
 
 For the Adobe Mobile SDK version 4.7 or later to work seamlessly with ATS, use the enable SSL option in the Manage App Settings page. For more information, see [Manage App Settings](/help/using/c-manage-app-settings/c-manage-app-settings.md) or [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
 
 In Adobe Mobile Services, by selecting the **[!UICONTROL Use HTTPS]** option in the Manage App Settings page, all hits from Analytics, Audience Manager, Target, and Experience Cloud ID services are sent via HTTPS.
 
-As an alternative, you can also choose to whitelist service the following servers: 
+As an alternative, you can whitelist service the following servers: 
 
 | Product | Instructions |
 |--- |--- |

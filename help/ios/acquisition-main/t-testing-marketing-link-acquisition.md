@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
 ---
 
-# Testing Marketing Link Acquisition {#testing-marketing-link-acquisition}
+# Testing marketing link acquisition {#testing-marketing-link-acquisition}
 
 The following instructions help you roundtrip an acquisition campaign with a marketing link that is based on a device fingerprint.
 

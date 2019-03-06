@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
 ---
 
-# In-App Messaging {#in-app-messaging}
+# In-app messaging {#in-app-messaging}
 
 This information helps you use in-app messaging in your iOS apps.
 
@@ -23,7 +23,7 @@ Some information to remember:
   >
   >You can complete these steps even if you do not have any messages defined. After you define messages, they are delivered dynamically to your app and displayed without an app store update.
 
-## Enabling In-App Messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
+## Enabling in-app messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -67,7 +67,7 @@ Some information to remember:
 
    If these objects are not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Core Implementation and Lifecycle](/help/ios/getting-started/requirements.md).
 
-## Tracking In-App Messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
+## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
 The iOS Mobile Services SDKs track the following metrics for your in-app messages:
 
@@ -102,7 +102,7 @@ The iOS Mobile Services SDKs track the following metrics for your in-app message
   }
   ```
 
-## Local Fallback Image {#section_DEACC1CE549B4573B556A44A52409941}
+## Local fallback image {#section_DEACC1CE549B4573B556A44A52409941}
 
 When creating a full screen message in Adobe Mobile services, you can optionally specify a fallback image. If your message is unable to retrieve its intended image from the web, the SDK attempts to load the image with the same name from your application bundle. This allows you to display your message in its original form even if the user is offline, or the predetermined image is unreachable.
 

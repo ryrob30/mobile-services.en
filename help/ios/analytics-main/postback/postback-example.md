@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 809c5646-7a80-40df-984b-0af89d854259
 ---
 
-# Postback Example {#postback-example}
+# Postback example {#postback-example}
 
 Definition and source code examples for the Postbacks feature.
 
@@ -16,7 +16,7 @@ Definition and source code examples for the Postbacks feature.
 >
 >This example is provided for informational purposes only. The [!DNL ADBMobileConfig.json] file should be configured in the Adobe Mobile UI and should not be manually modified. A manually edited configuration file can be dangerous when you have remote messages configuration enabled.
 
-## ADBMobileConfig.json Definition {#section_0F6EC001AB6D488E815F50C7F5DA022E}
+## ADBMobileConfig.json definition {#section_0F6EC001AB6D488E815F50C7F5DA022E}
 
 ```js
 "messages": [ 
@@ -48,7 +48,7 @@ Definition and source code examples for the Postbacks feature.
 
 ```
 
-## Code Sample {#section_8169B88A2C634CB788DA574EE8C4B1DC}
+## Code sample {#section_8169B88A2C634CB788DA574EE8C4B1DC}
 
 ```objective-c
 NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"}; 

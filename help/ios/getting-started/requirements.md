@@ -8,11 +8,11 @@ topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 ---
 
-# Before You Start {#before-you-start}
+# Before you start {#before-you-start}
 
 Complete these steps to configure a report suite to collect iOS app data.
 
-## Role-Specific Tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
+## Role-specific tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 Analytics administrators and app developers must complete the following tasks:
 
@@ -58,7 +58,7 @@ You can log in to the Adobe Mobile Services in one of the following ways:
 
   Click **[!UICONTROL Sign in with Analytics]** and enter your Analytics company name, your username, and your password.
 
-## Create a Report Suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
+## Create a report suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
 To create a report suite to collect app data and define an app:
 

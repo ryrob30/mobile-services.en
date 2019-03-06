@@ -6,7 +6,7 @@ title: Implement Push Messaging with Deep Linking
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
 ---
 
-# Implement Push Messaging with Deep Linking {#implement-push-messaging-with-deep-linking}
+# Implement push messaging with deep linking {#implement-push-messaging-with-deep-linking}
 
 After you configure the deep linking URL in the Adobe Mobile Services UI, this URL will be in the push payload with the `adb_deeplink` key.
 

@@ -7,7 +7,7 @@ title: Testing Legacy Acquisition
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
 ---
 
-# Testing Legacy Acquisition {#testing-legacy-acquisition}
+# Testing legacy acquisition {#testing-legacy-acquisition}
 
 The following information helps you roundtrip an legacy acquisition campaign link that is based on a device fingerprint.
 
