@@ -19,7 +19,7 @@ This information helps you migrate from the 3.x or 2.x version of the Android li
 
 In the version 4.x library, the public methods are consolidated into one header. Also, all functionality is now accessible through class level methods, so you do not have to keep track of pointers, instances, or singletons.
 
-## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -126,7 +126,7 @@ Instead of using the web-focused `track` and `trackLink` calls, the version 4 SD
 
 The `contextData` parameter for both of these methods is a `HashMap<String, Object>`, which contains the name-value pairs that are sent as context data.
 
-## Events, Props, and eVars
+## Events, props, and eVars
 
 In version 4, you can no longer assign variables such as events, eVars, props, heirs, and lists directly in your app. The SDK now uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -144,7 +144,7 @@ Values that you were assigning directly to variables should be added to the `dat
 
 Data that you were setting on the measurement object, including the variables listed above, should be added to the `data` HashMap. The only data that is sent with a `trackState` or `trackAction` call is the payload in the `data` parameter.
 
-### Replace tracking calls**
+### Replace tracking calls
 
 Replace the following methods with a call to `trackState` or `trackAction`:
 

@@ -7,8 +7,8 @@ user-guide-title: Mobile Services Android Help
 # Mobile Services Android Help{#android}
 
 + [Android SDK 4.x for Experience Cloud Solutions](overview.md)
-+ [Release Notes](rel-notes.md)
-+ Getting Started{#getting-started-android}
++ [Release notes](rel-notes.md)
++ Getting started{#getting-started-android}
   + [Getting started](getting-started/getting-started.md)
   + [Before you start](getting-started/requirements.md)
   + [Core implementation and lifecycle](getting-started/dev-qs.md)
@@ -28,7 +28,7 @@ user-guide-title: Mobile Services Android Help
   + [Track app crashes](analytics-main/crashes.md)
   + [Timed actions](analytics-main/timed-actions.md)
   + [Visitor lifetime value](analytics-main/lifetime-value.md)
-  + Products Variable{#products-variable}
+  + Products variable{#products-variable}
     + [Products variable](analytics-main/products/products.md)
     + [Products variable with merchandising eVars and product-specific events](analytics-main/products/products-variable-evars-events.md)
   + [Event serialization](analytics-main/event-serialization.md)
@@ -41,17 +41,17 @@ user-guide-title: Mobile Services Android Help
 + Acquisition{#acquisition-android}
   + [Mobile app acquisition](acquisition-main/acquisition.md)
   + [Acquisition methods](acquisition-main/acquisition-methods.md)
-  + Tracking Deep Links{#tracking-deep-links}
+  + Tracking deep links{#tracking-deep-links}
     + [Tracking deep links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
     + [Tracking third-party deferred deep links](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md)
   + [Testing marketing link acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
   + [Testing V3 acquisition](acquisition-main/t-testing-version-3-acquisition.md)
   + [Testing legacy acquisition](acquisition-main/t-testing-acquisition.md)
 + Messaging{#messaging-android}
-  + In-App Messaging{#inapp-messaging}
+  + In-app messaging{#inapp-messaging}
     + [In-app messaging](messaging-main/messaging/messaging.md)
     + [Troubleshooting in-app messaging](messaging-main/messaging/in-apps-ts.md)
-  + Push Messaging{#push-messaging}
+  + Push messaging{#push-messaging}
     + [Push messaging](messaging-main/push-messaging/push-messaging.md)
     + [Implement push messaging with deep linking](messaging-main/push-messaging/t-mob-impl-push-deeplinking-android-4x.md)
     + [Receive rich push notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
@@ -79,7 +79,7 @@ user-guide-title: Mobile Services Android Help
   + [Wearables overview](wearables/wearables.md)
   + [Android Wearables: getting started](wearables/android-wearable.md)
   + [Android Wearables: additional notes](wearables/c-android-wearables--additional-notes.md)
-+ Android SDK Reference{#sdk-reference-android} 
++ Android SDK reference{#sdk-reference-android} 
   + [Android SDK reference](/help/android/reference/reference.md)
   + [App IDs](/help/android/reference/app-ids.md)
   + [Visitor tracking between an app and mobile web](/help/android/reference/hybrid-app.md)
@@ -90,5 +90,5 @@ user-guide-title: Mobile Services Android Help
   + [Setting the user's opt status](c-mob-privacy-gdpr-android/privacy.md)
 + [Using Bloodhound to test mobile applications](bloodhound.md)
 + PhoneGap Plug-in{#phonegap-android}
-  + [PhoneGap Plug-in](phonegap/phonegap.md)
-  + [PhoneGap Plug-in methods](phonegap/phonegap-methods.md)
+  + [PhoneGap plug-in](phonegap/phonegap.md)
+  + [PhoneGap plug-in methods](phonegap/phonegap-methods.md)

@@ -32,7 +32,7 @@ Starting in version 4.2, POIs are defined in the Adobe Mobile UI and dynamically
 
 If this is not configured, you must download an updated version of the `ADBMobile.json` file and add it to your app. For more information, see [Download the SDK and Testing Tools](/help/android/getting-started/requirements.md).
 
-## Tracking Geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Tracking geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Add the library to your project and implement lifecycle.
 

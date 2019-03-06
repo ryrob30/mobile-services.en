@@ -75,7 +75,7 @@ notificationManager.notify(0, notificationBuilder.build());
 >
 >When you set `NotificationCompat.BigPictureStyle`, large images might not be displayed. To ensure that large images are always displayed, set the native `Notification.BigPictureStyle`.
 
-## Sample Rich Push Notification {#section_6819316BEDDE45108413B541CA2BB2DC}
+## Sample rich push notification {#section_6819316BEDDE45108413B541CA2BB2DC}
 
 Here is an example of a rich push notification with an image:
 

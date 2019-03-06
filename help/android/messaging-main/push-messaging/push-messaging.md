@@ -18,7 +18,6 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 >
 >Do not manually set the Experience Cloud ID inside your app. This causes the creation of a new unique user that will not receive push messages because of its opt-in status. For example, a user has opted-in to receive push messages logs in to your app. After logging in, if you manually set the ID inside your app, a new unique user is created who has not opted to receive push messages. This new user will not receive your push messages.
 >
-
 >Moving your app to a new report suite is not supported. If you migrate to a new report suite, your push configuration can break, and messages might not be sent.
 
 ## Enable push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}

@@ -111,7 +111,7 @@ After you enable lifecycle, each time your app is launched, one hit is sent to m
 >
 >You must add these calls to every activity to ensure accurate crash reporting. For more information, see [Track App Crashes](/help/android/analytics-main/crashes.md).
 
-## Include Additional Data with Lifecycle Calls
+## Include additional data with lifecycle calls
 
 To include additional data with lifecycle metric calls, pass an additional parameter to `collectLifecycleData` that contains context data:
 

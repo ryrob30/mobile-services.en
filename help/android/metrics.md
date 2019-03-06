@@ -191,7 +191,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
   * Analytics Context Data/Target Parameter: `a.Resolution`
   * Audience Manager: `c_a_Resolution`
 
-## Additional Mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
+## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
 The following metrics and dimensions are captured in mobile solution variables by the method listed in the **Description** column.
 

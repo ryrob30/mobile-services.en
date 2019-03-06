@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 ---
 
-# Experience Cloud ID Service Methods{#experience-cloud-id-service-methods}
+# Experience Cloud ID Service methods{#experience-cloud-id-service-methods}
 
 Here are the Experience Cloud ID methods that are provided by the Android library.
 
@@ -137,7 +137,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
     List<VisitorID> myVisitorIDs = Visitor.getIdentifiers(); 
     ```
 
-## Public Methods {#section_8AC744B431A3438C9B45629CA3EA0F51}
+## Public methods {#section_8AC744B431A3438C9B45629CA3EA0F51}
 
 ```java
 public class VisitorID { 

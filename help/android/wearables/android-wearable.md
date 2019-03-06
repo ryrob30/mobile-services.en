@@ -113,7 +113,7 @@ For more information about importing the SDK into your project, see [Core Implem
    Permalink Edit
    ```
 
-## Configuring the SDK for a Wearable App (Android Studio) {#section_2268EC03E20B4A228A28BDCFEA2E9AE4}
+## Configuring the SDK for a Wearable app (Android Studio) {#section_2268EC03E20B4A228A28BDCFEA2E9AE4}
 
 1. Complete one of the following tasks:
 

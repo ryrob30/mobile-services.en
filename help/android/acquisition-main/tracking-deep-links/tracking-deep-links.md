@@ -13,9 +13,7 @@ uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 
 You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile Android SDK.
 
-## Getting started {#section_3DC3E891AC7840DAA723F83427CB77F2}
-
-### Tracking deep links
+## Tracking deep links
 
 1. Add the SDK to your project and implement Lifecycle metrics.
 
@@ -52,7 +50,7 @@ Additionally, you might append one or more of the following reserved keys (with 
 
 These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-### Tracking deferred deep links (for use with marketing links)
+## Tracking deferred deep links (for use with marketing links)
 
 With a deferred deep link, the Adobe SDK will open a new Intent with the deep link as the intent data. This process is handled as an external deep link using the code above.
 
