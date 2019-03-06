@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 ---
 
-# Migrate to 4.x{#migrate-to-x}
+# Migrate to the 4.x SDKs{#migrate-to-x}
 
 This section describes how to migrate from the 3.x version of a previous Windows mobile SDK to the Universal Windows Platform 4.x SDK for Experience Cloud Solutions.
 
@@ -16,7 +16,7 @@ This section describes how to migrate from the 3.x version of a previous Windows
 
 The following sections walk you through migrating from version 3.x to version 4.x.
 
-## Remove Unused Properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
 You probably noticed a new [!DNL ADBMobileConfig.json] file included with your download. This file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an [!DNL ADBMobileConfig.json] file:
 
@@ -48,56 +48,23 @@ You probably noticed a new [!DNL ADBMobileConfig.json] file included with your d
 
 The following tables list the configuration variables that you need to move to the configuration file. Move the value set for the variable in the first column to the variable in the second column, and then remove the old configuration variable from your code.
 
-**Migrating from 3.x:** 
+### Migrating from 3.x
 
-<table id="table_3F755933E2904E7C9BBF8D89A08A2685"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Configuration Variable/Method </th> 
-   <th colname="col2" class="entry"> Variable in ADBMobileConfig.json </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> offlineTrackingEnabled </td> 
-   <td colname="col2"> <p>"offlineEnabled" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> reportSuiteIDs </td> 
-   <td colname="col2"> <p>"rsids" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> trackingServer </td> 
-   <td colname="col2"> <p>"server" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> charSet </td> 
-   <td colname="col2"> <p> "charset" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> currencyCode </td> 
-   <td colname="col2"> <p> "currency" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ssl </td> 
-   <td colname="col2"> <p> "ssl" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> setOfflineHitLimit </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> linkTrackVars </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> linkTrackEvents </td> 
-   <td colname="col2"> <p>Remove, no longer used. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+The following table provides a list of variables in the 3.x SDKs and the new name in the 4.x SDKs:
 
-## Update Track Calls and Tracking Variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
+| Configuration Variable/Method | Variable in ADBMobileConfig.json |
+|--- |--- |
+|offlineTrackingEnabled|"offlineEnabled"|
+|reportSuiteIDs|"rsids"|
+|trackingServer|"server"|
+|charSet|"charset"|
+|currencyCode|"currency"|
+|ssl|"ssl"|
+|setOfflineHitLimit|Remove, no longer used.|
+|linkTrackVars|Remove, no longer used.|
+|linkTrackEvents|Remove, no longer used.|
+
+## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 Instead of using the web-focused `Track` and `TrackLink` calls, the version 4 SDK uses two methods that make a little more sense in the mobile world:
 
@@ -107,7 +74,7 @@ Instead of using the web-focused `Track` and `TrackLink` calls, the version 4 SD
 
 The `contextData` parameter for both of these methods contains name-value pairs that are sent as context data.
 
-**Events, Props, eVars**
+### Events, props, eVars**
 
 If you've looked at the [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
@@ -117,17 +84,17 @@ Processing rules provide you several advantages:
 * You can use meaningful names for data instead of setting variables that are specific to a report suite. 
 * There is little impact to sending in extra data. These values won’t appear in reports until they are mapped using processing rules.
 
-See [Processing Rules](/help/universal-windows/analytics/analytics.md).
+For more information, see [Processing Rules](/help/universal-windows/analytics/analytics.md).
 
 Any values that you were assigning directly to variables should be added to context data instead. This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
 
-**AppSection/Server, GeoZip, Transaction ID, Campaign, and other standard variables **
+### AppSection/Server, GeoZip, transaction ID, Campaign, and other standard variables
 
 Any other data that you were setting on the measurement object, including the variables listed above, should be added to context data instead.
 
 To put it simply, the only data sent in with a `TrackState` or `TrackAction` call is the payload in the `data` parameter.
 
-**Replace Tracking Calls**
+**Replace tracking calls**
 
 Throughout your code, replace the following methods with a call to `trackState` or `trackAction`:
 
@@ -142,7 +109,7 @@ Throughout your code, replace the following methods with a call to `trackState` 
 
 Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
-## Offline Tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
+## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
 Offline tracking is enabled in [!DNL ADBMobileConfig.json]. All other offline configuration is done automatically.
 
@@ -153,7 +120,7 @@ Throughout your code, remove calls to the following methods:
 * SetOnline 
 * SetOffline
 
-## Products Variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Since the products variable is not available in processing rules, you can use the following syntax to set `products`:
 
@@ -169,6 +136,6 @@ ADB.Analytics.trackAction("product view", cdata);
 
 The value of `"&&products"` (in this example, the value is `";Cool Shoe`") should follow the products string syntax for the type of event that you are tracking.
 
-## Test the Migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
+## Test the migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
 
 After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](/help/universal-windows/bloodhound.md) to find out how to inspect the data being sent by the mobile SDK. 

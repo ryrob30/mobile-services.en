@@ -20,9 +20,9 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-## Class Reference : TargetLocationRequest
+## Class Reference: TargetLocationRequest
 
-## Properties:
+## Properties
 
 ```
 property Platform::String ^name; 
@@ -30,7 +30,7 @@ property Platform::String ^defaultContent;
 property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object^> ^parameters;
 ```
 
-## String Constants:
+## String Constants
 
 This information helps you set keys for custom parameters.
 

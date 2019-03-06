@@ -12,11 +12,11 @@ user-guide-title: Mobile Services Universal Windows Help
   + [Developer quick start](c-getting-started/dev-qs.md)
 + [Release notes](release-notes.md)
 + Configuration {#config-univ-win-plat} 
-  + [Configuration Overview](c-configuration/c-configuration.md)
+  + [Configuration overview](c-configuration/c-configuration.md)
   + [ADBMobileConfig.json config](c-configuration/c.json.md)
   + [SDK methods](c-configuration/methods.md)
 + Analytics {#analytics-univ-win-plat}
-  + [Analytics Overview](analytics/analytics.md)
+  + [Analytics overview](analytics/analytics.md)
   + [Products variable](analytics/products.md)
   + [Event serialization](analytics/event-serialization.md)
   + [Video Analytics](analytics/video-qs.md)

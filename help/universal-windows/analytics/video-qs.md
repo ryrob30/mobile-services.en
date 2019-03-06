@@ -81,7 +81,7 @@ The following table lists the media data that is sent to Analytics. Use processi
   * Variable type: Event
   * Type: Counter
 
-## Configure Media Settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
 
 Configure a `MediaSettings` object with the settings you want to use to track video:
 
@@ -89,7 +89,7 @@ Configure a `MediaSettings` object with the settings you want to use to track vi
 var mySettings = ADB.Media.settingsWith("name", 10, "playerName", "playerId");
 ```
 
-## Track Player Events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
 To measure video playback, The `Play`, `Stop`, and `Close` methods need to be called at the appropriate times. For example, when the player is paused, `Stop`. `Play` is called when playback starts or is resumed.
 
@@ -118,7 +118,7 @@ property double parentPodPosition;
 property bool isMediaAd;
 ```
 
-### Media Measurement Class and Method Reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+### Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **SettingsWith (winJS: settingsWith)**
 

@@ -173,6 +173,7 @@ Each of these methods is used to send data into your Adobe Analytics report suit
         actionExists = exists; 
     });
     ```
+
 * **TrackTimed​ActionEnd (winJS: trackTimed​ActionEnd)**
 
   End a timed action. 
@@ -215,6 +216,7 @@ Each of these methods is used to send data into your Adobe Analytics report suit
     ```csharp
     static Windows::Foundation::IAsyncOperation<int> ^GetQueueSizeAsync();
     ```
+
   * Here is the code sample for this method:
 
     ```js
