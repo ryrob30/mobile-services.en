@@ -19,7 +19,7 @@ This extension provides a much easier way to add the reference of Experience Clo
 1. Double-click [!DNL ADBMobileUniversalWindowsVSIX.vsix] to open the installer. 
 1. Select **[!UICONTROL Global Location]** and then install the library.
 
-## Add References to Your Project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
+## Add references to your project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
 
 1. Open your Windows 10 project. 
 1. Open the dialogue of Reference Manager.

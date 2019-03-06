@@ -14,7 +14,7 @@ Universal Windows Platform SDK 4.x for Experience Cloud Solutions lets you measu
 
 **Last Updated: September 17, 2015**
 
-## Supported Platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
+## Supported platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
 Windows 10 or later.
 

@@ -48,7 +48,7 @@ All context data variables must be mapped using processing rules:
 
 You do not need to map the *`products`* variable using processing rules since it is set directly on the image request by the SDK.
 
-## Products Variable with Merchandising eVars and Product-Specific Events {#section_685D53AD3D064F9A8E225F995A9BA545}
+## Products variable with merchandising eVars and product-specific events {#section_685D53AD3D064F9A8E225F995A9BA545}
 
 An example of the *`products`* variable with Merchandising eVars and product-specific events.
 
