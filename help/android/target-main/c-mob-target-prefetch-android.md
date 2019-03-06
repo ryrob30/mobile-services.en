@@ -267,7 +267,7 @@ locationRequests.add(Target.createTargetRequestObject("mboxName2", "defaultConte
 Target.loadRequests(locationRequests, profileParameters); 
 ```
 
-## Additional Information {#section_A454BAD1CD49423E86C71BAEE06125FD}
+## Additional information {#section_A454BAD1CD49423E86C71BAEE06125FD}
 
 Here is some additional information about these samples:
 

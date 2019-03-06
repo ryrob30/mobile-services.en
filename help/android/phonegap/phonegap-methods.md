@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
 ---
 
-# PhoneGap Plug-in methods{#phonegap-plug-in-methods}
+# PhoneGap plug-in methods{#phonegap-plug-in-methods}
 
 You can use Android PhoneGap Plug-in methods to complete a variety of tasks.
 

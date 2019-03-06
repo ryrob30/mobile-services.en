@@ -58,7 +58,7 @@ An optional callback allows you to take additional action when the timed action 
 
    Timed event metrics are saved in mobile solution variables for automatic reporting.
 
-## Sending Additional Data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the timed action name, you can also send additional context data with the action start and action update calls:
 
