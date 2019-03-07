@@ -12,7 +12,7 @@ uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 
 Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
-## Configuration Methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **DebugLogging**
 
@@ -200,7 +200,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
      Config.SetSmallIconResourceId(R.drawable.appIcon);
      ```
 
-## Analytics Methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
@@ -294,6 +294,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     ```java
     public static void TrackBeacon (string uuid, string major, string minor,  Analytics.BEACON_PROXIMITY prox, IDictionary<string, Object> cdata); 
     ```  
+
   * Here is the code sample for this method:
 
     ```java
@@ -464,7 +465,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     var queueSize = Analytics.QueueSize();
     ```
 
-## Experience Cloud ID Methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **MarketingCloudId**
 
@@ -500,7 +501,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     Visitor.SyncIdentifiers (ids);
     ```
 
-## Target Methods {#section_C1E4121CAF9D43538511D857A1F549A7}
+## Target methods {#section_C1E4121CAF9D43538511D857A1F549A7}
 
 * **LoadRequest**
 
@@ -676,7 +677,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     ```java
     public static void Reset ();
     ```
-  
+
   * Here is the code sample for this method:
 
     ```java

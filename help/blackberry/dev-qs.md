@@ -54,11 +54,11 @@ After unzipping the downloaded SDK, verify that the following files exist in an 
 
 Your application can import the classes/interfaces from the `adobeMobileLibrary.jar` library by using `#include <ADBMobile.hpp>`.
 
-## Add App Permissions
+## Add app permissions
 
 In `bar-descriptor.xml` in the project directory, add the line `<permission>access_internet</permission>`, or in the QNX Momentics IDE, select the **[!UICONTROL Internet]** box on the permissions section of the **[!UICONTROL Application]** tab.
 
-## Update The ADBMobileConfig.json Config File
+## Update the ADBMobileConfig.json config file
 
 The `ADBMobileConfig.json` file contains global SDK settings. You need to update a few values to get started.
 
