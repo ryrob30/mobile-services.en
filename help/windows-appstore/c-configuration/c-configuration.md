@@ -12,7 +12,7 @@ uuid: 93a63808-ccad-4dae-a822-c3edf6eded52
 
 Information to help you configure the Windows 8.1 Universal App Store SDK, including JSON configuration, hit batching, and SDK methods.
 
-## Additional Information
+## Additional information
 
 * [ADBMobile JSON file](/help/windows-appstore/c-configuration/c.json.md)
 * [SDK methods](/help/windows-appstore/c-configuration/methods.md)

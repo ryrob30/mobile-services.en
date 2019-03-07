@@ -16,7 +16,7 @@ You'll need Visual Studio 2013 or later to implement the SDK.
 
 After you unzip the [SDK download](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases), you'll have a separate folder for each supported architecture and platform combination. You will also have an [!DNL ADBMobileConfig.json] file that is explained later in this guide.
 
-## Select the Correct Version {#section_E53C5AA7D5474824A89BB32C003865A1}
+## Select the correct version {#section_E53C5AA7D5474824A89BB32C003865A1}
 
 Different `.dll`/ `.winmd` files are provided for each target platform (Windows 8.1, Windows Phone 8.1), and supported architecture (x86, x64, ARM). The files are separated into a folder structure according to the following: 
 
@@ -26,7 +26,7 @@ Different `.dll`/ `.winmd` files are provided for each target platform (Windows 
 >
 >The version of `ADBMobile.winmd` does not reflect the version of the library. The `.winmd` file contains metadata only, and as such will have a version number of `255.255.255.255` which is accepted behavior according to Microsoft (see [How do I add assembly information for a WinRT C++ / CX component dll?](https://social.msdn.microsoft.com/Forums/windowsapps/en-US/6bcccaee-aa53-4770-bd5b-1205977f1ca7/how-do-i-add-assembly-information-for-a-winrt-c-cx-component-dll?forum=winappswithnativecode)). To check the version of the library you are using, check the version of the underlying `ADBMobile.dll` file.
 
-## Syntax Differences {#section_A02DE120B6D240F5AFFE7509755C4F14}
+## Syntax differences {#section_A02DE120B6D240F5AFFE7509755C4F14}
 
 The Windows 8.1 Universal App Store library can be used in several programming languages. The examples in this guide are in WinJS (JavaScript), and might need to be modified if you are using a different language. Note that when you consume winmd methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
@@ -34,7 +34,7 @@ The main difference between the implementations is the data structure used for c
 
 Additionally, when using the SDK in a WinJS project, use an empty string ( `""` or `''`) instead of `null` for empty string values.
 
-## Add the Library and Config File to your Project - C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## Add the library and config file to your project - C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Launch Visual Studio and open your solution. 
 1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UIUCONTROL Add Reference]**. 
@@ -71,7 +71,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Change **[!UICONTROL Build Action]** to **[!UICONTROL Content]**.
 
-## Add the Library and Config File to your Project - C++ {#section_A95C1D18F6144F37ADC8F51590F3983E}
+## Add the library and config file to your project - C++ {#section_A95C1D18F6144F37ADC8F51590F3983E}
 
 1. Launch Visual Studio and open your solution. 
 1. In the **[!UICONTROL Solution Explorer]**, right-click your project and select **[!UICONTROL Add]** > **[!UICONTROL References]**. 
@@ -102,7 +102,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]**, and click **[!UICONTROL OK]**.
 
-## Add the Library and Config File to your Project - WinJS {#section_FF83113EBF4742AFA929F4AC28F92DB5}
+## Add the library and config file to your project - WinJS {#section_FF83113EBF4742AFA929F4AC28F92DB5}
 
 1. Launch Visual Studio and open your solution. 
 1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference**.
@@ -135,7 +135,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
     For JavaScript projects, the file is set to **[!UICONTROL Content]** by default.
 
-## Update The ADBMobileConfig.json Config File {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
+## Update the ADBMobileConfig.json config file {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
 
 The `ADBMobileConfig.json` file contains global SDK settings, and is located at your project root after you complete the steps in the *Add the Library and Config File to your Project* section. If your [!DNL ADBMobileConfig.json] file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
 

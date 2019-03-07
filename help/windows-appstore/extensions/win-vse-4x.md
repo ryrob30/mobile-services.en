@@ -20,7 +20,7 @@ This Extensions provides you a much easier way to add the reference of Experienc
 
 1. Select **[!UICONTROL Global Location]**, and then install the lib.
 
-## Add References to Your Project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
+## Add references to your project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
 
 1. Open your Windows 8.1 or Windows Phone 8.1 project. 
 1. Open the dialogue of Reference Manager.

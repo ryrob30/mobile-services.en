@@ -12,14 +12,14 @@ user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
   + [Get started](c-getting-started/c-getting-started.md)
   + [Developer quick start](c-getting-started/dev-qs.md)
 + Configuration {#config-win-appstore}
-  + [Configuration Overview](c-configuration/c-configuration.md)
+  + [Configuration overview](c-configuration/c-configuration.md)
   + [ADBMobileConfig.json config](c-configuration/c.json.md)
   + [SDK methods](c-configuration/methods.md)
 + Analytics {#analytics-win-appstore}
   + [Analytics](analytics/analytics.md)
   + Products variable {#products-variable}
-    + [Products Variable](analytics/products/products.md)
-    + [Products Variable with Merchandising eVars and Product-Specific Events](analytics/products/products-variable-evars-events.md)
+    + [Products variable](analytics/products/products.md)
+    + [Products variable with merchandising eVars and product-specific events](analytics/products/products-variable-evars-events.md)
   + [Event serialization](analytics/event-serialization.md)
   + [Video Analytics](analytics/video-qs.md)
   + [Analytics methods](analytics/analytics-methods.md)
