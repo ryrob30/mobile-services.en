@@ -12,7 +12,7 @@ The general process to measure video is very similar across all AppMeasurement p
 
 For more information about Video measurement, see the [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) guide.  The following table lists the media data that is sent to Analytics. Use processing rules to map the context data in the Context Data Variable column to an Analytics variable as described in the Variable Type column. 
 
-## Map Player Events to Analytics Variables
+## Map player events to Analytics variables
 
 * **a.media.name**
 
@@ -77,11 +77,11 @@ For more information about Video measurement, see the [Measuring audio and video
   * Variable type: Event
   * Type: Counter
 
-## Track Player Events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
 To measure video playback, The `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. For example, when the player is paused, `mediaStop`. `mediaPlay` is called when playback starts or is resumed.
 
-## Media Measurement Class and Method Reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **open**
 

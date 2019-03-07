@@ -10,7 +10,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 
 # ADBMobile.cs methods {#adbmobile-cs-methods}
 
-## Configuration Methods
+## Configuration methods
 
 * **CollectLifecycleData**
 
@@ -233,7 +233,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     ADBMobile.SetUserIdentifier("myCustomUserId"); 
     ```
 
-## Analytics Methods
+## Analytics methods
 
 * **GetTrackingIdentifier**
 
@@ -495,7 +495,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
     var queueSize = ADBMobile.TrackingGetQueueSize();
     ```
 
-## Experience Cloud ID Methods
+## Experience Cloud ID methods
 
 * **GetMarketingCloudID**
 

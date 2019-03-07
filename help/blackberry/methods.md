@@ -12,7 +12,7 @@ Classes and methods provided by the BlackBerry library.
 
  The SDK currently has support for Adobe Analytics, and methods are in separate classes based on the solution. 
 
-## SDK Settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## SDK settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **getPrivacyStatus**
 
@@ -139,7 +139,7 @@ Classes and methods provided by the BlackBerry library.
     }
     ```
 
-## Analytics Methods {#section_91F4AD0A045D4E4E8F9A93450503E49E}
+## Analytics methods {#section_91F4AD0A045D4E4E8F9A93450503E49E}
 
 Each of these methods is used to send data into your Adobe Analytics report suite. 
 
@@ -197,7 +197,7 @@ Each of these methods is used to send data into your Adobe Analytics report suit
 
 ## ADBMobileConfig.json Config File Reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
-The [!DNL ADBMobileConfig.json] must be placed in the [!DNL assets] folder.
+The ADBMobileConfig.json must be placed in the *assets* folder.
 
 * **rsids**
 

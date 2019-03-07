@@ -12,7 +12,7 @@ uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 
 iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
-## Configuration Methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **CollectLifecycleData**
 
@@ -184,7 +184,7 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     ADBMobile.KeepLifecycleSessionAlive();
     ```
 
-## Analytics Methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
@@ -453,7 +453,7 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     var queueSize = ADBMobile.TrackingGetQueueSize(); 
     ```
 
-## Experience Cloud ID Methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **GetMarketingCloudID**
 
@@ -487,7 +487,7 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
      ADBMobile.VisitorSyncIdentifiers(ids); 
      ```
 
-## Target Methods {#section_C1E4121CAF9D43538511D857A1F549A7}
+## Target methods {#section_C1E4121CAF9D43538511D857A1F549A7}
 
 * **TargetLoadRequest**
 

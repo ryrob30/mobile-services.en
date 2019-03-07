@@ -14,7 +14,7 @@ This Plug-in lets you send Adobe Analytics calls from your Unity applications.
 
 Last Updated: **October 20, 2016**
 
-## Getting Started {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
+## Getting started {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
 Download the [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) file from GitHub or Developer Connection.
 
