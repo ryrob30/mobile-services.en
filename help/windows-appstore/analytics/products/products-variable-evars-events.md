@@ -8,7 +8,7 @@ topic: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 ---
 
-# Products Variable with Merchandising eVars and Product-Specific Events{#products-variable-with-merchandising-evars-and-product-specific-events}
+# Products variable with merchandising eVars and product-specific events{#products-variable-with-merchandising-evars-and-product-specific-events}
 
 An example of the products variable with Merchandising eVars and product-specific events.
 

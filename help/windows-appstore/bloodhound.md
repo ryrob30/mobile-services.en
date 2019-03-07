@@ -38,7 +38,7 @@ Optionally, you can specify a custom port number (must be above 1024) before you
 
 After the server is running, you need to configure your applications or devices to send data to the tool, as discussed in the next section.
 
-## Configure Devices to Send Hits to Bloodhound {#section_8B57A323C28A4B2189804978017CE5ED}
+## Configure devices to send hits to Bloodhound {#section_8B57A323C28A4B2189804978017CE5ED}
 
 You can change proxy settings on the device to send http requests to the tool. Requests that are sent to the tool can optionally be forwarded to Adobe Data Collection servers.
 
@@ -48,7 +48,7 @@ If your device does not support a proxy, you can send the hits directly to Blood
 >
 >Bloodhound does not support SSL tracking. You must disable SSL in the AppMeasurement library when testing using Bloodhound.
 
-### iOS Devices
+### iOS devices
 
 The iOS Device must be on the same network as the computer hosting Bloodhound.
 
@@ -59,11 +59,11 @@ The iOS Device must be on the same network as the computer hosting Bloodhound.
 1. Select **[!UICONTROL Auto]**. 
 1. Enter the Proxy URL and port (from the Bloodhound UI) into the **[!UICONTROL URL]** field.
 
-### Other Devices
+### Other devices
 
 If the device supports proxy auto config, simply use the Proxy URL (From the Bloodhound UI) as the Proxy Auto Config (PAC) URL. Proxy support varies across Android versions, and there are some proxy configuration tools available for Android to simplify configuration.
 
-### Send Hits Directly
+### Send hits directly
 
 For devices that do not support proxy (iOS Simulator, older Android versions, etc) it is possible to specify Bloodhound as your tracking server in order to capture the hits it generates. To do this set your tracking server to `"<Bloodhound IP>:<Bloodhound Port>"`.
 
@@ -88,7 +88,7 @@ measure.ConfigureMeasurement("my_rsid", "10.10.2.2:5000");
 measure.ssl = false;
 ```
 
-## Troubleshooting/Common Issues {#section_EAEEF9F9A20144E2A3C6DC555A850E5E}
+## Troubleshooting/common issues {#section_EAEEF9F9A20144E2A3C6DC555A850E5E}
 
 * Bloodhound only functions with non-ssl tracking. Any tracking hits sent via SSL are not captured, regardless of the method used above.
 

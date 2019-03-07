@@ -15,7 +15,7 @@ Lists the metrics and dimensions that can be measured automatically by the mobil
 
 For more information, go to the Knowledge Base at [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
 
-## Lifecycle Metrics and Dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
+## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 When configured, lifecycle metrics are sent in context data parameters to Analytics, in parameters to Target with each mbox call, and as a signal to Audience Manager. Analytics and Target use the same format, while Audience Manager uses a different prefix for each metric.
 
@@ -186,7 +186,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
   * Audience Manager: `c_a_Resolution`
   
 
-## Additional Mobile Metrics and Dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
+## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
 The following metrics and dimensions are captured in mobile solution variables by the methods listed in the description.
 

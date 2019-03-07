@@ -12,7 +12,7 @@ uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 
 After you add the library to your project, you can make any of the Analytics method calls anywhere in your App (make sure you import [!DNL ADBMobile.h] to your class).
 
-## Enable Mobile Application Reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
+## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
 Before you add code, have your Analytics Administrator complete the following to enable Mobile App Lifecycle tracking. This ensures that your report suite is ready to capture metrics as you begin development.
 
@@ -35,7 +35,7 @@ Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Rep
 Periodically, new versions of mobile application reporting are released. New versions are not applied to your report suite automatically, you must repeat these steps to perform the upgrade. Each time you add new Experience Cloud functionality to your app, we recommend repeating these steps to ensure you have the latest configuration.
 
 
-## Lifecycle Metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## Lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
 
 To collect lifecycle metrics in your app, add calls to when the application is activated as shown in the following examples.
 
@@ -117,7 +117,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 If `CollectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `CollectLifecyleData()` reports a crash.
 
 
-## Events, Props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
 If you've looked at the [ADBMobile Class and Method Reference](/help/windows-appstore/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
@@ -131,7 +131,7 @@ Processing rules provide you several advantages:
 Any values that you were assigning directly to variables should be added to context data instead.
 
 
-## Processing Rules {#section_66EE762EEA5E4728864166201617DEBF}
+## Processing rules {#section_66EE762EEA5E4728864166201617DEBF}
 
 Processing rules are used to copy the data you send in context data variables to evars, props, and other variables for reporting.
 
@@ -179,15 +179,15 @@ Context data variables that define incrementor events can have the value to incr
 >
 >Adobe reserves the namespace `a.`. Aside from that small restriction, context data variables just need to be unique in your login company to avoid collisions.
 
-## Products Variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 To set *`products`* in the mobile SDK, you must use a special syntax. See [Products Variable](/help/windows-appstore/analytics/products/products.md).
 
-## (Optional) Enable Offline Tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
+## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
 To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/windows-appstore/c-configuration/methods.md). Before you enable offline tracking, Pay attention to the timestamp requirements described in the config file reference.
 
-## Geo-location and Points of Interest {#section_BAD34A8DD013454DB355121316BD7FD4}
+## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
 Geo-location lets you measure location data (latitude/longitude) and pre-defined points of interest. Each `TrackLocation` call sends:
 
@@ -211,7 +211,7 @@ If the following POI is defined in the `ADBMobileConfig.json` config file:
 
 When the device location is determined to be within a 7000 meter radius of the defined point, an `a.loc.poi` context data variable with the value "San Francisco" is sent in with the `TrackLocation` hit. An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
 
-## Lifetime Value {#section_D2C6971545BA4D639FBE07F13EF08895}
+## Lifetime value {#section_D2C6971545BA4D639FBE07F13EF08895}
 
 Lifetime value lets you measure and target on a lifetime value for each user. Each time you send in a value with `TrackLifetimeValueIncrease`, the value is added to the existing value. Lifetime value is stored on device and can be retrieved at any time by calling `GetLifetimeValue`. This can be used to store lifetime purchases, ad views, video completes, social shares, photo uploads, and so on.
 
@@ -226,7 +226,7 @@ cdata["PurchasePrice"] = purchasePrice;
 ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 ```
 
-## Timed Actions {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
+## Timed actions {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
 
 Timed actions let you measure in-app time and total time between the start and end of an action. The SDK calculates the amount of time in session and the total time (cross-session) it takes for the action to be completed. This can be used to define segments to compare on time to purchase, pass level, checkout flow, and so on.
 
