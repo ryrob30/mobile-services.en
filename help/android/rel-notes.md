@@ -14,12 +14,12 @@ Release notes and known issues for Android SDK 4.x for Experience Cloud Solution
 
 ## Mobile Services
 
-Release date: **January 17, 2019**
+Release date: **March 7, 2019**
 
 New features, updates, and fixes to the Android SDKs:
 
-* **Android version 4.17.2**
+* **Android version 4.17.3**
 
-  Adobe Target: Fixed a crashing issue caused by the SDK and app code when simultaneously attempting to iterate the input List of the loadRequests method.
+  Adobe Target: The Session ID and EdgeHost are now persisted across app sessions.
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
