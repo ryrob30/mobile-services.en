@@ -14,13 +14,16 @@ Release notes and known issues for iOS SDKs 4.x for Experience Cloud Solutions.
 
 **Mobile Services**
 
-Release date: **March 7, 2019**
+Release date: **March 14, 2019**
 
 New features, updates, and fixes to the Android SDKs:
 
 * **iOS version 4.18.1**
 
-  * **Adobe Target**: The Session ID and EdgeHost are now persisted across app sessions.
+  **Adobe Target**: 
+  
+  * The Session ID and EdgeHost are now persisted across app sessions.
+  * Fixed an issue that was caused when multiple `targetPrefetchContent:` calls were being made consecutively.
 
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
