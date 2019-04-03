@@ -14,12 +14,12 @@ Release notes and known issues for Android SDK 4.x for Experience Cloud Solution
 
 ## Mobile Services
 
-Release date: **March 7, 2019**
+Release date: **April 11, 2019**
 
 New features, updates, and fixes to the Android SDKs:
 
-* **Android version 4.17.3**
+* **Android version 4.17.4**
 
-  Adobe Target: The Session ID and EdgeHost are now persisted across app sessions.
+  Improved support for Android Instant Apps by making reachability checks configurable in the ADBMobileConfig.json file with the `reachabilityChecksEnabled` boolean property on the root JSON object.
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
