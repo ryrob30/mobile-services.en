@@ -13,6 +13,23 @@ uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 
 Marketers can create tracking links to promote and drive traffic to their apps. These tracking links can drive users to app stores, app deep links, and interstitials, which can be correlated to in-app behavior. A marketer can create one link to route users to iOS, Android, or other platforms as appropriate.
 
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to [Launch](https://launch.adobe.com/).
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+
+>[!IMPORTANT]
+>
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). For more information about using Acquisition and marketing links with the Experience Cloud SDKs, see [Acquisition and marketing links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
+
+>[!IMPORTANT]
+>
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
+
 You can create, edit, manage, and view reports on trackable mobile app marketing links.
 
 >[!TIP]

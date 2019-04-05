@@ -13,6 +13,23 @@ uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 
 Android SDK 4.x for Experience Cloud Solutions allows you to measure native Android applications, deliver targeted content in your app, and leverage and collect audience data through audience management.
 
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to Launch.
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+
+>[!IMPORTANT]
+>
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
+
+>[!IMPORTANT]
+>
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see [Core Implementation and Lifecycle](/help/android/getting-started/dev-qs.md).
+
 The SDKs support the following versions of Android:
 
 * Version 4.6.0 or earlier supports Android 2.2(API 8) - Android 5.1.1 (API 22) 
