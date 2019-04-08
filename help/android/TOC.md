@@ -39,6 +39,7 @@ user-guide-title: Mobile Services Android Help
     + [PII Postbacks](analytics-main/postbacks/c-pii-postbacks.md)
   + [Analytics methods](analytics-main/analytics-methods.md)
 + Acquisition{#acquisition-android}
+  + [Acquisition overview](acquisition-main/acquisition-main-android.md)
   + [Mobile app acquisition](acquisition-main/acquisition.md)
   + [Acquisition methods](acquisition-main/acquisition-methods.md)
   + Tracking deep links{#tracking-deep-links}
