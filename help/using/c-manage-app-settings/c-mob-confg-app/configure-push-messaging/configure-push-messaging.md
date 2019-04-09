@@ -27,25 +27,26 @@ Before you configure push messaging, complete the prerequisite tasks in [Prerequ
 
     * Apple
 
-      * **[!UICONTROL Private Key]**
+    * **[!UICONTROL Private Key]**
 
-        Browse to and select your valid private key `.p12`, `.key`, or `.pen`.
+      Browse to and select your valid private key `.p12`, `.key`, or `.pen`.
 
-        >[!IMPORTANT]
-        >If the file that you select for the **[!UICONTROL Private Key]** input also contains a certificate, you do not need to specify the certificate.
+      >[!IMPORTANT]
+      >If the file that you select for the **[!UICONTROL Private Key]** input also contains a certificate, you do not need to specify the certificate.
 
-      * **[UICONTROL Certificate]**
+    * **[!UICONTROL Certificate]**
 
-         Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+      Specify a valid certificate. This option is required only when the **[!UICONTROL Private Key]** input does **not** contain a certificate. For more information about obtaining the SSL certificate and private key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
     * Google
 
       **[!UICONTROL API Key]**
-        Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+      
+      Specify a valid API key. For more information about obtaining the API key, see [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
       For more information, see the following topics:
 
-        * [Push Messaging in Android](/help/android/messaging-main/push-messaging/push-messaging.md)
-        * [Push Messagingnin iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      * [Push Messaging in Android](/help/android/messaging-main/push-messaging/push-messaging.md)
+      * [Push Messaging in iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 1. Click **[!UICONTROL Save]**.
