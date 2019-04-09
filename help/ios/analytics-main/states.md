@@ -60,7 +60,7 @@ States are typically viewed by using a pathing report so you can see how users n
 
 * **Adobe Analytics**
 
-  States can be viewed anywhere that Pages can be viewed, such as the **[!UICONTROL Pages]** report, the **[UICONTROL Page Views]** report, and the **[!UICONTROL Path]** report.
+  States can be viewed anywhere that Pages can be viewed, such as the **[!UICONTROL Pages]** report, the **[!UICONTROL Page Views]** report, and the **[!UICONTROL Path]** report.
 
 * **Ad hoc analytics**
 

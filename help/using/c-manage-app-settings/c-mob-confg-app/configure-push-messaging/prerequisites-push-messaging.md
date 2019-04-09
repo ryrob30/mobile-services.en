@@ -55,7 +55,7 @@ Each user must link the Analytics solution account from the Experience Cloud org
 
 1. In the upper right corner, select the Analytics company name.
 
-1. Click **[UICONTROL Add Organization]** and select **[!UICONTROL Adobe SiteCatalyst/Adobe Social]** from the drop-down list.
+1. Click **[!UICONTROL Add Organization]** and select **[!UICONTROL Adobe SiteCatalyst/Adobe Social]** from the drop-down list.
 
 1. Type the company name, your legacy credentials for the specified company, and click **[!UICONTROL Link Account]**.
 

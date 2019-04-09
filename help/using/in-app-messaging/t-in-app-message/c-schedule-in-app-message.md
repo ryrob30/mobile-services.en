@@ -27,7 +27,7 @@ You can configure schedule options for in-app messages, including duration, days
 
     * **[!UICONTROL Start and End]**
 
-      Use the **[!UICONTROL]** Calendar icons to select a start and end date for your message.
+      Use the **[!UICONTROL Calendar]** icons to select a start and end date for your message.
 
 1. Complete the following fields in the **[!UICONTROL Days of the Week]** section:
 
