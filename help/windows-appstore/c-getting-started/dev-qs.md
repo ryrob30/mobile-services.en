@@ -113,7 +113,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Click **[!UICONTROL Add]**.
 
-1. Verify that [!DNL ADBMobile.winmd] is checked in the **[UICONTROL Reference Manager]** window and click **[UICONTROL OK]**. 
+1. Verify that [!DNL ADBMobile.winmd] is checked in the **[!UICONTROL Reference Manager]** window and click **[!UICONTROL OK]**. 
 
    >[!TIP]
    >

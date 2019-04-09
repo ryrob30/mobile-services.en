@@ -36,7 +36,7 @@ To use Location, complete the following tasks:
   
       Type the **[!UICONTROL Point of Location]** name. 
   
-      This could be the name of a city, county, or region. You can also create a **[!UICONTROL]Point of Location]** around specific locations, such as sports stadiums or businesses.
+      This could be the name of a city, county, or region. You can also create a **[!UICONTROL Point of Location]** around specific locations, such as sports stadiums or businesses.
 
     * **[!UICONTROL Latitude ]**
 

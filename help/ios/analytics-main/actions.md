@@ -71,5 +71,5 @@ If you are tracking an action in code that might run when the app is in the back
 | Interface | Report |
 |--- |--- |
 |Adobe Mobile Services|**[!UICONTROL Action Paths]** report. View the order in which actions occur in your app. You can also click **[!UICONTROL Customize}** on any report to view actions ranked, trended, or in a breakdown report or apply a filter to view actions for a specific segment.|
-|Marketing reports and analytics|**[UICONTROL Custom Event]** report.  After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|
+|Marketing reports and analytics|**[!UICONTROL Custom Event]** report.  After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|
 |Ad hoc analytics|**[!UICONTROL Custom Event]** report. After an action is mapped to a custom event, you can view mobile events similar to all other Analytics events.|

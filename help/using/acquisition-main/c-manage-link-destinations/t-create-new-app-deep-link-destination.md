@@ -30,7 +30,7 @@ You can create a new link destination that directs users to a web or a deep link
   
         Provide a URI schema deep link (for example, `yourapp://section`). App deep link destinations are URI schema deep links that direct users to a deep link in your app. For example, you can direct users to a specific product line in an online retailer's mobile app.
   
-      * **[UICONTROL Web Link]**  
+      * **[!UICONTROL Web Link]**  
   
         Type a web HTTP or HTTPS URL, for example,`https://adobe.com`. Web link destinations direct users to a URL. For example, you can direct users to a product line on an online retailer's website.
   

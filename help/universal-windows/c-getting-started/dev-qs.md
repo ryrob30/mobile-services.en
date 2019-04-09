@@ -97,7 +97,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**. 
 
-1. (Skip this step if you also have a C++ project in your solution) In the **[UICONTROL Windows]** tab on the left, select **[!UICONTROL Extensions]**, then select and add **[!UICONTROL Visual C++ 2015 Runtime for Universal Windows Platform Apps]**. 
+1. (Skip this step if you also have a C++ project in your solution) In the **[!UICONTROL Windows]** tab on the left, select **[!UICONTROL Extensions]**, then select and add **[!UICONTROL Visual C++ 2015 Runtime for Universal Windows Platform Apps]**. 
 
 1. Right-click you your project and select **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
