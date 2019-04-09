@@ -27,7 +27,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
   Select a privacy option:  
 
-  * **[!UICONTTOL Send Data Until Opt-Out]**
+  * **[!UICONTROL Send Data Until Opt-Out]**
   * **[!UICONTROL Hold Data Until Opt-In]**
 
 * **[!UICONTROL Session Timeout (Seconds)]**
