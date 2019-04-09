@@ -19,7 +19,7 @@ You can configure the SDK Acquisition options on the Manage App Settings page wh
 
       Create app store links that allow you to download applications directly from the Apple App Store and Google Play. The links you create help you attribute your success events to the downloads. For more information, see [Acquisition](//help/using/acquisition-main/acquisition-main.md).
 
-    * **[UICONTROL Referrer Timeout (Seconds)]**
+    * **[!UICONTROL Referrer Timeout (Seconds)]**
 
       Specify the referrer timeout value. 
   
