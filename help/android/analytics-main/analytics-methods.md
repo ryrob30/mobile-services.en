@@ -96,7 +96,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
   * Here is the syntax for this method:
 
     ```java
-    publicstaticvoidtrackLifetimeValueIncrease(BigDecimalamount,Map&lt;String,Object&gt;contextData);
+    publicstaticvoidtrackLifetimeValueIncrease(BigDecimalamount,Map<String,Object>contextData);
     ```
 
   * Here is the code sample for this method:
@@ -118,7 +118,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
   * Here is the syntax for this method:
 
    ```java
-   publicstaticvoidtrackTimedActionStart(Stringaction,Map&lt;String,Object&gt;contextData);
+   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
    ```
 
   * Here is the code sample for this method:
@@ -167,7 +167,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
 
     ```java
     Analytics.trackTimedActionEnd("cartToCheckout",new
-    Analytics.TimedActionBlock&lt;Boolean&gt;(){
+    Analytics.TimedActionBlock<Boolean>(){
       @Override
       public Booleancall(long inAppDuration,long totalDuration, Map<String,
     Object> contextData) {

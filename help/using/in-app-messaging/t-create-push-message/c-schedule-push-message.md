@@ -70,10 +70,10 @@ You **must** understand the following information before scheduling recurring pu
     * **[!UICONTROL Never]** 
     * **[!UICONTROL Every day]** 
     * **[!UICONTROL Every Tuesday]** 
-    * **[!UICONTROL `<Day x>` of the month]** 
+    * **`<Day x>` of the month** 
 
       The displayed options change depending on the day you selected or typed as the start day.
-    * **[!UICONTROL `<nth day>` of Every Month]** 
+    * **`<nth day>` of Every Month** 
 
       The displayed value changes depending on which date you selected or typed as the start date.
 

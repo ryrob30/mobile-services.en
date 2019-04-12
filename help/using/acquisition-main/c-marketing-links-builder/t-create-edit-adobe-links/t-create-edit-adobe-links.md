@@ -52,12 +52,12 @@ You can create or edit marketing links to provide deep linking to your mobile ap
 1. Click **[!UICONTROL Save]**.
 1. Type information in the following fields:
 
-    * (**Required**) In **[!UICONTROL Fallback URL]**, specify the URL that users are directed to when a destination cannot be matched (for example, if the user is on a desktop or another platform that does not match a destination rule).
+    * **(Required)** In **[!UICONTROL Fallback URL]**, specify the URL that users are directed to when a destination cannot be matched (for example, if the user is on a desktop or another platform that does not match a destination rule).
     * In **[!UICONTROL Marketing Link Options]**, select **[!UICONTROL Interstitials]** or **[!UICONTROL Universal and App Links]**.
 
       For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md) or [Universal links and app links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
-    * (**Conditional**) If **[!UICONTROL Universal or App Links]** is selected, in **[!UICONTROL Custom Path]**, users can define the URL path after the domain with any query parameter. For more information, see [Universal links and app links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+    * **(Conditional)** If **[!UICONTROL Universal or App Links]** is selected, in **[!UICONTROL Custom Path]**, users can define the URL path after the domain with any query parameter. For more information, see [Universal links and app links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]** and configure the link.
 
@@ -70,31 +70,30 @@ You can create or edit marketing links to provide deep linking to your mobile ap
 
    1. Click the **[!UICONTROL Decision]** icon (![decision icon](assets/icon_decision.png)) and select one of the following decision locations:
 
-       * **[!UICONTROL Add Decision]**
-       * **[!UICONTROL Add Path]**
+      * **[!UICONTROL Add Decision]**
+      * **[!UICONTROL Add Path]**
 
    1. If you selected **[!UICONTROL Add Decision]**, select one of the following decision types:
 
-       * **[!UICONTROL Operating Decision]**
+      * **[!UICONTROL Operating Decision]**
 
-         Supported operating systems include iOS, Android, AMX, and so on. 
+        Supported operating systems include iOS, Android, AMX, and so on. 
 
-       * **[!UICONTROL Device Type]**
+      * **[!UICONTROL Device Type]**
 
-         Device types include devices such as desktops, eReaders, game consoles, mobile phones, set top boxes, and so on.
+        Device types include devices such as desktops, eReaders, game consoles, mobile phones, set top boxes, and so on.
 
    1. Click the **[!UICONTROL Destination]** icon ( ![square icon](assets/icon_square.png) ) and select one of the following destination types:
 
-       * **[!UICONTROL App Store]**
-       * **[!UICONTROL Web Link]**
-       * **[!UICONTROL App Deep Link]**
-       * **[!UICONTROL Hybrid Link]**
+      * **[!UICONTROL App Store]**
+      * **[!UICONTROL Web Link]**
+      * **[!UICONTROL App Deep Link]**
+      * **[!UICONTROL Hybrid Link]**
 
+      >[!TIP]
+      >
+      >When you use the **[!UICONTROL Web Link]** destination type with a link to the app store, acquisition is not tracked. To track acquisitions, use the **[!UICONTROL App Store]** destination type.
 
-       >[!TIP]
-       >
-       >When you use the **[!UICONTROL Web Link]** destination type with a link to the app store, acquisition is not tracked. To track acquisitions, use the **[!UICONTROL App Store]** destination type.
-
-       For more information, see [Create a new link destination](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+      For more information, see [Create a new link destination](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
 1. To save the marketing link, click ![elipses](assets/icon_elipses.png) and then **[!UICONTROL Save]**.

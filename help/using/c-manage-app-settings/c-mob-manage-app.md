@@ -30,7 +30,7 @@ You can track and manage the data that you receive from the app by configuring a
 
 ### Mapping Context Data to Analytics Variables
 
-Click **[!UICONTROL Manage App Settings >]** **[!UICONTROL Manage Variables & Metrics >]** **[!UICONTROL Custom Variables]**.
+Click **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables & Metrics]** > **[!UICONTROL Custom Variables]**.
 
 These mappings call the same API that is used in [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
@@ -78,7 +78,7 @@ The following mappings display in Analytics as being created in Mobile Services.
 
     Adobe Analytics has a more advanced UI for setting persistence for eVars. If a persistence value is set for the eVar that is not supported in Mobile Services, this value is displayed in the Mobile Services UI.
 
-    To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager >]** ** **[!UICONTROL Conversion Variables UI]**.  
+    To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** > ** **[!UICONTROL Conversion Variables UI]**.  
 
   * **[!UICONTROL List Support]**
 

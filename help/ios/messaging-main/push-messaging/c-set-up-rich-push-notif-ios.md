@@ -16,7 +16,7 @@ To receive rich push notifications in your iOS app:
 1. Verify that you can send a text push message to your app. 
 1. Add a Notification Service Extension by completing the following steps:
 
-   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]** . 
+   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**. 
    1. Select **[!UICONTROL Notification Service Extension]**. 
    1. Verify that the `NotificationService.m` file exists.
 

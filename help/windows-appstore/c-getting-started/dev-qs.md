@@ -187,6 +187,6 @@ Right-click the project, select **[!UICONTROL Properties]** > **[!UICONTROL Debu
 
 ### JS
 
-Right-click the project, select  **[!UICONTROL Properties]** > **[!UICONTROL Configuration Properties]** > **[!UICONTROL Debug tab]** . Change the debugger type drop down to **Native Only**.
+Right-click the project, select  **[!UICONTROL Properties]** > **[!UICONTROL Configuration Properties]** > **[!UICONTROL Debug tab]**. Change the debugger type drop down to **Native Only**.
 
 That's it! You're now ready to implement Analytics, Target, and Audience Management in your Windows 8.1 Universal App Store app. 

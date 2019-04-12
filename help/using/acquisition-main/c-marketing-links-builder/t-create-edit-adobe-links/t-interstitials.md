@@ -31,9 +31,9 @@ To configure an interstitial when creating a marketing link:
 
       * Must be an HTML file.  
       * Must contain the `%%DEST%%` and `%%FALLBACK%%` placeholders.
-      * The uploaded HTML will be served in an `&lt;iframe&gt;`. 
+      * The uploaded HTML will be served in an `<iframe>`. 
 
-        You must ensure that your link targets are pointing to a parent window. You can include `&lt;base target="_parent" /&gt;` in `&lt;head&gt;` or specify a target property for each `&lt;a/&gt;` individually.  
+        You must ensure that your link targets are pointing to a parent window. You can include `<base target="_parent" />` in `<head>` or specify a target property for each `<a/>` individually.  
 
         >[!TIP]
         >

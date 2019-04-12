@@ -17,7 +17,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL Use HTTPS]**
   
-      Enable HTTPS for added security.  
+  Enable HTTPS for added security.  
 
 * **[!UICONTROL Backdate Session Hits]**
   

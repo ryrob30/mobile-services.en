@@ -14,3 +14,6 @@ uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
 The builder helps you build marketing links that can route users to app stores and app or web link destinations. Marketers can choose destinations based on rules, such as the device type or the operating system of the user’s device.
 
 The marketing links can be tracked and reported on, which allows marketers to attribute downloads, app relaunches, and other in-app events to these links. 
+
+* [Create or edit marketing links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
+* [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)

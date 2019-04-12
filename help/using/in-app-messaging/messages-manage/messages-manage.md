@@ -15,7 +15,7 @@ View a list of your in-app and push messages with details about when each messag
 
 You can duplicate, activate/deactivate, and archive/unarchive messages. You can also view a report that displays the number of users who have viewed the message and the number of users who have clicked through the message.
 
-To manage messages, click **[!UICONTROL *your_app_name* >]** **[!UICONTROL Messaging >]** **[!UICONTROL Manage Messages]** .
+To manage messages, click ***your_app_name*** > **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]**.
 
 ![](assets/manage_messages.png)
 

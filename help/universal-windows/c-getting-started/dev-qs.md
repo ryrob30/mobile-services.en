@@ -157,11 +157,11 @@ For C Sharp and JS apps, you have to enable native code debugging by completing 
 
 ### C Sharp
 
-Right-click project, select  **[!UICONTROL Properties]** > **[!UICONTROL Debug tab]** . Change the debugger type drop down to **Native Only**.
+Right-click project, select  **[!UICONTROL Properties]** > **[!UICONTROL Debug tab]**. Change the debugger type drop down to **Native Only**.
 
 ### JS
 
-Right-click project, select  **[!UICONTROL Properties]** > **[!UICONTROL Configuration Properties]** > **[!UICONTROL Debug tab]** . Change the debugger type drop down to **[!UICONTROL Native Only]**.
+Right-click project, select  **[!UICONTROL Properties]** > **[!UICONTROL Configuration Properties]** > **[!UICONTROL Debug tab]**. Change the debugger type drop down to **[!UICONTROL Native Only]**.
 
 That's it! You're now ready to implement Analytics, Target, and Audience Management in your Universal Windows Platform app.
 
