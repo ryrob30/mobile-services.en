@@ -56,7 +56,7 @@ To add the SDK and config file to your project:
 
 1. Add the `ADBMobileConfig.json` file to the [!DNL assets] folder in your project. 
 1. In **[!UICONTROL Eclipse IDE]**, right-click the project name. 
-1. Select  **[!UICONTROL Build Path]** > **[!UICONTROL Add External Archives]** . 
+1. Select  **[!UICONTROL Build Path]** > **[!UICONTROL Add External Archives]**. 
 1. Select `adobeMobileLibrary.jar`. 
 1. Click **[!UICONTROL Open]**. 
 1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**. 

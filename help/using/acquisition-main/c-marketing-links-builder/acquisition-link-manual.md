@@ -82,7 +82,7 @@ Here is the list of parameters:
 
   Custom ID Override (generally IDFA for iOS or ADID for Android).
 
-  * Sample value: `Any String &lt; 255 characters (UTF-8 encoded)`
+  * Sample value: `Any String < 255 characters (UTF-8 encoded)`
 
 * **`ctx*`**
 

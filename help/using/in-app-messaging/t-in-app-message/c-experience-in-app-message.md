@@ -13,7 +13,7 @@ uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 
 Configure experience options for in-app messages, including type (full screen, alert, or notification) and display, text, and button options.
 
-1. In your app, click **[!UICONTROL Messaging >]** **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message >]** **[!UICONTROL Create In-App]**.
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. On the Experience page, type a name for the message.
 1. Complete the fields in the **[!UICONTROL Type]** section:
 
@@ -24,7 +24,7 @@ Configure experience options for in-app messages, including type (full screen, a
      * **[!UICONTROL Alert]**
      * **[!UICONTROL Local Notification]**
 
-   * **[!UICONTROL Template ]**
+   * **[!UICONTROL Template]**
 
      Customize a themed responsive message template for your content.
   
@@ -45,7 +45,7 @@ Configure experience options for in-app messages, including type (full screen, a
 
 1. Complete the fields in the **[!UICONTROL Display]** section:
 
-   * **[!UICONTROL Theme ]**
+   * **[!UICONTROL Theme]**
 
     Select a theme for your message.
 
@@ -57,7 +57,7 @@ Configure experience options for in-app messages, including type (full screen, a
 
       The URL for an image. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting in-app messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
-   * **[!UICONTROL Bundled Image**]
+   * **[!UICONTROL Bundled Image]**
 
       Path to an image in your app code bundle. This option is used when there is no image. or the image is unavailable. The imagine might not be available if, for example, the device is offline. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting in-app messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
@@ -94,7 +94,7 @@ Configure experience options for in-app messages, including type (full screen, a
 
      >[!TIP]
      >
-     >When you use the **[!UICONTROL Web Link]** or **[!Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
+     >When you use the **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
 
 1. (Optional) Preview the layout of your message by clicking following icons:
 

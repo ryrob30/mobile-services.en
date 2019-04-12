@@ -26,7 +26,7 @@ On the user's device, for a hit to be assigned to a **[!UICONTROL Points of Inte
 To use Location, complete the following tasks:
 
 1. Click the name of the app to go to its Manage App Settings page.
-1. Click **[!UICONTROL Location >]** **[!UICONTROL Manage Points of Interest]**.
+1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
 
    ![Step Result](assets/poi.png)
 

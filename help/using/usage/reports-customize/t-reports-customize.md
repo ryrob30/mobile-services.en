@@ -19,7 +19,7 @@ This information helps you customize the built-in reports by adding additional f
 
 In this example, we will customize the **[!UICONTROL Users & Sessions]** report, but the instructions apply to any report. 
 
-1. Open your app and click **[!UICONTROL Usage >]** **[!UICONTROL Users & Sessions]**.
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users & Sessions]**.
 
    ![](assets/customize1.png)
 

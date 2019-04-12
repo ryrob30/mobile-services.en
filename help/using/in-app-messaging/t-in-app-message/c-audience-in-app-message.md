@@ -13,7 +13,7 @@ uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 
 You can configure audience options for in-app messages, including view, trigger, and trait options.
 
-1. In your app, click **[!UICONTROL Messaging >]** **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message >]** **[!UICONTROL Create In-App]**.
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. On the Audience page, type information in the following fields:
 
    * **[!UICONTROL View]**
@@ -49,7 +49,7 @@ You can configure audience options for in-app messages, including view, trigger,
 >
 >Triggers and traits use data that is passed to Analytics from your app. These values are passed as context data, mapped variables, and metrics. A variable is a text-based value, and a metric is a numerical value.
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings >]**  **[!UICONTROL Manage Variables & Metrics >]**, which displays the following tabs:
+To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** >  **[!UICONTROL Manage Variables & Metrics]** >, which displays the following tabs:
 
 * **[!UICONTROL Standard Variables & Metrics]**
 * **[!UICONTROL Custom Variables]**
@@ -67,7 +67,7 @@ The following scenarios help you determine whether to select a metric or a varia
 
 A metric is a number, and an example is the number of purchases.
 
-1. Click **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message]**. 
+1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**. 
 1. Complete the following steps in the **[!UICONTROL Trigger]** section on the **[!UICONTROL Audience]** tab:
 
     1. Select a standard event such as **[!UICONTROL Launched]** and select **[!UICONTROL exists]**.
@@ -78,7 +78,7 @@ A metric is a number, and an example is the number of purchases.
 
 A variable is a text string that is a unique identifier, and examples include country, airport, and so on.
 
-1. Click **[!UICONTROL Manage Messages >]** **[!UICONTROL Create Message]**.
+1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
 1. Complete the following steps in the **[!UICONTROL Trigger]** section on the **[!UICONTROL Audience]** tab:
 
     1. Select a standard event such as **[!UICONTROL Launched]** and select **[!UICONTROL exists]**.
