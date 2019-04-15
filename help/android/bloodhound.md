@@ -15,6 +15,8 @@ During application development, Bloodhound lets you view server calls locally an
 
 For more information about Bloodhound, see the following guides:
 
+<!--Rekha: please resolve bloodhound links-->
+
 * [Bloodhound 3.x for Mac](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/) 
 * [Bloodhound 2.2 for Windows](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound_win_2x/)
 

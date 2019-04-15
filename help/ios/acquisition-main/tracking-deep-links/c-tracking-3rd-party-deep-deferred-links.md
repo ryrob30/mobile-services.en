@@ -63,7 +63,7 @@ If the application is set up as described above, the current AMSDK version will 
 
 1. Link the Facebook SDKs.
 
-   ![](assets/link-fb-sdks.jpg)
+   ![](assets/link-fb-sdk.jpg)
 
 1. Edit `AppDelegate`.
 
