@@ -36,7 +36,7 @@ App developers now have access to view the report suite(s) that you created.
 1. Verify that your Analytics administrator has completed one of the sections in [Log in to the Adobe Mobile Services UI](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8). 
 1. After the report suite has been configured, complete steps in [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
 
-For more information about roles and permissions, see [Roles and Permissions](https://marketing.adobe.com/resources/help/en_US/mobile/c_mob_roles-and-permissions.html).
+For more information about roles and permissions, see [Roles and Permissions](/help/using/gs/c-mob-roles-and-permissions.md).
 
 ## Log in to the Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
 

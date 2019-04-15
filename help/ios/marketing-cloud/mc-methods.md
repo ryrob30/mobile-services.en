@@ -16,7 +16,7 @@ The SDK currently supports multiple Adobe Experience Cloud Solutions, including 
 
 Methods are prefixed according to the solution, and Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Enabling the Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md). 
 
-* **+ (nullable NSURL *)visitorAppendToURL:(nullable NSURL *)url;**
+* **`+` (nullable NSURL `*`)visitorAppendToURL:(nullable NSURL `*`)url;**
 
   Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. To use this method, you must have Mobile SDK version 4.12 or higher. For more information, see [Append Visitor ID Helper Function](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html). 
   

@@ -9,7 +9,7 @@ user-guide-title: Mobile Services iOS Help
 + [iOS SDK 4.x for Experience Cloud Solutions](overview.md)
 + [Release notes](rel-notes.md)
 + Getting started {#getting-started-ios}
-  + [Getting started Overview](getting-started/getting-started.md)
+  + [Getting started overview](getting-started/getting-started.md)
   + [Before you start](getting-started/requirements.md)
   + [Core implementation and lifecycle](getting-started/dev-qs.md)
   + [Processing rules and context data](getting-started/proc-rules.md)
@@ -26,8 +26,8 @@ user-guide-title: Mobile Services iOS Help
 + Analytics {#analytics-ios}
   + [Analytics overview](analytics-main/analytics-main.md)
   + [Track app states](analytics-main/states.md)
-  + [Track app Actions](analytics-main/actions.md)
-  + [Track App crashes](analytics-main/crashes.md)
+  + [Track app actions](analytics-main/actions.md)
+  + [Track app crashes](analytics-main/crashes.md)
   + [Timed actions](analytics-main/timed-actions.md)
   + [Visitor lifetime value](analytics-main/lifetime-value.md)
   + Products variable {#products-variable}
@@ -48,8 +48,8 @@ user-guide-title: Mobile Services iOS Help
     + [Tracking deep links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
     + [Tracking third-party deferred deep links](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deep-deferred-links.md)
   + [Testing marketing link acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
-  + [Testing V3 Acquisition](acquisition-main/t-testing-version-3-acquisition.md)
-  + [Testing legacy Acquisition](acquisition-main/t-testing-acquisition.md)
+  + [Testing V3 acquisition](acquisition-main/t-testing-version-3-acquisition.md)
+  + [Testing legacy acquisition](acquisition-main/t-testing-acquisition.md)
   + [Apple Search Ads](acquisition-main/c-apple-search-ads.md)
 + Messaging {#messaging-ios}
   + [Messaging overview](messaging-main/messaging-main.md)

@@ -49,7 +49,7 @@ The same config file can be used for your app across multiple platforms:
   
   * If you do not provide a value, the default value is `true`, and hits are **enabled**. When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. One hit is backdated on every new launch of the application.
 
-  [!IMPORTANT]
+  >[!IMPORTANT]
   >
   >Backdated session hit information is sent in a session info server call, and additional server calls might apply.
 
@@ -145,7 +145,7 @@ The same config file can be used for your app across multiple platforms:
         ] 
   ```
 
-  [!TIP]
+  >[!TIP]
   >
   >Starting in version 4.2, POIs are defined in the Adobe Mobile interface and synchronized dynamically to the app configuration file. This synchronization requires the `analytics.poi` setting:
 

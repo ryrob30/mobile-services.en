@@ -87,7 +87,8 @@ NSString *const ADBTargetParameterMboxHost;
                       orderParameters:(nullable NSDictionary *)orderParameters
                        mboxParameters:(nullable NSDictionary *)mboxParameters
               requestLocationParameters:(nullable NSDictionary *)requestLocationParameters
-                               callback:(nullable void (^)(NSString * __nullable content))callback;
+                               callback:(nullable void (^)(NSString
+                               * __nullable content))callback;
     ```
 
   * Returns: N/A

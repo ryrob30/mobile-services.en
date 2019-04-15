@@ -31,9 +31,9 @@ The following types of delays might be associated with push messages for Mobile 
 >
 >The push services do not guarantee a message will be sent. For more information about the reliability of services, see the appropriate documentation:
 >
->* **APNS:** [Quality of Service](https://developer.apple.com/documentation/usernotifications)
+>* **APNS**:&nbsp;[Quality of Service](https://developer.apple.com/documentation/usernotifications)
 >
->* **GCM:** [Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options)
+>* **GCM**:&nbsp;[Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options)
 
 **How do I renew my Apple Push Service Certificate?**
 
@@ -43,6 +43,6 @@ Sending push messages requires a valid Push Service Certificate. Mobile Services
 2. To delete the current certificate, scroll to **[!UICONTROL Push Services]** and click **[!UICONTROL Delete]**.
 3. Configure and test a new certificate.
 
-    For more information, see [Prerequisites to Enable Push Messaging](https://marketing.adobe.com/resources/help/en_US/mobile/prerequisites_push_messaging.html)
+   For more information, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
 
 4. Click Save.

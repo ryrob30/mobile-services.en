@@ -28,4 +28,4 @@ Visual Studio 2013 or later.
 
 Adobe Mobile services provides a new UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics and Adobe Target solutions.
 
-Learn more at [Adobe Mobile services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/home.html). 
+Learn more at [Adobe Mobile services documentation](/help/using/home.md). 

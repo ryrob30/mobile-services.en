@@ -99,4 +99,3 @@ Remember the following information:
 * The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. 
 
   If they are using different protocols (for example, the link uses HTTP and the SDK uses HTTPS), the IP address might differ for each request (on some carriers), and the attribution might fail. 
->
