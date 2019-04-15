@@ -29,7 +29,7 @@ You can click any metric to hide or display its corresponding line. To view the 
 
 >[!TIP]
 >
->In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize reports](/help/using/usage/reports-customize/t-reports-customize.md).
+>In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
 
 ## App Store Average Rating {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 

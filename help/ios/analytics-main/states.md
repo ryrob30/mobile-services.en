@@ -65,5 +65,3 @@ States are typically viewed by using a pathing report so you can see how users n
 * **Ad hoc analytics**
 
   States can be viewed anywhere Pages can be viewed using the Page dimension, Page Views metric, and **[!UICONTROL Path]** reports.
-
-

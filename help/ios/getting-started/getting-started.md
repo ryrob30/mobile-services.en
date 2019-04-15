@@ -10,7 +10,9 @@ uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 
 # Getting started {#getting-started}
 
-The following information helps you get started with the iOS SDK for Experience Cloud Solutions:
+The following information helps you get started with the iOS SDK for Experience Cloud Solutions.
+
+## Additional information
 
 * [Before You Start](/help/ios/getting-started/requirements.md)
 * [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md)
