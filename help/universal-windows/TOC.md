@@ -1,7 +1,7 @@
 ---
 product: mobile-services
 audience: end-user
-user-guide-title: Mobile Services Universal Windows Help
+user-guide-title: Mobile Services Universal Windows Platform Help
 ---
 
 # Mobile Services Universal Windows Platform Help {#universal-windows}
@@ -11,7 +11,7 @@ user-guide-title: Mobile Services Universal Windows Help
   + [Get started](c-getting-started/c-getting-started.md)
   + [Developer quick start](c-getting-started/dev-qs.md)
 + [Release notes](release-notes.md)
-+ Configuration {#config-univ-win-plat} 
++ Configuration {#config-univ-win-plat}
   + [Configuration overview](c-configuration/c-configuration.md)
   + [ADBMobileConfig.json config](c-configuration/c.json.md)
   + [SDK methods](c-configuration/methods.md)
