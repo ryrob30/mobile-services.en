@@ -41,9 +41,9 @@ To sign in to Adobe Mobile Services UI by using your Enterprise ID:
 
 1. You will be redirected to the Enterprise sign-in page.
 
->[!IMPORTANT]
->
->If you click **[!UICONTROL Facebook]** or **[!UICONTROL Google]** to sign in, your Facebook and Google account email address must match the Adobe ID or Enterprise ID account email address that has access to Adobe Analytics. If your Facebook or Google email credentials do not match your Adobe or Enterprise ID user email address, contact your Administrator.
+    >[!IMPORTANT]
+    >
+    >If you click **[!UICONTROL Facebook]** or **[!UICONTROL Google]** to sign in, your Facebook and Google account email address must match the Adobe ID or Enterprise ID account email address that has access to Adobe Analytics. If your Facebook or Google email credentials do not match your Adobe or Enterprise ID user email address, contact your Administrator.
 
 ### Analytics ID
 

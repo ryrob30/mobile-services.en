@@ -20,23 +20,23 @@ You can configure experience options for push messages and rich push messages, i
 1. Type a name for this message.
 1. Type information in the following fields in the **[!UICONTROL Message]** section:
 
-* **[!UICONTROL Content]**
+    * **[!UICONTROL Content]**
 
-   Specify the text of your message. You can specify up to a maximum of 140 characters.
+       Specify the text of your message. You can specify up to a maximum of 140 characters.
 
-* **[!UICONTROL Media URL]**
+    * **[!UICONTROL Media URL]**
 
-  Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see *Requirements for Rich Push Notifications* below.
+      Type the URL of the media file that you plan to use in the push notification message. For requirements to use rich push notifications, see *Requirements for Rich Push Notifications* below.
   
-   >[!IMPORTANT]
-   >
-   >To display an image or a video in a push notification, remember the following:  
-   > * The `attachment-url` data is handled in the push payload.
-   > * The media URL must be able to handle spikes requests.
+       >[!IMPORTANT]
+       >
+       >To display an image or a video in a push notification, remember the following:  
+       > * The `attachment-url` data is handled in the push payload.
+       > * The media URL must be able to handle spikes requests.
 
-* **[!UICONTROL Destination]**
+    * **[!UICONTROL Destination]**
 
-   Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md). 
+       Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md). 
 
    >[!TIP]
    >

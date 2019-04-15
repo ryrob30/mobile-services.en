@@ -10,7 +10,9 @@ uuid: 63261b61-e70a-42be-a56f-5943173c041e
 
 # Configuration{#configuration}
 
-The following information helps you configure the iOS SDK, including JSON configuration, hit batching, and SDK methods:
+The following information helps you configure the iOS SDK, including JSON configuration, hit batching, and SDK methods.
+
+## Additional information
 
 * [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md)
 * [Override the ADBMobile JSON config path](/help/ios/configuration/json-config/json-config-remote.md)

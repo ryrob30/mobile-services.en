@@ -10,7 +10,9 @@ uuid: 39c642e2-60f0-4bbe-b0d1-2635ee2c6d01
 
 # Getting started {#getting-started}
 
-The following information helps you get started with the Android SDK for Experience Cloud Solutions:
+The following information helps you get started with the Android SDK for Experience Cloud Solutions.
+
+## Additional information
 
 * [Before you start](/help/android/getting-started/requirements.md)
 * [Core implementation and lifecycle](/help/android/getting-started/dev-qs.md)
