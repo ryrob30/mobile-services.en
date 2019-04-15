@@ -4,7 +4,7 @@ keywords: android;library;mobile;sdk
 seo-description: Postbacks allow you to send data that is collected by the SDK to a third-party server. By leveraging the same triggers and traits that you use to display an in-app message, you can configure the SDK to send customized data to a third-party destination.
 seo-title: Postbacks
 solution: Marketing Cloud,Analytics
-title: Postbacks
+title: Postbacks overview
 topic: Developer and implementation
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
 ---
