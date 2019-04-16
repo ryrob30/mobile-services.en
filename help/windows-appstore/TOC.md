@@ -27,5 +27,4 @@ user-guide-title: Mobile Services Windows 8.1 Universal App Store SDK
 + [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
 + [Lifecycle metrics](metrics.md)
 + [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
-+ [Using Bloodhound to test mobile applications](bloodhound.md)
 + [Migration](migration-v3.md)

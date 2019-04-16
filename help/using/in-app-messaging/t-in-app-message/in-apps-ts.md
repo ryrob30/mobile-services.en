@@ -17,12 +17,7 @@ This information can help you troubleshoot your in-app messaging issues.
 
 * **Are you putting the new configuration and new SDK in the app?**
 
-  * Verify that the SDK is version 4.2 or higher and is correctly configured. For a screen shot that shows the SDK version, see [View Hits](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html) in the Bloodhound documentation. 
-
-
-  >[!IMPORTANT]
-  >
-  >As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. 
+  * Verify that the SDK is version 4.2 or higher and is correctly configured. 
 
   * Ensure that you have a [Messaging](/help/using/in-app-messaging/in-app-messaging.md) section in your configuration (the downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
 
@@ -37,18 +32,6 @@ This information can help you troubleshoot your in-app messaging issues.
 * **Is the message live?**
 
   Check the list view in the **[!UICONTROL Status]** column on the Manage In-App Message page and verify whether the message is live. 
-
-* **Double check the traits/trigger sections.**
-
-  Verify assumptions in data for traits/trigger in bloodhound. 
-
-  Validate the hits in bloodhound. 
-  
-  For a screen shot showing the SDK version, see [View Hits](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html) in the Bloodhound documentation.
-  
-  >[!IMPORTANT]
-  >
-  >As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided.
 
 * **Look at *show once*, *show always*, *show offline* settings on the Audience page.**
 

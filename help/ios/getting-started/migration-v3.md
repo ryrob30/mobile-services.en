@@ -197,12 +197,3 @@ Since the products variable is not available in processing rules, you can use th
 ```
 
 ![](assets/prod-view.png){width="500px"}
-
-## Test the migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
-
-After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](/help/ios/bloodhound.md) for more information about inspecting the data being that is sent by the mobile SDK.
-
->[!IMPORTANT]
->
->As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided.
-

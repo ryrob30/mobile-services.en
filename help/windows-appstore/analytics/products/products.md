@@ -38,11 +38,7 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-*`products`* is set directly on the image request, and the other variables are set as context data: 
-
-![](assets/products-bloodhound.png)
-
-All context data variables must be mapped using processing rules: 
+*`products`* is set directly on the image request, and the other variables are set as context data. All context data variables must be mapped using processing rules: 
 
 ![](assets/products-procrules.png)
 
