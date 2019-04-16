@@ -33,11 +33,7 @@ Some information to remember:
 
 * In version 4.2 of this SDK and later, all hits are now sent using HTTP POST.
 
-  This has no impact on the data that is collected or reported, but you'll need to use a packet analyzer that supports inspecting POST data to view hits, such as [Bloodhound](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/).
-
-  >[!IMPORTANT]
-  >
-  >As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided.
+  This has no impact on the data that is collected or reported, but you need to use a packet analyzer that supports inspecting POST data to view hits.
 
 * If you are upgrading from a previous version (2.x or 3.x), see the [4.x Migration Guide](/help/ios/getting-started/migration-v3.md).
 

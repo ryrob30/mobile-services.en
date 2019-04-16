@@ -12,4 +12,3 @@ user-guide-title: Mobile Services BlackBerry Help
 + [Analytics](analytics.md)
 + [Video Analytics](video-qs.md)
 + [Lifecycle metrics](metrics.md)
-+ [Using Bloodhound to test mobile applications](bloodhound.md)

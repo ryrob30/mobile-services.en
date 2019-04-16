@@ -135,7 +135,3 @@ ADB.Analytics.trackAction("product view", cdata);
 ![](assets/prod-view.png){width="500px"}
 
 The value of `"&&products"` (in this example, the value is `";Cool Shoe`") should follow the products string syntax for the type of event that you are tracking.
-
-## Test the migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
-
-After you have completed the migration, see [Using Bloodhound to Test Mobile Applications](/help/universal-windows/bloodhound.md) to find out how to inspect the data being sent by the mobile SDK. 

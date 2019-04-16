@@ -184,11 +184,3 @@ Remove calls to the following methods:
 
 For more information about the products variable, see [Products Variable](/help/android/analytics-main/products/products.md).
 
-## Test the migration {#section_8ECE0EDA0C3E422B9C9C15C3C5242AA6}
-
-After you complete the migration, for more information about inspecting the data that is being sent by the Mobile SDK, see [Using Bloodhound to Test Mobile Applications](/help/android/bloodhound.md).
-
->[!IMPORTANT]
->
->As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided.
-

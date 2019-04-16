@@ -93,7 +93,6 @@ user-guide-title: Mobile Services iOS Help
   + [Privacy and General Data Protection Regulation](c-mob-privacy-gdpr-ios/c-mob-privacy-gdpr-ios.md)
   + [Retrieving stored identifiers](c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md)
   + [Setting the user's opt status](c-mob-privacy-gdpr-ios/privacy.md)
-+ [Using Bloodhound to test mobile applications](bloodhound.md)
 + PhoneGap Plug-in {#phonegap-ios}
   + [PhoneGap plug-in](phonegap/phonegap.md)
   + [PhoneGap plug-in methods](phonegap/phonegap-methods.md)

@@ -17,7 +17,7 @@ If you completed all the requirements for In-App Messaging, but messages do not 
 
 * **Are you putting the new configuration and new SDK in the app?** 
 
-  Verify that the SDK is version 4.2 or higher and correctly configured. For more information, see [View Hits](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html). Ensure that you have a `Messages` section in your configuration (downloaded JSON file), or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+  Verify that the SDK is version 4.2 or higher and correctly configured. Ensure that you have a `Messages` section in your configuration (downloaded JSON file), or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
 
 * **My full screen message in Android is not showing up. I am using the correct SDK, configuration, and my triggers are being met.**
 
@@ -30,14 +30,6 @@ If you completed all the requirements for In-App Messaging, but messages do not 
 * **Is the message live?**
 
   Check on the list view on the Manage In-App Message page in the Status column, and verify if it is live. 
-
-* **Double check the traits/trigger sections.**
-
-  Verify assumptions in data for traits/trigger in Bloodhound. Validate the hits in Bloodhound. For more information, see [View Hits](https://marketing.adobe.com/resources/help/en_US/mobile/bloodhound/view_hits.html) in Bloodhound documentation for a screen shot that displays the SDK version.
-
-  >[!IMPORTANT]
-  >
-  >As of April 30, 2017, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided.
 
 * **Look at *show once*, *show always*, *show offline* settings on the Audience tab.**
 

@@ -25,5 +25,4 @@ user-guide-title: Mobile Services Universal Windows Platform Help
 + [Audience Manager methods](audiencemgmt/audience-manager-methods.md)
 + [Lifecycle metrics](metrics.md)
 + [Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK](extensions/win-vse-4x.md)
-+ [Using Bloodhound to test mobile applications](bloodhound.md)
 + [Migrate to 4.x](migration-v3.md)

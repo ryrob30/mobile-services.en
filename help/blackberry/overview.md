@@ -41,4 +41,3 @@ For information about the BlackBerry SDKs, see the following content:
 * [Analytics](/help/blackberry/analytics.md)
 * [Video Analytics](/help/blackberry/video-qs.md)
 * [Lifecycle Metrics](/help/blackberry/metrics.md)
-* [Using Bloodhound to Test Mobile Applications](/help/blackberry/bloodhound.md)
