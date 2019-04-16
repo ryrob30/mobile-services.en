@@ -1,7 +1,7 @@
 ---
-description: The Social Sharing report displays a sunburst visualization for your existing data. This report is available to Digital Publishing Solutions (DPS) customers only.
+description: The Social Sharing report displays a sunburst visualization for your existing data. This report is available to Digital Publishing Suites (DPS) customers only.
 keywords: mobile
-seo-description: The Social Sharing report displays a sunburst visualization for your existing data. This report is available to Digital Publishing Solutions (DPS) customers only.
+seo-description: The Social Sharing report displays a sunburst visualization for your existing data. This report is available to Digital Publishing Suites (DPS) customers only.
 seo-title: Social Sharing
 solution: Marketing Cloud,Analytics
 title: Social Sharing

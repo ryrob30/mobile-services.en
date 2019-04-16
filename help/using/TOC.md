@@ -57,8 +57,8 @@ user-guide-title: Mobile Services User Help
   + [Add filters to reports](usage/reports-customize/t-reports-customize.md)
   + [Add series (metrics) to reports](usage/reports-customize/t-reports-series.md)
   + [Add a sticky filter](usage/reports-customize/t-sticky-filter.md)
-+ Digital Publishing Solution {#dps-ug}
-  + [Digital Publishing Solution overview](dps/dps.md)
++ Digital Publishing Suite {#dps-ug}
+  + [Digital Publishing Suite overview](dps/dps.md)
   + [Top 10 Articles](dps/dps-top-ten-articles.md)
   + [Top 50 Articles](dps/dps-top-50-articles.md)
   + [Social Sharing](dps/dps-social-sharing.md)

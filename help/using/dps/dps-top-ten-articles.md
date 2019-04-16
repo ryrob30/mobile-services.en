@@ -1,7 +1,7 @@
 ---
-description: The Top 10 Articles report displays a sunburst visualization for your data. This report is available only to Digital Publishing Solutions (DPS) customers.
+description: The Top 10 Articles report displays a sunburst visualization for your data. This report is available only to Digital Publishing Suites (DPS) customers.
 keywords: mobile
-seo-description: The Top 10 Articles report displays a sunburst visualization for your data. This report is available only to Digital Publishing Solutions (DPS) customers.
+seo-description: The Top 10 Articles report displays a sunburst visualization for your data. This report is available only to Digital Publishing Suites (DPS) customers.
 seo-title: Top 10 Articles
 solution: Marketing Cloud,Analytics
 title: Top 10 Articles

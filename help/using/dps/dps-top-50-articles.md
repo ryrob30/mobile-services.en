@@ -1,7 +1,7 @@
 ---
-description: The Top 50 Articles report displays a bar chart and ranked report showing the most-read articles displayed using the app. This report is available only to Digital Publishing Solutions (DPS) customers.
+description: The Top 50 Articles report displays a bar chart and ranked report showing the most-read articles displayed using the app. This report is available only to Digital Publishing Suites (DPS) customers.
 keywords: mobile
-seo-description: The Top 50 Articles report displays a bar chart and ranked report showing the most-read articles displayed using the app. This report is available only to Digital Publishing Solutions (DPS) customers.
+seo-description: The Top 50 Articles report displays a bar chart and ranked report showing the most-read articles displayed using the app. This report is available only to Digital Publishing Suites (DPS) customers.
 seo-title: Top 50 Articles
 solution: Marketing Cloud,Analytics
 title: Top 50 Articles
