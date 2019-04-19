@@ -468,13 +468,21 @@ In `html` files where you want to use tracking, add the following to the `<head>
   * Here is the syntax for this method:
 
     ```java
-    DB.targetLoadRequestWithRequestLocationParams(success, fail, name, defaultContent, profileParameters, orderParameters, mboxParameters, requestLocationParameters); 
+    ADB.targetLoadRequestWithRequestName(success, fail, name, defaultContent, profileParameters, orderParameters, mboxParameters);
     ```
 
   * Here is the code sample for this method:
 
     ```java
-    ADB.targetLoadRequestWithRequestLocationParams(function () ;{ alert('success') }, function () { alert('fail'); } 'bannerOffer', 'none', {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'}, {'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'},{'hp':'hp_val_new','hp.company':'adobe', 'hp.val2':'hp_val2'});
+    ADB.targetLoadRequestWithName(
+    function (value){ // handle target success} ,
+    function() { // handle target failure }, 
+    "mboxName",
+    "defaultContent",
+    {"profileParameters":"profileParametervalues"}
+    {"orderId" : "32FGJ4XK" , "orderTotal" : "123.33" , "purchasedProductIds":"[46,34]" }
+    {"mboxParameters":"mboxParametersvalues"}
+    );
     ```
 
 * **targetSessionID**
@@ -486,6 +494,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
     ```java
     ADB.targetSessionID (success, fail); 
     ```
+
   * Here is the code sample for this method:
     ```java
     ADB.targetSessionID(function (value) { alert(value) },function (value){ alert('fail'); });  
