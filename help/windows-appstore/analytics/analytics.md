@@ -256,7 +256,7 @@ var ADB = ADBMobile;
 ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 ```
 
-# Additional information
+## Additional information
 
 * [Products variable](/help/windows-appstore/analytics/products/products.md)
 * [Products Variable with Merchandising eVars and Product-Specific Events](/help/windows-appstore/analytics/products/products-variable-evars-events.md)

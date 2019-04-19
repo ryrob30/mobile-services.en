@@ -39,10 +39,14 @@ The following types of delays might be associated with push messages for Mobile 
 
 Sending push messages requires a valid Push Service Certificate. Mobile Services will notify you when your certificate is close to expiring or has expired. If you receive this notification, complete the following steps to renew your certificate:
 
-1. Click **[!UICONTROL Manage App Settings]**.
-2. To delete the current certificate, scroll to **[!UICONTROL Push Services]** and click **[!UICONTROL Delete]**.
-3. Configure and test a new certificate.
+  1. Click **[!UICONTROL Manage App Settings]**.
+  2. To delete the current certificate, scroll to **[!UICONTROL Push Services]** and click **[!UICONTROL Delete]**.
+  3. Configure and test a new certificate.
 
-   For more information, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
+     For more information, see [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
 
-4. Click Save.
+  4. Click **[!UICONTROL Save]**.
+
+**Why can't I see my push messages in an iOS simulator?**
+
+  iOS simulators do not support push messaging.
