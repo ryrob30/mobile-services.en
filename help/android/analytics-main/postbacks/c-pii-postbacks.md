@@ -31,6 +31,8 @@ When you want to use the Adobe SDK to collect PII, you should send a track PII c
 1. When you are ready to capture PII, call `trackPII` to send a hit for this action, event, or view: 
 
    ```java
-   [ADBMobile collectPII data:nil];
+   Config.collectPII(new HashMap<String, Object>(){{
+     put("key","value");
+   }});
    ```
 
