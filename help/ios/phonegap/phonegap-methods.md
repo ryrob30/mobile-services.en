@@ -13,15 +13,6 @@ uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
 
 You can use iOS PhoneGap Plug-in methods to complete a variety of tasks.
 
-Here is a list of the iOS PhoneGap Plug-in methods:
-
-* Configuration 
-* Tracking 
-* Target 
-* Acquisition 
-* Audience Manager 
-* ID service
-
 In `html` files where you want to use tracking, add the following to the `<head>` tag:
 
 ```html

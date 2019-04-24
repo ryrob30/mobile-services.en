@@ -15,11 +15,10 @@ New release information for Adobe Mobile Services.
 
 **Mobile Services**
 
-Release date: **September 20, 2018**
+Release date: **April 11, 2019**
 
 New features, updates, and fixes to Mobile Services:
 
-* Fixed an issue where the push notification content-available flag was always set to *true* when using the push test feature. 
-* Updated Mobile Service-related URLs from `*.marketing.adobe.com` to `*.experiencecloud.adobe.com`.
+* **Push Messaging**: Added support for Android Firebase notification type.
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 

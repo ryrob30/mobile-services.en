@@ -71,12 +71,12 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
   Reports the number of seconds that a previous application session lasted based on how long the application was open and in the foreground.
 
-  >[!IMPORTANT]
-  >
-  >The *Daily Engaged Users* and *Monthly Engaged Users* metrics are not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture these metrics.
-
   * Analytics Context Data/Target parameter: `a.PrevSessionLength`
   * Audience Manager signal: `c_a_PrevSessionLength`
+
+>[!IMPORTANT]
+>
+> The *Daily Engaged Users* and *Monthly Engaged Users* metrics are not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture these metrics.
 
 ### Dimensions
 

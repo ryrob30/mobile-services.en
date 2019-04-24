@@ -68,7 +68,7 @@ States are typically viewed by using a pathing report, which allows you to see h
 
 | | |
 |--- |--- |
-|Adobe Mobile Services | The **[!UICONTROL View States]** report. This report is based on the paths that the users took through your application. A sample path is  Home  >  Settings  > Feed. |
+|Adobe Mobile Services | The **[!UICONTROL View States]** report. This report is based on the paths that the users took through your application. A sample path is  **[UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[UICONTROL Feed]**. |
 |Adobe Analytics|States can be viewed anywhere that Pages can be viewed, such as the **[!UICONTROL Pages]** report, the **[!UICONTROL Page Views]** report, and the **[!UICONTROL Path]** report. |
 |Ad hoc analytics|States can be viewed anywhere Pages can be viewed by using the **[!UICONTROL Page]** dimension, **[!UICONTROL Page Views]** metric, **[!UICONTROL Path]** reports. |
 

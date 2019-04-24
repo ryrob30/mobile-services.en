@@ -2,14 +2,14 @@
 description: On the Manage Apps page, you can create, manage, and delete apps .
 keywords: mobile
 seo-description: On the Manage Apps page, you can create, manage, and delete apps .
-seo-title: Manage Apps
+seo-title: Manage apps overview
 solution: Marketing Cloud,Analytics
-title: Manage Apps
+title: Manage apps overview
 topic: Metrics
 uuid: 5949f549-172e-417e-b668-71fec628586a
 ---
 
-# Manage Apps{#manage-apps}
+# Manage Apps overview{#manage-apps}
 
 On the Manage Apps page, you can create, manage, and delete apps.
 
