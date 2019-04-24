@@ -27,7 +27,7 @@ Before you configure push messaging, complete the prerequisite tasks in [Prerequ
 
     * Apple
 
-    * **[!UICONTROL Private Key]**
+      **[!UICONTROL Private Key]**
 
       Browse to and select your valid private key `.p12`, `.key`, or `.pen`.
 

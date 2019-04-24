@@ -18,7 +18,7 @@ user-guide-title: Mobile Services User Help
     + [Display mobile metrics](gs/metrics/overview.md)
     + [Mobile metrics and Dimensions reference](gs/metrics/metrics-reference.md)
 + Manage apps {#manage-apps-ug}
-  + [Manage apps](manage-apps/manage-apps.md)
+  + [Manage apps overview](manage-apps/manage-apps.md)
   + [Add a new app](manage-apps/t-new-app.md)
   + [Virtual report suites](manage-apps/c-mob-vrs.md)
   + App store {#app-store}

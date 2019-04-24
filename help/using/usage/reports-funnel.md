@@ -11,7 +11,7 @@ uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 
 # Funnel{#funnel}
 
-The **{!UICONTROL Funnel]** report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the **{!UICONTROL Funnel]** report to compare the actions of different segments.
+The **[!UICONTROL Funnel]** report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the **[!UICONTROL Funnel]** report to compare the actions of different segments.
 
 Gaining visibility into customer decisions at each step helps you understand where they are being deterred, what path they tend to follow, and when customers leave your app.
 

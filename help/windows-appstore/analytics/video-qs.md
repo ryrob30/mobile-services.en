@@ -56,7 +56,7 @@ The following table lists the media data that is sent to Analytics. Use processi
   * Variable type: eVar
   * Default expiration: Page view
 
-* ** a.media.timePlayed**
+* **a.media.timePlayed**
 
   Counts the time, in seconds, spent watching a video since the last data collection process (image request). 
 
