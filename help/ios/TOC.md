@@ -80,8 +80,8 @@ user-guide-title: Mobile Services iOS Help
   + [Apple TV implementation with tvOS](apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
   + [Adobe Target for TVML/TVJS](apple-tv-implementation-tvos/target-for-tvml-tvjs.md)
   + [TVJS methods](apple-tv-implementation-tvos/tvjs-methods.md)
-+ iOS extension implementation {#ios-ext/ios-ext.md}
-  + [iOS extension Implementation](ios-ext/ios-ext.md)
++ iOS extension implementation {#ios-ext}
+  + [iOS extension implementation](ios-ext/ios-ext.md)
   + [Stand-alone extension implementation](ios-ext/c-stand-alone-extension-implementation.md)
 + [Apple Watch implementation with WatchOS 2](apple-watch-implementation-watchkit.md)
 + iOS SDK reference {#sdk-reference-ios}
