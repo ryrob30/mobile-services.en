@@ -66,6 +66,7 @@ Here are the roles in the Mobile Services UI, with their relevant permissions:
 
   * Enable Lifecycle Reporting
   * Enable Location Reporting
+  * Create/Update/Delete Variables and Metrics
 
 ### Mobile App Admin
 
@@ -107,7 +108,7 @@ This role has view-only permissions and can provide feedback in the Mobile Servi
 
   * Download App SDK configuration
   * View all UI and SDK settings
-  * View Variables & Metrics configuration
+  * View Variables and Metrics configuration
   * View Postbacks 
   * View Link Destinations
 
