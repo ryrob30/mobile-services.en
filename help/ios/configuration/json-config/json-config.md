@@ -83,8 +83,9 @@ The same config file can be used for your app across multiple platforms:
 
 * **coopUnsafe**
 
+  * Minimum SDK version: 4.16.1
   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.  
-  * Default value is `false`.  
+  * Default value is `false`.
   * This setting is used **only** for Device Co-op provisioned customers.  
   
   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blacklist flag on your Device Co-op account. There is no self-service path to enabling these flags. 
@@ -94,8 +95,7 @@ The same config file can be used for your app across multiple platforms:
   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.  
   * If you enable Analytics server-side forwarding to Audience Manager, you will also see `coop_unsafe=1` on Analytics hits. 
 
-  * Minimum SDK version: 4.16.1
-
+ 
 * **environmentId**
 
   The ID of the environment you want to use. You can specify a valid ID (`environmentId=8`), and if `environmentId` is not included, the default Production environment is used.
