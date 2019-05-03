@@ -2,16 +2,16 @@
 description: You can send signals and retrieve visitor segments from audience management.
 keywords: android;library;mobile;sdk
 seo-description: You can send signals and retrieve visitor segments from audience management.
-seo-title: Audience Manager Configuration
+seo-title: Audience Manager configuration
 solution: Marketing Cloud,Analytics
-title: Audience Manager Configuration
+title: Audience Manager configuration
 topic: Developer and implementation
 uuid: f68d5b2e-fa2c-4db6-98ad-d1855a2c45ac
 ---
 
 # Audience Manager configuration{#audience-manager-configuration}
 
-You can send signals and retrieve visitor segments from audience management.
+You can send signals and retrieve visitor segments from Audience Manager.
 
 ## Set the application context {#section_37CAE496FF894FCA821F7760605574CA}
 
@@ -28,4 +28,4 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-If you already added this method call when you implemented Analytics or Target, you do not need to add it again. 
+If you added this method call when you implemented Analytics or Target, you do not need to add it again. 

@@ -18,7 +18,7 @@ The Experience Cloud ID service provides a universal visitor ID across Experienc
 
 **Requires SDK version 4.3 or later**
 
-## Enabling the Experience Cloud ID {#section_79F984271C3B4366B7B04F864F4FF8C2}
+## Enable the Experience Cloud ID {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Add the library to your project and implement lifecycle. 
 

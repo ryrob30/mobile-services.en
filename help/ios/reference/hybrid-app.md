@@ -26,7 +26,7 @@ Typical mobile web implementations use the same standard Analytics `s_code.js` o
 
 To use the same visitor ID in the app and mobile web and pass the app visitor ID to the mobile web in the URL:
 
-## Implementing visitor tracking between an app and mobile web {#section_EDC91D6C67AD43999227707C2769C65D}
+## Implement visitor tracking between an app and mobile web {#section_EDC91D6C67AD43999227707C2769C65D}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -56,7 +56,7 @@ The ID service code on the destination domain extracts the MID from the URL inst
 
 On hits from the mobile web content, verify that the `mid` parameter is present on each hit, and that this value matches the `mid` that is being sent by the app code.
 
-## Troubleshooting visitor tracking {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
+## Troubleshoot visitor tracking {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
 
 * **I do not see `[ADBMobile visitorAppendToURL:]`.**
 

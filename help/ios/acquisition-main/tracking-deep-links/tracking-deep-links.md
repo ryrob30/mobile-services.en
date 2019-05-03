@@ -1,9 +1,9 @@
 ---
 description: You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile iOS SDK.
 seo-description: You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile iOS SDK.
-seo-title: Tracking Deep Links
+seo-title: Tracking deep links
 solution: Marketing Cloud,Analytics
-title: Tracking Deep Links
+title: Tracking deep links
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 ---
 
@@ -11,7 +11,7 @@ uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 
 You can use this information to track deep and deferred deep links in your mobile apps by using the Adobe Mobile iOS SDK.
 
-For more information about how marketers use deep linking in their applications, see [Acquisition](/help/ios/acquisition-main/acquisition.md) in the [!DNL Adobe Mobile Services] documentation.
+For more information about how marketers use deep linking in their applications, see [Acquisition](/help/ios/acquisition-main/acquisition.md) in the Mobile Services documentation.
 
 ## Tracking deep links
 

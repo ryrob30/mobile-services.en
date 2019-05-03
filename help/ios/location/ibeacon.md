@@ -24,7 +24,7 @@ The following beacon data is sent to Analytics and Target when `trackBeacon` is 
   * `2` is near 
   * `3` is far
 
-## Tracking iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Track iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -47,7 +47,7 @@ The following beacon data is sent to Analytics and Target when `trackBeacon` is 
    [ADBMobile trackingClearCurrentBeacon];
    ```
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the timed action name, you can send additional context data with each track action call:
 

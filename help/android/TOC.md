@@ -15,7 +15,7 @@ user-guide-title: Mobile Services Android Help
   + [Processing rules and context data](getting-started/proc-rules.md)
   + [Migrating to the Android 4.x Library](getting-started/migration-v3.md)
 + Configuration{#configuration-android}
-  + [Configuration](configuration/configuration.md)
+  + [Configuration overview](configuration/configuration.md)
   + [ADBMobile JSON config file](configuration/json-config/json-config.md)
   + [Override the ADBMobile JSON config path](configuration/json-config/json-config-remote.md)
   + [Hit batching](configuration/hit-batching.md)
@@ -82,7 +82,7 @@ user-guide-title: Mobile Services Android Help
   + [Android Wearables: getting started](wearables/android-wearable.md)
   + [Android Wearables: additional notes](wearables/c-android-wearables--additional-notes.md)
 + Android SDK reference{#sdk-reference-android} 
-  + [Android SDK reference](/help/android/reference/reference.md)
+  + [Android SDK reference overview](/help/android/reference/reference.md)
   + [App IDs](/help/android/reference/app-ids.md)
   + [Visitor tracking between an app and mobile web](/help/android/reference/hybrid-app.md)
   + [Android widgets](/help/android/reference/widgets.md)
@@ -91,5 +91,5 @@ user-guide-title: Mobile Services Android Help
   + [Retrieving stored identifiers](c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)
   + [Setting the user's opt status](c-mob-privacy-gdpr-android/privacy.md)
 + PhoneGap Plug-in{#phonegap-android}
-  + [PhoneGap plug-in](phonegap/phonegap.md)
+  + [PhoneGap plug-in overview](phonegap/phonegap.md)
   + [PhoneGap plug-in methods](phonegap/phonegap-methods.md)

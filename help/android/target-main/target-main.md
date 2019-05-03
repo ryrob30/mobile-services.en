@@ -2,18 +2,24 @@
 description: This information helps you deliver targeted content in Android applications.
 keywords: android;library;mobile;sdk
 seo-description: This information helps you deliver targeted content in Android applications.
-seo-title: Target
+seo-title: Target overview
 solution: Marketing Cloud,Analytics
-title: Target
+title: Target overview
 topic: Developer and implementation
 uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
 ---
 
-# Target{#target}
+# Target overview {#target}
 
-The following information helps you deliver targeted content in Android applications:
+The information in this section helps you deliver targeted content in Android applications.
 
-* [Target configuration](/help/android/target-main/target.md)
-* [Target methods](/help/android/target-main/c-target-methods.md)
-* [Prefetch offer content in Android](/help/android/target-main/c-mob-target-prefetch-android.md)
-* [Target Preview on Android](/help/android/target-main/c-mob-target-preview-android.md)
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+>[!IMPORTANT]
+>
+>As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to [Launch](https://launch.adobe.com/).
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).

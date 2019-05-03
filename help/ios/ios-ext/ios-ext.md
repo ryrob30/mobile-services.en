@@ -12,12 +12,24 @@ uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 
 You can use the iOS extension helps you collect usage data from your Apple Watch Apps (WatchOS 1), Today Widgets, Photo Editing widgets, and other iOS extension apps.
 
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to Launch.
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+
+>[!IMPORTANT]
+>
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
 
 ## Recommendations for using the iOS SDK instead of your wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
 
 >[!IMPORTANT]
 >
->We strongly recommend that you use the iOS SDK rather than using your wrapper.
+>We strongly recommend that you use the iOS SDK rather than your wrapper.
 
 Apple provides a set of APIs that lets the Watch app communicate with the containing app by sending requests to the containing app and receiving the responses. Although you can send tracking data as a dictionary from the Watch app to the containing app and call any tracking method on the containing app to send the data, this solution has limitations.
 
@@ -37,7 +49,7 @@ Even if these three tracking methods meet your requirements, use the iOS SDK, be
 
 If you are working on a WatchKit app, you should have a third target. For more information on developing for Apple Watch, see [Developing for Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
-## Configuring the containing app {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
+## Configure the containing app {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
 Complete the following steps in your Xcode project:
 
@@ -60,7 +72,7 @@ Complete the following steps in your Xcode project:
 
 1. Confirm that your app builds without unexpected errors.
 
-## Configuring the extension {#section_28C994B7892340AC8D1F07AF26FF3946}
+## Configure the extension {#section_28C994B7892340AC8D1F07AF26FF3946}
 
 1. Ensure that ADBMobileConfig.json is a member of the extension's target. 
 1. On the **[!UICONTROL Build Phases]** tab of your extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:

@@ -1,9 +1,9 @@
 ---
 description: If your app opens mobile web content, ensure that visitors are not identified separately as they move between the native and mobile web.
 seo-description: If your app opens mobile web content, ensure that visitors are not identified separately as they move between the native and mobile web.
-seo-title: Visitor Tracking Between an App and Mobile Web
+seo-title: Visitor Tracking between an app and mobile web
 solution: Marketing Cloud,Analytics
-title: Visitor Tracking Between an App and Mobile Web
+title: Visitor Tracking between an app and mobile web
 topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 ---
@@ -61,7 +61,7 @@ On hits from the mobile web content, verify that the `mid` parameter exists on e
 
 ## Troubleshooting visitor tracking {#section_9B641F8569E34A089C52AA28EA4C891D}
 
-**I do not see `Visitor.appendToURL`.**
+### I do not see `Visitor.appendToURL`.
 
   Verify that the Adobe SDK that is bundled in the parent application is version 4.12.0 or higher. 
 
@@ -72,7 +72,7 @@ On hits from the mobile web content, verify that the `mid` parameter exists on e
   * The Adobe IDs are encoded. 
       To ensure that the IDs that are appended to the URL that is being opened, verify that the `adobe_mc` query parameter appears in the URL. 
 
-**My `mid` is not identical in my app to my web view.**
+### My `mid` is not identical in my app to my web view.
 
 * Verify the following: 
 

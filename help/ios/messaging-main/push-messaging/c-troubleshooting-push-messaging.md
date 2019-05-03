@@ -13,7 +13,7 @@ uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 
 This information helps you troubleshoot push messaging.
 
-**Why are there sometimes delays sending push messages?**
+## Why are there sometimes delays sending push messages?
 
 The following types of delays might be associated with push messages for Mobile Services:
 
@@ -27,15 +27,15 @@ The following types of delays might be associated with push messages for Mobile 
   
   The push service (APNS or GCM) might not immediately send out the message. Although uncommon, we have seen a delay of 5-10 minutes. On the Messages page, you can verify that the push message has been sent to the push service by clicking the View link for the message. In the report, the number of successful sends to the push service is listed in the Published column.
   
->[!TIP]
->
->The push services do not guarantee a message will be sent. For more information about the reliability of services, see the appropriate documentation:
->
->* **APNS**:&nbsp;[Quality of Service](https://developer.apple.com/documentation/usernotifications)
->
->* **GCM**:&nbsp;[Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options)
+  >[!TIP]
+  >
+  >The push services do not guarantee a message will be sent. For more information about the reliability of services, see the appropriate documentation:
+  >
+  >* **APNS**: [Quality of Service](https://developer.apple.com/documentation/usernotifications)
+  >
+  >* **GCM**: [Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options)
 
-**How do I renew my Apple Push Service Certificate?**
+## How do I renew my Apple Push Service Certificate?
 
 Sending push messages requires a valid Push Service Certificate. Mobile Services will notify you when your certificate is close to expiring or has expired. If you receive this notification, complete the following steps to renew your certificate:
 
@@ -47,6 +47,6 @@ Sending push messages requires a valid Push Service Certificate. Mobile Services
 
   4. Click **[!UICONTROL Save]**.
 
-**Why can't I see my push messages in an iOS simulator?**
+## Why can't I see my push messages in an iOS simulator?
 
   iOS simulators do not support push messaging.

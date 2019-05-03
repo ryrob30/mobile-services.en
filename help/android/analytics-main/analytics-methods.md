@@ -75,7 +75,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
   
 * **trackLocation**
 
-  Sends the current latitude, longitude, and location in a defined point of interest. For more information, see [Geo-location and Points of Interest](/help/android/location/geo-poi.md).
+  Sends the current latitude, longitude, and location in a defined point of interest. For more information, see [Geo-location and points of interest](/help/android/location/geo-poi.md).
 
   * Here is the syntax for this method:
 

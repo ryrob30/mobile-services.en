@@ -1,9 +1,9 @@
 ---
 description: Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 seo-description: Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
-seo-title: Mobile App Acquisition
+seo-title: Mobile app acquisition
 solution: Marketing Cloud,Analytics
-title: Mobile App Acquisition
+title: Mobile app acquisition
 topic: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
 ---

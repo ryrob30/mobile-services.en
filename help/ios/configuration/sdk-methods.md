@@ -1,9 +1,9 @@
 ---
 description: Here is a list of methods that are provided by the iOS library.
 seo-description: Here is a list of methods that are provided by the iOS library.
-seo-title: Configuration Methods
+seo-title: Configuration methods
 solution: Marketing Cloud,Analytics
-title: Configuration Methods
+title: Configuration methods
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 ---
@@ -12,7 +12,7 @@ uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 
 Here is a list of methods that are provided by the iOS library.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Experience Cloud ID service]. 
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID service. 
 
 * **setAppExtensionType**
 
@@ -75,7 +75,7 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
     ADBMobilePrivacyStatus privacyStatus = [ADBMobileprivacyStatus];
     ```
 
-* **setPrivacyStatus:**
+* **setPrivacyStatus**
 
   Sets the privacy status for the current user to `status.
   

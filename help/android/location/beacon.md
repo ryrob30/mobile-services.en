@@ -29,7 +29,7 @@ Here is what these values mean:
 
 This beacon data is captured in mobile solution variables.
 
-## Tracking beacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Track beacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -63,7 +63,7 @@ This beacon data is captured in mobile solution variables.
    Analytics.clearBeacon();
    ```
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the beacon data, you can send additional context data with each `trackBeacon` call:
 

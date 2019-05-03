@@ -1,9 +1,9 @@
 ---
 description: Here are the Experience Cloud ID service methods that are provided by the iOS library.
 seo-description: Here are the Experience Cloud ID service methods that are provided by the iOS library.
-seo-title: Experience Cloud ID Service Methods
+seo-title: Experience Cloud ID Service methods
 solution: Marketing Cloud,Analytics
-title: Experience Cloud ID Service Methods
+title: Experience Cloud ID Service methods
 topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 ---

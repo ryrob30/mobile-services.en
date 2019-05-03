@@ -12,10 +12,15 @@ uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 
 The following information helps you get started with the iOS SDK for Experience Cloud Solutions.
 
-## Additional information
+## New Adobe Experience Cloud SDK Release
 
-* [Before You Start](/help/ios/getting-started/requirements.md)
-* [Core Implementation and Lifecycle](/help/ios/getting-started/dev-qs.md)
-* [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md)
-* [Swift Integration](/help/ios/getting-started/swift-integration.md)
-* [Migrating to the 4.x iOS Library](/help/ios/getting-started/migration-v3.md)
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to Launch.
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+
+>[!IMPORTANT]
+>
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).

@@ -1,14 +1,25 @@
 ---
 description: Experience Cloud Mobile SDKs provide General Data Protection Regulation (GDPR)-ready APIs for Controllers that allow users to retrieve locally stored identities and set opt status flags for data collection and transmission.
 seo-description: Experience Cloud Mobile SDKs provide General Data Protection Regulation (GDPR)-ready APIs for Controllers that allow users to retrieve locally stored identities and set opt status flags for data collection and transmission.
-seo-title: Privacy and General Data Protection Regulation
-title: Privacy and General Data Protection Regulation
+seo-title: Privacy and General Data Protection Regulation overview
+title: Privacy and General Data Protection Regulation overview
 uuid: 56d6f155-efec-4b3f-a972-a63155729167
 ---
 
-# Privacy and General Data Protection Regulation {#privacy-and-general-data-protection-regulation}
+# Privacy and General Data Protection Regulation overview {#privacy-and-general-data-protection-regulation}
 
 Experience Cloud Mobile SDKs provide General Data Protection Regulation (GDPR)-ready APIs for Controllers that allow users to retrieve locally stored identities and set opt status flags for data collection and transmission.
+
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+>[!IMPORTANT]
+>
+>As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to [Launch](https://launch.adobe.com/).
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
 >
@@ -30,9 +41,3 @@ For the Adobe Mobile SDK portions of your mobile apps, you can use the following
   * `setPrivacyStatus`
 
   For more information, see [Setting the User's Opt Status](/help/android/c-mob-privacy-gdpr-android/privacy.md).
-
-## Additional information {#section_7C7124C50D85469C8C8714533FB1A37D}
-
-* For more information about GDPR, see [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html). 
-* To see the GDPR API documentation, go to [General Data Protection Regulation API](https://adobe.io/apis/cloudplatform/gdpr.html).
-

@@ -2,9 +2,9 @@
 description: Here are the Experience Cloud ID methods that are provided by the Android library.
 keywords: android;library;mobile;sdk
 seo-description: Here are the Experience Cloud ID methods that are provided by the Android library.
-seo-title: Experience Cloud ID Service Methods
+seo-title: Experience Cloud ID Service methods
 solution: Marketing Cloud,Analytics
-title: Experience Cloud ID Service Methods
+title: Experience Cloud ID Service methods
 topic: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 ---
@@ -13,7 +13,7 @@ uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 
 Here are the Experience Cloud ID methods that are provided by the Android library.
 
-The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Experience Cloud ID Service].
+The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including Analytics, Target, Audience Manager, and the Experience Cloud ID Service.
 
 Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
 

@@ -1,9 +1,9 @@
 ---
 description: Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your iOS apps.
 seo-description: Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your iOS apps.
-seo-title: Geo-Location and Points of Interest
+seo-title: Geo-Location and points of interest
 solution: Marketing Cloud,Analytics
-title: Geo-Location and Points of Interest
+title: Geo-Location and points of interest
 topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 ---
@@ -34,7 +34,7 @@ For more information, see [ADBMobile JSON Config](/help/ios/configuration/json-c
 
 If this is not configured, an updated version of the `ADBMobile.json` file must be downloaded and added to your app. For more information and instructions, see *Download the SDK and Testing Tools* in [Before you Start](/help/ios/getting-started/requirements.md).
 
-## How to track {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Track geo-locations and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Add the library to your project and implement lifecycle.
 
@@ -60,7 +60,7 @@ If this is not configured, an updated version of the `ADBMobile.json` file must 
 
 Additionally, if the location is determined to be in a defined POI radius, an `a.loc.poi` context data variable is sent in with the `trackLocation` hit and is reported as a POI in Location reports. An `a.loc.dist` context variable is also sent with the distance in meters from the defined coordinates.
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 In addition to the location data, you can send additional context data with each track location call:
 

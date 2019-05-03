@@ -1,8 +1,8 @@
 ---
 description: This information helps you retrieve locally stored, SDK identities from your Android app and with GDPR data access requests.
 seo-description: This information helps you retrieve locally stored, SDK identities from your Android app and with GDPR data access requests.
-seo-title: Retrieving Stored Identifiers
-title: Retrieving Stored Identifiers
+seo-title: Retrieving stored identifiers
+title: Retrieving stored identifiers
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
 ---
 
@@ -35,4 +35,3 @@ Config.getAllIdentifiersAsync(new ConfigCallback<String>() {
      } 
 });
 ```
-
