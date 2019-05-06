@@ -41,36 +41,36 @@ If you completed all the requirements for In-App Messaging, but messages do not 
 
 ## I updated my message remotely but my app is still showing the old message.
 
-  Complete one of the following tasks: 
+Complete one of the following tasks: 
 
-  * Dynamic tag management can take a few minutes to update its endpoint with your new definition. 
+* Dynamic tag management can take a few minutes to update its endpoint with your new definition. 
 
-    Wait for some time and try again.  
+  Wait for some time and try again.  
 
-  * The config will only update on a new launch. 
+* The config will only update on a new launch. 
     If the app was restarted during the life cycle session timeout, your new config might not have been downloaded.  
   
   For more information, see [Lifecycle Metrics](/help/ios/metrics.md).
 
 ## My image does not fit exactly into the space provided by the template.
 
-  The In-App Message full-screen template supports displaying an image from a remote server (Image URL) or from the app bundle (Bundled Image). The image should be in a standard image format, such as JPG, GIF or PNG. 
+The In-App Message full-screen template supports displaying an image from a remote server (Image URL) or from the app bundle (Bundled Image). The image should be in a standard image format, such as JPG, GIF or PNG. 
   
-  Because device screens have many different dimensions, the image will most likely not fit exactly into the space provided by the template. The template focuses on showing the center of the image and, if the image does not fit, crops (portrait) or fades (landscape) the sides.
+Because device screens have many different dimensions, the image will most likely not fit exactly into the space provided by the template. The template focuses on showing the center of the image and, if the image does not fit, crops (portrait) or fades (landscape) the sides.
   
-  Here is the exact placement and sizing rules for each orientation:
+Here is the exact placement and sizing rules for each orientation:
 
-  * **Portrait**:
-    * A height of 195px for phones  
-    * A height of 529px for tablets  
-    * Centered if the image width is smaller than the device width.  
-    * Cropped if the image width is greater than the device width.
+* **Portrait**:
+  * A height of 195px for phones  
+  * A height of 529px for tablets  
+  * Centered if the image width is smaller than the device width.  
+  * Cropped if the image width is greater than the device width.
 
-  * **Landscape**:  
-    * The image scaled to 100% of the height of the device.  
-    * The width is 75% of the device, with a fade out on the right.  
+* **Landscape**:  
+  * The image scaled to 100% of the height of the device.  
+  * The width is 75% of the device, with a fade out on the right.  
 
-  If you have issues with the full-screen template, you can download and use the Custom HTML template. This template provides more flexibility for images and allows full control of the template.
+If you have issues with the full-screen template, you can download and use the Custom HTML template. This template provides more flexibility for images and allows full control of the template.
 
 ## In-app messages on an iPhone X do not display in full screen mode.
 
