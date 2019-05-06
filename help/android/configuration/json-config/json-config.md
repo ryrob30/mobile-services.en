@@ -8,9 +8,9 @@ topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 ---
 
-# ADBMobile JSON config file {#adbmobile-json-config} --> Android
+# ADBMobile JSON config file {#adbmobile-json-config}
 
-This information helps you use the ADBMobile.json config file.
+This information helps you understand the variables in the ADBMobile.json config file.
 
 ## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 

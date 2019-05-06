@@ -2,9 +2,9 @@
 description: Here is a list of the Audience Manager methods that are provided by the Android library.
 keywords: android;library;mobile;sdk
 seo-description: Here is a list of the Audience Manager methods that are provided by the Android library.
-seo-title: Audience Manager Methods
+seo-title: Audience Manager methods
 solution: Marketing Cloud,Analytics
-title: Audience Manager Methods
+title: Audience Manager methods
 topic: Developer and implementation
 uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 ---

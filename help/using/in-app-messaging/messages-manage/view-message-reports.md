@@ -32,17 +32,13 @@ If you are viewing reports for an in-app message, the report looks similar to th
 
 Here is a list of the metrics that are available for in-app messages:
 
-* **[!UICONTROL Impression]**
-    When a message is triggered.
+* **[!UICONTROL Impression]**, when a message is triggered.
 
-* **[!UICONTROL Click through]**
-    When a user presses the **[!UICONTROL Click Through]** button on an alert or full-screen message, and when a user opens the app from a local notification.
+* **[!UICONTROL Click through]**, when a user presses the **[!UICONTROL Click Through]** button on an alert or full-screen message, and when a user opens the app from a local notification.
 
-* **[!UICONTROL Cancel]**
-    When a user presses the **[!UICONTROL Cancel]** button on an alert or a full-screen message.
+* **[!UICONTROL Cancel]**, when a user presses the **[!UICONTROL Cancel]** button on an alert or a full-screen message.
 
-* **[!UICONTROL Engagement Rate]**
-    This is a calculated metric from Adobe Analytics and is the result of the number of click throughs divided by the number of impressions.
+* **[!UICONTROL Engagement Rate]**, a calculated metric from Adobe Analytics and is the result of the number of click throughs divided by the number of impressions.
 
 ## Push messages {#section_BEAFD858CA194185B6F88903446058E9}
 

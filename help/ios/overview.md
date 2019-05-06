@@ -39,6 +39,6 @@ Some information to remember:
 
 ## Adobe Mobile User Documentation {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile services provides a new UI that brings together mobile marketing capabilities for mobile applications from across the [!DNL Adobe Experience Cloud]. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], and [!DNL Adobe Target] solutions, and [!DNL Experience Cloud ID service].
+Adobe Mobile services provides a new UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics, Adobe Audience Manager, and Adobe Target solutions, and Experience Cloud ID service.
 
 To learn more about the Mobile Services UI and read the user documentation, see [Adobe Mobile Services](/help/using/home.md). 

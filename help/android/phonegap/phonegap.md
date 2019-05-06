@@ -2,23 +2,34 @@
 description: This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project.
 keywords: android;library;mobile;sdk
 seo-description: This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project.
-seo-title: PhoneGap Plug-in
+seo-title: PhoneGap plug-in overview
 solution: Marketing Cloud,Analytics
-title: PhoneGap Plug-in
+title: PhoneGap plug-in overview
 topic: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 ---
 
-# PhoneGap plug-in {#phonegap-plug-in}
+# PhoneGap plug-in overview {#phonegap-plug-in}
 
 This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project. To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
+
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+>[!IMPORTANT]
+>
+>As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to [Launch](https://launch.adobe.com/).
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
 ## Install the plug-in using npm {#section_43229E57C16944C0B51531CB92089189}
 
 Run the following command:
 
-```
+```java
 cordova plugin add adobe-mobile-services
 ```
 

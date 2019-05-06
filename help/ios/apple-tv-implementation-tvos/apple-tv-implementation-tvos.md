@@ -12,6 +12,19 @@ uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 
 This information helps you implement Apple TV with tvOS.
 
+## New Adobe Experience Cloud SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to Launch.
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+
+>[!IMPORTANT]
+>
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
+
 With Apple TV, you can now create applications to run in the native tvOS environment. You can create a native app by using several frameworks in iOS, or you can create your app by using XML templates and JavaScript.
 
 >[!TIP]
@@ -24,7 +37,7 @@ With Apple TV, you can now create applications to run in the native tvOS environ
 >
 >We assume that your project has a target that is an Apple TV app that is targeting tvOS. For more information, see [tvOS](https://developer.apple.com/tvos/documentation/).
 
-## Configuring a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
+## Configure a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
 
 Complete the following steps in your Xcode project:
 
@@ -38,7 +51,7 @@ Complete the following steps in your Xcode project:
 
 For information, see the iOS documentation on [iOS](https://developer.apple.com/ios/resources/).
 
-## Configuring a TVML/TVJS app for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
+## Configure a TVML/TVJS app for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
 
 1. Drag the `AdobeMobileLibrary` folder into your project. 
 1. Ensure that `ADBMobileConfig.json` is a member of your target. 

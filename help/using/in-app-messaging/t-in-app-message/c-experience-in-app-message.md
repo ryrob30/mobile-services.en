@@ -99,16 +99,16 @@ Configure experience options for in-app messages, including type (full screen, a
 1. (Optional) Preview the layout of your message by clicking following icons:
 
    * **[!UICONTROL Summary]** hides the preview pane. 
-   
+  
      Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL Change the orientation]**
-   
+  
      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). For watches, the orientation changes from a round to a square watch face.
 
    * **[!UICONTROL Preview on a user's watch]**
 
-     To preview your message as it will appear on a users's watche, click ![watch icon](assets/icon_watch.png).
+     To preview your message as it will appear on a user's watch, click ![watch icon](assets/icon_watch.png).
 
    * **[!UICONTROL Preview on a user's mobile phone]**
 

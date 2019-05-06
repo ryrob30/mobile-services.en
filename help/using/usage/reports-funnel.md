@@ -2,14 +2,14 @@
 description: The Funnel report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the Funnel report to compare the actions of different segments.
 keywords: mobile
 seo-description: The Funnel report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the Funnel report to compare the actions of different segments.
-seo-title: Funnel
+seo-title: Funnel report
 solution: Marketing Cloud,Analytics
-title: Funnel
+title: Funnel report
 topic: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 ---
 
-# Funnel{#funnel}
+# Funnel report{#funnel}
 
 The **[!UICONTROL Funnel]** report identifies where customers abandoned a marketing campaign or diverted from a defined conversion path while interacting with your mobile app. You can also use the **[!UICONTROL Funnel]** report to compare the actions of different segments.
 

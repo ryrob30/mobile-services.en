@@ -20,7 +20,7 @@ You can leverage Adobe Target in your TVML/TVJS apps by making direct replacemen
 1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
 1. If Target fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
 
-## Configuring your mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
+## Configure your mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
 
 The returned content from Target replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
 
@@ -30,7 +30,7 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 Your use case might be as simple as replacing a string value in a label or as complex as replacing an entire page.
 
-## Configuring your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
 In the `ADBTarget` element, you must provide the Mbox name in the `mbox` property. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 

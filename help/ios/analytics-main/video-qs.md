@@ -24,9 +24,9 @@ The following table lists the media data that is sent to Analytics. Use processi
 
 * **a.media.name**
 
-  (**Required**) Collects the name of the video, as specified in the implementation, when a visitor views the video in some way. You can add classifications for this variable.
+  (Required) Collects the name of the video, as specified in the implementation, when a visitor views the video in some way. You can add classifications for this variable.
   
-  (**Optional**) The Custom Insight variable provides video pathing information. 
+  (Optional) The Custom Insight variable provides video pathing information. 
 
   * Variable type: eVar
   * Default expiration: Visit
@@ -34,7 +34,7 @@ The following table lists the media data that is sent to Analytics. Use processi
 
 * **a.media.name**
 
-  (**Optional**) Provides video pathing information. Pathing must be enabled for this variable by Customer Care.
+  (Optional) Provides video pathing information. Pathing must be enabled for this variable by Customer Care.
 
   * Variable type: Custom Insight (s.prop)
   * Event type: Custom Insight (s.prop)

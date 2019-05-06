@@ -32,7 +32,8 @@ Click ![layers](assets/map_layers.png) to select the following options:
 
 * **[!UICONTROL Satellite]**
   Display the map in satellite mode.
-* **[!!UICONTROL Data Markers]**
+
+* **[!UICONTROL Data Markers]**
 
   Choose whether to display black data markers.
 

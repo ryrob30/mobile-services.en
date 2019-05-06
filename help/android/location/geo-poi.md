@@ -1,9 +1,9 @@
 ---
 description: Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your Android apps.
 seo-description: Geo-location helps you measure location data by using latitude and longitude and predefined points of interest in your Android apps.
-seo-title: Geo-Location and Points of Interest
+seo-title: Geo-Location and points of interest
 solution: Marketing Cloud,Analytics
-title: Geo-Location and Points of Interest
+title: Geo-Location and points of interest
 topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 ---
@@ -94,8 +94,6 @@ For example, the coordinates lat = 40.93231, long = -111.93152 represent a locat
 `a.loc.lon.c` = 52
 
 Some precision levels might appear as `00` depending on the accuracy of the current location. For example, if the location is currently accurate to 100m, `a.loc.lat.c` and `a.loc.lon.c` will be populated with `00`.
-
-## Additional information {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
 
 Remember the following information:
 

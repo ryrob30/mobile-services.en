@@ -28,7 +28,7 @@ For more information about the Android activity lifecycle, see [Activities](http
 
 *This Android lifecycle illustration was created and [shared by the Android Open Source Project](https://source.android.com/) and used according to terms in the [Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/).*
 
-**What can cause a false crash to be reported?**
+## What can cause a false crash to be reported?
 
 1. If you are debugging by using an IDE, such as Android Studio, and launching the app again from the IDE while the app is in the foreground causes a crash.
 
@@ -38,7 +38,7 @@ For more information about the Android activity lifecycle, see [Activities](http
 
 1. If the last foreground Activity of your app is backgrounded and does not call `Config.pauseCollectingLifecycleData();` in `onPause`, and your app is manually closed or killed by the OS, the next launch results in a crash.
 
-**How should Fragments be handled?**
+## How should Fragments be handled?
 
 Fragments have application lifecycle events that are similar to Activities. However, a Fragment cannot be active without being attached to an Activity.
 
@@ -46,7 +46,7 @@ Fragments have application lifecycle events that are similar to Activities. Howe
 >
 >You need to rely on the lifecycle events against which the containing activities can run your code. This will be handled by the parent view of the Fragment.
 
-**(Optional) Implement activity lifecycle callbacks**
+## (Optional) Implement activity lifecycle callbacks
 
 Starting with API Level 14, Android allows global lifecycle callbacks for activities. For more information, see [Application](https://developer.android.com/reference/android/app/Application).
 
