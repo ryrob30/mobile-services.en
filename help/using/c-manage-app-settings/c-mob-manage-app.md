@@ -78,7 +78,7 @@ The following mappings display in Analytics as being created in Mobile Services.
 
     Adobe Analytics has a more advanced UI for setting persistence for eVars. If a persistence value is set for the eVar that is not supported in Mobile Services, this value is displayed in the Mobile Services UI.
 
-    To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** > ** **[!UICONTROL Conversion Variables UI]**.  
+    To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** > **[!UICONTROL Conversion Variables UI]**.  
 
   * **[!UICONTROL List Support]**
 

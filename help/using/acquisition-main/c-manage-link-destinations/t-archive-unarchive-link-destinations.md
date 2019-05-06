@@ -38,13 +38,13 @@ To display the Manage Link Destinations page:
 
    * **Unarchive**
 
-    You can unarchive previously archived link destinations that you want to display again in the Link Destinations list.
+      You can unarchive previously archived link destinations that you want to display again in the Link Destinations list.
 
-    To unarchive a link destination:
+      To unarchive a link destination:
   
-    1. click **[!UICONTROL View Archive]**.
-    1. Select one or more check boxes next to the link names that you want to unarchive.
-    1. Click **[!UICONTROL Unarchive Selected]**. 
+      1. click **[!UICONTROL View Archive]**.
+      1. Select one or more check boxes next to the link names that you want to unarchive.
+      1. Click **[!UICONTROL Unarchive Selected]**. 
   
        The **[!UICONTROL View Archive]** option only displays if you previously archived link destinations. 
 

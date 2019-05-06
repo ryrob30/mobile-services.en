@@ -38,9 +38,9 @@ You can configure experience options for push messages and rich push messages, i
 
        Select a specific destination, such as a web, deep, or hybrid link, to send users when they click-through the message. For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md). 
 
-   >[!TIP]
-   >
-   >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked.
+      >[!TIP]
+      >
+      >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. Only **[!UICONTROL Deep Links]** are tracked.
 
 ## Requirements for rich push notifications
 

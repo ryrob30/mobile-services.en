@@ -27,7 +27,7 @@ You can create or edit marketing links to provide deep linking to your mobile ap
 
     * **[!UICONTROL Unique Tracking Code]**:
 
-      (**Required**) Specify the desired tracking code or click [generate icon](assets/icon_generate.png) to create a new tracking code. You can view reports that detail use of the tracking code.
+      (**Required**) Specify the desired tracking code or click (![generate icon](assets/icon_generate.png) to create a new tracking code. You can view reports that detail use of the tracking code.
 
     * **[!UICONTROL Add Tracking Context Data]**:
 

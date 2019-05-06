@@ -2,14 +2,14 @@
 description: The Overview report provides a snapshot of your key metrics.
 keywords: mobile
 seo-description: The Overview report provides a snapshot of your key metrics.
-seo-title: Overview
+seo-title: Overview report
 solution: Marketing Cloud,Analytics
-title: Overview
+title: Overview report
 topic: Reports,Metrics
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
 ---
 
-# Overview{#overview}
+# Overview report{#overview}
 
 The Overview report provides a snapshot of your key metrics.
 

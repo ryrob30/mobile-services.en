@@ -1,12 +1,12 @@
 ---
 description: The Crashes report provides a snapshot of your app's crashes. You can see the number of crashes and the crash rate and log in to the Apteligent user interface.
 seo-description: The Crashes report provides a snapshot of your app's crashes. You can see the number of crashes and the crash rate and log in to the Apteligent user interface.
-seo-title: Crashes
-title: Crashes
+seo-title: Crashes report
+title: Crashes report
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
 ---
 
-# Crashes{#crashes}
+# Crashes report {#crashes}
 
 The **[!UICONTROL Crashes]** report provides a snapshot of your app's crashes. You can see the number of crashes and the crash rate and log in to the Apteligent user interface.
 
