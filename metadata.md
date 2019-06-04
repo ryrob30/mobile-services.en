@@ -5,14 +5,14 @@ solution-title: Mobile Services
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
+getting-started-url: https://docs.adobe.com/content/help/en/mobile-services/using/get-started-ug/gs.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/mobile-services.en
+git-repo: https://github.com/AdobeDocs/mobile-services.en
 index: yes
 ---
 
-<!-- We need better links for Getting Started and Tutorials. We can do this after we hit stage -->
+<!-- We need a better link for Tutorials. We can do this after we hit stage -->
 
 # Metadata for internal use
 
