@@ -85,6 +85,7 @@ user-guide-title: Mobile Services User Help
       + [Manage marketing links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
       + [Create an Acquisition link manually](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
 + Location {#location-ug}
+  + [Location overview](location/location-overview.md)
   + [Overview (Location)](location/c-location-overview.md)
   + [Map](location/c-map-points.md)
   + [Manage points of interest](location/t-manage-points.md)

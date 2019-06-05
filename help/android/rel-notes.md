@@ -14,6 +14,17 @@ Release notes and known issues for Android SDK 4.x for Experience Cloud Solution
 
 ## Mobile Services
 
+Hot fix release date: **May 24, 2019**
+
+**Android version 4.17.6**
+
+* visitor ID Service - The 
+`setPushIdentifier` API call now sends a
+sync call to the Visitor ID Service every time it is called. 
+
+* Visitor ID Service - Increased the connect and read
+timeouts from 2 seconds to 5 seconds.
+
 Release date: **April 11, 2019**
 
 New features, updates, and fixes to the Android SDKs:
