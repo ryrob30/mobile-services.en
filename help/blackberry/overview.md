@@ -31,13 +31,3 @@ In addition to significant performance increases, version 4 adds the following n
 |Opt-in/Opt-out|Quickly enable and disable analytics.|
 
 For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
-
-### Additional information
-
-For information about the BlackBerry SDKs, see the following content:
-
-* [Developer Quick Start](/help/blackberry/dev-qs.md)
-* [Adobe Mobile Class and Method Reference](/help/blackberry/methods.md)
-* [Analytics](/help/blackberry/analytics.md)
-* [Video Analytics](/help/blackberry/video-qs.md)
-* [Lifecycle Metrics](/help/blackberry/metrics.md)
