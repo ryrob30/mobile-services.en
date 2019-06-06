@@ -58,3 +58,10 @@ Adobe Mobile services provides a UI that brings together mobile marketing capabi
 ## Release notes {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
 For the latest information about Experience Cloud releases, see [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
+
+## Using Bloodhound
+
+>[!IMPORTANT]
+>
+>As of **April 30, 2017**, Adobe Bloodhound has been
+sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. 

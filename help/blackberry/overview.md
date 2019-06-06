@@ -31,3 +31,10 @@ In addition to significant performance increases, version 4 adds the following n
 |Opt-in/Opt-out|Quickly enable and disable analytics.|
 
 For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
+
+## Using Bloodhound
+
+>[!IMPORTANT]
+>
+>As of **April 30, 2017**, Adobe Bloodhound has been
+sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. 
