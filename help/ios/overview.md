@@ -12,6 +12,12 @@ uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 
 iOS SDK 4.x for Experience Cloud Solutions lets you measure native Apple iPhone and iPad applications, deliver targeted content within your apps, and leverage and collect audience data through Audience Manager.
 
+>[!IMPORTANT]
+>
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities.
+
+>For more information, contact your Adobe CSM.
+
 ## New Adobe Experience Cloud SDK Release
 
 Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.

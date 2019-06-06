@@ -13,6 +13,12 @@ uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 
 Adobe Mobile Services brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, which allows you to understand and improve user engagement with your mobile applications.
 
+>[!IMPORTANT]
+>
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities.
+
+>For more information, contact your Adobe CSM.
+
 ## New Adobe Experience Cloud SDK Release
 
 Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.

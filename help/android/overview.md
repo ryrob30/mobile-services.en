@@ -13,6 +13,12 @@ uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 
 Android SDK 4.x for Experience Cloud Solutions allows you to measure native Android applications, deliver targeted content in your app, and leverage and collect audience data through audience management.
 
+>[!IMPORTANT]
+>
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities.
+
+>For more information, contact your Adobe CSM.
+
 ## New Adobe Experience Cloud SDK Release
 
 Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
