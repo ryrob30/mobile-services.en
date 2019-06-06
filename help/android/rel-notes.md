@@ -12,9 +12,9 @@ uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 
 Release notes and known issues for Android SDK 4.x for Experience Cloud Solutions.
 
-## Mobile Services
+## Mobile Services hot fixes {#mobile-hot-fixes}
 
-Hot fix release date: **May 24, 2019**
+### May 24, 2019
 
 **Android version 4.17.6**
 
@@ -24,6 +24,8 @@ sync call to the Visitor ID Service every time it is called.
 
 * Visitor ID Service - Increased the connect and read
 timeouts from 2 seconds to 5 seconds.
+
+## Mobile Services releases {#monthly-mobile-releases}
 
 Release date: **April 11, 2019**
 
