@@ -27,3 +27,10 @@ Visual Studio 2015 or later.
 Adobe Mobile services provides a new UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics and Adobe Target solutions.
 
 For more information, see the [Adobe Mobile services documentation](/help/using/home.md). 
+
+## Using Bloodhound
+
+>[!IMPORTANT]
+>
+>As of **April 30, 2017**, Adobe Bloodhound has been
+sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. 
