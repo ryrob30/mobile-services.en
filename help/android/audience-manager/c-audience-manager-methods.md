@@ -66,8 +66,10 @@ If Audience Manager is configured in your JSON file, a signal that contains life
      ```
 
 * **setDpidAndDpuuid**
-
+  
   Sets the DPID and DPUUID, and these values are sent with each signal. 
+
+  If the DPUUID value that is passed to this method contains characters that are not URL-safe, customers must encode the parameter before passing it to the SDK. 
 
   * Here is the syntax for this method:
 
