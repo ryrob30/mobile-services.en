@@ -9,7 +9,7 @@ topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 ---
 
-# App Store Overview Report{#app-store-overview-report}
+# App Store Overview report{#app-store-overview-report}
 
 The **[!UICONTROL App Store Overview]** report gives you a snapshot of your app store metrics, including the number of downloads, in-app purchases, app store average rating, download revenue, in-app revenue, downloads by country, downloads by app store, and in-app purchases by name.
 

@@ -15,9 +15,7 @@ Adobe Mobile Services brings together mobile marketing capabilities for mobile a
 
 >[!IMPORTANT]
 >
->The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities.
-
->For more information, contact your Adobe CSM.
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. For more information, contact your Adobe CSM.
 
 ## New Adobe Experience Cloud SDK Release
 

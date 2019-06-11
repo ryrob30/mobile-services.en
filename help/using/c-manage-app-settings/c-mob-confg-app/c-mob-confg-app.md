@@ -60,18 +60,3 @@ On the Manage App Settings page, you can make the following types of changes:
   When you are ready to upgrade to the 4.x SDKs, or if you are working on a new app, download the latest SDKs and development tools from the bottom of the Manage App Settings page.
 
   After set up is complete, you can send the configuration file to your developers so that data can be collected properly. If you are not ready to download SDKs and tools now, click [!DNL Manage App Settings] and click the app to display the [!DNL App Information] page at any time.
-
-## Additional Information
-
-For information about configuring these options, see the following content: 
-
-* [Configure SDK Analytics Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
-* [Download Mobile SDKs and Tools](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-* [Configure Audience Manager Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
-* [Configure SDK Acquisition Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
-* [Universal Links and App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
-* [Configure SDK ID Service Options](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
-* [Configure Postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md)
-* [Configure Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
-* [Prerequisites to Enable Push Messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
-* [Configure App to use APNS or GCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)

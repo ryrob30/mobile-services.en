@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: dbf6e019-8707-42e7-97b8-e18a8a7d5e2c
 ---
 
-# Experience Cloud overview #experience-cloud}
+# Experience Cloud overview {#experience-cloud}
 
 The information in this section helps you use the Android SDK with Adobe Experience Cloud.
 

@@ -83,7 +83,7 @@ user-guide-title: Mobile Services User Help
       + [Delete Acquisition links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-del.md)
       + [Import or export Acquisition links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-import.md)
       + [Manage marketing links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
-      + [Create an Acquisition link manually](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
+      + [Manually create Acquisition links](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
 + Location {#location-ug}
   + [Location overview](location/location-overview.md)
   + [Overview (Location)](location/c-location-overview.md)

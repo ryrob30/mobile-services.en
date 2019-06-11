@@ -56,21 +56,3 @@ To help you understand how in-app messaging works, here is some additional infor
 Push messages are sent to users who have opted in to receive notifications. You can target these push messages to users in Analytics segments or custom segments. You can use push messages to re-engage passive users or to convey time-specific and location-specific information because the messages appear outside your app.
 
 Before you can configure push messaging, see [Prerequisites to enable push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md). After you perform these tasks, you must configure push messaging in your app's settings. For more information, see [Configure push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
-
-## Additional Information
-
-For additional information about messaging, see the following links:
-
-* [Manage Messages](/help/using/in-app-messaging/messages-manage/messages-manage.md)
-* [View Message Reports](/help/using/in-app-messaging/messages-manage/view-message-reports.md)
-* [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md)
-* [Audience: Define and Configure Audience Segments for Push Messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)
-* [Experience: Push Message](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)
-* [Schedule: Push Message](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)
-* [Troubleshooting Push Messaging](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
-* [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)
-* [Audience: In-App Message](/help/using/in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
-* [Experience: In-App Message](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md)
-* [Schedule: In-App Message](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
-* [Troubleshooting In-App Messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)
-* [Trigger an In-App Message when the App is Opened from a Push Message](/help/using/in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
