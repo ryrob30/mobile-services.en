@@ -2,14 +2,14 @@
 description: You can delete one or more acquisition links when they are no longer needed.
 keywords: mobile
 seo-description: You can delete one or more acquisition links when they are no longer needed.
-seo-title: Delete Acquisition Links
+seo-title: Delete Acquisition links
 solution: Marketing Cloud,Analytics
-title: Delete Acquisition Links
+title: Delete Acquisition links
 topic: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
 ---
 
-# Delete Acquisition Links{#delete-acquisition-links}
+# Delete Acquisition links{#delete-acquisition-links}
 
 When you no longer needed Acquisition links, you can delete them.
 

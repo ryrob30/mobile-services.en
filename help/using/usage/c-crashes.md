@@ -23,7 +23,11 @@ The **[!UICONTROL Crash History]** chart displays information about each app cra
 You can configure the following options for this report:
 
 * **[!UICONTROL Time Period]**
-    Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list.
+
+  Click the **[!UICONTROL Calendar]** icon to select a custom period or to select a preset time period from the drop-down list.
 
 * **[!UICONTROL Filter]**
-    Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. For more information, see [Add a sticky filter](../usage/reports-customize/t-sticky-filter.md).
+
+  Click **[!UICONTROL Filter]** to create a filter that spans different reports to see how a segment is performing across all mobile reports. A sticky filter allows you to define a filter that is applied to all non-pathing reports. 
+  
+  For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).

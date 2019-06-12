@@ -11,7 +11,4 @@ uuid: 06b35bbc-7cd6-4375-aa17-204edab40e62
 
 # Manage Acquisition Links{#manage-acquisition-links}
 
-After acquisition links are created, these links can be deleted, imported, or exported.
-
-* [Delete acquisition links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-del.md)
-* [Import or Export Acquisition Links](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-import.md)
+After acquisition links are created, you can delete, import, or export these links.

@@ -155,14 +155,3 @@ The Adobe Mobile SDK offers the following features:
   * Small footprint minimizes the size of the app package that is submitted to app stores.
 
 For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) and [iOS SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html).
-
-## Additional information
-
-This section also contains the following information:
-
-* [Roles and Permissions](/help/using/gs/c-mob-roles-and-permissions.md)
-* [Signing In](/help/using/gs/gs-signin.md)
-* [Report Types](/help/using/gs/reports-types.md)
-* [Mobile Metrics](/help/using/gs/metrics/metrics.md)
-* [Display Mobile Metrics](/help/using/gs/metrics/overview.md)
-* [Mobile Metrics and Dimensions Reference](/help/using/gs/metrics/metrics-reference.md)
