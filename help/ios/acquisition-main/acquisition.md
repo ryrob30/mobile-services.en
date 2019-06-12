@@ -53,3 +53,14 @@ After these settings are enabled, acquisition data is sent automatically with th
 >
 >`referrerTimeout` must be set to a value higher than 0 to enable app acquisition.
 
+## Enabling your iOS app for Universal Links
+
+If you are using Universal Links in your app, add your Adobe Marketing Links domain to the Associated Domains list for your app.
+
+In Xcode, to add your Adobe Marketing Links domain to the Associated Domains list:
+
+1. Go to your project target and click the **[!UICONTROL Capabilities]** tab.
+2. Scroll down to **[!UICONTROL Associated Domains]** section and toggle it on. 
+3. Add an entry in the **[!UICONTROL Domains]** list for your Marketing Links domain from your Marketing Links URL. 
+
+Your entry will look something like  `applinks:5848561889a02a6996aea62b.c00.adobe.com`.
