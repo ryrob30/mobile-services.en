@@ -94,9 +94,9 @@ To download the SDK:
           * `AdobeMobileLibrary\_TV.a`
 
 
-  >[!CAUTION]
-  >
-  > Linking more than one `AdobeMobileLibrary*.a` file in the same target will result in unexpected behavior or the inability to build.
+    >[!CAUTION]
+    >
+    > Linking more than one `AdobeMobileLibrary*.a` file in the same target will result in unexpected behavior or the inability to build.
 
 1. Confirm that your app builds without errors.
 

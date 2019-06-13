@@ -40,8 +40,12 @@ After unzipping the downloaded SDK, verify that the following files exist in an 
 1. Click **[!UICONTROL Add]** next to the **[!UICONTROL Include folders]** field.
 1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
 1. Add the `public` folder to your includes.
-1. In the `ADBMobile-4.0.0BETA-BlackBerry` folder, there is a `.json` config file named `ADBMobileConfig.json`. Copy that file into the root of your project.
-1. Right-click on your project and select **[!UICONTROL Refresh]**. The `.json` file should now be visible in your **[!UICONTROL Project Explorer]**.
+1. In the `ADBMobile-4.0.0BETA-BlackBerry` folder, there is a `.json` config file named `ADBMobileConfig.json`. 
+
+    Copy that file into the root of your project.
+1. Right-click on your project and select **[!UICONTROL Refresh]**. 
+
+    The `.json` file should now be visible in your **[!UICONTROL Project Explorer]**.
 1. Open the `bar-descriptor.xml` file for your project.
 1. At the bottom of the window select the **[!UICONTROL Assets]** tab.
 1. Confirm that **[!UICONTROL (All Configurations)]** is selected, then click the **[!UICONTROL Add Files]** in the **[!UICONTROL Assets]** section of the window. 

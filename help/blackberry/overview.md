@@ -16,7 +16,7 @@ To get started with the BlackBerry SDKs:
 
 1. To add the SDKs to your project, complete the tasks in [Developer Quick Start](/help/blackberry/dev-qs.md). 
 1. Review the [ADBMobile Class and Method Reference](/help/blackberry/methods.md). 
-1. Implement [Analytics](/help/blackberry/analytics.md)
+1. Implement [Analytics](/help/blackberry/analytics.md).
 
 ## Supported versions {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
@@ -36,5 +36,4 @@ For more information about the release notes for all solutions, see [Adobe Exper
 
 >[!IMPORTANT]
 >
->As of **April 30, 2017**, Adobe Bloodhound has been
-sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. 
+>As of **April 30, 2017**, Adobe Bloodhound has been sunset. Starting on May 1, 2017, no additional enhancements and no additional Engineering or Adobe Expert Care support will be provided. 
