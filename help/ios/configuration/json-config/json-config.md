@@ -47,7 +47,9 @@ The same config file can be used for your app across multiple platforms:
   
     The SDK returns to its pre-4.1 behavior of lumping the session information for the previous session with the first hit of the subsequent session. The Adobe SDK also attaches the session info to the current lifecycle, which avoids the creation of an inflated visit. Because inflated visits are no longer created, an immediate drop in visit counts occurs.  
   
-  * If you do not provide a value, the default value is `true`, and hits are **enabled**. When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. One hit is backdated on every new launch of the application.
+  * If you do not provide a value, the default value is `true`, and hits are **enabled**. 
+  
+    When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. One hit is backdated on every new launch of the application.
 
   >[!IMPORTANT]
   >

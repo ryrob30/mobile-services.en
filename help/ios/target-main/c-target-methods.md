@@ -74,7 +74,7 @@ NSString *const ADBTargetParameterMboxHost;
                         }];
     ```
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:**`
+* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:**
 
   Sends a request to your configured Target server and returns the string value of the offer that is generated in a block callback.
 
@@ -288,7 +288,7 @@ NSString *const ADBTargetParameterMboxHost;
     NSString *myTargetPcID = [ADBMobile targetPcID];
     ```
 
-* ***targetSessionID**
+* **targetSessionID**
 
   Returns the SessionID.
 

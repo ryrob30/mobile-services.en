@@ -90,11 +90,11 @@ If the mobile app is not yet in the App Store, when you create the campaign link
 
       * By using HTTP monitoring tools, hits sent from the app can be monitored to provide verification of the acquisition attribution. 
 
-      You should see one `/v3/<appid>/start` request and one `/v3/<appid>/end` request sent to the acquisition server. Variations in the user-agent sent might cause attribution to fail. 
+        You should see one `/v3/<appid>/start` request and one `/v3/<appid>/end` request sent to the acquisition server. Variations in the user-agent sent might cause attribution to fail. 
 
-      >[!TIP]
-      >
-      >Ensure that `https://c00.adobe.com/v3/<appid>/start` and `https://c00.adobe.com/v3/<appid>/end` have the same user-agent values. 
+        >[!TIP]
+        >
+        >Ensure that `https://c00.adobe.com/v3/<appid>/start` and `https://c00.adobe.com/v3/<appid>/end` have the same user-agent values. 
 
       * The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. 
 

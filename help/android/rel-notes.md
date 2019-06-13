@@ -27,12 +27,10 @@ timeouts from 2 seconds to 5 seconds.
 
 ## Mobile Services releases {#monthly-mobile-releases}
 
-Release date: **April 11, 2019**
+Release date: **June 13, 2019**
 
 New features, updates, and fixes to the Android SDKs:
 
-* **Android version 4.17.4**
-
-  Improved support for Android Instant Apps by making reachability checks configurable in the ADBMobileConfig.json file with the `reachabilityChecksEnabled` boolean property on the root JSON object.
+TLS 1.0 has been disabled on all Adobe servers. For Android 4.x devices to connect to Adobe services through SSL, the SDK will now force TLS 1.1/TLS 1.2 when establishing a handshake.
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
