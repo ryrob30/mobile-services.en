@@ -12,7 +12,7 @@ List of classes and enumerations for use in Xamarin applications.
 
 ## Classes {#section_E28D6156EB0F4A84AAA7749DF7D3E193}
 
-ADBVisitorID
+### ADBVisitorID
 
 ```objective-c
 public class ADBVisitorID : NSObject
@@ -27,7 +27,7 @@ public class ADBVisitorID : NSObject
 }
 ```
 
-ADBTargetLocationRequest
+### ADBTargetLocationRequest
 
 ```objective-c
 public class ADBTargetLocationRequest : NSObject
@@ -52,7 +52,7 @@ public class ADBTargetLocationRequest : NSObject
 }
 ```
 
-ADBMediaState
+### ADBMediaState
 
 ```objective-c
 public class ADBMediaState : NSObject
@@ -147,7 +147,7 @@ public class ADBMediaState : NSObject
 }
 ```
 
-ADBMediaSettings
+### ADBMediaSettings
 
 ```objective-c
 public class ADBMediaSettings : NSObject
@@ -223,7 +223,7 @@ public class ADBMediaSettings : NSObject
 }
 ```
 
-Constants
+### Constants
 
 ```objective-c
 public static class Constants 
@@ -263,7 +263,7 @@ public static class Constants
 
 ## Enumerations {#section_A78A5A305FBF4E478EAF0492E0DFD102}
 
-ADBMobileVisitorAuthenticationState
+### ADBMobileVisitorAuthenticationState
 
 ```objective-c
 public enum ADBMobileVisitorAuthenticationState : ulong 
@@ -274,7 +274,7 @@ public enum ADBMobileVisitorAuthenticationState : ulong
 }
 ```
 
-ADBMobilePrivacyStatus
+### ADBMobilePrivacyStatus
 
 ```objective-c
 public enum ADBMobilePrivacyStatus : ulong 
@@ -285,7 +285,7 @@ public enum ADBMobilePrivacyStatus : ulong
 }
 ```
 
-ADBMobileDataEvent
+### ADBMobileDataEvent
 
 ```objective-c
 public enum ADBMobileDataEvent : ulong 
@@ -297,7 +297,7 @@ public enum ADBMobileDataEvent : ulong
 }
 ```
 
-ADBMobileAppExtensionType
+### ADBMobileAppExtensionType
 
 ```objective-c
 public enum ADBMobileAppExtensionType : ulong 

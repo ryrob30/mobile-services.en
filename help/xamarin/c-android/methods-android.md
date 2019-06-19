@@ -16,7 +16,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **DebugLogging**
 
-  Returns the current debug logging preference. The default: false.
+  Returns the current debug logging preference, and the default is false.
 
   * Here is the syntax for this method:
 
@@ -71,13 +71,14 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **UserIdentifier**
 
-  eturns the custom user identifier if a custom identifier has been set. Returns null if a custom identifier is not set. The default value is `null`.
+  If a custom identifier has been set, returns this identifier. If a custom identifier is not set, returns null. The default value is `null`.
 
   * Here is the syntax for this method:
 
     ```java
     public static UserIdentifier();
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -103,7 +104,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **PauseCollectingLifecycleData**
 
-  ndicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecycle correctly knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
+  Indicates to the SDK that your app is paused, so that lifecycle metrics are calculated correctly. For example, on pause collects a timestamp to determine previous session length. This also sets a flag so that lifecycle correctly knows that the app did not crash. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
 
   * Here is the syntax for this method:
 
@@ -119,7 +120,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **CollectLifecycleData (Activity activity)**
 
-  (4.2 or later) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
+  (4.2 or later) Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see [Lifecycle Metrics](/help/android/metrics.md). 
 
   * Here is the syntax for this method:
 
@@ -151,6 +152,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     context.Add ("key", "value");
     Config.CollectLifecycleData (this, context);
     ```
+
 * **OverrideConfigStream**
 
   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. The different configuration is used until the application is closed. 
@@ -170,7 +172,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **SetLargeIconResourceId(int resourceId)**
 
-  (4.2 or later) Set the large icon that will be used for notifications created by the SDK. This icon will be the primary image shown when the user sees the full notification in the notification center. 
+  (4.2 or later) Sets the large icon that is used for notifications created by the SDK. This icon is the primary image that is displayed when the user sees the complete notification in the notification center. 
 
   * Here is the syntax for this method:
 
@@ -186,7 +188,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **SetSmallIconResourceId(int resourceId)**
 
-  (4.2 or later) Set the small icon that will be used for notifications created by the SDK. This icon will show up in the status bar. This will also be the secondary image shown when the user sees the full notification in the notification center. 
+  (4.2 or later) Sets the small icon that is used for notifications created by the SDK. This icon displays in the status bar and is the secondary image shown when the user sees the complete notification in the notification center. 
 
   * Here is the syntax for this method:
 
@@ -204,7 +206,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **TrackingIdentifier**
 
-  Returns the automatically generated ID for Analytics. This is an app-specific unique ID that is generated on initial launch and then stored and used from that point forward. This ID is preserved between app upgrades, and is removed on uninstall. 
+  Returns the automatically generated ID for Analytics. This is an app-specific unique ID that is generated on initial launch and is stored and used from that point forward. This ID is preserved between app upgrades and is removed on uninstall. 
 
   * Here is the syntax for this method:
 
@@ -267,7 +269,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **TrackLocation**
 
-  Sends the current latitude and longitude coordinates. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine if the location provided as a parameter is within any of your POI. If the current coordinates are within a defined POI, a context data variable is populated and sent with the `TrackLocation` call. 
+  Sends the current latitude and longitude coordinates. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine whether the location that was provided as a parameter is in any of your POIs. If the current coordinates are in a defined POI, a context data variable is populated and sent with the `TrackLocation` call. 
 
   * Here is the syntax for this method:
 
@@ -320,7 +322,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **TrackLifetimeValueIncrease**
 
-  Adds amount to the user's lifetime value.
+  Adds an amount to the user's lifetime value.
 
   * Here is the syntax for this method:
 
@@ -356,7 +358,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **TrackTimedActionUpdate**
 
-  Pass in data to update the context data associated with the given action. The data passed in is appended to the existing data for the given action, and overwrites the data if the same key is already defined for action. 
+  Pass in data to update the context data that is associated with the given action. The data passed in is appended to the existing data for the given action, and overwrites the data if the same key is already defined for action. 
   
   >[!TIP]
   >
@@ -403,7 +405,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **TrackingTimedActionExists**
 
-  Returns whether or not a timed action is in progress.
+  Returns whether a timed action is in progress.
 
   * Here is the syntax for this method:
 
@@ -419,7 +421,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **SendQueuedHits**
 
-  Forces the library to send all hits in the offline queue no matter how many are currently queued.
+  Forces the library to send all hits in the offline queue, regardless of how many hits are currently queued.
 
   * Here is the syntax for this method:
 
@@ -451,7 +453,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **QueueSize**
 
-  Retrieves the number of hits currently in the offline queue.
+  Retrieves the number of hits that are currently in the offline queue.
 
   * Here is the syntax for this method:
 
@@ -485,7 +487,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **SyncIdentifiers**
 
-  With the Experience Cloud ID, you can set additional customer IDs to associate with each visitor. The Visitor API accepts multiple Customer IDs for the same visitor, with a customer type identifier to separate the scope of the different customer IDs. This method corresponds to setCustomerIDs in the JavaScript library. 
+  With the Experience Cloud ID, you can set additional customer IDs to associate with each visitor. The Visitor API accepts multiple customer IDs for the same visitor, with a customer type identifier to separate the scope of the different customer IDs. This method corresponds to `setCustomerIDs` in the JavaScript library. 
 
   * Here is the syntax for this method:
 
@@ -505,7 +507,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **LoadRequest**
 
-  Sends request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+  Sends a request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
 
   * Here is the syntax for this method:
 
@@ -546,7 +548,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **CreateOrderConfirmRequest**
 
-  Creates an ADBTargetLocationRequest.
+  Creates an `ADBTargetLocationRequest`.
 
   * Here is the syntax for this method:
 
@@ -562,7 +564,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **ClearCookies**
 
-  Clears any target cookies from your app. 
+  Clears Target cookies from your app. 
 
   * Here is the syntax for this method:
 
@@ -580,7 +582,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **VisitorProfile**
 
-  Returns the visitor profile that was most recently obtained. Returns nil if no signal has been submitted yet. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
+  Returns the visitor profile that was most recently obtained. Returns nil if no signal has been submitted yet. The visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
 
   * Here is the syntax for this method:
 
@@ -628,7 +630,7 @@ Android methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
 * **AudienceSetDpidAndDpuuid**
 
-  Sets the `dpid` and `dpuuid`. If `dpid` and `dpuuid` are set, they will be sent with each signal.
+  Sets the `dpid` and `dpuuid`. If `dpid` and `dpuuid` are set, they are sent with each signal.
 
   * Here is the syntax for this method:
 
@@ -770,11 +772,11 @@ For more information about Video Analytics, see [Video Analytics](/help/android/
     public static void Play ( string name, double offset); 
     ```
 
-    * Here is the code sample for this method:
+  * Here is the code sample for this method:
 
-      ```java
-      Media.Play (settings.Name, 0); 
-      ```
+    ```java
+    Media.Play (settings.Name, 0); 
+    ```
 
 * **Complete**
 
@@ -810,7 +812,7 @@ For more information about Video Analytics, see [Video Analytics](/help/android/
 
 * **Click**
 
-  >Notifies the media module that the media item has been clicked.
+  Notifies the media module that the media item has been clicked.
 
   * Here is the syntax for this method:
 

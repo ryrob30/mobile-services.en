@@ -12,7 +12,7 @@ List of classes and enumerations for use in Xamarin applications.
 
 ## Classes {#section_30E9E14CF38843B5B9792BBEC07667DC}
 
-MediaEventType
+### MediaEventType
 
 ```java
 public class MediaEventType : Object 
@@ -28,7 +28,7 @@ public class MediaEventType : Object
 }
 ```
 
-TargetLocationRequest
+### TargetLocationRequest
 
 ```java
 public class TargetLocationRequest : Object 
@@ -57,7 +57,7 @@ public class TargetLocationRequest : Object
 }
 ```
 
-VisitorID
+### VisitorID
 
 ```java
 public class VisitorID : Object {
@@ -84,7 +84,7 @@ public class VisitorID : Object {
 
 ## Enumerations {#section_8648B871E42C416A8CB1508C2836C317}
 
-MobileDataEvent
+### MobileDataEvent
 
 ```java
 public sealed class MobileDataEvent : Enum{
@@ -102,7 +102,7 @@ public sealed class MobileDataEvent : Enum{
 }
 ```
 
-MobilePrivacyStatus
+### MobilePrivacyStatus
 
 ```java
 public sealed class MobilePrivacyStatus : Enum{
@@ -120,7 +120,7 @@ public sealed class MobilePrivacyStatus : Enum{
 }
 ```
 
-VisitorIDAuthenticationState
+### VisitorIDAuthenticationState
 
 ```java
 public sealed class VisitorIDAuthenticationState : Enum { 
@@ -140,7 +140,7 @@ public sealed class VisitorIDAuthenticationState : Enum {
 
 ## Interfaces {#section_3316649422F74AF39EF2005EA81D6B11}
 
-IAdobeDataCallback
+### IAdobeDataCallback
 
 ```
 public interface IAdobeDataCallback : IJavaObject, IDisposable 
@@ -149,7 +149,7 @@ public interface IAdobeDataCallback : IJavaObject, IDisposable
 }
 ```
 
-ITimedActionBlock
+### ITimedActionBlock
 
 ```
 public interface ITimedActionBlock : IJavaObject, IDisposable {
@@ -157,7 +157,7 @@ public interface ITimedActionBlock : IJavaObject, IDisposable {
 }
 ```
 
-IAudienceManagerCallback
+### IAudienceManagerCallback
 
 ```
 public interface IAudienceManagerCallback : IJavaObject, IDisposable {
@@ -165,7 +165,7 @@ public interface IAudienceManagerCallback : IJavaObject, IDisposable {
 }
 ```
 
-IMediaCallback
+### IMediaCallback
 
 ```java
 public interface IMediaCallback : IJavaObject, IDisposable {
@@ -173,11 +173,10 @@ public interface IMediaCallback : IJavaObject, IDisposable {
 }
 ```
 
-ITargetCallback
+### ITargetCallback
 
 ```java
 public interface ITargetCallback : IJavaObject, IDisposable {
     void Call (Object p0); 
 }
 ```
-

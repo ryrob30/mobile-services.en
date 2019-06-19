@@ -24,13 +24,12 @@ The same config file can be used for your app across multiple platforms:
 
   Enables mobile app acquisition.
 
-  * `server` - Acquisition server that is checked at the initial launch for an acquisition referrer.  
-  * `appid` - Generated ID that uniquely identifies this app on the acquisition server. 
-  
   If this section is missing, enable Mobile App acquisition and download the SDK configuration file again. For more information, see *referrerTimeout* below.
 
+  * `server` - Acquisition server that is checked at the initial launch for an acquisition referrer.  
+  * `appid` - Generated ID that uniquely identifies this app on the acquisition server. 
   * Minimum SDK version: 4.1
-
+  
 * **analyticsForwardingEnabled**
 
   The property in the `audienceManager` object. If `Audience Manager` is configured and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager. The default value is `false`.
@@ -51,17 +50,16 @@ The same config file can be used for your app across multiple platforms:
   
     When the hits are enabled, the Adobe SDK backdates the session info hit to 1 second after the final hit in the previous session. This means that crash and session data will correlate with the correct date on which they occurred. One side effect is that the SDK might create a visit for the backdated hit. One hit is backdated on every new launch of the application.
 
+  * Minimum SDK version: 4.6
+
   >[!IMPORTANT]
   >
   >Backdated session hit information is sent in a session info server call, and additional server calls might apply.
 
-  * Minimum SDK version: 4.6
 
 * **batchLimit**
 
   Threshold for number of hits to be sent in consecutive calls. For example, if `batchLimit` is set to 10, each hit before the 10th hit will be stored in the queue. Once the 10th hit comes in, all 10 hits will be sent consecutively. 
-  
-  Remember the following information:  
   
   * Default value is `0`, which means that batching is not enabled.  
   * Requires `offlineEnabled = true`.
@@ -85,17 +83,19 @@ The same config file can be used for your app across multiple platforms:
 
 * **coopUnsafe**
 
-  * Minimum SDK version: 4.16.1
-  * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.  
-  * Default value is `false`.
-  * This setting is used **only** for Device Co-op provisioned customers.  
-  
   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blacklist flag on your Device Co-op account. There is no self-service path to enabling these flags. 
   
   Remember the following information: 
   
   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.  
   * If you enable Analytics server-side forwarding to Audience Manager, you will also see `coop_unsafe=1` on Analytics hits. 
+
+  Here is some additional information:
+
+  * Minimum SDK version: 4.16.1
+  * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.  
+  * Default value is `false`.
+  * This setting is used **only** for Device Co-op provisioned customers.  
 
  
 * **environmentId**
@@ -122,15 +122,18 @@ The same config file can be used for your app across multiple platforms:
 
   When enabled, hits are queued while the device is offline and sent later when the device is online. Your report suite must be timestamp-enabled to use offline tracking. The default value is `false`. 
   
-  >[!IMPORTANT]
-  >
-  >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, contact Customer Care or download the configuration file from Adobe Mobile services. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits that use the `s.timestamp` variable. 
+  Here is some important information:
+  
+  * If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. 
+  * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false. 
+  
+    If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, contact Customer Care or download the configuration file from Adobe Mobile services. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits that use the `s.timestamp` variable. 
 
   * Minimum SDK version: 4.0
 
 * **org**
 
-  Specifies the Experience Cloud org ID for the Experience Cloud ID service. 
+  Specifies the Experience Cloud org ID for the Adobe Experience Platform Identity Service. 
 
   * Minimum SDK version: 4.3
 

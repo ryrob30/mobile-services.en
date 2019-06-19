@@ -13,7 +13,7 @@ uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 
 Here is the list of Adobe Target methods that are provided by the Android library.
 
-The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Experience Cloud ID Service]. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
+The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], [!DNL Audience Manager], and the [!DNL Adobe Experience Platform Identity Service]. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
 
 >[!TIP]
 >

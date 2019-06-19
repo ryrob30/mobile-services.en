@@ -12,7 +12,7 @@ uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
 
 Here is a list of the Audience Manager methods that are provided by the iOS library.
 
- The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID service. Methods are prefixed according to the solution, and Audience Manager methods are prefixed with " `audience`."
+ The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Methods are prefixed according to the solution, and Audience Manager methods are prefixed with " `audience`."
 
 If Audience Manager is configured in your JSON file, a signal that contains lifecycle metrics is sent with `application:didFinishLaunchingWithOptions:`. 
 

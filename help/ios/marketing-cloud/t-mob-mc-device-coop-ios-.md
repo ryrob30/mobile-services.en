@@ -26,7 +26,7 @@ Starting in SDK version 4.16.1, Device Co-op members can opt their mobile device
    For more information, see [Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md).
 1. Pass authenticated identities such as CRM IDs or hashed emails using one of the sync methods contained here.
 
-   For more information, see [Experience Cloud ID Service Methods](/help/ios/marketing-cloud/mc-methods.md). 
+   For more information, see [Adobe Experience Platform Identity Service Methods](/help/ios/marketing-cloud/mc-methods.md). 
 
 ## `coopUnsafe` flag
 

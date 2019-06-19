@@ -1,6 +1,6 @@
 ---
-description: The Experience Cloud ID service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
-seo-description: The Experience Cloud ID service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
+description: The Adobe Experience Platform Identity Service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
+seo-description: The Adobe Experience Platform Identity Service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
 seo-title: Experience Cloud ID
 solution: Marketing Cloud,Analytics
 title: Experience Cloud ID
@@ -10,11 +10,11 @@ uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
 
 # Experience Cloud ID {#experience-cloud-id}
 
-The Experience Cloud ID service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
+The Adobe Experience Platform Identity Service provides a universal visitor ID across Experience Cloud solutions. The ID service is required by Analytics for Target, video heartbeat, and future Experience Cloud integrations.
 
 >[!TIP]
 >
->You do not need to populate the Experience Cloud ID unless you are using the Experience Cloud ID service. For more information, see [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>You do not need to populate the Experience Cloud ID unless you are using the Adobe Experience Platform Identity Service. For more information, see [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 **Requires SDK version 4.3 or later**
 

@@ -20,7 +20,7 @@ This information helps you implement the iOS library and collect lifecycle metri
 
 **Prerequisite**
 
-Before you download the SDK, complete the steps in [Create a Report Suite](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file. 
+Before you download the SDK, complete the steps in *Create a Report Suite* in [Core implementation and lifecycle](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file. 
 
 To download the SDK:
 
@@ -104,7 +104,7 @@ To download the SDK:
 
 >[!IMPORTANT]
 >
->iOS will send lifecycle information with or without calling `collectlifecycledata`; and `collectlifecycledata` is only a way to initiate lifecycle earlier in the application's launch sequence.
+>iOS will send lifecycle information with or without calling `collectlifecycledata`, and `collectlifecycledata` is only a way to initiate lifecycle earlier in the application's launch sequence.
 
 After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
 
