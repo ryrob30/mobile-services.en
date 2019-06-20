@@ -20,7 +20,7 @@ Each `trackLocation` call sends the following:
 
 * Distance from center and accuracy passed as context data.
 
-  These variables are not captured automatically. You must map these context data variables by using the instructions in [Sending Additional Data](/help/ios/location/location.md).
+  These variables are not captured automatically. You must map these context data variables by using the instructions in *Sending Additional Data* section below.
 
 ## Dynamic POI updates {#section_3747B310DD5147E2AAE915E762997712}
 

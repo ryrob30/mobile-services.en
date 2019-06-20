@@ -71,7 +71,7 @@ user-guide-title: Mobile Services Android Help
 + Experience Cloud{#experience-cloud-android}
   + [Experience Cloud overview](c-marketing-cloud/c-marketing-cloud.md)
   + [Experience Cloud ID configuration](c-marketing-cloud/mcvid.md)
-  + [Experience Cloud ID Service methods](c-marketing-cloud/mc-methods.md)
+  + [Adobe Experience Platform Identity Service methods](c-marketing-cloud/mc-methods.md)
   + [Experience Cloud Device Co-op](c-marketing-cloud/t-mob-mc-device-coop-android-.md)
 + Audience Manager{#audience-manager-android}
   + [Audience Manager overview](audience-manager/audience-manager.md)

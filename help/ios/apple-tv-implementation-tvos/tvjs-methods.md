@@ -38,9 +38,9 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   Here are the options:
 
-  * `ADBMobilePrivacyStatusOptIn` (1) : Hits are sent immediately.
-  * `ADBMobilePrivacyStatusOptOut` (2) : Hits are discarded.
-  * `ADBMobilePrivacyStatusUnknown` (3) : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded).
+  * `ADBMobilePrivacyStatusOptIn`: Hits are sent immediately.
+  * `ADBMobilePrivacyStatusOptOut`: Hits are discarded.
+  * `ADBMobilePrivacyStatusUnknown`: If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded).
   
     If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in. THe default value is set in the `ADBMobileConfig.json` file.
 
@@ -62,9 +62,9 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   Sets the privacy status for the current user to one of the following values:
 
-  * `ADBMobilePrivacyStatusOptIn` : Hits are sent immediately.
-  * `ADBMobilePrivacyStatusOptOut` : Hits are discarded.
-  * `ADBMobilePrivacyStatusUnknown` : If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (hits are sent), or opt-out (hits are discarded).
+  * `ADBMobilePrivacyStatusOptIn`: Hits are sent immediately.
+  * `ADBMobilePrivacyStatusOptOut`: Hits are discarded.
+  * `ADBMobilePrivacyStatusUnknown`: If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (hits are sent), or opt-out (hits are discarded).
   
   If offline tracking is not enabled, hits are discarded until the privacy status changes to opt-in.
 
@@ -145,7 +145,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
 * **setAdvertisingIdentifier**
 
-  Sets the IDFA in the SDK, and the IDFA will be sent in lifecycle if it has been set in the SDK. The IDFA can also be accessed in Signals (Postbacks).
+  Sets the IDFA in the SDK, and if it has been set in the SDK, the IDFA is sent in lifecycle. The IDFA can also be accessed in Signals (Postbacks).
 
   >[!IMPORTANT]
   >
@@ -253,7 +253,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   Sends the current latitude and longitude coordinates.
 
-  Also uses points of interest (POI) that are defined in the ADBMobileConfig.json file to determine whether the location that you entered as a parameter is within any of your POI. If the current coordinates are within a defined POI, a context data variable is populated and sent with the `trackLocation` call.
+  Also uses points of interest (POI) that are defined in the ADBMobileConfig.json file to determine whether the location that you entered as a parameter is in any of your POIs. If the current coordinates are in a defined POI, a context data variable is populated and sent with the `trackLocation` call.
 
   * Here is the syntax for this method:
 
@@ -364,7 +364,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   End a timed action.
 
-  If you provide a callback function, you can access the final time values. If no callback is provided, or if the callback returns true, the Adobe SDK automatically sends a hit. When a false is returned from the callback, the timed action hit will be suppressed.
+  If you provide a callback function, you can access the final time values. If no callback is provided, or if the callback returns true, the Adobe SDK automatically sends a hit. When a false is returned from the callback, the timed action hit is suppressed.
 
   * Here is the syntax for this method:
 
@@ -530,6 +530,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
     ```objective-c
     audienceDpid()
     ```
+
     * Returns: String
     * Parameters: None
 

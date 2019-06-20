@@ -86,7 +86,7 @@ If the mobile app is not yet in the App Store, when you create the campaign link
 
       * The acquisition server provides an attribution match that is based on the IP address and user-agent information that is recorded in the link click (step 6) and when the app is launched (step 7). 
 
-      You should be on the same network when you click the URL and when you open the app. 
+        You should be on the same network when you click the URL and when you open the app. 
 
       * By using HTTP monitoring tools, hits sent from the app can be monitored to provide verification of the acquisition attribution. 
 

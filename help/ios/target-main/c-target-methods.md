@@ -12,7 +12,7 @@ uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 
 Here is the list of Adobe Target methods that are provided by the iOS library.
 
-The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID service. Methods are prefixed according to the solution. For example, Target methods are prefixed with `target`.
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. For example, Target methods are prefixed with `target`.
 
 >[!TIP]
 >
@@ -99,19 +99,19 @@ NSString *const ADBTargetParameterMboxHost;
 
       Name of the Target mbox/location that you want to retrieve.
 
-      * **Type**: NSString *
+      * **Type**: NSString*
 
     * **`defaultContent`**
 
       Value returned in the callback if the Target server is unreachable, or the user does not qualify for the campaign.
 
-      * **Type**: NSString *
+      * **Type**: NSString*
 
     * **`profileParameters`**
 
       Values in this dictionary will go in the "profileParameters" object in the request to Target.
 
-      * **Type**: NSDictionary *
+      * **Type**: NSDictionary*
 
     * **`orderParameters`**
 
@@ -123,13 +123,13 @@ NSString *const ADBTargetParameterMboxHost;
 
       Values in this dictionary will go in the "mboxParameters" object in the request to Target.
 
-      * **Type**: NSDictionary *
+      * **Type**: NSDictionary*
 
     * **`requestLocationParameters`**
 
       Values in this dictionary will go in the "requestLocation" object in the request to Target.
 
-      **Type**: NSDictionary *
+      **Type**: NSDictionary*
 
     * **`callback`**
 

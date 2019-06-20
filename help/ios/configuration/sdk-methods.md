@@ -12,7 +12,7 @@ uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 
 Here is a list of methods that are provided by the iOS library.
 
-The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID service. 
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. 
 
 * **setAppExtensionType**
 
@@ -20,9 +20,10 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
   
   Set to one of the following values: 
   * `ADBMobileAppExtensionTypeRegular` - extension is bundled with a containing app. 
-  * `ADBMobileAppExtensionTypeStandAlone` - extension is not bundled with a containing app 
+  * `ADBMobileAppExtensionTypeStandAlone` - extension is not bundled with a containing app.
   
-  >[TIP]
+
+  >[!TIP]
   >
   >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
 
@@ -77,7 +78,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
 * **setPrivacyStatus**
 
-  Sets the privacy status for the current user to `status.
+  Sets the privacy status for the current user to `status`.
   
   Set to one of the following values: 
   

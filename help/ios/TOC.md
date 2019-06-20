@@ -73,7 +73,7 @@ user-guide-title: Mobile Services iOS Help
 + Experience Cloud {#exp-cloud-ios}
   + [Experience Cloud overview](marketing-cloud/marketing-cloud.md)
   + [Experience Cloud ID](marketing-cloud/mcvid.md)
-  + [Experience Cloud ID Service Methods](marketing-cloud/mc-methods.md)
+  + [Adobe Experience Platform Identity Service Methods](marketing-cloud/mc-methods.md)
   + [Experience Cloud Device Co-op](marketing-cloud/t-mob-mc-device-coop-ios-.md)
 + [Audience Manager methods](amm/aam-methods.md)
 + Apple TV implementation with tvOS {#apple-tv-implementation-tvos-ios}

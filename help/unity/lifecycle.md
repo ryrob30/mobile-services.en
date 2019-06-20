@@ -10,7 +10,7 @@ uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 
 # Implement Lifecycle{#implement-lifecycle}
 
-For more information about the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see [Lifecycle Metrics in Android](/help/android/metrics.md).
+For more information about the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see [Lifecycle Metrics in Android](/help/android/metrics.md) or [Lifecycle in iOS](/help/ios/metrics.md).
 
 ## iOS
 

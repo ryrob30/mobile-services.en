@@ -10,7 +10,7 @@ uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 
 # Lifecycle metrics {#lifecycle-metrics}
 
-The following tables list the metrics and dimensions that can be automatically measured by the mobile library after lifecycle is implemented.
+Here are the metrics and dimensions that can be automatically measured by the mobile library after lifecycle is implemented.
 
 ## New Adobe Experience Cloud SDK Release
 
@@ -191,7 +191,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-The following metrics and dimensions are captured in mobile solution variables by the method listed in the **Description** column.
+The following metrics and dimensions are captured in mobile solution variables by the listed method.
 
 ### Metrics
 
@@ -322,4 +322,4 @@ The following metrics and dimensions are captured in mobile solution variables b
   Paid keywords or other terms you want to track with this acquisition. Populated by Mobile App Acquisition.
 
   * Analytics Context Data/Target parameter: `a.referrer.campaign.term`
-  * Audience Management trait: `c_a_referrer_campaign_term` 
+  * Audience Management trait: `c_a_referrer_campaign_term`

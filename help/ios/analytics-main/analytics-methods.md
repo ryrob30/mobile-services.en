@@ -12,7 +12,7 @@ uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
 
 Here is a list of Adobe Analytics methods that are provided by the iOS library.
 
- The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Experience Cloud ID service. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
+ The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
 
 Each of these methods is used to send data into your Adobe Analytics report suite. 
 
