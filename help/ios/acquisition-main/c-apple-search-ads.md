@@ -29,7 +29,7 @@ To enable your app for Search Ad attribution:
 
 1. Implement the Adobe SDK version 4.13.2 or above.
 
-   For more information, see [Core implementation and lifecycle](/Users/rekrishn/Documents/GitHub/mobile-services.en/help/ios/getting-started/dev-qs.md). 
+   For more information, see [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md). 
 
 1. Add the iAd framework to the Xcode project file for your app.
 
