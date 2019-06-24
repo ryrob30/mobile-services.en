@@ -18,7 +18,7 @@ The same config file can be used for your app across multiple platforms:
 
 >[!TIP]
 >
->In **Android**, the `ADBMobileConfig.json` file must be placed in the [!DNL assets] folder.
+>In **Android**, the `ADBMobileConfig.json` file must be placed in the `assets` folder.
 
 Here is a list of the variables in the JSON file and the minimum SDK version you need for each variable:
 

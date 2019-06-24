@@ -34,7 +34,7 @@ Acquisition links must be created in Adobe Mobile services. For more information
 
 **In SDK versions 4.13.1 and later**:
 
-If you cannot use the acquisition links that are created in [!DNL Adobe Mobile Services], the acquisition data can still be collected and sent by the SDK by using Google Play Acquisition.
+If you cannot use the acquisition links that are created in Adobe Mobile Services, the acquisition data can still be collected and sent by the SDK by using Google Play Acquisition.
 
 To collect acquisition data from a standard Google Play Acquisition campaign:
 
@@ -42,7 +42,7 @@ To collect acquisition data from a standard Google Play Acquisition campaign:
 
   Custom acquisition data can be used with the standard Google Play Acquisition key value pairs. 
 
-* When the user downloads and runs an app as the result of a Google Play store acquisition, the data from the referrer will be collected and sent to [!DNL Adobe Mobile Services].
+* When the user downloads and runs an app as the result of a Google Play store acquisition, the data from the referrer will be collected and sent to Adobe Mobile Services.
 
   * The data is stored and available in the `AdobeDataCallback` instance that was registered earlier with the SDK.
 
@@ -52,11 +52,11 @@ To collect acquisition data from a standard Google Play Acquisition campaign:
   
   * Custom keys that were part of the acquisition data from Google Play will be name-spaced with " `a.acquisition.custom.`"
 
-If you are using the Acquisition links that were created on [!DNL Adobe Mobile Services], add custom data to the acquisition link by completing the following tasks:
+If you are using the Acquisition links that were created on Adobe Mobile Services, add custom data to the acquisition link by completing the following tasks:
 
 1. Prefix an acquisition variable with " `adb`".
 
-   When the SDK receives the acquisition data from [!DNL Adobe Mobile Services] (on first launch), that data will be stored and also available in the `AdobeDataCallback` instance registered earlier with the SDK, as mentioned in [Configuration Methods](/help/android/configuration/methods.md). 
+   When the SDK receives the acquisition data from Adobe Mobile Services (on first launch), that data will be stored and also available in the `AdobeDataCallback` instance registered earlier with the SDK, as mentioned in [Configuration Methods](/help/android/configuration/methods.md). 
 
 1. The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used. 
 

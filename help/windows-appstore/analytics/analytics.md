@@ -10,7 +10,11 @@ uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 
 # Analytics {#analytics}
 
-After you add the library to your project, you can make any of the Analytics method calls anywhere in your App (make sure you import [!DNL ADBMobile.h] to your class).
+After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
+
+>[!TIP]
+>
+>Ensure that you import `ADBMobile.h` to your class.
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -27,7 +31,7 @@ Before you add code, have your Analytics Administrator complete the following to
 
    ![](assets/enable-lifecycle.png)
 
-Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface.
+Lifecycle metrics are now ready to be captured, and Mobile Application Reports appear in the **[!UICONTROL Reports]** menu in the marketing reports interface.
 
 
 ### New Versions
@@ -255,11 +259,3 @@ ADB.Analytics.trackTimedActionStart("TimeUntilPurchase", cdata);
 var ADB = ADBMobile; 
 ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 ```
-
-## Additional information
-
-* [Products variable](/help/windows-appstore/analytics/products/products.md)
-* [Products Variable with Merchandising eVars and Product-Specific Events](/help/windows-appstore/analytics/products/products-variable-evars-events.md)
-* [Event serialization](/help/windows-appstore/analytics/event-serialization.md)
-* [Video Analytics](/help/windows-appstore/analytics/video-qs.md)
-* [Analytics methods](/help/windows-appstore/analytics/analytics-methods.md)

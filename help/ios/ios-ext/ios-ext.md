@@ -63,7 +63,7 @@ Complete the following steps in your Xcode project:
 
 1. Open the **[!UICONTROL Capabilities]** tab of the containing app's target, enable **[!UICONTROL App Groups]**, and add a new app group (for example, `group.com.adobe.testAp`). 
 
-1. In your application delegate, set the app group in [!DNL application:didFinishLaunchingWithOptions] before making any interactions with the Adobe Mobile library:
+1. In your application delegate, set the app group in `application:didFinishLaunchingWithOptions` before making any interactions with the Adobe Mobile library:
 
    ```objective-c
    [ADBMobile 

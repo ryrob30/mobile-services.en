@@ -10,15 +10,17 @@ uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 
 # Migrate to the 4.x SDKs{#migrate-to-x}
 
-This section describes how to migrate from the 3.x version of a previous Windows mobile SDK to the Universal Windows Platform 4.x SDK for Experience Cloud Solutions.
+This section describes how to migrate from the 3.x version of the Windows mobile SDK to the Universal Windows Platform 4.x SDK for Experience Cloud Solutions.
 
- With the move to version 4.x, all functionality is now accessible through static methods, so no more keeping track of your own objects.
+ With the move to version 4.x, all functionality is now accessible through static methods. You no longer need to keep track of your own objects.
 
 The following sections walk you through migrating from version 3.x to version 4.x.
 
 ## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-You probably noticed a new [!DNL ADBMobileConfig.json] file included with your download. This file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an [!DNL ADBMobileConfig.json] file:
+You probably noticed a new ADBMobileConfig.json file included with your download. This file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. 
+
+Here is an example of an ADBMobileConfig.json file:
 
 ```js
 { 
@@ -74,25 +76,23 @@ Instead of using the web-focused `Track` and `TrackLink` calls, the version 4 SD
 
 The `contextData` parameter for both of these methods contains name-value pairs that are sent as context data.
 
-### Events, props, eVars**
+### Events, props, eVars
 
-If you've looked at the [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
+If you've looked at the [SDK methods](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
-Processing rules provide you several advantages:
+Processing rules provide the following advantages:
 
 * You can change your data mapping without submitting an update to the App Store. 
 * You can use meaningful names for data instead of setting variables that are specific to a report suite. 
 * There is little impact to sending in extra data. These values won’t appear in reports until they are mapped using processing rules.
 
-For more information, see [Processing Rules](/help/universal-windows/analytics/analytics.md).
+For more information, see the *Processing rules* section in [Analytics overview](/help/universal-windows/analytics/analytics.md).
 
 Any values that you were assigning directly to variables should be added to context data instead. This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
 
 ### AppSection/Server, GeoZip, transaction ID, Campaign, and other standard variables
 
-Any other data that you were setting on the measurement object, including the variables listed above, should be added to context data instead.
-
-To put it simply, the only data sent in with a `TrackState` or `TrackAction` call is the payload in the `data` parameter.
+Any other data that you were setting on the measurement object, including the variables listed above, should be added to context data instead. That is, the only data sent in with a `TrackState` or `TrackAction` call is the payload in the `data` parameter.
 
 **Replace tracking calls**
 
@@ -111,7 +111,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in [!DNL ADBMobileConfig.json]. All other offline configuration is done automatically.
+Offline tracking is enabled in ADBMobileConfig.json. All other offline configuration is done automatically.
 
 Throughout your code, remove calls to the following methods:
 
@@ -132,6 +132,6 @@ cdata["&&products"] = ";Cool Shoe";
 ADB.Analytics.trackAction("product view", cdata);
 ```
 
-![](assets/prod-view.png){width="500px"}
+![](assets/prod-view.png)
 
 The value of `"&&products"` (in this example, the value is `";Cool Shoe`") should follow the products string syntax for the type of event that you are tracking.

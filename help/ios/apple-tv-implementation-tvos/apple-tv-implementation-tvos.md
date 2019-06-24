@@ -41,7 +41,7 @@ With Apple TV, you can now create applications to run in the native tvOS environ
 
 Complete the following steps in your Xcode project:
 
-1. Drag the [!DNL AdobeMobileLibrary] folder into your project. 
+1. Drag the AdobeMobileLibrary folder into your project. 
 1. Ensure that `ADBMobileConfig.json` is a member of your target. 
 1. On the **[!UICONTROL Build Phases]** tab of your tvOS app’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 

@@ -12,7 +12,7 @@ uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 
 Information to help you use the ADBMobile JSON Config file.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager]. Methods are prefixed according to the solution. Configuration methods are prefixed with "Config." 
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Configuration methods are prefixed with "Config." 
 
 * **rsids**
 

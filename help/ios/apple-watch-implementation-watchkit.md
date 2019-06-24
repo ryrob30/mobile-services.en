@@ -41,7 +41,7 @@ Complete the following steps in your Xcode project:
     * `libsqlite3.tbd` 
     * `SystemConfiguration.framework`
 
-1. In your class that implements the [!DNL UIApplicationDelegate] protocol, add the [!DNL WCSessionDelegate] protocol.
+1. In your class that implements the `UIApplicationDelegate` protocol, add the `WCSessionDelegate` protocol.
 
    ```objective-c
    #import <WatchConnectivity/WatchConnectivity.h> 

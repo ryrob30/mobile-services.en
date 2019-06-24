@@ -40,7 +40,7 @@ This information helps you implement the Android library and collect lifecycle m
 
 To add the SDK and config file to your project:
 
-1. Add the `ADBMobileConfig.json` file to the [!DNL assets] folder in your project. 
+1. Add the `ADBMobileConfig.json` file to the `assets` folder in your project. 
 
 1. Right click your project in the project navigation panel. 
 1. Select **[!UICONTROL Open Module Settings]**. 
@@ -48,13 +48,13 @@ To add the SDK and config file to your project:
 1. Click the **[!UICONTROL +]** icon to add a new library. 
 1. Select **[!UICONTROL Java]** and navigate to the `adobeMobileLibrary.jar` file. 
 1. Select the modules where you plan to use the mobile library. 
-1. Click **[!UICONTROL Apply]** and **[!UICONTROL OK]** to close the [!DNL Module Settings] window.
+1. Click **[!UICONTROL Apply]** and **[!UICONTROL OK]** to close the Module Settings window.
 
 **Eclipse project**
 
 To add the SDK and config file to your project:
 
-1. Add the `ADBMobileConfig.json` file to the [!DNL assets] folder in your project. 
+1. Add the `ADBMobileConfig.json` file to the `assets` folder in your project. 
 1. In **[!UICONTROL Eclipse IDE]**, right-click the project name. 
 1. Select  **[!UICONTROL Build Path]** > **[!UICONTROL Add External Archives]**. 
 1. Select `adobeMobileLibrary.jar`. 

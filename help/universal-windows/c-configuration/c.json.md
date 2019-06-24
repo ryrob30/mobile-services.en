@@ -8,11 +8,11 @@ topic: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 ---
 
-# ADBMobileConfig.json config {#adbmobileconfig-json-config}
+# ADBMobileConfig.json config file {#adbmobileconfig-json-config}
 
 Information to help you use the ADBMobile JSON Config file.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager]. Methods are prefixed according to the solution. Configuration methods are prefixed with "Config." 
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Configuration methods are prefixed with "Config." 
 
 * **rsids**
 
@@ -46,7 +46,9 @@ The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solution
 
   When enabled (`true`), hits are queued while the device is offline and sent later when the device is online. Your report suite must be timestamp-enabled to use offline tracking.
 
-  If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be `false`. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, contact Customer Care. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable. 
+  If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. if your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be `false`. 
+  
+  If this is not configured correctly, data will be lost. If you are unsure whether a report suite is timestamp enabled, contact Customer Care. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable. 
   
   The default value is `false`.
 

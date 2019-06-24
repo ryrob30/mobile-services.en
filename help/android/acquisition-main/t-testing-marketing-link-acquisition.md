@@ -18,7 +18,7 @@ If your mobile app is not yet in Google Play, you can select any mobile app as a
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. This ensures that the initial lifecycle metrics that are associated with the campaign query string parameters are sent when the app is first launched. 
 
 1. Complete the prerequisite tasks in [Mobile app acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
-1. In the [!DNL Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets Google Play as the destination for Android devices.
+1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets Google Play as the destination for Android devices.
 
    For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -81,7 +81,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    am broadcast -a com.android.vending.INSTALL_REFERRER -n com.adobe.android/com.adobe.android.YourBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<unique id get on step 5>"
    ```
 
-1. Replace [!DNL com.adobe.android] with your application's package name, update the receiver reference with the reference of the location of the campaign tracking receiver in your app, and replace the values that are associated with [!DNL utm_content].
+1. Replace `com.adobe.android` with your application's package name, update the receiver reference with the reference of the location of the campaign tracking receiver in your app, and replace the values that are associated with `utm_content`.
 
    If the broadcast is successful, you should expect a response like the following example:
 
@@ -117,7 +117,7 @@ Remember the following information:
 
 * Hits that are sent from the app can be monitored by using HTTP monitoring tools to verify the acquisition attribution. 
 * For more information about how to broadcast `INSTALL_REFERRER`, see [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns) in the Google Developers guide . 
-* You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
+* You can use the provided `acquisitionTest.jar` Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 10. 
 
 **Install the Java tool** 
 

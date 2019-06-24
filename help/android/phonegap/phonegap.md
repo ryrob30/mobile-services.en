@@ -89,7 +89,7 @@ To add these permissions, add the following lines to your `AndroidManifest.xml` 
 
 To enable in-app messaging:
 
-Update [!DNL AndroidManifest.xml] to declare the full screen activity and enable the Message Notification Handler:
+Update AndroidManifest.xml to declare the full screen activity and enable the Message Notification Handler:
 
 ```java
 <activity  

@@ -11,11 +11,11 @@ uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 
 # Add a new app{#add-a-new-app}
 
-You can use this information to create a new app and configure its key metrics;configure the SDK options for [!DNL Adobe Analytics] and [!DNL Adobe Audience Manager]; configure acquisition and ID service options; and download the configuration file, SDKs, and developer and tester tools.
+You can use this information to create a new app and configure its key metrics;configure the SDK options for Adobe Analytics and Adobe Audience Manager; configure acquisition and ID service options; and download the configuration file, SDKs, and developer and tester tools.
 
- These instructions will help you add a new app and configure [!DNL Adobe Analytics] and [!DNL Adobe Audience Manager] integrations.
+ These instructions will help you add a new app and configure Adobe Analytics and Adobe Audience Manager integrations.
 
-Before you can configure your app, you must add it in the [!DNL Adobe Mobile Services] user interface. After you create the app, the correct configuration is generated, and you can provide this configuration to the developers who are implementing the Mobile SDK for the app. 
+Before you can configure your app, you must add it in the Adobe Mobile Services user interface. After you create the app, the correct configuration is generated, and you can provide this configuration to the developers who are implementing the Mobile SDK for the app. 
 
 1. Sign in to Adobe Mobile Services and complete one of the following tasks:
 
