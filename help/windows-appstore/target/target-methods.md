@@ -12,7 +12,7 @@ uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 
 List of Target methods provided by the Windows 8.1 Universal App Store library.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager]. Methods are prefixed according to the solution. Analytics methods are prefixed with "Target."
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Analytics methods are prefixed with "Target."
 
 [Lifecycle Metrics](/help/windows-appstore/metrics.md) are sent as parameters to each mbox load.
 

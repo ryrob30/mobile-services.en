@@ -195,9 +195,9 @@ Each of these methods is used to send data into your Adobe Analytics report suit
       ADBMobile::trackLocation(event, null);
       ```
 
-## ADBMobileConfig.json Config File Reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## `ADBMobileConfig.json` config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
-The ADBMobileConfig.json must be placed in the *assets* folder.
+The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **rsids**
 

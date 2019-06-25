@@ -21,4 +21,4 @@ In addition to significant performance increases, version 4.x adds the following
 |Universal Windows Platform SDK 4.x for Experience Cloud Solutions|Initial release.|
 
 
-For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
+For more information about the release notes for all solutions, see the [Adobe Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). 

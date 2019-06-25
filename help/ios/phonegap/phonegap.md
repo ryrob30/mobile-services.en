@@ -48,7 +48,7 @@ To include the AppMeasurement:
     1. Select **[!UICONTROL Copy items into destination group's folder (if needed)]**. 
     1. Select the targets where you want to use AppMeasurement code.
 
-1. Drag [!DNL ADB_Helper.js] into the `www` folder in your project. 
+1. Drag `ADB_Helper.js` into the `www` folder in your project. 
 1. In the `res/xml` folder, open `config.xml` and register an new plugin by adding the following: 
 
    ```

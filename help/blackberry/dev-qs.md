@@ -62,7 +62,7 @@ Your application can import the classes/interfaces from the `adobeMobileLibrary.
 
 In `bar-descriptor.xml` in the project directory, add the line `<permission>access_internet</permission>`, or in the QNX Momentics IDE, select the **[!UICONTROL Internet]** box on the permissions section of the **[!UICONTROL Application]** tab.
 
-## Update the ADBMobileConfig.json config file
+## Update the `ADBMobileConfig.json` config file
 
 The `ADBMobileConfig.json` file contains global SDK settings. You need to update a few values to get started.
 
@@ -83,6 +83,6 @@ The following is an example of an `ADBMobileConfig.json` file:
 }
 ```
 
-You must at least update the `rsids` and `server` parameters. For more details, see [ADBMobileConfig.json Config File Reference](/help/blackberry/methods.md).
+You must at least update the `rsids` and `server` parameters. For more details, see [Adobe Mobile class and method reference](/help/blackberry/methods.md).
 
 You can now implement Analytics in your BlackBerry 10 app.

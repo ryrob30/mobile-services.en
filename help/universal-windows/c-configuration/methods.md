@@ -36,11 +36,11 @@ Classes and methods provided by the Universal Windows Platform library.
 
   Returns the enum representation of the privacy status for current user. 
   
-  * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.
-  * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
-  * `ADBMobilePrivacyStatusUnknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded. If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in. 
+  * `ADBMobilePrivacyStatusOptIn` - Hits are sent immediately.
+  * `ADBMobilePrivacyStatusOptOut` - Hits are discarded.
+  * `ADBMobilePrivacyStatusUnknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in. 
   
-    The default value is set in the [ADBMobileConfig.json](/help/universal-windows/c-configuration/c.json.md) file. 
+    The default value is set in the `ADBMobileConfig.json` config file. For more information, see [ADBMobileConfig.json config file](/help/universal-windows/c-configuration/c.json.md). 
 
   * Here is the syntax for this method:
 
@@ -51,26 +51,30 @@ Classes and methods provided by the Universal Windows Platform library.
 
   * Here are the code samples for this method:
 
+    **C Sharp**
+
     ```csharp
     public enum class ADBMobilePrivacyStatus : int { ADBMobilePrivacyStatusOptIn = 1, 
     ADBMobilePrivacyStatusOptOut = 2, 
     ADBMobilePrivacyStatusUnknown = 3};
     ``` 
 
-    ```js
-      var ADB = ADBMobile;
-      var status;
-      ADB.Config.getPrivacyStatusAsync.then(function(privacyStatus) {
-        status = privacyStatus;}
-      );
-      ```
+    **JavaScript**
+
+    ```javascript
+    var ADB = ADBMobile;
+    var status;
+    ADB.Config.getPrivacyStatusAsync.then(function(privacyStatus) {
+      status = privacyStatus;}
+    );
+    ```
 
 * **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
   Sets the privacy status for the current user to `status`. Set to one of the following values:  
   * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.  
   * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
-  * `DBMobilePrivacyStatusUnknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded. If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.
+  * `DBMobilePrivacyStatusUnknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded. If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in.
 
     * Here is the syntax for this method:
 
@@ -80,17 +84,21 @@ Classes and methods provided by the Universal Windows Platform library.
 
     * Here are the code samples for this method:
 
+      **C-sharp**
+ 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int { 
-         ADBMobilePrivacyStatusOptIn = 1, 
-         ADBMobilePrivacyStatusOptOut = 2
-         ADBMobilePrivacyStatusUnknown = 3
+        ADBMobilePrivacyStatusOptIn = 1, 
+        ADBMobilePrivacyStatusOptOut = 2
+        ADBMobilePrivacyStatusUnknown = 3
       };
       ```
 
+      **JavaScript**
+
       ```js
       var ADB = ADBMobile;
-      ADB.Config.setPrivacyStatus(ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOptIn
+      ADB.Config.setPrivacyStatus (ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOptIn
       );
       ```
 
@@ -99,7 +107,7 @@ Classes and methods provided by the Universal Windows Platform library.
   Returns the lifetime value of the current user. The default value is `0`.
 
   * Here is the syntax for this method:
-
+  
     ```csharp
     static float GetLifetimeValue(); 
     ```
@@ -145,7 +153,7 @@ Classes and methods provided by the Universal Windows Platform library.
 
   * Here is the code sample for this method:
 
-    ```js
+    ```javascript
     var ADB = ADBMobile;
     ADB.Config.setUserIdentifier("someUserId");
     ```
@@ -162,7 +170,7 @@ Classes and methods provided by the Universal Windows Platform library.
 
   * Here is the code sample for this method:
 
-    ```js
+    ```javascript
     var ADB = ADBMobile;
     var logging = ADB.Config.getDebugLogging();
     ```
@@ -186,7 +194,7 @@ Classes and methods provided by the Universal Windows Platform library.
 
 * **CollectLifecycleData (winJS: collectLifecycleData)**
 
-  Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see  [Lifecycle Metrics](/help/universal-windows/metrics.md). 
+  Indicates to the SDK that lifecycle data should be collected for use across all solutions in the SDK. For more information, see  [Lifecycle metrics](/help/universal-windows/metrics.md). 
 
   * Here is the syntax for this method:
 

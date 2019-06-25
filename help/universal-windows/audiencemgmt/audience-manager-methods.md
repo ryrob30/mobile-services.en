@@ -12,13 +12,13 @@ uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 
 List of Audience Manager methods provided by the Universal Windows Platform library.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager]. Methods are prefixed according to the solution. Audience Manager methods are prefixed with "AudienceManager."
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Audience Manager methods are prefixed with `AudienceManager`.
 
 >[!TIP]
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-If audience manager is configured in your JSON file, a signal containing lifecycle metrics is sent in with your lifecycle hit. 
+If audience manager is configured in your JSON file, a signal that contains lifecycle metrics is sent in with your lifecycle hit. 
 
 * **GetVisitorProfile (winJS: getVisitorProfile)**
 

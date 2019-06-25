@@ -16,7 +16,7 @@ This information helps you with a GDPR data deletion request.
 >
 >Starting with Android SDK 4.15 , setting the privacy status to `unknown` holds Audience Manager and Experience Cloud ID hits.
 
-You can control whether the [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager] activity is allowed on a device by using the following settings:
+You can control whether the Analytics, Target, and Audience Manager activity is allowed on a device by using the following settings:
 
 * `privacyDefault` in [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md).
 

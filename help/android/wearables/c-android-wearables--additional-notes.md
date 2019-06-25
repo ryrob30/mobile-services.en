@@ -13,7 +13,7 @@ uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
 Here is some information to help you configure the Android extension, which allows you to collect data from your Android Wearable app.
 
 * The Adobe Mobile Android Wearables extension requires Android version 4.4 (KitKat) or above. 
-* There is one additional context value, [!DNL A.RunMode], which has been added to indicate whether the data comes from the containing app or the extension.
+* There is one additional context value, `A.RunMode`, which has been added to indicate whether the data comes from the containing app or the extension.
 
   * `RunMode` = `Application` 
   

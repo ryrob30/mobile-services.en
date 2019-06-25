@@ -44,7 +44,7 @@ For more information about how marketers use deep linking in their applications,
    }
    ```
 
-The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or universal link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. All key and value pairs of data that are appended to the link will be parsed, attached to a lifecycle hit, and sent to [!DNL Adobe Analytics], provided the link contains the `a.deeplink.id` key and value.
+The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or universal link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. All key and value pairs of data that are appended to the link will be parsed, attached to a lifecycle hit, and sent to Adobe Analytics, provided the link contains the `a.deeplink.id` key and value.
 
 You might also choose to append one or more of the following reserved keys (with user-generated values) to the deep or universal link:
 
@@ -54,7 +54,7 @@ You might also choose to append one or more of the following reserved keys (with
 * `a.launch.campaign.term` 
 * `a.launch.campaign.content`
 
-These keys are pre-mapped variables for reporting in [!DNL Adobe Analytics]. For more information on mapping and processing rules, see [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md).
+These keys are pre-mapped variables for reporting in Adobe Analytics. For more information on mapping and processing rules, see [Processing Rules and Context Data](/help/ios/getting-started/proc-rules.md).
 
 ### Tracking deferred deep links
 

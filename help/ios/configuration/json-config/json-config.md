@@ -10,7 +10,7 @@ uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 
 # ADBMobile JSON config {#adbmobile-json-config}
 
-This information helps you use the ADBMobile.json config file.
+This information helps you use the `ADBMobile.json` config file.
 
 ## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
@@ -172,7 +172,7 @@ The same config file can be used for your app across multiple platforms:
       "timeout": 0 //optional-number of seconds to wait before timingout.Defaultis2.}
   ```
 
-    The `payload` object in the code is an example payload for a message definition that would go in `ADBMobileConfig.json`. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+    The `payload` object in the code is an example payload for a message definition that would go in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
 
   * Minimum SDK version: 4.6
 
@@ -254,7 +254,7 @@ The same config file can be used for your app across multiple platforms:
       "timeout":0//optional-numberofsecondstowaitbeforetimingout.Defaultis2.} 
   ```
 
-  The `payload` object in the code is an sample payload for a message definition that goes in `ADBMobileConfig.json`. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md). 
+  The `payload` object in the code is an sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md). 
 
   * Minimum SDK version: 4.0
 
@@ -265,7 +265,7 @@ The same config file can be used for your app across multiple platforms:
   * Minimum SDK version: 4.0
 
 
-## Sample ADBMobileConfig.json file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Sample `ADBMobileConfig.json` file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 Here is a sample `ADBMobileConfig.json` file:
 

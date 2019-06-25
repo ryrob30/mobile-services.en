@@ -28,7 +28,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
   * `ADB.optedIn`, where hits are sent immediately. 
   * `ADB.optedOut`, where hits are discarded. 
   * `ADB.optUnknown`If your report suite **is** timestamp-enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded). If your report suite **is not** timestamp-enabled, hits are discarded until the privacy status changes to opt in.  
-    The default value is set in `ADBMobileConfig.json`.
+    The default value is set in the `ADBMobileConfig.json` file.
 
     * Here is the code sample for this method:
 

@@ -59,4 +59,4 @@ On the Manage App Settings page, you can make the following types of changes:
 
   When you are ready to upgrade to the 4.x SDKs, or if you are working on a new app, download the latest SDKs and development tools from the bottom of the Manage App Settings page.
 
-  After set up is complete, you can send the configuration file to your developers so that data can be collected properly. If you are not ready to download SDKs and tools now, click [!DNL Manage App Settings] and click the app to display the [!DNL App Information] page at any time.
+  After set up is complete, you can send the configuration file to your developers so that data can be collected properly. If you are not ready to download SDKs and tools now, click  Manage App Settings and click the app to display the App Information page at any time.
