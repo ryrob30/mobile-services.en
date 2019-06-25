@@ -51,7 +51,7 @@ To download the SDK:
 ## Add the SDK and config file to your project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Launch the Xcode IDE and open your app. 
-1. In Project Navigator, drag the `AdobeMobileLibrary` folder and drop it under your project . 
+1. In Project Navigator, drag the `AdobeMobileLibrary` folder and drop it under your project. 
 1. Verify the following:
 
     * The **[!UICONTROL Copy Items if needed]** checkbox is selected. 
