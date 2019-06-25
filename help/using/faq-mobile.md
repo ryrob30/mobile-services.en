@@ -29,7 +29,7 @@ The SDKs for individual mobile platforms may be downloaded by visiting the [Mana
 
 ### How do I configure the SDKs? 
 
-After you create a new app report suite, navigate to Manage App Settings and configure all of the required options on the app information page. After you save your configuration, download the required SDKs from the bottom of the Manage App Settings page. The SDK will come pre-configured with the options you have saved and can be found in the `ADBMobileConfig.json` file within the SDK package. If you change any SDK settings on the Manage App Settings page, make sure you re-download the SDK files or update your `ADBMobileConfig.json` file with the necessary changes. 
+After you create a new app report suite, navigate to Manage App Settings and configure all of the required options on the app information page. After you save your configuration, download the required SDKs from the bottom of the Manage App Settings page. The SDK will come pre-configured with the options you have saved and can be found in the `ADBMobileConfig.json` file in the SDK package. If you change any SDK settings on the Manage App Settings page, make sure you re-download the SDK files or update your `ADBMobileConfig.json` file with the necessary changes. 
 
 ### Do the Adobe Mobile SDKs support IPv6 for iOS? 
 
