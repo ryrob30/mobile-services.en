@@ -12,7 +12,7 @@ Information to help you get starting with the Windows 8.1 Universal App Store SD
 
 1. To add the Windows 8.1 Universal App Store SDK to your project, complete the tasks in [Developer quick start](/help/windows-appstore/c-getting-started/dev-qs.md).
 
-1. Review [ADBMobileConfig.json Config](/help/windows-appstore/c-configuration/c.json.md) and [SDK methods](help/windows-appstore/c-configuration/methods.md).
+1. Review [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md) and [SDK methods](help/windows-appstore/c-configuration/methods.md).
 
 1. Implement [Analytics](/help/windows-appstore/analytics/analytics.md), [Target](/help/windows-appstore/target/target-methods.md), and [Audience Manager](/help/windows-appstore/audiencemgmt/audience-manager-methods.md).
 

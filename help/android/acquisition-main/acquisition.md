@@ -107,7 +107,7 @@ The updates in this section enable the SDK to send acquisition data from an acqu
    </receiver>
    ```
 
-1. Verify that `ADBMobileConfig.json` contains the required acquisition settings: 
+1. Verify that the `ADBMobileConfig.json` file contains the required acquisition settings: 
 
    ```xml
    "acquisition": { 

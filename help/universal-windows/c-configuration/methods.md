@@ -40,7 +40,7 @@ Classes and methods provided by the Universal Windows Platform library.
   * `ADBMobilePrivacyStatusOptOut` - Hits are discarded.
   * `ADBMobilePrivacyStatusUnknown` - If your report suite is timestamp-enabled, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded). If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to opt in. 
   
-    The default value is set in the DBMobileConfig.json config file. For more information, see [ADBMobileConfig.json config file](/help/universal-windows/c-configuration/c.json.md). 
+    The default value is set in the `ADBMobileConfig.json` config file. For more information, see [ADBMobileConfig.json config file](/help/universal-windows/c-configuration/c.json.md). 
 
   * Here is the syntax for this method:
 

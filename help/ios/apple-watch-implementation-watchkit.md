@@ -34,7 +34,7 @@ For more information about developing WatchKit apps, see [The Watch App Architec
 Complete the following steps in your Xcode project:
 
 1. Drag the `AdobeMobileLibrary` folder into your project. 
-1. Ensure that `ADBMobileConfig.json` is a member of the containing app’s target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of the containing app’s target. 
 1. In the **[!UICONTROL Build Phases]** tab of your containing app’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary.a` 
@@ -86,7 +86,7 @@ Complete the following steps in your Xcode project:
 
 ## Configure the WatchKit extension {#section_5ADE31741E514330A381F2E3CFD4A814}
 
-1. Ensure that ADBMobileConfig.json is a member of your WatchKit extension’s target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of your WatchKit extension’s target. 
 1. In the **[!UICONTROL Build Phases]** tab of your WatchKit extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary_Watch.a`

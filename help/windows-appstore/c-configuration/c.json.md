@@ -1,16 +1,16 @@
 ---
 description: Information to help you use the ADBMobile JSON Config file.
 seo-description: Information to help you use the ADBMobile JSON Config file.
-seo-title: ADBMobileConfig.json config
+seo-title: ADBMobileConfig.json config file
 solution: Marketing Cloud,Analytics
-title: ADBMobileConfig.json config
+title: ADBMobileConfig.json config file
 topic: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 ---
 
-# ADBMobileConfig.json config {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` config file {#adbmobileconfig-json-config}
 
-Information to help you use the ADBMobile JSON Config file.
+Information to help you use the `ADBMobile.json` config file.
 
 The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Configuration methods are prefixed with "Config." 
 

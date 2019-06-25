@@ -36,7 +36,7 @@ Processing rules provide the following advantages:
 
 ## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-The new `ADBMobileConfig.json` file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an ADBMobileConfig.json file:
+The new `ADBMobileConfig.json` file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. Here is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
@@ -80,7 +80,7 @@ The following tables list the configuration variables that you need to move to t
 
 Move the value from the first column to the variable in the second column. 
 
-| Configuration Variable | Variable in ADBMobileConfig.json |
+| Configuration Variable | Variable in the `ADBMobileConfig.json` file |
 |--- |--- |
 |offlineTrackingEnabled|"offlineEnabled"|
 |offlineHitLimit|"batchLimit"|
@@ -97,7 +97,7 @@ Move the value from the first column to the variable in the second column.
 
 Move the value from the first column to the variable in the second column. 
 
-| Configuration Variable | Variable in ADBMobileConfig.json |
+| Configuration Variable | Variable in the `ADBMobileConfig.json` file |
 |--- |--- |
 |trackOffline|"offlineEnabled"|
 |offlineLimit|"batchLimit"|
@@ -171,7 +171,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier:`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in ADBMobileConfig.json, and all other offline configuration is done automatically.
+Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
 
 In your code, remove calls to the following methods:
 
@@ -196,4 +196,4 @@ Since the products variable is not available in processing rules, you can use th
                   data:@{@"&&products" : @";Cool Shoe"}];
 ```
 
-![](assets/prod-view.png){width="500px"}
+![](assets/prod-view.png)

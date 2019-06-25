@@ -65,9 +65,9 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click you your project and select **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
-1. Browse to `ADBMobileConfig.json` and click **[!UICONTROL Add]**. 
+1. Browse to your `ADBMobileConfig.json` file and click **[!UICONTROL Add]**. 
 
-1. Right-click `ADBMobileConfig.json` in your solution and select **[!UICONTROL Properties]**. 
+1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**. 
 
 1. Change **[!UICONTROL Build Action]** to **[!UICONTROL Content]**.
 
@@ -96,9 +96,9 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click you your project and select **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
-1. Browse to `ADBMobileConfig.json` and click **[!UICONTROL Add]**. 
+1. Browse to the `ADBMobileConfig.json` file and click **[!UICONTROL Add]**. 
 
-1. Right-click `ADBMobileConfig.json` in your solution and select **[!UICONTROL Properties]**. 
+1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**. 
 
 1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]**, and click **[!UICONTROL OK]**.
 
@@ -127,9 +127,9 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click your project and select **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
-1. Browse to `ADBMobileConfig.json` and click **[!UICONTROL Add]**. 
+1. Browse to the `ADBMobileConfig.json` file and click **[!UICONTROL Add]**. 
 
-1. Right-click `ADBMobileConfig.json]` in your solution and select **[!UICONTROL Properties]**. 
+1. Right-click the `ADBMobileConfig.json]` file in your solution and select **[!UICONTROL Properties]**. 
 
 1. With **[!UICONTROL File Properties]** selected, ensure **[!UICONTROL Package Action]** is set to **[!UICONTROL Content]**.
 
@@ -173,7 +173,7 @@ At a minimum, update the following values for the Solutions you are using:
 * **Target**: `clientCode` 
 * **Audience Management**: `server`
 
-For more details, see [ADBMobileConfig.json Config File Reference](/help/windows-appstore/c-configuration/methods.md).
+For more details, see [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md).
 
 ## Debugging {#section_3A10376A60394A15BEE483323E0CD4AA}
 

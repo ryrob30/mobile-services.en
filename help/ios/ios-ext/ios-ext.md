@@ -54,7 +54,7 @@ If you are working on a WatchKit app, you should have a third target. For more i
 Complete the following steps in your Xcode project:
 
 1. Drag the AdobeMobileLibrary folder into your project. 
-1. Ensure that ADBMobileConfig.json is a member of the containing app's target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of the containing app's target. 
 1. On the **[!UICONTROL Build Phases]** tab of your containing app's target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary.a` 
@@ -74,7 +74,7 @@ Complete the following steps in your Xcode project:
 
 ## Configure the extension {#section_28C994B7892340AC8D1F07AF26FF3946}
 
-1. Ensure that ADBMobileConfig.json is a member of the extension's target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of the extension's target. 
 1. On the **[!UICONTROL Build Phases]** tab of your extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary_Extension.a` 

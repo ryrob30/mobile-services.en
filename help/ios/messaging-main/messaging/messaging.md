@@ -35,7 +35,7 @@ Some information to remember:
    #import "ADBMobile.h"
    ```
 
-1. Verify that `ADBMobileConfig.json` contains the required settings for In-App messaging. 
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for In-App messaging. 
 1. For in-app messages to be updated dynamically on launch, the `remotes` object must be present and properly configured:
 
    ```js
@@ -65,7 +65,7 @@ Some information to remember:
    >
    >`messages` or `remotes` is required.
 
-   If these objects are not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Core Implementation and Lifecycle](/help/ios/getting-started/requirements.md).
+   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. For more information, see [Core Implementation and Lifecycle](/help/ios/getting-started/requirements.md).
 
 ## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 

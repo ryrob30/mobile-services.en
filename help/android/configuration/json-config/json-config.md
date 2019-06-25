@@ -12,7 +12,7 @@ uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 
 This information helps you understand the variables in the ADBMobile.json config file.
 
-## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## `ADBMobileConfig.json` config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 The same config file can be used for your app across multiple platforms:
 
@@ -165,7 +165,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       "timeout": 0 // optional - number of seconds to wait before timing out.  Default is 2.}
      ```
 
-    The `payload` object in the code is a sample payload for a message definition that goes in `ADBMobileConfig.json`. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
+    The `payload` object in the code is a sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
 
 * **privacyDefault**
   * Minimum SDK version: 4.0 
@@ -233,7 +233,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
   * Determines how long Target waits for a response.
 
 
-## Sample ADBMobileConfig.json file {#section_4655EF79744649E5A5AE19E3224C472C}
+## Sample `ADBMobileConfig.json` file {#section_4655EF79744649E5A5AE19E3224C472C}
 
 Here is a sample `ADBMobileConfig.json` file:
 

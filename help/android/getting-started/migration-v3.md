@@ -94,7 +94,7 @@ To migrate from version 3.x to 4, move the configuration variable/method value t
 
 To migrate from version 2.x to version 4, move the value from the first column to the variable in the second column. 
 
-| Configuration Variable | Variable in the ADBMobileConfig.json file |
+| Configuration Variable | Variable in the `ADBMobileConfig.json` file |
 | --- |--- |
 |trackOffline|"offlineEnabled"|
 |offlineLimit|"batchLimit"|
@@ -166,7 +166,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in ADBMobileConfig.json, and all other offline configuration is done automatically.
+Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
 
 Remove calls to the following methods:
 

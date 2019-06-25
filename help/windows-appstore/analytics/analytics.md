@@ -189,7 +189,7 @@ To set *`products`* in the mobile SDK, you must use a special syntax. See [Produ
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/windows-appstore/c-configuration/methods.md). Before you enable offline tracking, Pay attention to the timestamp requirements described in the config file reference.
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Before you enable offline tracking, Pay attention to the timestamp requirements described in the config file reference.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 

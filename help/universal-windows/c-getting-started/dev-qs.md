@@ -18,7 +18,7 @@ Here is some information about how to implement the Universal Windows Platform l
 
 ## Get the SDK {#section_99FE1A17A36D4A2C943939023CF6265C}
 
-After you unzip the [SDK download](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) file, you will have a separate folder for each supported architecture and platform combination. You will also have an  ADBMobileConfig.json file. For more information about this file, see  [ADBMobileConfig.json config file](/help/universal-windows/c-configuration/c.json.md).
+After you unzip the [SDK download](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) file, you will have a separate folder for each supported architecture and platform combination. You will also have an `ADBMobileConfig.json` file. For more information about this file, see [ADBMobileConfig.json config file](/help/universal-windows/c-configuration/c.json.md).
 
 ## Select the correct version {#section_E53C5AA7D5474824A89BB32C003865A1}
 
@@ -61,9 +61,9 @@ The main difference between the implementations is the data structure used for c
 
 1. Right-click your project and click **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
-1. Browse to the ADBMobileConfig.json file and click **[!UICONTROL Add]**. 
+1. Browse to the `ADBMobileConfig.json` file and click **[!UICONTROL Add]**. 
 
-1. Right-click on the ADBMobileConfig.json file in your solution and select **[!UICONTROL Properties]**. 
+1. Right-click on the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**. 
 
 1. Change **[!UICONTROL Build Action]** to **[!UICONTROL Content]**.
 
@@ -88,9 +88,9 @@ The main difference between the implementations is the data structure used for c
 
 1. Right-click your project and select **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
-1. Browse to ADBMobileConfig.json file and click **[!UICONTROL Add]**. 
+1. Browse to `ADBMobileConfig.json` file and click **[!UICONTROL Add]**. 
 
-1. Right-click the ADBMobileConfig.json file in your solution and select **[!UICONTROL Properties]**. 
+1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**. 
 
 1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]** and click **[!UICONTROL OK]**.
 
@@ -114,17 +114,17 @@ The main difference between the implementations is the data structure used for c
 
 1. Right-click your project and select **[!UICONTROL Add]** > **[!UICONTROL Existing Item]**. 
 
-1. Browse to the ADBMobileConfig.json file and click **[!UICONTROL Add]**. 
+1. Browse to the `ADBMobileConfig.json` file and click **[!UICONTROL Add]**. 
 
-1. Right-click the ADBMobileConfig.json file in your solution and select **[!UICONTROL Properties]**. 
+1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**. 
 
 1. With **[!UICONTROL File Properties]** selected, ensure **[!UICONTROL Package Action]** is set to **[!UICONTROL Content]**.
 
     For JavaScript projects, the file is set to Content by default.
 
-## Update The ADBMobileConfig.json Config File {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
+## Update The ADBMobileConfig.json config file {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
 
-The `ADBMobileConfig.json` file contains global SDK settings and is located at your project root after you complete the steps in the *Add the library and config file to your project* section. If your ADBMobileConfig.json file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
+The `ADBMobileConfig.json` file contains global SDK settings and is located at your project root after you complete the steps in the *Add the library and config file to your project* section. If your `ADBMobileConfig.json` file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
 
 Here is an example of an `ADBMobileConfig.json` file:
 

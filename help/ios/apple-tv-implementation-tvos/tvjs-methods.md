@@ -253,7 +253,7 @@ Here is a list of TVJS methods that are provided by the tvOS library.
 
   Sends the current latitude and longitude coordinates.
 
-  Also uses points of interest (POI) that are defined in the ADBMobileConfig.json file to determine whether the location that you entered as a parameter is in any of your POIs. If the current coordinates are in a defined POI, a context data variable is populated and sent with the `trackLocation` call.
+  Also uses points of interest (POI) that are defined in the `ADBMobileConfig.json` file to determine whether the location that you entered as a parameter is in any of your POIs. If the current coordinates are in a defined POI, a context data variable is populated and sent with the `trackLocation` call.
 
   * Here is the syntax for this method:
 

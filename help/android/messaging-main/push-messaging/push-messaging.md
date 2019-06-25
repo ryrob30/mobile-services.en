@@ -26,7 +26,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 >
 >If your app is already set up to use messaging by using Google Cloud Messaging (GCM), some of the following steps might already be completed.
 
-1. Verify that `ADBMobileConfig.json` contains the required settings for push messaging.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
 
    The `"marketingCloud"` object must have its `"org"` property configured for push messaging. 
 

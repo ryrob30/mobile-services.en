@@ -18,9 +18,9 @@ The following sections walk you through migrating from version 3.x to version 4.
 
 ## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-You probably noticed a new ADBMobileConfig.json file included with your download. This file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. 
+You probably noticed a new `ADBMobileConfig.json` file included with your download. This file contains application-specific, global settings, and replaces most of the configuration variables that were used in previous versions. 
 
-Here is an example of an ADBMobileConfig.json file:
+Here is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
@@ -54,7 +54,7 @@ The following tables list the configuration variables that you need to move to t
 
 The following table provides a list of variables in the 3.x SDKs and the new name in the 4.x SDKs:
 
-| Configuration Variable/Method | Variable in ADBMobileConfig.json |
+| Configuration Variable/Method | Variable in the `ADBMobileConfig.json` file. |
 |--- |--- |
 |offlineTrackingEnabled|"offlineEnabled"|
 |reportSuiteIDs|"rsids"|
@@ -111,7 +111,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in ADBMobileConfig.json. All other offline configuration is done automatically.
+Offline tracking is enabled in the `ADBMobileConfig.json` file. All other offline configuration is done automatically.
 
 Throughout your code, remove calls to the following methods:
 
