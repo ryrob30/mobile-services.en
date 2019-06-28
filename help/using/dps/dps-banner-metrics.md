@@ -1,7 +1,7 @@
 ---
-description: The Banner Metrics report displays a sunburst visualization for your existing data. This report is only available to Digital Publishing Suites (DPS) customers.
+description: The Banner Metrics report displays a sunburst visualization for your existing data. This report is only available to Digital Publishing Suite (DPS) customers.
 keywords: mobile
-seo-description: The Banner Metrics report displays a sunburst visualization for your existing data. This report is only available to Digital Publishing Suites (DPS) customers.
+seo-description: The Banner Metrics report displays a sunburst visualization for your existing data. This report is only available to Digital Publishing Suite (DPS) customers.
 seo-title: Banner Metrics
 solution: Marketing Cloud,Analytics
 title: Banner Metrics
@@ -11,7 +11,7 @@ uuid: 50638c55-f10d-43d7-8d12-e48908572766
 
 # Banner Metrics {#banner-metrics}
 
-The **[!UICONTROL Banner Metrics]** report displays a sunburst visualization for your existing data. This report is only available to DPS customers.
+The **[!UICONTROL Banner Metrics]** report displays a sunburst visualization for your existing data. This report is only available to Digital Publishing Suite (DPS) customers.
 
  ![](assets/dps_banner_name.png)
 
