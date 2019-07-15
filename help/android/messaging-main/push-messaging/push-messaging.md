@@ -24,7 +24,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 
 >[!TIP]
 >
->If your app is already set up to use messaging by using Google Cloud Messaging (GCM), some of the following steps might already be completed.
+>If your app is already set up to use messaging through Firebase Cloud Messaging (FCM), some of the following steps might already be completed.
 
 1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
 
@@ -36,25 +36,13 @@ To use push messaging, you **must** have SDK version 4.6 or later.
     }
    ```
 
-1. Obtain the registration ID/token by using the GCM or Firebase Cloud Messaging (FCM) APIs.
+1. Obtain the registration ID/token by using the Firebase Cloud Messaging (FCM) API.
 
-    * **GCM**
+    * For more information about setting up FCM, see [Set Up a Firebase Cloud Messaging Client App on Android](https://firebase.google.com/docs/cloud-messaging/android/client).
 
-        * For more information about setting up GCM, see [Set up a GCM Client App on Android](https://developers.google.com/cloud-messaging/android/client). 
-        * To implement a sample app, see [Google Samples](https://github.com/googlesamples/google-services/tree/master/android/gcm).
-
-          ```js
-          InstanceID instanceID = InstanceID.getInstance(this); 
-          String token = instanceID.getToken(getString(R.string.gcm_defaultSenderId), GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
-          ```
-
-    * **FCM**
-
-        * For more information about setting up FCM, see [Set Up a Firebase Cloud Messaging Client App on Android](https://firebase.google.com/docs/cloud-messaging/android/client).
-
-          ```js
-          String token = FirebaseInstanceId.getInstance().getToken();
-          ```
+    ```js
+    String token = FirebaseInstanceId.getInstance().getToken();
+    ```
 
 1. The registration ID/token must be passed to the SDK by using the `Config.setPushIdentifier(final String registrationId)` method.
 
