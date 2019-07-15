@@ -67,15 +67,15 @@ Here is a list of the metrics that are available for push messages:
 
 * **[!UICONTROL Published]**
 
-  The number of device tokens that are successfully sent to Apple Push Notification Service/Google Cloud Messaging (APNS/GCM) to send the message to the users devices.
+  The number of device tokens successfully sent to Apple Push Notification Service/Firebase Cloud Messaging (APNS/FCM) for sending the message to the users devices.
 
 * **[!UICONTROL Failed]**
 
-  Here are some of the reasons that the number of device tokens that were not be sent to APNS/GCM:
+  The number of device tokens not successfully sent to APNS/FCM. Some possible reasons for failures:
 
   * An invalid pushID
 
-  * The push platform (APNS, GCM, and so on) that was given to push to does not exist for the job's application. For example, the platform might collect iOS push tokens but does not have APNS service configured.
+  * The push platform (APNS, FCM, and so on) that was given to push to does not exist for the job's application. For example, the platform might collect iOS push tokens but does not have APNS service configured.
 
   * The message might have failed because the push service was not configured correctly or the Mobile Services system is down.  
 
@@ -85,4 +85,4 @@ Here is a list of the metrics that are available for push messages:
 
 * **[!UICONTROL Blacklisted]**
 
-  The number of device tokens that are no longer valid to be sent to APNS or GCM. This usually means the app has been uninstalled from the device or the user changed his or her opt-in settings to receive messages. Android and iOS differ about when tokens are counted as blacklisted. Android tokens are immediately shown in the blacklisted count. iOS tokens are initially displayed as published, but based on feedback from APNS, are shown as blacklisted on subsequent messages.
+  The number of device tokens that are no longer valid to be sent to APNS or FCM. This usually means the app has been uninstalled from the device or the user changed his or her opt-in settings to receive messages. Android and iOS differ about when tokens are counted as blacklisted. Android tokens are immediately shown in the blacklisted count. iOS tokens are initially displayed as published, but based on feedback from APNS, are shown as blacklisted on subsequent messages.
