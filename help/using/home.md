@@ -1,17 +1,15 @@
 ---
-description: Adobe Mobile Services brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, which allows you to understand and improve user engagement with your mobile applications.
-keywords: mobile
-seo-description: Adobe Mobile Services brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, which allows you to understand and improve user engagement with your mobile applications.
+description: Tech docs for Adobe Mobile Services
+seo-description: This guide outlines technical documentation and self help for Adobe Mobile Services, which brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, allowing you to understand and improve user engagement with mobile applications.
 seo-title: Adobe Mobile Services
-solution: Marketing Cloud,Analytics
+solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
-topic: Metrics
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 ---
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
-Adobe Mobile Services brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, which allows you to understand and improve user engagement with your mobile applications.
+This guide outlines technical documentation and self help for Adobe Mobile Services, which brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, allowing you to understand and improve user engagement with mobile applications.
 
 >[!IMPORTANT]
 >
