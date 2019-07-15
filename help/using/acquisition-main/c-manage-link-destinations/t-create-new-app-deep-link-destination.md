@@ -14,13 +14,13 @@ uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 You can create a new link destination that directs users to a web or a deep link in your app.
 
 1. In the Mobile Services UI, click **[!UICONTROL Manage Apps]**.
-1. Click the name of the app to display its [!DNL App Information] page.
+1. Click the name of the app to display its App Information page.
 1. Click **[!UICONTROL Manage Link Destinations]**.
 1. Click **[!UICONTROL Create New]**.
 1. Type information in the following fields:
     * **[!UICONTROL Title]**
 
-      Type a descriptive name for your app link destination. The title displays only on the Manage Link Destinations page in the [!DNL Adobe Mobile Services] UI. A descriptive name helps you or others in your organization quickly find a specific link destination and can provide insight into its purpose.
+      Type a descriptive name for your app link destination. The title displays only on the Manage Link Destinations page in the Adobe Mobile Services UI. A descriptive name helps you or others in your organization quickly find a specific link destination and can provide insight into its purpose.
 
     * **[!UICONTROL Link Type]**
 
@@ -51,6 +51,6 @@ You can create a new link destination that directs users to a web or a deep link
 
     * **[!UICONTROL Notes]**
   
-      Type optional notes for your destination. Additional notes display only on the Manage Link Destinations page in the [!DNL Adobe Mobile Services] UI. Additional notes can help you or others in your organization quickly find a specific link destination and can provide insight into its purpose, the campaign to which it is tied, or anything else that you feel is important.
+      Type optional notes for your destination. Additional notes display only on the Manage Link Destinations page in the Adobe Mobile Services UI. Additional notes can help you or others in your organization quickly find a specific link destination and can provide insight into its purpose, the campaign to which it is tied, or anything else that you feel is important.
 
 1. Click **Save**.

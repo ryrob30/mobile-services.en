@@ -12,7 +12,7 @@ uuid: e39c9c3e-fd53-4b46-8fff-88101a064a9c
 
 List of Audience Manager methods provided by the Windows 8.1 Universal App Store library.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager]. Methods are prefixed according to the solution. Audience Manager methods are prefixed with "AudienceManager."
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Audience Manager methods are prefixed with "AudienceManager."
 
 >[!NOTE]
 >

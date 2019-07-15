@@ -32,7 +32,7 @@ To enable the Experience Cloud ID:
    import com.adobe.mobile.*;
    ```
 
-1. Verify that `ADBMobileConfig.json` contains the `marketingCloudorg`: 
+1. Verify that the `ADBMobileConfig.json` file contains the `marketingCloudorg`: 
 
    ```js
    "marketingCloud" : { 
@@ -50,6 +50,6 @@ To enable the Experience Cloud ID:
    >
    >You must include `@AdobeOrg`.
 
-   If these IDs are not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Before You Start](/help/android/getting-started/requirements.md).
+   If these IDs are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. For more information, see [Before You Start](/help/android/getting-started/requirements.md).
 
 After the configuration is complete, a Experience Cloud ID is generated and is included on all hits. Other IDs, such as custom and automatically-generated IDs, continue to be sent with each hit. 

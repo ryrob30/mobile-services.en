@@ -16,7 +16,7 @@ In the Manage Link Destinations page, you can create, edit, archive/unarchive, a
 To display the Manage Link Destinations page:
 
 1. From the left navigation menu, click **[!UICONTROL Manage Apps]**. 
-1. Click the name of the app to display its [!DNL App Information] page. 
+1. Click the name of the app to display its App Information page. 
 1. In the top right side, click **[!UICONTROL Manage Link Destinations]**.
 
 The Link Destinations page displays your link destinations and provides options to create, archive, unarchive, edit, and delete link destinations.

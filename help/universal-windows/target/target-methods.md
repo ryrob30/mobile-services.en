@@ -12,9 +12,9 @@ uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 
 List of Target methods provided by the Universal Windows Platform library.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager].
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager.
 
-[Lifecycle Metrics](/help/universal-windows/metrics.md) are sent as parameters to each mbox load.
+[Lifecycle metrics](/help/universal-windows/metrics.md) are sent as parameters to each mbox load.
 
 >[!TIP]
 >

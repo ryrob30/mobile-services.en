@@ -42,7 +42,7 @@ The following scenarios are known to falsely cause a crash to be reported by the
    >
    >You can avoid a crash in this scenario by backgrounding the app before launching the app again from Xcode.
 
-* If your app is in the background and sends [!DNL Analytics] hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
+* If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
 
    >[!TIP]
    >

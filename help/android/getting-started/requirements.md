@@ -50,11 +50,11 @@ You can log in to the Adobe Mobile Services UI in one of the following ways:
 
   >[!TIP]
   >
-  >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing [!DNL Adobe Analytics] account.
+  >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing Adobe Analytics account.
 
 ### Adobe Analytics
 
-  Click **[!UICONTROL Sign in with Analytics]** and enter your [!DNL Analytics] company name, your username, and your password.
+  Click **[!UICONTROL Sign in with Analytics]** and enter your Analytics company name, your username, and your password.
 
 ## Create a report suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 

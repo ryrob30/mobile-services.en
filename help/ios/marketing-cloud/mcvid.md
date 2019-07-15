@@ -29,7 +29,7 @@ The Adobe Experience Platform Identity Service provides a universal visitor ID a
    #import "ADBMobile.h"
    ```
 
-1. Verify that `ADBMobileConfig.json` contains the `marketingCloud` `org`: 
+1. Verify that the `ADBMobileConfig.json` files contains the `marketingCloud` `org`: 
 
    ```js
    "marketingCloud" : { 
@@ -43,6 +43,6 @@ The Adobe Experience Platform Identity Service provides a universal visitor ID a
    >
    >You must include `@AdobeOrg`.
 
-   If these values are not present, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [ADBMobile JSON Config](/help/ios/getting-started/requirements.md).
+   If these values are not present, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. For more information, see [ADBMobile JSON config](/help/ios/getting-started/requirements.md).
 
 After the configuration, a Experience Cloud ID is generated and is included on all hits. Other visitor IDs, such as custom and automatically-generated, will continue to be sent with each hit. 

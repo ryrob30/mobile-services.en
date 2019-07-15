@@ -23,7 +23,7 @@ The following types of delays might be associated with push messages for Mobile 
 
 * Waiting for Push Service
 
-  The push service (APNS or GCM) might not immediately send out the message. Although uncommon, we have seen a delay of 5-10 minutes. On the Messages page, you can verify that the push message has been sent to the push service by clicking the **[!UICONTROL View]** link for the message. In the report, the number of successful sends to the push service is listed in the **[!UICONTROL Published]** column.  
+  The push service (APNS or FCM) might not immediately send out the message. Although uncommon, we have seen a delay of 5-10 minutes. On the Messages page, you can verify that the push message has been sent to the push service by clicking the **[!UICONTROL View]** link for the message. In the report, the number of successful sends to the push service is listed in the **[!UICONTROL Published]** column.  
   
   >[!TIP]
   >
@@ -32,7 +32,7 @@ The following types of delays might be associated with push messages for Mobile 
   For more information about the reliability of services, see the appropriate documentation: 
 
   * **APNS**: [Quality of Service](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
-  * **GCM**: [Lifetime of a Message](https://developers.google.com/cloud-messaging/concept-options#lifetime)
+  * **FCM**: [Lifetime of a Message](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 ## Why are my push messages being cut off or are not expanding?
 

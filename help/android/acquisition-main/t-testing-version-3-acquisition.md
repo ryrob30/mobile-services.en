@@ -15,14 +15,14 @@ This information helps you roundtrip a version 3 acquisition campaign link on an
 
 >[!IMPORTANT]
 >
->Acquisition in V3 refers to the acquisition links that you create with the [!DNL Acquisition Builder] in the [!DNL Adobe Mobile Services] UI. To use this feature, you must upgrade to Android SDK 4.x for Experience Cloud Solutions 4.6.0 or later.
+>Acquisition in V3 refers to the acquisition links that you create with the Acquisition Builder in the Adobe Mobile Services UI. To use this feature, you must upgrade to Android SDK 4.x for Experience Cloud Solutions 4.6.0 or later.
 
 If the mobile app is not yet in Google Play, when creating the campaign link, you can select any mobile app as a destination. This only affects the app to which the acquisition server redirects you after you click the acquisition link, but does not affect the ability to test the link. Query string parameters are passed to the Google Play store, which are passed to the app at install as part of a campaign broadcast. Roundtrip mobile app acquisition testing requires the simulation of this type of broadcast.
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. This ensures that the initial lifecycle metrics that are associated with the campaign query string parameters are sent when the app is first launched. 
 
 1. Complete the prerequisite tasks in [Mobile App Acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
-1. In the [!DNL Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets Google Play as the destination for Android devices.
+1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets Google Play as the destination for Android devices.
 
    For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -106,7 +106,7 @@ Remember the following information:
 
   Before testing, upgrade the SDK to the latest version. 
 
-* You can use the provided [!DNL acquisitionTest.jar] Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 12. 
+* You can use the provided `acquisitionTest.jar` Java tool to help you get the unique ID and broadcast install referrer, which in turn, helps you obtain the information in steps 3 to 12. 
 
   **Install the Java Tool** 
 

@@ -34,14 +34,14 @@ For more information about developing WatchKit apps, see [The Watch App Architec
 Complete the following steps in your Xcode project:
 
 1. Drag the `AdobeMobileLibrary` folder into your project. 
-1. Ensure that `ADBMobileConfig.json` is a member of the containing app’s target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of the containing app’s target. 
 1. In the **[!UICONTROL Build Phases]** tab of your containing app’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary.a` 
     * `libsqlite3.tbd` 
     * `SystemConfiguration.framework`
 
-1. In your class that implements the [!DNL UIApplicationDelegate] protocol, add the [!DNL WCSessionDelegate] protocol.
+1. In your class that implements the `UIApplicationDelegate` protocol, add the `WCSessionDelegate` protocol.
 
    ```objective-c
    #import <WatchConnectivity/WatchConnectivity.h> 
@@ -86,7 +86,7 @@ Complete the following steps in your Xcode project:
 
 ## Configure the WatchKit extension {#section_5ADE31741E514330A381F2E3CFD4A814}
 
-1. Ensure that ADBMobileConfig.json is a member of your WatchKit extension’s target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of your WatchKit extension’s target. 
 1. In the **[!UICONTROL Build Phases]** tab of your WatchKit extension’s target, expand the **[!UICONTROL Link Binary with Libraries]** section and add the following libraries:
 
     * `AdobeMobileLibrary_Watch.a`

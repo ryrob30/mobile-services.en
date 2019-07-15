@@ -44,7 +44,7 @@ The following instructions help you roundtrip an acquisition campaign with a mar
 1. (Conditional) If the SSL setting in your app's config file is `false`, update your acquisition link to use the HTTP protocol instead of HTTPS.
 1. Click the generated link from the mobile device on which you want to install the app.
 
-   Adobe's servers ( [!DNL c00.adobe.com]) store the fingerprint and redirect to the App Store. The app does not need to be downloaded for testing. 
+   Adobe's servers (`c00.adobe.com`) store the fingerprint and redirect to the App Store. The app does not need to be downloaded for testing. 
 1. Launch the application for the first time from the same mobile device that you used in step 6.
 
    You can delete and install the app again, if necessary. 

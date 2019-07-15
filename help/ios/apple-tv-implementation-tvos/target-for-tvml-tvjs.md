@@ -94,7 +94,7 @@ In the `ADBTarget` element, you must provide the Mbox name in the `mbox` propert
 
 ### Example 1
 
-The following example uses an `ADBTarget` element in the [!DNL LandingPage.xml.js] page to replace the contents of an alert:
+The following example uses an `ADBTarget` element in the `LandingPage.xml.js` page to replace the contents of an alert:
 
 #### Configure Target
 

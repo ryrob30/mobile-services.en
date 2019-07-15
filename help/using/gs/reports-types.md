@@ -63,7 +63,7 @@ You can view the report an in-product tutorial that describes how to interact wi
 
 To start the tutorial:
 
-1. in [!DNL Manage App Settings], click **[!UICONTROL Usage]**.
+1. in Manage App Settings, click **[!UICONTROL Usage]**.
 
 1. Click **[!UICONTROL Technology]** > **[!UICONTROL Technology Breakdown]**.
 1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.

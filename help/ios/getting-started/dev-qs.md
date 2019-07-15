@@ -27,7 +27,7 @@ To download the SDK:
 1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` file and verify that you have the following software components:
 
     * `ADBMobile.h`, the Objective-C header file that is used for iOS AppMeasurement. 
-    * `ADBMobileConfig.json`, the SDK configuration file that is customized for your app. 
+    * `ADBMobileConfig.json`, which is the SDK configuration file that is customized for your app. 
     * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64), and simulators (i386, x86_64).
 
       This fat binary should be linked when the target is intended for an iOS app. 
@@ -46,12 +46,12 @@ To download the SDK:
 
 >[!IMPORTANT]
 >
->If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` must be manually configured. If you are new to Analytics and the Mobile SDK, see [Before You Start](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file.
+>If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, see [Before You Start](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file.
 
 ## Add the SDK and config file to your project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Launch the Xcode IDE and open your app. 
-1. In Project Navigator, drag the `AdobeMobileLibrary` folder and drop it under your project . 
+1. In Project Navigator, drag the `AdobeMobileLibrary` folder and drop it under your project. 
 1. Verify the following:
 
     * The **[!UICONTROL Copy Items if needed]** checkbox is selected. 
@@ -61,7 +61,7 @@ To download the SDK:
      ![](assets/step_3.png)
 
 1. Click **[!UICONTROL Finish]**. 
-1. In **[!UICONTROL Project Navigator]**, select **`ADBMobileConfig.json`**. 
+1. In **[!UICONTROL Project Navigator]**, select **[!UICONTROL`ADBMobileConfig.json`]**. 
 1. In **[!UICONTROL File Inspector]**, add the JSON file to any targets in your project that will use the Adobe SDK.
 
    ![](assets/step_4.png)

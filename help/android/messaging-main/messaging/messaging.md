@@ -79,7 +79,7 @@ You can create messages and the rules in Adobe Mobile services that define when 
    }
    ```
 
-1. Verify that `ADBMobileConfig.json` contains the required settings for in-app messaging.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for in-app messaging.
 
    >[!IMPORTANT]
    >
@@ -110,7 +110,7 @@ You can create messages and the rules in Adobe Mobile services that define when 
    }
    ```
 
-   If this object is not configured, download an updated `ADBMobileConfig.json` from Adobe Mobile services. For more information, see [Before You Start](/help/android/getting-started/requirements.md).
+   If this object is not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. For more information, see [Before You Start](/help/android/getting-started/requirements.md).
 
 ## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 

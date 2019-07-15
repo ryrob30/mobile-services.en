@@ -13,7 +13,7 @@ uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 
 Here are the Experience Cloud ID methods that are provided by the Android library.
 
-The SDK currently supports multiple [!DNL Adobe Experience Cloud Solutions], including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service.
+The SDK currently supports multiple Adobe Experience Cloud Solutions], including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service.
 
 Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
 
@@ -43,6 +43,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
             i.setData(Uri.parse(urlWithAdobeVisitorInfo));
             startActivity(i);
     ```
+
 * **getMarketingCloudId**
 
   Retrieves the Experience Cloud ID from the visitor ID service. 
@@ -72,6 +73,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
     ```java
     public static void syncIdentifiers(Map<String, String> identifiers); 
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -79,6 +81,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
     identifiers.put("idType", "idValue");
     Visitor.syncIdentifiers(identifiers);
     ```
+
 * **syncIdentifer**
 
   Synchronizes the provided identifier type and value to the Visitor ID service. 
@@ -100,6 +103,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
     ```java
     Visitor.syncIdentifier("myIdType", "valueForUser", VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_LOGGED_OUT);
     ```
+
 * **syncIdentifiers**
 
   Synchronizes the provided identifiers to the ID service. 
@@ -114,6 +118,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
     ```java
     public static void syncIdentifiers(final Map<String String> identifiers, final VisitorID.VisitorIDAuthenticationState authenticationState);
     ```
+
   * Here is the code sample for this method:
 
     ```java
@@ -121,6 +126,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
         identifiers.put("myIdType", "valueForUser"); Visitor.syncIdentifiers(identifiers,
     VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED); 
     ```
+
 * **getIdentifiers**
 
   Retrieves a list of read-only `ADBVisitorID` objects.

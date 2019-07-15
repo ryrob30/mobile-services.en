@@ -20,7 +20,7 @@ Starting with iOS 10, Apple allows you to create an extension called a stand-alo
 
 To configure your stand-alone extension:
 
-1. Ensure that `ADBMobileConfig.json` is a member of your extension's target. 
+1. Ensure that the `ADBMobileConfig.json` file is a member of your extension's target. 
 1. Link the following libraries and frameworks:
 
     * `AdobeMobileLibrary_Extension.a` 

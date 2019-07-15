@@ -13,7 +13,7 @@ uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 
 Lists the metrics and dimensions that can be measured automatically by the mobile library.
 
-For more information, go to the Knowledge Base at [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+For more information, see [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -71,8 +71,8 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
   Triggered when the application is not backgrounded before being closed. The event is sent when the application is started after the crash. Adobe Mobile crash reporting does not implement a global uncaught exception handler. 
 
-  * Analytics Context Data/Target parameter: a.CrashEvent
-  * Audience Manager signal: c_a_CrashEvent
+  * Analytics Context Data/Target parameter: `a.CrashEvent`
+  * Audience Manager signal: `c_a_CrashEvent`
 
 * **Previous Session Length**
 
@@ -137,8 +137,8 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 
   The OS version.
 
-  * Analytics Context Data/Target parameter: a.OSVersion
-  * Audience Manager signal: c_a_OSVersion
+  * Analytics Context Data/Target parameter: `a.OSVersion`
+  * Audience Manager signal: `c_a_OSVersion`
 
 * **Days since last upgrade**
 
@@ -148,8 +148,8 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
   >
   >This metric is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. 
 
-  * Analytics Context Data/Target parameter: a.DaysSinceLastUpgrade
-  * Audience Manager signal: c_a_DaysSinceLastUpgrade
+  * Analytics Context Data/Target parameter: `a.DaysSinceLastUpgrade`
+  * Audience Manager signal: `c_a_DaysSinceLastUpgrade`
 
 * **Launches since last upgrade**
 

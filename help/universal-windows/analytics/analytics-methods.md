@@ -12,7 +12,7 @@ uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 
 Information to help you use the Universal Windows Platform SDK with Adobe Analytics.
 
-The SDK currently has support for multiple [!DNL Adobe Experience Cloud Solutions], including [!DNL Analytics], [!DNL Target], and [!DNL Audience Manager]. Methods are prefixed according to the solution. Analytics methods are prefixed with "Analytics."
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, and Audience Manager. Methods are prefixed according to the solution. Analytics methods are prefixed with "Analytics."
 
 Each of these methods is used to send data into your Adobe Analytics report suite.
 
@@ -158,7 +158,7 @@ Each of these methods is used to send data into your Adobe Analytics report suit
 
 * **TrackTimedActionExistsAsync (winJS: trackTimedActionExistsAsync)**
 
-  Returns true if the given timed action exists, and false if it does not. 
+  Returns true if the given timed action exists and false if it does not exist. 
 
   * Here is the syntax for this method:
 

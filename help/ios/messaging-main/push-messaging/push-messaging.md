@@ -38,7 +38,7 @@ To use push messaging, you **must** have SDK version 4.6 or later.
 
 ## Enabling push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
 
-1. Verify that `ADBMobileConfig.json` contains the required settings for push messaging.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
 
    The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
 

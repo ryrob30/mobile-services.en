@@ -31,7 +31,7 @@ Import the ADBMobile Component to your Xamarin.Android project:
 
 1. Select `ADBMobile.XamarinAndroidBinding.dll` from the **[!UICONTROL lib/Android]** folder. 
 
-1. Add your ADBMobileConfig.json file to the **[!UICONTROL Assets]** folder of your project. 
+1. Add your `ADBMobileConfig.json` file to the **[!UICONTROL Assets]** folder of your project. 
 
 1. Add permissions for:
 
@@ -72,6 +72,6 @@ Import the ADBMobile Component to your Xamarin.iOS project:
 
 1. Select `ADBMobile.XamarinIOSBinding.dll` from the **[!UICONTROL lib/ios-unified]** folder. 
 
-1. Add your ADBMobileConfig.json file to the project.
+1. Add your `ADBMobileConfig.json` file to the project.
 
 

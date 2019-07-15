@@ -10,24 +10,29 @@ uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 
 # Analytics {#analytics}
 
-After you add the library to your project, you can make any of the Analytics method calls anywhere in your App (make sure you import [!DNL ADBMobile.h] to your class).
+After you add the library to your project, you can make any of the Analytics method calls anywhere in your app. 
+
+>[!TIP]
+>
+>Ensure that you import `ADBMobile.h` to your class.
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
 Before you add code, have your Analytics Administrator complete the following to enable Mobile App Lifecycle tracking. This ensures that your report suite is ready to capture metrics as you begin development.
 
 1. Open **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** and select your mobile report suite(s). 
+
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**. 
 
-   ![](assets/mobile-settings.png){width="400"}
+   ![](assets/mobile-settings.png)
 
 1. Click **[!UICONTROL Enable Latest App Reports]**.
 
-   Optionally, you can also click **[!UICONTROL Enable Mobile Location Trackiing]** or **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
+   Optionally, you can also click **[!UICONTROL Enable Mobile Location Tracking]** or **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
 
    ![](assets/enable-lifecycle.png)
 
-Lifecycle metrics are now ready to be captured, and [!DNL Mobile Application Reports] appear in the [!DNL Reports] menu in the marketing reports interface.
+Lifecycle metrics are now ready to be captured, and Mobile Application Reports appear in the **[!UICONTROL Reports]** menu in the marketing reports interface.
 
 ### New versions
 
@@ -109,11 +114,11 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-If `CollectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `CollectLifecyleData()` reports a crash.
+If `CollectLifecycleData()` is called twice in the same session, your application reports a crash on every call after the first. The SDK sets a flag when the application is shutdown that indicates a successful exit. If this flag is not set, `CollectLifecyleData()` reports a crash.
 
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-If you've looked at the [ADBMobile Class and Method Reference](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
+If you've looked at [SDK methods](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. In version 4, you can no longer assign those types of variables directly in your app. Instead, the SDK uses context data and processing rules to map your app data to Analytics variables for reporting.
 
 Processing rules provide you several advantages:
 
@@ -135,7 +140,7 @@ Processing rules are used to copy the data you send in context data variables to
 
 We recommend grouping your context data variables using "namespaces", as it helps you keep logical ordering. For example, if you want to collect info about a product, you might define the following variables:
 
-```js
+```javascript
 "product.type":"hat" 
 "product.team":"mariners" 
 "product.color":"blue"
@@ -167,24 +172,29 @@ Context data variables that define incrementor events can have the value to incr
 "levels completed":"6"
 ```
 
->[!NOTE]
+>[!TIP]
 >
 >Adobe reserves the namespace `a.`. Other than this restriction, context data variables just need to be unique in your login company to avoid collisions.
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-To set *`products`* in the mobile SDK, you must use a special syntax. For more information, see [Products Variable](/help/universal-windows/analytics/products.md).
+To set *`products`* in the mobile SDK, you must use a special syntax. For more information, see [Products variable](/help/universal-windows/analytics/products.md).
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json Config File Reference](/help/universal-windows/c-configuration/methods.md) file. Pay close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
+To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. Pay close attention to the timestamp requirements described in the config file reference before you enable offline tracking.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
 Geo-location lets you measure location data (latitude/longitude) and pre-defined points of interest. Each `TrackLocation` call sends:
 
-* Latitude/Longitude, and POI (if within a POI defined in the `ADBMobileConfig.json` config file). These are passed to mobile solution variables for automatic reporting. 
-* Distance from center & accuracy passed as context data. Capture using a processing rule.
+* Latitude/Longitude, and POI (if within a POI defined in the `ADBMobileConfig.json` config file). 
+
+    These are passed to mobile solution variables for automatic reporting. 
+
+* Distance from center and accuracy passed as context data. 
+
+  Capture using a processing rule.
 
 To track a location:
 
@@ -247,12 +257,3 @@ ADB.Analytics.trackTimedActionStart("TimeUntilPurchase", cdata);
 var ADB = ADBMobile; 
 ADB.Analytics.trackTimedActionEnd("TimeUntilPurchase");
 ```
-
-## Additional information
-
-For more information, see the following links:
-
-* [Products variable](/help/universal-windows/analytics/products.md)
-* [Event serialization](/help/universal-windows/analytics/event-serialization.md)
-* [Video Analytics](/help/universal-windows/analytics/video-qs.md)
-* [Analytics methods](/help/universal-windows/analytics/analytics-methods.md)

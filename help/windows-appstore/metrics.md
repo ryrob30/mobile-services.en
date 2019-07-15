@@ -13,11 +13,11 @@ uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 
 Lists the metrics and dimensions that can be measured automatically by the mobile library.
 
-For more information, go to the Knowledge Base at [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+For more information, see [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-When configured, lifecycle metrics are sent in context data parameters to Analytics, in parameters to Target with each mbox call, and as a signal to Audience Manager. Analytics and Target use the same format, while Audience Manager uses a different prefix for each metric.
+When configured, lifecycle metrics are sent in context data parameters to Analytics, in parameters to Target with each mbox call, and as a signal to Audience Manager. Analytics and Target use the same format, and Audience Manager uses a different prefix for each metric.
 
 For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported on by using the metric or dimension listed below, and exceptions are noted.
 

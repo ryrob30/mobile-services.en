@@ -31,7 +31,7 @@ When you build for iOS, an Xcode Project is created. By default, the `ADBMobileW
 
 ## Android
 
-When you build for Android, the [!DNL `apk`] file already includes the [!DNL `ADBMobileConfig.json`] file in the correct location. By default, the [!DNL `AndroidManifest.xml`] file in your [!DNL /Plugins/Android] folder is also used.
+When you build for Android, the `apk` file already includes the `ADBMobileConfig.json` file in the correct location. By default, the `AndroidManifest.xml` file in your `/Plugins/Android` folder is also used.
 
 If you need to use your own custom manifest file, the following changes should be added.
 

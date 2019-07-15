@@ -83,7 +83,7 @@ uuid: af504934-febd-45d9-81e2-2a310f4c65dc
   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Hits are discarded. 
   * `MOBILE_PRIVACY_STATUS_UNKNOWN`: If offline tracking is enabled, hits are saved until the privacy status changes to opt-in (then hits are sent) or opt-out (then hits are discarded). 
   
-    If offline tracking is not enabled, hits are discarded until the privacy status changes to opt in. The default value is set in [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+    If offline tracking is not enabled, hits are discarded until the privacy status changes to opt in. The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
 
   * Here is the syntax for this method:
 

@@ -21,7 +21,7 @@ For more information about importing the SDK into your project, see [Core Implem
 
    >[!TIP]
    >
-   >You might need to sync the gradle project after adding the [!DNL .jar] file.
+   >You might need to sync the gradle project after adding the `.jar` file.
 
 1. In the `onCreate` method, allow the SDK access to your application context by using `Config.setContext`: 
 
@@ -51,7 +51,7 @@ For more information about importing the SDK into your project, see [Core Implem
    ```
 
 1. Make sure your project includes the Google play-services library. 
-1. Implement [!DNL WearableListenerService] or add the corresponding code to your `WearableListenerService`: 
+1. Implement `WearableListenerService` or add the corresponding code to your `WearableListenerService`: 
 
    ```java
    public class WearListenerService extends WearableListenerService { 
