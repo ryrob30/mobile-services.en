@@ -15,3 +15,4 @@ user-guide-title: Mobile Services Xamarin Help
 + iOS {#ios-xamarin}
   + [iOS methods](c-ios/methods-ios.md)
   + [Classes and enums](c-ios/c-classes-enums-constants.md)
+  + [New file](c-ios/bob.md)
