@@ -112,7 +112,8 @@ You can create a Marketing Link by using a Universal or App Link.
     >
     >You can update the documents by clicking Update from the Universal Links and App Links Options section. However, when you click Update, a warning notifies you that all universal links or app links that you created in the past will be affected.
 
-### Use a App Link
+### Use an App Link
+
 1. In Adobe Mobile Services, create a Marketing Link that uses App Links:
 
     a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
