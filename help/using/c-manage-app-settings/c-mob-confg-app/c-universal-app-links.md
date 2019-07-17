@@ -33,11 +33,11 @@ You can create a Marketing Link by using a Universal or App Link.
 
 2. In Adobe Mobile Services, set up the site-association documents:
 
-    a. In the Mobile Services home page, select the app for which you want to set up Universal Links or App Links.
+    a. In the Mobile Services home page, select the app for which you want to set up Universal Links.
 
     b. Click **[!UICONTROL Manage App Settings]**.
 
-    c. Ensure the iOS or Android app that handles universal links or app links is added to the **[UICONTROL Add App Store App]** section.
+    c. Ensure the iOS app that handles the universal links is added to the **[UICONTROL Add App Store Apps]** section.
 
     >[!TIP]
     >
@@ -47,13 +47,15 @@ You can create a Marketing Link by using a Universal or App Link.
 
     f. Click **[!UICONTROL Save]**.
 
-    You must provide at least the iOS App ID and SHA-256 certificate (Android),or you will receive an error.
+    You must provide at least one iOS App selection and App ID,or you will receive an error.
 
     >[!IMPORTANT]
     >
     >You can update the documents by clicking Update from the Universal Links and App Links Options section. However, when you click Update, a warning notifies you that all universal links or app links that you created in the past will be affected.
 
-3. In Adobe Mobile Services, create the app link in the Marketing Link Builder, create a Marketing Link that uses Universal Links:
+### Use a Universal Link
+
+1. In Adobe Mobile Services, create a Marketing Link that uses Universal Links:
 
     a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
@@ -71,7 +73,7 @@ You can create a Marketing Link by using a Universal or App Link.
 
     f. Click the **[!UICONTROL Decisions]** tab and configure your decision tree.
 
-    h. If the iOS app is installed, the app handles the deeplink with its logic. The final destination serves only as the fallback when the app is not installed. (The app is not installed.) Since the app is not installed, the final destination can only be a web link or app store.
+    h. If the iOS app is installed, the app handles the deeplink with its logic. The final destination serves only as the fallback when the app is not installed. Since the app is not installed, the final destination can only be a web link or app store.
 
     i. Click **[!UICONTROL Save]**.
 
@@ -86,7 +88,7 @@ You can create a Marketing Link by using a Universal or App Link.
 
 2. In Adobe Mobile Services, set up the site-association documents:
 
-    a. In the Mobile Services home page, select the app for which you want to set up universal links or app links.
+    a. In the Mobile Services home page, select the app for which you want to set up app links.
 
     b. Click **[!UICONTROL Manage App Settings]**.
 
@@ -110,13 +112,14 @@ You can create a Marketing Link by using a Universal or App Link.
     >
     >You can update the documents by clicking Update from the Universal Links and App Links Options section. However, when you click Update, a warning notifies you that all universal links or app links that you created in the past will be affected.
 
-3. In Adobe Mobile Services, create the app link in the Marketing Link Builder:
+### Use a App Link
+1. In Adobe Mobile Services, create a Marketing Link that uses App Links:
 
     a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
     b. Click **[!UICONTROL Create New]**.
 
-    c. In the **[!UICONTROL Marketing Link Options]** section, select **[UICONTROL Use Universal Links or App Links]**.
+    c. In the **[!UICONTROL Marketing Link Options]** section, select **[!UICONTROL Use Universal Links or App Links]**.
 
     d. If you configured the site-association documents from step 2, this option is selected by default. 
 
@@ -124,13 +127,11 @@ You can create a Marketing Link by using a Universal or App Link.
 
     e. If **[!UICONTROL Use Universal Links or App Links]** is selected, the **[!UICONTROL Custom Path]** field is displayed. 
 
-      This allows users to define the URL path after the domain with any query parameter. For example, if you type `my/universal/link?os=9.2`, your full marketing link URL becomes `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
-
-    **(We need an Android example here. This one is iOS. I’ll find one.)**
+      This allows users to define the URL path after the domain with any query parameter. For example, if you type `my/app/link?os=6.0`, your full marketing link URL becomes `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`.
 
     f. Click the **[!UICONTROL Decisions]** tab and configure your decision tree.
 
-    g. If the iOS app is installed, the app handles the deeplink with its logic. 
+    g. If the Android app is installed, the app handles the deeplink with its logic. 
 
       The final destination serves only as the fallback case for when the app is not installed. Since the app is not installed, the final destination can only be a web link or app store.
 
@@ -144,7 +145,7 @@ You can create a Marketing Link by using a Universal or App Link.
 
 You can now use these Marketing Links in messaging and other areas in your app.
 
->[!IMPORTANT}
-
-You will not see click tracking counts with Universal Links or App Links, and you can also not use interstitials. 
+>[!IMPORTANT]
+>
+>You will not see click tracking counts with Universal Links or App Links, and you can also not use interstitials. 
 
