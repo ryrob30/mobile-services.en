@@ -33,7 +33,7 @@ user-guide-title: Mobile Services User Help
     + [Download mobile SDKs and tools](c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
     + [Configure Audience Manager options](c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
     + [Configure SDK Acquisition options](c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
-    + [Universal links and app links](c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
+    + [Apple Universal Links and Android App Links](c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
     + [Configure SDK ID Service options](c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
     + [Configure Postbacks](c-manage-app-settings/c-mob-confg-app/signals.md)
     + [Configure push messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)

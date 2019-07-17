@@ -1,6 +1,6 @@
 ---
 description: BlackBerry 10 SDK 4.x for Experience Cloud Solutions lets you measure native BlackBerry 10 applications by using Adobe Analytics.
-seo-description: BlackBerry 10 SDK 4.x for Experience Cloud Solutions lets you measure native BlackBerry 10 applications by using Adobe Analytics.
+seo-description: BlackBerry 10 SDK 4.x for Experience Cloud Solutions lets you measure native BlackBerry 10 applications by using Adobe Analytics
 seo-title: BlackBerry 10 SDK 4.x for Experience Cloud Solutions
 title: BlackBerry 10 SDK 4.x for Experience Cloud Solutions
 uuid: c336db33-2cb5-48fe-a3f5-2d3ced6c3966

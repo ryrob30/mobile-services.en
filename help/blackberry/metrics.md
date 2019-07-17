@@ -257,4 +257,3 @@ The following metrics and dimensions are captured in mobile solution variables b
   * Audience Management trait:
 
     * `c_a_loc_dist`
-
