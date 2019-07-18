@@ -1,7 +1,7 @@
 ---
-description: Acquisition tracking must be enabled in the SDK configuration before you can track and report on marketing links.
+description: Acquisition tracking must be enabled in the SDK configuration before you can track and report on Marketing Links.
 keywords: mobile
-seo-description: Acquisition tracking must be enabled in the SDK configuration before you can track and report on marketing links.
+seo-description: Acquisition tracking must be enabled in the SDK configuration before you can track and report on Marketing Links.
 seo-title: Configure Acquisition
 solution: Marketing Cloud,Analytics
 title: Configure Acquisition
@@ -11,7 +11,7 @@ uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 
 # Configure Acquisition {#configure-acquisition}
 
-Acquisition tracking must be enabled in the SDK configuration before you can track and report on marketing links.
+Acquisition tracking must be enabled in the SDK configuration before you can track and report on Marketing Links.
 
 1. On the Manage App Settings page for the app, scroll to the **[!UICONTROL SDK Acquisition Options]** section.
 1. Complete the following tasks:

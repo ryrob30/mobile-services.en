@@ -1,7 +1,7 @@
 ---
-description: You can create or edit marketing links to provide deep linking into your mobile app or your website.
+description: You can create or edit Marketing Links to provide deep linking into your mobile app or your website.
 keywords: mobile
-seo-description: You can create or edit marketing links to provide deep linking into your mobile app or your website.
+seo-description: You can create or edit Marketing Links to provide deep linking into your mobile app or your website.
 seo-title: Create or Edit Marketing Links
 solution: Marketing Cloud,Analytics
 title: Create or Edit Marketing Links
@@ -11,19 +11,19 @@ uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 
 # Create or edit marketing links{#create-or-edit-marketing-links}
 
-You can create or edit marketing links to provide deep linking to your mobile app or your website. For more information, see [Universal links and app links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+You can create or edit Marketing Links to provide deep linking to your mobile app or your website. For more information, see [Apple Universal Links and Android App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
 1. In your app, in the left navigation pane, expand **[!UICONTROL Acquisition]** and click **[!UICONTROL Marketing Link Builder]**.
 1. Complete one of the following tasks:
 
-    * To create a marketing link, click **[!UICONTROL Create New]**.
+    * To create a Marketing Link, click **[!UICONTROL Create New]**.
     * To edit a link, click the link's name in the **[!UICONTROL Title]** column.
 
 1. Type information in the following fields:
 
     * **[!UICONTROL Marketing Link Name]**:
 
-      (**Required**) Specify a descriptive name for your marketing link. The name displays only on the Marketing Links page in the Adobe Mobile Services UI. A descriptive name helps you or others in your organization quickly find a specific link and can provide insight into its purpose.
+      (**Required**) Specify a descriptive name for your Marketing Link. The name displays only on the Marketing Links page in the Adobe Mobile Services UI. A descriptive name helps you or others in your organization quickly find a specific link and can provide insight into its purpose.
 
     * **[!UICONTROL Unique Tracking Code]**:
 
@@ -31,7 +31,7 @@ You can create or edit marketing links to provide deep linking to your mobile ap
 
     * **[!UICONTROL Add Tracking Context Data]**:
 
-      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. In the **[!UICONTROL Custom Context Data]** drop-down list, select a preset tag or one of your own tags. Context data is used for reporting when the marketing link is deployed.
+      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. In the **[!UICONTROL Custom Context Data]** drop-down list, select a preset tag or one of your own tags. Context data is used for reporting when the Marketing Link is deployed.
 
       The following preset tags are available:
 
@@ -55,9 +55,9 @@ You can create or edit marketing links to provide deep linking to your mobile ap
     * **(Required)** In **[!UICONTROL Fallback URL]**, specify the URL that users are directed to when a destination cannot be matched (for example, if the user is on a desktop or another platform that does not match a destination rule).
     * In **[!UICONTROL Marketing Link Options]**, select **[!UICONTROL Interstitials]** or **[!UICONTROL Universal and App Links]**.
 
-      For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md) or [Universal links and app links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+      For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md) or [Apple Universal Links and Android App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
-    * **(Conditional)** If **[!UICONTROL Universal or App Links]** is selected, in **[!UICONTROL Custom Path]**, users can define the URL path after the domain with any query parameter. For more information, see [Universal links and app links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
+    * **(Conditional)** If **[!UICONTROL Universal or App Links]** is selected, in **[!UICONTROL Custom Path]**, users can define the URL path after the domain with any query parameter. For more information, see [Apple Universal Links and Android App Links](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]** and configure the link.
 
@@ -96,4 +96,4 @@ You can create or edit marketing links to provide deep linking to your mobile ap
 
       For more information, see [Create a new link destination](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
-1. To save the marketing link, click ![elipses](assets/icon_elipses.png) and then **[!UICONTROL Save]**.
+1. To save the Marketing Link, click ![elipses](assets/icon_elipses.png) and then **[!UICONTROL Save]**.

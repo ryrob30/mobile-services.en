@@ -37,7 +37,7 @@ Adobe Mobile Services helps drive mobile app engagement in the following way:
 
 In *Acquire*, you use paid, owned, and earned media to drive user acquisition for app downloads across the leading app stores. Using Adobe Mobile Services, you can accelerate the app user acquisition process.
 
-Adobe Mobile Services provide user acquisition workflows, including acquisition tracking and deep linking, that measure the effectiveness of your channels in acquiring app users. With marketing links that track which users came from which channel, you can gain visibility into which acquisition channels are most effective in driving profitable and engaged users.
+Adobe Mobile Services provide user acquisition workflows, including acquisition tracking and deep linking, that measure the effectiveness of your channels in acquiring app users. With Marketing Links that track which users came from which channel, you can gain visibility into which acquisition channels are most effective in driving profitable and engaged users.
 
 In addition, with deep linking, you can drive users directly into the app content you would like them to see and encourage them to install your app if necessary.
 

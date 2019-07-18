@@ -112,7 +112,7 @@ Points of interest allow you to define geographical locations that you can use f
 
 ## Manage Link Destinations {#section_F722A387E22A430187B063D358A87711}
 
-You can create, edit, archive/unarchive, and delete link destinations. These destinations can then be called inline when building marketing links, push notifications, or in-app messages. For more information about link destinations, see [Manage Link Destinations](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md).
+You can create, edit, archive/unarchive, and delete link destinations. These destinations can then be called inline when building Marketing Links, push notifications, or in-app messages. For more information about link destinations, see [Manage Link Destinations](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md).
 
 ## Manage Postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
