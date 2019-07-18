@@ -14,7 +14,7 @@ Release notes and known issues for iOS SDKs 4.x for Experience Cloud Solutions.
 
 ## Mobile Services releases {#mobile-monthly-releases}
 
-### Release date: April 11, 2019
+### Release date: July 18, 2019
 
 New features, updates, and fixes to the Android SDKs:
 
