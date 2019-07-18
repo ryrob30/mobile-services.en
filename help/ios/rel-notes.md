@@ -14,15 +14,15 @@ Release notes and known issues for iOS SDKs 4.x for Experience Cloud Solutions.
 
 ## Mobile Services releases {#mobile-monthly-releases}
 
-### Release date: April 11, 2019
+### Release date: July 18, 2019
 
 New features, updates, and fixes to the Android SDKs:
 
-* **iOS version 4.18.2**
+* Adobe Target: All requests now include the client and the `sessionId` in the URL query parameters.
+* Adobe Target: Fixed a memory leak.
+* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. 
 
-  **Adobe Target**: 
-  
-  Fixed an issue that prevented the `purchasedProductIds` from being correctly represented as an array for view notifications.
+  The double-encoding was causing the return values from those APIs to be flagged by certain security reviews.
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 

@@ -14,11 +14,15 @@ Release notes and known issues for Android SDK 4.x for Experience Cloud Solution
 
 ## Mobile Services releases {#monthly-mobile-releases}
 
-Release date: **June 13, 2019**
+Release date: **July 18, 2019**
 
 New features, updates, and fixes to the Android SDKs:
 
-TLS 1.0 has been disabled on all Adobe servers. For Android 4.x devices to connect to Adobe services through SSL, the SDK will now force TLS 1.1/TLS 1.2 when establishing a handshake.
+* Adobe Target: All requests now include the client and the sessionId in the URL query parameters.
+* In-app Messaging: Fixed an issue where, when a message was trigged with an empty clickthrough URL, Android apps crashed.
+* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values.
+
+   The double-encoding was causing the return values from those APIs to be flagged by certain security reviews.
 
 For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
 
