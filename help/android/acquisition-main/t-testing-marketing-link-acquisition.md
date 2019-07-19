@@ -1,7 +1,7 @@
 ---
-description: The following instructions help you roundtrip an acquisition campaign with a marketing link on an Android device.
+description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
 keywords: android;library;mobile;sdk
-seo-description: The following instructions help you roundtrip an acquisition campaign with a marketing link on an Android device.
+seo-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
 seo-title: Testing Marketing Link Acquisition
 solution: Marketing Cloud,Analytics
 title: Testing Marketing Link Acquisition
@@ -9,16 +9,16 @@ topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 ---
 
-# Testing marketing link acquisition {#testing-marketing-link-acquisition}
+# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
 
-The following instructions help you roundtrip an acquisition campaign with a marketing link on an Android device.
+The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
 
-If your mobile app is not yet in Google Play, you can select any mobile app as a destination when creating the marketing link. This only affects the app to which the acquisition server redirects you, after you click the acquisition link, and not the ability to test the acquisition link. Query string parameters are passed to the Google Play store, which are passed to the app at install as part of a campaign broadcast. Roundtrip mobile app acquisition testing requires the simulation of this type of broadcast.
+If your mobile app is not yet in Google Play, you can select any mobile app as a destination when creating the Marketing Link. This only affects the app to which the acquisition server redirects you, after you click the acquisition link, and not the ability to test the acquisition link. Query string parameters are passed to the Google Play store, which are passed to the app at install as part of a campaign broadcast. Roundtrip mobile app acquisition testing requires the simulation of this type of broadcast.
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. This ensures that the initial lifecycle metrics that are associated with the campaign query string parameters are sent when the app is first launched. 
 
 1. Complete the prerequisite tasks in [Mobile app acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
-1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets Google Play as the destination for Android devices.
+1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -134,4 +134,4 @@ For example:
 java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
 ```
 
-The marketing links are cached on the server side with a ten-minutes expiration time. When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again.
+The Marketing Links are cached on the server side with a ten-minutes expiration time. When you make changes to marking links, wait about 10 minutes before the changes take effect before you use the links again.

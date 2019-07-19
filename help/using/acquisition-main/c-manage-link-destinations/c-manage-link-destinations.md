@@ -1,7 +1,7 @@
 ---
-description: In the Manage Link Destinations page, you can create, edit, archive/unarchive, and delete link destinations. These destinations can be called inline when building marketing links, push notifications, or in-app messages.
+description: In the Manage Link Destinations page, you can create, edit, archive/unarchive, and delete link destinations. These destinations can be called inline when building Marketing Links, push notifications, or in-app messages.
 keywords: mobile
-seo-description: In the Manage Link Destinations page, you can create, edit, archive/unarchive, and delete link destinations. These destinations can be called inline when building marketing links, push notifications, or in-app messages.
+seo-description: In the Manage Link Destinations page, you can create, edit, archive/unarchive, and delete link destinations. These destinations can be called inline when building Marketing Links, push notifications, or in-app messages.
 seo-title: Create and Manage Link Destinations
 solution: Marketing Cloud,Analytics
 title: Create and Manage Link Destinations
@@ -11,7 +11,7 @@ uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
 
 # Create and manage link destinations{#create-and-manage-link-destinations}
 
-In the Manage Link Destinations page, you can create, edit, archive/unarchive, and delete link destinations. These destinations can be called inline when building marketing links, push notifications, or in-app messages.
+In the Manage Link Destinations page, you can create, edit, archive/unarchive, and delete link destinations. These destinations can be called inline when building Marketing Links, push notifications, or in-app messages.
 
 To display the Manage Link Destinations page:
 

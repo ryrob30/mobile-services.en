@@ -20,7 +20,7 @@ You can create a new link destination that directs users to a web or a deep link
 1. Type information in the following fields:
     * **[!UICONTROL Title]**
 
-      Type a descriptive name for your app link destination. The title displays only on the Manage Link Destinations page in the Adobe Mobile Services UI. A descriptive name helps you or others in your organization quickly find a specific link destination and can provide insight into its purpose.
+      Type a descriptive name for your App Link destination. The title displays only on the Manage Link Destinations page in the Adobe Mobile Services UI. A descriptive name helps you or others in your organization quickly find a specific link destination and can provide insight into its purpose.
 
     * **[!UICONTROL Link Type]**
 

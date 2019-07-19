@@ -13,7 +13,7 @@ uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 
 You can route users to a destination depending on whether they have the app installed (an app deep link) or not installed (to a website or an app store). The choice of routing is best left to users. Marketers can provide user choices by configuring an interstitial page that shows users the available landing destinations.
 
-To configure an interstitial when creating a marketing link:
+To configure an interstitial when creating a Marketing Link:
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]**.
 

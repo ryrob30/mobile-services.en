@@ -24,19 +24,19 @@ As of September 2018, we released a new, major version of the SDK. These new Ado
 
 >[!IMPORTANT]
 >
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). For more information about using Acquisition and marketing links with the Experience Cloud SDKs, see [Acquisition and marketing links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). For more information about using Acquisition and Marketing Links with the Experience Cloud SDKs, see [Acquisition and Marketing Links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
 
 >[!IMPORTANT]
 >
 >Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
 
-You can create, edit, manage, and view reports on trackable mobile app marketing links.
+You can create, edit, manage, and view reports on trackable mobile app Marketing Links.
 
 >[!TIP]
 >
 >This functionality requires the Adobe Analytics - Mobile Apps or the Adobe Analytics Premium SKU.
 
-The following Acquisition reports provide insight into how your marketing links are performing:
+The following Acquisition reports provide insight into how your Marketing Links are performing:
 
 * **Overview** {#section_5B2BA47F22694919A472AB591101237E}
 
@@ -46,7 +46,7 @@ The following Acquisition reports provide insight into how your marketing links 
 
 * **Link Report** {#section_A23A640C363B43569D9D484CF49EA277}
 
-  This report provides a ranked view into your marketing links performance. In addition to seeing your link names with key performance metrics, this report is also customizable. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
+  This report provides a ranked view into your Marketing Links performance. In addition to seeing your link names with key performance metrics, this report is also customizable. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
 
   Remember the following information:
 

@@ -80,9 +80,9 @@ Marketers may choose any Analytics data or event that is being sent as a trigger
 
 Push messages are sent using pre-existing Adobe Analytics segments or custom segments that may be created on historic Analytics data already collected. For more information, see [Experience: Push Message](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md). 
 
-### Why am I getting an error with the in-app, push, or marketing link name that I typed? 
+### Why am I getting an error with the in-app, push, or Marketing Link name that I typed? 
 
-You cannot use the same in-app message, push message, or marking link name in multiple apps that use the same parent report suite or VRS. To resolve this issue, enter another name for your in-app message, push message, or marketing link. 
+You cannot use the same in-app message, push message, or marking link name in multiple apps that use the same parent report suite or VRS. To resolve this issue, enter another name for your in-app message, push message, or Marketing Link. 
 
 ## Location {#section_01208FE3B7764E0DADDCB9AD9E1FCD87}
 
@@ -98,4 +98,4 @@ Yes. Adobe Mobile Services can help you build marketing tricks that help promote
 
 ### How can I set up links to acquire and track new app users? 
 
-You can create marketing links that route users to download applications from the Apple App Store and Google Play. These links allow you to attribute your success events to the downloads. For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
+You can create Marketing Links that route users to download applications from the Apple App Store and Google Play. These links allow you to attribute your success events to the downloads. For more information, see [Marketing Links Builder](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).

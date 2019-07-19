@@ -13,15 +13,15 @@ uuid: a224499a-5a51-4ca5-a37b-06792b774671
 
 Complete the following prerequisites before you use acquisition links.
 
-To track marketing links, ensure that you meet the following prerequisites:
+To track Marketing Links, ensure that you meet the following prerequisites:
 
 1. Ensure that you have a mobile app report suite.
 
-   You must create a new mobile app report suite or have an existing report suite that can collect, track, and report on data that is collected from your marketing links. For more information about creating a new mobile app report suite, see [Add a new app](/help/using/manage-apps/t-new-app.md). 
+   You must create a new mobile app report suite or have an existing report suite that can collect, track, and report on data that is collected from your Marketing Links. For more information about creating a new mobile app report suite, see [Add a new app](/help/using/manage-apps/t-new-app.md). 
 
 1. Verify your SDK version.
 
-   The latest marketing link tracking functionality requires SDK version 4.9 or later. 
+   The latest Marketing Link tracking functionality requires SDK version 4.9 or later. 
 
    **Supported Functionality**
 

@@ -1,7 +1,7 @@
 ---
-description: You can create marketing links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
+description: You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 keywords: mobile
-seo-description: You can create marketing links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
+seo-description: You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 seo-title: Manually create Acquisition links
 solution: Marketing Cloud,Analytics
 title: Manually create Acquisition links
@@ -11,7 +11,7 @@ uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 
 # Manually create Acquisition links {#create-acquisition-link-manually}
 
-You can create marketing links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
+You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 
 >[!IMPORTANT]
 >

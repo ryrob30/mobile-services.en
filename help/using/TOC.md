@@ -74,7 +74,7 @@ user-guide-title: Mobile Services User Help
     + [Manage link destinations](acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
     + Marketing Link Builder {#marketing-links-builder}
       + [Marketing Links Builder](acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)
-      + [Create or edit marketing links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
+      + [Create or edit Marketing Links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
       + [Interstitials](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)
     + Legacy Acquisition links {#legacy-acquisition-links}
       + [Use legacy Acquisition links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)
@@ -82,7 +82,7 @@ user-guide-title: Mobile Services User Help
       + [Manage Acquisition links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/c-manage-acquisition-links.md)
       + [Delete Acquisition links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-del.md)
       + [Import or export Acquisition links](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-manage-acquisition-links/t-acquisition-import.md)
-      + [Manage marketing links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
+      + [Manage Marketing Links](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
       + [Manually create Acquisition links](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
 + Location {#location-ug}
   + [Location overview](location/location-overview.md)
