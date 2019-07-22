@@ -27,11 +27,11 @@ App Links allow you to connect to deep links in your Android app and is supporte
 
 ## Create a Marketing Link by using a Universal or App Link {#section_609ADEFFB9B441C4A8C45E936D0DC859}
 
-You can create a Marketing Link by using a Universal or App Link.
+You can create a Marketing Link that uses a Universal or App Link.
 
 ### Configure a Universal Link
 
-1. To set up Universal Links in your iOS app, go to [Handling Universal Links in Apple](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/handling_universal_links) developer documentation.
+1. To set up Universal Links in your iOS app, go to [Handling Universal Links in Apple](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/handling_universal_links).
 
 2. In Adobe Mobile Services, set up the site-association documents:
 
@@ -43,17 +43,17 @@ You can create a Marketing Link by using a Universal or App Link.
 
     >[!TIP]
     >
-    >If this section does not display, click the **[!UICONTROL Add App Store App]** link.
+    >If the **[!UICONTROL Add App Store Apps]** section does not display, click the **[!UICONTROL Add App Store App]** link.
 
     d. In the **[!UICONTROL Universal Links and App Links Options]** section, select an iOS app and type the App ID.
 
     f. Click **[!UICONTROL Save]**.
 
-    You must provide at least one iOS app selection and App ID, or you will receive an error.
+    You must provide at least one iOS app selection and one App ID, or you will receive an error.
 
     >[!IMPORTANT]
     >
-    >You can update the documents by clicking Update from the Universal Links and App Links Options section. However, when you click Update, a warning notifies you that all Universal Links or App Links that you created in the past will be affected.
+    >You can update the documents by clicking Update from the Universal Links and App Links Options section. However, when you click **[!UICONTROL Update]**, a warning notifies you that all Universal Links or App Links that you created in the past will be affected.
 
 ### Use a Universal Link
 
@@ -71,7 +71,7 @@ You can create a Marketing Link by using a Universal or App Link.
 
     e. If the **[!UICONTROL Use Universal Links or App Links]** option is selected, the **[!UICONTROL Custom Path]** field is displayed. 
 
-    This allows users to define the URL path after the domain with any query parameter. For example, if you type `my/universal/link?os=9.2`, your full Marketing Link URL becomes `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
+      This allows users to define the URL path after the domain with any query parameter. For example, if you type `my/universal/link?os=9.2`, your full Marketing Link URL becomes `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
 
     f. Click the **[!UICONTROL Decisions]** tab and configure your decision tree.
 
@@ -88,7 +88,7 @@ You can create a Marketing Link by using a Universal or App Link.
 
 1. To set up App Links in your Android app, go to [Add Android App Links](https://developer.android.com/studio/write/app-link-indexing).
 
-2. In Adobe Mobile Services, set up the site-association documents:
+1. In Adobe Mobile Services, set up the site-association documents:
 
     a. In the Mobile Services home page, select the app for which you want to set up App Links.
 
@@ -107,12 +107,12 @@ You can create a Marketing Link by using a Universal or App Link.
     f. Select an Android app and type a SHA-256 certificate fingerprint.
 
     g. Click **[!UICONTROL Save]**.
-
-    You must provide at least one Android app selection and one SHA-256 certificate, or you will receive an error.
+    
+      You must provide at least one Android app selection and one SHA-256 certificate, or you will receive an error.
 
     >[!IMPORTANT]
     >
-    >You can update the documents by clicking Update from the Universal Links and App Links Options section. However, when you click Update, a warning notifies you that all Universal Links or App Links that you created in the past will be affected.
+    >You can update the documents by clicking **[!UICONTROL Update]** from the **[!UICONTROL Universal Links and App Links Options]** section. However, when you click **[!UICONTROL Update]**, a warning notifies you that all Universal Links or App Links that you created in the past will be affected.
 
 ### Use an App Link
 
