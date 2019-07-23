@@ -105,9 +105,17 @@ Here is the list of default mobile dimensions:
 
   Number of days since the application version number has changed.
 
+  >[!TIP]
+  >
+  >Days since last upgrade is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. 
+
 * **Launches Since Last Upgrade**
 
   Number of launches since the application version number has changed.
+
+  >[!TIP]
+  >
+  >Launches since last upgrade is not automatically stored in an Analytics variable. You must create a processing rule to copy this value to an Analytics variable for reporting. 
 
 * **Device Name**
 
