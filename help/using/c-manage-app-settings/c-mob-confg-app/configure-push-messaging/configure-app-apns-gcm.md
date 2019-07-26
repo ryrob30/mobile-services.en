@@ -73,7 +73,7 @@ To configure your Android app to use FCM in this scenario:
    - Sender ID = 835015092250
    ```
 
-### 
+
 
 ## iOS apps {#section_2031DAB485FC4D2B9027E42AD90B294D}
 
