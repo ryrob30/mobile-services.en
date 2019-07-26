@@ -55,7 +55,8 @@ To use push messaging, you **must** have SDK version 4.6 or later.
    Here are the requirements to enable push click-through reporting:
 
     * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. This can be done using the `putExtras` method. For more information, see [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))). 
-    
+
+
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
