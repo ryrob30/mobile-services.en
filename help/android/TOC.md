@@ -48,6 +48,7 @@ user-guide-title: Mobile Services Android Help
   + [Testing Marketing Link acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
   + [Testing V3 acquisition](acquisition-main/t-testing-version-3-acquisition.md)
   + [Testing legacy acquisition](acquisition-main/t-testing-acquisition.md)
+  + [Troubleshooting Acquisition testing]()
 + Messaging{#messaging-android}
   + [Messaging overview](messaging-main/messaging-main-android.md)
   + In-app messaging{#inapp-messaging}
