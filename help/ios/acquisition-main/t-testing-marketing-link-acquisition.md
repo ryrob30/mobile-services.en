@@ -1,20 +1,20 @@
 ---
-description: The following instructions help you roundtrip an acquisition campaign with a marketing link that is based on a device fingerprint.
+description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link that is based on a device fingerprint.
 keywords: android;library;mobile;sdk
-seo-description: The following instructions help you roundtrip an acquisition campaign with a marketing link that is based on a device fingerprint.
-seo-title: Testing marketing link acquisition
+seo-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link that is based on a device fingerprint.
+seo-title: Testing Marketing Link acquisition
 solution: Marketing Cloud,Analytics
-title: Testing marketing link acquisition
+title: Testing Marketing Link acquisition
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
 ---
 
-# Testing marketing link acquisition {#testing-marketing-link-acquisition}
+# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
 
-The following instructions help you roundtrip an acquisition campaign with a marketing link that is based on a device fingerprint.
+The following instructions help you roundtrip an acquisition campaign with a Marketing Link that is based on a device fingerprint.
 
 1. Complete the prerequisite tasks in [Mobile App Acquisition](/help/ios/acquisition-main/acquisition.md).
-1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition marketing link URL that sets the App Store as the destination for iOS devices.
+1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
 
     For example:
 
@@ -97,6 +97,6 @@ Remember the following information:
 
   If the link and the hit are using different protocols, where for example, the link uses HTTP and the SDK uses HTTPS, the IP address might differ on some carriers for each request. This could cause the attribution to fail. 
 
-* The marketing links are cached on the server side with a ten-minutes expiration time. 
+* The Marketing Links are cached on the server side with a ten-minutes expiration time. 
 
-  When you make changes to marketing links, you should wait about 10 minutes before using the links.
+  When you make changes to Marketing Links, you should wait about 10 minutes before using the links.

@@ -17,7 +17,7 @@ You can create app store links that let you download applications directly from 
 1. Type the following information in the **[!UICONTROL Link Information]** section:
 
     * (**Required**) **[!UICONTROL Name]**
-    Specify a descriptive name for the app link.
+    Specify a descriptive name for the App Link.
     * **[!UICONTROL Tracking Code]**
       Specify the desired tracking code or click **[!UICONTROL Generate]** to create a new tracking code.
     * (**Required**) **[!UICONTROL Source]**

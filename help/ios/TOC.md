@@ -47,7 +47,7 @@ user-guide-title: Mobile Services iOS Help
   + Tracking deep links {#tracking-deep-links}
     + [Tracking deep links](acquisition-main/tracking-deep-links/tracking-deep-links.md)
     + [Tracking third-party deferred deep links](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deep-deferred-links.md)
-  + [Testing marketing link acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
+  + [Testing Marketing Link acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
   + [Testing V3 acquisition](acquisition-main/t-testing-version-3-acquisition.md)
   + [Testing legacy acquisition](acquisition-main/t-testing-acquisition.md)
   + [Apple Search Ads](acquisition-main/c-apple-search-ads.md)

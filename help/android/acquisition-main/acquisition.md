@@ -1,7 +1,7 @@
 ---
-description: Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the app store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
+description: Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 keywords: android;library;mobile;sdk
-seo-description: Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the app store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
+seo-description: Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 seo-title: Mobile App Acquisition
 solution: Marketing Cloud,Analytics
 title: Mobile App Acquisition
@@ -11,7 +11,7 @@ uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
 
 # Mobile app acquisition {#mobile-app-acquisition}
 
-Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the app store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
+Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 
 ## New Adobe Experience Cloud SDK Release
 
@@ -24,7 +24,7 @@ As of September 2018, we released a new, major version of the SDK. These new Ado
 
 >[!IMPORTANT]
 >
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). For more information about using Acquisition and marketing links with the Experience Cloud SDKs, see [Acquisition and marketing links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. For more information see [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services). For more information about using Acquisition and Marketing Links with the Experience Cloud SDKs, see [Acquisition and Marketing Links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
 
 >[!IMPORTANT]
 >
