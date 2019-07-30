@@ -48,16 +48,17 @@ user-guide-title: Mobile Services Android Help
   + [Testing marketing link acquisition](acquisition-main/t-testing-marketing-link-acquisition.md)
   + [Testing V3 acquisition](acquisition-main/t-testing-version-3-acquisition.md)
   + [Testing legacy acquisition](acquisition-main/t-testing-acquisition.md)
+  + [Troubleshoot Acquisition testing](acquisition-main/troubleshoot-acquisition-testing.md)
 + Messaging{#messaging-android}
   + [Messaging overview](messaging-main/messaging-main-android.md)
   + In-app messaging{#inapp-messaging}
     + [In-app messaging](messaging-main/messaging/messaging.md)
-    + [Troubleshooting in-app messaging](messaging-main/messaging/in-apps-ts.md)
+    + [Troubleshoot in-app messaging](messaging-main/messaging/in-apps-ts.md)
   + Push messaging{#push-messaging}
     + [Push messaging](messaging-main/push-messaging/push-messaging.md)
     + [Implement push messaging with deep linking](messaging-main/push-messaging/t-mob-impl-push-deeplinking-android-4x.md)
     + [Receive rich push notifications](messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
-    + [Troubleshooting push messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
+    + [Troubleshoot push messaging](messaging-main/push-messaging/c-troubleshooting-push-messaging.md)
 + Location{#location}
   + [Location overview](location/location.md)
   + [Geo-location and points of interest](location/geo-poi.md)
