@@ -148,7 +148,7 @@ The following is an example of an `ADBMobileConfig.json` file:
         "rsids" : "coolApp", 
         "server" : "my.CoolApp.com", 
         "charset" : "UTF-8", 
-        "ssl" : false, 
+        "ssl" : true, 
         "offlineEnabled" : true, 
         "lifecycleTimeout" : 300, 
         "privacyDefault" : "optedin", 

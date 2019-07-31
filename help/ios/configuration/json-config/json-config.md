@@ -292,7 +292,7 @@ Here is a sample `ADBMobileConfig.json` file:
     "analytics": { 
         "rsids": "coolApp", 
         "server": "my.CoolApp.com", 
-        "ssl": false, 
+        "ssl": true, 
         "offlineEnabled": true, 
         "charset": "UTF-8", 
         "lifecycleTimeout": 300, 
