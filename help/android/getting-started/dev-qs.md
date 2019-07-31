@@ -76,6 +76,19 @@ To add these permissions, add the following lines to your `AndroidManifest.xml` 
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
+## Config.setContext(this.getApplicationContext() API call {#lifecycle-start-pause-call}
+
+For Lifecycle start and pause to work, you must add the `Config.setContext(this.getApplicationContext()` API call:
+
+```java
+   @Override
+   public void onCreate(BundlesavedInstanceState){
+     super.onCreate(savedInstanceState)
+     setContentView(R.layout.main);
+     Config.setContext(this.getApplicationContext());
+   }
+   ````
+
 ## Implement lifecycle metrics {#section_BA686C09021F474AADDE8690BBB910F7}
 
 After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and many other metrics. For more information, see [Lifecycle Metrics](/help/android/metrics.md).
