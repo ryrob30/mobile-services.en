@@ -78,7 +78,7 @@ To add these permissions, add the following lines to your `AndroidManifest.xml` 
 
 ## Config.setContext(this.getApplicationContext() API call {#lifecycle-start-pause-call}
 
-For Lifecycle start and pause to work, you must add the `Config.setContext(this.getApplicationContext()` API call:
+The following code should be added in the `onCreate` method of your main activity:
 
 ```java
    @Override
