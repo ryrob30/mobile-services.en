@@ -2,14 +2,14 @@
 description: This information helps you troubleshoot push messaging.
 keywords: mobile
 seo-description: This information helps you troubleshoot push messaging.
-seo-title: Troubleshooting Push Messaging
+seo-title: Troubleshoot Push Messaging
 solution: Marketing Cloud,Analytics
-title: Troubleshooting Push Messaging
+title: Troubleshoot Push Messaging
 topic: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
 ---
 
-# Troubleshooting push messaging {#troubleshooting-push-messaging}
+# Troubleshoot push messaging {#troubleshooting-push-messaging}
 
 This information helps you troubleshoot push messaging.
 

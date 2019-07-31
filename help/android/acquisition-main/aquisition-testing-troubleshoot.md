@@ -41,4 +41,4 @@ Here are some issues you might face when testing Acquisition and some possible s
 
 >[!IMPORTANT]
 >
->You must run these two commands independently to process the referrer intent correctly.  Otherwise, `adb` will double escape the referrer information, and the data received by the broadcast receiver will be incomplete.
+>You must run these two commands independently to process the referrer intent correctly.  Otherwise, `adb` double escapes the referrer information, and the data received by the broadcast receiver will be incomplete.
