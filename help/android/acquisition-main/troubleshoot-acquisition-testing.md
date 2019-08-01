@@ -20,7 +20,7 @@ This topic provides information about how to troubleshoot issues you might face 
 
   For more information, see [Configuration methods](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html).
 
-* Ensure that the required permissions for the Mobile SDK are present in the `AndroidManifest.xml` file, and these permissions are required to send data and record offline tracking calls:
+* Ensure that the required permissions for the Mobile SDK are present in the `AndroidManifest.xml` file:
  
     ```html
     <manifest ..>
@@ -34,7 +34,7 @@ This topic provides information about how to troubleshoot issues you might face 
 
   For manual testing, we recommend that you increase the `referrerTimeout` to 10-15 seconds, so that you have sufficient time to send the referrer information before the install hit is processed.
 
-* Run all the steps in [Testing Marketing Link acquisition](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) and ensure that you execute `adb shell` command first and then the following:
+* Run all the steps in [Testing Marketing Link acquisition](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) and ensure that you execute the `adb shell` command first and then the following:
 
     ```java
     am broadcast -a com.android.vending.INSTALL_REFERRER -n nl.postnl.app/.tracking.AdobeAcquisitionLinkBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<the newly generated id at step #7>"
