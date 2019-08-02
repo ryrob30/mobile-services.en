@@ -76,7 +76,7 @@ To add these permissions, add the following lines to your `AndroidManifest.xml` 
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-## Config.setContext(this.getApplicationContext() API call {#lifecycle-start-pause-call}
+## Set the application context {#set-application-context}
 
 The following code should be added in the `onCreate` method of your main activity:
 
