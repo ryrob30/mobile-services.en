@@ -20,6 +20,11 @@ Here is the release notes, known issues, and hot fix information for Android SDK
 
 * Adobe Target: Added the `requestLocationParameters` attribute in `TargetRequestObject`, which enables the impressionId to be sent with Target requests.
 
+**June 6, 2019: Version 4.17.7**
+
+* General - Networking calls on Android API levels lower than 20 will now use TLS 1.1 or TLS 1.2.
+* Analytics - Appended push opt-in status to Lifecycle data when push notifications are enabled.
+
 **July 18, 2019: Version 4.17.8**
 
 * Adobe Target: All requests now include the client and the sessionId in the URL query parameters.
