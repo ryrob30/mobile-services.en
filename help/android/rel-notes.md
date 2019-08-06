@@ -28,7 +28,15 @@ For more information about the current and past release notes for all solutions,
 
 ## Mobile Services hot fixes {#mobile-hot-fixes}
 
-### May 24, 2019
+## August 2, 2019
+
+* Visitor ID Service: Fixed the `StrictMode` violation when calling syncIdentifiers. 
+
+  This violation was caused by reading shared preferences on the main thread.
+
+* Adobe Target: Added the `requestLocationParameters` attribute in `TargetRequestObject`, which enables the impressionId to be sent with Target requests.
+
+## May 24, 2019
 
 **Android version 4.17.6**
 
