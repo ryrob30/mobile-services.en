@@ -29,6 +29,12 @@ For more information about the current and past release notes for all solutions,
 
 ## Mobile Services hot fixes {#mobile-hot-fixes}
 
+## August 2, 2029
+
+* Reverted a change that was introduced in version 4.18.6 which, in some environments, caused a crash on devices that were running an iOS version older than 11.0.
+
+* Adobe Target: Added the `requestLocationParameters` property in `ADBTargetRequestObject`, which enables the impressionId to be sent with Target requests.
+ 
 ### May 24, 2019
 
 **iOS version 4.18.4**
