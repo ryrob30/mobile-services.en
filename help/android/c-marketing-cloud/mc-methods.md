@@ -145,18 +145,18 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
 * **getUrlVariablesAsync**
 
-   Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see [Adobe Experience Platform Identity Service methods](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mc-methods.html).
+   Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see [Adobe Experience Platform Identity Service methods](/help/android/reference/hybrid-app.md).
 
   * Here is the syntax for this method:
 
     ```java
-    public static void getUrlVariablesAsync(final VisitorCallback callback)
+    public static void getUrlVariablesAsync(final VisitorCallback callback);
     ```
 
   * Here is the code sample for this method:
 
     ```java
-    final String urlString = `"https://www.mydomain.com/index.php"`; 
+    final String urlString = https://www.mydomain.com/index.php; 
     Visitor.getUrlVariablesAsync(new Visitor.VisitorCallback(){ 
       @Override 
       public void call(String urlVariables) { 

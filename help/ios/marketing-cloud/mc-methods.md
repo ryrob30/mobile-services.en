@@ -134,24 +134,22 @@ Methods are prefixed according to the solution, and Experience Cloud ID methods 
 
 * **getUrlVariablesAsync**
 
-  Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see [Adobe Experience Platform Identity Service methods](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mc-methods.html).
+  Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see [Adobe Experience Platform Identity Service methods](/help/ios/reference/hybrid-app.md).
 
   * Here is the syntax for this method:
 
     ```objectivec
-    + (void) visitorGetUrlVariablesAsync:(nullable void (^)(NSString* __nullable urlVariables))callback
+    + (void) visitorGetUrlVariablesAsync:(nullable void (^)(NSString* __nullable urlVariables))callback;
     ```
 
   * Here is the code sample for this method:
 
     ```objectivec
-    final String urlString = `"https://www.mydomain.com/index.php"`;Visitor.getUrlVariablesAsync(new Visitor.VisitorCallback(){ 
-      @Override 
-      public void call(String urlVariables) { 
-        final String urlStringWithVisitorData = String.format("%s?%s", urlString, urlVariables); 
-        ...
-      }
-    });
+    NSString *urlString = @"https://www.mydomain.com/index.php"; 
+    [ADBMobile visitorGetUrlVariablesAsync:^(NSString * _Nullable urlVariables) { 
+      NSString *urlStringWithVisitorData = [NSString stringWithFormat:@"%@?%@", urlString, urlVariables]; 
+      // use urlStringWithVisitorData 
+    }];
     ```
 
 ## ADBVisitorID interface {#section_2FF74454D25C4ADABAC5E43CBFAAEC26}
