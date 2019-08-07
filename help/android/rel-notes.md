@@ -20,11 +20,6 @@ Here is the release notes, known issues, and hot fix information for Android SDK
 
 * Adobe Target: Added the `requestLocationParameters` attribute in `TargetRequestObject`, which enables the impressionId to be sent with Target requests.
 
-**June 6, 2019: Version 4.17.7**
-
-* General - Networking calls on Android API levels lower than 20 will now use TLS 1.1 or TLS 1.2.
-* Analytics - Appended push opt-in status to Lifecycle data when push notifications are enabled.
-
 **July 18, 2019: Version 4.17.8**
 
 * Adobe Target: All requests now include the client and the sessionId in the URL query parameters.
@@ -32,6 +27,11 @@ Here is the release notes, known issues, and hot fix information for Android SDK
 * Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values.
 
    The double-encoding was causing the return values from those APIs to be flagged by certain security reviews.
+
+**June 6, 2019: Version 4.17.7**
+
+* General - Networking calls on Android API levels lower than 20 will now use TLS 1.1 or TLS 1.2.
+* Analytics - Appended push opt-in status to Lifecycle data when push notifications are enabled.
 
 **May 24, 2019: Version 4.17.6**
 
