@@ -98,7 +98,7 @@ user-guide-title: Mobile Services User Help
     + [Audience: push message](in-app-messaging/t-create-push-message/c-audience-push-message.md)
     + [Experience: push message](in-app-messaging/t-create-push-message/c-experience-push-message.md)
     + [Schedule: push message](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
-    + [Troubleshooting push messageing](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
+    + [Troubleshooting push messaging](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
   + In-app messages {#inapp-messages}
     + [Create an in-app message](in-app-messaging/t-in-app-message/t-in-app-message.md)
     + [Audience: in-app message](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
