@@ -10,6 +10,10 @@ uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 
 The Adobe Target prefetch feature uses the iOS Mobile SDKs to fetch offer content as few times as possible by caching the server responses.
 
+>[!IMPORTANT]
+>
+>Prefetch functionality in the Mobile SDKs for iOS is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types in Adobe Target.
+
 This process reduces the load time, prevents multiple network calls, and allows Adobe Target to be notified which mbox was visited by the mobile app user. All content will be retrieved and cached during the prefetch call, and this content will be retrieved from the cache for all future calls that contain cached content for the specified mbox name.
 
 Prefetch content does not persist across launches. The prefetch content is cached as long as the application lives or until the `clearPrefetchCache()` method is called.
