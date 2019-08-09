@@ -38,7 +38,7 @@ user-guide-title: Mobile Services User Help
     + [Configure Postbacks](c-manage-app-settings/c-mob-confg-app/signals.md)
     + [Configure push messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
     + [Prerequisites to enable push messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
-    + [Configure app to use APNS or GCM](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
+    + [Configure app to use APNS or FCM](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
   + [Managing your app](c-manage-app-settings/c-mob-manage-app.md)
 + Reports {#reports-ug}
   + [Reports overview](usage/usage.md)
