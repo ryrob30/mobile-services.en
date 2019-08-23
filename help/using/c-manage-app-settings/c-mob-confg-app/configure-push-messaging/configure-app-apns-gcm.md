@@ -108,7 +108,7 @@ To configure your iOS app to use APNS:
 To get your SSL certificate and private key (APNS):
 
 1. Open **[!UICONTROL Keychain Access]**. 
-1. Click **[!UICONTROL My Certificates]** and find the appropriate **[!UICONTROL Push iOS Push Services Certificate]** for your app and environment.
+1. Click **[!UICONTROL My Certificates]** and find the appropriate **[!UICONTROL iOS Push Services Certificate]** for your app and environment.
 
    You can identify the correct certificate by matching the bundle ID and whether it is Development or Production. 
 
