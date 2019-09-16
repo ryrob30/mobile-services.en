@@ -46,5 +46,5 @@ To enable your app for Search Ad attribution:
     * "`iad-adgroup-id`" --> "`a.referrer.campaign.content`" 
     * "`iad-keyword`" --> "`a.referrer.campaign.term`"
 
-   This mapping will make the values available in our standard reporting.
+   This mapping ensures that the values are available in our standard reporting.
 
