@@ -16,6 +16,10 @@ iOS SDK 4.x for Experience Cloud Solutions lets you measure native Apple iPhone 
 >
 >The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. For more information, contact your Adobe CSM.
 
+>[!IMPORTANT]
+>
+>The Adobe Experience Platform Mobile SDK is now supports [iOS 13 and Xcode 11][https://developer.apple.com/ios/]. To ensure seamless compatibility, use the [latest versions of the Experience Platform Mobile SDK extension](https://app.gitbook.com/@aep-sdks/s/docs/resources/frequently-asked-questions/current-sdk-versions).
+
 ## New Adobe Experience Cloud SDK Release
 
 Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
