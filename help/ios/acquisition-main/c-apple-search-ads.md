@@ -39,12 +39,11 @@ To enable your app for Search Ad attribution:
 
    If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
 
-   In addition, the following values will be mapped from the "`iad`" dictionary to our typical acquisition context data fields:
+   In addition, the following values will be mapped from the `"iad"` dictionary to our typical acquisition context data fields:
 
-    * "`iad-campaign-id`" --> "`a.referrer.campaign.trackingcode`"
-    * "`iad-campaign-name`" --> "`a.referrer.campaign.name`"
-    * `"iad-adgroup-id"` --> "`a.referrer.campaign.content`"
-    * "`iad-keyword`" --> "`a.referrer.campaign.term`"
+    * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
+    * `"iad-campaign-name"` --> `"a.referrer.campaign.name"`
+    * `"iad-adgroup-id"` --> `"a.referrer.campaign.content"`
+    * `"iad-keyword"` --> `"a.referrer.campaign.term"`
 
    This mapping ensures that the values are available in our standard reporting.
-
