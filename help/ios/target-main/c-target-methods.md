@@ -16,7 +16,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
 >[!TIP]
 >
->Lifecycle Metrics are sent as parameters to each mbox load. For more information, see [Lifecycle Metrics](/help/ios/metrics.md).
+>Lifecycle Metrics are sent as parameters to each mbox load. For more information, see [Lifecycle Metrics](/help/ios/metrics.md). If you are sending Target requests inside the `didFinishLaunching` delegate method, add a `[ADBMobile trackAction:data:]` or `[ADBMobile trackState:data:]` call before the Target implementation code. This way, the Target requests will contain the complete lifecycle data.
 
 ## Class reference : ADBTargetLocationRequest
 

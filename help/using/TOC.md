@@ -38,7 +38,7 @@ user-guide-title: Mobile Services User Help
     + [Configure Postbacks](c-manage-app-settings/c-mob-confg-app/signals.md)
     + [Configure push messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
     + [Prerequisites to enable push messaging](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
-    + [Configure app to use APNS or GCM](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
+    + [Configure app to use APNS or FCM](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
   + [Managing your app](c-manage-app-settings/c-mob-manage-app.md)
 + Reports {#reports-ug}
   + [Reports overview](usage/usage.md)
@@ -98,7 +98,7 @@ user-guide-title: Mobile Services User Help
     + [Audience: push message](in-app-messaging/t-create-push-message/c-audience-push-message.md)
     + [Experience: push message](in-app-messaging/t-create-push-message/c-experience-push-message.md)
     + [Schedule: push message](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
-    + [Troubleshooting push messageing](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
+    + [Troubleshooting push messaging](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
   + In-app messages {#inapp-messages}
     + [Create an in-app message](in-app-messaging/t-in-app-message/t-in-app-message.md)
     + [Audience: in-app message](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)

@@ -21,14 +21,14 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
   Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. You must have Mobile SDK 4.12+ to use this method. For more information, see [Append Visitor ID Helper Function](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html). 
   
-  >[!iMPORTANT]
+  >[!IMPORTANT]
   >
   >This method can cause a blocking network call. Do not call this on time-sensitive threads. 
-
+  
   * Here is the syntax for this method:
 
     ```java
-    URL java.lang.String  
+    public static String appendToURL(final String URL) 
     ```
 
     A required URL string to which the visitor information is appended.  

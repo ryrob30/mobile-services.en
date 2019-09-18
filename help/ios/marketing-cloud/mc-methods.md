@@ -132,7 +132,7 @@ Methods are prefixed according to the solution, and Experience Cloud ID methods 
     NSArray *myVisitorIDs = [ADBMobile visitorGetIDs];
     ```
 
-* **getUrlVariablesAsync**
+* **visitorgetUrlVariablesAsync**
 
   Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see [Adobe Experience Platform Identity Service methods](/help/ios/reference/hybrid-app.md).
 

@@ -53,12 +53,14 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```objective-c
-    public static void SetDebugLogging(bool enabled); 
+    public static void SetDebugLogging(bool enabled);
+    ```
 
   * Here is the code sample for this method:
 
     ```objective-c
     ADBMobile.SetDebugLogging(true);
+    ```
 
 * **LifetimeValue**
 
@@ -67,13 +69,13 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```objective-c
-    public static double LifetimeValue(); 
+    public static double LifetimeValue();
     ```
 
   * Here is the code sample for this method:
 
     ```objective-c
-    var lifetimeValue = ADBMobile.LifetimeValue(); 
+    var lifetimeValue = ADBMobile.LifetimeValue();
     ```
 
 * **PrivacyStatus**
@@ -94,8 +96,8 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the code sample for this method:
 
     ```objective-c
-     var privacyStatus = ADBMobile.PrivacyStatus(); 
-     ```
+    var privacyStatus = ADBMobile.PrivacyStatus();
+    ```
 
 * **SetPrivacyStatus**
 
@@ -175,8 +177,8 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the syntax for this method:
 
     ```objective-c
-     public static void KeepLifecycleSessionAlive();
-     ```
+    public static void KeepLifecycleSessionAlive();
+    ```
 
   * Here is the code sample for this method:
 
@@ -199,8 +201,8 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the code sample for this method:
 
     ```objective-c
-     var trackingId = ADBMobile.TrackingIdentifier();
-     ```
+    var trackingId = ADBMobile.TrackingIdentifier();
+    ```
 
 * **TrackState**
 
@@ -384,7 +386,8 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
     ```objective-c
     ADBMobile.TrackTimedActionEnd  ("level2", (double  arg1,  double  arg2,  NSMutableDictionary  arg3)  =>  { 
     return  Convert.ToSByte(true); 
-    }); 
+    });
+    ```
 
 * **TrackingTimedActionExists**
 
@@ -484,9 +487,9 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the code sample for this method:
 
     ```objective-c
-     NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
-     ADBMobile.VisitorSyncIdentifiers(ids); 
-     ```
+    NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
+    ADBMobile.VisitorSyncIdentifiers(ids); 
+    ```
 
 ## Target methods {#section_C1E4121CAF9D43538511D857A1F549A7}
 
@@ -503,12 +506,12 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
   * Here is the code sample for this method:
 
     ```objective-c
-     NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
-     ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
-     ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
-     Console.WriteLine  (context); 
-     });
-     ```
+    NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
+    ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
+    ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
+    Console.WriteLine  (context); 
+    });
+    ```
 
 * **TargetCreateRequest**
 
@@ -535,6 +538,7 @@ iOS methods for Xamarin components for Experience Cloud solutions 4.x SDK.
 
     ```objective-c
     public static ADBTargetLocationRequest ADBTargetLocationRequest TargetCreateRequest (string name, string defaultContent, NSDictionary parameters);
+    ```
 
   * Here is the code sample for this method:
 
@@ -775,8 +779,8 @@ For more information, see [Video Analytics](/help/ios/getting-started/dev-qs.md)
   * Here is the code sample for this method:
 
     ```objective-c
-     ADBMobile.MediaStop (settings.Name, 3);
-     ```
+    ADBMobile.MediaStop (settings.Name, 3);
+    ```
 
 * **MediaClick**
 
