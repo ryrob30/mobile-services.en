@@ -12,6 +12,17 @@ uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 
 Here is the release notes, known issues, and hot fix information for iOS SDKs 4.x for Experience Cloud Solutions:
 
+**September 20, 2019: Version 4.18.8**
+
+* In App Messaging:
+
+  * On devices running iOS 10 or newer, the `UserNotifications` framework is now used to schedule local notifications for apps that are linked to the `UserNotifications.framework`.
+  * Fullscreen messages now use WKWebViews from `WebKit.framework`, which must be linked in your Xcode project.
+  * Fixed a bug where the Push click-through payload could not be used as traits for In-App Messaging.
+  * Fixed a crash issue.
+
+* General - Fixed a bug where SDK data was synchronized to the paired watchOS app on every Analytics call.
+
 **August 2, 2019: Version 4.18.7**
 
 * Reverted a change that was introduced in version 4.18.6 which, in some environments, caused a crash on devices that were running an iOS version older than 11.0.
