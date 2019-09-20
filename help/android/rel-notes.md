@@ -12,13 +12,9 @@ uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 
 Here is the release notes, known issues, and hot fix information for Android SDK 4.x for Experience Cloud Solutions:
 
-**August 2, 2019: Version 4.17.9**
+**September 20, 2019: Version 4.17.10**
 
-* Visitor ID Service: Fixed the `StrictMode` violation when calling syncIdentifiers. 
-
-  This violation was caused by reading shared preferences on the main thread.
-
-* Adobe Target: Added the `requestLocationParameters` attribute in `TargetRequestObject`, which enables the impressionId to be sent with Target requests.
+* General: Fixed locale string generation for some regions on Android API level 21 or newer.
 
 **July 18, 2019: Version 4.17.8**
 
