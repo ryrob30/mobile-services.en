@@ -18,7 +18,7 @@ iOS SDK 4.x for Experience Cloud Solutions lets you measure native Apple iPhone 
 
 >[!IMPORTANT]
 >
->The iOS SDK 4.x for Experience Cloud Solutions is now supports [iOS 13 and Xcode 11][https://developer.apple.com/ios/]. To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the [release notes](/help/ios/rel-notes.md).
+>The iOS SDK 4.x for Experience Cloud Solutions is now supports [iOS 13 and Xcode 11](https://developer.apple.com/ios/). To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the [release notes](/help/ios/rel-notes.md).
 
 ## New Adobe Experience Cloud SDK Release
 
