@@ -22,7 +22,7 @@ As of September 2018, we released a new, major version of the SDK. These new Ado
 * To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
-### Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
+## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 After lifecycle metrics are configured, the metrics are sent in context data parameters to Analytics, parameters to Target with each mbox call, and as a signal to Audience Manager. Analytics and Target use the same format, while Audience Manager uses a different prefix for each metric.
 
@@ -32,7 +32,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 >
 >Exceptions are provided in the description.
 
-#### Metrics
+### Metrics
 
 * **First Launches**
 
@@ -185,11 +185,11 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
   >The *Days since last upgrade*, *Launches since last upgrade*, and the *Carrier Name* dimensions are not automatically stored in an Analytics variable. You must create a processing rule to copy the values to an Analytics variable for reporting.
 
 
-### Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
+## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
 The following metrics and dimensions are captured in mobile solution variables by the listed method.
 
-#### Metrics
+### Metrics
 
 * **Action Time Total**
 
@@ -213,7 +213,7 @@ The following metrics and dimensions are captured in mobile solution variables b
   * Audience Management trait: `c_a_ltv_amount`
 
 
-#### Dimensions
+### Dimensions
 
 * **Location (down to 10 km)**
 
