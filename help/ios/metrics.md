@@ -12,19 +12,17 @@ uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 
 Here are the metrics and dimensions that can be automatically measured by the mobile library after lifecycle is implemented.
 
->[!IMPORTANT]
->
->New Adobe Experience Cloud SDK Release
->
->Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
->
->As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
->
->* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
->* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+## New Adobe Experience Platform Mobile SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
-## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
+### Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 After lifecycle metrics are configured, the metrics are sent in context data parameters to Analytics, parameters to Target with each mbox call, and as a signal to Audience Manager. Analytics and Target use the same format, while Audience Manager uses a different prefix for each metric.
 
@@ -34,7 +32,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 >
 >Exceptions are provided in the description.
 
-### Metrics
+#### Metrics
 
 * **First Launches**
 
@@ -89,7 +87,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 >
 > The *Daily Engaged Users* and *Monthly Engaged Users* metrics are not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture these metrics.
 
-### Dimensions
+#### Dimensions
 
 * **Install Date**
 
@@ -187,11 +185,11 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
   >The *Days since last upgrade*, *Launches since last upgrade*, and the *Carrier Name* dimensions are not automatically stored in an Analytics variable. You must create a processing rule to copy the values to an Analytics variable for reporting.
 
 
-## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
+### Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
 The following metrics and dimensions are captured in mobile solution variables by the listed method.
 
-### Metrics
+#### Metrics
 
 * **Action Time Total**
 
@@ -215,7 +213,7 @@ The following metrics and dimensions are captured in mobile solution variables b
   * Audience Management trait: `c_a_ltv_amount`
 
 
-### Dimensions
+#### Dimensions
 
 * **Location (down to 10 km)**
 
