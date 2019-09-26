@@ -13,15 +13,13 @@ uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 
 This plug-in allows you to send Android AppMeasurement calls from your PhoneGap project. To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
-## New Adobe Experience Cloud SDK Release
+## New Adobe Experience Platform Mobile SDK Release
 
 Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
 
->[!IMPORTANT]
->
->As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* To get started, go to Adobe Experience Platform Launch.
 * To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
