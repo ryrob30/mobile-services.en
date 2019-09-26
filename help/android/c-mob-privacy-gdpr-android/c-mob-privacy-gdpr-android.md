@@ -19,6 +19,8 @@ As of September 2018, we released a new, major version of the SDK. These new Ado
 * To get started, go to Adobe Experience Platform Launch.
 * To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
+## Overview
+
 >[!IMPORTANT]
 >
 >GDPR is supported **only** in Mobile SDK version 4.16.0 or later.
