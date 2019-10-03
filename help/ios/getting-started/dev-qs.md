@@ -76,6 +76,7 @@ To download the SDK:
         * `WebKit.framework`
         * `libsqlite3.0.tbd`
         * `AdobeMobileLibrary.a`
+        * `CoreLocation.framework` (optional, but required for geo-tracking capabilities)
 
       * **iOS Extension Target**
 
