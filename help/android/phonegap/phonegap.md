@@ -60,7 +60,7 @@ cordova plugin add adobe-mobile-services
 ## Include the AppMeasurement library
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md). 
-1. Drag the the `adobeMobileLibrary.jar` file to your `src` folder.
+1. Drag the `adobeMobileLibrary.jar` file to your `src` folder.
 
    To move this file, click **[!UICONTROL OK]**. 
 

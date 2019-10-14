@@ -27,7 +27,7 @@ Here are some issues you might face when testing Acquisition and some possible s
   </manifest>
   ```
 
-* In your configuration, if the referrer timeout is set to `referrerTimeout: 5`, this means that you need to send the install intent in a 5-second timeframe after the application was installed and launched for the first time to see the the referrer information appended to the install hit. 
+* In your configuration, if the referrer timeout is set to `referrerTimeout: 5`, this means that you need to send the install intent in a 5-second timeframe after the application was installed and launched for the first time to see the referrer information appended to the install hit. 
 
   For manual testing, increase the `referrerTimeout` to 10-15 seconds, so that there is enough time to send the referrer information before the install hit is processed.
 
