@@ -296,7 +296,7 @@ The following metrics and dimensions are captured in mobile solution variables b
   * Analytics Context Data/Target Parameters: `a.referrer.campaign.trackingcode`
   * Audience Manager Trait: `c_a_referrer_campaign_trackingcode`
 
-* ** Campaign
+* **Campaign**
 
   Name of the campaign, also stored in the  campaign variable. Populated by Mobile App Acquisition.
 

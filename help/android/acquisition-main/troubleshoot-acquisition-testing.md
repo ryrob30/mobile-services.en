@@ -30,7 +30,7 @@ This topic provides information about how to troubleshoot issues you might face 
     </manifest>
     ```
 
-* If the `referrerTimeout` is set to 5 in the ADMobileConfig.json file, you have to send the install intent in a 5-second timeframe after the application was installed and launched for the first time to see the the referrer information appended to the install hit. 
+* If the `referrerTimeout` is set to 5 in the ADMobileConfig.json file, you have to send the install intent in a 5-second timeframe after the application was installed and launched for the first time to see the referrer information appended to the install hit. 
 
   For manual testing, we recommend that you increase the `referrerTimeout` to 10-15 seconds, so that you have sufficient time to send the referrer information before the install hit is processed.
 
